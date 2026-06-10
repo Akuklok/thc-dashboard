@@ -2,7 +2,7 @@
 THC Buying Dashboard -- Streamlit Cloud version.
 Reads bundled files from the ./data folder (so it works when hosted online).
 """
-import os
+import os, glob
 import pandas as pd
 import streamlit as st
 
@@ -10,20 +10,24 @@ DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 st.set_page_config(page_title="THC Buying Intelligence", page_icon="🌿", layout="wide")
 
+def find(pattern):
+    """Newest file in data/ matching the pattern (tolerant of spaces, _, dates)."""
+    hits = glob.glob(os.path.join(DATA, pattern))
+    return max(hits, key=os.path.getmtime) if hits else None
+
 @st.cache_data
-def load(name, sheet=0):
+def load(pattern, sheet=0):
+    f = find(pattern)
     try:
-        return pd.read_excel(os.path.join(DATA, name), sheet_name=sheet)
+        return pd.read_excel(f, sheet_name=sheet) if f else None
     except Exception:
         return None
 
-db      = load("THC_Mock_Database.xlsx", "THC Mock DB")
-restock = load("THC Daily Buying Brief.xlsx", "Restock & Transfer")
-pricing = load("THC Daily Buying Brief.xlsx", "Pricing Flags")
-try:
-    brief = open(os.path.join(DATA, "THC Daily Buying Brief.txt"), encoding="utf-8").read()
-except Exception:
-    brief = "No brief file bundled."
+db      = load("*Mock*Database*.xlsx", "THC Mock DB")
+restock = load("*Buying Brief*.xlsx", "Restock & Transfer")
+pricing = load("*Buying Brief*.xlsx", "Pricing Flags")
+bt = find("*Buying Brief*.txt")
+brief = open(bt, encoding="utf-8").read() if bt else "No brief file bundled."
 
 st.title("🌿 THC Buying Intelligence")
 st.caption("Prototype dashboard — Top Ten Liquors. Data refreshed when the data files are updated.")
@@ -36,7 +40,7 @@ if restock is not None:
 if pricing is not None:
     c4.metric("Priced above market", int(pricing["Flag"].str.startswith("ABOVE").sum()))
 
-tabs = st.tabs(["📋 Daily Brief", "📦 Product Database", "🔄 Restock & Transfer", "💲 Pricing Flags"])
+tabs = st.tabs(["Daily Brief", "Product Database", "Restock & Transfer", "Pricing Flags"])
 
 with tabs[0]:
     st.subheader("Today's buying brief")
@@ -75,11 +79,11 @@ with tabs[3]:
         st.dataframe(pricing, use_container_width=True, height=460)
 
 st.divider()
-st.subheader("📊 Top 15 sellers by monthly sales")
+st.subheader("Top 15 sellers by monthly sales")
 if db is not None:
     top = db.sort_values("Avg Monthly Sales", ascending=False).head(15)
     st.bar_chart(top.set_index("Product Name")["Avg Monthly Sales"])
 
-st.subheader("🥤 Sales by category")
+st.subheader("Sales by category")
 if db is not None:
     st.bar_chart(db.groupby("Category")["Avg Monthly Sales"].sum())
