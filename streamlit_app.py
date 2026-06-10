@@ -14,7 +14,11 @@ def get_users():
     try:
         return dict(st.secrets["passwords"])
     except Exception:
-        return {"akuklok": "topten575corp"}   # built-in login (private repo)
+        return {
+            "akuklok": "topten575corp",
+            "buyer": "buyerpassword",
+            "manager": "managerpassword",
+        }   # built-in logins (private repo)
 
 def require_login():
     if st.session_state.get("auth"):
