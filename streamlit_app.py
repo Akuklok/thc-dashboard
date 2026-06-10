@@ -1,29 +1,26 @@
-import os, glob
+import os
 import pandas as pd
 import streamlit as st
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 st.set_page_config(page_title="THC Buying Intelligence", layout="wide")
 
-def matches(pattern):
-    return sorted(glob.glob(os.path.join(DATA, pattern)), key=os.path.getmtime, reverse=True)
-
 @st.cache_data
-def load(pattern, sheet):
-    for f in matches(pattern):
-        try:
-            xl = pd.ExcelFile(f)
-            if sheet in xl.sheet_names:
-                return xl.parse(sheet)
-        except Exception:
-            continue
+def load(name, sheet):
+    f = os.path.join(DATA, name)
+    try:
+        xl = pd.ExcelFile(f)
+        if sheet in xl.sheet_names:
+            return xl.parse(sheet)
+    except Exception:
+        return None
     return None
 
-db      = load("*Mock*Database*.xlsx", "THC Mock DB")
-restock = load("*Buying Brief*.xlsx", "Restock & Transfer")
-pricing = load("*Buying Brief*.xlsx", "Pricing Flags")
-bt = matches("*Buying Brief*.txt")
-brief = open(bt[0], encoding="utf-8").read() if bt else "No brief file bundled."
+db      = load("THC_Mock_Database.xlsx", "THC Mock DB")
+restock = load("THC Daily Buying Brief.xlsx", "Restock & Transfer")
+pricing = load("THC Daily Buying Brief.xlsx", "Pricing Flags")
+btf = os.path.join(DATA, "THC Daily Buying Brief.txt")
+brief = open(btf, encoding="utf-8").read() if os.path.exists(btf) else "No brief file."
 
 sales_col = None
 if db is not None:
