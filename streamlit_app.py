@@ -9,22 +9,29 @@ st.set_page_config(page_title="THC Buying Intelligence", layout="wide")
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
-# ----------------------------- password gate -----------------------------
-def get_password():
+# ----------------------------- login gate (username + password) -----------------------------
+def get_users():
     try:
-        return st.secrets["password"]
+        return dict(st.secrets["passwords"])
     except Exception:
-        return "toptenTHC"   # default until you set a secret in Streamlit Cloud
+        return {"akuklok": "topten575corp"}   # built-in login (private repo)
 
 def require_login():
     if st.session_state.get("auth"):
         return
     st.title("THC Buying Intelligence")
-    def check():
-        st.session_state["auth"] = st.session_state.get("pw") == get_password()
-    st.text_input("Password", type="password", key="pw", on_change=check)
-    if st.session_state.get("auth") is False:
-        st.error("Incorrect password.")
+    users = get_users()
+    st.text_input("Username", key="user")
+    st.text_input("Password", type="password", key="pw")
+    if st.button("Log in"):
+        u = str(st.session_state.get("user", "")).strip()
+        p = st.session_state.get("pw", "")
+        if u in users and p == users[u]:
+            st.session_state["auth"] = True
+            st.session_state["who"] = u
+            st.rerun()
+        else:
+            st.error("Incorrect username or password.")
     st.stop()
 
 require_login()
