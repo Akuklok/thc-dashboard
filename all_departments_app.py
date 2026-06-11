@@ -83,8 +83,8 @@ if st.sidebar.button("Log out"):
 
 st.title("Store Buying Intelligence")
 st.caption(f"Top Ten Liquors. Signed in as {st.session_state.get('who','')}. "
-           "Velocity, stockouts, margin and profit for every department. "
-           "Updates from the daily report; click Refresh data for the latest.")
+           "Revenue and profit are THIS MONTH SO FAR (since the 1st), per department. "
+           "Within a few percent of the POS reports. Click Refresh data for the latest.")
 
 if df is None or "Department" not in df.columns:
     st.info("Summary data not found yet (build_all_dept_summary needs to run / token not set).")
@@ -93,7 +93,7 @@ if df is None or "Department" not in df.columns:
 depts = sorted(df["Department"].dropna().astype(str).unique())
 dept = st.selectbox("Department", depts, key="dept_select")
 a = df[df["Department"].astype(str) == dept].copy()
-for c in ["Monthly Revenue $", "Monthly Profit $", "Stores Out", "Margin %", "Monthly Sales"]:
+for c in ["Revenue (MTD) $", "Profit (MTD) $", "Stores Out", "Margin %", "Units (MTD)"]:
     if c in a.columns:
         a[c] = pd.to_numeric(a[c], errors="coerce")
 
@@ -101,10 +101,10 @@ m1, m2, m3, m4 = st.columns(4)
 m1.metric("Items", f"{len(a):,}")
 if "Stores Out" in a.columns:
     m2.metric("Items short somewhere", int((a["Stores Out"] > 0).sum()))
-if "Monthly Revenue $" in a.columns:
-    m3.metric("Monthly revenue", f"${a['Monthly Revenue $'].sum():,.0f}")
-if "Monthly Profit $" in a.columns:
-    m4.metric("Monthly profit", f"${a['Monthly Profit $'].sum():,.0f}")
+if "Revenue (MTD) $" in a.columns:
+    m3.metric("Revenue (this month)", f"${a['Revenue (MTD) $'].sum():,.0f}")
+if "Profit (MTD) $" in a.columns:
+    m4.metric("Profit (this month)", f"${a['Profit (MTD) $'].sum():,.0f}")
 
 if "Category" in a.columns:
     cats = ["(all)"] + sorted(a["Category"].dropna().astype(str).unique())
@@ -117,20 +117,20 @@ if q:
 st.write(f"{len(a):,} items")
 st.dataframe(a, use_container_width=True, height=420)
 
-if "Monthly Profit $" in a.columns and len(a):
-    st.subheader("Top 15 by monthly profit ($)")
-    st.bar_chart(a.sort_values("Monthly Profit $", ascending=False).head(15)
-                  .set_index("Product")["Monthly Profit $"])
-if "Monthly Sales" in a.columns and len(a):
-    st.subheader("Top 15 sellers by monthly units")
-    st.bar_chart(a.sort_values("Monthly Sales", ascending=False).head(15)
-                  .set_index("Product")["Monthly Sales"])
-if "Monthly Sales" in a.columns and "Margin %" in a.columns and len(a):
+if "Profit (MTD) $" in a.columns and len(a):
+    st.subheader("Top 15 by profit (this month)")
+    st.bar_chart(a.sort_values("Profit (MTD) $", ascending=False).head(15)
+                  .set_index("Product")["Profit (MTD) $"])
+if "Units (MTD)" in a.columns and len(a):
+    st.subheader("Top 15 sellers by units (this month)")
+    st.bar_chart(a.sort_values("Units (MTD)", ascending=False).head(15)
+                  .set_index("Product")["Units (MTD)"])
+if "Units (MTD)" in a.columns and "Margin %" in a.columns and len(a):
     st.subheader("Volume vs margin (high-volume, low-margin sit lower-right)")
-    st.scatter_chart(a, x="Monthly Sales", y="Margin %")
+    st.scatter_chart(a, x="Units (MTD)", y="Margin %")
     lm = a[(a["Margin %"] < LOW_MARGIN_PCT) &
-           (a["Monthly Sales"] >= a["Monthly Sales"].quantile(0.70))]
+           (a["Units (MTD)"] >= a["Units (MTD)"].quantile(0.70))]
     if len(lm):
         st.subheader(f"Low-margin top sellers (margin under {LOW_MARGIN_PCT}%)")
-        st.dataframe(lm.sort_values("Monthly Sales", ascending=False),
+        st.dataframe(lm.sort_values("Units (MTD)", ascending=False),
                      use_container_width=True, height=260)
