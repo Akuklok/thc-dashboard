@@ -273,7 +273,7 @@ with tabs[1]:
     lm = low_margin_sellers(db)
     if lm is not None and len(lm):
         st.markdown(f"**Low-margin top sellers — {len(lm):,}**  "
-                    f"(high volume but margin under {LOW_MARGIN_PCT}% — re-price or renegotiate)")
+                    f"(high volume but margin under {LOW_MARGIN_PCT}% .)")
         c = [x for x in LOW_MARGIN_COLS if x in lm.columns]
         st.dataframe(lm[c], use_container_width=True, height=300)
 
