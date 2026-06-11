@@ -1,24 +1,24 @@
 import os
 import re
+import io
 import datetime
+import urllib.request
+import urllib.parse
 import pandas as pd
 import streamlit as st
 
-DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")  # bundled fallback
+REPO = "Akuklok/thc-dashboard"
+BRANCH = "main"
 st.set_page_config(page_title="THC Buying Intelligence", layout="wide")
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
-# ----------------------------- login gate (username + password) -----------------------------
 def get_users():
     try:
         return dict(st.secrets["passwords"])
     except Exception:
-        return {
-            "akuklok": "topten575corp",
-            "buyer": "buyerpassword",
-            "manager": "managerpassword",
-        }   # built-in logins (private repo)
+        return {"akuklok": "topten575corp"}
 
 def require_login():
     if st.session_state.get("auth"):
@@ -40,17 +40,48 @@ def require_login():
 
 require_login()
 
-# ----------------------------- data loading -----------------------------
-@st.cache_data(ttl=1800)
-def load(name, sheet):
-    f = os.path.join(DATA, name)
+def gh_token():
     try:
-        xl = pd.ExcelFile(f)
+        return st.secrets["github_token"]
+    except Exception:
+        return None
+
+@st.cache_data(ttl=900)
+def fetch_bytes(repo_path):
+    tok = gh_token()
+    if not tok:
+        return None
+    url = "https://api.github.com/repos/{}/contents/{}?ref={}".format(
+        REPO, urllib.parse.quote(repo_path), BRANCH)
+    req = urllib.request.Request(url, headers={
+        "Accept": "application/vnd.github.raw",
+        "Authorization": "Bearer " + tok,
+        "User-Agent": "thc-dashboard"})
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            return r.read()
+    except Exception:
+        return None
+
+@st.cache_data(ttl=900)
+def load(name, sheet):
+    data = fetch_bytes("data/" + name)
+    src = io.BytesIO(data) if data is not None else os.path.join(DATA, name)
+    try:
+        xl = pd.ExcelFile(src)
         if sheet in xl.sheet_names:
             return xl.parse(sheet)
     except Exception:
         return None
     return None
+
+@st.cache_data(ttl=900)
+def load_text(name):
+    data = fetch_bytes("data/" + name)
+    if data is not None:
+        return data.decode("utf-8", "replace")
+    f = os.path.join(DATA, name)
+    return open(f, encoding="utf-8").read() if os.path.exists(f) else "No brief file."
 
 db      = load("THC_Mock_Database.xlsx", "THC Mock DB")
 restock = load("THC Daily Buying Brief.xlsx", "Restock & Transfer")
@@ -59,8 +90,7 @@ cat_s   = load("THC History Insights.xlsx", "Category Seasonality")
 item_s  = load("THC History Insights.xlsx", "Item Seasonality")
 events  = load("THC History Insights.xlsx", "Event Lifts")
 yoy     = load("THC History Insights.xlsx", "YoY Growth")
-btf = os.path.join(DATA, "THC Daily Buying Brief.txt")
-brief = open(btf, encoding="utf-8").read() if os.path.exists(btf) else "No brief file."
+brief   = load_text("THC Daily Buying Brief.txt")
 
 sales_col = None
 if db is not None:
@@ -69,7 +99,6 @@ if db is not None:
             sales_col = c
             break
 
-# ----------------------------- brand / potency parsing -----------------------------
 TWO_WORD = {"uncle","minny","hop","sweet","earl","bent","green","old"}
 
 def brand_of(name):
@@ -103,7 +132,6 @@ allnames = name_series()
 brand_opts = sorted([b for b in allnames.map(brand_of).dropna().unique() if b])
 pot_opts = sorted([int(p) for p in allnames.map(potency_of).dropna().unique()])
 
-# ----------------------------- sidebar filters -----------------------------
 st.sidebar.header("Filters")
 f_brand = st.sidebar.multiselect("Brand", brand_opts)
 f_pot   = st.sidebar.multiselect("Potency (mg)", pot_opts)
@@ -115,6 +143,7 @@ if st.sidebar.button("Refresh data"):
 if st.sidebar.button("Log out"):
     st.session_state["auth"] = False
     st.rerun()
+
 def flt(df, namecol, disccol=None):
     df = add_dims(df, namecol)
     if df is None:
@@ -125,7 +154,6 @@ def flt(df, namecol, disccol=None):
         df = df[pd.to_numeric(df[disccol], errors="coerce").fillna(0) >= f_disc]
     return df
 
-# ----------------------------- header + metrics -----------------------------
 as_of = ""
 for line in brief.splitlines():
     if "DAILY BUYING BRIEF" in line and " - " in line:
