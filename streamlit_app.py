@@ -163,6 +163,30 @@ for line in brief.splitlines():
 st.title("THC Buying Intelligence")
 st.caption(f"Top Ten Liquors. Signed in as {st.session_state.get('who','')}. "
            f"Data as of {as_of}. Filters in the left sidebar apply to the data pages.")
+with st.expander("How to use this dashboard"):
+    st.markdown("""
+**Tabs**
+- **Buying Brief** - the morning brief plus a sortable table of top buy / transfer actions.
+- **Needs Attention** - stockouts on sellers and items priced above market, most urgent first.
+- **Product Database** - the full THC catalog; filter by category or search by name.
+- **Restock & Transfer** - every store-level action (transfer or buy), with a "Stockouts only" toggle.
+- **Pricing Flags** - items above or below the market benchmark.
+- **Seasonality** - buy-ahead items, year-over-year growth, event lifts, and category trends.
+
+**Filters (left sidebar)** apply to all data pages: Brand, Potency (mg), Min discount %.
+**Refresh data** pulls the latest immediately; **Log out** ends your session.
+
+**Data freshness** - the header shows "Data as of <date>" and updates itself within about 15 minutes
+of each morning's run. If it looks old, click **Refresh data** in the sidebar.
+
+**Key terms**
+- **Wk Velocity** - units sold per week (recent 30 days weighted over the 90-day baseline).
+- **Wk $ at Risk** - weekly sales lost if the item stays out; ranks urgency.
+- **Trend** - rising / falling / steady, from recent vs longer-run sales.
+- **Season x** - seasonal multiplier on the buy target (above 1 heading into a peak, below 1 into a trough).
+- **Gap %** - how far our price sits above or below the benchmark.
+- **Vs** - which benchmark was used: a named competitor, or "Market" (the Buncha blend).
+""")
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Products tracked", f"{len(db):,}" if db is not None else "-")
