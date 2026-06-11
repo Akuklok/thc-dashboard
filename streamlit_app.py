@@ -95,7 +95,6 @@ cat_s   = load("THC History Insights.xlsx", "Category Seasonality")
 item_s  = load("THC History Insights.xlsx", "Item Seasonality")
 events  = load("THC History Insights.xlsx", "Event Lifts")
 yoy     = load("THC History Insights.xlsx", "YoY Growth")
-alldept = load("All Dept Summary.xlsx", "Summary")
 brief   = load_text("THC Daily Buying Brief.txt")
 
 sales_col = None
@@ -227,7 +226,7 @@ if pricing is not None:
     c4.metric("Above market", int(pricing["Flag"].str.startswith("ABOVE").sum()))
 
 tabs = st.tabs(["Buying Brief", "Needs Attention", "Product Database",
-                "Restock & Transfer", "Pricing Flags", "Seasonality", "All Departments"])
+                "Restock & Transfer", "Pricing Flags", "Seasonality"])
 
 # ----------------------------- Buying Brief -----------------------------
 with tabs[0]:
@@ -353,47 +352,3 @@ with tabs[5]:
             st.subheader("Category seasonality (1.00 = average month)")
             big = cat_s[pd.to_numeric(cat_s["Avg Units/Mo"], errors="coerce") >= 100]
             st.line_chart(big.set_index("Category")[MONTHS].T)
-
-# ----------------------------- All Departments (store-wide, generic) -----------------------------
-with tabs[6]:
-    if alldept is None or "Department" not in alldept.columns:
-        st.info("All-department summary not found yet (build_all_dept_summary).")
-    else:
-        st.caption("Store-wide view from the daily file: velocity, stockouts, margin and profit "
-                   "for every department. The same engine as THC, minus the THC-only history/competitor tuning.")
-        depts = sorted(alldept["Department"].dropna().astype(str).unique())
-        dept = st.selectbox("Department", depts,
-                            index=depts.index("Spirits") if "Spirits" in depts else 0)
-        a = alldept[alldept["Department"].astype(str) == dept].copy()
-        for c in ["Monthly Revenue $", "Monthly Profit $", "Stores Out", "Margin %", "Monthly Sales"]:
-            if c in a.columns:
-                a[c] = pd.to_numeric(a[c], errors="coerce")
-
-        m1, m2, m3, m4 = st.columns(4)
-        m1.metric("Items", f"{len(a):,}")
-        if "Stores Out" in a.columns:
-            m2.metric("Items short somewhere", int((a["Stores Out"] > 0).sum()))
-        if "Monthly Revenue $" in a.columns:
-            m3.metric("Monthly revenue", f"${a['Monthly Revenue $'].sum():,.0f}")
-        if "Monthly Profit $" in a.columns:
-            m4.metric("Monthly profit", f"${a['Monthly Profit $'].sum():,.0f}")
-
-        q = st.text_input("Search product", key="alldept_q")
-        if q:
-            a = a[a["Product"].astype(str).str.contains(q, case=False, na=False)]
-        st.dataframe(a, use_container_width=True, height=380)
-
-        if "Monthly Profit $" in a.columns and len(a):
-            st.subheader("Top 15 by monthly profit ($)")
-            st.bar_chart(a.sort_values("Monthly Profit $", ascending=False).head(15)
-                          .set_index("Product")["Monthly Profit $"])
-        if "Monthly Sales" in a.columns and "Margin %" in a.columns and len(a):
-            st.subheader("Volume vs margin (high-volume, low-margin sit lower-right)")
-            st.scatter_chart(a, x="Monthly Sales", y="Margin %")
-        if {"Monthly Sales", "Margin %"}.issubset(a.columns):
-            lm = a[(a["Margin %"] < LOW_MARGIN_PCT) &
-                   (a["Monthly Sales"] >= a["Monthly Sales"].quantile(0.70))]
-            if len(lm):
-                st.subheader(f"Low-margin top sellers (margin under {LOW_MARGIN_PCT}%)")
-                st.dataframe(lm.sort_values("Monthly Sales", ascending=False),
-                             use_container_width=True, height=260)
