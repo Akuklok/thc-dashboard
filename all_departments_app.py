@@ -91,8 +91,7 @@ if df is None or "Department" not in df.columns:
     st.stop()
 
 depts = sorted(df["Department"].dropna().astype(str).unique())
-default = depts.index("Spirits") if "Spirits" in depts else 0
-dept = st.selectbox("Department", depts, index=default)
+dept = st.selectbox("Department", depts, key="dept_select")
 a = df[df["Department"].astype(str) == dept].copy()
 for c in ["Monthly Revenue $", "Monthly Profit $", "Stores Out", "Margin %", "Monthly Sales"]:
     if c in a.columns:
