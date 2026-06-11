@@ -249,7 +249,7 @@ with tabs[2]:
             d = d[d["Product Name"].astype(str).str.contains(q, case=False, na=False)]
         st.write(f"{len(d):,} items")
         st.dataframe(d, use_container_width=True, height=460)
-                if sales_col and "Product Name" in d.columns and len(d):
+        if sales_col and "Product Name" in d.columns and len(d):
             st.subheader("Top 15 sellers by monthly sales")
             top = d.sort_values(sales_col, ascending=False).head(15)
             st.bar_chart(top.set_index("Product Name")[sales_col])
