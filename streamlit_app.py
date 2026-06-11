@@ -250,12 +250,20 @@ with tabs[2]:
         st.write(f"{len(d):,} items")
         st.dataframe(d, use_container_width=True, height=460)
         if sales_col and "Product Name" in d.columns and len(d):
-            st.subheader("Top 15 sellers by monthly sales")
-            top = d.sort_values(sales_col, ascending=False).head(15)
-            st.bar_chart(top.set_index("Product Name")[sales_col])
-            if "Category" in d.columns:
-                st.subheader("Sales by category")
-                st.bar_chart(d.groupby("Category")[sales_col].sum())
+    st.subheader("Top 15 sellers by monthly sales (units)")
+    top = d.sort_values(sales_col, ascending=False).head(15)
+    st.bar_chart(top.set_index("Product Name")[sales_col])
+    if "Category" in d.columns:
+        st.subheader("Sales by category")
+        st.bar_chart(d.groupby("Category")[sales_col].sum())
+if "Monthly Profit $" in d.columns and "Product Name" in d.columns and len(d):
+            st.subheader("Top 15 by monthly profit ($)")
+            topp = d.sort_values("Monthly Profit $", ascending=False).head(15)
+            st.bar_chart(topp.set_index("Product Name")["Monthly Profit $"])
+        if "Average Monthly Sales" in d.columns and "Margin %" in d.columns and len(d):
+            st.subheader("Volume vs margin (high-volume, low-margin items sit lower-right)")
+            st.scatter_chart(d, x="Average Monthly Sales", y="Margin %",
+                             color="Category" if "Category" in d.columns else None)
 
 with tabs[3]:
     r = flt(restock, "Item", "Discount %")
