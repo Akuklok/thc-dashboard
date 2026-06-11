@@ -13,6 +13,7 @@ BRANCH = "main"
 st.set_page_config(page_title="THC Buying Intelligence", layout="wide")
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+LOW_MARGIN_PCT = 45   # flag top sellers whose margin is below this
 
 # ----------------------------- login gate (username + password) -----------------------------
 def get_users():
@@ -161,6 +162,25 @@ def flt(df, namecol, disccol=None):
         df = df[pd.to_numeric(df[disccol], errors="coerce").fillna(0) >= f_disc]
     return df
 
+LOW_MARGIN_COLS = ["Product Name", "Brand", "Potency", "Category",
+                   "Average Monthly Sales", "Margin %", "Monthly Revenue $", "Monthly Profit $"]
+
+def low_margin_sellers(source):
+    """High-volume items whose margin is under LOW_MARGIN_PCT - re-price/renegotiate
+    candidates. 'High volume' = top ~30% of sellers. Respects the sidebar filters."""
+    d = flt(source, "Product Name")
+    if d is None or "Margin %" not in d.columns or "Average Monthly Sales" not in d.columns:
+        return None
+    d = d.copy()
+    d["Margin %"] = pd.to_numeric(d["Margin %"], errors="coerce")
+    d["Average Monthly Sales"] = pd.to_numeric(d["Average Monthly Sales"], errors="coerce")
+    sells = d[d["Average Monthly Sales"] > 0]
+    if sells.empty:
+        return None
+    vol_cut = sells["Average Monthly Sales"].quantile(0.70)
+    flagged = sells[(sells["Average Monthly Sales"] >= vol_cut) & (sells["Margin %"] < LOW_MARGIN_PCT)]
+    return flagged.sort_values("Average Monthly Sales", ascending=False)
+
 # ----------------------------- header + metrics -----------------------------
 as_of = ""
 for line in brief.splitlines():
@@ -222,6 +242,12 @@ with tabs[0]:
         if r is not None:
             st.dataframe(r.sort_values("Wk $ at Risk", ascending=False)[cols],
                          use_container_width=True, height=380)
+    lm = low_margin_sellers(db)
+    if lm is not None and len(lm):
+        st.subheader("Low-margin top sellers")
+        st.caption(f"High volume but margin under {LOW_MARGIN_PCT}% — re-price or renegotiate.")
+        c = [x for x in LOW_MARGIN_COLS if x in lm.columns]
+        st.dataframe(lm[c], use_container_width=True, height=260)
     if db is not None and sales_col and "Product Name" in db.columns:
         st.subheader("Top 15 sellers by monthly sales")
         top = db.sort_values(sales_col, ascending=False).head(15)
@@ -244,6 +270,12 @@ with tabs[1]:
         cols = [c for c in ["Item","Brand","Potency","Our Price","Market Price","Vs","Gap %"]
                 if c in am.columns]
         st.dataframe(am[cols], use_container_width=True, height=300)
+    lm = low_margin_sellers(db)
+    if lm is not None and len(lm):
+        st.markdown(f"**Low-margin top sellers — {len(lm):,}**  "
+                    f"(high volume but margin under {LOW_MARGIN_PCT}% — re-price or renegotiate)")
+        c = [x for x in LOW_MARGIN_COLS if x in lm.columns]
+        st.dataframe(lm[c], use_container_width=True, height=300)
 
 # ----------------------------- Product Database -----------------------------
 with tabs[2]:
