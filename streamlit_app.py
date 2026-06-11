@@ -14,11 +14,12 @@ st.set_page_config(page_title="THC Buying Intelligence", layout="wide")
 
 MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
+# ----------------------------- login gate (username + password) -----------------------------
 def get_users():
     try:
         return dict(st.secrets["passwords"])
     except Exception:
-        return {"akuklok": "topten575corp"}
+        return {"akuklok": "topten575corp"}   # built-in login (private repo)
 
 def require_login():
     if st.session_state.get("auth"):
@@ -40,6 +41,9 @@ def require_login():
 
 require_login()
 
+# ----------------------------- data loading (live from the repo) -----------------------------
+# Read the data files straight from GitHub so the app always reflects the latest
+# daily push - no redeploy needed. Falls back to the bundled copy if the fetch fails.
 def gh_token():
     try:
         return st.secrets["github_token"]
@@ -99,6 +103,7 @@ if db is not None:
             sales_col = c
             break
 
+# ----------------------------- brand / potency parsing -----------------------------
 TWO_WORD = {"uncle","minny","hop","sweet","earl","bent","green","old"}
 
 def brand_of(name):
@@ -121,6 +126,7 @@ def add_dims(df, namecol):
     df.insert(2, "Potency", df[namecol].map(potency_of))
     return df
 
+# build filter options from everything we have
 def name_series():
     s = []
     if db is not None and "Product Name" in db.columns: s.append(db["Product Name"])
@@ -132,6 +138,7 @@ allnames = name_series()
 brand_opts = sorted([b for b in allnames.map(brand_of).dropna().unique() if b])
 pot_opts = sorted([int(p) for p in allnames.map(potency_of).dropna().unique()])
 
+# ----------------------------- sidebar filters -----------------------------
 st.sidebar.header("Filters")
 f_brand = st.sidebar.multiselect("Brand", brand_opts)
 f_pot   = st.sidebar.multiselect("Potency (mg)", pot_opts)
@@ -154,6 +161,7 @@ def flt(df, namecol, disccol=None):
         df = df[pd.to_numeric(df[disccol], errors="coerce").fillna(0) >= f_disc]
     return df
 
+# ----------------------------- header + metrics -----------------------------
 as_of = ""
 for line in brief.splitlines():
     if "DAILY BUYING BRIEF" in line and " - " in line:
@@ -163,6 +171,7 @@ for line in brief.splitlines():
 st.title("THC Buying Intelligence")
 st.caption(f"Top Ten Liquors. Signed in as {st.session_state.get('who','')}. "
            f"Data as of {as_of}. Filters in the left sidebar apply to the data pages.")
+
 with st.expander("How to use this dashboard"):
     st.markdown("""
 **Tabs**
@@ -199,6 +208,7 @@ if pricing is not None:
 tabs = st.tabs(["Buying Brief", "Needs Attention", "Product Database",
                 "Restock & Transfer", "Pricing Flags", "Seasonality"])
 
+# ----------------------------- Buying Brief -----------------------------
 with tabs[0]:
     st.subheader("Today's brief")
     st.text(brief)
@@ -217,6 +227,7 @@ with tabs[0]:
         top = db.sort_values(sales_col, ascending=False).head(15)
         st.bar_chart(top.set_index("Product Name")[sales_col])
 
+# ----------------------------- Needs Attention -----------------------------
 with tabs[1]:
     st.subheader("Needs attention")
     so = flt(restock, "Item", "Discount %")
@@ -234,6 +245,7 @@ with tabs[1]:
                 if c in am.columns]
         st.dataframe(am[cols], use_container_width=True, height=300)
 
+# ----------------------------- Product Database -----------------------------
 with tabs[2]:
     d = flt(db, "Product Name")
     if d is None:
@@ -250,13 +262,13 @@ with tabs[2]:
         st.write(f"{len(d):,} items")
         st.dataframe(d, use_container_width=True, height=460)
         if sales_col and "Product Name" in d.columns and len(d):
-    st.subheader("Top 15 sellers by monthly sales (units)")
-    top = d.sort_values(sales_col, ascending=False).head(15)
-    st.bar_chart(top.set_index("Product Name")[sales_col])
-    if "Category" in d.columns:
-        st.subheader("Sales by category")
-        st.bar_chart(d.groupby("Category")[sales_col].sum())
-if "Monthly Profit $" in d.columns and "Product Name" in d.columns and len(d):
+            st.subheader("Top 15 sellers by monthly sales (units)")
+            top = d.sort_values(sales_col, ascending=False).head(15)
+            st.bar_chart(top.set_index("Product Name")[sales_col])
+            if "Category" in d.columns:
+                st.subheader("Sales by category")
+                st.bar_chart(d.groupby("Category")[sales_col].sum())
+        if "Monthly Profit $" in d.columns and "Product Name" in d.columns and len(d):
             st.subheader("Top 15 by monthly profit ($)")
             topp = d.sort_values("Monthly Profit $", ascending=False).head(15)
             st.bar_chart(topp.set_index("Product Name")["Monthly Profit $"])
@@ -265,6 +277,7 @@ if "Monthly Profit $" in d.columns and "Product Name" in d.columns and len(d):
             st.scatter_chart(d, x="Average Monthly Sales", y="Margin %",
                              color="Category" if "Category" in d.columns else None)
 
+# ----------------------------- Restock & Transfer -----------------------------
 with tabs[3]:
     r = flt(restock, "Item", "Discount %")
     if r is None:
@@ -275,6 +288,7 @@ with tabs[3]:
         st.write(f"{len(r):,} store-needs")
         st.dataframe(r, use_container_width=True, height=460)
 
+# ----------------------------- Pricing Flags -----------------------------
 with tabs[4]:
     p = flt(pricing, "Item")
     if p is None:
@@ -282,6 +296,7 @@ with tabs[4]:
     else:
         st.dataframe(p, use_container_width=True, height=460)
 
+# ----------------------------- Seasonality -----------------------------
 with tabs[5]:
     if item_s is None and cat_s is None:
         st.info("History insights not found yet.")
