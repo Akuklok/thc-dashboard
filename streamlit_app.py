@@ -41,7 +41,7 @@ def require_login():
 require_login()
 
 # ----------------------------- data loading -----------------------------
-@st.cache_data
+@st.cache_data(ttl=1800)
 def load(name, sheet):
     f = os.path.join(DATA, name)
     try:
@@ -109,10 +109,12 @@ f_brand = st.sidebar.multiselect("Brand", brand_opts)
 f_pot   = st.sidebar.multiselect("Potency (mg)", pot_opts)
 f_disc  = st.sidebar.slider("Min discount %", 0, 50, 0,
                             help="Applies where a Discount % is available (buys).")
+if st.sidebar.button("Refresh data"):
+    st.cache_data.clear()
+    st.rerun()
 if st.sidebar.button("Log out"):
     st.session_state["auth"] = False
     st.rerun()
-
 def flt(df, namecol, disccol=None):
     df = add_dims(df, namecol)
     if df is None:
@@ -124,8 +126,15 @@ def flt(df, namecol, disccol=None):
     return df
 
 # ----------------------------- header + metrics -----------------------------
+as_of = ""
+for line in brief.splitlines():
+    if "DAILY BUYING BRIEF" in line and " - " in line:
+        as_of = line.split(" - ", 1)[1].strip()
+        break
+
 st.title("THC Buying Intelligence")
-st.caption("Top Ten Liquors. Filters in the left sidebar apply to the data pages.")
+st.caption(f"Top Ten Liquors. Signed in as {st.session_state.get('who','')}. "
+           f"Data as of {as_of}. Filters in the left sidebar apply to the data pages.")
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Products tracked", f"{len(db):,}" if db is not None else "-")
