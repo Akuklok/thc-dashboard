@@ -95,7 +95,9 @@ cat_s   = load("THC History Insights.xlsx", "Category Seasonality")
 item_s  = load("THC History Insights.xlsx", "Item Seasonality")
 events  = load("THC History Insights.xlsx", "Event Lifts")
 yoy     = load("THC History Insights.xlsx", "YoY Growth")
+rec_order = load("THC Recommended Order.xlsx", "Recommended Order")
 brief   = load_text("THC Daily Buying Brief.txt")
+rec_txt = load_text("THC Recommended Order.txt")
 
 sales_col = None
 if db is not None:
@@ -226,7 +228,7 @@ if pricing is not None:
     c4.metric("Above market", int(pricing["Flag"].str.startswith("ABOVE").sum()))
 
 tabs = st.tabs(["Buying Brief", "Needs Attention", "Product Database",
-                "Restock & Transfer", "Pricing Flags", "Seasonality"])
+                "Restock & Transfer", "Pricing Flags", "Seasonality", "Recommended Order"])
 
 # ----------------------------- Buying Brief -----------------------------
 with tabs[0]:
@@ -352,3 +354,17 @@ with tabs[5]:
             st.subheader("Category seasonality (1.00 = average month)")
             big = cat_s[pd.to_numeric(cat_s["Avg Units/Mo"], errors="coerce") >= 100]
             st.line_chart(big.set_index("Category")[MONTHS].T)
+
+# ----------------------------- Recommended Order -----------------------------
+with tabs[6]:
+    st.subheader("Recommended weekly order")
+    st.text(rec_txt)
+    if rec_order is not None:
+        o = flt(rec_order, "Item", "Discount %")
+        if o is not None and len(o):
+            if "Order Cost" in o.columns:
+                st.metric("Order total (filtered view)",
+                          f"${pd.to_numeric(o['Order Cost'], errors='coerce').sum():,.0f}")
+            st.dataframe(o, use_container_width=True, height=460)
+    else:
+        st.info("Recommended order not found yet (recommended_order needs to run).")
