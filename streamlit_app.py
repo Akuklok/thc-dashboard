@@ -212,6 +212,10 @@ with tabs[0]:
         if r is not None:
             st.dataframe(r.sort_values("Wk $ at Risk", ascending=False)[cols],
                          use_container_width=True, height=380)
+                if db is not None and sales_col and "Product Name" in db.columns:
+        st.subheader("Top 15 sellers by monthly sales")
+        top = db.sort_values(sales_col, ascending=False).head(15)
+        st.bar_chart(top.set_index("Product Name")[sales_col])
 
 with tabs[1]:
     st.subheader("Needs attention")
@@ -245,6 +249,13 @@ with tabs[2]:
             d = d[d["Product Name"].astype(str).str.contains(q, case=False, na=False)]
         st.write(f"{len(d):,} items")
         st.dataframe(d, use_container_width=True, height=460)
+                if sales_col and "Product Name" in d.columns and len(d):
+            st.subheader("Top 15 sellers by monthly sales")
+            top = d.sort_values(sales_col, ascending=False).head(15)
+            st.bar_chart(top.set_index("Product Name")[sales_col])
+            if "Category" in d.columns:
+                st.subheader("Sales by category")
+                st.bar_chart(d.groupby("Category")[sales_col].sum())
 
 with tabs[3]:
     r = flt(restock, "Item", "Discount %")
