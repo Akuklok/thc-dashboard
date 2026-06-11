@@ -212,7 +212,7 @@ with tabs[0]:
         if r is not None:
             st.dataframe(r.sort_values("Wk $ at Risk", ascending=False)[cols],
                          use_container_width=True, height=380)
-                if db is not None and sales_col and "Product Name" in db.columns:
+    if db is not None and sales_col and "Product Name" in db.columns:
         st.subheader("Top 15 sellers by monthly sales")
         top = db.sort_values(sales_col, ascending=False).head(15)
         st.bar_chart(top.set_index("Product Name")[sales_col])
