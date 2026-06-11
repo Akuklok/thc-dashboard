@@ -245,7 +245,7 @@ with tabs[0]:
     lm = low_margin_sellers(db)
     if lm is not None and len(lm):
         st.subheader("Low-margin top sellers")
-        st.caption(f"High volume but margin under {LOW_MARGIN_PCT}% — re-price or renegotiate.")
+        st.caption(f"High volume but margin under {LOW_MARGIN_PCT}% .")
         c = [x for x in LOW_MARGIN_COLS if x in lm.columns]
         st.dataframe(lm[c], use_container_width=True, height=260)
     if db is not None and sales_col and "Product Name" in db.columns:
