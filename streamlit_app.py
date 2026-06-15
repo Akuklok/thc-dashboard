@@ -395,6 +395,11 @@ with tabs[6]:
         st.info("Recommended order not found yet (recommended_order needs to run).")
     if transfers_plan is not None and len(transfers_plan):
         st.markdown("**Transfer plan** (move overstock between stores before buying)")
+        if "Priority" in transfers_plan.columns:
+            urg = int((transfers_plan["Priority"] == "STOCKOUT").sum())
+            lowp = int((transfers_plan["Priority"] == "Low <2wk").sum())
+            st.caption(f"{len(transfers_plan):,} moves, sorted urgent-first. "
+                       f"Do first: {urg} prevent a stockout + {lowp} below 2 weeks of supply.")
         tp = flt(transfers_plan, "Item")
         st.dataframe(tp if tp is not None else transfers_plan, use_container_width=True, height=360)
 
