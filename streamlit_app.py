@@ -368,6 +368,18 @@ with tabs[5]:
 # ----------------------------- Recommended Order -----------------------------
 with tabs[6]:
     st.subheader("Recommended weekly order")
+    if rec_order is not None and len(rec_order):
+        our_total = pd.to_numeric(rec_order.get("Order Cost"), errors="coerce").sum()
+        pos_total = (pd.to_numeric(rec_order.get("POS Units"), errors="coerce")
+                     * pd.to_numeric(rec_order.get("Unit Cost"), errors="coerce")).sum()
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Our recommended order", f"${our_total:,.0f}")
+        if pd.notna(pos_total) and pos_total > 0:
+            c2.metric("Cloud Retailer's suggestion", f"${pos_total:,.0f}",
+                      f"{our_total - pos_total:+,.0f} vs ours", delta_color="off")
+        c3.metric("Items", f"{len(rec_order):,}")
+        st.caption("Ours = the POS's own per-store suggestion, season-adjusted and rounded to case packs. "
+                   "Every line shows our quantity next to Cloud Retailer's so you can compare.")
     st.text(rec_txt)
     if rec_order is not None:
         o = flt(rec_order, "Item", "Discount %")
