@@ -193,6 +193,15 @@ for line in brief.splitlines():
 st.title("THC Buying Intelligence")
 st.caption(f"Top Ten Liquors. Signed in as {st.session_state.get('who','')}. "
            f"Data as of {as_of}. Filters in the left sidebar apply to the data pages.")
+try:
+    _asof = datetime.datetime.strptime(as_of, "%A %b %d, %Y").date()
+    _age = (datetime.date.today() - _asof).days
+    if _age >= 1:
+        st.warning(f"Heads up: this data is from {as_of} ({_age} day(s) old), not today. "
+                   "The morning update may not have run yet - click 'Refresh data' in the sidebar; "
+                   "if it stays old, the daily job needs attention.")
+except Exception:
+    pass
 
 with st.expander("How to use this dashboard"):
     st.markdown("""
