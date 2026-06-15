@@ -7,6 +7,7 @@ Coverable by TRANSFER between stores:      $    258,125   (59% of need)
 ------------------------------------------------------------
 NET BUY from vendors:                      $    181,057   <-- what to actually purchase
 385 items to buy | 19,141 units | rebalance 41,872 units across stores (see Transfer Plan).
+Transfer plan: 2,355 moves. DO FIRST: 125 prevent a stockout + 118 below 2 wks = 243 urgent; the other 2,112 are routine top-ups.
 Need basis: Cloud Retailer per-store reorder need (PM); donors keep 4 wks before donating; min transfer 4 units.
 Ranked by: lowest weeks-of-supply first (stockout risk).
 
