@@ -96,6 +96,7 @@ item_s  = load("THC History Insights.xlsx", "Item Seasonality")
 events  = load("THC History Insights.xlsx", "Event Lifts")
 yoy     = load("THC History Insights.xlsx", "YoY Growth")
 rec_order = load("THC Recommended Order.xlsx", "Recommended Order")
+deals   = load("THC Deal Evaluation.xlsx", "Deals")
 brief   = load_text("THC Daily Buying Brief.txt")
 rec_txt = load_text("THC Recommended Order.txt")
 
@@ -237,7 +238,8 @@ if pricing is not None:
     c4.metric("Above market", int(pricing["Flag"].str.startswith("ABOVE").sum()))
 
 tabs = st.tabs(["Buying Brief", "Needs Attention", "Product Database",
-                "Restock & Transfer", "Pricing Flags", "Seasonality", "Recommended Order"])
+                "Restock & Transfer", "Pricing Flags", "Seasonality",
+                "Recommended Order", "Deals"])
 
 # ----------------------------- Buying Brief -----------------------------
 with tabs[0]:
@@ -377,3 +379,25 @@ with tabs[6]:
             st.dataframe(o, use_container_width=True, height=460)
     else:
         st.info("Recommended order not found yet (recommended_order needs to run).")
+
+# ----------------------------- Deals -----------------------------
+with tabs[7]:
+    st.subheader("Deal evaluation")
+    st.caption("Every current distributor deal scored against velocity, stock, and season. "
+               "Verdict: BUY / WELL-STOCKED / SKIP.")
+    if deals is None:
+        st.info("No deal evaluation yet - drop a buyer sheet (THC <date>.xlsx) and it builds on the next run.")
+    else:
+        d = flt(deals, "Item")
+        if d is not None and len(d):
+            buys = d[d["Verdict"].astype(str).str.startswith("BUY")] if "Verdict" in d.columns else d
+            c1, c2 = st.columns(2)
+            c1.metric("Deals worth buying", len(buys))
+            if "Weekly $ Saved" in buys.columns:
+                c2.metric("Weekly $ saved if taken",
+                          f"${pd.to_numeric(buys['Weekly $ Saved'], errors='coerce').sum():,.0f}")
+            show_buys = st.checkbox("Worth-buying only", value=True)
+            view = buys if show_buys else d
+            if "Weekly $ Saved" in view.columns:
+                view = view.sort_values("Weekly $ Saved", ascending=False)
+            st.dataframe(view, use_container_width=True, height=460)
