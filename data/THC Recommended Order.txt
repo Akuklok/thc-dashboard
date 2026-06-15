@@ -2,29 +2,30 @@
   RECOMMENDED THC ORDER  -  Monday Jun 15, 2026
 ========================================================================
 
-This week's recommended order: $7,038 (no budget cap)
-52 items | 1,656 units
-Rules: reorder at 2 wks of supply, top up to 4 wks, season-adjusted.
+This week's recommended order: $460,049 (no budget cap)
+449 items | 62,338 units
+Basis: POS per-store suggestion (PM), season-adjusted at 50% strength, rounded to case packs.
 Ranked by: lowest weeks-of-supply first (stockout risk).
+Cloud Retailer's own suggestion (for comparison): $439,988  (+$20,061 vs ours).
 
-TOP 20:
-  $    238    85u (85.0cs)  Looner Professor Pepper 10mg THC 12oz  WOS  0.0 x0.96
-  $    230    82u (82.0cs)  Looner Wild Grape 10mg THC 12oz can    WOS  0.0 x0.96
-  $    210    75u (75.0cs)  Looner Root Beer 10mg THC Soda 12oz ca WOS  0.0 x0.96
-  $    165    72u ( 3.0cs)  Brez Single 2.5mg THC 7.5oz can        WOS  0.0 x1.24
-  $    185    66u (66.0cs)  Looner Sweet Orange Soda 10mg THC 12oz WOS  0.0 x0.96
-  $    174    62u (62.0cs)  Looner Pink Lemonade 10mg THC 12oz can WOS  0.0 x0.96
-  $    165    59u (59.0cs)  Looner Peach Lemonade 10mg THC 12oz ca WOS  0.0 x0.96
-  $    165    59u (59.0cs)  Looner Creme Soda 10mg THC 12oz can    WOS  0.0 x0.96
-  $    160    57u (57.0cs)  Looner Deww 10mg THC 12oz can          WOS  0.0 x0.96
-  $     96    43u (43.0cs)  Foundry Nation Two Scoops Root Beer 10 WOS  0.0 x0.96
-  $    132    47u (47.0cs)  Looner Classic Lemonade 10mg THC 12oz  WOS  0.0 x0.96
-  $    129    46u (46.0cs)  Looner Lemon Lime 10mg THC 12oz can    WOS  0.0 x0.96
-  $    115    43u (43.0cs)  Tempter's Strawberry 10mg THC 12oz can WOS  0.0 x0.92 disc 22.0%
-  $     79    35u (35.0cs)  IYKYK Strawberry Lemonade 10mg 12oz ca WOS  0.0 x0.96
-  $    101    38u (38.0cs)  Tempter's Citrus 10mg THC 12oz can     WOS  0.0 x0.95 disc 22.0%
-  $    137    48u ( 2.0cs)  Brez Double 5mg THC 12oz can           WOS  0.0 x1.03
-  $    101    36u (36.0cs)  Looner Half and Half 10mg THC 12oz can WOS  0.0 x0.96
-  $     58    29u (29.0cs)  Birch's Ginger Ale Seltzer 10mg THC 12 WOS  0.0 x0.96
-  $    113    12u ( 2.0cs)  CANN Hi'er Boy Lemon Lavender 10mg THC WOS  0.0 x0.96
-  $     88    33u (33.0cs)  Tempter's Blueberry 10mg THC 12oz can  WOS  0.0 x0.86 disc 22.0%
+TOP 20 (ours | POS in parentheses):
+  $    112    40u (40.0cs) [POS 41u]  Looner Professor Pepper 10mg THC 1 WOS  0.0
+  $     87    31u (31.0cs) [POS 32u]  Looner Wild Grape 10mg THC 12oz ca WOS  0.0
+  $     90    32u (32.0cs) [POS 33u]  Looner Root Beer 10mg THC Soda 12o WOS  0.0
+  $     28    10u (10.0cs) [POS 10u]  Looner Sweet Orange Soda 10mg THC  WOS  0.0
+  $     14     5u ( 5.0cs) [POS 5u]  Looner Pink Lemonade 10mg THC 12oz WOS  0.0
+  $     34    12u (12.0cs) [POS 12u]  Looner Creme Soda 10mg THC 12oz ca WOS  0.0
+  $     28    10u (10.0cs) [POS 10u]  Looner Deww 10mg THC 12oz can      WOS  0.0
+  $  1,022    84u (14.0cs) [POS 75u]  Blackstack King Size Blackberry Le WOS  0.0
+  $  1,552   138u (23.0cs) [POS 123u]  Clrty Pineapple Hibiscus 10mg THC  WOS  0.0
+  $     45    36u ( 1.0cs) [POS 30u]  Cann Roadie Grapefruit Rosemary 2m WOS  0.0
+  $    348    36u ( 6.0cs) [POS 38u]  North Canna High Tonics Blood Oran WOS  1.2
+  $    350    21u ( 7.0cs) [POS 21u]  North Canna High Tonics Variety Pa WOS  1.8
+  $    288    36u ( 6.0cs) [POS 34u]  North Canna Higher Vibes Raspberry WOS  2.0
+  $    192    24u ( 4.0cs) [POS 23u]  North Canna Higher Vibes Blueberry WOS  2.2
+  $    407    42u ( 7.0cs) [POS 44u]  North Canna High Tonics Prickly Pe WOS  2.6
+  $  2,496   312u (26.0cs) [POS 286u]  Minny Grown St. Croix Sunrise 10 P WOS  2.7 disc 20.0%
+  $    270    18u ( 6.0cs) [POS 18u]  North Canna Higher Vibes Adventure WOS  2.7
+  $    878   150u (25.0cs) [POS 124u]  Happy Duck Tangerine 10mg THC 4pk  WOS  3.0 disc 37.5%
+  $    348    36u ( 6.0cs) [POS 34u]  North Canna High Tonics Strawberry WOS  3.0
+  $  1,320   792u (33.0cs) [POS 815u]  Uncle Arnie's Tahitian Treat 10mg  WOS  3.5
