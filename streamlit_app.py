@@ -237,9 +237,8 @@ if restock is not None:
 if pricing is not None:
     c4.metric("Above market", int(pricing["Flag"].str.startswith("ABOVE").sum()))
 
-tabs = st.tabs(["Buying Brief", "Needs Attention", "Product Database",
-                "Restock & Transfer", "Pricing Flags", "Seasonality",
-                "Recommended Order", "Deals"])
+tabs = st.tabs(["Brief", "Needs Attention", "Database", "Restock",
+                "Pricing", "Seasonality", "Order", "Deals"])
 
 # ----------------------------- Buying Brief -----------------------------
 with tabs[0]:
