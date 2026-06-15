@@ -96,6 +96,7 @@ item_s  = load("THC History Insights.xlsx", "Item Seasonality")
 events  = load("THC History Insights.xlsx", "Event Lifts")
 yoy     = load("THC History Insights.xlsx", "YoY Growth")
 rec_order = load("THC Recommended Order.xlsx", "Recommended Order")
+transfers_plan = load("THC Recommended Order.xlsx", "Transfer Plan")
 deals   = load("THC Deal Evaluation.xlsx", "Deals")
 brief   = load_text("THC Daily Buying Brief.txt")
 rec_txt = load_text("THC Recommended Order.txt")
@@ -369,27 +370,33 @@ with tabs[5]:
 with tabs[6]:
     st.subheader("Recommended weekly order")
     if rec_order is not None and len(rec_order):
-        our_total = pd.to_numeric(rec_order.get("Order Cost"), errors="coerce").sum()
-        pos_total = (pd.to_numeric(rec_order.get("POS Units"), errors="coerce")
-                     * pd.to_numeric(rec_order.get("Unit Cost"), errors="coerce")).sum()
+        unit_cost = pd.to_numeric(rec_order.get("Unit Cost"), errors="coerce")
+        gross = (pd.to_numeric(rec_order.get("Gross Need"), errors="coerce") * unit_cost).sum()
+        xfer  = (pd.to_numeric(rec_order.get("Transfer"), errors="coerce") * unit_cost).sum()
+        net   = pd.to_numeric(rec_order.get("Net Buy $"), errors="coerce").sum()
         c1, c2, c3 = st.columns(3)
-        c1.metric("Our recommended order", f"${our_total:,.0f}")
-        if pd.notna(pos_total) and pos_total > 0:
-            c2.metric("Cloud Retailer's suggestion", f"${pos_total:,.0f}",
-                      f"{our_total - pos_total:+,.0f} vs ours", delta_color="off")
-        c3.metric("Items", f"{len(rec_order):,}")
-        st.caption("Ours = the POS's own per-store suggestion, season-adjusted and rounded to case packs. "
-                   "Every line shows our quantity next to Cloud Retailer's so you can compare.")
+        c1.metric("Gross need (all stores)", f"${gross:,.0f}")
+        if gross > 0:
+            c2.metric("Coverable by transfer", f"${xfer:,.0f}", f"{xfer/gross*100:.0f}% of need", delta_color="off")
+        c3.metric("NET BUY from vendors", f"${net:,.0f}")
+        st.caption("The POS's gross reorder need, minus what you can cover by moving overstock "
+                   "between stores, equals what you actually need to buy. Every line shows "
+                   "need -> transfer -> buy. See the Transfer Plan below for what moves where.")
     st.text(rec_txt)
     if rec_order is not None:
+        st.markdown("**What to buy** (ranked closest-to-stockout first)")
         o = flt(rec_order, "Item", "Discount %")
         if o is not None and len(o):
-            if "Order Cost" in o.columns:
-                st.metric("Order total (filtered view)",
-                          f"${pd.to_numeric(o['Order Cost'], errors='coerce').sum():,.0f}")
-            st.dataframe(o, use_container_width=True, height=460)
+            if "Net Buy $" in o.columns:
+                st.metric("Net buy (filtered view)",
+                          f"${pd.to_numeric(o['Net Buy $'], errors='coerce').sum():,.0f}")
+            st.dataframe(o, use_container_width=True, height=420)
     else:
         st.info("Recommended order not found yet (recommended_order needs to run).")
+    if transfers_plan is not None and len(transfers_plan):
+        st.markdown("**Transfer plan** (move overstock between stores before buying)")
+        tp = flt(transfers_plan, "Item")
+        st.dataframe(tp if tp is not None else transfers_plan, use_container_width=True, height=360)
 
 # ----------------------------- Deals -----------------------------
 with tabs[7]:
