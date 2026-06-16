@@ -1,42 +1,36 @@
-======================================================================
-  WINE  -  WEEKLY BUYING PLAN  -  Tuesday, Jun 16, 2026
-======================================================================
+==========================================================================
+  RECOMMENDED WINE ORDER          Tuesday, Jun 16, 2026
+==========================================================================
 
-THE BOTTOM LINE
-  Buy from vendors:      $    203,247   <- this is your actual order
-  Move between stores:   $    111,758   <- cover this by transferring, don't buy it
-  If you bought it all:  $    325,004
+  Gross need (all stores) .....  $    325,004
+  Coverable by transfer .......  $    111,758   (34%)
+  NET BUY from vendors ........  $    203,247   <- the order
 
-  In plain terms: stores need about $325K of product. $112K of that is
-  already sitting in other stores - just move it. You only need to BUY $203K.
+  866 items   |   20,194 units to buy   |   13,349 units to rebalance
+  Transfers: 1,218 moves  -  256 urgent (64 stockouts, 192 under 2wk), 962 routine
+  Ranked by lowest weeks-of-supply first (stockout risk).
 
-TRANSFERS  (move stock between stores before buying)
-  - 256 urgent moves: 64 store(s) are OUT, 192 have under 2 weeks left
-  - 962 routine top-ups (these can wait)
-  - The full move-by-move list is on the Transfer Plan tab.
-
-WHAT TO BUY:  866 products  -  most urgent first
-
-   #  PRODUCT                              ORDER           COST   SUPPLY LEFT
-  ------------------------------------------------------------------
-   1  Barefoot Pinot Noir 250ml            2 cases          $72   0.9 weeks
-   2  Franzia Sunset Blush 5L Box          15 cases        $709   1.0 weeks
-   3  Franzia Chablis 5L Box               2 cases         $112   1.1 weeks
-   4  La Vieille Ferme Rose 3L Box         8 cases         $896   1.2 weeks
-   5  Soon Hari Apple-Mango Soju 375ml     1 case           $93   1.2 weeks
-   6  Gallo Merlot 1.5L                    1 case           $41   1.3 weeks
-   7  Bota Box Sauvignon Blanc 3L Box      55 cases      $2,420   1.5 weeks
-   8  Bota Box Pinot Grigio 3L Box         49 cases      $3,512   1.5 weeks
-   9  Matua Valley Sauv Blanc 750ml        10 cases      $1,039   1.8 weeks
-  10  Bota Box Brightside Sauv Blanc/PG 3  5 cases         $220   1.8 weeks
-  11  Yellow Tail Super Crisp Chard 1.5L   4 cases         $186   1.8 weeks
-  12  Franzia Sauvignon Blanc 5L Box       2 cases         $112   1.8 weeks
-  13  Black Box Pinot Grigio 3L Box        60 cases      $6,605   1.9 weeks
-  14  Bota Box Chardonnay 3L Box           23 cases      $1,012   1.9 weeks
-  15  Black Box Chardonnay 3L Box          48 cases      $3,860   2.0 weeks
-  16  Gekkeikan Sake 1.5L                  2 cases         $128   2.0 weeks
-  17  Black Box Sauvignon Blanc 3L Box     42 cases      $5,664   2.1 weeks
-  18  Franzia Chardonnay 5L Box            30 cases      $1,680   2.2 weeks
-  19  Sutter Home Sauvignon Blanc 187ml    4 cases         $104   2.2 weeks
-  20  Shania White 3L Box                  2 cases          $72   2.2 weeks
-  ...and 846 more (see the full list above this summary).
+  TOP 20 TO BUY
+   #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
+  ------------------------------------------------------------------------
+   1  Barefoot Pinot Noir 250ml            12u/2cs           $72     10     0   0.9
+   2  Franzia Sunset Blush 5L Box          60u/15cs         $709     60     0   1.0
+   3  Franzia Chablis 5L Box               8u/2cs           $112      6     0   1.1
+   4  La Vieille Ferme Rose 3L Box         48u/8cs          $896     51     4   1.2
+   5  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $93     12     0   1.2
+   6  Gallo Merlot 1.5L                    6u/1cs            $41      6     0   1.3
+   7  Bota Box Sauvignon Blanc 3L Box      165u/55cs      $2,420    171     5   1.5
+   8  Bota Box Pinot Grigio 3L Box         147u/49cs      $3,512    147     0   1.5
+   9  Matua Valley Sauv Blanc 750ml        120u/10cs      $1,039    148    25   1.8
+  10  Bota Box Brightside Sauv Blanc/PG 3  15u/5cs          $220     16     0   1.8
+  11  Yellow Tail Super Crisp Chard 1.5L   24u/4cs          $186     30     8   1.8
+  12  Franzia Sauvignon Blanc 5L Box       8u/2cs           $112      7     0   1.8
+  13  Black Box Pinot Grigio 3L Box        360u/60cs      $6,605    358     0   1.9
+  14  Bota Box Chardonnay 3L Box           69u/23cs       $1,012     74     4   1.9
+  15  Black Box Chardonnay 3L Box          288u/48cs      $3,860    302    16   2.0
+  16  Gekkeikan Sake 1.5L                  12u/2cs          $128     11     0   2.0
+  17  Black Box Sauvignon Blanc 3L Box     252u/42cs      $5,664    256     4   2.1
+  18  Franzia Chardonnay 5L Box            120u/30cs      $1,680    118     0   2.2
+  19  Sutter Home Sauvignon Blanc 187ml    24u/4cs          $104     50    23   2.2
+  20  Shania White 3L Box                  6u/2cs            $72      6     0   2.2
+  ...and 846 more in the full list.
