@@ -232,31 +232,39 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         urgent = int((tplan["Priority"] == "STOCKOUT").sum())
         low = int((tplan["Priority"] == "Low <2wk").sum())
 
-    L = ["=" * 74, f"  RECOMMENDED {label.upper()} ORDER  -  {today:%A %b %d, %Y}", "=" * 74, ""]
+    K = lambda v: f"${v/1000:,.0f}K"
+    L = ["=" * 70,
+         f"  {label.upper()}  -  WEEKLY BUYING PLAN  -  {today:%A, %b %d, %Y}",
+         "=" * 70, ""]
     if stale_days >= 1:
-        L += [f"*** WARNING: data is {stale_days} day(s) old (export dated {fdate:%b %d}). "
-              "Export a fresh Full Inventory Sales Report for an accurate order. ***", ""]
-    L += [f"Gross need (every store's reorder need):   ${gross_total:>11,.0f}",
-          f"Coverable by TRANSFER between stores:      ${xfer_total:>11,.0f}   ({xfer_total/gross_total*100:.0f}% of need)" if gross_total else "",
-          "-" * 60,
-          f"NET BUY from vendors:                      ${net_total:>11,.0f}   <-- what to actually purchase"]
-    capn = f"  (budget ${WEEKLY_BUDGET:,.0f})" if WEEKLY_BUDGET else ""
-    L += [f"{len(within):,} items to buy{capn} | {int(within['Buy Units'].sum()):,} units | "
-          f"rebalance {int(g['Transfer'].sum()):,} units across stores (see Transfer Plan).",
-          f"Transfer plan: {len(tplan):,} moves. DO FIRST: {urgent} prevent a stockout + "
-          f"{low} below 2 wks = {urgent + low} urgent; the other {max(len(tplan) - urgent - low, 0):,} "
-          f"are routine top-ups.",
-          f"Need basis: {need_basis}; donors keep {DONOR_KEEP_WEEKS} wks before donating; "
-          f"min transfer {MIN_TRANSFER} units.",
-          f"Ranked by: {basis}."]
-    if len(deferred):
-        L += [f"Deferred over budget: {len(deferred)} items (${deferred['Net Buy $'].sum():,.0f})"]
-    L += ["", f"TOP {TOP_TEXT} TO BUY  (net buy | gross need | transfer):"]
-    for _, r in out.head(TOP_TEXT).iterrows():
-        ctx = f" disc {r['Discount %']}%" if pd.notna(r.get("Discount %")) else ""
-        L.append(f"  ${r['Net Buy $']:>7,.0f}  buy {int(r['Buy Units']):>4}u ({int(r['Buy Cases']):>3}cs)  "
-                 f"[need {int(r['Gross Need']):>4}, xfer {int(r['Transfer']):>4}]  "
-                 f"{str(r['Item'])[:30]:30} WOS {r['WOS']:>4}{ctx}")
+        L += [f"Heads up: this data is {stale_days} day(s) old (from {fdate:%b %d}); "
+              "a fresh report updates it automatically.", ""]
+    L += ["THE BOTTOM LINE",
+          f"  Buy from vendors:      ${net_total:>11,.0f}   <- this is your actual order",
+          f"  Move between stores:   ${xfer_total:>11,.0f}   <- cover this by transferring, don't buy it",
+          f"  If you bought it all:  ${gross_total:>11,.0f}", ""]
+    if gross_total:
+        L += [f"  In plain terms: stores need about {K(gross_total)} of product. {K(xfer_total)} of that is",
+              f"  already sitting in other stores - just move it. You only need to BUY {K(net_total)}.", ""]
+    L += ["TRANSFERS  (move stock between stores before buying)",
+          f"  - {urgent + low} urgent moves: {urgent} store(s) are OUT, {low} have under 2 weeks left",
+          f"  - {max(len(tplan) - urgent - low, 0):,} routine top-ups (these can wait)",
+          "  - The full move-by-move list is on the Transfer Plan tab.", ""]
+    cap = f"  (capped at ${WEEKLY_BUDGET:,.0f})" if WEEKLY_BUDGET else ""
+    L += [f"WHAT TO BUY:  {len(within):,} products{cap}  -  most urgent first", ""]
+    L += [f"  {'#':>2}  {'PRODUCT':<36} {'ORDER':<11} {'COST':>8}   SUPPLY LEFT",
+          "  " + "-" * 66]
+    for i, (_, r) in enumerate(out.head(TOP_TEXT).iterrows(), 1):
+        name = str(r["Item"])[:35]
+        cases = int(r["Buy Cases"]) if pd.notna(r["Buy Cases"]) else 0
+        order = f"{cases} case" + ("s" if cases != 1 else "")
+        cost = f"${r['Net Buy $']:,.0f}"
+        wos = r["WOS"]
+        supply = "OUT NOW" if (pd.isna(wos) or wos <= 0) else f"{wos:.1f} weeks"
+        deal = f"   {r['Discount %']:.0f}% off" if pd.notna(r.get("Discount %")) else ""
+        L.append(f"  {i:>2}  {name:<36} {order:<11} {cost:>8}   {supply}{deal}")
+    if len(out) > TOP_TEXT:
+        L.append(f"  ...and {len(out) - TOP_TEXT:,} more (see the full list above this summary).")
     text = "\n".join([x for x in L if x is not None])
 
     sheets = {"Recommended Order": out}
