@@ -290,6 +290,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")   # allow the Chrome/Excel clients
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Cache-Control", "no-cache")          # always revalidate; updates show fast
         self.end_headers()
         self.wfile.write(data)
 
