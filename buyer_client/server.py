@@ -109,6 +109,9 @@ def load_inventory(dept):
 
 def build_context(dept, focus=""):
     summary, buys, trans = read_order(dept)
+    inv = load_inventory(dept)
+    cost_map = (dict(zip(inv["Item"].astype(str), inv["Cost"]))
+                if inv is not None and "Item" in inv.columns and "Cost" in inv.columns else {})
     parts = [f"=== {dept} RECOMMENDED ORDER (summary) ===", summary[:3000]]
     if buys is not None and len(buys):
         parts += [f"\n=== {dept} ITEMS TO BUY (chain-wide order) ===", buys.head(45).to_csv(index=False)]
@@ -126,13 +129,14 @@ def build_context(dept, focus=""):
         named = [s for s in trans["To Store"].dropna().astype(str).unique()
                  if s.lower() in (focus or "").lower()]
         for s in named[:2]:
-            sub = trans[trans["To Store"].astype(str) == s]
-            parts += [f"\n=== {s.upper()}: DETAILED NEEDS (transfer in, from where, then-buy) ===",
+            sub = trans[trans["To Store"].astype(str) == s].copy()
+            if cost_map:
+                sub["Unit Cost"] = sub["Item"].astype(str).map(cost_map)
+            parts += [f"\n=== {s.upper()}: DETAILED NEEDS (transfer in, then-buy, with unit cost) ===",
                       sub.head(60).to_csv(index=False)]
         if not named:
             parts += [f"\n=== {dept} TOP TRANSFERS (all stores) ===", trans.head(25).to_csv(index=False)]
     # full inventory snapshot - pull rows relevant to the question + key rankings
-    inv = load_inventory(dept)
     if inv is not None and len(inv):
         words = [w for w in re.findall(r"[a-z0-9]{3,}", (focus or "").lower()) if w not in STOPWORDS]
         if words:
@@ -213,7 +217,10 @@ def _key(env_name, keyfile):
 
 def ai_reply(dept, messages):
     """Provider-pluggable: Gemini if a Gemini key is present, else Claude."""
-    focus = next((m.get("content", "") for m in reversed(messages) if m.get("role") == "user"), "")
+    # focus on the recent conversation (not just the last line) so follow-ups like
+    # "how much would that cost" keep the item/store from earlier turns in context.
+    user_msgs = [m.get("content", "") for m in messages if m.get("role") == "user"]
+    focus = " ".join(user_msgs[-4:])
     system = _build_system(dept, focus)
     gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
     if gk:
