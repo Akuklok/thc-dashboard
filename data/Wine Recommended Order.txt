@@ -1,0 +1,34 @@
+==========================================================================
+  RECOMMENDED WINE ORDER  -  Tuesday Jun 16, 2026
+==========================================================================
+
+Gross need (every store's reorder need):   $    325,004
+Coverable by TRANSFER between stores:      $    111,758   (34% of need)
+------------------------------------------------------------
+NET BUY from vendors:                      $    203,247   <-- what to actually purchase
+866 items to buy | 20,194 units | rebalance 13,349 units across stores (see Transfer Plan).
+Transfer plan: 1,218 moves. DO FIRST: 64 prevent a stockout + 192 below 2 wks = 256 urgent; the other 962 are routine top-ups.
+Need basis: Cloud Retailer per-store reorder need (PM); donors keep 4 wks before donating; min transfer 4 units.
+Ranked by: lowest weeks-of-supply first (stockout risk).
+
+TOP 20 TO BUY  (net buy | gross need | transfer):
+  $     72  buy   12u (  2cs)  [need   10, xfer    0]  Barefoot Pinot Noir 250ml      WOS  0.9
+  $    709  buy   60u ( 15cs)  [need   60, xfer    0]  Franzia Sunset Blush 5L Box    WOS  1.0
+  $    112  buy    8u (  2cs)  [need    6, xfer    0]  Franzia Chablis 5L Box         WOS  1.1
+  $    896  buy   48u (  8cs)  [need   51, xfer    4]  La Vieille Ferme Rose 3L Box   WOS  1.2
+  $     93  buy   20u (  1cs)  [need   12, xfer    0]  Soon Hari Apple-Mango Soju 375 WOS  1.2
+  $     41  buy    6u (  1cs)  [need    6, xfer    0]  Gallo Merlot 1.5L              WOS  1.3
+  $  2,420  buy  165u ( 55cs)  [need  171, xfer    5]  Bota Box Sauvignon Blanc 3L Bo WOS  1.5
+  $  3,512  buy  147u ( 49cs)  [need  147, xfer    0]  Bota Box Pinot Grigio 3L Box   WOS  1.5
+  $  1,039  buy  120u ( 10cs)  [need  148, xfer   25]  Matua Valley Sauv Blanc 750ml  WOS  1.8
+  $    220  buy   15u (  5cs)  [need   16, xfer    0]  Bota Box Brightside Sauv Blanc WOS  1.8
+  $    186  buy   24u (  4cs)  [need   30, xfer    8]  Yellow Tail Super Crisp Chard  WOS  1.8
+  $    112  buy    8u (  2cs)  [need    7, xfer    0]  Franzia Sauvignon Blanc 5L Box WOS  1.8
+  $  6,605  buy  360u ( 60cs)  [need  358, xfer    0]  Black Box Pinot Grigio 3L Box  WOS  1.9
+  $  1,012  buy   69u ( 23cs)  [need   74, xfer    4]  Bota Box Chardonnay 3L Box     WOS  1.9
+  $  3,860  buy  288u ( 48cs)  [need  302, xfer   16]  Black Box Chardonnay 3L Box    WOS  2.0
+  $    128  buy   12u (  2cs)  [need   11, xfer    0]  Gekkeikan Sake 1.5L            WOS  2.0
+  $  5,664  buy  252u ( 42cs)  [need  256, xfer    4]  Black Box Sauvignon Blanc 3L B WOS  2.1
+  $  1,680  buy  120u ( 30cs)  [need  118, xfer    0]  Franzia Chardonnay 5L Box      WOS  2.2
+  $    104  buy   24u (  4cs)  [need   50, xfer   23]  Sutter Home Sauvignon Blanc 18 WOS  2.2
+  $     72  buy    6u (  2cs)  [need    6, xfer    0]  Shania White 3L Box            WOS  2.2
