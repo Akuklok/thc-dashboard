@@ -255,6 +255,15 @@ def today_payload(dept):
             "transfer": float((pd.to_numeric(buys.get("Transfer"), errors="coerce") * unit_cost).sum()),
             "items": int(len(buys)),
         }
+    if buys is not None and len(buys):
+        headline["units"] = int(pd.to_numeric(buys.get("Buy Units"), errors="coerce").fillna(0).sum())
+    if trans is not None and len(trans):
+        headline["transfers"] = int(len(trans))
+        headline["rebalance_units"] = int(pd.to_numeric(trans.get("Transfer In"), errors="coerce").fillna(0).sum())
+        pr = trans.get("Priority")
+        if pr is not None:
+            so = int((pr == "STOCKOUT").sum()); lo = int((pr == "Low <2wk").sum())
+            headline["stockouts"] = so; headline["low"] = lo; headline["routine"] = int(len(trans) - so - lo)
     return {"summary": summary, "headline": headline,
             "buy_cols": buy_cols, "buy_rows": buy_rows,
             "tr_cols": tr_cols, "tr_rows": tr_rows}
