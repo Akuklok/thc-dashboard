@@ -1,0 +1,36 @@
+name: Daily buying build
+
+# Runs the whole backend in the cloud - no PC needed.
+on:
+  schedule:
+    - cron: "0 20 * * *"      # 20:00 UTC daily (~2-3pm Central, after the report drops). Adjust as needed.
+  workflow_dispatch: {}        # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write              # so it can commit the refreshed data/ files
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas numpy openpyxl paramiko
+      - name: Build orders from the SFTP report
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_PASS: ${{ secrets.SFTP_PASS }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+          SFTP_PATH: ${{ secrets.SFTP_PATH }}
+        run: python engine/cloud_build.py
+      - name: Publish refreshed data
+        run: |
+          git config user.name "buying-bot"
+          git config user.email "bot@toptenliquors.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "daily order build $(date -u +%F)"
+          git push
