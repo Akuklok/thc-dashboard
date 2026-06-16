@@ -12,7 +12,7 @@ their department's "what to do today" and answers "ask anything" with Claude.
 Run locally:  python server.py   (then open http://localhost:8520)
 Deploy later: same code goes on a small cloud host so all 3 buyers reach it from any computer.
 """
-import os, io, glob, json, base64, urllib.request, urllib.parse
+import os, io, glob, json, base64, time, urllib.request, urllib.parse, urllib.error
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import pandas as pd
@@ -114,12 +114,21 @@ def gemini_chat(key, system, messages):
             "contents": contents,
             "generationConfig": {"maxOutputTokens": 900, "temperature": 0.3}}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={key}"
-    req = urllib.request.Request(url, data=json.dumps(body).encode(),
-                                 headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        out = json.load(r)
-    cand = (out.get("candidates") or [{}])[0]
-    return "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", [])) or "(no response)"
+    last = None
+    for attempt in range(3):   # free tier occasionally returns 429/503 (busy) - retry briefly
+        try:
+            req = urllib.request.Request(url, data=json.dumps(body).encode(),
+                                         headers={"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                out = json.load(r)
+            cand = (out.get("candidates") or [{}])[0]
+            return "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", [])) or "(no response)"
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (429, 503) and attempt < 2:
+                time.sleep(2 * (attempt + 1)); continue
+            raise
+    raise last
 
 
 def claude_chat(key, system, messages):
