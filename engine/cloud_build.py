@@ -16,10 +16,16 @@ WORK = os.path.join(ROOT, "work")
 DATA = os.path.join(ROOT, "data")
 
 
+def _env(name, default=""):
+    return (os.environ.get(name) or default).strip()
+
 def sftp_download():
-    host = os.environ["SFTP_HOST"]; port = int(os.environ.get("SFTP_PORT", "22"))
-    user = os.environ["SFTP_USER"]; pw = os.environ["SFTP_PASS"]
-    path = os.environ.get("SFTP_PATH", "/")
+    host = _env("SFTP_HOST"); user = _env("SFTP_USER"); pw = _env("SFTP_PASS")
+    port = int(_env("SFTP_PORT", "22"))                 # optional - defaults to 22
+    path = _env("SFTP_PATH", "/Inventory-Sales/")       # optional - defaults to the known folder
+    missing = [n for n, v in [("SFTP_HOST", host), ("SFTP_USER", user), ("SFTP_PASS", pw)] if not v]
+    if missing:
+        raise SystemExit("Missing required secret(s): " + ", ".join(missing))
     t = paramiko.Transport((host, port)); t.connect(username=user, password=pw)
     sftp = paramiko.SFTPClient.from_transport(t)
     files = [f for f in sftp.listdir_attr(path)
