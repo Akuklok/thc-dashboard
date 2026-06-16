@@ -1,34 +1,42 @@
-==========================================================================
-  RECOMMENDED BEER ORDER  -  Tuesday Jun 16, 2026
-==========================================================================
+======================================================================
+  BEER  -  WEEKLY BUYING PLAN  -  Tuesday, Jun 16, 2026
+======================================================================
 
-Gross need (every store's reorder need):   $     23,230
-Coverable by TRANSFER between stores:      $      8,024   (35% of need)
-------------------------------------------------------------
-NET BUY from vendors:                      $     15,034   <-- what to actually purchase
-69 items to buy | 1,391 units | rebalance 646 units across stores (see Transfer Plan).
-Transfer plan: 87 moves. DO FIRST: 25 prevent a stockout + 16 below 2 wks = 41 urgent; the other 46 are routine top-ups.
-Need basis: Cloud Retailer per-store reorder need (PM); donors keep 4 wks before donating; min transfer 4 units.
-Ranked by: lowest weeks-of-supply first (stockout risk).
+THE BOTTOM LINE
+  Buy from vendors:      $     15,034   <- this is your actual order
+  Move between stores:   $      8,024   <- cover this by transferring, don't buy it
+  If you bought it all:  $     23,230
 
-TOP 20 TO BUY  (net buy | gross need | transfer):
-  $    104  buy   12u (  2cs)  [need   12, xfer    0]  High Noon Passionfruit 4pk 12o WOS -1.2
-  $     49  buy    6u (  1cs)  [need    4, xfer    0]  Bacardi Mojito 4pk 12oz can    WOS  0.3
-  $     77  buy   12u (  2cs)  [need    9, xfer    0]  Absolut Vodkarita 4pk 12oz can WOS  0.3
-  $    195  buy   24u (  4cs)  [need   29, xfer    6]  Sunny D Vodka Seltzer 4pk 12oz WOS  1.0
-  $  1,976  buy  114u ( 38cs)  [need  120, xfer    6]  High Noon Tropical Variety Pac WOS  1.3
-  $    161  buy   12u (  4cs)  [need   11, xfer    0]  Two Chicks Vodka Variety Pack  WOS  1.3
-  $  1,505  buy   87u ( 29cs)  [need  133, xfer   45]  High Noon Variety Pack 8pk 12o WOS  1.5
-  $    414  buy   48u (  8cs)  [need   60, xfer   10]  High Noon Grapefruit 4pk 12oz  WOS  1.5
-  $    164  buy   16u (  4cs)  [need   19, xfer    4]  The Finnish Long Drink Traditi WOS  1.6
-  $    124  buy   12u (  2cs)  [need   12, xfer    0]  Saint Spritz Hugo 4pk 355ml    WOS  1.6
-  $    325  buy   21u (  7cs)  [need   21, xfer    0]  Sunny D Variety Pack 8pk 12oz  WOS  1.7
-  $  1,302  buy  150u ( 25cs)  [need  156, xfer    6]  High Noon Pineapple 4pk 12oz c WOS  1.8
-  $    164  buy   16u (  4cs)  [need   14, xfer    0]  The Finnish Long Drink Cranber WOS  1.9
-  $     49  buy    6u (  1cs)  [need    5, xfer    0]  Bacardi Rum Punch 4pk 12oz can WOS  1.9
-  $    223  buy   12u (  4cs)  [need   74, xfer   62]  High Noon Tequila Variety Pack WOS  2.1
-  $    212  buy   24u (  4cs)  [need   31, xfer    4]  High Noon Watermelon 4pk 12oz  WOS  2.1
-  $    105  buy    9u (  3cs)  [need    8, xfer    0]  Two Chicks Craft Cocktail Vari WOS  2.5
-  $    156  buy   18u (  3cs)  [need   24, xfer    4]  High Noon Lemon 4pk 12oz can   WOS  2.5
-  $     86  buy   12u (  2cs)  [need   11, xfer    0]  Malibu Pina Colada 4pk 12oz ca WOS  2.5
-  $    371  buy   48u (  8cs)  [need   54, xfer    8]  Two Chicks Pear & Elderflower  WOS  2.6
+  In plain terms: stores need about $23K of product. $8K of that is
+  already sitting in other stores - just move it. You only need to BUY $15K.
+
+TRANSFERS  (move stock between stores before buying)
+  - 41 urgent moves: 25 store(s) are OUT, 16 have under 2 weeks left
+  - 46 routine top-ups (these can wait)
+  - The full move-by-move list is on the Transfer Plan tab.
+
+WHAT TO BUY:  69 products  -  most urgent first
+
+   #  PRODUCT                              ORDER           COST   SUPPLY LEFT
+  ------------------------------------------------------------------
+   1  High Noon Passionfruit 4pk 12oz can  2 cases         $104   OUT NOW
+   2  Bacardi Mojito 4pk 12oz can          1 case           $49   0.3 weeks
+   3  Absolut Vodkarita 4pk 12oz can       2 cases          $77   0.3 weeks
+   4  Sunny D Vodka Seltzer 4pk 12oz can   4 cases         $195   1.0 weeks
+   5  High Noon Tropical Variety Pack 8pk  38 cases      $1,976   1.3 weeks
+   6  Two Chicks Vodka Variety Pack 8pk 1  4 cases         $161   1.3 weeks
+   7  High Noon Variety Pack 8pk 12oz can  29 cases      $1,505   1.5 weeks
+   8  High Noon Grapefruit 4pk 12oz can    8 cases         $414   1.5 weeks
+   9  The Finnish Long Drink Traditional   4 cases         $164   1.6 weeks
+  10  Saint Spritz Hugo 4pk 355ml          2 cases         $124   1.6 weeks
+  11  Sunny D Variety Pack 8pk 12oz can    7 cases         $325   1.7 weeks
+  12  High Noon Pineapple 4pk 12oz can     25 cases      $1,302   1.8 weeks
+  13  The Finnish Long Drink Cranberry 6p  4 cases         $164   1.9 weeks
+  14  Bacardi Rum Punch 4pk 12oz can       1 case           $49   1.9 weeks
+  15  High Noon Tequila Variety Pack 8pk   4 cases         $223   2.1 weeks
+  16  High Noon Watermelon 4pk 12oz can    4 cases         $212   2.1 weeks
+  17  Two Chicks Craft Cocktail Variety P  3 cases         $105   2.5 weeks
+  18  High Noon Lemon 4pk 12oz can         3 cases         $156   2.5 weeks
+  19  Malibu Pina Colada 4pk 12oz can      2 cases          $86   2.5 weeks
+  20  Two Chicks Pear & Elderflower 4pk 1  8 cases         $371   2.6 weeks
+  ...and 49 more (see the full list above this summary).
