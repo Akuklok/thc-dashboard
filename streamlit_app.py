@@ -16,25 +16,39 @@ MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec
 LOW_MARGIN_PCT = 45   # flag top sellers whose margin is below this
 
 # ----------------------------- login gate (username + password) -----------------------------
+ALL_DEPTS = ["THC", "Wine", "Spirits", "Beer", "Other"]
+# Which departments each buyer sees. Add/rename users here (and in Streamlit secrets).
+USER_DEPTS = {
+    "akuklok":     ALL_DEPTS,                 # admin / builder
+    "jhalper":     ALL_DEPTS,                 # CEO
+    "jfoster":     ALL_DEPTS,
+    "wine":        ["Wine"],
+    "thc":         ["THC", "Other", "Beer"],  # THC buyer who also helps with beer
+    "beerspirits": ["Beer", "Spirits"],
+}
+
 def get_users():
     try:
         return dict(st.secrets["passwords"])
     except Exception:
-        return {"akuklok": "topten575corp"}   # built-in login (private repo)
+        # fallback for the private repo - CHANGE these via Streamlit secrets
+        return {"akuklok": "topten575corp", "wine": "wine2026",
+                "thc": "thc2026", "beerspirits": "bs2026"}
 
 def require_login():
     if st.session_state.get("auth"):
         return
-    st.title("THC Buying Intelligence")
+    st.title("Buying Intelligence")
     users = get_users()
     st.text_input("Username", key="user")
     st.text_input("Password", type="password", key="pw")
     if st.button("Log in"):
-        u = str(st.session_state.get("user", "")).strip()
+        u = str(st.session_state.get("user", "")).strip().lower()
         p = st.session_state.get("pw", "")
         if u in users and p == users[u]:
             st.session_state["auth"] = True
             st.session_state["who"] = u
+            st.session_state["allowed_depts"] = USER_DEPTS.get(u, ALL_DEPTS)
             st.rerun()
         else:
             st.error("Incorrect username or password.")
@@ -369,6 +383,13 @@ with tabs[5]:
 # ----------------------------- Recommended Order -----------------------------
 with tabs[6]:
     st.subheader("Recommended weekly order")
+    DEPTS = ["THC", "Wine", "Spirits", "Beer", "Other"]
+    allowed = st.session_state.get("allowed_depts", DEPTS)
+    pick_depts = [d for d in DEPTS if d in allowed] or DEPTS
+    dept = st.selectbox("Department", pick_depts, key="ord_dept")
+    rec_order = load(f"{dept} Recommended Order.xlsx", "Recommended Order")
+    transfers_plan = load(f"{dept} Recommended Order.xlsx", "Transfer Plan")
+    rec_txt = load_text(f"{dept} Recommended Order.txt")
     if rec_order is not None and len(rec_order):
         unit_cost = pd.to_numeric(rec_order.get("Unit Cost"), errors="coerce")
         gross = (pd.to_numeric(rec_order.get("Gross Need"), errors="coerce") * unit_cost).sum()
