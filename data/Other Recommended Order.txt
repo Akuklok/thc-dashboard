@@ -1,42 +1,36 @@
-======================================================================
-  OTHER  -  WEEKLY BUYING PLAN  -  Tuesday, Jun 16, 2026
-======================================================================
+==========================================================================
+  RECOMMENDED OTHER ORDER          Tuesday, Jun 16, 2026
+==========================================================================
 
-THE BOTTOM LINE
-  Buy from vendors:      $     22,259   <- this is your actual order
-  Move between stores:   $     22,755   <- cover this by transferring, don't buy it
-  If you bought it all:  $     46,516
+  Gross need (all stores) .....  $     46,516
+  Coverable by transfer .......  $     22,755   (49%)
+  NET BUY from vendors ........  $     22,259   <- the order
 
-  In plain terms: stores need about $47K of product. $23K of that is
-  already sitting in other stores - just move it. You only need to BUY $22K.
+  268 items   |   5,636 units to buy   |   8,795 units to rebalance
+  Transfers: 798 moves  -  163 urgent (89 stockouts, 74 under 2wk), 635 routine
+  Ranked by lowest weeks-of-supply first (stockout risk).
 
-TRANSFERS  (move stock between stores before buying)
-  - 163 urgent moves: 89 store(s) are OUT, 74 have under 2 weeks left
-  - 635 routine top-ups (these can wait)
-  - The full move-by-move list is on the Transfer Plan tab.
-
-WHAT TO BUY:  268 products  -  most urgent first
-
-   #  PRODUCT                              ORDER           COST   SUPPLY LEFT
-  ------------------------------------------------------------------
-   1  MTN Dew Baja Blast 2L                1 case           $14   OUT NOW
-   2  Gosling's Diet Ginger Beer 6pk 12oz  6 cases         $115   1.9 weeks
-   3  Gosling's Ginger Beer 6pk 12oz can   5 cases          $87   2.0 weeks
-   4  Retro: 24 oz Cocktail Shaker         1 case           $70   2.1 weeks
-   5  Polar Club Soda Liter                4 cases          $41   2.3 weeks
-   6  Sprite Diet Zero 2L                  20 cases        $513   2.4 weeks
-   7  Minute Maid Lemonade 2L              16 cases        $410   3.0 weeks
-   8  Ocean Spray Cranberry Juice          1 case           $35   3.1 weeks
-   9  Roses Grenadine 12oz                 3 cases          $67   3.3 weeks
-  10  ReaLime 5oz                          2 cases          $47   3.4 weeks
-  11  Master of Mixes Margarita 1.75L      1 case           $38   3.4 weeks
-  12  Barritt's Ginger Beer 6pk 12oz can   2 cases          $48   3.6 weeks
-  13  Coke Diet 2L                         16 cases        $412   3.8 weeks
-  14  Tres Agaves Margarita Mix Liter      1 case           $70   3.9 weeks
-  15  Sprite 2L                            13 cases        $334   4.1 weeks
-  16  ReaLime Lime Juice 8oz               1 case           $20   4.1 weeks
-  17  Master of Mixes Simple Syrup 375ml   4 cases         $128   4.2 weeks
-  18  Cock n Bull Ginger Beer 4pk 12oz bt  4 cases         $100   4.2 weeks
-  19  Gatorlyte Lemon Lime 20oz            4 cases          $88   4.2 weeks
-  20  Gosling's Ginger Beer 12pk           14 cases        $336   4.4 weeks
-  ...and 248 more (see the full list above this summary).
+  TOP 20 TO BUY
+   #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
+  ------------------------------------------------------------------------
+   1  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
+   2  Gosling's Diet Ginger Beer 6pk 12oz  24u/6cs          $115     22     0   1.9
+   3  Gosling's Ginger Beer 6pk 12oz can   20u/5cs           $87     27     8   2.0
+   4  Retro: 24 oz Cocktail Shaker         6u/1cs            $70      6     0   2.1
+   5  Polar Club Soda Liter                48u/4cs           $41    111    57   2.3
+   6  Sprite Diet Zero 2L                  160u/20cs        $513    163     0   2.4
+   7  Minute Maid Lemonade 2L              128u/16cs        $410    170    44   3.0
+   8  Ocean Spray Cranberry Juice          12u/1cs           $35      8     0   3.1
+   9  Roses Grenadine 12oz                 18u/3cs           $67     34    16   3.3
+  10  ReaLime 5oz                          48u/2cs           $47     91    40   3.4
+  11  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   3.4
+  12  Barritt's Ginger Beer 6pk 12oz can   8u/2cs            $48     10     0   3.6
+  13  Coke Diet 2L                         128u/16cs        $412    196    68   3.8
+  14  Tres Agaves Margarita Mix Liter      12u/1cs           $70     74    59   3.9
+  15  Sprite 2L                            104u/13cs        $334    174    68   4.1
+  16  ReaLime Lime Juice 8oz               12u/1cs           $20     15     5   4.1
+  17  Master of Mixes Simple Syrup 375ml   48u/4cs          $128     88    38   4.2
+  18  Cock n Bull Ginger Beer 4pk 12oz bt  24u/4cs          $100     44    18   4.2
+  19  Gatorlyte Lemon Lime 20oz            48u/4cs           $88     81    37   4.2
+  20  Gosling's Ginger Beer 12pk           28u/14cs         $336     29     0   4.4
+  ...and 248 more in the full list.
