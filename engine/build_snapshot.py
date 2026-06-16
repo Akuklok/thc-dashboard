@@ -20,6 +20,25 @@ def per_store_oh(g):
     return ";".join(pairs)
 
 
+def _clean(v):
+    if v is None or (isinstance(v, float) and pd.isna(v)) or str(v).strip().lower() in ("", "nan"):
+        return None
+    return v
+
+
+def load_price_ref():
+    """upc -> {Retail, GM %, Deal, Unit Cost} from the buyer files (Price Reference.csv)."""
+    for folder in ro.OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
+        p = os.path.join(folder, "Price Reference.csv")
+        if os.path.exists(p):
+            try:
+                df = pd.read_csv(p, dtype={"upc": str})
+                return {str(k): v for k, v in df.set_index("upc").to_dict("index").items()}
+            except Exception:
+                pass
+    return {}
+
+
 def main():
     path = ro.find_inventory_file()
     if not path:
@@ -36,6 +55,7 @@ def main():
         if c in df.columns:
             df["cost"] = np.where(df["cost"] > 0, df["cost"], df[c])
     retail = ro.retail_price_map(xl)
+    pref = load_price_ref()
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     for label, matches in ro.DEPARTMENTS.items():
@@ -48,7 +68,18 @@ def main():
             vel = 0.6 * g["30D"].sum() * 7 / 30 + 0.4 * g["90D"].sum() * 7 / 90
             cost = g["cost"].median()
             upc = dbb.norm(g["Product Code"].iloc[0]) if "Product Code" in g else ""
-            ret = retail.get(upc)
+            ref = pref.get(upc, {})
+            # retail: buyer file first, then the warehouse-sheet fallback
+            ret = _clean(ref.get("Retail")) or retail.get(upc)
+            ret = float(ret) if ret is not None and pd.notna(ret) else None
+            # cost: inventory avg cost, else buyer-file unit cost
+            ucost = float(cost) if pd.notna(cost) and cost > 0 else _clean(ref.get("Unit Cost"))
+            ucost = float(ucost) if ucost is not None and pd.notna(ucost) else None
+            # margin: buyer-file GM% first, else compute from retail/cost
+            gm = _clean(ref.get("GM %"))
+            if gm is None and ret and ucost is not None and ret > 0:
+                gm = round((ret - ucost) / ret * 100)
+            deal = _clean(ref.get("Deal")) or ""
             rows.append({
                 "Item": item,
                 "Category": g["Category"].iloc[0] if "Category" in g else "",
@@ -56,9 +87,10 @@ def main():
                 "Chain OH": int(oh),
                 "Wk Velocity": round(vel, 1),
                 "WOS": round(oh / vel, 1) if vel > 0 else "",
-                "Cost": round(float(cost), 2) if pd.notna(cost) else "",
-                "Retail": round(float(ret), 2) if ret else "",
-                "Margin %": round((ret - cost) / ret * 100) if (ret and pd.notna(cost) and ret > 0) else "",
+                "Cost": round(ucost, 2) if ucost is not None else "",
+                "Retail": round(ret, 2) if ret else "",
+                "Margin %": gm if gm is not None else "",
+                "Deal": deal,
                 "30D Units": int(g["30D"].sum()),
                 "90D Units": int(g["90D"].sum()),
                 "By Store OH": per_store_oh(g),
