@@ -89,22 +89,40 @@ def read_order(dept):
     return summary, buys, trans
 
 
-def build_context(dept):
+def build_context(dept, focus=""):
     summary, buys, trans = read_order(dept)
-    parts = [f"=== {dept} RECOMMENDED ORDER (summary) ===", summary[:3500]]
+    parts = [f"=== {dept} RECOMMENDED ORDER (summary) ===", summary[:3000]]
     if buys is not None and len(buys):
-        parts += [f"\n=== {dept} TOP ITEMS TO BUY ===", buys.head(40).to_csv(index=False)]
-    if trans is not None and len(trans):
-        parts += [f"\n=== {dept} TOP TRANSFERS (move between stores) ===", trans.head(30).to_csv(index=False)]
-    return "\n".join(parts)[:14000]
+        parts += [f"\n=== {dept} ITEMS TO BUY (chain-wide order) ===", buys.head(45).to_csv(index=False)]
+    if trans is not None and len(trans) and "To Store" in trans.columns:
+        try:   # per-store rollup so store-specific questions can be answered
+            tv = pd.to_numeric(trans.get("Value $"), errors="coerce").fillna(0)
+            roll = (trans.assign(_v=tv).groupby("To Store")
+                    .agg(items=("Item", "count"), transfer_in_value=("_v", "sum"),
+                         stockouts=("Priority", lambda s: int((s == "STOCKOUT").sum())))
+                    .reset_index().sort_values("transfer_in_value", ascending=False))
+            parts += ["\n=== PER-STORE NEEDS (what each store receives via transfer) ===",
+                      roll.to_csv(index=False)]
+        except Exception:
+            pass
+        named = [s for s in trans["To Store"].dropna().astype(str).unique()
+                 if s.lower() in (focus or "").lower()]
+        for s in named[:2]:
+            sub = trans[trans["To Store"].astype(str) == s]
+            parts += [f"\n=== {s.upper()}: DETAILED NEEDS (transfer in, from where, then-buy) ===",
+                      sub.head(60).to_csv(index=False)]
+        if not named:
+            parts += [f"\n=== {dept} TOP TRANSFERS (all stores) ===", trans.head(25).to_csv(index=False)]
+    return "\n".join(parts)[:16000]
 
 
-def _build_system(dept):
+def _build_system(dept, focus=""):
     return ("You are a beverage/liquor/THC buying assistant for Top Ten Liquors, helping the "
             f"{dept} buyer. Answer ONLY from the data below. Be concise and specific - cite items, "
-            "quantities (units/cases), weeks-of-supply, and dollars. Distinguish BUYING (new "
-            "purchase orders) from TRANSFERS (moving existing stock between stores). If the data "
-            "doesn't cover it, say so.\n\nDATA:\n" + build_context(dept))
+            "quantities (units/cases), weeks-of-supply (WOS), and dollars. BUYING is chain-wide (new "
+            "purchase orders); a single STORE's needs are in the PER-STORE NEEDS rollup and its "
+            "detailed transfer rows (transfer in + then-buy), so use those for store-specific "
+            "questions. If the data doesn't cover it, say so.\n\nDATA:\n" + build_context(dept, focus))
 
 
 def gemini_chat(key, system, messages):
@@ -151,7 +169,8 @@ def _key(env_name, keyfile):
 
 def ai_reply(dept, messages):
     """Provider-pluggable: Gemini if a Gemini key is present, else Claude."""
-    system = _build_system(dept)
+    focus = next((m.get("content", "") for m in reversed(messages) if m.get("role") == "user"), "")
+    system = _build_system(dept, focus)
     gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
     if gk:
         return gemini_chat(gk, system, messages)
