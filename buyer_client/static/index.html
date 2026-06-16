@@ -80,13 +80,14 @@
   </div>
 
   <main id="today">
+    <h3>This week at a glance</h3>
     <div class="cards" id="cards"></div>
+    <h3>Transfers — move stock between stores first</h3>
+    <div class="cards" id="trcards"></div>
     <h3>What to buy <span class="hint" id="buyHint"></span></h3>
     <div class="wrap"><table id="buyTbl"></table></div>
-    <h3>Transfer plan — move stock between stores first</h3>
+    <h3>Transfer plan <span class="hint">(most urgent first)</span></h3>
     <div class="wrap"><table id="trTbl"></table></div>
-    <h3>Full summary</h3>
-    <pre id="sum"></pre>
   </main>
 
   <main id="ask" style="display:none">
@@ -143,15 +144,20 @@ async function loadToday(){
   const dept=$('dept').value;
   const d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
   const h=d.headline||{};
+  const n=v=>(v===undefined||v===null)?'-':v.toLocaleString();
   $('cards').innerHTML = h.items!==undefined ? `
-    <div class="card"><div class="lbl">Gross need</div><div class="val">${money(h.gross)}</div></div>
-    <div class="card"><div class="lbl">Coverable by transfer</div><div class="val">${money(h.transfer)}</div></div>
     <div class="card big"><div class="lbl">Net buy from vendors</div><div class="val">${money(h.net_buy)}</div></div>
-    <div class="card"><div class="lbl">Items to buy</div><div class="val">${h.items}</div></div>` : '';
-  $('buyHint').textContent = h.items!==undefined ? `(${h.items} items, ranked closest-to-stockout)` : '';
+    <div class="card"><div class="lbl">Cover by transfer</div><div class="val">${money(h.transfer)}</div></div>
+    <div class="card"><div class="lbl">Gross need (all stores)</div><div class="val">${money(h.gross)}</div></div>
+    <div class="card"><div class="lbl">Items to buy</div><div class="val">${n(h.items)}</div></div>` : '';
+  $('trcards').innerHTML = (h.transfers!==undefined) ? `
+    <div class="card"><div class="lbl">Urgent moves</div><div class="val">${n((h.stockouts||0)+(h.low||0))}</div></div>
+    <div class="card"><div class="lbl">Stores out of stock</div><div class="val">${n(h.stockouts)}</div></div>
+    <div class="card"><div class="lbl">Under 2 weeks</div><div class="val">${n(h.low)}</div></div>
+    <div class="card"><div class="lbl">Routine top-ups</div><div class="val">${n(h.routine)}</div></div>` : '';
+  $('buyHint').textContent = h.items!==undefined ? `(${n(h.items)} items · ${n(h.units)} units · most urgent first)` : '';
   table($('buyTbl'),d.buy_cols,d.buy_rows);
   table($('trTbl'),d.tr_cols,d.tr_rows);
-  $('sum').textContent=d.summary||'';
   history=[]; $('msgs').innerHTML='';
 }
 function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
