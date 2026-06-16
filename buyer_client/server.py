@@ -12,7 +12,7 @@ their department's "what to do today" and answers "ask anything" with Claude.
 Run locally:  python server.py   (then open http://localhost:8520)
 Deploy later: same code goes on a small cloud host so all 3 buyers reach it from any computer.
 """
-import os, io, glob, json, base64, time, urllib.request, urllib.parse, urllib.error
+import os, io, re, glob, json, base64, time, urllib.request, urllib.parse, urllib.error
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import pandas as pd
@@ -89,6 +89,24 @@ def read_order(dept):
     return summary, buys, trans
 
 
+STOPWORDS = {"what", "does", "need", "needs", "this", "week", "that", "have", "much", "how", "the",
+             "for", "and", "buy", "store", "item", "items", "should", "which", "with", "sell",
+             "sells", "selling", "price", "cost", "costs", "margin", "margins", "stock", "many",
+             "are", "our", "you", "can", "get", "right", "now", "most", "top", "best", "worst",
+             "low", "high", "out", "from", "into", "per", "about", "tell", "give", "list", "show"}
+
+
+def load_inventory(dept):
+    """The full per-item snapshot for a department (read fresh so daily updates show)."""
+    b = get_bytes(f"{dept} Inventory.csv")
+    if not b:
+        return None
+    try:
+        return pd.read_csv(io.BytesIO(b))
+    except Exception:
+        return None
+
+
 def build_context(dept, focus=""):
     summary, buys, trans = read_order(dept)
     parts = [f"=== {dept} RECOMMENDED ORDER (summary) ===", summary[:3000]]
@@ -113,16 +131,37 @@ def build_context(dept, focus=""):
                       sub.head(60).to_csv(index=False)]
         if not named:
             parts += [f"\n=== {dept} TOP TRANSFERS (all stores) ===", trans.head(25).to_csv(index=False)]
-    return "\n".join(parts)[:16000]
+    # full inventory snapshot - pull rows relevant to the question + key rankings
+    inv = load_inventory(dept)
+    if inv is not None and len(inv):
+        words = [w for w in re.findall(r"[a-z0-9]{3,}", (focus or "").lower()) if w not in STOPWORDS]
+        if words:
+            mask = inv["Item"].astype(str).str.lower().apply(lambda s: any(w in s for w in words))
+            hits = inv[mask]
+            if len(hits):
+                parts += [f"\n=== ITEMS MATCHING THE QUESTION ({len(hits)}) - full detail incl. by-store on-hand ===",
+                          hits.head(30).to_csv(index=False)]
+        compact = [c for c in ["Item", "Category", "Chain OH", "Wk Velocity", "WOS", "Cost",
+                               "Retail", "Margin %", "30D Units"] if c in inv.columns]
+        parts += ["\n=== TOP SELLERS (by weekly velocity) ===", inv[compact].head(12).to_csv(index=False)]
+        wos = pd.to_numeric(inv["WOS"], errors="coerce")
+        atrisk = inv[wos <= 2].sort_values("Wk Velocity", ascending=False)
+        if len(atrisk):
+            parts += ["\n=== LOW / AT-RISK (WOS 2 weeks or less) ===", atrisk[compact].head(15).to_csv(index=False)]
+    return "\n".join(parts)[:22000]
 
 
 def _build_system(dept, focus=""):
-    return ("You are a beverage/liquor/THC buying assistant for Top Ten Liquors, helping the "
-            f"{dept} buyer. Answer ONLY from the data below. Be concise and specific - cite items, "
-            "quantities (units/cases), weeks-of-supply (WOS), and dollars. BUYING is chain-wide (new "
-            "purchase orders); a single STORE's needs are in the PER-STORE NEEDS rollup and its "
-            "detailed transfer rows (transfer in + then-buy), so use those for store-specific "
-            "questions. If the data doesn't cover it, say so.\n\nDATA:\n" + build_context(dept, focus))
+    return ("You are the buying assistant for Top Ten Liquors, helping the "
+            f"{dept} buyer - act like a knowledgeable analyst who answers any buying question from "
+            "the data below. Be concise and specific: cite items, quantities (units/cases), "
+            "weeks-of-supply (WOS), on-hand, velocity, margins, and dollars. The data includes: the "
+            "weekly ORDER (chain-wide buying), the TRANSFER plan and PER-STORE NEEDS (a single "
+            "store's needs - use these for store-specific questions), and a full INVENTORY snapshot "
+            "of every item (on-hand chain + by store, weekly velocity, WOS, cost, retail, margin, "
+            "recent sales) plus TOP SELLERS and LOW/AT-RISK lists. Use the inventory rows to answer "
+            "item lookups, 'where is X overstocked', top/bottom sellers, margins, etc. If a specific "
+            "fact truly isn't in the data, say so briefly.\n\nDATA:\n" + build_context(dept, focus))
 
 
 def gemini_chat(key, system, messages):
