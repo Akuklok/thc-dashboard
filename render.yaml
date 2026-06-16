@@ -1,0 +1,15 @@
+# One-click deploy config for Render (free tier). In Render: New -> Blueprint -> connect
+# the thc-dashboard repo -> it reads this file -> paste the two secrets when prompted.
+services:
+  - type: web
+    name: topten-buyer
+    runtime: python
+    plan: free
+    rootDir: buyer_client
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false        # Render will prompt you to paste this (your Gemini key)
+      - key: GITHUB_TOKEN
+        sync: false        # paste your existing fine-grained repo token (reads the order data)
