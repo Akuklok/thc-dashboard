@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="theme-color" content="#0f3d2e"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="icon" href="/icon.svg"/>
+<link rel="apple-touch-icon" href="/icon-192.png"/>
+<title>Top Ten Buyer</title>
+<style>
+  :root{--green:#0f3d2e;--green2:#1c6b4f;--bg:#f5f6f4;--card:#fff;--line:#e3e6e2;--ink:#1a1f1c;--muted:#6b756f}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+  header{background:var(--green);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  header .brand{font-weight:700;font-size:18px;letter-spacing:.2px}
+  header select{padding:6px 10px;border-radius:8px;border:0;font-size:14px}
+  header .sp{flex:1}
+  header button{background:rgba(255,255,255,.15);color:#fff;border:0;padding:6px 12px;border-radius:8px;cursor:pointer}
+  .tabs{display:flex;gap:6px;padding:10px 16px 0}
+  .tabs button{background:none;border:0;padding:10px 16px;font-size:15px;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent}
+  .tabs button.on{color:var(--green);border-color:var(--green);font-weight:600}
+  main{padding:16px;max-width:1100px;margin:0 auto}
+  .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:180px;flex:1}
+  .card .lbl{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.4px}
+  .card .val{font-size:26px;font-weight:700;margin-top:4px}
+  .card.big .val{color:var(--green2)}
+  h3{margin:18px 0 8px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+  th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{background:#eef1ee;color:#414944;font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .wrap{overflow:auto;max-height:340px;border-radius:10px}
+  pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;white-space:pre-wrap;font-size:12.5px;line-height:1.45}
+  /* chat */
+  #chat{display:flex;flex-direction:column;height:calc(100vh - 190px)}
+  #msgs{flex:1;overflow:auto;padding:6px}
+  .msg{max-width:80%;padding:10px 14px;border-radius:14px;margin:8px 0;white-space:pre-wrap;line-height:1.45}
+  .me{background:var(--green);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
+  .ai{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px}
+  .row{display:flex;gap:8px;padding-top:8px}
+  .row input{flex:1;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:15px}
+  .row button{background:var(--green);color:#fff;border:0;padding:0 18px;border-radius:10px;cursor:pointer;font-size:15px}
+  .hint{color:var(--muted);font-size:13px;margin:2px 0 10px}
+  /* login */
+  #login{max-width:340px;margin:12vh auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px}
+  #login h1{margin:0 0 4px;font-size:22px;color:var(--green)}
+  #login p{color:var(--muted);margin:0 0 18px;font-size:14px}
+  #login input{width:100%;padding:12px;margin:6px 0;border:1px solid var(--line);border-radius:10px;font-size:15px}
+  #login button{width:100%;padding:12px;background:var(--green);color:#fff;border:0;border-radius:10px;font-size:16px;cursor:pointer;margin-top:8px}
+  .err{color:#b3261e;font-size:13px;min-height:18px}
+  .pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600}
+  .STOCKOUT{background:#fde7e7;color:#b3261e}
+  .Low{background:#fff4e0;color:#9a6700}
+</style>
+</head>
+<body>
+
+<div id="login">
+  <h1>Top Ten Buyer</h1>
+  <p>Your buying assistant</p>
+  <input id="u" placeholder="Username" autocomplete="username"/>
+  <input id="p" type="password" placeholder="Password" autocomplete="current-password"/>
+  <div class="err" id="loginErr"></div>
+  <button onclick="login()">Log in</button>
+</div>
+
+<div id="app" style="display:none">
+  <header>
+    <span class="brand">Top Ten Buyer</span>
+    <select id="dept" onchange="loadToday()"></select>
+    <span class="sp"></span>
+    <span id="who" style="opacity:.85;font-size:13px"></span>
+    <button onclick="logout()">Log out</button>
+  </header>
+  <div class="tabs">
+    <button id="tabToday" class="on" onclick="show('today')">Today — what to do</button>
+    <button id="tabAsk" onclick="show('ask')">Ask the assistant</button>
+  </div>
+
+  <main id="today">
+    <div class="cards" id="cards"></div>
+    <h3>What to buy <span class="hint" id="buyHint"></span></h3>
+    <div class="wrap"><table id="buyTbl"></table></div>
+    <h3>Transfer plan — move stock between stores first</h3>
+    <div class="wrap"><table id="trTbl"></table></div>
+    <h3>Full summary</h3>
+    <pre id="sum"></pre>
+  </main>
+
+  <main id="ask" style="display:none">
+    <div class="hint">Ask anything about your department's buying — e.g. "What should I buy this week and what can I cover with transfers?"</div>
+    <div id="chat">
+      <div id="msgs"></div>
+      <div class="row">
+        <input id="q" placeholder="Ask the assistant..." onkeydown="if(event.key==='Enter')ask()"/>
+        <button onclick="ask()">Send</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+let DEPTS=[], history=[];
+const $=id=>document.getElementById(id);
+const money=n=>'$'+Math.round(n||0).toLocaleString();
+
+async function login(){
+  const r=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({user:$('u').value,pw:$('p').value})});
+  const d=await r.json();
+  if(!d.ok){$('loginErr').textContent='Incorrect username or password.';return;}
+  localStorage.setItem('who',d.who); localStorage.setItem('depts',JSON.stringify(d.depts));
+  start(d.who,d.depts);
+}
+function logout(){localStorage.clear();location.reload();}
+function start(who,depts){
+  DEPTS=depts;
+  $('login').style.display='none'; $('app').style.display='block';
+  $('who').textContent=who;
+  $('dept').innerHTML=depts.map(d=>`<option>${d}</option>`).join('');
+  loadToday();
+}
+function show(v){
+  $('today').style.display=v==='today'?'block':'none';
+  $('ask').style.display=v==='ask'?'block':'none';
+  $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':'';
+}
+function table(el,cols,rows){
+  if(!rows.length){el.innerHTML='<tr><td>Nothing here right now.</td></tr>';return;}
+  let h='<tr>'+cols.map(c=>`<th>${c}</th>`).join('')+'</tr>';
+  for(const r of rows){
+    h+='<tr>'+r.map((v,i)=>{
+      let s=(v===null||v===undefined)?'':v;
+      if(cols[i]==='Priority'&&s){const cls=s.startsWith('Low')?'Low':s;return `<td><span class="pill ${cls}">${s}</span></td>`;}
+      if(['Net Buy $','Value $'].includes(cols[i])&&s!=='')s=money(+s);
+      return `<td>${s}</td>`;}).join('')+'</tr>';
+  }
+  el.innerHTML=h;
+}
+async function loadToday(){
+  const dept=$('dept').value;
+  const d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
+  const h=d.headline||{};
+  $('cards').innerHTML = h.items!==undefined ? `
+    <div class="card"><div class="lbl">Gross need</div><div class="val">${money(h.gross)}</div></div>
+    <div class="card"><div class="lbl">Coverable by transfer</div><div class="val">${money(h.transfer)}</div></div>
+    <div class="card big"><div class="lbl">Net buy from vendors</div><div class="val">${money(h.net_buy)}</div></div>
+    <div class="card"><div class="lbl">Items to buy</div><div class="val">${h.items}</div></div>` : '';
+  $('buyHint').textContent = h.items!==undefined ? `(${h.items} items, ranked closest-to-stockout)` : '';
+  table($('buyTbl'),d.buy_cols,d.buy_rows);
+  table($('trTbl'),d.tr_cols,d.tr_rows);
+  $('sum').textContent=d.summary||'';
+  history=[]; $('msgs').innerHTML='';
+}
+function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
+async function ask(){
+  const q=$('q').value.trim(); if(!q)return; $('q').value='';
+  bubble(q,'me'); history.push({role:'user',content:q});
+  const t=bubble('Thinking…','ai');
+  try{
+    const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({dept:$('dept').value,messages:history})});
+    const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply});
+  }catch(e){t.textContent='(Error reaching the assistant)';}
+}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(()=>{});}
+const who=localStorage.getItem('who');
+if(who){try{start(who,JSON.parse(localStorage.getItem('depts')));}catch(e){}}
+</script>
+</body>
+</html>
