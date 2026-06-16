@@ -389,38 +389,42 @@ with tabs[6]:
     dept = st.selectbox("Department", pick_depts, key="ord_dept")
     rec_order = load(f"{dept} Recommended Order.xlsx", "Recommended Order")
     transfers_plan = load(f"{dept} Recommended Order.xlsx", "Transfer Plan")
-    rec_txt = load_text(f"{dept} Recommended Order.txt")
-    if rec_order is not None and len(rec_order):
+    if rec_order is None or not len(rec_order):
+        st.info(f"Recommended order not found yet for {dept}.")
+    else:
         unit_cost = pd.to_numeric(rec_order.get("Unit Cost"), errors="coerce")
         gross = (pd.to_numeric(rec_order.get("Gross Need"), errors="coerce") * unit_cost).sum()
         xfer  = (pd.to_numeric(rec_order.get("Transfer"), errors="coerce") * unit_cost).sum()
         net   = pd.to_numeric(rec_order.get("Net Buy $"), errors="coerce").sum()
-        c1, c2, c3 = st.columns(3)
-        c1.metric("Gross need (all stores)", f"${gross:,.0f}")
-        if gross > 0:
-            c2.metric("Coverable by transfer", f"${xfer:,.0f}", f"{xfer/gross*100:.0f}% of need", delta_color="off")
-        c3.metric("NET BUY from vendors", f"${net:,.0f}")
-        st.caption("The POS's gross reorder need, minus what you can cover by moving overstock "
-                   "between stores, equals what you actually need to buy. Every line shows "
-                   "need -> transfer -> buy. See the Transfer Plan below for what moves where.")
-    st.text(rec_txt)
-    if rec_order is not None:
-        st.markdown("**What to buy** (ranked closest-to-stockout first)")
+        units = int(pd.to_numeric(rec_order.get("Buy Units"), errors="coerce").fillna(0).sum())
+
+        st.markdown("##### This week at a glance")
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("NET BUY from vendors", f"${net:,.0f}")
+        c2.metric("Cover by transfer", f"${xfer:,.0f}",
+                  f"{xfer/gross*100:.0f}% of need" if gross > 0 else None, delta_color="off")
+        c3.metric("Gross need (all stores)", f"${gross:,.0f}")
+        c4.metric("Items to buy", f"{len(rec_order):,}", f"{units:,} units", delta_color="off")
+
+        if transfers_plan is not None and len(transfers_plan) and "Priority" in transfers_plan.columns:
+            so = int((transfers_plan["Priority"] == "STOCKOUT").sum())
+            lo = int((transfers_plan["Priority"] == "Low <2wk").sum())
+            rt = len(transfers_plan) - so - lo
+            st.markdown("##### Transfers — move stock between stores first")
+            t1, t2, t3, t4 = st.columns(4)
+            t1.metric("Urgent moves", f"{so + lo:,}")
+            t2.metric("Stores out of stock", f"{so:,}")
+            t3.metric("Under 2 weeks", f"{lo:,}")
+            t4.metric("Routine top-ups", f"{rt:,}")
+
+        st.markdown("##### What to buy")
+        st.caption("Ranked closest-to-stockout. Each row shows need -> transfer -> buy.")
         o = flt(rec_order, "Item", "Discount %")
         if o is not None and len(o):
-            if "Net Buy $" in o.columns:
-                st.metric("Net buy (filtered view)",
-                          f"${pd.to_numeric(o['Net Buy $'], errors='coerce').sum():,.0f}")
             st.dataframe(o, use_container_width=True, height=420)
-    else:
-        st.info("Recommended order not found yet (recommended_order needs to run).")
     if transfers_plan is not None and len(transfers_plan):
-        st.markdown("**Transfer plan** (move overstock between stores before buying)")
-        if "Priority" in transfers_plan.columns:
-            urg = int((transfers_plan["Priority"] == "STOCKOUT").sum())
-            lowp = int((transfers_plan["Priority"] == "Low <2wk").sum())
-            st.caption(f"{len(transfers_plan):,} moves, sorted urgent-first. "
-                       f"Do first: {urg} prevent a stockout + {lowp} below 2 weeks of supply.")
+        st.markdown("##### Transfer plan (full move-by-move list)")
+        st.caption("Sorted most-urgent-first. Move these between stores before buying.")
         tp = flt(transfers_plan, "Item")
         st.dataframe(tp if tp is not None else transfers_plan, use_container_width=True, height=360)
 
