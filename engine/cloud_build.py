@@ -46,10 +46,12 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     import daily_buying_brief as dbb
     import recommended_order as ro
+    import build_snapshot as bs
     dbb.INPUT_FOLDERS = [WORK]      # engine reads the report from here
-    ro.OUT_FOLDERS = [DATA]         # engine writes per-department orders here
+    ro.OUT_FOLDERS = [DATA]         # engine writes per-department orders + snapshots here
     ro.main()
-    print("Cloud build complete - orders written to", DATA)
+    bs.main()                       # per-item inventory snapshots (for the assistant)
+    print("Cloud build complete - orders + snapshots written to", DATA)
 
 
 if __name__ == "__main__":
