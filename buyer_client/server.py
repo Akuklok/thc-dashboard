@@ -138,6 +138,11 @@ def admin_ok(key):
     return bool(real) and key == real
 
 
+def norm_val(s):
+    """Normalize a cell value for de-duping filter options (ignore case + spacing)."""
+    return re.sub(r"\s+", "", str(s).strip().lower())
+
+
 def send_feedback_email(subject, html, img_b64):
     """Email a buyer report (with screenshot) via Resend. Returns (ok, detail)."""
     key = os.environ.get("RESEND_API_KEY", "")          # read at call time (picks up host config)
@@ -583,16 +588,25 @@ class Handler(BaseHTTPRequestHandler):
                 hay = df.astype(str).agg(" ".join, axis=1).str.lower()
                 df = df[hay.str.contains(q, regex=False)]
             facets = {}
-            if want_facets:                         # dropdown values per low-cardinality column
+            if want_facets:                         # dropdown values per low-cardinality column (deduped by case/spacing)
                 for c in df.columns:
                     s = df[c].astype(str).str.strip()
-                    u = [v for v in pd.unique(s) if v and v.lower() != "nan"]
-                    if 1 < len(u) <= 50:
-                        facets[c] = sorted(u, key=lambda x: x.lower())
-            for c, val in fmap.items():             # per-column filters (exact for dropdowns, contains for text)
+                    s = s[(s != "") & (s.str.lower() != "nan")]
+                    if s.empty:
+                        continue
+                    groups = {}                     # value_counts is desc -> first per key = dominant spelling
+                    for orig in s.value_counts().index:
+                        groups.setdefault(norm_val(orig), orig)
+                    labels = sorted(set(groups.values()), key=lambda x: x.lower())
+                    if 1 < len(labels) <= 50:
+                        facets[c] = labels
+            for c, val in fmap.items():             # per-column filters (dropdowns match all case/spacing variants)
                 if c in df.columns and str(val) != "":
                     col = df[c].astype(str)
-                    df = df[col.str.strip() == str(val)] if c in fx else df[col.str.lower().str.contains(str(val).lower(), regex=False)]
+                    if c in fx:
+                        df = df[col.str.strip().map(norm_val) == norm_val(val)]
+                    else:
+                        df = df[col.str.lower().str.contains(str(val).lower(), regex=False)]
             matched = len(df)
             if sort and sort in df.columns:         # sort the WHOLE (filtered) set, then page
                 col = df[sort].astype(str)
