@@ -84,12 +84,14 @@ def get_bytes(name):
     if gh_token():
         url = ("https://api.github.com/repos/%s/%s/contents/data/%s?ref=%s"
                % (GH_OWNER, GH_REPO, urllib.parse.quote(name), GH_BRANCH))
+        # raw media type returns the file bytes directly (handles files >1MB, which the
+        # default base64-JSON response truncates to empty - e.g. the 2.5MB Full Lists).
         req = urllib.request.Request(url, headers={"Authorization": "Bearer " + gh_token(),
-                                                   "Accept": "application/vnd.github+json",
+                                                   "Accept": "application/vnd.github.raw",
                                                    "User-Agent": "ttb"})
         try:
-            with urllib.request.urlopen(req, timeout=30) as r:
-                return base64.b64decode(json.load(r)["content"])
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.read()
         except Exception:
             return None
     f = newest(name)
