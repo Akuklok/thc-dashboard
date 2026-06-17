@@ -25,6 +25,8 @@ DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
 #   - "*inventory*" / "*sales and inv*" : embedded inventory snapshot (the app already has live daily inventory)
 #   - dated copies like "6.6.25" : stale working copies
 SKIP_CONTAINS = ["alias", "inventory", "sales and inv"]
+# Useful buyer references to keep even though they have no per-product UPC column.
+KEEP_REFERENCE = {"markups", "retail pricing table"}
 MAXROWS = 3000
 
 
@@ -94,11 +96,12 @@ def copy_tab(f, sheet):
         return None
     hdr = best_header(d)
     header = [str(x).strip() for x in d.iloc[hdr].tolist()]
-    # Only carry over tabs that are actually connected to products (have a UPC / product
-    # identifier column). Helper/lookup tables (Buy Month Lookup, Markups, Vendor Reference,
-    # price-tier calculators, etc.) are skipped - they aren't product lists.
+    # Carry over tabs connected to products (have a UPC / product identifier column),
+    # plus a few useful references (Markups, Retail Pricing Table). Pure helper/lookup
+    # tables (Buy Month Lookup, Vendor Reference, etc.) are skipped.
     low = " | ".join(c.lower() for c in header)
-    if not any(k in low for k in ("upc", "product code", "product description")):
+    is_product = any(k in low for k in ("upc", "product code", "product description"))
+    if not is_product and sheet.strip().lower() not in KEEP_REFERENCE:
         return None
     keep = [j for j, c in enumerate(header) if c and c.lower() != "nan"]
     if not keep:
