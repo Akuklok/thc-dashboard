@@ -94,6 +94,12 @@ def copy_tab(f, sheet):
         return None
     hdr = best_header(d)
     header = [str(x).strip() for x in d.iloc[hdr].tolist()]
+    # Only carry over tabs that are actually connected to products (have a UPC / product
+    # identifier column). Helper/lookup tables (Buy Month Lookup, Markups, Vendor Reference,
+    # price-tier calculators, etc.) are skipped - they aren't product lists.
+    low = " | ".join(c.lower() for c in header)
+    if not any(k in low for k in ("upc", "product code", "product description")):
+        return None
     keep = [j for j, c in enumerate(header) if c and c.lower() != "nan"]
     if not keep:
         return None
