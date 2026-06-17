@@ -50,7 +50,7 @@ def main():
     except Exception:
         df = xl.parse(sheet)
     df = ro.drop_warehouses(df)
-    for c in ("OH", "30D", "90D", "Price", "Avg Cost", "Supplier Cost", "Purchase Price"):
+    for c in ("OH", "30D", "90D", "Price", "Price A", "Avg Cost", "Supplier Cost", "Purchase Price"):
         if c in df.columns:
             df[c] = ro._num(df[c]).fillna(0)
     df["cost"] = 0.0
@@ -74,9 +74,11 @@ def main():
             avgc = g["cost"].median()
             bc = _clean(ref.get("Buyer Cost"))
             ucost = float(bc) if (bc is not None and pd.notna(bc)) else (float(avgc) if pd.notna(avgc) and avgc > 0 else None)
-            # retail = customer Price straight from the report
+            # customer prices from the report: Price = regular shelf, Price A = club/member
             ret = g["Price"].median() if "Price" in g else None
             ret = float(ret) if ret is not None and pd.notna(ret) and ret > 0 else None
+            club = g["Price A"].median() if "Price A" in g else None
+            club = float(club) if club is not None and pd.notna(club) and club > 0 else None
             gm = round((ret - ucost) / ret * 100) if (ret and ucost is not None and ret > 0) else None
             deal = _clean(ref.get("Deal")) or ""
             rows.append({
@@ -88,6 +90,7 @@ def main():
                 "WOS": round(oh / vel, 1) if vel > 0 else "",
                 "Cost": round(ucost, 2) if ucost is not None else "",
                 "Retail": round(ret, 2) if ret else "",
+                "Club Price": round(club, 2) if club else "",
                 "Margin %": gm if gm is not None else "",
                 "Deal": deal,
                 "30D Units": int(g["30D"].sum()),
