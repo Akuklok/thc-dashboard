@@ -72,8 +72,8 @@ def main():
     dbb.INPUT_FOLDERS = [WORK]      # engine reads the report (and any product files) from here
     ro.OUT_FOLDERS = [DATA]
     ep.FOLDERS = [WORK]; ep.OUT = [DATA]
-    ro.main()                       # orders + transfer plans
-    ep.main()                       # buyer cost + deals from product files (if present on SFTP; else keeps last)
+    ep.main()                       # buyer cost + deals + Remove/New lists from product files (if present)
+    ro.main()                       # orders + transfer plans (excludes Remove/discontinued items)
     bs.main()                       # per-item snapshots: retail from report, cost/deals from product files
     print("Cloud build complete -> orders + snapshots in", DATA)
 
