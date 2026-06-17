@@ -266,7 +266,7 @@ if pricing is not None:
     c4.metric("Above market", int(pricing["Flag"].str.startswith("ABOVE").sum()))
 
 tabs = st.tabs(["Brief", "Needs Attention", "Database", "Restock",
-                "Pricing", "Seasonality", "Order", "Deals"])
+                "Pricing", "Seasonality", "Order", "Deals", "Product Lists"])
 
 # ----------------------------- Buying Brief -----------------------------
 with tabs[0]:
@@ -474,3 +474,25 @@ with tabs[7]:
             if "Weekly $ Saved" in view.columns:
                 view = view.sort_values("Weekly $ Saved", ascending=False)
             st.dataframe(view, use_container_width=True, height=460)
+
+# ----------------------------- Product Lists (mirrors the buyers' workbook tabs) -----------------------------
+with tabs[8]:
+    st.subheader("Product Lists")
+    st.caption("The same tabs you use in the Product Lists workbook, copied here so it's an easy transfer.")
+    PL_DEPTS = ["THC", "Wine", "Spirits", "Beer", "Other"]
+    pl_allowed = [d for d in PL_DEPTS if d in st.session_state.get("allowed_depts", PL_DEPTS)] or PL_DEPTS
+    PL_TABS = ["Remove", "New Items", "Upcoming Price Changes", "Price Level", "Retail Pricing Table"]
+    c1, c2 = st.columns(2)
+    pl_dept = c1.selectbox("Department", pl_allowed, key="pl_dept")
+    pl_tab = c2.selectbox("Tab", PL_TABS, key="pl_tab")
+    plt = load(f"{pl_dept} - {pl_tab}.csv")
+    if plt is None or not len(plt):
+        st.info(f"No '{pl_tab}' tab for {pl_dept} yet (it copies over when that product file is available).")
+    else:
+        q = st.text_input("Search product", key="pl_q")
+        v = plt
+        namecol = next((c for c in plt.columns if "Product Description" in str(c)), None)
+        if q and namecol:
+            v = v[v[namecol].astype(str).str.contains(q, case=False, na=False)]
+        st.write(f"{len(v):,} rows")
+        st.dataframe(v, use_container_width=True, height=520)
