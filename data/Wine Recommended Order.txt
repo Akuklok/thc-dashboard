@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $    322,393
   Coverable by transfer .......  $    110,759   (34%)
-  NET BUY from vendors ........  $    175,570   <- the order
+  NET BUY from vendors ........  $    152,472   <- the order
 
-  730 items   |   17,575 units to buy   |   13,252 units to rebalance
+  648 items   |   15,361 units to buy   |   13,252 units to rebalance
   Transfers: 1,212 moves  -  263 urgent (74 stockouts, 189 under 2wk), 949 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
 
@@ -33,7 +33,7 @@
   18  Rancho La Gloria Lime Maragrita RTD  12u/2cs          $128     13     0   2.3
   19  Bota Box Pinot Noir 3L Box           33u/11cs         $484     34     0   2.4
   20  Bota Box Redvolution 3L Box          111u/37cs      $2,418    124    13   2.4
-  ...and 710 more in the full list.
+  ...and 628 more in the full list.
 
   BEING REMOVED - DO NOT REORDER (136 discontinued items still selling/low - run down stock):
     7 Deadly Cabernet Sauvignon 750ml           (would have bought 12u)
@@ -52,3 +52,21 @@
     Bogle Juggernaut Chardonnay 750ml           (would have bought 12u)
     Bogle Juggernaut RRV Pinot Noir 750ml       (would have bought 24u)
     ...and 121 more (see Being Removed tab).
+
+  WAIT FOR BUY-MONTH (82 routine deal items out of their buy month - $23,098 cheaper to buy in-month):
+    Acrobat Pinot Gris 750ml                    Wait for buy-month (Feb, Apr, May, Aug, Sep, Dec)
+    Acrobat Pinot Noir 750ml                    Wait for buy-month (Feb, Apr, May, Aug, Sep, Dec)
+    Acrobat Rose 750ml                          Wait for buy-month (Feb, Apr, May, Aug, Sep, Dec)
+    Angeline Pinot Noir 750ml                   Wait for buy-month (Mar, May, Aug, Nov, Dec)
+    Angeline Reserve Pinot Noir 750ml           Wait for buy-month (Mar, May, Aug, Nov, Dec)
+    Bertrand Cote des Roses Rose 750ml          Wait for buy-month (Feb, May, Jul, Sep, Nov)
+    Black Box Brilliant Cabernet 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Brilliant Chardonnay 3L Box       Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Brilliant Pinot Grigio 3L Box     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Buttery Chardonnay 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Cab Sauv 3L Box                   Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Deep Dark Cabernet 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Dolce Semi-Sweet Red Blend 3L Bo  Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Malbec 3L Box                     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Merlot 3L Box                     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    ...and 67 more (see Buy-Month Wait tab).
