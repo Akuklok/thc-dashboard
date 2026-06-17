@@ -73,6 +73,51 @@ def data_sheet(f, dept):
     return None, None
 
 
+def tab_items(f, sheet):
+    """Generic: pull {upc, Item} from a product-file tab (Remove / New Items) by locating
+    the 'Product UPC' and 'Product Description' columns (their positions differ per tab)."""
+    d = _read(f, sheet)
+    if d is None:
+        return []
+    hdr = upc_c = desc_c = None
+    for i in range(min(6, len(d))):
+        row = [str(x) for x in d.iloc[i].tolist()]
+        for j, v in enumerate(row):
+            if upc_c is None and "Product UPC" in v:      # first occurrence (header repeats across the sheet)
+                upc_c = j
+            if desc_c is None and "Product Description" in v:
+                desc_c = j
+        if upc_c is not None and desc_c is not None:
+            hdr = i; break
+    if hdr is None:
+        return []
+    out = []
+    for _, r in d.iloc[hdr + 1:].iterrows():
+        upc = norm(r[upc_c]); item = str(r[desc_c]).strip()
+        if upc and item and item.lower() != "nan":
+            out.append({"upc": upc, "Item": item})
+    return out
+
+
+def write_sections():
+    """Carry the product-form tabs (Remove, New Items) over as their own reference lists."""
+    for sheet, outname in [("Remove", "Remove List.csv"), ("New Items", "New Items.csv")]:
+        items = []
+        for dept, pat in DEPTS.items():
+            f = newest(pat)
+            if f:
+                for it in tab_items(f, sheet):
+                    items.append({**it, "Department": dept})
+        if items:
+            df = pd.DataFrame(items).drop_duplicates("upc")
+            for o in OUT:
+                try:
+                    df.to_csv(os.path.join(o, outname), index=False)
+                except PermissionError:
+                    pass
+            print(f"{sheet}: {len(df)} items -> {outname}")
+
+
 def main():
     rows = []
     for dept, pat in DEPTS.items():
@@ -110,6 +155,7 @@ def main():
         print("Cost Reference written:", len(df), "items")
     else:
         print("No product files found - Cost Reference not written (keeping the last one).")
+    write_sections()
 
 
 if __name__ == "__main__":
