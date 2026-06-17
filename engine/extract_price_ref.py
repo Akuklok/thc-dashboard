@@ -1,107 +1,115 @@
 """
-EXTRACT PRICE REFERENCE  --  pull retail / margin / deal / cost from the buyer files.
+EXTRACT COST REFERENCE  --  the BUYER's price (and deal terms) from the product files.
 
-The per-department buyer workbooks (THC 6.x, Wine 5.x, Liquor 6.x ...) carry better
-pricing than the inventory report: unit Retail, GM%, Deal Description, deal unit cost,
-and invoice cost. This extracts a compact "Price Reference.csv" (one row per UPC) that
-the snapshot + order use to enrich retail/margin/deals across departments.
+The product workbooks (THC <date>, Liquor <date>, Wine <date>, Beer <date> in the Product
+Lists folder) hold what Top Ten PAYS the vendor:
+  Net/Unit (col 25)        deal-adjusted per-unit cost  <- the buyer's price
+  Top Ten Invoice (col 19) case cost  (fallback: / Units/Case)
+  Deal Description (col 16)
+(Customer/retail price comes from the daily report's Price column, handled in build_snapshot.)
 
-Runs locally (the buyer files live on OneDrive). The result is pushed to the repo so the
-cloud runner can use it too.
+Output: Cost Reference.csv (upc, Department, Buyer Cost, Deal) -> used by the snapshot/order.
+Fast (calamine, targeted folders, data sheet only). cloud_build overrides FOLDERS/OUT.
 """
 import os, glob, re
 import pandas as pd
 
-FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors",
+FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Product Lists",
+           r"C:\Users\Anna K\OneDrive - Top Ten Liquors",
            r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports",
-           r"C:\Users\Anna K\Downloads",
-           r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Documents"]
-OUT = [r"C:\Users\Anna K\Downloads",
-       r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports"]
-# department label -> filename glob for its buyer workbook (newest, readable wins)
-PATTERNS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
-            "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Beer [0-9]*.xlsx"}
-# column positions in the buyer sheet (0-based), confirmed from the file layout
-C = {"upc": 8, "units": 15, "deal": 16, "casecost": 19, "netunit": 25, "retail": 27, "gm": 29}
+           r"C:\Users\Anna K\Downloads"]
+OUT = [r"C:\Users\Anna K\Downloads", r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports"]
+DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
+         "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Beer [0-9]*.xlsx"}
+C = {"upc": 8, "units": 15, "deal": 16, "casecost": 19, "netunit": 25}
 
 
 def norm(u):
     s = re.sub(r"\D", "", str(u)); return s.lstrip("0") or s
 
 
-def newest_readable(pattern):
-    hits = []
+def readable(p):
+    try:
+        with open(p, "rb") as fh:
+            fh.read(1); return True
+    except Exception:
+        return False
+
+
+def newest(pat):
+    h = []
     for d in FOLDERS:
-        hits += glob.glob(os.path.join(d, pattern))
-    hits = [h for h in hits if not os.path.basename(h).startswith("~$")]
-    for h in sorted(hits, key=os.path.getmtime, reverse=True):
+        h += glob.glob(os.path.join(d, pat))
+    h = [x for x in set(h) if not os.path.basename(x).startswith("~$") and readable(x)]
+    return max(h, key=os.path.getmtime) if h else None
+
+
+def _read(f, sh):
+    for e in ("calamine", None):
         try:
-            with open(h, "rb") as fh: fh.read(1)
-            return h
+            return pd.read_excel(f, sheet_name=sh, header=None, engine=e) if e \
+                else pd.read_excel(f, sheet_name=sh, header=None)
         except Exception:
             continue
     return None
 
 
-def find_sheet(xl):
-    """Find the data sheet + header row (has 'Product UPC' and a 'Retail' column)."""
-    for sh in xl.sheet_names:
+def data_sheet(f, dept):
+    try:
+        names = pd.ExcelFile(f, engine="calamine").sheet_names
+    except Exception:
         try:
-            head = xl.parse(sh, header=None, nrows=4)
+            names = pd.ExcelFile(f).sheet_names
         except Exception:
+            return None, None
+    order = [s for s in names if dept.lower() in s.lower()] + [s for s in names if dept.lower() not in s.lower()]
+    for sh in order:
+        d = _read(f, sh)
+        if d is None or d.shape[1] <= C["netunit"]:
             continue
-        for i in range(min(4, len(head))):
-            row = [str(x).strip() for x in head.iloc[i].tolist()]
-            if any("Product UPC" in c for c in row) and any(c == "Retail" for c in row):
-                return sh, i
+        for i in range(min(4, len(d))):
+            if any("Product UPC" in str(x) for x in d.iloc[i].tolist()):
+                return d, i
     return None, None
 
 
 def main():
     rows = []
-    for dept, pat in PATTERNS.items():
-        f = newest_readable(pat)
+    for dept, pat in DEPTS.items():
+        f = newest(pat)
         if not f:
-            continue
-        try:
-            xl = pd.ExcelFile(f)
-        except Exception:
-            continue
-        sh, hdr = find_sheet(xl)
-        if sh is None:
-            print(f"{dept}: no usable sheet in {os.path.basename(f)}"); continue
-        d = xl.parse(sh, header=None).iloc[hdr + 1:]
+            print(f"{dept}: no product file"); continue
+        d, hdr = data_sheet(f, dept)
+        if d is None:
+            print(f"{dept}: no data sheet in {os.path.basename(f)}"); continue
         n = 0
-        for _, r in d.iterrows():
+        for _, r in d.iloc[hdr + 1:].iterrows():
             upc = norm(r[C["upc"]])
             if not upc:
                 continue
             g = lambda k: pd.to_numeric(r[C[k]], errors="coerce")
-            retail, gm, units, casecost, netunit = g("retail"), g("gm"), g("units"), g("casecost"), g("netunit")
-            deal = str(r[C["deal"]]).strip()
-            deal = "" if deal.lower() == "nan" else deal
-            unit_cost = (casecost / units) if (pd.notna(casecost) and pd.notna(units) and units) else None
-            rows.append({
-                "upc": upc, "Department": dept,
-                "Retail": round(float(retail), 2) if pd.notna(retail) else "",
-                "GM %": round(float(gm) * 100) if pd.notna(gm) else "",
-                "Deal": deal,
-                "Deal Unit Cost": round(float(netunit), 2) if pd.notna(netunit) else "",
-                "Unit Cost": round(float(unit_cost), 2) if unit_cost else "",
-            })
+            netunit, casecost, units = g("netunit"), g("casecost"), g("units")
+            cost = netunit if pd.notna(netunit) else \
+                (casecost / units if (pd.notna(casecost) and pd.notna(units) and units) else None)
+            deal = str(r[C["deal"]]).strip(); deal = "" if deal.lower() == "nan" else deal
+            if (cost is None or pd.isna(cost)) and not deal:
+                continue
+            rows.append({"upc": upc, "Department": dept,
+                         "Buyer Cost": round(float(cost), 2) if (cost is not None and pd.notna(cost)) else "",
+                         "Deal": deal})
             n += 1
-        print(f"{dept}: {n} priced items from {os.path.basename(f)}")
+        print(f"{dept}: {n} items from {os.path.basename(f)}")
     if rows:
         df = pd.DataFrame(rows).drop_duplicates("upc")
         for o in OUT:
             os.makedirs(o, exist_ok=True)
             try:
-                df.to_csv(os.path.join(o, "Price Reference.csv"), index=False)
+                df.to_csv(os.path.join(o, "Cost Reference.csv"), index=False)
             except PermissionError:
                 pass
-        print("Price Reference written:", len(df), "items")
+        print("Cost Reference written:", len(df), "items")
     else:
-        print("No buyer files found - Price Reference not written.")
+        print("No product files found - Cost Reference not written (keeping the last one).")
 
 
 if __name__ == "__main__":
