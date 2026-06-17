@@ -17,9 +17,10 @@ FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Top Ten OneDrive - Produ
            r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports",
            r"C:\Users\Anna K\Downloads"]
 OUT = [r"C:\Users\Anna K\Downloads", r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports"]
-# Beer shares the Liquor workbook (Beer is maintained inside the Liquor file).
+# Beer shares the Liquor workbook (Beer is maintained inside the Liquor file), so the app
+# serves Beer's product tabs from the Spirits copy - no need to duplicate the files here.
 DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
-         "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Liquor [0-9]*.xlsx"}
+         "Spirits": "Liquor [0-9]*.xlsx"}
 # Carry over EVERY tab the buyers use, except these internal/huge/redundant ones:
 #   - "*alias*"  : WMS SKU-alias mapping (not a buying reference)
 #   - "*inventory*" / "*sales and inv*" : embedded inventory snapshot (the app already has live daily inventory)
@@ -27,7 +28,7 @@ DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
 SKIP_CONTAINS = ["alias", "inventory", "sales and inv"]
 # Useful buyer references to keep even though they have no per-product UPC column.
 KEEP_REFERENCE = {"markups", "retail pricing table"}
-MAXROWS = 3000
+MAXROWS = 8000      # cover the full product lists (Spirits Full List ~5,400) so search finds everything
 
 
 def skip_sheet(name):
