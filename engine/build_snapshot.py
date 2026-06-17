@@ -26,10 +26,10 @@ def _clean(v):
     return v
 
 
-def load_price_ref():
-    """upc -> {Retail, GM %, Deal, Unit Cost} from the buyer files (Price Reference.csv)."""
+def load_cost_ref():
+    """upc -> {Buyer Cost, Deal} from the product files (Cost Reference.csv)."""
     for folder in ro.OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
-        p = os.path.join(folder, "Price Reference.csv")
+        p = os.path.join(folder, "Cost Reference.csv")
         if os.path.exists(p):
             try:
                 df = pd.read_csv(p, dtype={"upc": str})
@@ -57,6 +57,7 @@ def main():
     for c in ("Avg Cost", "Supplier Cost", "Purchase Price"):
         if c in df.columns:
             df["cost"] = np.where(df["cost"] > 0, df["cost"], df[c])
+    costref = load_cost_ref()      # buyer cost + deals from the product files
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     for label, matches in ro.DEPARTMENTS.items():
@@ -67,12 +68,17 @@ def main():
         for item, g in ddf.groupby("Product Description"):
             oh = g["OH"].sum()
             vel = 0.6 * g["30D"].sum() * 7 / 30 + 0.4 * g["90D"].sum() * 7 / 90
-            cost = g["cost"].median()
-            ret = g["Price"].median() if "Price" in g else None       # retail straight from the report
+            upc = dbb.norm(g["Product Code"].iloc[0]) if "Product Code" in g else ""
+            ref = costref.get(upc, {})
+            # cost = buyer's price from the product files; fall back to the report's Avg Cost
+            avgc = g["cost"].median()
+            bc = _clean(ref.get("Buyer Cost"))
+            ucost = float(bc) if (bc is not None and pd.notna(bc)) else (float(avgc) if pd.notna(avgc) and avgc > 0 else None)
+            # retail = customer Price straight from the report
+            ret = g["Price"].median() if "Price" in g else None
             ret = float(ret) if ret is not None and pd.notna(ret) and ret > 0 else None
-            ucost = float(cost) if pd.notna(cost) and cost > 0 else None
             gm = round((ret - ucost) / ret * 100) if (ret and ucost is not None and ret > 0) else None
-            deal = ""                                                  # deals deferred (need a reliable source)
+            deal = _clean(ref.get("Deal")) or ""
             rows.append({
                 "Item": item,
                 "Category": g["Category"].iloc[0] if "Category" in g else "",
