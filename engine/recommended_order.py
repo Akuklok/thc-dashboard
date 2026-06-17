@@ -38,7 +38,7 @@ DEPARTMENTS = {
 }
 # ========================================================================
 
-import os, glob, re, json, datetime
+import os, glob, re, json, datetime, calendar
 import pandas as pd
 import numpy as np
 from config_locations import drop_warehouses
@@ -162,7 +162,29 @@ def load_remove_set():
     return frozenset()
 
 
-def run_department(df, label, retail, buyers, today, fdate, stale_days, need_basis, remove_set=frozenset()):
+def load_buy_months():
+    """UPC -> set of month numbers it should be bought in (real months only), from Cost Reference.
+    Items with no real month listed ('ALL', 'LTO', blank, etc.) are absent = buyable any time."""
+    for folder in OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
+        p = os.path.join(folder, "Cost Reference.csv")
+        if os.path.exists(p):
+            try:
+                d = pd.read_csv(p, dtype=str)
+                if "Buy Months" not in d.columns:
+                    return {}
+                out = {}
+                for _, r in d.iterrows():
+                    bm = str(r.get("Buy Months", "")).strip()
+                    if bm and bm.lower() != "nan":
+                        out[dbb.norm(r["upc"])] = {int(x) for x in bm.split("|") if x.isdigit()}
+                return out
+            except Exception:
+                pass
+    return {}
+
+
+def run_department(df, label, retail, buyers, today, fdate, stale_days, need_basis,
+                   remove_set=frozenset(), buy_months=None):
     """Build the order + transfer plan for one department's per-store rows. Writes files,
     returns a summary dict for the roll-up."""
     if df.empty:
@@ -212,7 +234,32 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         is_rm = buy["upc"].map(dbb.norm).isin(remove_set)
         removed = buy[is_rm].copy()
         buy = buy[~is_rm].copy()
-        net_total = float(buy["Net Buy $"].sum())   # actual buy excludes discontinued items
+
+    # Buy-month timing: a deal item bought outside its buy month costs more. DEFER routine
+    # off-month buys to their month; keep URGENT ones (stockout / under 2wk) but flag them.
+    # Only items with a real month listed are constrained; everything else is buyable any time.
+    cur_month = fdate.month
+    bm_wait = buy.iloc[0:0]
+    buy["Buy Month"] = ""
+    if buy_months:
+        notes, defer = [], []
+        for _, r in buy.iterrows():
+            months = buy_months.get(dbb.norm(r["upc"]))
+            if not months:
+                notes.append(""); defer.append(False); continue
+            mtxt = ", ".join(calendar.month_abbr[m] for m in sorted(months))
+            if cur_month in months:
+                notes.append(f"In buy-month ({mtxt})"); defer.append(False)
+            elif pd.notna(r["WOS"]) and r["WOS"] < 2:          # urgent -> buy anyway
+                notes.append(f"Off-month, buy anyway - urgent (deal: {mtxt})"); defer.append(False)
+            else:                                              # routine -> wait for the deal
+                notes.append(f"Wait for buy-month ({mtxt})"); defer.append(True)
+        buy["Buy Month"] = notes
+        mask = pd.Series(defer, index=buy.index)
+        bm_wait = buy[mask].copy()
+        buy = buy[~mask].copy()
+    net_total = float(buy["Net Buy $"].sum())   # the actual buy now (excludes discontinued + buy-month waits)
+
     if PRIORITY == "margin":
         buy = buy.sort_values(["GM %", "profit_protected"], ascending=[False, False]); basis = "highest margin first"
     elif PRIORITY == "deals":
@@ -230,7 +277,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         within, deferred = buy, buy.iloc[0:0]
 
     cols = ["Item", "Category", "Supplier", "OH", "WOS", "Gross Need", "Transfer", "Buy Units",
-            "Buy Cases", "cost", "Net Buy $", "GM %", "Discount %", "Deal Terms"]
+            "Buy Cases", "cost", "Net Buy $", "GM %", "Discount %", "Deal Terms", "Buy Month"]
     ren = {"OH": "Chain OH (TOH)", "cost": "Unit Cost"}
     def fmt(d):
         d = d[[c for c in cols if c in d.columns]].rename(columns=ren)
@@ -238,6 +285,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         return d
     out, defr = fmt(within), fmt(deferred)
     removed_out = fmt(removed) if len(removed) else None
+    bm_wait_out = fmt(bm_wait) if len(bm_wait) else None
 
     urgent = low = 0
     if len(tplan):
@@ -286,10 +334,19 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
             L.append(f"    {str(r['Item'])[:42]:42}  (would have bought {int(r['Buy Units'])}u)")
         if len(removed_out) > 15:
             L.append(f"    ...and {len(removed_out) - 15} more (see Being Removed tab).")
+    if bm_wait_out is not None and len(bm_wait_out):
+        wait_val = float(bm_wait["Net Buy $"].sum())
+        L += ["", f"  WAIT FOR BUY-MONTH ({len(bm_wait_out)} routine deal items out of their buy month - "
+                  f"${wait_val:,.0f} cheaper to buy in-month):"]
+        for _, r in bm_wait_out.head(15).iterrows():
+            L.append(f"    {str(r['Item'])[:42]:42}  {r.get('Buy Month', '')}")
+        if len(bm_wait_out) > 15:
+            L.append(f"    ...and {len(bm_wait_out) - 15} more (see Buy-Month Wait tab).")
     text = "\n".join([x for x in L if x is not None])
 
     sheets = {"Recommended Order": out}
     if removed_out is not None and len(removed_out): sheets["Being Removed"] = removed_out
+    if bm_wait_out is not None and len(bm_wait_out): sheets["Buy-Month Wait"] = bm_wait_out
     if len(tplan): sheets["Transfer Plan"] = tplan
     if len(defr): sheets["Deferred"] = defr
     base = "THC" if label == "THC" else label   # THC keeps legacy filename
@@ -338,12 +395,14 @@ def main():
     retail = retail_price_map(xl)
     buyers, _ = dbb.buyer_lookup()
     remove_set = load_remove_set()
+    buy_months = load_buy_months()
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     summaries = []
     for label, matches in DEPARTMENTS.items():
         ddf = df if dep is None else df[dep.isin([m.lower() for m in matches])]
-        s = run_department(ddf.copy(), label, retail, buyers, today, fdate, stale_days, need_basis, remove_set)
+        s = run_department(ddf.copy(), label, retail, buyers, today, fdate, stale_days, need_basis,
+                           remove_set, buy_months)
         if s:
             summaries.append(s)
             print(f"{label:<9} net buy ${s['Net Buy $']:>11,.0f}  | gross ${s['Gross $']:>11,.0f}  "
