@@ -108,6 +108,17 @@ def load_inventory(dept):
         return None
 
 
+def load_list(name):
+    """A product-form section list (Remove List.csv / New Items.csv)."""
+    b = get_bytes(name)
+    if not b:
+        return None
+    try:
+        return pd.read_csv(io.BytesIO(b))
+    except Exception:
+        return None
+
+
 def build_context(dept, focus=""):
     summary, buys, trans = read_order(dept)
     inv = load_inventory(dept)
@@ -163,7 +174,21 @@ def build_context(dept, focus=""):
                          if c in inv.columns]
                 parts += [f"\n=== ACTIVE DEALS ({len(deals)}) - sorted by weekly velocity ===",
                           deals.sort_values("Wk Velocity", ascending=False)[dcols].head(25).to_csv(index=False)]
-    return "\n".join(parts)[:22000]
+    # product-form sections carried over: items being removed (don't reorder) and new items
+    rem = load_list("Remove List.csv")
+    if rem is not None and "Item" in rem.columns:
+        if "Department" in rem.columns:
+            rem = rem[rem["Department"] == dept]
+        if len(rem):
+            parts += [f"\n=== BEING REMOVED ({len(rem)} discontinued items - DO NOT reorder) ===",
+                      rem["Item"].head(40).to_csv(index=False)]
+    newi = load_list("New Items.csv")
+    if newi is not None and "Item" in newi.columns:
+        if "Department" in newi.columns:
+            newi = newi[newi["Department"] == dept]
+        if len(newi):
+            parts += [f"\n=== NEW ITEMS ({len(newi)} being added) ===", newi["Item"].head(40).to_csv(index=False)]
+    return "\n".join(parts)[:26000]
 
 
 def _build_system(dept, focus=""):
@@ -183,7 +208,8 @@ def _build_system(dept, focus=""):
         "- If a fact truly isn't present, say so in one short line.\n\n"
         "The data below has: the weekly ORDER (chain-wide buy), the TRANSFER plan + PER-STORE NEEDS "
         "(use for store questions), and a full INVENTORY snapshot of every item (on-hand chain + by "
-        "store, velocity, WOS, cost, retail, margin, sales) plus TOP SELLERS and LOW/AT-RISK lists.\n\n"
+        "store, velocity, WOS, cost, retail, margin, sales) plus TOP SELLERS, LOW/AT-RISK, ACTIVE DEALS, "
+        "items BEING REMOVED (discontinued - do not reorder), and NEW ITEMS lists.\n\n"
         "DATA:\n" + build_context(dept, focus))
 
 
