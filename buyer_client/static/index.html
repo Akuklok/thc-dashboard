@@ -182,7 +182,11 @@ async function ask(){
     const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply});
   }catch(e){t.textContent='(Error reaching the assistant)';}
 }
-if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(()=>{});}
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/sw.js').catch(()=>{});
+  let _reloaded=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(!_reloaded){_reloaded=true; location.reload();} });
+}
 const who=localStorage.getItem('who');
 if(who){try{start(who,JSON.parse(localStorage.getItem('depts')));}catch(e){}}
 </script>
