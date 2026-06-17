@@ -60,24 +60,13 @@
 </head>
 <body>
 
-<div id="login">
-  <h1>Top Ten Buyer</h1>
-  <p>Your buying assistant</p>
-  <input id="u" placeholder="Username" autocomplete="username"/>
-  <input id="p" type="password" placeholder="Password" autocomplete="current-password"/>
-  <div class="err" id="loginErr"></div>
-  <button onclick="login()">Log in</button>
-</div>
-
 <div id="app" style="display:none">
   <header>
     <span class="brand">Top Ten Buyer</span>
-    <select id="dept" onchange="loadToday(); if(document.getElementById('lists').style.display!=='none') loadTabs();"></select>
+    <select id="dept" onchange="deptChange()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
-    <span id="who" style="opacity:.85;font-size:13px"></span>
-    <button onclick="logout()">Log out</button>
   </header>
   <div class="tabs">
     <button id="tabToday" class="on" onclick="show('today')">Today — what to do</button>
@@ -115,7 +104,8 @@
 </div>
 
 <script>
-let DEPTS=[], history=[];
+const ALLDEPTS=["THC","Wine","Spirits","Beer","Other"];   // each department is its own section
+let history=[];
 const $=id=>document.getElementById(id);
 const money=n=>'$'+Math.round(n||0).toLocaleString();
 function ago(iso){
@@ -128,21 +118,17 @@ function ago(iso){
 }
 function fmtd(d){ if(!d) return ''; const p=String(d).split('-'); return p.length>=3?(+p[1])+'/'+(+p[2]):d; }
 
-async function login(){
-  const r=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({user:$('u').value,pw:$('p').value})});
-  const d=await r.json();
-  if(!d.ok){$('loginErr').textContent='Incorrect username or password.';return;}
-  localStorage.setItem('who',d.who); localStorage.setItem('depts',JSON.stringify(d.depts));
-  start(d.who,d.depts);
-}
-function logout(){localStorage.clear();location.reload();}
-function start(who,depts){
-  DEPTS=depts;
-  $('login').style.display='none'; $('app').style.display='block';
-  $('who').textContent=who;
-  $('dept').innerHTML=depts.map(d=>`<option>${d}</option>`).join('');
+function init(){
+  $('app').style.display='block';
+  $('dept').innerHTML=ALLDEPTS.map(d=>`<option>${d}</option>`).join('');
+  const last=localStorage.getItem('dept');
+  if(last && ALLDEPTS.includes(last)) $('dept').value=last;
   loadToday();
+}
+function deptChange(){
+  localStorage.setItem('dept',$('dept').value);
+  loadToday();
+  if($('lists').style.display!=='none') loadTabs();
 }
 function show(v){
   for(const k of ['today','ask','lists']) $(k).style.display = (v===k)?'block':'none';
@@ -222,8 +208,7 @@ if('serviceWorker' in navigator){
   let _reloaded=false;
   navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(!_reloaded){_reloaded=true; location.reload();} });
 }
-const who=localStorage.getItem('who');
-if(who){try{start(who,JSON.parse(localStorage.getItem('depts')));}catch(e){}}
+init();
 </script>
 </body>
 </html>
