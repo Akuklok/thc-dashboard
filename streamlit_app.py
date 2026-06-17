@@ -446,6 +446,12 @@ with tabs[6]:
         st.caption("Sorted most-urgent-first. Move these between stores before buying.")
         tp = flt(transfers_plan, "Item")
         st.dataframe(tp if tp is not None else transfers_plan, use_container_width=True, height=360)
+    being_removed = load(f"{dept} Recommended Order.xlsx", "Being Removed")
+    if being_removed is not None and len(being_removed):
+        st.markdown("##### Being removed — do not reorder")
+        st.caption("Discontinued items (on the product form's Remove tab) that are still selling or low. "
+                   "Run down the stock instead of reordering; they're excluded from the buy above.")
+        st.dataframe(being_removed, use_container_width=True, height=240)
 
 # ----------------------------- Deals -----------------------------
 with tabs[7]:
