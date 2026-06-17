@@ -11,13 +11,15 @@ shows them under a "Product Lists" view.
 import os, glob, re
 import pandas as pd
 
-FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Product Lists",
+FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Top Ten OneDrive - Product Lists",
+           r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Product Lists",
            r"C:\Users\Anna K\OneDrive - Top Ten Liquors",
            r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports",
            r"C:\Users\Anna K\Downloads"]
 OUT = [r"C:\Users\Anna K\Downloads", r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports"]
+# Beer shares the Liquor workbook (Beer is maintained inside the Liquor file).
 DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
-         "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Beer [0-9]*.xlsx"}
+         "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Liquor [0-9]*.xlsx"}
 # the tabs buyers use that we mirror into the new system
 TABS = ["Remove", "New Items", "Upcoming Price Changes", "Price Level", "Retail Pricing Table"]
 MAXROWS = 2000
