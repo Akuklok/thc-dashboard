@@ -2323,7 +2323,7 @@ Matic Pinot Gris 750ml,Pinot Grigio/Gris,"New France Wine Co, Inc",2,0.0,64.3,10
 Matchbook The Arsonist Red Blend 750ml,Red Blends,The Wine Company,0,0.0,,12.5,22.49,44,,0,0,
 Matchbook Petite Sirah 750ml,Other Reds,The Wine Company,0,0.0,,7.29,17.49,58,,0,0,
 Louis Martini Alex Valley Cab 750ml,Cabernet,Johnson Brothers - St. Paul,17,0.0,,24.2,39.99,39,,0,0,Osseo:17
-Meier's Cold Duck N/A 750ml,Sparkling,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.0,,3.67,6.49,44,,0,0,
+Meier's Cold Duck N/A 750ml,Sparkling,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.0,,3.67,6.49,44,44,0,0,
 Meeker Roller Coaster Red,Box Wines,,0,0.0,,7.73,11.99,36,,0,0,
 McManis Zinfandel 750ml,Zinfandel,Oxford Street Merchants,28,0.0,,7.74,13.99,45,,0,0,Andover:1;Rosemount:2;Blaine:6;Osseo:9;Woodbury:10
 McManis Viognier 750ml,Other Whites,Oxford Street Merchants,2,0.0,64.3,6.78,13.99,52,,0,1,Osseo:2
@@ -2347,8 +2347,8 @@ Daylis Saint Emillion 750ml,Red Blends,,0,0.0,,20.0,29.99,33,,0,0,
 Merry Edwards RR Pinot Noir 750ml,Pinot Noir,Oxford Street Merchants,12,0.0,385.7,50.25,87.99,43,,0,1,Andover:4;St. Louis Park:8
 Mer Soleil Pinot Noir Santa Lucia 750ml,Pinot Noir,Oxford Street Merchants,0,0.0,,18.75,31.99,41,,0,0,
 Menage A Trois Pinot Grigio 750ml,Pinot Grigio/Gris,Phillips Wine & Spirits - St. Paul,0,0.0,,6.95,11.49,40,,0,0,
-Meier's Sparkling Wild Berry N/A 750ml,Sparkling,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.0,,3.33,6.49,49,,0,0,
-Meier's Sparkling Apple Juice 750ml,Sparkling,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.0,,3.67,6.49,44,,0,0,
+Meier's Sparkling Wild Berry N/A 750ml,Sparkling,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.0,,3.33,6.49,49,44,0,0,
+Meier's Sparkling Apple Juice 750ml,Sparkling,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.0,,3.67,6.49,44,44,0,0,
 Mionetto Organic Prosecco 750ml,Sparkling,Southern Glazer's Wine & Spirits of MN,6,0.0,,4.37,20.99,79,,0,0,Minnetonka:6
 Minges Scheurebe Feinherb,Other Whites,The Wine Company,12,0.0,385.7,14.33,24.99,43,,0,1,Rosemount:4;St. Louis Park:8
 Migration Sonoma Coast Chardonnay 750ml,Chardonnay,The Wine Company,0,0.0,,21.33,41.99,49,,0,0,
@@ -2488,7 +2488,7 @@ Overgaauw Tria Corda 750ml,Red Blends,,0,0.0,0.0,18.12,29.99,40,,0,1,
 Our Lady of Guadalupe Pinot Noir 750ml,Pinot Noir,Johnson Brothers - St. Paul,2,0.0,,56.67,74.99,24,,0,0,Andover:2
 Orlegi de Luberri Rioja 750ml,Other Reds,"New France Wine Co, Inc",8,0.0,,8.56,24.99,66,,0,0,Vadnais Heights:2;Minnetonka:6
 Borgo Maragliano Chardonnay Brut 750ml,Sparkling,,6,0.0,,9.33,20.99,56,,0,0,Andover:2;Chanhassen:4
-Bordiga Extra Dry Vermouth 375ml,Box Wines,The Wine Company,3,0.0,96.4,15.33,31.99,52,,0,1,Vadnais Heights:3
+Bordiga Extra Dry Vermouth 375ml,Box Wines,The Wine Company,3,0.0,96.4,15.33,31.99,52,126,0,1,Vadnais Heights:3
 Boones Farm Strawberry Hill,Flavored,Johnson Brothers - St. Paul,1,0.0,,4.0,5.99,33,,0,0,Vadnais Heights:1
 Pacificana Chardonnay 750ml,Chardonnay,Oxford Street Merchants,16,0.0,514.3,7.95,17.49,55,,0,1,Andover:3;Cottage Grove:5;Woodbury:8
 Pacific Redwood Pinot Noir 750ml,Pinot Noir,Oxford Street Merchants,7,0.0,,12.88,23.99,46,,0,0,Minnetonka:7
