@@ -63,20 +63,30 @@ def gh_put(path, data_bytes, message):
 
 
 def send_feedback_email(subject, html, img_b64):
-    """Email a buyer report (with screenshot) to FEEDBACK_EMAIL via Resend. False if not configured."""
-    if not (RESEND_API_KEY and FEEDBACK_EMAIL):
-        return False
-    body = {"from": FEEDBACK_FROM, "to": [FEEDBACK_EMAIL], "subject": subject, "html": html}
+    """Email a buyer report (with screenshot) via Resend. Returns (ok, detail)."""
+    key = os.environ.get("RESEND_API_KEY", "")          # read at call time (picks up host config)
+    to = os.environ.get("FEEDBACK_EMAIL", "")
+    frm = os.environ.get("FEEDBACK_FROM", "onboarding@resend.dev")
+    if not key:
+        return False, "RESEND_API_KEY not set on the server"
+    if not to:
+        return False, "FEEDBACK_EMAIL not set on the server"
+    body = {"from": frm, "to": [to], "subject": subject, "html": html}
     if img_b64:
         body["attachments"] = [{"filename": "screenshot.png", "content": img_b64}]
     try:
         req = urllib.request.Request("https://api.resend.com/emails", data=json.dumps(body).encode(),
-                                     headers={"Authorization": "Bearer " + RESEND_API_KEY,
+                                     headers={"Authorization": "Bearer " + key,
                                               "Content-Type": "application/json"}, method="POST")
         with urllib.request.urlopen(req, timeout=30) as r:
-            return 200 <= r.status < 300
+            return (200 <= r.status < 300), f"resend {r.status}"
+    except urllib.error.HTTPError as e:
+        msg = ""
+        try: msg = e.read().decode("utf-8", "replace")[:400]
+        except Exception: pass
+        return False, f"resend HTTP {e.code}: {msg}"
     except Exception as e:
-        print("feedback email failed:", e); return False
+        return False, f"send error: {e}"
 
 
 def get_bytes(name):
@@ -510,7 +520,7 @@ class Handler(BaseHTTPRequestHandler):
             ts = time.strftime("%Y-%m-%d %H:%M")
             html = ("<b>From:</b> %s &nbsp; <b>Dept:</b> %s &nbsp; <b>Screen:</b> %s<br><b>When:</b> %s<br><br>%s"
                     % (who, dept, page, ts, (text or "(no description)").replace("\n", "<br>")))
-            emailed = send_feedback_email(f"Buyer feedback - {who} ({dept})", html, img_b64)
+            emailed, detail = send_feedback_email(f"Buyer feedback - {who} ({dept})", html, img_b64)
             try:                                  # archive the report (and the shot if email didn't go)
                 uid = re.sub(r"\D", "", str(time.time()))
                 rec = {"ts": ts, "who": who, "dept": dept, "page": page, "text": text, "emailed": emailed}
@@ -519,7 +529,7 @@ class Handler(BaseHTTPRequestHandler):
                     gh_put(f"feedback/fb-{uid}.png", base64.b64decode(img_b64), "feedback shot " + ts)
             except Exception:
                 pass
-            return self._send(200, {"ok": True, "emailed": emailed})
+            return self._send(200, {"ok": True, "emailed": emailed, "detail": detail})
         return self._send(404, {"error": "unknown endpoint"})
 
     def log_message(self, *a):
