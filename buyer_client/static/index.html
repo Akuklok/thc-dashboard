@@ -33,6 +33,13 @@
   .rbtns{display:flex;gap:8px;justify-content:flex-end;margin-top:10px}
   .rbtns button{background:var(--green);color:#fff;border:0;padding:9px 16px;border-radius:8px;cursor:pointer}
   .rbtns button.ghost{background:#eef1ee;color:var(--ink)}
+  .dot{display:inline-block;min-width:18px;height:18px;line-height:18px;text-align:center;background:#b3261e;color:#fff;border-radius:9px;font-size:11px;font-weight:700;padding:0 5px;margin-left:5px}
+  #myreports{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
+  .rep{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin-top:8px;font-size:13px}
+  .rep .st{float:right;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px}
+  .rep .st.open{background:#fff4e0;color:#9a6700}
+  .rep .st.fixed{background:#e3f4e9;color:#1c6b4f}
+  .rep .ans{margin-top:6px;background:#f5f6f4;border-radius:6px;padding:7px 9px;color:var(--ink)}
   main{padding:16px;max-width:1100px;margin:0 auto}
   .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:180px;flex:1}
@@ -76,7 +83,7 @@
     <select id="dept" onchange="deptChange()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
-    <button onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
+    <button id="reportBtn" onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
   </header>
   <div class="tabs">
@@ -129,6 +136,7 @@
         <button class="ghost" onclick="closeReport()">Cancel</button>
         <button onclick="sendReport()">Send</button>
       </div>
+      <div id="myreports"></div>
     </div>
   </div>
 </div>
@@ -138,6 +146,8 @@
 const ALLDEPTS=["THC","Wine","Spirits","Beer","Other"];   // each department is its own section
 let history=[];
 const $=id=>document.getElementById(id);
+// stable per-device id so a buyer sees the status of the reports they submitted (no login)
+const DEVICE=(function(){let d=localStorage.getItem('device');if(!d){d='d'+Date.now().toString(36)+Math.random().toString(36).slice(2,8);localStorage.setItem('device',d);}return d;})();
 const money=n=>'$'+Math.round(n||0).toLocaleString();
 function ago(iso){
   if(!iso) return '';
@@ -155,6 +165,7 @@ function init(){
   const last=localStorage.getItem('dept');
   if(last && ALLDEPTS.includes(last)) $('dept').value=last;
   loadToday();
+  checkReportUpdates();
 }
 function deptChange(){
   localStorage.setItem('dept',$('dept').value);
@@ -267,12 +278,39 @@ async function openReport(){
   $('rtext').value=''; $('rstatus').textContent=''; $('rname').value=localStorage.getItem('rname')||'';
   shotData=''; $('shotPrev').style.display='none'; $('shotFile').value='';
   $('report').style.display='flex';
+  renderMyReports();
   if(window.html2canvas){
     try{ const cv=await html2canvas(document.body,{scale:0.8,logging:false,useCORS:true}); setShot(cv.toDataURL('image/png')); }
     catch(e){}
   }
 }
 function closeReport(){ $('report').style.display='none'; }
+async function getMyReports(){
+  try{ return (await (await fetch('/api/myreports?device='+encodeURIComponent(DEVICE))).json()).reports||[]; }
+  catch(e){ return []; }
+}
+async function renderMyReports(){
+  const reps=await getMyReports();
+  // anything fixed is now "seen" -> clear the header badge
+  localStorage.setItem('seenFixed',JSON.stringify(reps.filter(r=>r.status==='fixed').map(r=>r.id)));
+  updateReportBadge(0);
+  if(!reps.length){ $('myreports').innerHTML='<div class="hint">Your past reports will show here with their status.</div>'; return; }
+  $('myreports').innerHTML='<div class="hint" style="margin-bottom:4px">Your reports</div>'+reps.map(r=>{
+    const st=r.status==='fixed'?'fixed':'open';
+    const ans=r.reply?`<div class="ans"><b>Reply:</b> ${esc(r.reply)}</div>`:'';
+    return `<div class="rep"><span class="st ${st}">${st==='fixed'?'Fixed':'Open'}</span>`+
+           `<div>${esc(r.text||'(screenshot only)')}</div>`+
+           `<div class="hint" style="margin-top:3px">${r.dept||''} · ${r.ts||''}</div>${ans}</div>`;
+  }).join('');
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function updateReportBadge(n){ $('reportBtn').innerHTML = n>0 ? ('Report <span class="dot">'+n+'</span>') : 'Report'; }
+async function checkReportUpdates(){
+  const reps=await getMyReports();
+  let seen=[]; try{ seen=JSON.parse(localStorage.getItem('seenFixed')||'[]'); }catch(e){}
+  const fresh=reps.filter(r=>r.status==='fixed' && !seen.includes(r.id)).length;
+  updateReportBadge(fresh);
+}
 function loadShotFile(e){ const f=e.target.files[0]; if(!f)return; const r=new FileReader(); r.onload=()=>setShot(r.result); r.readAsDataURL(f); }
 async function sendReport(){
   const text=$('rtext').value.trim();
@@ -282,10 +320,11 @@ async function sendReport(){
   const page=$('tabLists').className==='on'?'Product Lists':($('tabAsk').className==='on'?'Ask the assistant':'Today');
   try{
     const r=await fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({text,image:shotData,dept:$('dept').value,who:$('rname').value.trim(),page})});
-    const d=await r.json();
-    $('rstatus').textContent = d.emailed ? 'Sent — thank you!' : 'Saved — thank you! (email delivery is being set up)';
-    setTimeout(closeReport,1300);
+      body:JSON.stringify({text,image:shotData,dept:$('dept').value,who:$('rname').value.trim(),page,device:DEVICE})});
+    await r.json();
+    $('rstatus').textContent='Sent — thank you! Track it under "Your reports" below.';
+    $('rtext').value=''; shotData=''; $('shotPrev').style.display='none';
+    renderMyReports();
   }catch(e){ $('rstatus').textContent='Could not send — please try again.'; }
 }
 document.addEventListener('paste',e=>{
