@@ -77,7 +77,12 @@ def send_feedback_email(subject, html, img_b64):
     try:
         req = urllib.request.Request("https://api.resend.com/emails", data=json.dumps(body).encode(),
                                      headers={"Authorization": "Bearer " + key,
-                                              "Content-Type": "application/json"}, method="POST")
+                                              "Content-Type": "application/json",
+                                              "Accept": "application/json",
+                                              # Cloudflare in front of Resend 403s the default
+                                              # python-urllib UA (error 1010); send a real one.
+                                              "User-Agent": "Mozilla/5.0 (compatible; TopTenBuyer/1.0)"},
+                                     method="POST")
         with urllib.request.urlopen(req, timeout=30) as r:
             return (200 <= r.status < 300), f"resend {r.status}"
     except urllib.error.HTTPError as e:
