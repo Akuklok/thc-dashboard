@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Top Ten Buyer — Feedback Inbox</title>
+<style>
+  :root{--green:#0f3d2e;--green2:#1c6b4f;--bg:#f5f6f4;--card:#fff;--line:#e3e6e2;--ink:#1a1f1c;--muted:#6b756f}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+  header{background:var(--green);color:#fff;padding:12px 18px;display:flex;align-items:center;gap:12px}
+  header .brand{font-weight:700;font-size:18px}
+  header .sp{flex:1}
+  header button{background:rgba(255,255,255,.15);color:#fff;border:0;padding:7px 13px;border-radius:8px;cursor:pointer}
+  main{padding:18px;max-width:860px;margin:0 auto}
+  .gate{max-width:340px;margin:14vh auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px}
+  .gate h1{margin:0 0 4px;font-size:20px;color:var(--green)}
+  .gate p{color:var(--muted);font-size:14px;margin:0 0 14px}
+  input,textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit}
+  .gate button,.card .fix{margin-top:10px;background:var(--green);color:#fff;border:0;padding:10px 16px;border-radius:8px;cursor:pointer;font-size:15px}
+  .err{color:#b3261e;font-size:13px;min-height:18px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+  .card .meta{color:var(--muted);font-size:12px;margin-bottom:6px}
+  .card .txt{font-size:15px;white-space:pre-wrap;margin-bottom:8px}
+  .st{float:right;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px}
+  .st.open{background:#fff4e0;color:#9a6700}
+  .st.fixed{background:#e3f4e9;color:#1c6b4f}
+  .row{display:flex;gap:8px;align-items:flex-start}
+  .row .fix{white-space:nowrap}
+  .hint{color:var(--muted);font-size:13px}
+  h2{font-size:15px;color:var(--muted);margin:18px 0 8px;text-transform:uppercase;letter-spacing:.4px}
+</style>
+</head>
+<body>
+
+<div id="gate" class="gate">
+  <h1>Feedback Inbox</h1>
+  <p>Enter your admin key to view buyer reports.</p>
+  <input id="key" type="password" placeholder="Admin key" onkeydown="if(event.key==='Enter')enter()"/>
+  <div class="err" id="gateErr"></div>
+  <button onclick="enter()">Open</button>
+</div>
+
+<div id="app" style="display:none">
+  <header>
+    <span class="brand">Feedback Inbox</span>
+    <span class="sp"></span>
+    <button onclick="load()">Refresh</button>
+    <button onclick="logout()">Lock</button>
+  </header>
+  <main>
+    <div id="open"></div>
+    <div id="done"></div>
+  </main>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let KEY='';
+async function enter(){
+  KEY=$('key').value.trim();
+  const ok=await load(true);
+  if(ok){ localStorage.setItem('adminkey',KEY); $('gate').style.display='none'; $('app').style.display='block'; }
+  else { $('gateErr').textContent='Wrong key.'; }
+}
+function logout(){ localStorage.removeItem('adminkey'); location.reload(); }
+async function load(silent){
+  try{
+    const r=await fetch('/api/admin/list',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key:KEY})});
+    const d=await r.json();
+    if(!d.ok){ return false; }
+    render(d.reports||[]);
+    return true;
+  }catch(e){ if(!silent) $('gateErr').textContent='Could not load.'; return false; }
+}
+function card(r){
+  const st=r.status==='fixed'?'fixed':'open';
+  return `<div class="card" id="c-${r.id}">
+    <span class="st ${st}">${st==='fixed'?'Fixed':'Open'}</span>
+    <div class="meta">${esc(r.who||'(no name)')} · ${esc(r.dept||'')} · ${esc(r.page||'')} · ${esc(r.ts||'')}</div>
+    <div class="txt">${esc(r.text||'(screenshot only — see email)')}</div>
+    <div class="row">
+      <textarea id="rep-${r.id}" rows="2" placeholder="Reply to the buyer (they'll see this in the app)">${esc(r.reply||'')}</textarea>
+      <button class="fix" onclick="resolve('${r.id}', '${st==='fixed'?'open':'fixed'}')">${st==='fixed'?'Reopen':'Mark fixed'}</button>
+    </div>
+  </div>`;
+}
+function render(reps){
+  const open=reps.filter(r=>r.status!=='fixed'), done=reps.filter(r=>r.status==='fixed');
+  $('open').innerHTML='<h2>Open ('+open.length+')</h2>'+(open.length?open.map(card).join(''):'<div class="hint">Nothing open. Nice.</div>');
+  $('done').innerHTML='<h2>Fixed ('+done.length+')</h2>'+done.map(card).join('');
+}
+async function resolve(id,status){
+  const reply=$('rep-'+id)?$('rep-'+id).value.trim():'';
+  try{
+    const r=await fetch('/api/admin/resolve',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({key:KEY,id,status,reply})});
+    if((await r.json()).ok) load(true);
+  }catch(e){}
+}
+const saved=localStorage.getItem('adminkey');
+if(saved){ KEY=saved; load(true).then(ok=>{ if(ok){$('gate').style.display='none';$('app').style.display='block';} }); }
+</script>
+</body>
+</html>
