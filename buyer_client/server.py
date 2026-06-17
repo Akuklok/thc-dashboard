@@ -93,7 +93,8 @@ STOPWORDS = {"what", "does", "need", "needs", "this", "week", "that", "have", "m
              "for", "and", "buy", "store", "item", "items", "should", "which", "with", "sell",
              "sells", "selling", "price", "cost", "costs", "margin", "margins", "stock", "many",
              "are", "our", "you", "can", "get", "right", "now", "most", "top", "best", "worst",
-             "low", "high", "out", "from", "into", "per", "about", "tell", "give", "list", "show"}
+             "low", "high", "out", "from", "into", "per", "about", "tell", "give", "list", "show",
+             "club", "customer", "one", "case", "cases", "unit", "units", "each", "make", "retail"}
 
 
 def load_inventory(dept):
@@ -140,11 +141,14 @@ def build_context(dept, focus=""):
     if inv is not None and len(inv):
         words = [w for w in re.findall(r"[a-z0-9]{3,}", (focus or "").lower()) if w not in STOPWORDS]
         if words:
-            mask = inv["Item"].astype(str).str.lower().apply(lambda s: any(w in s for w in words))
-            hits = inv[mask]
+            names = inv["Item"].astype(str).str.lower()
+            score = names.apply(lambda s: sum(w in s for w in words))
+            hits = inv[score > 0].copy()
+            hits["_s"] = score[score > 0]
+            hits = hits.sort_values("_s", ascending=False).drop(columns="_s")   # most-relevant item first
             if len(hits):
-                parts += [f"\n=== ITEMS MATCHING THE QUESTION ({len(hits)}) - full detail incl. by-store on-hand ===",
-                          hits.head(30).to_csv(index=False)]
+                parts += ["\n=== ITEMS MATCHING THE QUESTION (best match first) - full detail: cost, retail, club price, margin, on-hand by store ===",
+                          hits.head(15).to_csv(index=False)]
         compact = [c for c in ["Item", "Category", "Chain OH", "Wk Velocity", "WOS", "Cost",
                                "Retail", "Margin %", "30D Units"] if c in inv.columns]
         parts += ["\n=== TOP SELLERS (by weekly velocity) ===", inv[compact].head(12).to_csv(index=False)]
@@ -173,8 +177,9 @@ def _build_system(dept, focus=""):
         "- For a STORE question, list what that store needs this week, most urgent (lowest WOS / "
         "out of stock) first; note 'transfer' vs 'buy' in a few words only if useful.\n"
         "- Use the buyer's terms (PM, WOS, cases, gross/net). Cite only real numbers from the data.\n"
-        "- Prices: 'Cost'/'Unit Cost' = what Top Ten PAYS the vendor (used for order $); 'Retail' = the "
-        "customer shelf price; 'Margin %' = (Retail - Cost) / Retail. Never report cost as retail or vice versa.\n"
+        "- Prices: 'Cost'/'Unit Cost' = what Top Ten PAYS the vendor (used for order $); 'Retail' = the regular "
+        "customer shelf price; 'Club Price' = the member/club customer price; 'Margin %' = (Retail - Cost)/Retail. "
+        "Never report cost as retail or vice versa.\n"
         "- If a fact truly isn't present, say so in one short line.\n\n"
         "The data below has: the weekly ORDER (chain-wide buy), the TRANSFER plan + PER-STORE NEEDS "
         "(use for store questions), and a full INVENTORY snapshot of every item (on-hand chain + by "
@@ -226,10 +231,9 @@ def _key(env_name, keyfile):
 
 def ai_reply(dept, messages):
     """Provider-pluggable: Gemini if a Gemini key is present, else Claude."""
-    # focus on the recent conversation (not just the last line) so follow-ups like
-    # "how much would that cost" keep the item/store from earlier turns in context.
-    user_msgs = [m.get("content", "") for m in messages if m.get("role") == "user"]
-    focus = " ".join(user_msgs[-4:])
+    # focus on the recent conversation (both sides) so follow-ups like "what's the club price"
+    # keep the item the assistant just named in context, not only what the user typed.
+    focus = " ".join(m.get("content", "") for m in messages[-6:])
     system = _build_system(dept, focus)
     gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
     if gk:
