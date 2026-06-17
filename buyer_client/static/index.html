@@ -25,6 +25,14 @@
   .subtabs button.on{background:var(--green);color:#fff;border-color:var(--green);font-weight:600}
   .find{width:100%;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:0 0 8px;display:block}
   th{user-select:none}
+  /* feedback modal */
+  #report{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+  #report .sheet{background:#fff;border-radius:14px;padding:18px;max-width:520px;width:100%;max-height:92vh;overflow:auto}
+  #report img{max-width:100%;max-height:220px;border:1px solid var(--line);border-radius:8px;display:block;margin:8px 0}
+  #report input,#report textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;margin-top:6px}
+  .rbtns{display:flex;gap:8px;justify-content:flex-end;margin-top:10px}
+  .rbtns button{background:var(--green);color:#fff;border:0;padding:9px 16px;border-radius:8px;cursor:pointer}
+  .rbtns button.ghost{background:#eef1ee;color:var(--ink)}
   main{padding:16px;max-width:1100px;margin:0 auto}
   .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:180px;flex:1}
@@ -68,6 +76,7 @@
     <select id="dept" onchange="deptChange()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
+    <button onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
   </header>
   <div class="tabs">
@@ -106,7 +115,24 @@
     <span class="hint" id="listCount"></span>
     <div class="wrap"><table id="listTbl"></table></div>
   </main>
+
+  <div id="report" style="display:none">
+    <div class="sheet">
+      <h3 style="margin:0 0 4px">Report a problem or idea</h3>
+      <div class="hint">Goes straight to the team with a screenshot of this screen. Thanks for helping during beta.</div>
+      <img id="shotPrev" style="display:none" alt="screenshot preview"/>
+      <div class="hint" style="margin:6px 0">Auto-captured this screen. Want a different image? <input type="file" id="shotFile" accept="image/*" onchange="loadShotFile(event)"/> (or paste one)</div>
+      <input id="rname" placeholder="Your name (optional)"/>
+      <textarea id="rtext" rows="4" placeholder="What happened, or what would you like added? (you can paste a screenshot here too)"></textarea>
+      <div id="rstatus" class="hint"></div>
+      <div class="rbtns">
+        <button class="ghost" onclick="closeReport()">Cancel</button>
+        <button onclick="sendReport()">Send</button>
+      </div>
+    </div>
+  </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
 
 <script>
 const ALLDEPTS=["THC","Wine","Spirits","Beer","Other"];   // each department is its own section
@@ -234,6 +260,39 @@ async function loadToday(){
   mountTable('trTbl',d.tr_cols,d.tr_rows);
   history=[]; $('msgs').innerHTML='';
 }
+// ---- beta feedback: capture a screenshot of the current screen + a note, email to the team ----
+let shotData='';
+function setShot(d){ shotData=d; const p=$('shotPrev'); p.src=d; p.style.display='block'; }
+async function openReport(){
+  $('rtext').value=''; $('rstatus').textContent=''; $('rname').value=localStorage.getItem('rname')||'';
+  shotData=''; $('shotPrev').style.display='none'; $('shotFile').value='';
+  $('report').style.display='flex';
+  if(window.html2canvas){
+    try{ const cv=await html2canvas(document.body,{scale:0.8,logging:false,useCORS:true}); setShot(cv.toDataURL('image/png')); }
+    catch(e){}
+  }
+}
+function closeReport(){ $('report').style.display='none'; }
+function loadShotFile(e){ const f=e.target.files[0]; if(!f)return; const r=new FileReader(); r.onload=()=>setShot(r.result); r.readAsDataURL(f); }
+async function sendReport(){
+  const text=$('rtext').value.trim();
+  if(!text && !shotData){ $('rstatus').textContent='Add a note or a screenshot first.'; return; }
+  localStorage.setItem('rname',$('rname').value.trim());
+  $('rstatus').textContent='Sending...';
+  const page=$('tabLists').className==='on'?'Product Lists':($('tabAsk').className==='on'?'Ask the assistant':'Today');
+  try{
+    const r=await fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({text,image:shotData,dept:$('dept').value,who:$('rname').value.trim(),page})});
+    const d=await r.json();
+    $('rstatus').textContent = d.emailed ? 'Sent — thank you!' : 'Saved — thank you! (email delivery is being set up)';
+    setTimeout(closeReport,1300);
+  }catch(e){ $('rstatus').textContent='Could not send — please try again.'; }
+}
+document.addEventListener('paste',e=>{
+  if($('report').style.display==='none')return;
+  const items=(e.clipboardData&&e.clipboardData.items)||[];
+  for(const it of items){ if(it.type.indexOf('image')===0){ const f=it.getAsFile(); const r=new FileReader(); r.onload=()=>setShot(r.result); r.readAsDataURL(f); } }
+});
 function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
 async function ask(){
   const q=$('q').value.trim(); if(!q)return; $('q').value='';
