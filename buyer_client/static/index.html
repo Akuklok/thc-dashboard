@@ -23,6 +23,8 @@
   .subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
   .subtabs button{background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:13px;color:var(--ink)}
   .subtabs button.on{background:var(--green);color:#fff;border-color:var(--green);font-weight:600}
+  .find{width:100%;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:0 0 8px;display:block}
+  th{user-select:none}
   main{padding:16px;max-width:1100px;margin:0 auto}
   .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:180px;flex:1}
@@ -80,6 +82,7 @@
     <h3>Transfers — move stock between stores first</h3>
     <div class="cards" id="trcards"></div>
     <h3>What to buy <span class="hint" id="buyHint"></span></h3>
+    <input class="find" id="findBuy" placeholder="Find in this list (item, deal, category)..." oninput="filterTable('buyTbl',this.value)"/>
     <div class="wrap"><table id="buyTbl"></table></div>
     <h3>Transfer plan <span class="hint">(most urgent first)</span></h3>
     <div class="wrap"><table id="trTbl"></table></div>
@@ -99,6 +102,8 @@
   <main id="lists" style="display:none">
     <div class="hint">The product-list tabs you use in the workbook, copied here for an easy transfer. Each department shows its own tabs.</div>
     <div id="ltabs" class="subtabs"></div>
+    <input class="find" id="findList" placeholder="Search this tab across all rows..." oninput="searchList(this.value)"/>
+    <span class="hint" id="listCount"></span>
     <div class="wrap"><table id="listTbl"></table></div>
   </main>
 </div>
@@ -143,34 +148,69 @@ async function loadTabs(){
   catch(e){ curTabs=[]; }
   if(!curTabs.length){ $('ltabs').innerHTML='<span class="hint">No product-list tabs for '+dept+' yet.</span>'; return; }
   if(!curTabs.includes(curTab)) curTab=curTabs[0];
+  if($('findList')) $('findList').value='';
   renderTabBar(); loadList();
 }
 function renderTabBar(){
   $('ltabs').innerHTML=curTabs.map((t,i)=>`<button class="${t===curTab?'on':''}" onclick="pickTab(${i})">${t}</button>`).join('');
 }
-function pickTab(i){ curTab=curTabs[i]; renderTabBar(); loadList(); }
+function pickTab(i){ curTab=curTabs[i]; if($('findList'))$('findList').value=''; renderTabBar(); loadList(); }
+let listTimer=null;
+function searchList(){ clearTimeout(listTimer); listTimer=setTimeout(loadList,250); }   // debounce typing
 async function loadList(){
   const dept=$('dept').value, tab=curTab;
   if(!tab) return;
+  const q=$('findList')?$('findList').value.trim():'';
   $('listTbl').innerHTML='<tr><td>Loading…</td></tr>';
   try{
-    const d=await (await fetch('/api/list?dept='+encodeURIComponent(dept)+'&tab='+encodeURIComponent(tab))).json();
-    if(!d.rows||!d.rows.length){ $('listTbl').innerHTML='<tr><td>Nothing in '+tab+' for '+dept+'.</td></tr>'; return; }
-    table($('listTbl'), d.cols, d.rows);
+    const url='/api/list?dept='+encodeURIComponent(dept)+'&tab='+encodeURIComponent(tab)+(q?('&q='+encodeURIComponent(q)):'');
+    const d=await (await fetch(url)).json();
+    if(!d.cols||!d.cols.length){ $('listTbl').innerHTML='<tr><td>Nothing in '+tab+' for '+dept+'.</td></tr>'; if($('listCount'))$('listCount').textContent=''; return; }
+    mountTable('listTbl', d.cols, d.rows, {server:true});
+    if($('listCount')) $('listCount').textContent =
+      (d.matched!==undefined) ? (q ? `${d.matched.toLocaleString()} match${d.matched===1?'':'es'} of ${d.total.toLocaleString()}`
+                                    : `${d.total.toLocaleString()} rows`) + (d.matched>d.rows.length?` (showing first ${d.rows.length})`:'') : '';
   }catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
 }
-function table(el,cols,rows){
-  if(!rows.length){el.innerHTML='<tr><td>Nothing here right now.</td></tr>';return;}
-  let h='<tr>'+cols.map(c=>`<th>${c}</th>`).join('')+'</tr>';
+// Sortable + filterable tables. mountTable stores the data; drawTable renders with the
+// current sort + (client-side) filter. Product Lists pass server:true (search is server-side).
+const TBL={};
+function mountTable(id,cols,rows,opts){
+  TBL[id]={cols:cols||[],rows:rows||[],sortCol:null,sortDir:1,filter:'',server:!!(opts&&opts.server)};
+  drawTable(id);
+}
+function cellNum(s){ const n=parseFloat(String(s).replace(/[$,%\s]/g,'')); return isNaN(n)?null:n; }
+function drawTable(id){
+  const t=TBL[id], el=$(id); if(!el) return;
+  if(!t.cols.length){ el.innerHTML='<tr><td>Nothing here right now.</td></tr>'; return; }
+  let rows=t.rows;
+  if(t.filter && !t.server){
+    const f=t.filter.toLowerCase();
+    rows=rows.filter(r=>r.some(v=>String(v==null?'':v).toLowerCase().includes(f)));
+  }
+  if(t.sortCol!==null){
+    const c=t.sortCol, dir=t.sortDir;
+    rows=rows.slice().sort((a,b)=>{
+      const sa=String(a[c]==null?'':a[c]), sb=String(b[c]==null?'':b[c]);
+      const na=cellNum(sa), nb=cellNum(sb);
+      if(na!==null&&nb!==null&&sa!==''&&sb!=='') return (na-nb)*dir;
+      return sa.localeCompare(sb)*dir;
+    });
+  }
+  if(!rows.length){ el.innerHTML='<tr><td>No matches.</td></tr>'; return; }
+  const arrow=c=> t.sortCol===c ? (t.sortDir>0?' ▲':' ▼') : '';
+  let h='<tr>'+t.cols.map((c,i)=>`<th onclick="sortBy('${id}',${i})" style="cursor:pointer" title="Click to sort">${c}${arrow(i)}</th>`).join('')+'</tr>';
   for(const r of rows){
     h+='<tr>'+r.map((v,i)=>{
       let s=(v===null||v===undefined)?'':v;
-      if(cols[i]==='Priority'&&s){const cls=s.startsWith('Low')?'Low':s;return `<td><span class="pill ${cls}">${s}</span></td>`;}
-      if(['Net Buy $','Value $'].includes(cols[i])&&s!=='')s=money(+s);
+      if(t.cols[i]==='Priority'&&s){const cls=String(s).startsWith('Low')?'Low':s;return `<td><span class="pill ${cls}">${s}</span></td>`;}
+      if(['Net Buy $','Value $'].includes(t.cols[i])&&s!=='')s=money(+s);
       return `<td>${s}</td>`;}).join('')+'</tr>';
   }
   el.innerHTML=h;
 }
+function sortBy(id,c){ const t=TBL[id]; if(!t)return; if(t.sortCol===c)t.sortDir*=-1; else {t.sortCol=c;t.sortDir=1;} drawTable(id); }
+function filterTable(id,val){ const t=TBL[id]; if(!t)return; t.filter=val; drawTable(id); }
 async function loadToday(){
   const dept=$('dept').value;
   const d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
@@ -189,8 +229,9 @@ async function loadToday(){
     <div class="card"><div class="lbl">Under 2 weeks</div><div class="val">${n(h.low)}</div></div>
     <div class="card"><div class="lbl">Routine top-ups</div><div class="val">${n(h.routine)}</div></div>` : '';
   $('buyHint').textContent = h.items!==undefined ? `(${n(h.items)} items · ${n(h.units)} units · most urgent first)` : '';
-  table($('buyTbl'),d.buy_cols,d.buy_rows);
-  table($('trTbl'),d.tr_cols,d.tr_rows);
+  if($('findBuy')) $('findBuy').value='';
+  mountTable('buyTbl',d.buy_cols,d.buy_rows);
+  mountTable('trTbl',d.tr_cols,d.tr_rows);
   history=[]; $('msgs').innerHTML='';
 }
 function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
