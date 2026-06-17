@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $     23,230
   Coverable by transfer .......  $      7,895   (34%)
-  NET BUY from vendors ........  $     15,140   <- the order
+  NET BUY from vendors ........  $     14,423   <- the order
 
-  69 items   |   1,397 units to buy   |   634 units to rebalance
+  62 items   |   1,322 units to buy   |   634 units to rebalance
   Transfers: 86 moves  -  42 urgent (24 stockouts, 18 under 2wk), 44 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
 
@@ -23,14 +23,23 @@
    8  Saint Spritz Hugo 4pk 355ml          12u/2cs          $124     12     0   1.6
    9  High Noon Pineapple 4pk 12oz can     150u/25cs      $1,303    156     6   1.7
   10  Sunny D Variety Pack 8pk 12oz can    21u/7cs          $325     21     0   1.7
-  11  The Finnish Long Drink Cranberry 6p  16u/4cs          $164     14     0   1.9
-  12  Absolut Vodkarita 4pk 12oz can       12u/2cs           $77      9     0   1.9
-  13  The Finnish Long Drink Traditional   16u/4cs          $164     19     4   2.0
-  14  High Noon Tequila Variety Pack 8pk   12u/4cs          $223     74    62   2.1
-  15  High Noon Watermelon 4pk 12oz can    24u/4cs          $212     31     4   2.1
-  16  Bacardi Rum Punch 4pk 12oz can       6u/1cs            $49      5     0   2.1
-  17  Two Chicks Craft Cocktail Variety P  9u/3cs           $109      8     0   2.3
-  18  Two Chicks Pear & Elderflower 4pk 1  48u/8cs          $371     54     4   2.4
-  19  Two Chicks Melon Drop 4pk 12oz can   6u/1cs            $42      6     0   2.4
-  20  Malibu Pina Colada 4pk 12oz can      12u/2cs           $86     11     0   2.5
-  ...and 49 more in the full list.
+  11  Absolut Vodkarita 4pk 12oz can       12u/2cs           $77      9     0   1.9
+  12  High Noon Tequila Variety Pack 8pk   12u/4cs          $223     74    62   2.1
+  13  High Noon Watermelon 4pk 12oz can    24u/4cs          $212     31     4   2.1
+  14  Bacardi Rum Punch 4pk 12oz can       6u/1cs            $49      5     0   2.1
+  15  Two Chicks Craft Cocktail Variety P  9u/3cs           $109      8     0   2.3
+  16  Two Chicks Pear & Elderflower 4pk 1  48u/8cs          $371     54     4   2.4
+  17  Two Chicks Melon Drop 4pk 12oz can   6u/1cs            $42      6     0   2.4
+  18  Malibu Pina Colada 4pk 12oz can      12u/2cs           $86     11     0   2.5
+  19  High Noon Lemon 4pk 12oz can         18u/3cs          $156     24     4   2.6
+  20  High Noon Peach 4pk 12oz can         54u/9cs          $468     72    17   2.8
+  ...and 42 more in the full list.
+
+  BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
+    Jack & Coke 4pk 12oz can                    (would have bought 6u)
+    Jack & Coke Zero 4pk 12oz can               (would have bought 12u)
+    Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 5u)
+    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 16u)
+    The Finnish Long Drink Strong 6pk 12oz can  (would have bought 12u)
+    The Finnish Long Drink Traditional 6pk 12o  (would have bought 16u)
+    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 8u)
