@@ -25,6 +25,8 @@
   .subtabs button.on{background:var(--green);color:#fff;border-color:var(--green);font-weight:600}
   .find{width:100%;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:0 0 8px;display:block}
   th{user-select:none}
+  .pgbtn{background:var(--green);color:#fff;border:0;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:13px;margin-left:6px}
+  .pgbtn:disabled{background:#cdd3ce;cursor:default}
   /* feedback modal */
   #report{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
   #report .sheet{background:#fff;border-radius:14px;padding:18px;max-width:520px;width:100%;max-height:92vh;overflow:auto}
@@ -121,6 +123,7 @@
     <input class="find" id="findList" placeholder="Search this tab across all rows..." oninput="searchList(this.value)"/>
     <span class="hint" id="listCount"></span>
     <div class="wrap"><table id="listTbl"></table></div>
+    <div id="listPager" class="hint" style="margin-top:8px"></div>
   </main>
 
   <div id="report" style="display:none">
@@ -177,37 +180,48 @@ function show(v){
   $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':''; $('tabLists').className=v==='lists'?'on':'';
   if(v==='lists') loadTabs();
 }
-let curTabs=[], curTab=null;
+let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0; const LPAGE=400;
+function resetListView(){ lsort=''; ldir='asc'; loff=0; if($('findList')) $('findList').value=''; }
 async function loadTabs(){
   const dept=$('dept').value;
   $('ltabs').innerHTML='<span class="hint">Loading tabs…</span>'; $('listTbl').innerHTML='';
   try{ curTabs=(await (await fetch('/api/tabs?dept='+encodeURIComponent(dept))).json()).tabs||[]; }
   catch(e){ curTabs=[]; }
-  if(!curTabs.length){ $('ltabs').innerHTML='<span class="hint">No product-list tabs for '+dept+' yet.</span>'; return; }
+  if(!curTabs.length){ $('ltabs').innerHTML='<span class="hint">No product-list tabs for '+dept+' yet.</span>'; $('listCount').textContent=''; $('listPager').innerHTML=''; return; }
   if(!curTabs.includes(curTab)) curTab=curTabs[0];
-  if($('findList')) $('findList').value='';
-  renderTabBar(); loadList();
+  resetListView(); renderTabBar(); loadList();
 }
 function renderTabBar(){
   $('ltabs').innerHTML=curTabs.map((t,i)=>`<button class="${t===curTab?'on':''}" onclick="pickTab(${i})">${t}</button>`).join('');
 }
-function pickTab(i){ curTab=curTabs[i]; if($('findList'))$('findList').value=''; renderTabBar(); loadList(); }
+function pickTab(i){ curTab=curTabs[i]; resetListView(); renderTabBar(); loadList(); }
 let listTimer=null;
-function searchList(){ clearTimeout(listTimer); listTimer=setTimeout(loadList,250); }   // debounce typing
+function searchList(){ loff=0; clearTimeout(listTimer); listTimer=setTimeout(loadList,250); }   // debounce typing
+function listSort(name){ if(lsort===name){ldir=ldir==='asc'?'desc':'asc';}else{lsort=name;ldir='asc';} loff=0; loadList(); }
+function listPage(delta){ loff=Math.max(0,loff+delta*LPAGE); loadList(); }
 async function loadList(){
   const dept=$('dept').value, tab=curTab;
   if(!tab) return;
-  const q=$('findList')?$('findList').value.trim():'';
+  lq=$('findList')?$('findList').value.trim():'';
   $('listTbl').innerHTML='<tr><td>Loading…</td></tr>';
-  try{
-    const url='/api/list?dept='+encodeURIComponent(dept)+'&tab='+encodeURIComponent(tab)+(q?('&q='+encodeURIComponent(q)):'');
-    const d=await (await fetch(url)).json();
-    if(!d.cols||!d.cols.length){ $('listTbl').innerHTML='<tr><td>Nothing in '+tab+' for '+dept+'.</td></tr>'; if($('listCount'))$('listCount').textContent=''; return; }
-    mountTable('listTbl', d.cols, d.rows, {server:true});
-    if($('listCount')) $('listCount').textContent =
-      (d.matched!==undefined) ? (q ? `${d.matched.toLocaleString()} match${d.matched===1?'':'es'} of ${d.total.toLocaleString()}`
-                                    : `${d.total.toLocaleString()} rows`) + (d.matched>d.rows.length?` (showing first ${d.rows.length})`:'') : '';
-  }catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
+  const p=new URLSearchParams({dept,tab,q:lq,sort:lsort||'',dir:ldir,offset:loff,limit:LPAGE});
+  try{ drawList(await (await fetch('/api/list?'+p.toString())).json()); }
+  catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
+}
+function drawList(d){
+  const el=$('listTbl');
+  if(!d.cols||!d.cols.length){ el.innerHTML='<tr><td>Nothing in '+curTab+' for '+$('dept').value+'.</td></tr>'; $('listCount').textContent=''; $('listPager').innerHTML=''; return; }
+  const arrow=c=> lsort===c ? (ldir==='asc'?' ▲':' ▼') : '';
+  let h='<tr>'+d.cols.map(c=>`<th onclick="listSort(${JSON.stringify(c)})" style="cursor:pointer" title="Click to sort">${c}${arrow(c)}</th>`).join('')+'</tr>';
+  for(const r of d.rows){ h+='<tr>'+r.map(v=>`<td>${v==null?'':v}</td>`).join('')+'</tr>'; }
+  el.innerHTML=h;
+  const tot=d.matched, shown=d.rows.length, from=shown?d.offset+1:0, to=d.offset+shown;
+  $('listCount').textContent = lq ? `${tot.toLocaleString()} match${tot===1?'':'es'} of ${d.total.toLocaleString()}` : `${d.total.toLocaleString()} rows`;
+  $('listPager').innerHTML = (tot>LPAGE)
+    ? `Showing ${from.toLocaleString()}–${to.toLocaleString()} of ${tot.toLocaleString()}`
+      +` <button class="pgbtn" ${d.offset<=0?'disabled':''} onclick="listPage(-1)">‹ Prev</button>`
+      +` <button class="pgbtn" ${to>=tot?'disabled':''} onclick="listPage(1)">Next ›</button>`
+    : '';
 }
 // Sortable + filterable tables. mountTable stores the data; drawTable renders with the
 // current sort + (client-side) filter. Product Lists pass server:true (search is server-side).
