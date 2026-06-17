@@ -31,6 +31,7 @@ ALIASES = {
     "deal":     ["deal description"],
     "netunit":  ["net/unit", "net unit cost", "net / unit"],          # buyer's per-unit cost
     "casecost": ["net case cost", "top ten invoice cost", "top ten invoice"],  # fallback / units
+    "buymonths": ["buy months (if appl.)", "buy months"],            # seasonal buy timing
 }
 
 
@@ -47,6 +48,23 @@ def find_cols(d, hdr):
 
 def norm(u):
     s = re.sub(r"\D", "", str(u)); return s.lstrip("0") or s
+
+
+# A product has a buy month ONLY if a real month is listed. "ALL", "LTO", pack sizes,
+# "n/a", a product name, or blank = not enough info -> no buy-month constraint.
+_MONTH_STEMS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+                "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
+
+
+def parse_months(val):
+    """Return the set of month numbers named in the cell (empty if none are real months)."""
+    s = str(val).strip().lower()
+    if not s or s == "nan":
+        return set()
+    found = {n for stem, n in _MONTH_STEMS.items() if stem in s}
+    if "sond" in s:                       # buyer shorthand: Sept/Oct/Nov/Dec
+        found |= {9, 10, 11, 12}
+    return found
 
 
 def readable(p):
@@ -164,11 +182,13 @@ def main():
                 (casecost / units if (pd.notna(casecost) and pd.notna(units) and units) else None)
             deal = str(r[cols["deal"]]).strip() if "deal" in cols else ""
             deal = "" if deal.lower() == "nan" else deal
-            if (cost is None or pd.isna(cost)) and not deal:
+            months = parse_months(r[cols["buymonths"]]) if "buymonths" in cols else set()
+            bmstr = "|".join(str(m) for m in sorted(months))
+            if (cost is None or pd.isna(cost)) and not deal and not bmstr:
                 continue
             rows.append({"upc": upc, "Department": dept,
                          "Buyer Cost": round(float(cost), 2) if (cost is not None and pd.notna(cost)) else "",
-                         "Deal": deal})
+                         "Deal": deal, "Buy Months": bmstr})
             n += 1
         print(f"{dept}: {n} items from {os.path.basename(f)}")
     if rows:
