@@ -367,6 +367,14 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, today_payload(dept))
             except Exception as e:
                 return self._send(500, {"error": str(e)})
+        if u.path == "/api/list":
+            qs = parse_qs(u.query)
+            dept = qs.get("dept", ["THC"])[0]; tab = qs.get("tab", ["Remove"])[0]
+            df = load_list(f"{dept} - {tab}.csv")
+            if df is None or not len(df):
+                return self._send(200, {"cols": [], "rows": []})
+            df = df.head(400).fillna("").astype(object)
+            return self._send(200, {"cols": list(map(str, df.columns)), "rows": df.values.tolist()})
         return self._serve_static(u.path)
 
     def do_POST(self):
