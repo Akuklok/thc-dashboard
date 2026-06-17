@@ -67,11 +67,14 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     import daily_buying_brief as dbb
     import recommended_order as ro
+    import extract_price_ref as ep
     import build_snapshot as bs
-    dbb.INPUT_FOLDERS = [WORK]      # engine reads the report from here
+    dbb.INPUT_FOLDERS = [WORK]      # engine reads the report (and any product files) from here
     ro.OUT_FOLDERS = [DATA]
+    ep.FOLDERS = [WORK]; ep.OUT = [DATA]
     ro.main()                       # orders + transfer plans
-    bs.main()                       # per-item snapshots (retail/cost/margin from the report itself)
+    ep.main()                       # buyer cost + deals from product files (if present on SFTP; else keeps last)
+    bs.main()                       # per-item snapshots: retail from report, cost/deals from product files
     print("Cloud build complete -> orders + snapshots in", DATA)
 
 
