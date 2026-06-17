@@ -30,6 +30,37 @@ SKIP_CONTAINS = ["alias", "inventory", "sales and inv"]
 KEEP_REFERENCE = {"markups", "retail pricing table"}
 MAXROWS = 8000      # cover the full product lists (Spirits Full List ~5,400) so search finds everything
 
+# Internal/helper columns to drop from every tab (match if the header CONTAINS any of these).
+DROP_COLS = ["concat", "preferred", "supplier supported tasting", "remove?", "check",
+             "vv vendor", "ns ", "cr vendor", "vendor code", "pnumber",
+             "pitem", "internal id", "updated in", "alias", "wms", "# of rps",
+             "eo ", "free case value", "free qty", "buy qty", "freight"]
+# Useful columns pulled to the FRONT in this order (by header substring); the rest follow.
+PREFERRED = ["Product Description", "Product UPC", "THC Mg", "Department", "Category",
+             "Sub Category", "Size", "Units/Case", "Supplier", "Distributor",
+             "Deal Description", "Buy Months", "Net/Unit", "Net Unit Cost", "Net Case",
+             "Case 1 (Retail)", "Retail", "Club", "GM", "Top Ten Invoice", "Buy Month Invoice",
+             "Effective Date", "Notes", "Average of Price", "Average of Sale", "Buy Month"]
+
+
+def tidy_columns(df):
+    """Drop internal/helper columns and put the useful ones first (keeps everything else)."""
+    def junk(c):
+        cl = str(c).strip().lower()
+        if (not cl) or cl == "nan":
+            return True
+        if re.search(r"\(\d+\)$", cl):          # repeated header-block duplicates ("... (1)")
+            return True
+        return any(d in cl for d in DROP_COLS)
+    kept = [c for c in df.columns if not junk(c)]
+    ordered, used = [], set()
+    for p in PREFERRED:
+        for c in kept:
+            if c not in used and p.lower() in str(c).lower():
+                ordered.append(c); used.add(c); break
+    ordered += [c for c in kept if c not in used]
+    return df[ordered] if ordered else df
+
 
 def skip_sheet(name):
     low = (name or "").strip().lower()
@@ -113,6 +144,7 @@ def copy_tab(f, sheet):
     keycol = next((c for c in names if "Product Description" in c), names[0])
     body = body[body[keycol].astype(str).str.strip().str.lower().replace("nan", "").str.len() > 0]
     body = body.dropna(axis=1, how="all")
+    body = tidy_columns(body)
     return body.head(MAXROWS)
 
 
