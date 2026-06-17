@@ -75,10 +75,9 @@ def main():
             # cost: inventory avg cost, else buyer-file unit cost
             ucost = float(cost) if pd.notna(cost) and cost > 0 else _clean(ref.get("Unit Cost"))
             ucost = float(ucost) if ucost is not None and pd.notna(ucost) else None
-            # margin: buyer-file GM% first, else compute from retail/cost
-            gm = _clean(ref.get("GM %"))
-            if gm is None and ret and ucost is not None and ret > 0:
-                gm = round((ret - ucost) / ret * 100)
+            # margin: compute from retail & cost so it's always consistent
+            # (the buyer file's GM% column is loaded differently and disagrees with its own retail)
+            gm = round((ret - ucost) / ret * 100) if (ret and ucost is not None and ret > 0) else None
             deal = _clean(ref.get("Deal")) or ""
             rows.append({
                 "Item": item,
