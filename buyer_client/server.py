@@ -563,18 +563,31 @@ class Handler(BaseHTTPRequestHandler):
             qs = parse_qs(u.query)
             dept = qs.get("dept", ["THC"])[0]; tab = qs.get("tab", ["Remove"])[0]
             q = qs.get("q", [""])[0].strip().lower()
+            sort = qs.get("sort", [""])[0]
+            desc = qs.get("dir", ["asc"])[0] == "desc"
+            try: offset = max(0, int(qs.get("offset", ["0"])[0]))
+            except Exception: offset = 0
+            try: limit = min(1000, max(1, int(qs.get("limit", ["400"])[0])))
+            except Exception: limit = 400
             df = load_list(f"{prod_dept(dept)} - {tab}.csv")
             if df is None or not len(df):
-                return self._send(200, {"cols": [], "rows": [], "total": 0, "matched": 0})
+                return self._send(200, {"cols": [], "rows": [], "total": 0, "matched": 0, "offset": 0, "limit": limit})
             df = df.fillna("").astype(object)
             total = len(df)
             if q:                                   # search every column across the FULL tab
                 hay = df.astype(str).agg(" ".join, axis=1).str.lower()
                 df = df[hay.str.contains(q, regex=False)]
             matched = len(df)
-            df = df.head(400)
-            return self._send(200, {"cols": list(map(str, df.columns)), "rows": df.values.tolist(),
-                                    "total": total, "matched": matched})
+            if sort and sort in df.columns:         # sort the WHOLE (filtered) set, then page
+                col = df[sort].astype(str)
+                nums = pd.to_numeric(col.str.replace(r"[$,%\s]", "", regex=True), errors="coerce")
+                if nums.notna().mean() >= 0.6:      # mostly numeric -> numeric sort
+                    df = df.assign(_k=nums).sort_values("_k", ascending=not desc, na_position="last").drop(columns="_k")
+                else:
+                    df = df.assign(_k=col.str.lower()).sort_values("_k", ascending=not desc).drop(columns="_k")
+            page = df.iloc[offset:offset + limit]
+            return self._send(200, {"cols": list(map(str, page.columns)), "rows": page.values.tolist(),
+                                    "total": total, "matched": matched, "offset": offset, "limit": limit})
         return self._serve_static(u.path)
 
     def do_POST(self):
