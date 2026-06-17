@@ -69,7 +69,7 @@
 <div id="app" style="display:none">
   <header>
     <span class="brand">Top Ten Buyer</span>
-    <select id="dept" onchange="loadToday()"></select>
+    <select id="dept" onchange="loadToday(); if(document.getElementById('lists').style.display!=='none') loadList();"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
@@ -79,6 +79,7 @@
   <div class="tabs">
     <button id="tabToday" class="on" onclick="show('today')">Today — what to do</button>
     <button id="tabAsk" onclick="show('ask')">Ask the assistant</button>
+    <button id="tabLists" onclick="show('lists')">Product Lists</button>
   </div>
 
   <main id="today">
@@ -101,6 +102,18 @@
         <button onclick="ask()">Send</button>
       </div>
     </div>
+  </main>
+
+  <main id="lists" style="display:none">
+    <div class="hint">The product-list tabs you use in the workbook, copied here for an easy transfer.</div>
+    <select id="ltab" onchange="loadList()" style="padding:8px;border:1px solid var(--line);border-radius:8px;margin-bottom:8px">
+      <option>Remove</option>
+      <option>New Items</option>
+      <option>Upcoming Price Changes</option>
+      <option>Price Level</option>
+      <option>Retail Pricing Table</option>
+    </select>
+    <div class="wrap"><table id="listTbl"></table></div>
   </main>
 </div>
 
@@ -135,9 +148,18 @@ function start(who,depts){
   loadToday();
 }
 function show(v){
-  $('today').style.display=v==='today'?'block':'none';
-  $('ask').style.display=v==='ask'?'block':'none';
-  $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':'';
+  for(const k of ['today','ask','lists']) $(k).style.display = (v===k)?'block':'none';
+  $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':''; $('tabLists').className=v==='lists'?'on':'';
+  if(v==='lists') loadList();
+}
+async function loadList(){
+  const dept=$('dept').value, tab=$('ltab').value;
+  $('listTbl').innerHTML='<tr><td>Loading…</td></tr>';
+  try{
+    const d=await (await fetch('/api/list?dept='+encodeURIComponent(dept)+'&tab='+encodeURIComponent(tab))).json();
+    if(!d.rows||!d.rows.length){ $('listTbl').innerHTML='<tr><td>No '+tab+' tab for '+dept+'.</td></tr>'; return; }
+    table($('listTbl'), d.cols, d.rows);
+  }catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
 }
 function table(el,cols,rows){
   if(!rows.length){el.innerHTML='<tr><td>Nothing here right now.</td></tr>';return;}
