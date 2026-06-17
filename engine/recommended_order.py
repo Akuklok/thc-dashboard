@@ -38,7 +38,7 @@ DEPARTMENTS = {
 }
 # ========================================================================
 
-import os, glob, re, datetime
+import os, glob, re, json, datetime
 import pandas as pd
 import numpy as np
 from config_locations import drop_warehouses
@@ -149,7 +149,20 @@ def plan_transfers(d, keep_weeks, min_transfer):
     return pd.DataFrame(summ), pd.DataFrame(trows)
 
 
-def run_department(df, label, retail, buyers, today, fdate, stale_days, need_basis):
+def load_remove_set():
+    """UPCs flagged 'Remove' in the product file (Remove List.csv) - don't reorder these."""
+    for folder in OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
+        p = os.path.join(folder, "Remove List.csv")
+        if os.path.exists(p):
+            try:
+                d = pd.read_csv(p, dtype={"upc": str})
+                return set(d["upc"].map(dbb.norm))
+            except Exception:
+                pass
+    return frozenset()
+
+
+def run_department(df, label, retail, buyers, today, fdate, stale_days, need_basis, remove_set=frozenset()):
     """Build the order + transfer plan for one department's per-store rows. Writes files,
     returns a summary dict for the roll-up."""
     if df.empty:
@@ -194,6 +207,12 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     net_total = float(g["Net Buy $"].sum())
 
     buy = g[g["Buy Units"] > 0].copy()
+    removed = buy.iloc[0:0]
+    if remove_set:                              # pull items flagged for removal out of the buy
+        is_rm = buy["upc"].map(dbb.norm).isin(remove_set)
+        removed = buy[is_rm].copy()
+        buy = buy[~is_rm].copy()
+        net_total = float(buy["Net Buy $"].sum())   # actual buy excludes discontinued items
     if PRIORITY == "margin":
         buy = buy.sort_values(["GM %", "profit_protected"], ascending=[False, False]); basis = "highest margin first"
     elif PRIORITY == "deals":
@@ -218,6 +237,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         if "Unit Cost" in d: d["Unit Cost"] = d["Unit Cost"].round(2)
         return d
     out, defr = fmt(within), fmt(deferred)
+    removed_out = fmt(removed) if len(removed) else None
 
     urgent = low = 0
     if len(tplan):
@@ -260,9 +280,16 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
                  f"{int(r['Transfer']):>5} {wos:>5}{disc}")
     if len(out) > TOP_TEXT:
         L.append(f"  ...and {len(out) - TOP_TEXT:,} more in the full list.")
+    if removed_out is not None and len(removed_out):
+        L += ["", f"  BEING REMOVED - DO NOT REORDER ({len(removed_out)} discontinued items still selling/low - run down stock):"]
+        for _, r in removed_out.head(15).iterrows():
+            L.append(f"    {str(r['Item'])[:42]:42}  (would have bought {int(r['Buy Units'])}u)")
+        if len(removed_out) > 15:
+            L.append(f"    ...and {len(removed_out) - 15} more (see Being Removed tab).")
     text = "\n".join([x for x in L if x is not None])
 
     sheets = {"Recommended Order": out}
+    if removed_out is not None and len(removed_out): sheets["Being Removed"] = removed_out
     if len(tplan): sheets["Transfer Plan"] = tplan
     if len(defr): sheets["Deferred"] = defr
     base = "THC" if label == "THC" else label   # THC keeps legacy filename
@@ -310,12 +337,13 @@ def main():
 
     retail = retail_price_map(xl)
     buyers, _ = dbb.buyer_lookup()
+    remove_set = load_remove_set()
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     summaries = []
     for label, matches in DEPARTMENTS.items():
         ddf = df if dep is None else df[dep.isin([m.lower() for m in matches])]
-        s = run_department(ddf.copy(), label, retail, buyers, today, fdate, stale_days, need_basis)
+        s = run_department(ddf.copy(), label, retail, buyers, today, fdate, stale_days, need_basis, remove_set)
         if s:
             summaries.append(s)
             print(f"{label:<9} net buy ${s['Net Buy $']:>11,.0f}  | gross ${s['Gross $']:>11,.0f}  "
@@ -327,9 +355,13 @@ def main():
         print(f"{'ALL DEPTS':<9} net buy ${tot['Net Buy $'].sum():>11,.0f}  | gross ${tot['Gross $'].sum():>11,.0f}  "
               f"| transfer ${tot['Transfer $'].sum():>11,.0f}")
         # roll-up file for the dashboard
+        stamp = {"built_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                 "data_date": fdate.isoformat()}
         for folder in OUT_FOLDERS:
             try:
                 write_sheets(os.path.join(folder, "All Dept Order Summary.xlsx"), {"Summary": tot})
+                with open(os.path.join(folder, "status.json"), "w", encoding="utf-8") as fh:
+                    json.dump(stamp, fh)
             except PermissionError:
                 pass
 
