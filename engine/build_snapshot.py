@@ -45,17 +45,18 @@ def main():
         raise SystemExit("No inventory report found for snapshot.")
     xl = pd.ExcelFile(path)
     sheet = ro.pick_inventory_sheet(xl)
-    df = xl.parse(sheet)
+    try:
+        df = pd.read_excel(path, sheet_name=sheet, engine="calamine")   # fast reader
+    except Exception:
+        df = xl.parse(sheet)
     df = ro.drop_warehouses(df)
-    for c in ("OH", "30D", "90D", "Avg Cost", "Supplier Cost", "Purchase Price"):
+    for c in ("OH", "30D", "90D", "Price", "Avg Cost", "Supplier Cost", "Purchase Price"):
         if c in df.columns:
             df[c] = ro._num(df[c]).fillna(0)
     df["cost"] = 0.0
     for c in ("Avg Cost", "Supplier Cost", "Purchase Price"):
         if c in df.columns:
             df["cost"] = np.where(df["cost"] > 0, df["cost"], df[c])
-    retail = ro.retail_price_map(xl)
-    pref = load_price_ref()
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     for label, matches in ro.DEPARTMENTS.items():
@@ -67,18 +68,11 @@ def main():
             oh = g["OH"].sum()
             vel = 0.6 * g["30D"].sum() * 7 / 30 + 0.4 * g["90D"].sum() * 7 / 90
             cost = g["cost"].median()
-            upc = dbb.norm(g["Product Code"].iloc[0]) if "Product Code" in g else ""
-            ref = pref.get(upc, {})
-            # retail: buyer file first, then the warehouse-sheet fallback
-            ret = _clean(ref.get("Retail")) or retail.get(upc)
-            ret = float(ret) if ret is not None and pd.notna(ret) else None
-            # cost: inventory avg cost, else buyer-file unit cost
-            ucost = float(cost) if pd.notna(cost) and cost > 0 else _clean(ref.get("Unit Cost"))
-            ucost = float(ucost) if ucost is not None and pd.notna(ucost) else None
-            # margin: compute from retail & cost so it's always consistent
-            # (the buyer file's GM% column is loaded differently and disagrees with its own retail)
+            ret = g["Price"].median() if "Price" in g else None       # retail straight from the report
+            ret = float(ret) if ret is not None and pd.notna(ret) and ret > 0 else None
+            ucost = float(cost) if pd.notna(cost) and cost > 0 else None
             gm = round((ret - ucost) / ret * 100) if (ret and ucost is not None and ret > 0) else None
-            deal = _clean(ref.get("Deal")) or ""
+            deal = ""                                                  # deals deferred (need a reliable source)
             rows.append({
                 "Item": item,
                 "Category": g["Category"].iloc[0] if "Category" in g else "",
