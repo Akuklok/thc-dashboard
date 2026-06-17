@@ -181,7 +181,8 @@ async function loadToday(){
     <div class="card big"><div class="lbl">Net buy from vendors</div><div class="val">${money(h.net_buy)}</div></div>
     <div class="card"><div class="lbl">Cover by transfer</div><div class="val">${money(h.transfer)}</div></div>
     <div class="card"><div class="lbl">Gross need (all stores)</div><div class="val">${money(h.gross)}</div></div>
-    <div class="card"><div class="lbl">Items to buy</div><div class="val">${n(h.items)}</div></div>` : '';
+    <div class="card"><div class="lbl">Items to buy</div><div class="val">${n(h.items)}</div></div>
+    ${h.wait_items ? `<div class="card"><div class="lbl">Waiting for buy-month</div><div class="val">${n(h.wait_items)}</div><div class="lbl" style="text-transform:none">${money(h.wait_buy)} deferred to cheaper months</div></div>` : ''}` : '';
   $('trcards').innerHTML = (h.transfers!==undefined) ? `
     <div class="card"><div class="lbl">Urgent moves</div><div class="val">${n((h.stockouts||0)+(h.low||0))}</div></div>
     <div class="card"><div class="lbl">Stores out of stock</div><div class="val">${n(h.stockouts)}</div></div>
