@@ -256,6 +256,16 @@ def dept_totals(dept):
     return None
 
 
+def status_info():
+    b = get_bytes("status.json")
+    if b:
+        try:
+            return json.loads(b.decode("utf-8", "replace"))
+        except Exception:
+            pass
+    return {}
+
+
 def today_payload(dept):
     summary, buys, trans = read_order(dept)
     def rows(df, cols, n):
@@ -283,7 +293,7 @@ def today_payload(dept):
         if pr is not None:
             so = int((pr == "STOCKOUT").sum()); lo = int((pr == "Low <2wk").sum())
             headline["stockouts"] = so; headline["low"] = lo; headline["routine"] = int(len(trans) - so - lo)
-    return {"summary": summary, "headline": headline,
+    return {"summary": summary, "headline": headline, "status": status_info(),
             "buy_cols": buy_cols, "buy_rows": buy_rows,
             "tr_cols": tr_cols, "tr_rows": tr_rows}
 
