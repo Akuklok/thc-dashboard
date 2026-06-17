@@ -29,10 +29,54 @@ PORT = int(os.environ.get("PORT", 8520))
 HOST = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
 # Cloud data source (used when hosted): the same repo the pipeline pushes order files to.
 GH_OWNER, GH_REPO, GH_BRANCH = "Akuklok", "thc-dashboard", "main"
+# Beta feedback -> emailed straight to the buying lead via Resend (set these on the host).
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
+FEEDBACK_EMAIL = os.environ.get("FEEDBACK_EMAIL", "")             # where reports land (your inbox)
+FEEDBACK_FROM  = os.environ.get("FEEDBACK_FROM", "onboarding@resend.dev")
 
 
 def gh_token():
     return os.environ.get("GITHUB_TOKEN", "")
+
+
+def gh_put(path, data_bytes, message):
+    """Best-effort write a file to the repo (used to archive feedback). No-op without write token."""
+    if not gh_token():
+        return False
+    url = "https://api.github.com/repos/%s/%s/contents/%s" % (GH_OWNER, GH_REPO, urllib.parse.quote(path))
+    hdr = {"Authorization": "Bearer " + gh_token(), "Accept": "application/vnd.github+json", "User-Agent": "ttb"}
+    sha = None
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url + "?ref=" + GH_BRANCH, headers=hdr), timeout=20) as r:
+            sha = json.load(r).get("sha")
+    except Exception:
+        pass
+    body = {"message": message, "content": base64.b64encode(data_bytes).decode(), "branch": GH_BRANCH}
+    if sha:
+        body["sha"] = sha
+    try:
+        req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=hdr, method="PUT")
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status in (200, 201)
+    except Exception as e:
+        print("gh_put failed", path, e); return False
+
+
+def send_feedback_email(subject, html, img_b64):
+    """Email a buyer report (with screenshot) to FEEDBACK_EMAIL via Resend. False if not configured."""
+    if not (RESEND_API_KEY and FEEDBACK_EMAIL):
+        return False
+    body = {"from": FEEDBACK_FROM, "to": [FEEDBACK_EMAIL], "subject": subject, "html": html}
+    if img_b64:
+        body["attachments"] = [{"filename": "screenshot.png", "content": img_b64}]
+    try:
+        req = urllib.request.Request("https://api.resend.com/emails", data=json.dumps(body).encode(),
+                                     headers={"Authorization": "Bearer " + RESEND_API_KEY,
+                                              "Content-Type": "application/json"}, method="POST")
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return 200 <= r.status < 300
+    except Exception as e:
+        print("feedback email failed:", e); return False
 
 
 def get_bytes(name):
@@ -454,6 +498,26 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, {"reply": reply})
             except Exception as e:
                 return self._send(200, {"reply": f"(Assistant error: {e})"})
+        if u.path == "/api/feedback":
+            text = str(payload.get("text", "")).strip()
+            who = str(payload.get("who", "")).strip() or "(no name)"
+            dept = str(payload.get("dept", "")).strip()
+            page = str(payload.get("page", "")).strip()
+            img = str(payload.get("image", ""))
+            img_b64 = img.split(",", 1)[1] if "," in img else ""
+            ts = time.strftime("%Y-%m-%d %H:%M")
+            html = ("<b>From:</b> %s &nbsp; <b>Dept:</b> %s &nbsp; <b>Screen:</b> %s<br><b>When:</b> %s<br><br>%s"
+                    % (who, dept, page, ts, (text or "(no description)").replace("\n", "<br>")))
+            emailed = send_feedback_email(f"Buyer feedback - {who} ({dept})", html, img_b64)
+            try:                                  # archive the report (and the shot if email didn't go)
+                uid = re.sub(r"\D", "", str(time.time()))
+                rec = {"ts": ts, "who": who, "dept": dept, "page": page, "text": text, "emailed": emailed}
+                gh_put(f"feedback/fb-{uid}.json", json.dumps(rec, indent=2).encode(), "feedback " + ts)
+                if img_b64 and not emailed:
+                    gh_put(f"feedback/fb-{uid}.png", base64.b64decode(img_b64), "feedback shot " + ts)
+            except Exception:
+                pass
+            return self._send(200, {"ok": True, "emailed": emailed})
         return self._send(404, {"error": "unknown endpoint"})
 
     def log_message(self, *a):
