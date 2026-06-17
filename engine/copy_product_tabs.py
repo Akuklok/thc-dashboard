@@ -20,9 +20,19 @@ OUT = [r"C:\Users\Anna K\Downloads", r"C:\Users\Anna K\OneDrive - Top Ten Liquor
 # Beer shares the Liquor workbook (Beer is maintained inside the Liquor file).
 DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
          "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Liquor [0-9]*.xlsx"}
-# the tabs buyers use that we mirror into the new system
-TABS = ["Remove", "New Items", "Upcoming Price Changes", "Price Level", "Retail Pricing Table"]
-MAXROWS = 2000
+# Carry over EVERY tab the buyers use, except these internal/huge/redundant ones:
+#   - "*alias*"  : WMS SKU-alias mapping (not a buying reference)
+#   - "*inventory*" / "*sales and inv*" : embedded inventory snapshot (the app already has live daily inventory)
+#   - dated copies like "6.6.25" : stale working copies
+SKIP_CONTAINS = ["alias", "inventory", "sales and inv"]
+MAXROWS = 3000
+
+
+def skip_sheet(name):
+    low = (name or "").strip().lower()
+    if any(s in low for s in SKIP_CONTAINS):
+        return True
+    return re.fullmatch(r"\d{1,2}\.\d{1,2}(\.\d{2,4})?", low) is not None   # dated tab
 
 
 def readable(p):
@@ -62,17 +72,27 @@ def dedupe(names):
     return out
 
 
+def best_header(d):
+    """Find the header row: prefer one naming Product UPC/Description; else the row (in the
+    first 8) with the most non-empty text cells. Works for plain lookup tabs too."""
+    for i in range(min(8, len(d))):
+        row = [str(x) for x in d.iloc[i].tolist()]
+        if any("Product UPC" in x or "Product Description" in x for x in row):
+            return i
+    best, bi = -1, 0
+    for i in range(min(8, len(d))):
+        score = sum(1 for x in d.iloc[i].tolist()
+                    if str(x).strip() and str(x).strip().lower() != "nan")
+        if score > best:
+            best, bi = score, i
+    return bi
+
+
 def copy_tab(f, sheet):
     d = _read(f, sheet)
     if d is None or d.empty:
         return None
-    hdr = None
-    for i in range(min(8, len(d))):
-        row = [str(x) for x in d.iloc[i].tolist()]
-        if any("Product UPC" in x for x in row) or any("Product Description" in x for x in row):
-            hdr = i; break
-    if hdr is None:
-        hdr = 0
+    hdr = best_header(d)
     header = [str(x).strip() for x in d.iloc[hdr].tolist()]
     keep = [j for j, c in enumerate(header) if c and c.lower() != "nan"]
     if not keep:
@@ -98,20 +118,22 @@ def main():
                 names = pd.ExcelFile(f).sheet_names
             except Exception:
                 continue
-        for tab in TABS:
-            sh = next((s for s in names if s.strip().lower() == tab.lower()), None)
-            if not sh:
+        # the main working sheet is named after the department (Liquor's is "Spirits")
+        main_sheet = "spirits" if dept in ("Spirits", "Beer") else dept.lower()
+        for sh in names:
+            if skip_sheet(sh):
                 continue
+            label = "Full List" if sh.strip().lower() == main_sheet else sh.strip()
             t = copy_tab(f, sh)
             if t is None or t.empty:
-                continue
+                print(f"{dept} / {label}: (empty - skipped)"); continue
             for o in OUT:
                 os.makedirs(o, exist_ok=True)
                 try:
-                    t.to_csv(os.path.join(o, f"{dept} - {tab}.csv"), index=False)
+                    t.to_csv(os.path.join(o, f"{dept} - {label}.csv"), index=False)
                 except PermissionError:
                     pass
-            print(f"{dept} / {tab}: {len(t)} rows x {t.shape[1]} cols")
+            print(f"{dept} / {label}: {len(t)} rows x {t.shape[1]} cols")
 
 
 if __name__ == "__main__":
