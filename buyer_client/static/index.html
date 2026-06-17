@@ -20,6 +20,9 @@
   .tabs{display:flex;gap:6px;padding:10px 16px 0}
   .tabs button{background:none;border:0;padding:10px 16px;font-size:15px;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent}
   .tabs button.on{color:var(--green);border-color:var(--green);font-weight:600}
+  .subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .subtabs button{background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:13px;color:var(--ink)}
+  .subtabs button.on{background:var(--green);color:#fff;border-color:var(--green);font-weight:600}
   main{padding:16px;max-width:1100px;margin:0 auto}
   .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:180px;flex:1}
@@ -69,7 +72,7 @@
 <div id="app" style="display:none">
   <header>
     <span class="brand">Top Ten Buyer</span>
-    <select id="dept" onchange="loadToday(); if(document.getElementById('lists').style.display!=='none') loadList();"></select>
+    <select id="dept" onchange="loadToday(); if(document.getElementById('lists').style.display!=='none') loadTabs();"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
@@ -105,14 +108,8 @@
   </main>
 
   <main id="lists" style="display:none">
-    <div class="hint">The product-list tabs you use in the workbook, copied here for an easy transfer.</div>
-    <select id="ltab" onchange="loadList()" style="padding:8px;border:1px solid var(--line);border-radius:8px;margin-bottom:8px">
-      <option>Remove</option>
-      <option>New Items</option>
-      <option>Upcoming Price Changes</option>
-      <option>Price Level</option>
-      <option>Retail Pricing Table</option>
-    </select>
+    <div class="hint">The product-list tabs you use in the workbook, copied here for an easy transfer. Each department shows its own tabs.</div>
+    <div id="ltabs" class="subtabs"></div>
     <div class="wrap"><table id="listTbl"></table></div>
   </main>
 </div>
@@ -150,14 +147,29 @@ function start(who,depts){
 function show(v){
   for(const k of ['today','ask','lists']) $(k).style.display = (v===k)?'block':'none';
   $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':''; $('tabLists').className=v==='lists'?'on':'';
-  if(v==='lists') loadList();
+  if(v==='lists') loadTabs();
 }
+let curTabs=[], curTab=null;
+async function loadTabs(){
+  const dept=$('dept').value;
+  $('ltabs').innerHTML='<span class="hint">Loading tabs…</span>'; $('listTbl').innerHTML='';
+  try{ curTabs=(await (await fetch('/api/tabs?dept='+encodeURIComponent(dept))).json()).tabs||[]; }
+  catch(e){ curTabs=[]; }
+  if(!curTabs.length){ $('ltabs').innerHTML='<span class="hint">No product-list tabs for '+dept+' yet.</span>'; return; }
+  if(!curTabs.includes(curTab)) curTab=curTabs[0];
+  renderTabBar(); loadList();
+}
+function renderTabBar(){
+  $('ltabs').innerHTML=curTabs.map((t,i)=>`<button class="${t===curTab?'on':''}" onclick="pickTab(${i})">${t}</button>`).join('');
+}
+function pickTab(i){ curTab=curTabs[i]; renderTabBar(); loadList(); }
 async function loadList(){
-  const dept=$('dept').value, tab=$('ltab').value;
+  const dept=$('dept').value, tab=curTab;
+  if(!tab) return;
   $('listTbl').innerHTML='<tr><td>Loading…</td></tr>';
   try{
     const d=await (await fetch('/api/list?dept='+encodeURIComponent(dept)+'&tab='+encodeURIComponent(tab))).json();
-    if(!d.rows||!d.rows.length){ $('listTbl').innerHTML='<tr><td>No '+tab+' tab for '+dept+'.</td></tr>'; return; }
+    if(!d.rows||!d.rows.length){ $('listTbl').innerHTML='<tr><td>Nothing in '+tab+' for '+dept+'.</td></tr>'; return; }
     table($('listTbl'), d.cols, d.rows);
   }catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
 }
