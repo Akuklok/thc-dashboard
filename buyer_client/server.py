@@ -39,27 +39,103 @@ def gh_token():
     return os.environ.get("GITHUB_TOKEN", "")
 
 
-def gh_put(path, data_bytes, message):
-    """Best-effort write a file to the repo (used to archive feedback). No-op without write token."""
+def _gh_url(path):
+    return "https://api.github.com/repos/%s/%s/contents/%s" % (GH_OWNER, GH_REPO, urllib.parse.quote(path))
+
+
+def _gh_hdr(accept="application/vnd.github+json"):
+    return {"Authorization": "Bearer " + gh_token(), "Accept": accept, "User-Agent": "ttb"}
+
+
+def gh_read(path):
+    """Raw bytes of any repo file (None if missing)."""
     if not gh_token():
-        return False
-    url = "https://api.github.com/repos/%s/%s/contents/%s" % (GH_OWNER, GH_REPO, urllib.parse.quote(path))
-    hdr = {"Authorization": "Bearer " + gh_token(), "Accept": "application/vnd.github+json", "User-Agent": "ttb"}
-    sha = None
+        return None
     try:
-        with urllib.request.urlopen(urllib.request.Request(url + "?ref=" + GH_BRANCH, headers=hdr), timeout=20) as r:
-            sha = json.load(r).get("sha")
+        with urllib.request.urlopen(urllib.request.Request(_gh_url(path) + "?ref=" + GH_BRANCH,
+                                                           headers=_gh_hdr("application/vnd.github.raw")), timeout=30) as r:
+            return r.read()
     except Exception:
-        pass
+        return None
+
+
+def gh_get_sha(path):
+    if not gh_token():
+        return None
+    try:
+        with urllib.request.urlopen(urllib.request.Request(_gh_url(path) + "?ref=" + GH_BRANCH, headers=_gh_hdr()), timeout=20) as r:
+            return json.load(r).get("sha")
+    except Exception:
+        return None
+
+
+def gh_write(path, data_bytes, message, sha=None):
+    """PUT a file; returns HTTP status (409 = sha conflict, retry). Fetches sha if not given."""
+    if not gh_token():
+        return 0
+    if sha is None:
+        sha = gh_get_sha(path)
     body = {"message": message, "content": base64.b64encode(data_bytes).decode(), "branch": GH_BRANCH}
     if sha:
         body["sha"] = sha
     try:
-        req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=hdr, method="PUT")
+        req = urllib.request.Request(_gh_url(path), data=json.dumps(body).encode(), headers=_gh_hdr(), method="PUT")
         with urllib.request.urlopen(req, timeout=30) as r:
-            return r.status in (200, 201)
-    except Exception as e:
-        print("gh_put failed", path, e); return False
+            return r.status
+    except urllib.error.HTTPError as e:
+        return e.code
+    except Exception:
+        return 0
+
+
+# Feedback store: a single JSON list in the repo (or a local file when running without a token).
+LOCAL_INDEX = os.path.join(HERE, "local_feedback_index.json")
+INDEX_PATH = "feedback/index.json"
+
+
+def read_index():
+    if gh_token():
+        raw = gh_read(INDEX_PATH)
+        try:
+            return json.loads(raw) if raw else []
+        except Exception:
+            return []
+    try:
+        with open(LOCAL_INDEX, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+
+def update_index(mutate):
+    """Read-modify-write the feedback index. Optimistic-concurrency retry when hosted."""
+    if not gh_token():
+        data = read_index(); mutate(data)
+        try:
+            with open(LOCAL_INDEX, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+            return True
+        except Exception:
+            return False
+    for _ in range(4):
+        sha = gh_get_sha(INDEX_PATH)
+        raw = gh_read(INDEX_PATH)
+        try:
+            data = json.loads(raw) if raw else []
+        except Exception:
+            data = []
+        mutate(data)
+        status = gh_write(INDEX_PATH, json.dumps(data, indent=2).encode(), "feedback update", sha)
+        if status in (200, 201):
+            return True
+        if status != 409:
+            return False
+    return False
+
+
+def admin_ok(key):
+    real = os.environ.get("ADMIN_KEY", "")
+    return bool(real) and key == real
 
 
 def send_feedback_email(subject, html, img_b64):
@@ -474,6 +550,12 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, today_payload(dept))
             except Exception as e:
                 return self._send(500, {"error": str(e)})
+        if u.path == "/api/myreports":
+            dev = parse_qs(u.query).get("device", [""])[0]
+            mine = [{k: r.get(k) for k in ("id", "ts", "dept", "page", "text", "status", "reply", "resolved_ts")}
+                    for r in read_index() if dev and r.get("device") == dev]
+            mine.sort(key=lambda r: int(r.get("id", "0") or 0), reverse=True)
+            return self._send(200, {"reports": mine})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
@@ -525,16 +607,36 @@ class Handler(BaseHTTPRequestHandler):
             ts = time.strftime("%Y-%m-%d %H:%M")
             html = ("<b>From:</b> %s &nbsp; <b>Dept:</b> %s &nbsp; <b>Screen:</b> %s<br><b>When:</b> %s<br><br>%s"
                     % (who, dept, page, ts, (text or "(no description)").replace("\n", "<br>")))
+            device = str(payload.get("device", "")).strip()
             emailed, detail = send_feedback_email(f"Buyer feedback - {who} ({dept})", html, img_b64)
-            try:                                  # archive the report (and the shot if email didn't go)
-                uid = re.sub(r"\D", "", str(time.time()))
-                rec = {"ts": ts, "who": who, "dept": dept, "page": page, "text": text, "emailed": emailed}
-                gh_put(f"feedback/fb-{uid}.json", json.dumps(rec, indent=2).encode(), "feedback " + ts)
-                if img_b64 and not emailed:
-                    gh_put(f"feedback/fb-{uid}.png", base64.b64decode(img_b64), "feedback shot " + ts)
+            rid = re.sub(r"\D", "", str(time.time()))
+            try:
+                def add(data):
+                    data.append({"id": rid, "ts": ts, "who": who, "dept": dept, "page": page,
+                                 "text": text, "device": device, "status": "open", "reply": "", "emailed": emailed})
+                update_index(add)
             except Exception:
                 pass
-            return self._send(200, {"ok": True, "emailed": emailed, "detail": detail})
+            return self._send(200, {"ok": True, "emailed": emailed, "detail": detail, "id": rid})
+        if u.path == "/api/admin/list":
+            if not admin_ok(payload.get("key", "")):
+                return self._send(200, {"ok": False})
+            data = read_index()
+            data.sort(key=lambda r: (r.get("status") == "fixed", -int(r.get("id", "0") or 0)))
+            return self._send(200, {"ok": True, "reports": data})
+        if u.path == "/api/admin/resolve":
+            if not admin_ok(payload.get("key", "")):
+                return self._send(200, {"ok": False})
+            rid = str(payload.get("id", "")); reply = str(payload.get("reply", "")).strip()
+            status = str(payload.get("status", "fixed"))
+
+            def upd(data):
+                for r in data:
+                    if str(r.get("id")) == rid:
+                        r["status"] = status; r["reply"] = reply
+                        r["resolved_ts"] = time.strftime("%Y-%m-%d %H:%M")
+            ok = update_index(upd)
+            return self._send(200, {"ok": ok})
         return self._send(404, {"error": "unknown endpoint"})
 
     def log_message(self, *a):
