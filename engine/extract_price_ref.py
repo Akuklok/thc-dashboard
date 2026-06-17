@@ -14,14 +14,35 @@ Fast (calamine, targeted folders, data sheet only). cloud_build overrides FOLDER
 import os, glob, re
 import pandas as pd
 
-FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Product Lists",
+FOLDERS = [r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Top Ten OneDrive - Product Lists",
+           r"C:\Users\Anna K\OneDrive - Top Ten Liquors\Product Lists",
            r"C:\Users\Anna K\OneDrive - Top Ten Liquors",
            r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports",
            r"C:\Users\Anna K\Downloads"]
 OUT = [r"C:\Users\Anna K\Downloads", r"C:\Users\Anna K\OneDrive - Top Ten Liquors\THC Reports"]
+# Beer's cost lives in the Liquor file (covers Spirits + Beer + Wine by UPC).
 DEPTS = {"THC": "THC [0-9]*.xlsx", "Wine": "Wine [0-9]*.xlsx",
-         "Spirits": "Liquor [0-9]*.xlsx", "Beer": "Beer [0-9]*.xlsx"}
-C = {"upc": 8, "units": 15, "deal": 16, "casecost": 19, "netunit": 25}
+         "Spirits": "Liquor [0-9]*.xlsx"}
+# Each department's workbook is laid out differently, so locate columns by HEADER NAME
+# (first occurrence; the header block repeats across the sheet), not by fixed position.
+ALIASES = {
+    "upc":      ["product upc"],
+    "units":    ["units/case", "units / case"],
+    "deal":     ["deal description"],
+    "netunit":  ["net/unit", "net unit cost", "net / unit"],          # buyer's per-unit cost
+    "casecost": ["net case cost", "top ten invoice cost", "top ten invoice"],  # fallback / units
+}
+
+
+def find_cols(d, hdr):
+    """Map each needed field to its column index by matching the header text."""
+    row = [str(x).strip().lower() for x in d.iloc[hdr].tolist()]
+    cols = {}
+    for j, v in enumerate(row):
+        for key, names in ALIASES.items():
+            if key not in cols and v in names:
+                cols[key] = j
+    return cols
 
 
 def norm(u):
@@ -62,10 +83,12 @@ def data_sheet(f, dept):
             names = pd.ExcelFile(f).sheet_names
         except Exception:
             return None, None
-    order = [s for s in names if dept.lower() in s.lower()] + [s for s in names if dept.lower() not in s.lower()]
+    # Spirits/Beer both live in the Liquor workbook's "Spirits" sheet.
+    want = "spirits" if dept.lower() in ("spirits", "beer") else dept.lower()
+    order = [s for s in names if want in s.lower()] + [s for s in names if want not in s.lower()]
     for sh in order:
         d = _read(f, sh)
-        if d is None or d.shape[1] <= C["netunit"]:
+        if d is None or d.shape[1] < 12:
             continue
         for i in range(min(4, len(d))):
             if any("Product UPC" in str(x) for x in d.iloc[i].tolist()):
@@ -127,16 +150,20 @@ def main():
         d, hdr = data_sheet(f, dept)
         if d is None:
             print(f"{dept}: no data sheet in {os.path.basename(f)}"); continue
+        cols = find_cols(d, hdr)
+        if "upc" not in cols or not ({"netunit", "casecost"} & set(cols)):
+            print(f"{dept}: couldn't locate cost columns in {os.path.basename(f)} (found {sorted(cols)})"); continue
         n = 0
         for _, r in d.iloc[hdr + 1:].iterrows():
-            upc = norm(r[C["upc"]])
+            upc = norm(r[cols["upc"]])
             if not upc:
                 continue
-            g = lambda k: pd.to_numeric(r[C[k]], errors="coerce")
+            g = lambda k: pd.to_numeric(r[cols[k]], errors="coerce") if k in cols else float("nan")
             netunit, casecost, units = g("netunit"), g("casecost"), g("units")
             cost = netunit if pd.notna(netunit) else \
                 (casecost / units if (pd.notna(casecost) and pd.notna(units) and units) else None)
-            deal = str(r[C["deal"]]).strip(); deal = "" if deal.lower() == "nan" else deal
+            deal = str(r[cols["deal"]]).strip() if "deal" in cols else ""
+            deal = "" if deal.lower() == "nan" else deal
             if (cost is None or pd.isna(cost)) and not deal:
                 continue
             rows.append({"upc": upc, "Department": dept,
