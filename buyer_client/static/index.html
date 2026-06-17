@@ -72,7 +72,7 @@
     <select id="dept" onchange="loadToday()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
-    <button id="refreshBtn" title="Reload the latest data">Refresh</button>
+    <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
     <span id="who" style="opacity:.85;font-size:13px"></span>
     <button onclick="logout()">Log out</button>
   </header>
@@ -183,11 +183,6 @@ async function ask(){
     const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply});
   }catch(e){t.textContent='(Error reaching the assistant)';}
 }
-function refresh(){
-  loadToday();   // re-pull today's data (cells + "Updated X ago")
-  if('serviceWorker' in navigator){ navigator.serviceWorker.getRegistration().then(r=>{ if(r) r.update(); }).catch(()=>{}); }
-}
-const _rb=document.getElementById('refreshBtn'); if(_rb) _rb.addEventListener('click',refresh);
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('/sw.js').catch(()=>{});
   let _reloaded=false;
