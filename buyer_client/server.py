@@ -152,6 +152,13 @@ def build_context(dept, focus=""):
         atrisk = inv[wos <= 2].sort_values("Wk Velocity", ascending=False)
         if len(atrisk):
             parts += ["\n=== LOW / AT-RISK (WOS 2 weeks or less) ===", atrisk[compact].head(15).to_csv(index=False)]
+        if "Deal" in inv.columns:
+            deals = inv[inv["Deal"].astype(str).str.strip().str.lower().replace("nan", "").str.len() > 0]
+            if len(deals):
+                dcols = [c for c in ["Item", "Deal", "Cost", "Retail", "Margin %", "Wk Velocity", "WOS"]
+                         if c in inv.columns]
+                parts += [f"\n=== ACTIVE DEALS ({len(deals)}) - sorted by weekly velocity ===",
+                          deals.sort_values("Wk Velocity", ascending=False)[dcols].head(25).to_csv(index=False)]
     return "\n".join(parts)[:22000]
 
 
