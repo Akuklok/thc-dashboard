@@ -69,12 +69,15 @@ def main():
     import recommended_order as ro
     import extract_price_ref as ep
     import build_snapshot as bs
+    import copy_product_tabs as cp
     dbb.INPUT_FOLDERS = [WORK]      # engine reads the report (and any product files) from here
     ro.OUT_FOLDERS = [DATA]
     ep.FOLDERS = [WORK]; ep.OUT = [DATA]
+    cp.FOLDERS = [WORK]; cp.OUT = [DATA]
     ep.main()                       # buyer cost + deals + Remove/New lists from product files (if present)
     ro.main()                       # orders + transfer plans (excludes Remove/discontinued items)
     bs.main()                       # per-item snapshots: retail from report, cost/deals from product files
+    cp.main()                       # mirror the buyers' product-list tabs (if product files present)
     print("Cloud build complete -> orders + snapshots in", DATA)
 
 
