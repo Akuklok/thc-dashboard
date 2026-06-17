@@ -119,6 +119,39 @@ def load_list(name):
         return None
 
 
+# Product-list tabs, in the order buyers expect them (extras appended alphabetically).
+TAB_ORDER = ["Remove", "New Items", "Upcoming Price Changes", "Price Level",
+             "Retail Pricing Table", "Markups"]
+
+
+def list_data_files():
+    """Every data file name (repo data/ when hosted, else the local data dirs)."""
+    if gh_token():
+        url = ("https://api.github.com/repos/%s/%s/contents/data?ref=%s"
+               % (GH_OWNER, GH_REPO, GH_BRANCH))
+        req = urllib.request.Request(url, headers={"Authorization": "Bearer " + gh_token(),
+                                                   "Accept": "application/vnd.github+json",
+                                                   "User-Agent": "ttb"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return [it.get("name", "") for it in json.load(r)]
+        except Exception:
+            return []
+    names = set()
+    for d in DATA_DIRS:
+        for fp in glob.glob(os.path.join(d, "*.csv")):
+            names.add(os.path.basename(fp))
+    return sorted(names)
+
+
+def list_tabs(dept):
+    """The product-list tabs that actually exist for a department (e.g. 'THC - Remove.csv')."""
+    prefix = dept + " - "
+    found = [n[len(prefix):-4] for n in list_data_files()
+             if n.startswith(prefix) and n.lower().endswith(".csv")]
+    return [t for t in TAB_ORDER if t in found] + sorted(t for t in found if t not in TAB_ORDER)
+
+
 def build_context(dept, focus=""):
     summary, buys, trans = read_order(dept)
     inv = load_inventory(dept)
@@ -367,6 +400,9 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, today_payload(dept))
             except Exception as e:
                 return self._send(500, {"error": str(e)})
+        if u.path == "/api/tabs":
+            dept = parse_qs(u.query).get("dept", ["THC"])[0]
+            return self._send(200, {"tabs": list_tabs(dept)})
         if u.path == "/api/list":
             qs = parse_qs(u.query)
             dept = qs.get("dept", ["THC"])[0]; tab = qs.get("tab", ["Remove"])[0]
