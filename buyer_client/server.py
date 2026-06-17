@@ -173,6 +173,8 @@ def _build_system(dept, focus=""):
         "- For a STORE question, list what that store needs this week, most urgent (lowest WOS / "
         "out of stock) first; note 'transfer' vs 'buy' in a few words only if useful.\n"
         "- Use the buyer's terms (PM, WOS, cases, gross/net). Cite only real numbers from the data.\n"
+        "- Prices: 'Cost'/'Unit Cost' = what Top Ten PAYS the vendor (used for order $); 'Retail' = the "
+        "customer shelf price; 'Margin %' = (Retail - Cost) / Retail. Never report cost as retail or vice versa.\n"
         "- If a fact truly isn't present, say so in one short line.\n\n"
         "The data below has: the weekly ORDER (chain-wide buy), the TRANSFER plan + PER-STORE NEEDS "
         "(use for store questions), and a full INVENTORY snapshot of every item (on-hand chain + by "
