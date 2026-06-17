@@ -1,7 +1,20 @@
 import os
 import re
 import io
+import json
 import datetime
+
+
+def _ago(iso):
+    try:
+        t = datetime.datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
+        s = (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds()
+        if s < 90: return f"{int(s)} sec ago"
+        if s < 5400: return f"{int(s/60)} min ago"
+        if s < 129600: return f"{int(s/3600)} hours ago"
+        return f"{int(s/86400)} days ago"
+    except Exception:
+        return ""
 import urllib.request
 import urllib.parse
 import pandas as pd
@@ -387,6 +400,12 @@ with tabs[6]:
     allowed = st.session_state.get("allowed_depts", DEPTS)
     pick_depts = [d for d in DEPTS if d in allowed] or DEPTS
     dept = st.selectbox("Department", pick_depts, key="ord_dept")
+    try:
+        _stat = json.loads(load_text("status.json") or "{}")
+    except Exception:
+        _stat = {}
+    if _stat.get("built_utc"):
+        st.caption(f"Last updated {_ago(_stat['built_utc'])}  ·  data date {_stat.get('data_date','')}")
     rec_order = load(f"{dept} Recommended Order.xlsx", "Recommended Order")
     transfers_plan = load(f"{dept} Recommended Order.xlsx", "Transfer Plan")
     if rec_order is None or not len(rec_order):
