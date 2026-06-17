@@ -1,36 +1,36 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Tuesday, Jun 16, 2026
+  RECOMMENDED OTHER ORDER          Wednesday, Jun 17, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     46,516
-  Coverable by transfer .......  $     22,755   (49%)
-  NET BUY from vendors ........  $     22,259   <- the order
+  Gross need (all stores) .....  $     46,537
+  Coverable by transfer .......  $     22,830   (49%)
+  NET BUY from vendors ........  $     22,211   <- the order
 
-  268 items   |   5,636 units to buy   |   8,795 units to rebalance
-  Transfers: 798 moves  -  163 urgent (89 stockouts, 74 under 2wk), 635 routine
+  270 items   |   5,590 units to buy   |   8,840 units to rebalance
+  Transfers: 804 moves  -  163 urgent (87 stockouts, 76 under 2wk), 641 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
-   2  Gosling's Diet Ginger Beer 6pk 12oz  24u/6cs          $115     22     0   1.9
+   2  Gosling's Diet Ginger Beer 6pk 12oz  24u/6cs          $114     22     0   1.6
    3  Gosling's Ginger Beer 6pk 12oz can   20u/5cs           $87     27     8   2.0
-   4  Retro: 24 oz Cocktail Shaker         6u/1cs            $70      6     0   2.1
-   5  Polar Club Soda Liter                48u/4cs           $41    111    57   2.3
-   6  Sprite Diet Zero 2L                  160u/20cs        $513    163     0   2.4
-   7  Minute Maid Lemonade 2L              128u/16cs        $410    170    44   3.0
-   8  Ocean Spray Cranberry Juice          12u/1cs           $35      8     0   3.1
-   9  Roses Grenadine 12oz                 18u/3cs           $67     34    16   3.3
-  10  ReaLime 5oz                          48u/2cs           $47     91    40   3.4
-  11  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   3.4
-  12  Barritt's Ginger Beer 6pk 12oz can   8u/2cs            $48     10     0   3.6
-  13  Coke Diet 2L                         128u/16cs        $412    196    68   3.8
-  14  Tres Agaves Margarita Mix Liter      12u/1cs           $70     74    59   3.9
-  15  Sprite 2L                            104u/13cs        $334    174    68   4.1
-  16  ReaLime Lime Juice 8oz               12u/1cs           $20     15     5   4.1
-  17  Master of Mixes Simple Syrup 375ml   48u/4cs          $128     88    38   4.2
-  18  Cock n Bull Ginger Beer 4pk 12oz bt  24u/4cs          $100     44    18   4.2
-  19  Gatorlyte Lemon Lime 20oz            48u/4cs           $88     81    37   4.2
-  20  Gosling's Ginger Beer 12pk           28u/14cs         $336     29     0   4.4
-  ...and 248 more in the full list.
+   4  Polar Club Soda Liter                60u/5cs           $53    111    54   2.3
+   5  Sprite Diet Zero 2L                  160u/20cs        $513    163     0   2.4
+   6  Minute Maid Lemonade 2L              128u/16cs        $410    170    41   2.8
+   7  Roses Grenadine 12oz                 18u/3cs           $67     34    16   2.9
+   8  Ocean Spray Cranberry Juice          12u/1cs           $35      8     0   3.0
+   9  ReaLime 5oz                          48u/2cs           $47     91    38   3.4
+  10  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   3.4
+  11  Coke Diet 2L                         136u/17cs        $437    196    61   3.7
+  12  Tres Agaves Margarita Mix Liter      12u/1cs           $70     74    59   3.8
+  13  Barritt's Ginger Beer 6pk 12oz can   8u/2cs            $48     10     0   3.8
+  14  Sprite 2L                            112u/14cs        $359    174    58   3.9
+  15  ReaLime Lime Juice 8oz               12u/1cs           $19     15     5   3.9
+  16  Master of Mixes Simple Syrup 375ml   48u/4cs          $128     88    35   4.0
+  17  Cock n Bull Ginger Beer 4pk 12oz bt  24u/4cs          $100     44    18   4.2
+  18  Gatorlyte Lemon Lime 20oz            36u/3cs           $66     81    43   4.4
+  19  Gosling's Ginger Beer 12pk           28u/14cs         $336     29     0   4.4
+  20  Fever Tree Tonic Water 8pk 5oz can   12u/4cs           $65     11     0   4.6
+  ...and 250 more in the full list.
