@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $    576,018
   Coverable by transfer .......  $    210,051   (36%)
-  NET BUY from vendors ........  $    246,242   <- the order
+  NET BUY from vendors ........  $    214,834   <- the order
 
-  583 items   |   31,180 units to buy   |   46,152 units to rebalance
+  502 items   |   29,422 units to buy   |   46,152 units to rebalance
   Transfers: 2,048 moves  -  416 urgent (85 stockouts, 331 under 2wk), 1,632 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
 
@@ -27,13 +27,13 @@
   12  New Amsterdam Pink Whitney Buckets   6u/1cs            $80      5     0   1.8
   13  Black Velvet Canadian 1.75L          72u/12cs         $941     83    10   1.9
   14  Captain Morgan Spiced Rum 1.75L      636u/106cs    $12,923    717    81   2.1
-  15  Svedka Vodka Traveler                156u/13cs      $1,201    165    11   2.1
-  16  The Botanist Islay Gin 750ml         6u/1cs           $160      7     0   2.1
-  17  Corralejo Reposado Tequila 750ml     6u/1cs           $130      5     0   2.1
-  18  Windsor Canadian 1.75L               282u/47cs      $7,345    333    49   2.1
-  19  Bacardi Limon Rum 1.75L              186u/31cs      $3,191    217    29   2.2
-  20  Vikre Boreal Juniper Gin 750ml       6u/1cs           $135      6     0   2.2
-  ...and 563 more in the full list.
+  15  The Botanist Islay Gin 750ml         6u/1cs           $160      7     0   2.1
+  16  Corralejo Reposado Tequila 750ml     6u/1cs           $130      5     0   2.1
+  17  Windsor Canadian 1.75L               282u/47cs      $7,345    333    49   2.1
+  18  Bacardi Limon Rum 1.75L              186u/31cs      $3,191    217    29   2.2
+  19  Vikre Boreal Juniper Gin 750ml       6u/1cs           $135      6     0   2.2
+  20  Karkov Vodka 1.75L                   312u/52cs      $2,720    429   118   2.3
+  ...and 482 more in the full list.
 
   BEING REMOVED - DO NOT REORDER (126 discontinued items still selling/low - run down stock):
     Absolut Raspberri Vodka Liter               (would have bought 12u)
@@ -52,3 +52,21 @@
     Cazadores Blanco Tequila 750ml              (would have bought 12u)
     Cazadores Reposado Tequila 750ml            (would have bought 12u)
     ...and 111 more (see Being Removed tab).
+
+  WAIT FOR BUY-MONTH (81 routine deal items out of their buy month - $31,408 cheaper to buy in-month):
+    818 Tequila Blanco 750ml                    Wait for buy-month (Jul, Aug, Oct, Dec)
+    Absolut Citron Vodka Liter                  Wait for buy-month (Jan, Apr, Jul, Oct)
+    Absolut Lime Vodka Liter                    Wait for buy-month (Jan, Apr, Jul, Oct)
+    Absolut Mandrin Vodka Liter                 Wait for buy-month (Jan, Apr, Jul, Oct)
+    Absolut Pears Vodka Liter                   Wait for buy-month (Jan, Apr, Jul, Oct)
+    Absolut Ruby Red Vodka Liter                Wait for buy-month (Jan, Apr, Jul, Oct)
+    Absolut Vodka 750ml                         Wait for buy-month (Jan, Apr, Jul, Oct)
+    Absolut Vodka Tabasco Chili Pepper Liter    Wait for buy-month (Jan, Apr, Jul, Oct)
+    Angel's Envy Bourbon 750ml                  Wait for buy-month (Feb, May, Jul, Sep, Nov)
+    Angel's Envy Rye 750ml                      Wait for buy-month (Feb, May, Jul, Sep, Nov)
+    Bailey's Caramel 750ml                      Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
+    Bailey's Chocolate 750ml                    Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
+    Bailey's Irish Cream 1.75L                  Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
+    Bailey's Irish Cream 750ml                  Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
+    Baileys Coffee Toffee 750ml                 Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
+    ...and 66 more (see Buy-Month Wait tab).
