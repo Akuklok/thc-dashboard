@@ -27,6 +27,8 @@
   th{user-select:none}
   .pgbtn{background:var(--green);color:#fff;border:0;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:13px;margin-left:6px}
   .pgbtn:disabled{background:#cdd3ce;cursor:default}
+  .frow th{padding:3px 6px;background:#f4f6f4;position:sticky}
+  .frow select,.frow input{width:100%;min-width:90px;padding:3px 5px;border:1px solid var(--line);border-radius:5px;font-size:12px;font-weight:400}
   /* feedback modal */
   #report{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
   #report .sheet{background:#fff;border-radius:14px;padding:18px;max-width:520px;width:100%;max-height:92vh;overflow:auto}
@@ -180,8 +182,9 @@ function show(v){
   $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':''; $('tabLists').className=v==='lists'?'on':'';
   if(v==='lists') loadTabs();
 }
-let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0; const LPAGE=400;
-function resetListView(){ lsort=''; ldir='asc'; loff=0; if($('findList')) $('findList').value=''; }
+let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0, lf={}, lfacets={}; const LPAGE=400;
+let listTimer=null, lfTimer=null;
+function resetListView(){ lsort='';ldir='asc';loff=0;lf={};lfacets={}; if($('findList'))$('findList').value=''; }
 async function loadTabs(){
   const dept=$('dept').value;
   $('ltabs').innerHTML='<span class="hint">Loading tabs…</span>'; $('listTbl').innerHTML='';
@@ -189,39 +192,51 @@ async function loadTabs(){
   catch(e){ curTabs=[]; }
   if(!curTabs.length){ $('ltabs').innerHTML='<span class="hint">No product-list tabs for '+dept+' yet.</span>'; $('listCount').textContent=''; $('listPager').innerHTML=''; return; }
   if(!curTabs.includes(curTab)) curTab=curTabs[0];
-  resetListView(); renderTabBar(); loadList();
+  resetListView(); renderTabBar(); loadList({head:true});
 }
 function renderTabBar(){
   $('ltabs').innerHTML=curTabs.map((t,i)=>`<button class="${t===curTab?'on':''}" onclick="pickTab(${i})">${t}</button>`).join('');
 }
-function pickTab(i){ curTab=curTabs[i]; resetListView(); renderTabBar(); loadList(); }
-let listTimer=null;
-function searchList(){ loff=0; clearTimeout(listTimer); listTimer=setTimeout(loadList,250); }   // debounce typing
-function listSort(name){ if(lsort===name){ldir=ldir==='asc'?'desc':'asc';}else{lsort=name;ldir='asc';} loff=0; loadList(); }
-function listPage(delta){ loff=Math.max(0,loff+delta*LPAGE); loadList(); }
-async function loadList(){
-  const dept=$('dept').value, tab=curTab;
-  if(!tab) return;
+function pickTab(i){ curTab=curTabs[i]; resetListView(); renderTabBar(); loadList({head:true}); }
+function searchList(){ loff=0; clearTimeout(listTimer); listTimer=setTimeout(()=>loadList({head:true}),250); }
+function listSort(name){ if(lsort===name){ldir=ldir==='asc'?'desc':'asc';}else{lsort=name;ldir='asc';} loff=0; loadList({head:true}); }
+function listPage(delta){ loff=Math.max(0,loff+delta*LPAGE); loadList({head:false}); }
+function setFilter(col,val){ if(val) lf[col]=val; else delete lf[col]; loff=0; loadList({head:false}); }
+function setFilterText(col,val){ if(val) lf[col]=val; else delete lf[col]; loff=0; clearTimeout(lfTimer); lfTimer=setTimeout(()=>loadList({head:false}),300); }
+function clearFilters(){ lf={}; loff=0; loadList({head:true}); }
+async function loadList(opts){
+  opts=opts||{}; const head=opts.head!==false;
+  const dept=$('dept').value, tab=curTab; if(!tab) return;
   lq=$('findList')?$('findList').value.trim():'';
-  $('listTbl').innerHTML='<tr><td>Loading…</td></tr>';
-  const p=new URLSearchParams({dept,tab,q:lq,sort:lsort||'',dir:ldir,offset:loff,limit:LPAGE});
-  try{ drawList(await (await fetch('/api/list?'+p.toString())).json()); }
-  catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
+  const fx=Object.keys(lf).filter(c=>lfacets[c]);
+  const p=new URLSearchParams({dept,tab,q:lq,sort:lsort||'',dir:ldir,offset:loff,limit:LPAGE,f:JSON.stringify(lf),fx:JSON.stringify(fx)});
+  if(head){ p.set('facets','1'); $('listTbl').innerHTML='<tr><td>Loading…</td></tr>'; }
+  try{
+    const d=await (await fetch('/api/list?'+p.toString())).json();
+    if(head && d.facets) lfacets=d.facets;
+    drawList(d, head);
+  }catch(e){ $('listTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
 }
-function drawList(d){
+function fmtCell(v){ if(v==null) return ''; const s=String(v); if(/^-?\d+\.\d{3,}$/.test(s)){ const n=Number(s); if(isFinite(n)) return n.toFixed(2); } return esc(s); }
+function drawList(d, withHead){
   const el=$('listTbl');
   if(!d.cols||!d.cols.length){ el.innerHTML='<tr><td>Nothing in '+curTab+' for '+$('dept').value+'.</td></tr>'; $('listCount').textContent=''; $('listPager').innerHTML=''; return; }
-  const arrow=c=> lsort===c ? (ldir==='asc'?' ▲':' ▼') : '';
-  let h='<tr>'+d.cols.map(c=>`<th onclick="listSort(${JSON.stringify(c)})" style="cursor:pointer" title="Click to sort">${c}${arrow(c)}</th>`).join('')+'</tr>';
-  for(const r of d.rows){ h+='<tr>'+r.map(v=>`<td>${v==null?'':v}</td>`).join('')+'</tr>'; }
-  el.innerHTML=h;
-  const tot=d.matched, shown=d.rows.length, from=shown?d.offset+1:0, to=d.offset+shown;
-  $('listCount').textContent = lq ? `${tot.toLocaleString()} match${tot===1?'':'es'} of ${d.total.toLocaleString()}` : `${d.total.toLocaleString()} rows`;
-  $('listPager').innerHTML = (tot>LPAGE)
-    ? `Showing ${from.toLocaleString()}–${to.toLocaleString()} of ${tot.toLocaleString()}`
-      +` <button class="pgbtn" ${d.offset<=0?'disabled':''} onclick="listPage(-1)">‹ Prev</button>`
-      +` <button class="pgbtn" ${to>=tot?'disabled':''} onclick="listPage(1)">Next ›</button>`
-    : '';
+  const body='<tbody>'+d.rows.map(r=>'<tr>'+r.map(v=>`<td>${fmtCell(v)}</td>`).join('')+'</tr>').join('')+'</tbody>';
+  if(withHead){
+    const arrow=c=> lsort===c ? (ldir==='asc'?' ▲':' ▼') : '';
+    let head='<thead><tr>'+d.cols.map(c=>`<th onclick="listSort(${JSON.stringify(c)})" style="cursor:pointer" title="Click to sort">${esc(c)}${arrow(c)}</th>`).join('')+'</tr>';
+    head+='<tr class="frow">'+d.cols.map(c=>{
+      if(lfacets[c]) return `<th><select onchange="setFilter(${JSON.stringify(c)},this.value)"><option value="">(all)</option>`+lfacets[c].map(v=>`<option ${v===(lf[c]||'')?'selected':''}>${esc(v)}</option>`).join('')+`</select></th>`;
+      return `<th><input value="${esc(lf[c]||'')}" oninput="setFilterText(${JSON.stringify(c)},this.value)" placeholder="filter"/></th>`;
+    }).join('')+'</tr></thead>';
+    el.innerHTML=head+body;
+  } else {
+    const tb=el.querySelector('tbody');
+    if(tb) tb.outerHTML=body; else el.innerHTML=body;
+  }
+  const tot=d.matched, shown=d.rows.length, from=shown?d.offset+1:0, to=d.offset+shown, nf=Object.keys(lf).length;
+  $('listCount').innerHTML=((lq||nf)?`${tot.toLocaleString()} match${tot===1?'':'es'} of ${d.total.toLocaleString()}`:`${d.total.toLocaleString()} rows`)+(nf?` · <a href="#" onclick="clearFilters();return false">clear filters</a>`:'');
+  $('listPager').innerHTML=(tot>LPAGE)?`Showing ${from.toLocaleString()}–${to.toLocaleString()} of ${tot.toLocaleString()} <button class="pgbtn" ${d.offset<=0?'disabled':''} onclick="listPage(-1)">‹ Prev</button> <button class="pgbtn" ${to>=tot?'disabled':''} onclick="listPage(1)">Next ›</button>`:'';
 }
 // Sortable + filterable tables. mountTable stores the data; drawTable renders with the
 // current sort + (client-side) filter. Product Lists pass server:true (search is server-side).
