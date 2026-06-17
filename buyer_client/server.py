@@ -120,10 +120,7 @@ def load_list(name):
 
 
 # Product-list tabs, in the order buyers expect them (extras appended alphabetically).
-TAB_ORDER = ["Full List", "New Items", "Remove", "Upcoming Price Changes",
-             "Price Level", "Retail Pricing Table", "Markups",
-             "Buy Month Lookup", "Lookup", "Vendor Reference",
-             "NetSuite vendor reference", "List"]
+TAB_ORDER = ["Full List", "New Items", "Remove", "Upcoming Price Changes", "Price Level"]
 
 
 def list_data_files():
