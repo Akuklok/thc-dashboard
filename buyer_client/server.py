@@ -572,11 +572,27 @@ class Handler(BaseHTTPRequestHandler):
             df = load_list(f"{prod_dept(dept)} - {tab}.csv")
             if df is None or not len(df):
                 return self._send(200, {"cols": [], "rows": [], "total": 0, "matched": 0, "offset": 0, "limit": limit})
+            try: fmap = json.loads(qs.get("f", ["{}"])[0]) or {}
+            except Exception: fmap = {}
+            try: fx = set(json.loads(qs.get("fx", ["[]"])[0]) or [])   # columns to match exactly
+            except Exception: fx = set()
+            want_facets = qs.get("facets", ["0"])[0] == "1"
             df = df.fillna("").astype(object)
             total = len(df)
             if q:                                   # search every column across the FULL tab
                 hay = df.astype(str).agg(" ".join, axis=1).str.lower()
                 df = df[hay.str.contains(q, regex=False)]
+            facets = {}
+            if want_facets:                         # dropdown values per low-cardinality column
+                for c in df.columns:
+                    s = df[c].astype(str).str.strip()
+                    u = [v for v in pd.unique(s) if v and v.lower() != "nan"]
+                    if 1 < len(u) <= 50:
+                        facets[c] = sorted(u, key=lambda x: x.lower())
+            for c, val in fmap.items():             # per-column filters (exact for dropdowns, contains for text)
+                if c in df.columns and str(val) != "":
+                    col = df[c].astype(str)
+                    df = df[col.str.strip() == str(val)] if c in fx else df[col.str.lower().str.contains(str(val).lower(), regex=False)]
             matched = len(df)
             if sort and sort in df.columns:         # sort the WHOLE (filtered) set, then page
                 col = df[sort].astype(str)
@@ -586,8 +602,11 @@ class Handler(BaseHTTPRequestHandler):
                 else:
                     df = df.assign(_k=col.str.lower()).sort_values("_k", ascending=not desc).drop(columns="_k")
             page = df.iloc[offset:offset + limit]
-            return self._send(200, {"cols": list(map(str, page.columns)), "rows": page.values.tolist(),
-                                    "total": total, "matched": matched, "offset": offset, "limit": limit})
+            resp = {"cols": list(map(str, page.columns)), "rows": page.values.tolist(),
+                    "total": total, "matched": matched, "offset": offset, "limit": limit}
+            if want_facets:
+                resp["facets"] = facets
+            return self._send(200, resp)
         return self._serve_static(u.path)
 
     def do_POST(self):
