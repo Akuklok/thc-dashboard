@@ -146,9 +146,14 @@ def list_data_files():
     return sorted(names)
 
 
+def prod_dept(dept):
+    """Beer shares the Liquor (Spirits) product file, so its product tabs come from Spirits."""
+    return "Spirits" if dept == "Beer" else dept
+
+
 def list_tabs(dept):
     """The product-list tabs that actually exist for a department (e.g. 'THC - Remove.csv')."""
-    prefix = dept + " - "
+    prefix = prod_dept(dept) + " - "
     found = [n[len(prefix):-4] for n in list_data_files()
              if n.startswith(prefix) and n.lower().endswith(".csv")]
     return [t for t in TAB_ORDER if t in found] + sorted(t for t in found if t not in TAB_ORDER)
@@ -343,8 +348,8 @@ def today_payload(dept):
             return []
         keep = [c for c in cols if c in df.columns]
         return df[keep].head(n).fillna("").astype(object).values.tolist(), keep
-    buy_rows, buy_cols = rows(buys, ["Item", "WOS", "Buy Units", "Buy Cases", "Net Buy $", "GM %", "Deal Terms", "Buy Month"], 30) if buys is not None else ([], [])
-    tr_rows, tr_cols = rows(trans, ["Priority", "To Store", "Item", "Transfer In", "Value $", "From"], 30) if trans is not None else ([], [])
+    buy_rows, buy_cols = rows(buys, ["Item", "WOS", "Buy Units", "Buy Cases", "Net Buy $", "GM %", "Deal Terms", "Buy Month"], 600) if buys is not None else ([], [])
+    tr_rows, tr_cols = rows(trans, ["Priority", "To Store", "Item", "Transfer In", "Value $", "From"], 600) if trans is not None else ([], [])
     headline = dept_totals(dept) or {}
     if not headline and buys is not None and len(buys):
         unit_cost = pd.to_numeric(buys.get("Unit Cost"), errors="coerce")
@@ -414,11 +419,19 @@ class Handler(BaseHTTPRequestHandler):
         if u.path == "/api/list":
             qs = parse_qs(u.query)
             dept = qs.get("dept", ["THC"])[0]; tab = qs.get("tab", ["Remove"])[0]
-            df = load_list(f"{dept} - {tab}.csv")
+            q = qs.get("q", [""])[0].strip().lower()
+            df = load_list(f"{prod_dept(dept)} - {tab}.csv")
             if df is None or not len(df):
-                return self._send(200, {"cols": [], "rows": []})
-            df = df.head(400).fillna("").astype(object)
-            return self._send(200, {"cols": list(map(str, df.columns)), "rows": df.values.tolist()})
+                return self._send(200, {"cols": [], "rows": [], "total": 0, "matched": 0})
+            df = df.fillna("").astype(object)
+            total = len(df)
+            if q:                                   # search every column across the FULL tab
+                hay = df.astype(str).agg(" ".join, axis=1).str.lower()
+                df = df[hay.str.contains(q, regex=False)]
+            matched = len(df)
+            df = df.head(400)
+            return self._send(200, {"cols": list(map(str, df.columns)), "rows": df.values.tolist(),
+                                    "total": total, "matched": matched})
         return self._serve_static(u.path)
 
     def do_POST(self):
