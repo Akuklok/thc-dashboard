@@ -71,6 +71,7 @@
     <span class="brand">Top Ten Buyer</span>
     <select id="dept" onchange="loadToday()"></select>
     <span class="sp"></span>
+    <span id="updated" style="font-size:12px;opacity:.9"></span>
     <span id="who" style="opacity:.85;font-size:13px"></span>
     <button onclick="logout()">Log out</button>
   </header>
@@ -106,6 +107,15 @@
 let DEPTS=[], history=[];
 const $=id=>document.getElementById(id);
 const money=n=>'$'+Math.round(n||0).toLocaleString();
+function ago(iso){
+  if(!iso) return '';
+  const t=new Date(/[Z+]/.test(iso)?iso:iso+'Z'); const s=Math.max(0,(Date.now()-t.getTime())/1000);
+  if(s<90) return Math.round(s)+' sec ago';
+  const m=s/60; if(m<90) return Math.round(m)+' min ago';
+  const h=m/60; if(h<36) return Math.round(h)+' hours ago';
+  return Math.round(h/24)+' days ago';
+}
+function fmtd(d){ if(!d) return ''; const p=String(d).split('-'); return p.length>=3?(+p[1])+'/'+(+p[2]):d; }
 
 async function login(){
   const r=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},
@@ -143,8 +153,9 @@ function table(el,cols,rows){
 async function loadToday(){
   const dept=$('dept').value;
   const d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
-  const h=d.headline||{};
+  const h=d.headline||{}; const st=d.status||{};
   const n=v=>(v===undefined||v===null)?'-':v.toLocaleString();
+  $('updated').textContent = st.built_utc ? ('Updated '+ago(st.built_utc)+(st.data_date?(' · data '+fmtd(st.data_date)):'')) : '';
   $('cards').innerHTML = h.items!==undefined ? `
     <div class="card big"><div class="lbl">Net buy from vendors</div><div class="val">${money(h.net_buy)}</div></div>
     <div class="card"><div class="lbl">Cover by transfer</div><div class="val">${money(h.transfer)}</div></div>
