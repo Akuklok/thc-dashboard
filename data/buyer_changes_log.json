@@ -1,0 +1,14 @@
+[
+  {
+    "id": "17817951185552783000",
+    "ts": "2026-06-18 15:05",
+    "who": "verify",
+    "dept": "THC",
+    "item": "__deploy_test__",
+    "action": "approve",
+    "qty": null,
+    "note": "verify",
+    "prev": null,
+    "undone": false
+  }
+]
