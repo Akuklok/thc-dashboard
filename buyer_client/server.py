@@ -495,7 +495,7 @@ def today_payload(dept):
             return []
         keep = [c for c in cols if c in df.columns]
         return df[keep].head(n).fillna("").astype(object).values.tolist(), keep
-    buy_rows, buy_cols = rows(buys, ["Item", "WOS", "Buy Units", "Buy Cases", "Net Buy $", "GM %", "Deal Terms", "Buy Month", "Review"], 600) if buys is not None else ([], [])
+    buy_rows, buy_cols = rows(buys, ["Item", "Review", "WOS", "Buy Units", "Buy Cases", "Net Buy $", "GM %", "Deal Terms", "Buy Month"], 600) if buys is not None else ([], [])
     tr_rows, tr_cols = rows(trans, ["Priority", "To Store", "Item", "Transfer In", "Value $", "From"], 600) if trans is not None else ([], [])
     headline = dept_totals(dept) or {}
     if not headline and buys is not None and len(buys):
