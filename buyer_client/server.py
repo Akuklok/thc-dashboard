@@ -213,12 +213,12 @@ def newest(pattern):
 
 
 def read_order(dept):
-    """Return (summary_text, buys_df, transfers_df, buy_month_wait_df) for a department."""
+    """Return (summary_text, buys_df, transfers_df, buy_month_wait_df, needs_review_df)."""
     base = "THC" if dept == "THC" else dept
     xb = get_bytes(f"{base} Recommended Order.xlsx")
     tb = get_bytes(f"{base} Recommended Order.txt")
     summary = tb.decode("utf-8", "replace") if tb else "No order yet for " + dept
-    buys = trans = wait = None
+    buys = trans = wait = review = None
     if xb:
         try:
             xl = pd.ExcelFile(io.BytesIO(xb))
@@ -228,9 +228,11 @@ def read_order(dept):
                 trans = xl.parse("Transfer Plan")
             if "Buy-Month Wait" in xl.sheet_names:
                 wait = xl.parse("Buy-Month Wait")
+            if "Needs Review" in xl.sheet_names:
+                review = xl.parse("Needs Review")
         except Exception:
             pass
-    return summary, buys, trans, wait
+    return summary, buys, trans, wait, review
 
 
 STOPWORDS = {"what", "does", "need", "needs", "this", "week", "that", "have", "much", "how", "the",
@@ -302,7 +304,7 @@ def list_tabs(dept):
 
 
 def build_context(dept, focus=""):
-    summary, buys, trans, wait = read_order(dept)
+    summary, buys, trans, wait, review = read_order(dept)
     inv = load_inventory(dept)
     cost_map = (dict(zip(inv["Item"].astype(str), inv["Cost"]))
                 if inv is not None and "Item" in inv.columns and "Cost" in inv.columns else {})
@@ -312,6 +314,9 @@ def build_context(dept, focus=""):
     if wait is not None and len(wait):
         parts += [f"\n=== {dept} WAITING FOR BUY-MONTH (routine deal items deferred until their cheaper buy month; "
                   f"not in this week's buy) ===", wait.head(40).to_csv(index=False)]
+    if review is not None and len(review):
+        parts += [f"\n=== {dept} NEEDS HUMAN REVIEW (in the order, but flagged - the system isn't fully sure; "
+                  f"check before ordering) ===", review.head(40).to_csv(index=False)]
     if trans is not None and len(trans) and "To Store" in trans.columns:
         try:   # per-store rollup so store-specific questions can be answered
             tv = pd.to_numeric(trans.get("Value $"), errors="coerce").fillna(0)
@@ -484,13 +489,13 @@ def status_info():
 
 
 def today_payload(dept):
-    summary, buys, trans, wait = read_order(dept)
+    summary, buys, trans, wait, review = read_order(dept)
     def rows(df, cols, n):
         if df is None or not len(df):
             return []
         keep = [c for c in cols if c in df.columns]
         return df[keep].head(n).fillna("").astype(object).values.tolist(), keep
-    buy_rows, buy_cols = rows(buys, ["Item", "WOS", "Buy Units", "Buy Cases", "Net Buy $", "GM %", "Deal Terms", "Buy Month"], 600) if buys is not None else ([], [])
+    buy_rows, buy_cols = rows(buys, ["Item", "WOS", "Buy Units", "Buy Cases", "Net Buy $", "GM %", "Deal Terms", "Buy Month", "Review"], 600) if buys is not None else ([], [])
     tr_rows, tr_cols = rows(trans, ["Priority", "To Store", "Item", "Transfer In", "Value $", "From"], 600) if trans is not None else ([], [])
     headline = dept_totals(dept) or {}
     if not headline and buys is not None and len(buys):
@@ -506,6 +511,8 @@ def today_payload(dept):
     if wait is not None and len(wait):
         headline["wait_items"] = int(len(wait))
         headline["wait_buy"] = float(pd.to_numeric(wait.get("Net Buy $"), errors="coerce").fillna(0).sum())
+    if review is not None and len(review):
+        headline["review_items"] = int(len(review))
     if trans is not None and len(trans):
         headline["transfers"] = int(len(trans))
         headline["rebalance_units"] = int(pd.to_numeric(trans.get("Transfer In"), errors="coerce").fillna(0).sum())
