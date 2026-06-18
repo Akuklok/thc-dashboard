@@ -380,20 +380,22 @@ def list_tabs(dept):
     return [t for t in TAB_ORDER if t in found] + sorted(t for t in found if t not in TAB_ORDER)
 
 
-def build_context(dept, focus=""):
+def build_parts(dept, focus=""):
+    """Returns (stable, focus_text): the per-department data (same every question -> cacheable),
+    and the small per-question block (relevant item/store) that rides with the message."""
     summary, buys, trans, wait, review = read_order(dept)
     inv = load_inventory(dept)
     cost_map = (dict(zip(inv["Item"].astype(str), inv["Cost"]))
                 if inv is not None and "Item" in inv.columns and "Cost" in inv.columns else {})
-    parts = [f"=== {dept} RECOMMENDED ORDER (summary) ===", summary[:3000]]
+    S = [f"=== {dept} RECOMMENDED ORDER (summary) ===", summary[:3000]]
     if buys is not None and len(buys):
-        parts += [f"\n=== {dept} ITEMS TO BUY (chain-wide order) ===", buys.head(45).to_csv(index=False)]
+        S += [f"\n=== {dept} ITEMS TO BUY (chain-wide order) ===", buys.head(45).to_csv(index=False)]
     if wait is not None and len(wait):
-        parts += [f"\n=== {dept} WAITING FOR BUY-MONTH (routine deal items deferred until their cheaper buy month; "
-                  f"not in this week's buy) ===", wait.head(40).to_csv(index=False)]
+        S += [f"\n=== {dept} WAITING FOR BUY-MONTH (routine deal items deferred until their cheaper buy month; "
+              f"not in this week's buy) ===", wait.head(40).to_csv(index=False)]
     if review is not None and len(review):
-        parts += [f"\n=== {dept} NEEDS HUMAN REVIEW (in the order, but flagged - the system isn't fully sure; "
-                  f"check before ordering) ===", review.head(40).to_csv(index=False)]
+        S += [f"\n=== {dept} NEEDS HUMAN REVIEW (in the order, but flagged - the system isn't fully sure; "
+              f"check before ordering) ===", review.head(40).to_csv(index=False)]
     if trans is not None and len(trans) and "To Store" in trans.columns:
         try:   # per-store rollup so store-specific questions can be answered
             tv = pd.to_numeric(trans.get("Value $"), errors="coerce").fillna(0)
@@ -401,21 +403,50 @@ def build_context(dept, focus=""):
                     .agg(items=("Item", "count"), transfer_in_value=("_v", "sum"),
                          stockouts=("Priority", lambda s: int((s == "STOCKOUT").sum())))
                     .reset_index().sort_values("transfer_in_value", ascending=False))
-            parts += ["\n=== PER-STORE NEEDS (what each store receives via transfer) ===",
-                      roll.to_csv(index=False)]
+            S += ["\n=== PER-STORE NEEDS (what each store receives via transfer) ===", roll.to_csv(index=False)]
         except Exception:
             pass
+        S += [f"\n=== {dept} TOP TRANSFERS (all stores) ===", trans.head(25).to_csv(index=False)]
+    if inv is not None and len(inv):
+        compact = [c for c in ["Item", "Category", "Chain OH", "Wk Velocity", "WOS", "Cost",
+                               "Retail", "Margin %", "30D Units"] if c in inv.columns]
+        S += ["\n=== TOP SELLERS (by weekly velocity) ===", inv[compact].head(12).to_csv(index=False)]
+        wos = pd.to_numeric(inv["WOS"], errors="coerce")
+        atrisk = inv[wos <= 2].sort_values("Wk Velocity", ascending=False)
+        if len(atrisk):
+            S += ["\n=== LOW / AT-RISK (WOS 2 weeks or less) ===", atrisk[compact].head(15).to_csv(index=False)]
+        if "Deal" in inv.columns:
+            deals = inv[inv["Deal"].astype(str).str.strip().str.lower().replace("nan", "").str.len() > 0]
+            if len(deals):
+                dcols = [c for c in ["Item", "Deal", "Cost", "Retail", "Margin %", "Wk Velocity", "WOS"]
+                         if c in inv.columns]
+                S += [f"\n=== ACTIVE DEALS ({len(deals)}) - sorted by weekly velocity ===",
+                      deals.sort_values("Wk Velocity", ascending=False)[dcols].head(25).to_csv(index=False)]
+    rem = load_list("Remove List.csv")
+    if rem is not None and "Item" in rem.columns:
+        if "Department" in rem.columns:
+            rem = rem[rem["Department"] == dept]
+        if len(rem):
+            S += [f"\n=== BEING REMOVED ({len(rem)} discontinued items - DO NOT reorder) ===",
+                  rem["Item"].head(40).to_csv(index=False)]
+    newi = load_list("New Items.csv")
+    if newi is not None and "Item" in newi.columns:
+        if "Department" in newi.columns:
+            newi = newi[newi["Department"] == dept]
+        if len(newi):
+            S += [f"\n=== NEW ITEMS ({len(newi)} being added) ===", newi["Item"].head(40).to_csv(index=False)]
+
+    # ---- per-question (focus) block: named store detail + items matching the question ----
+    F = []
+    if trans is not None and len(trans) and "To Store" in trans.columns:
         named = [s for s in trans["To Store"].dropna().astype(str).unique()
                  if s.lower() in (focus or "").lower()]
         for s in named[:2]:
             sub = trans[trans["To Store"].astype(str) == s].copy()
             if cost_map:
                 sub["Unit Cost"] = sub["Item"].astype(str).map(cost_map)
-            parts += [f"\n=== {s.upper()}: DETAILED NEEDS (transfer in, then-buy, with unit cost) ===",
-                      sub.head(60).to_csv(index=False)]
-        if not named:
-            parts += [f"\n=== {dept} TOP TRANSFERS (all stores) ===", trans.head(25).to_csv(index=False)]
-    # full inventory snapshot - pull rows relevant to the question + key rankings
+            F += [f"\n=== {s.upper()}: DETAILED NEEDS (transfer in, then-buy, with unit cost) ===",
+                  sub.head(60).to_csv(index=False)]
     if inv is not None and len(inv):
         words = [w for w in re.findall(r"[a-z0-9]{3,}", (focus or "").lower()) if w not in STOPWORDS]
         if words:
@@ -423,42 +454,19 @@ def build_context(dept, focus=""):
             score = names.apply(lambda s: sum(w in s for w in words))
             hits = inv[score > 0].copy()
             hits["_s"] = score[score > 0]
-            hits = hits.sort_values("_s", ascending=False).drop(columns="_s")   # most-relevant item first
+            hits = hits.sort_values("_s", ascending=False).drop(columns="_s")
             if len(hits):
-                parts += ["\n=== ITEMS MATCHING THE QUESTION (best match first) - full detail: cost, retail, club price, margin, on-hand by store ===",
-                          hits.head(15).to_csv(index=False)]
-        compact = [c for c in ["Item", "Category", "Chain OH", "Wk Velocity", "WOS", "Cost",
-                               "Retail", "Margin %", "30D Units"] if c in inv.columns]
-        parts += ["\n=== TOP SELLERS (by weekly velocity) ===", inv[compact].head(12).to_csv(index=False)]
-        wos = pd.to_numeric(inv["WOS"], errors="coerce")
-        atrisk = inv[wos <= 2].sort_values("Wk Velocity", ascending=False)
-        if len(atrisk):
-            parts += ["\n=== LOW / AT-RISK (WOS 2 weeks or less) ===", atrisk[compact].head(15).to_csv(index=False)]
-        if "Deal" in inv.columns:
-            deals = inv[inv["Deal"].astype(str).str.strip().str.lower().replace("nan", "").str.len() > 0]
-            if len(deals):
-                dcols = [c for c in ["Item", "Deal", "Cost", "Retail", "Margin %", "Wk Velocity", "WOS"]
-                         if c in inv.columns]
-                parts += [f"\n=== ACTIVE DEALS ({len(deals)}) - sorted by weekly velocity ===",
-                          deals.sort_values("Wk Velocity", ascending=False)[dcols].head(25).to_csv(index=False)]
-    # product-form sections carried over: items being removed (don't reorder) and new items
-    rem = load_list("Remove List.csv")
-    if rem is not None and "Item" in rem.columns:
-        if "Department" in rem.columns:
-            rem = rem[rem["Department"] == dept]
-        if len(rem):
-            parts += [f"\n=== BEING REMOVED ({len(rem)} discontinued items - DO NOT reorder) ===",
-                      rem["Item"].head(40).to_csv(index=False)]
-    newi = load_list("New Items.csv")
-    if newi is not None and "Item" in newi.columns:
-        if "Department" in newi.columns:
-            newi = newi[newi["Department"] == dept]
-        if len(newi):
-            parts += [f"\n=== NEW ITEMS ({len(newi)} being added) ===", newi["Item"].head(40).to_csv(index=False)]
-    return "\n".join(parts)[:26000]
+                F += ["\n=== ITEMS MATCHING THE QUESTION (best match first) - full detail: cost, retail, club price, margin, on-hand by store ===",
+                      hits.head(15).to_csv(index=False)]
+    return "\n".join(S)[:24000], "\n".join(F)[:6000]
 
 
-def _build_system(dept, focus=""):
+def build_context(dept, focus=""):
+    stable, foc = build_parts(dept, focus)
+    return (stable + "\n" + foc)[:26000]
+
+
+def _build_system(dept, data=""):
     return (
         f"You are the buying assistant for Top Ten Liquors' {dept} buyer.\n"
         "ANSWER STYLE (important):\n"
@@ -480,7 +488,7 @@ def _build_system(dept, focus=""):
         "(use for store questions), and a full INVENTORY snapshot of every item (on-hand chain + by "
         "store, velocity, WOS, cost, retail, margin, sales) plus TOP SELLERS, LOW/AT-RISK, ACTIVE DEALS, "
         "items BEING REMOVED (discontinued - do not reorder), and NEW ITEMS lists.\n\n"
-        "DATA:\n" + build_context(dept, focus))
+        "DATA:\n" + data)
 
 
 def _img_parts(img):
@@ -529,14 +537,26 @@ def claude_chat(key, system, messages):
                 {"type": "text", "text": m.get("content", "")}]})
         else:
             msgs.append({"role": m["role"], "content": m.get("content", "")})
-    body = {"model": CLAUDE_MODEL, "max_tokens": 1100, "system": system, "messages": msgs}
-    req = urllib.request.Request("https://api.anthropic.com/v1/messages",
-                                 data=json.dumps(body).encode(),
-                                 headers={"x-api-key": key, "anthropic-version": "2023-06-01",
-                                          "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        out = json.load(r)
-    return "".join(b.get("text", "") for b in out.get("content", []) if b.get("type") == "text")
+    # cache the big system/data block so repeat questions in a department are ~cheap (5-min TTL)
+    body = {"model": CLAUDE_MODEL, "max_tokens": 1100,
+            "system": [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+            "messages": msgs}
+    last = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request("https://api.anthropic.com/v1/messages",
+                                         data=json.dumps(body).encode(),
+                                         headers={"x-api-key": key, "anthropic-version": "2023-06-01",
+                                                  "content-type": "application/json"})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                out = json.load(r)
+            return "".join(b.get("text", "") for b in out.get("content", []) if b.get("type") == "text")
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (429, 500, 529) and attempt < 2:
+                time.sleep(2 * (attempt + 1)); continue
+            raise
+    raise last
 
 
 def _key(env_name, keyfile):
@@ -550,18 +570,25 @@ def ai_reply(dept, messages):
     # focus on the recent conversation (both sides) so follow-ups like "what's the club price"
     # keep the item the assistant just named in context, not only what the user typed.
     focus = " ".join(m.get("content", "") for m in messages[-6:])
-    system = _build_system(dept, focus)
+    stable, foc = build_parts(dept, focus)
+    system = _build_system(dept, stable)            # stable per-dept data -> cached for Claude
+    msgs = [dict(m) for m in messages]
+    if foc.strip():                                 # per-question detail rides with the latest user message
+        for m in reversed(msgs):
+            if m.get("role") == "user":
+                m["content"] = (m.get("content", "") + "\n\n[Most relevant to this question]\n" + foc)
+                break
     ak = _key("ANTHROPIC_API_KEY", ANTHROPIC_KEYFILE)
     gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
     if ak:
         try:
-            return claude_chat(ak, system, messages)
+            return claude_chat(ak, system, msgs)
         except Exception as e:
             if not gk:
                 raise
             print("Claude failed, falling back to Gemini:", e)
     if gk:
-        return gemini_chat(gk, system, messages)
+        return gemini_chat(gk, system, msgs)
     return "No AI key configured (add anthropic_key.txt or gemini_key.txt)."
 
 
