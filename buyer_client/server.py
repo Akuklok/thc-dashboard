@@ -709,6 +709,18 @@ class Handler(BaseHTTPRequestHandler):
             log = [c for c in read_changes() if not dept or str(c.get("dept", "")).lower() == dept.lower()]
             log.sort(key=lambda c: str(c.get("id", "")), reverse=True)
             return self._send(200, {"changes": log[:200]})
+        if u.path == "/api/health":
+            ak = _key("ANTHROPIC_API_KEY", ANTHROPIC_KEYFILE); gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
+            info = {"anthropic_set": bool(ak), "gemini_set": bool(gk), "model": CLAUDE_MODEL}
+            if ak:
+                try:
+                    claude_chat(ak, "Reply with exactly: ok", [{"role": "user", "content": "ok"}])
+                    info["provider"] = "claude"
+                except Exception as e:
+                    info["provider"] = "gemini (claude key set but failing)"; info["claude_error"] = str(e)[:200]
+            else:
+                info["provider"] = "gemini" if gk else "none"
+            return self._send(200, info)
         if u.path == "/api/vendors":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             _, buys, _, _, _ = read_order(dept)
