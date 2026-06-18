@@ -9,6 +9,7 @@
   321 items   |   16,192 units to buy   |   41,785 units to rebalance
   Transfers: 2,352 moves  -  255 urgent (143 stockouts, 112 under 2wk), 2,097 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
+  >> 22 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -23,17 +24,35 @@
    8  North Canna High Tonics Blood Orang  36u/6cs          $348     38     5   1.2
    9  North Canna High Tonics Variety Pac  18u/6cs          $300     21     4   1.8
   10  North Canna Higher Vibes Raspberry   30u/5cs          $240     34     4   2.0
-  11  Minny Grown St. Croix Sunrise 10 Pa  252u/21cs      $2,016    286    38   2.1
+  11  Minny Grown St. Croix Sunrise 10 Pa  252u/21cs      $2,016    286    38   2.1  20% off
   12  North Canna Higher Vibes Blueberry   18u/3cs          $144     23     4   2.1
   13  North Canna High Tonics Prickly Pea  36u/6cs          $349     44     8   2.8
-  14  Happy Duck Tangerine 10mg THC 4pk 1  78u/13cs         $457    124    44   2.9
+  14  Happy Duck Tangerine 10mg THC 4pk 1  78u/13cs         $457    124    44   2.9  38% off
   15  North Canna High Tonics Strawberry   12u/2cs          $116     34    19   3.1
   16  Uncle Arnie's Tahitian Treat 10mg T  720u/30cs      $1,200    815    91   3.2
   17  North Canna Higher Vibes Adventure   18u/6cs          $270     18     0   3.4
-  18  Odder Variety Pack 10mg THC 9pk 12o  96u/48cs       $1,344    151    55   3.5
-  19  Minny Grown Highbernate 2.0 10 Pack  312u/26cs      $2,496    426   109   3.6
-  20  Minny Grown St. Croix Sunrise Yummy  48u/4cs          $288    121    74   3.6
+  18  Odder Variety Pack 10mg THC 9pk 12o  96u/48cs       $1,344    151    55   3.5  0% off
+  19  Minny Grown Highbernate 2.0 10 Pack  312u/26cs      $2,496    426   109   3.6  20% off
+  20  Minny Grown St. Croix Sunrise Yummy  48u/4cs          $288    121    74   3.6  22% off
   ...and 301 more in the full list.
+
+  NEEDS REVIEW (22 items the system isn't fully sure about - check before ordering):
+    Uncle Arnie's Tahitian Treat 10mg THC 2o  New item - set quantity by hand
+    Odder Variety Pack 10mg THC 9pk 12oz can  New item - set quantity by hand
+    Climbing Kites Variety Pack 10mg THC 6pk  New item - set quantity by hand
+    Uncle Arnie's Lemon Mint 10mg THC 2oz     New item - set quantity by hand
+    Looner Twilight Blackberry Gummies 5mg T  New item - set quantity by hand
+    Looner 10mg THC Sodas Variety Pack 12pk   Large buy ($8,250) - confirm
+    Looner Zenith Strawberry Gummies 5mg THC  New item - set quantity by hand
+    Odder Lemon Lime Cherry 10mg THC 4pk 12o  New item - set quantity by hand
+    Gigli 10mg THC Variety Pack 12pk 12oz ca  Large buy ($4,906) - confirm
+    Looner Zenith Blackberry Gummies 5mg THC  New item - set quantity by hand
+    Plift Zero Sugar Variety Pack 10mg THC 1  New item - set quantity by hand
+    Climbing Kites Mixed Berry 10mg THC 4pk   New item - set quantity by hand
+    Odder Berry Pineapple 10mg THC 4pk 12oz   New item - set quantity by hand
+    Collective Project Mango Pineapple Cocon  New item - set quantity by hand
+    Odder Mango Guava 10mg THC 4pk 12oz can   New item - set quantity by hand
+    ...and 7 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (64 discontinued items still selling/low - run down stock):
     BLNCD Adaptogen Elixir Brain Boost 5mg THC  (would have bought 24u)
