@@ -654,6 +654,33 @@ class Handler(BaseHTTPRequestHandler):
             log = [c for c in read_changes() if not dept or str(c.get("dept", "")).lower() == dept.lower()]
             log.sort(key=lambda c: str(c.get("id", "")), reverse=True)
             return self._send(200, {"changes": log[:200]})
+        if u.path == "/api/vendors":
+            dept = parse_qs(u.query).get("dept", ["THC"])[0]
+            _, buys, _, _, _ = read_order(dept)
+            if buys is None or "Supplier" not in buys.columns:
+                return self._send(200, {"vendors": []})
+            vendors = []
+            for name, x in buys.groupby("Supplier"):
+                vendors.append({"name": str(name), "items": int(len(x)),
+                                "units": int(pd.to_numeric(x.get("Buy Units"), errors="coerce").fillna(0).sum()),
+                                "dollars": float(pd.to_numeric(x.get("Net Buy $"), errors="coerce").fillna(0).sum())})
+            vendors.sort(key=lambda v: -v["dollars"])
+            return self._send(200, {"vendors": vendors})
+        if u.path == "/api/vendororder":
+            qs = parse_qs(u.query)
+            dept = qs.get("dept", ["THC"])[0]; vendor = qs.get("vendor", [""])[0]
+            _, buys, _, _, _ = read_order(dept)
+            if buys is None or "Supplier" not in buys.columns:
+                return self._send(200, {"cols": [], "rows": [], "text": "", "total": 0, "units": 0})
+            x = buys[buys["Supplier"].astype(str) == vendor]
+            cols = [c for c in ["Item", "Buy Units", "Buy Cases", "Net Buy $", "Deal Terms", "Buy Month", "Review"] if c in x.columns]
+            disp = x[cols].fillna("").astype(object)
+            units = int(pd.to_numeric(x.get("Buy Units"), errors="coerce").fillna(0).sum())
+            total = float(pd.to_numeric(x.get("Net Buy $"), errors="coerce").fillna(0).sum())
+            txt = "Item\tUnits\tCases\n" + "\n".join(
+                f"{r.get('Item','')}\t{int(pd.to_numeric(r.get('Buy Units'),errors='coerce') or 0)}\t{int(pd.to_numeric(r.get('Buy Cases'),errors='coerce') or 0)}"
+                for _, r in x.iterrows())
+            return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt, "total": total, "units": units})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
