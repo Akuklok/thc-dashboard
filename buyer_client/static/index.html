@@ -552,7 +552,10 @@ async function captureScreen(){
     $('shotNote').style.display='block';
     $('shotNote').innerHTML='Screen captured — type your question and Send. <a href="#" onclick="clearShot();return false">remove</a>';
     $('q').placeholder="Ask about what's on your screen..."; $('q').focus();
-  }catch(e){ /* user cancelled the picker */ }
+  }catch(e){
+    $('shotNote').style.display='block';
+    $('shotNote').textContent='Screen capture didn’t start: '+((e&&e.message)||e||'unknown')+' — tap Screen to try again.';
+  }
 }
 function clearShot(){ pendingShot=''; $('shotNote').style.display='none'; $('q').placeholder='Ask the assistant...'; }
 function bubbleImg(src){ const m=document.createElement('div'); m.className='msg me'; const i=document.createElement('img'); i.src=src; m.appendChild(i); $('msgs').appendChild(m); $('msgs').scrollTop=1e9; }
