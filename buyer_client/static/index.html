@@ -49,6 +49,9 @@
   .chg button{background:#eef1ee;border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12px}
   .chg .done{color:var(--muted);font-size:12px}
   #review h4{margin:16px 0 4px}
+  #review .shead{position:sticky;top:0;z-index:3;background:#fff;display:flex;align-items:center;gap:10px;margin:-18px -18px 6px;padding:14px 18px 8px;border-radius:14px 14px 0 0;border-bottom:1px solid var(--line)}
+  #review .shead h3{margin:0;flex:1}
+  .xbtn{background:#eef1ee;border:0;width:34px;height:34px;border-radius:8px;font-size:22px;line-height:1;cursor:pointer;color:var(--ink);flex:0 0 auto}
   .dot{display:inline-block;min-width:18px;height:18px;line-height:18px;text-align:center;background:#b3261e;color:#fff;border-radius:9px;font-size:11px;font-weight:700;padding:0 5px;margin-left:5px}
   #myreports{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
   .rep{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin-top:8px;font-size:13px}
@@ -143,8 +146,9 @@
     <div id="listPager" class="hint" style="margin-top:8px"></div>
   </main>
 
-  <div id="report" style="display:none">
+  <div id="report" style="display:none" onclick="if(event.target===this)closeReport()">
     <div class="sheet">
+      <button class="xbtn" onclick="closeReport()" title="Close" style="float:right">&times;</button>
       <h3 style="margin:0 0 4px">Report a problem or idea</h3>
       <div class="hint">Goes straight to the team with a screenshot of this screen. Thanks for helping during beta.</div>
       <img id="shotPrev" style="display:none" alt="screenshot preview"/>
@@ -160,9 +164,9 @@
     </div>
   </div>
 
-  <div id="review" style="display:none">
+  <div id="review" style="display:none" onclick="if(event.target===this)closeReview()">
     <div class="sheet">
-      <h3 style="margin:0 0 4px">Review &amp; change the order</h3>
+      <div class="shead"><h3>Review &amp; change the order</h3><button class="xbtn" onclick="closeReview()" title="Close">&times;</button></div>
       <div class="hint" id="revsub"></div>
       <div id="revlist"></div>
       <div class="rbtns">
@@ -434,6 +438,7 @@ async function openReview(){
 }
 function revAct(i){ $('rq'+i).style.display = $('ra'+i).value==='qty'?'inline-block':'none'; }
 function closeReview(){ $('review').style.display='none'; loadToday(); }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if($('review')&&$('review').style.display!=='none')closeReview(); else if($('report')&&$('report').style.display!=='none')closeReport(); } });
 async function saveReview(){
   const decisions=[];
   document.querySelectorAll('#revlist .revitem').forEach((el,i)=>{
