@@ -759,7 +759,7 @@ class Handler(BaseHTTPRequestHandler):
             desc = qs.get("dir", ["asc"])[0] == "desc"
             try: offset = max(0, int(qs.get("offset", ["0"])[0]))
             except Exception: offset = 0
-            try: limit = min(1000, max(1, int(qs.get("limit", ["400"])[0])))
+            try: limit = min(50000, max(1, int(qs.get("limit", ["400"])[0])))   # high cap allows full-tab export
             except Exception: limit = 400
             df = load_list(f"{prod_dept(dept)} - {tab}.csv")
             if df is None or not len(df):
