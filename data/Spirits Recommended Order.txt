@@ -9,6 +9,7 @@
   502 items   |   28,042 units to buy   |   47,972 units to rebalance
   Transfers: 2,068 moves  -  328 urgent (65 stockouts, 263 under 2wk), 1,740 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
+  >> 9 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,6 +35,17 @@
   19  Evan Williams Bourbon 1.75L          126u/21cs      $2,192    159    33   2.3
   20  Lalo Tequila Blanco 750ml            12u/2cs          $387     14     0   2.3
   ...and 482 more in the full list.
+
+  NEEDS REVIEW (9 items the system isn't fully sure about - check before ordering):
+    New Amsterdam Gin 1.75L                   Off buy-month - confirm timing
+    St Germain Elderflower Liqueur 375ml      Off buy-month - confirm timing
+    Bacardi Superior Light Rum 1.75L          Large buy ($4,019) - confirm
+    Windsor Canadian 1.75L                    Margin looks off - check retail/cost; Large buy ($7,488) - confirm
+    Captain Morgan Spiced Rum 1.75L           Large buy ($12,904) - confirm
+    Ketel One Vodka 1.75L                     Large buy ($4,189) - confirm
+    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($9,265) - confirm
+    Bombay Gin Liter                          Margin looks off - check retail/cost
+    Gamle Ode Aquavit Dill 750ml              Margin looks off - check retail/cost
 
   BEING REMOVED - DO NOT REORDER (125 discontinued items still selling/low - run down stock):
     Absolut Raspberri Vodka Liter               (would have bought 12u)
