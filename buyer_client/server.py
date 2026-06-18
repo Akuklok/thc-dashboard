@@ -138,6 +138,83 @@ def admin_ok(key):
     return bool(real) and key == real
 
 
+DEC_PATH = "data/buyer_decisions.json"          # buyer review decisions (applied by the order engine)
+LOCAL_DEC = os.path.join(HERE, "local_decisions.json")
+
+
+def read_decisions():
+    if gh_token():
+        raw = gh_read(DEC_PATH)
+        try:
+            return json.loads(raw) if raw else []
+        except Exception:
+            return []
+    try:
+        with open(LOCAL_DEC, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+
+def write_decisions(items):
+    if not gh_token():
+        try:
+            with open(LOCAL_DEC, "w", encoding="utf-8") as f:
+                json.dump(items, f, indent=2)
+            return True
+        except Exception:
+            return False
+    for _ in range(4):
+        sha = gh_get_sha(DEC_PATH)
+        status = gh_write(DEC_PATH, json.dumps(items, indent=2).encode(), "buyer review decisions", sha)
+        if status in (200, 201):
+            return True
+        if status != 409:
+            return False
+    return False
+
+
+# Append-only change log = the backup that powers Undo.
+CHG_PATH = "data/buyer_changes_log.json"
+LOCAL_CHG = os.path.join(HERE, "local_changes.json")
+
+
+def read_changes():
+    if gh_token():
+        raw = gh_read(CHG_PATH)
+        try:
+            return json.loads(raw) if raw else []
+        except Exception:
+            return []
+    try:
+        with open(LOCAL_CHG, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+
+def write_changes(items):
+    if not gh_token():
+        try:
+            with open(LOCAL_CHG, "w", encoding="utf-8") as f:
+                json.dump(items, f, indent=2)
+            return True
+        except Exception:
+            return False
+    for _ in range(4):
+        sha = gh_get_sha(CHG_PATH)
+        status = gh_write(CHG_PATH, json.dumps(items, indent=2).encode(), "buyer change log", sha)
+        if status in (200, 201):
+            return True
+        if status != 409:
+            return False
+    return False
+
+
+def _dec_key(dept, item):
+    return (str(dept).strip().lower(), str(item).strip().lower())
+
+
 def norm_val(s):
     """Normalize a cell value for de-duping filter options (ignore case + spacing)."""
     return re.sub(r"\s+", "", str(s).strip().lower())
@@ -568,6 +645,15 @@ class Handler(BaseHTTPRequestHandler):
                     for r in read_index() if dev and r.get("device") == dev]
             mine.sort(key=lambda r: int(r.get("id", "0") or 0), reverse=True)
             return self._send(200, {"reports": mine})
+        if u.path == "/api/decisions":
+            dept = parse_qs(u.query).get("dept", [""])[0]
+            mine = [c for c in read_decisions() if str(c.get("dept", "")).lower() == dept.lower()]
+            return self._send(200, {"decisions": mine})
+        if u.path == "/api/changes":
+            dept = parse_qs(u.query).get("dept", [""])[0]
+            log = [c for c in read_changes() if not dept or str(c.get("dept", "")).lower() == dept.lower()]
+            log.sort(key=lambda c: str(c.get("id", "")), reverse=True)
+            return self._send(200, {"changes": log[:200]})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
@@ -690,6 +776,64 @@ class Handler(BaseHTTPRequestHandler):
                         r["resolved_ts"] = time.strftime("%Y-%m-%d %H:%M")
             ok = update_index(upd)
             return self._send(200, {"ok": ok})
+        if u.path == "/api/decisions":
+            dept = str(payload.get("dept", "")).strip()
+            who = str(payload.get("who", "")).strip() or "(no name)"
+            decs = payload.get("decisions", []) or []
+            ts = time.strftime("%Y-%m-%d %H:%M")
+            curmap = {_dec_key(c.get("dept"), c.get("item")): c for c in read_decisions()}
+            log = read_changes()
+            base = re.sub(r"\D", "", str(time.time()))
+            applied = 0
+            for i, d in enumerate(decs):
+                item = str(d.get("item", "")).strip()
+                action = str(d.get("action", "")).strip()
+                if not item or action not in ("approve", "qty", "skip", "fix"):
+                    continue
+                key = _dec_key(dept, item)
+                prev = curmap.get(key)
+                curmap[key] = {"dept": dept, "item": item, "action": action,
+                               "qty": d.get("qty"), "note": str(d.get("note", "")).strip(), "ts": ts, "who": who}
+                log.append({"id": f"{base}{i:03d}", "ts": ts, "who": who, "dept": dept, "item": item,
+                            "action": action, "qty": d.get("qty"), "note": str(d.get("note", "")).strip(),
+                            "prev": ({k: prev.get(k) for k in ("action", "qty", "note")} if prev else None),
+                            "undone": False})
+                applied += 1
+            write_decisions(list(curmap.values()))
+            write_changes(log)
+            rows = "".join("<li><b>%s</b>: %s%s%s</li>" % (
+                d.get("item"), d.get("action"),
+                (" &rarr; %s units" % d.get("qty")) if d.get("action") == "qty" else "",
+                (" - %s" % d.get("note")) if d.get("note") else "")
+                for d in decs if str(d.get("action", "")) in ("approve", "qty", "skip", "fix"))
+            if rows:
+                send_feedback_email(f"Buyer order changes - {dept} ({who})",
+                                    f"<b>{dept}</b> order changes ({ts}):<ul>{rows}</ul>", "")
+            return self._send(200, {"ok": True, "count": applied})
+        if u.path == "/api/undo":
+            cid = str(payload.get("id", ""))
+            who = str(payload.get("who", "")).strip() or "(no name)"
+            ts = time.strftime("%Y-%m-%d %H:%M")
+            log = read_changes()
+            entry = next((c for c in log if str(c.get("id")) == cid and not c.get("undone")), None)
+            if not entry:
+                return self._send(200, {"ok": False})
+            curmap = {_dec_key(c.get("dept"), c.get("item")): c for c in read_decisions()}
+            key = _dec_key(entry.get("dept"), entry.get("item"))
+            prev = entry.get("prev")
+            if prev and prev.get("action"):
+                curmap[key] = {"dept": entry["dept"], "item": entry["item"], "action": prev.get("action"),
+                               "qty": prev.get("qty"), "note": prev.get("note", ""), "ts": ts, "who": who}
+            else:
+                curmap.pop(key, None)
+            entry["undone"] = True
+            base = re.sub(r"\D", "", str(time.time()))
+            log.append({"id": f"{base}u", "ts": ts, "who": who, "dept": entry["dept"], "item": entry["item"],
+                        "action": "undo", "qty": None, "note": f"undid '{entry.get('action')}'",
+                        "prev": None, "undone": True})
+            write_decisions(list(curmap.values()))
+            write_changes(log)
+            return self._send(200, {"ok": True})
         return self._send(404, {"error": "unknown endpoint"})
 
     def log_message(self, *a):
