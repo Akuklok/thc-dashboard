@@ -80,6 +80,8 @@
   .me{background:var(--green);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
   .msg img{max-width:230px;border-radius:8px;display:block}
   .ai{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px}
+  .hrow{border:1px solid var(--line);border-radius:8px;padding:7px 10px;margin:4px 0;cursor:pointer;font-size:13px;background:#fff}
+  .hrow:hover{background:#eef1ee}
   .row{display:flex;gap:8px;padding-top:8px}
   .row input{flex:1;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:15px}
   .row button{background:var(--green);color:#fff;border:0;padding:0 18px;border-radius:10px;cursor:pointer;font-size:15px}
@@ -146,6 +148,8 @@
 
   <main id="ask" style="display:none">
     <div class="hint">Ask anything about your buying — or tap <b>Screen</b> to share what you're looking at (Cloud Retailer, a portal, Excel) and ask about it.</div>
+    <div style="margin:0 0 6px;font-size:13px"><a href="#" onclick="toggleHistory();return false" style="color:var(--green2)">Your history</a> &nbsp;·&nbsp; <a href="#" onclick="newChat();return false" style="color:var(--green2)">New chat</a></div>
+    <div id="histList" style="display:none;margin-bottom:8px"></div>
     <div id="chat">
       <div id="msgs"></div>
       <div id="shotNote" class="hint" style="display:none"></div>
@@ -495,7 +499,7 @@ async function loadToday(){
   }
   mountTable('buyTbl',bc,br);
   mountTable('trTbl',d.tr_cols,d.tr_rows);
-  history=[]; $('msgs').innerHTML='';
+  saveChat(); history=[]; convId=null; $('msgs').innerHTML='';
 }
 // ---- beta feedback: capture a screenshot of the current screen + a note, email to the team ----
 let shotData='';
@@ -631,6 +635,39 @@ async function undoChange(id){
     if((await r.json()).ok) loadChanges(); }catch(e){}
 }
 function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
+// ---- chat history (saved on this device): browse & reopen past requests/actions ----
+let convId=null;
+function getChats(){ try{ return JSON.parse(localStorage.getItem('chats')||'[]'); }catch(e){ return []; } }
+function saveChat(){
+  if(!history.length) return;
+  if(!convId) convId='c'+Date.now()+Math.random().toString(36).slice(2,6);
+  const title=((history.find(m=>m.role==='user')||{}).content||'Chat').replace(/\n/g,' ').slice(0,60);
+  let chats=getChats().filter(c=>c.id!==convId);
+  chats.unshift({id:convId, ts:Date.now(), dept:$('dept').value, title, messages:history.map(m=>({role:m.role,content:m.content}))});
+  try{ localStorage.setItem('chats', JSON.stringify(chats.slice(0,50))); }catch(e){}
+}
+function newChat(){ saveChat(); history=[]; convId=null; $('msgs').innerHTML=''; $('histList').style.display='none'; $('q').focus(); }
+function openChat(id){
+  const c=getChats().find(x=>x.id===id); if(!c) return;
+  saveChat(); history=c.messages.slice(); convId=c.id; $('msgs').innerHTML='';
+  for(const m of history) bubble(m.content||'', m.role==='user'?'me':'ai');
+  $('histList').style.display='none';
+}
+async function toggleHistory(){
+  const el=$('histList');
+  if(el.style.display!=='none'){ el.style.display='none'; return; }
+  const chats=getChats();
+  let h='<div class="hint" style="margin-bottom:3px">Past chats (tap to reopen)</div>';
+  h += chats.length ? chats.map(c=>`<div class="hrow" onclick="openChat('${c.id}')"><b>${esc(c.title||'Chat')}</b><div class="hint">${esc(c.dept||'')} · ${ago(new Date(c.ts).toISOString())}</div></div>`).join('') : '<div class="hint">No past chats yet.</div>';
+  try{
+    const d=await (await fetch('/api/changes?dept='+encodeURIComponent($('dept').value))).json();
+    const acts=(d.changes||[]).filter(c=>c.action!=='undo').slice(0,10);
+    if(acts.length){
+      h+='<div class="hint" style="margin:10px 0 3px">Recent actions (tap to review / undo)</div>';
+      h+=acts.map(c=>{ const w=c.action==='qty'?('set qty '+c.qty):(c.action==='skip'?"don't buy":(c.action==='approve'?'approved':(c.action==='fix'?'needs a fix':c.action))); return `<div class="hrow" onclick="show('today');setTimeout(openReview,150)"><b>${esc(c.item)}</b> — ${w}<div class="hint">${esc(c.who||'')} · ${esc(c.ts||'')}</div></div>`; }).join(''); }
+  }catch(e){}
+  el.innerHTML=h; el.style.display='block';
+}
 // capture the buyer's screen and attach it to the next question (vision Q&A)
 let pendingShot='';
 async function captureScreen(){
@@ -663,7 +700,7 @@ async function ask(){
   try{
     const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
       body:JSON.stringify({dept:$('dept').value,messages:history})});
-    const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply});
+    const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply}); saveChat();
   }catch(e){t.textContent='(Error reaching the assistant)';}
 }
 if('serviceWorker' in navigator){
