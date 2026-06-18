@@ -435,6 +435,21 @@ def build_parts(dept, focus=""):
             newi = newi[newi["Department"] == dept]
         if len(newi):
             S += [f"\n=== NEW ITEMS ({len(newi)} being added) ===", newi["Item"].head(40).to_csv(index=False)]
+    # memory: recent actions the buyer already took in the app (so the assistant doesn't re-suggest them)
+    try:
+        log = sorted(read_changes(), key=lambda c: str(c.get("id", "")), reverse=True)
+        ch = [c for c in log if str(c.get("dept", "")).lower() == dept.lower() and c.get("action") != "undo"][:12]
+        if ch:
+            lines = []
+            for c in ch:
+                act = c.get("action")
+                w = f"set quantity to {c.get('qty')}" if act == "qty" else ("marked don't-buy" if act == "skip" else (act or ""))
+                note = f" - {c.get('note')}" if c.get("note") else ""
+                lines.append(f"{c.get('item')}: {w}{note} [{c.get('ts')}, {c.get('who')}]")
+            S += ["\n=== RECENT ACTIONS THE BUYER ALREADY TOOK (remember these; don't re-suggest changing what they just changed) ===",
+                  "\n".join(lines)]
+    except Exception:
+        pass
 
     # ---- per-question (focus) block: named store detail + items matching the question ----
     F = []
