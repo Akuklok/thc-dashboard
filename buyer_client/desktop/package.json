@@ -1,0 +1,33 @@
+{
+  "name": "toptenbuyer-ai",
+  "version": "1.0.0",
+  "description": "TopTenBuyer.ai - always-on buying assistant",
+  "author": "Top Ten Liquors",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.7.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.topten.buyerai",
+    "productName": "TopTenBuyer.ai",
+    "files": ["main.js", "build/**"],
+    "win": { "target": "nsis", "icon": "build/icon.ico" },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "runAfterFinish": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "TopTenBuyer.ai"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.png",
+      "category": "public.app-category.business"
+    }
+  }
+}
