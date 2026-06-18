@@ -176,6 +176,45 @@ def load_new_set():
     return frozenset()
 
 
+def _dec_map(data):
+    out = {}
+    for d in (data or []):
+        out[(str(d.get("dept", "")).strip().lower(), str(d.get("item", "")).strip().lower())] = d
+    return out
+
+
+def load_decisions():
+    """Buyer overrides made in the app (buyer_decisions.json): {(dept, item): {action, qty, note}}.
+    Reads the local checkout first (cloud build), else the repo via API (local dev)."""
+    for d in list(OUT_FOLDERS) + [os.path.join(os.getcwd(), "data"), "data"]:
+        p = os.path.join(d, "buyer_decisions.json")
+        if os.path.exists(p):
+            try:
+                with open(p, encoding="utf-8") as f:
+                    return _dec_map(json.load(f))
+            except Exception:
+                pass
+    tokfile = os.path.join(os.path.dirname(os.path.abspath(__file__)), "github_token.txt")
+    tok = ""
+    try:
+        if os.path.exists(tokfile):
+            with open(tokfile, encoding="utf-8") as f:
+                tok = f.read().strip()
+    except Exception:
+        tok = ""
+    tok = tok or os.environ.get("GITHUB_TOKEN", "")
+    if not tok:
+        return {}
+    url = "https://api.github.com/repos/Akuklok/thc-dashboard/contents/data/buyer_decisions.json?ref=main"
+    try:
+        import urllib.request as U
+        req = U.Request(url, headers={"Authorization": "Bearer " + tok,
+                                      "Accept": "application/vnd.github.raw", "User-Agent": "ro"})
+        return _dec_map(json.loads(U.urlopen(req, timeout=20).read() or b"[]"))
+    except Exception:
+        return {}
+
+
 def load_buy_months():
     """UPC -> set of month numbers it should be bought in (real months only), from Cost Reference.
     Items with no real month listed ('ALL', 'LTO', blank, etc.) are absent = buyable any time."""
@@ -198,7 +237,7 @@ def load_buy_months():
 
 
 def run_department(df, label, retail, buyers, today, fdate, stale_days, need_basis,
-                   remove_set=frozenset(), buy_months=None, new_items=None):
+                   remove_set=frozenset(), buy_months=None, new_items=None, decisions=None):
     """Build the order + transfer plan for one department's per-store rows. Writes files,
     returns a summary dict for the roll-up."""
     if df.empty:
@@ -294,6 +333,32 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
             out.append("Off buy-month - confirm timing")
         return "; ".join(out)
     buy["Review"] = [_review(r) for _, r in buy.iterrows()]
+
+    # Buyer overrides made in the app (change qty / don't buy / approve). Applied here so the
+    # buyer's changes actually stick; every change is backed up + undoable in the app.
+    if decisions:
+        keep = []
+        for idx, r in buy.iterrows():
+            d = decisions.get((label.strip().lower(), str(r["Item"]).strip().lower()))
+            if not d:
+                keep.append(idx); continue
+            act = d.get("action")
+            if act == "skip":
+                continue                                  # buyer pulled it from this week's buy
+            if act == "qty" and d.get("qty") is not None:
+                try: q = max(0, int(float(d["qty"])))
+                except Exception: q = int(r["Buy Units"])
+                cs = r["case"] if r["case"] else 1
+                buy.at[idx, "Buy Units"] = q
+                buy.at[idx, "Buy Cases"] = round(q / cs, 1)
+                buy.at[idx, "Net Buy $"] = round(q * r["cost"], 0)
+            if act in ("approve", "qty"):
+                buy.at[idx, "Review"] = ""                # buyer handled it -> clear the flag
+            elif act == "fix" and d.get("note"):
+                buy.at[idx, "Review"] = "FIX REQUESTED: " + str(d["note"])
+            keep.append(idx)
+        buy = buy.loc[keep]
+        net_total = float(buy["Net Buy $"].sum())         # reflect the buyer's overrides
 
     if PRIORITY == "margin":
         buy = buy.sort_values(["GM %", "profit_protected"], ascending=[False, False]); basis = "highest margin first"
@@ -443,13 +508,14 @@ def main():
     remove_set = load_remove_set()
     buy_months = load_buy_months()
     new_items = load_new_set()
+    decisions = load_decisions()
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     summaries = []
     for label, matches in DEPARTMENTS.items():
         ddf = df if dep is None else df[dep.isin([m.lower() for m in matches])]
         s = run_department(ddf.copy(), label, retail, buyers, today, fdate, stale_days, need_basis,
-                           remove_set, buy_months, new_items)
+                           remove_set, buy_months, new_items, decisions)
         if s:
             summaries.append(s)
             print(f"{label:<9} net buy ${s['Net Buy $']:>11,.0f}  | gross ${s['Gross $']:>11,.0f}  "
