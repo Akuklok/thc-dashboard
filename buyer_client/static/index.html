@@ -97,6 +97,16 @@
   .rflag{background:#fff4e0;color:#9a6700;padding:2px 7px;border-radius:6px;font-size:12px;white-space:normal;display:inline-block}
   tr.needsrev td{background:#fffaf0}
   tr.needsrev td:first-child{box-shadow:inset 3px 0 0 #e0a800}
+  .note{background:#fffaf0;border:1px solid #e0a800;border-radius:8px;padding:10px 12px;margin-bottom:14px;white-space:pre-wrap;font-size:14px}
+  #customize{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+  #customize .sheet{background:#fff;border-radius:14px;padding:0 18px 18px;max-width:560px;width:100%;max-height:92vh;overflow:auto}
+  #customize .shead{position:sticky;top:0;z-index:3;background:#fff;display:flex;align-items:center;gap:10px;padding:14px 0 8px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+  #customize .shead h3{margin:0;flex:1}
+  #customize h4{margin:14px 0 4px}
+  #customize textarea{width:100%;padding:9px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit}
+  .crow{display:block;padding:5px 0;font-size:14px}
+  .crow input[type=checkbox]{margin-right:8px;vertical-align:middle}
+  .crow input[type=text]{margin-left:8px;padding:3px 7px;border:1px solid var(--line);border-radius:5px;font-size:13px;width:200px;max-width:48%}
 </style>
 </head>
 <body>
@@ -107,6 +117,7 @@
     <select id="dept" onchange="deptChange()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
+    <button onclick="openCustomize()" title="Customize what you see">Customize</button>
     <button id="reportBtn" onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
   </header>
@@ -118,15 +129,18 @@
   </div>
 
   <main id="today">
-    <h3>This week at a glance</h3>
-    <div class="cards" id="cards"></div>
-    <h3>Transfers — move stock between stores first</h3>
-    <div class="cards" id="trcards"></div>
-    <h3>What to buy <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportTbl('buyTbl', $('dept').value+' order')">Export to Excel</button></h3>
-    <input class="find" id="findBuy" placeholder="Find in this list (item, deal, category)..." oninput="filterTable('buyTbl',this.value)"/>
-    <div class="wrap"><table id="buyTbl"></table></div>
-    <h3>Transfer plan <span class="hint">(most urgent first)</span> <button class="exp" onclick="exportTbl('trTbl', $('dept').value+' transfers')">Export to Excel</button></h3>
-    <div class="wrap"><table id="trTbl"></table></div>
+    <div id="prefNote" class="note" style="display:none"></div>
+    <div class="sec" id="sec-glance"><h3><span id="lbl-glance">This week at a glance</span></h3><div class="cards" id="cards"></div></div>
+    <div class="sec" id="sec-trcards"><h3><span id="lbl-trcards">Transfers — move stock between stores first</span></h3><div class="cards" id="trcards"></div></div>
+    <div class="sec" id="sec-buy">
+      <h3><span id="lbl-buy">What to buy</span> <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportTbl('buyTbl', $('dept').value+' order')">Export to Excel</button></h3>
+      <input class="find" id="findBuy" placeholder="Find in this list (item, deal, category)..." oninput="filterTable('buyTbl',this.value)"/>
+      <div class="wrap"><table id="buyTbl"></table></div>
+    </div>
+    <div class="sec" id="sec-plan">
+      <h3><span id="lbl-plan">Transfer plan</span> <span class="hint">(most urgent first)</span> <button class="exp" onclick="exportTbl('trTbl', $('dept').value+' transfers')">Export to Excel</button></h3>
+      <div class="wrap"><table id="trTbl"></table></div>
+    </div>
   </main>
 
   <main id="ask" style="display:none">
@@ -193,6 +207,26 @@
       <div id="chglist"><div class="hint">Loading…</div></div>
     </div>
   </div>
+
+  <div id="customize" style="display:none" onclick="if(event.target===this)closeCustomize()">
+    <div class="sheet">
+      <div class="shead"><h3>Customize your dashboard</h3><button class="xbtn" onclick="closeCustomize()" title="Close">&times;</button></div>
+      <div class="hint">Just for you — saved on this computer. Reset anytime.</div>
+      <h4>A note at the top (optional)</h4>
+      <textarea id="cNote" rows="2" placeholder="e.g., Reminder: confirm the Southern order by Thursday"></textarea>
+      <h4>Sections to show <span class="hint">(and rename them)</span></h4>
+      <div id="cSections"></div>
+      <h4>Tabs to show</h4>
+      <div id="cTabs"></div>
+      <h4>Columns in "What to buy"</h4>
+      <div id="cCols"></div>
+      <div class="rbtns">
+        <button class="ghost" onclick="resetCustomize()">Reset to default</button>
+        <button onclick="saveCustomize()">Save</button>
+      </div>
+      <div id="cStatus" class="hint"></div>
+    </div>
+  </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" defer></script>
@@ -219,6 +253,7 @@ function init(){
   $('dept').innerHTML=ALLDEPTS.map(d=>`<option>${d}</option>`).join('');
   const last=localStorage.getItem('dept');
   if(last && ALLDEPTS.includes(last)) $('dept').value=last;
+  applyPrefs();
   loadToday();
   checkReportUpdates();
 }
@@ -271,6 +306,39 @@ async function exportList(){
   try{ const d=await (await fetch('/api/list?'+p.toString())).json(); exportXlsx(`${dept} - ${tab}`, d.cols, d.rows); }
   catch(e){ alert('Could not export — try again.'); }
 }
+// ---- per-buyer customization (saved on this device only) ----
+const PREF_SECTIONS=[['glance','This week at a glance'],['trcards','Transfers — move stock between stores first'],['buy','What to buy'],['plan','Transfer plan']];
+const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor']];
+let lastBuyCols=[];
+function defPrefs(){ const show={},labels={}; PREF_SECTIONS.forEach(([id,l])=>{show[id]=true;labels[id]=l;}); PREF_TABS.forEach(([id])=>show[id]=true); return {note:'',show,labels,buyCols:null}; }
+function getPrefs(){ const d=defPrefs(); try{ const s=JSON.parse(localStorage.getItem('prefs')||'{}'); return {note:s.note||'',show:Object.assign(d.show,s.show||{}),labels:Object.assign(d.labels,s.labels||{}),buyCols:s.buyCols||null}; }catch(e){ return d; } }
+function applyPrefs(){ const p=getPrefs();
+  if($('prefNote')){ $('prefNote').style.display=p.note?'block':'none'; $('prefNote').textContent=p.note; }
+  PREF_SECTIONS.forEach(([id])=>{ const s=$('sec-'+id); if(s) s.style.display=p.show[id]?'block':'none'; const l=$('lbl-'+id); if(l&&p.labels[id]!=null) l.textContent=p.labels[id]; });
+  PREF_TABS.forEach(([id])=>{ const b=$(id); if(b) b.style.display=p.show[id]?'':'none'; });
+}
+function openCustomize(){
+  const p=getPrefs();
+  $('cNote').value=p.note||'';
+  $('cSections').innerHTML=PREF_SECTIONS.map(([id,def])=>`<label class="crow"><input type="checkbox" id="cs-${id}" ${p.show[id]?'checked':''}/> <b>${esc(def)}</b> <input type="text" id="cl-${id}" value="${esc(p.labels[id]||def)}" placeholder="rename"/></label>`).join('');
+  $('cTabs').innerHTML=PREF_TABS.map(([id,name])=>`<label class="crow"><input type="checkbox" id="ct-${id}" ${p.show[id]?'checked':''}/> ${esc(name)}</label>`).join('');
+  const cols=lastBuyCols, sel=(p.buyCols&&p.buyCols.length)?p.buyCols:cols;
+  $('cCols').innerHTML = cols.length ? cols.map(c=>`<label class="crow"><input type="checkbox" data-col="${esc(c)}" ${sel.includes(c)?'checked':''}/> ${esc(c)}</label>`).join('') : '<div class="hint">Open the Today tab once, then reopen this to choose columns.</div>';
+  $('cStatus').textContent=''; $('customize').style.display='flex';
+}
+function closeCustomize(){ $('customize').style.display='none'; }
+function saveCustomize(){
+  const p=getPrefs();
+  p.note=$('cNote').value.trim();
+  PREF_SECTIONS.forEach(([id])=>{ const cb=$('cs-'+id); if(cb) p.show[id]=cb.checked; const t=$('cl-'+id); if(t&&t.value.trim()) p.labels[id]=t.value.trim(); });
+  PREF_TABS.forEach(([id])=>{ const cb=$('ct-'+id); if(cb) p.show[id]=cb.checked; });
+  const checked=[...document.querySelectorAll('#cCols input[type=checkbox]')].filter(x=>x.checked).map(x=>x.getAttribute('data-col'));
+  p.buyCols=(lastBuyCols.length&&checked.length&&checked.length<lastBuyCols.length)?checked:null;
+  localStorage.setItem('prefs',JSON.stringify(p));
+  applyPrefs(); loadToday();
+  $('cStatus').textContent='Saved.'; setTimeout(closeCustomize,700);
+}
+function resetCustomize(){ localStorage.removeItem('prefs'); applyPrefs(); loadToday(); closeCustomize(); }
 function show(v){
   for(const k of ['today','ask','lists','vendors']) $(k).style.display = (v===k)?'block':'none';
   $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':'';
@@ -398,7 +466,14 @@ async function loadToday(){
     <div class="card"><div class="lbl">Routine top-ups</div><div class="val">${n(h.routine)}</div></div>` : '';
   $('buyHint').textContent = h.items!==undefined ? `(${n(h.items)} items · ${n(h.units)} units · most urgent first)` : '';
   if($('findBuy')) $('findBuy').value='';
-  mountTable('buyTbl',d.buy_cols,d.buy_rows);
+  lastBuyCols = d.buy_cols||[];
+  let bc=d.buy_cols||[], br=d.buy_rows||[];
+  const pf=getPrefs();
+  if(pf.buyCols && pf.buyCols.length){
+    const idx=pf.buyCols.map(c=>(d.buy_cols||[]).indexOf(c)).filter(i=>i>=0);
+    if(idx.length){ bc=idx.map(i=>d.buy_cols[i]); br=(d.buy_rows||[]).map(r=>idx.map(i=>r[i])); }
+  }
+  mountTable('buyTbl',bc,br);
   mountTable('trTbl',d.tr_cols,d.tr_rows);
   history=[]; $('msgs').innerHTML='';
 }
@@ -500,7 +575,7 @@ async function openReview(){
 }
 function revAct(i){ $('rq'+i).style.display = $('ra'+i).value==='qty'?'inline-block':'none'; }
 function closeReview(){ $('review').style.display='none'; loadToday(); }
-document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if($('review')&&$('review').style.display!=='none')closeReview(); else if($('report')&&$('report').style.display!=='none')closeReport(); } });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if($('customize')&&$('customize').style.display!=='none')closeCustomize(); else if($('review')&&$('review').style.display!=='none')closeReview(); else if($('report')&&$('report').style.display!=='none')closeReport(); } });
 async function saveReview(){
   const decisions=[];
   document.querySelectorAll('#revlist .revitem').forEach((el,i)=>{
