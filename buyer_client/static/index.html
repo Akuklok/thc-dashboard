@@ -78,6 +78,8 @@
   .STOCKOUT{background:#fde7e7;color:#b3261e}
   .Low{background:#fff4e0;color:#9a6700}
   .rflag{background:#fff4e0;color:#9a6700;padding:2px 7px;border-radius:6px;font-size:12px;white-space:normal;display:inline-block}
+  tr.needsrev td{background:#fffaf0}
+  tr.needsrev td:first-child{box-shadow:inset 3px 0 0 #e0a800}
 </style>
 </head>
 <body>
@@ -243,14 +245,17 @@ function drawList(d, withHead){
 // current sort + (client-side) filter. Product Lists pass server:true (search is server-side).
 const TBL={};
 function mountTable(id,cols,rows,opts){
-  TBL[id]={cols:cols||[],rows:rows||[],sortCol:null,sortDir:1,filter:'',server:!!(opts&&opts.server)};
+  TBL[id]={cols:cols||[],rows:rows||[],sortCol:null,sortDir:1,filter:'',reviewOnly:false,server:!!(opts&&opts.server)};
   drawTable(id);
 }
+function toggleReviewOnly(){ const t=TBL['buyTbl']; if(!t)return; t.reviewOnly=!t.reviewOnly; drawTable('buyTbl'); $('buyTbl').scrollIntoView({behavior:'smooth',block:'center'}); }
 function cellNum(s){ const n=parseFloat(String(s).replace(/[$,%\s]/g,'')); return isNaN(n)?null:n; }
 function drawTable(id){
   const t=TBL[id], el=$(id); if(!el) return;
   if(!t.cols.length){ el.innerHTML='<tr><td>Nothing here right now.</td></tr>'; return; }
   let rows=t.rows;
+  const ri=t.cols.indexOf('Review');
+  if(t.reviewOnly && ri>=0){ rows=rows.filter(r=>String(r[ri]==null?'':r[ri]).trim()); }
   if(t.filter && !t.server){
     const f=t.filter.toLowerCase();
     rows=rows.filter(r=>r.some(v=>String(v==null?'':v).toLowerCase().includes(f)));
@@ -268,7 +273,8 @@ function drawTable(id){
   const arrow=c=> t.sortCol===c ? (t.sortDir>0?' ▲':' ▼') : '';
   let h='<tr>'+t.cols.map((c,i)=>`<th onclick="sortBy('${id}',${i})" style="cursor:pointer" title="Click to sort">${c}${arrow(i)}</th>`).join('')+'</tr>';
   for(const r of rows){
-    h+='<tr>'+r.map((v,i)=>{
+    const flagged = ri>=0 && String(r[ri]==null?'':r[ri]).trim();
+    h+='<tr class="'+(flagged?'needsrev':'')+'">'+r.map((v,i)=>{
       let s=(v===null||v===undefined)?'':v;
       if(t.cols[i]==='Priority'&&s){const cls=String(s).startsWith('Low')?'Low':s;return `<td><span class="pill ${cls}">${s}</span></td>`;}
       if(t.cols[i]==='Review'&&s)return `<td><span class="rflag">${s}</span></td>`;
@@ -291,7 +297,7 @@ async function loadToday(){
     <div class="card"><div class="lbl">Gross need (all stores)</div><div class="val">${money(h.gross)}</div></div>
     <div class="card"><div class="lbl">Items to buy</div><div class="val">${n(h.items)}</div></div>
     ${h.wait_items ? `<div class="card"><div class="lbl">Waiting for buy-month</div><div class="val">${n(h.wait_items)}</div><div class="lbl" style="text-transform:none">${money(h.wait_buy)} deferred to cheaper months</div></div>` : ''}
-    ${h.review_items ? `<div class="card" style="border-color:#e0a800;background:#fffaf0"><div class="lbl">Needs your review</div><div class="val" style="color:#9a6700">${n(h.review_items)}</div><div class="lbl" style="text-transform:none">flagged in the buy — see the Review column</div></div>` : ''}` : '';
+    ${h.review_items ? `<div class="card" style="border-color:#e0a800;background:#fffaf0;cursor:pointer" onclick="toggleReviewOnly()" title="Show only the flagged items"><div class="lbl">Needs your review</div><div class="val" style="color:#9a6700">${n(h.review_items)}</div><div class="lbl" style="text-transform:none">tap to see just these</div></div>` : ''}` : '';
   $('trcards').innerHTML = (h.transfers!==undefined) ? `
     <div class="card"><div class="lbl">Urgent moves</div><div class="val">${n((h.stockouts||0)+(h.low||0))}</div></div>
     <div class="card"><div class="lbl">Stores out of stock</div><div class="val">${n(h.stockouts)}</div></div>
