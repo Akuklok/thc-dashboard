@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>
+  :root{--green:#0f3d2e;--green2:#1c6b4f;--bg:#f5f6f4;--line:#e3e6e2;--muted:#6b756f}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#1a1f1c;font-size:14px}
+  header{background:var(--green);color:#fff;padding:8px 10px;display:flex;align-items:center;gap:8px}
+  header b{font-size:14px} header select{margin-left:auto;border:0;border-radius:6px;padding:4px 6px}
+  .pad{padding:10px}
+  .cards{display:flex;gap:6px;margin-bottom:8px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px 8px;flex:1;text-align:center}
+  .card .l{font-size:9px;color:var(--muted);text-transform:uppercase}
+  .card .v{font-size:14px;font-weight:700}
+  .card.big .v{color:var(--green2)}
+  button{cursor:pointer}
+  .eval{width:100%;background:var(--green2);color:#fff;border:0;padding:9px;border-radius:8px;font-size:13px;margin-bottom:8px}
+  #msgs{height:calc(100vh - 250px);overflow:auto}
+  .msg{padding:8px 10px;border-radius:12px;margin:6px 0;white-space:pre-wrap;line-height:1.4;font-size:13px}
+  .me{background:var(--green);color:#fff;margin-left:18px;border-bottom-right-radius:3px}
+  .ai{background:#fff;border:1px solid var(--line);margin-right:18px;border-bottom-left-radius:3px}
+  .row{display:flex;gap:6px;margin-top:6px}
+  .row input{flex:1;padding:9px;border:1px solid var(--line);border-radius:8px}
+  .row button{background:var(--green);color:#fff;border:0;padding:0 12px;border-radius:8px}
+  .muted{color:var(--muted);font-size:12px}
+  .gear{margin-left:6px;cursor:pointer;text-decoration:underline}
+  .upd{font-size:11px;color:var(--muted);margin-top:4px}
+</style>
+</head>
+<body>
+<div id="app">
+  <header><b>TopTenBuyer.ai</b><select id="dept"></select></header>
+  <div class="pad">
+    <div class="cards" id="cards"></div>
+    <div class="upd" id="updated"></div>
+    <button class="eval" id="evalBtn">Read this page &amp; ask about it</button>
+    <div id="msgs"></div>
+    <div class="row">
+      <input id="q" placeholder="Ask anything (or read this page above)..."/>
+      <button id="sendBtn">Send</button>
+    </div>
+    <div class="muted" style="margin-top:6px">Connected to <span id="beShow"></span> <span class="gear" id="editBackend">edit</span></div>
+  </div>
+</div>
+<script src="sidepanel.js"></script>
+</body>
+</html>
