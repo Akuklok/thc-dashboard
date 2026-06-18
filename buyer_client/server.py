@@ -546,18 +546,23 @@ def _key(env_name, keyfile):
 
 
 def ai_reply(dept, messages):
-    """Provider-pluggable: Gemini if a Gemini key is present, else Claude."""
+    """Claude-powered (Anthropic) when a key is present; falls back to Gemini if Claude errors."""
     # focus on the recent conversation (both sides) so follow-ups like "what's the club price"
     # keep the item the assistant just named in context, not only what the user typed.
     focus = " ".join(m.get("content", "") for m in messages[-6:])
     system = _build_system(dept, focus)
+    ak = _key("ANTHROPIC_API_KEY", ANTHROPIC_KEYFILE)
     gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
+    if ak:
+        try:
+            return claude_chat(ak, system, messages)
+        except Exception as e:
+            if not gk:
+                raise
+            print("Claude failed, falling back to Gemini:", e)
     if gk:
         return gemini_chat(gk, system, messages)
-    ak = _key("ANTHROPIC_API_KEY", ANTHROPIC_KEYFILE)
-    if ak:
-        return claude_chat(ak, system, messages)
-    return "No AI key configured (add gemini_key.txt or anthropic_key.txt)."
+    return "No AI key configured (add anthropic_key.txt or gemini_key.txt)."
 
 
 def dept_totals(dept):
