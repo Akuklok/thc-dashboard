@@ -117,6 +117,7 @@
     <select id="dept" onchange="deptChange()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
+    <button onclick="exportAll()" title="Download every tab as one Excel workbook">Export all</button>
     <button onclick="openCustomize()" title="Customize what you see">Customize</button>
     <button id="reportBtn" onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
@@ -299,6 +300,25 @@ function exportXlsx(name, cols, rows){
 }
 function exportTbl(id, name){ const t=TBL[id]; if(!t){ alert('Open this first.'); return; } exportXlsx(name, t.cols, t.rows); }
 function exportVendor(){ exportXlsx(($('dept').value+' - '+$('vsel').value+' order'), (TBL['vendTbl']||{}).cols, (TBL['vendTbl']||{}).rows); }
+async function exportAll(){
+  if(!window.XLSX){ alert('Still loading the export tool — try again in a second.'); return; }
+  const dept=$('dept').value, wb=XLSX.utils.book_new(), used={};
+  const add=(name,cols,rows)=>{ if(!cols||!cols.length||!rows||!rows.length)return;
+    let n=(name||'Sheet').replace(/[:\\/?*\[\]]/g,' ').slice(0,28)||'Sheet', k=n, i=2;
+    while(used[k]){ k=n.slice(0,25)+' '+i; i++; } used[k]=1;
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet([cols,...rows.map(r=>r.map(v=>v==null?'':v))]), k); };
+  try{
+    const t=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
+    add('Order', t.buy_cols, t.buy_rows); add('Transfers', t.tr_cols, t.tr_rows);
+    const tabs=(await (await fetch('/api/tabs?dept='+encodeURIComponent(dept))).json()).tabs||[];
+    for(const tab of tabs){
+      const d=await (await fetch('/api/list?dept='+encodeURIComponent(dept)+'&tab='+encodeURIComponent(tab)+'&limit=50000')).json();
+      add(tab, d.cols, d.rows);
+    }
+    if(!wb.SheetNames.length){ alert('Nothing to export for '+dept+' yet.'); return; }
+    XLSX.writeFile(wb, (dept+' - all tabs').replace(/[^\w .-]/g,'')+'.xlsx');
+  }catch(e){ alert('Could not export — try again.'); }
+}
 async function exportList(){
   const dept=$('dept').value, tab=curTab; if(!tab){ alert('Pick a tab first.'); return; }
   const fx=Object.keys(lf).filter(c=>lfacets[c]);
