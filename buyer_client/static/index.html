@@ -37,6 +37,18 @@
   .rbtns{display:flex;gap:8px;justify-content:flex-end;margin-top:10px}
   .rbtns button{background:var(--green);color:#fff;border:0;padding:9px 16px;border-radius:8px;cursor:pointer}
   .rbtns button.ghost{background:#eef1ee;color:var(--ink)}
+  /* review & change panel */
+  #review{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+  #review .sheet{background:#fff;border-radius:14px;padding:18px;max-width:620px;width:100%;max-height:92vh;overflow:auto}
+  #review select,#review input{padding:8px;border:1px solid var(--line);border-radius:8px;font-size:14px}
+  .revitem{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:8px}
+  .revitem .ra{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:6px}
+  .revitem .rn{flex:1;min-width:150px}
+  .chg{border-bottom:1px solid var(--line);padding:8px 0;font-size:13px;display:flex;gap:8px;align-items:flex-start}
+  .chg .sp{flex:1}
+  .chg button{background:#eef1ee;border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12px}
+  .chg .done{color:var(--muted);font-size:12px}
+  #review h4{margin:16px 0 4px}
   .dot{display:inline-block;min-width:18px;height:18px;line-height:18px;text-align:center;background:#b3261e;color:#fff;border-radius:9px;font-size:11px;font-weight:700;padding:0 5px;margin-left:5px}
   #myreports{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
   .rep{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin-top:8px;font-size:13px}
@@ -145,6 +157,21 @@
         <button onclick="sendReport()">Send</button>
       </div>
       <div id="myreports"></div>
+    </div>
+  </div>
+
+  <div id="review" style="display:none">
+    <div class="sheet">
+      <h3 style="margin:0 0 4px">Review &amp; change the order</h3>
+      <div class="hint" id="revsub"></div>
+      <div id="revlist"></div>
+      <div class="rbtns">
+        <button class="ghost" onclick="closeReview()">Close</button>
+        <button onclick="saveReview()">Save changes</button>
+      </div>
+      <div id="revstatus" class="hint"></div>
+      <h4>Change history <span class="hint">— your edits are backed up; undo anything</span></h4>
+      <div id="chglist"><div class="hint">Loading…</div></div>
     </div>
   </div>
 </div>
@@ -297,7 +324,7 @@ async function loadToday(){
     <div class="card"><div class="lbl">Gross need (all stores)</div><div class="val">${money(h.gross)}</div></div>
     <div class="card"><div class="lbl">Items to buy</div><div class="val">${n(h.items)}</div></div>
     ${h.wait_items ? `<div class="card"><div class="lbl">Waiting for buy-month</div><div class="val">${n(h.wait_items)}</div><div class="lbl" style="text-transform:none">${money(h.wait_buy)} deferred to cheaper months</div></div>` : ''}
-    ${h.review_items ? `<div class="card" style="border-color:#e0a800;background:#fffaf0;cursor:pointer" onclick="toggleReviewOnly()" title="Show only the flagged items"><div class="lbl">Needs your review</div><div class="val" style="color:#9a6700">${n(h.review_items)}</div><div class="lbl" style="text-transform:none">tap to see just these</div></div>` : ''}` : '';
+    ${h.review_items ? `<div class="card" style="border-color:#e0a800;background:#fffaf0;cursor:pointer" onclick="openReview()" title="Review and change these items"><div class="lbl">Needs your review</div><div class="val" style="color:#9a6700">${n(h.review_items)}</div><div class="lbl" style="text-transform:none">tap to review &amp; change</div></div>` : ''}` : '';
   $('trcards').innerHTML = (h.transfers!==undefined) ? `
     <div class="card"><div class="lbl">Urgent moves</div><div class="val">${n((h.stockouts||0)+(h.low||0))}</div></div>
     <div class="card"><div class="lbl">Stores out of stock</div><div class="val">${n(h.stockouts)}</div></div>
@@ -370,6 +397,77 @@ document.addEventListener('paste',e=>{
   const items=(e.clipboardData&&e.clipboardData.items)||[];
   for(const it of items){ if(it.type.indexOf('image')===0){ const f=it.getAsFile(); const r=new FileReader(); r.onload=()=>setShot(r.result); r.readAsDataURL(f); } }
 });
+// ---- review & change the order (edit flagged items; every change is backed up + undoable) ----
+function flaggedRows(){
+  const t=TBL['buyTbl']; if(!t)return [];
+  const ci=n=>t.cols.indexOf(n);
+  const ri=ci('Review'), ii=ci('Item'), ui=ci('Buy Units'), ni=ci('Net Buy $');
+  return t.rows.filter(r=>ri>=0 && String(r[ri]||'').trim()).map(r=>({
+    item:String(ii>=0?r[ii]:''), reason:String(ri>=0?r[ri]:''),
+    units: ui>=0?r[ui]:'', net: ni>=0?r[ni]:''}));
+}
+async function openReview(){
+  const dept=$('dept').value, items=flaggedRows();
+  $('revsub').textContent = items.length
+    ? `${items.length} item(s) flagged in ${dept}. Change what you want — anything you leave stays as recommended. Edits are saved, backed up, and applied on the next order build.`
+    : `Nothing flagged in ${dept} right now — but you can review and undo past changes below.`;
+  let prior={};
+  try{ const d=await (await fetch('/api/decisions?dept='+encodeURIComponent(dept))).json(); (d.decisions||[]).forEach(x=>prior[String(x.item).toLowerCase()]=x); }catch(e){}
+  $('revlist').innerHTML=items.map((it,i)=>{
+    const p=prior[it.item.toLowerCase()]||{}, act=p.action||'leave';
+    return `<div class="revitem" data-item="${esc(it.item)}">
+      <div><b>${esc(it.item)}</b></div>
+      <div class="hint">${esc(it.reason)} &middot; now ${it.units} units &middot; ${money(+it.net||0)}</div>
+      <div class="ra">
+        <select id="ra${i}" onchange="revAct(${i})">
+          <option value="leave" ${act==='leave'?'selected':''}>Leave as recommended</option>
+          <option value="approve" ${act==='approve'?'selected':''}>Approve as-is</option>
+          <option value="qty" ${act==='qty'?'selected':''}>Change quantity</option>
+          <option value="skip" ${act==='skip'?'selected':''}>Don't buy this week</option>
+          <option value="fix" ${act==='fix'?'selected':''}>Needs a fix</option>
+        </select>
+        <input id="rq${i}" type="number" min="0" placeholder="units" value="${p.qty!=null?p.qty:(it.units||'')}" style="display:${act==='qty'?'inline-block':'none'};max-width:110px"/>
+        <input id="rn${i}" class="rn" placeholder="note (optional)" value="${esc(p.note||'')}"/>
+      </div></div>`;
+  }).join('') || '<div class="hint">No flagged items.</div>';
+  $('revstatus').textContent=''; $('review').style.display='flex'; loadChanges();
+}
+function revAct(i){ $('rq'+i).style.display = $('ra'+i).value==='qty'?'inline-block':'none'; }
+function closeReview(){ $('review').style.display='none'; loadToday(); }
+async function saveReview(){
+  const decisions=[];
+  document.querySelectorAll('#revlist .revitem').forEach((el,i)=>{
+    const act=$('ra'+i).value; if(act==='leave') return;
+    const d={item:el.getAttribute('data-item'),action:act,note:$('rn'+i).value.trim()};
+    if(act==='qty') d.qty=Number($('rq'+i).value)||0;
+    decisions.push(d);
+  });
+  if(!decisions.length){ $('revstatus').textContent='Nothing changed (all left as recommended).'; return; }
+  $('revstatus').textContent='Saving…';
+  try{
+    const r=await fetch('/api/decisions',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({dept:$('dept').value,who:localStorage.getItem('rname')||'',device:DEVICE,decisions})});
+    const d=await r.json();
+    $('revstatus').textContent = d.ok ? `Saved ${d.count} change(s) — backed up and applied on the next build. Undo any below.` : 'Could not save.';
+    loadChanges();
+  }catch(e){ $('revstatus').textContent='Could not save — try again.'; }
+}
+async function loadChanges(){
+  try{
+    const d=await (await fetch('/api/changes?dept='+encodeURIComponent($('dept').value))).json();
+    const ch=(d.changes||[]).filter(c=>c.action!=='undo');
+    if(!ch.length){ $('chglist').innerHTML='<div class="hint">No changes yet.</div>'; return; }
+    $('chglist').innerHTML=ch.map(c=>{
+      const what=c.action==='qty'?`set qty to ${c.qty}`:(c.action==='skip'?"don't buy":(c.action==='approve'?'approved':(c.action==='fix'?'needs a fix':c.action)));
+      return `<div class="chg"><div><b>${esc(c.item)}</b> — ${what}${c.note?(' ('+esc(c.note)+')'):''}<div class="hint">${esc(c.who||'')} · ${esc(c.ts||'')}</div></div><span class="sp"></span>`
+        +(c.undone?'<span class="done">undone</span>':`<button onclick="undoChange('${c.id}')">Undo</button>`)+`</div>`;
+    }).join('');
+  }catch(e){ $('chglist').innerHTML='<div class="hint">Could not load history.</div>'; }
+}
+async function undoChange(id){
+  try{ const r=await fetch('/api/undo',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,who:localStorage.getItem('rname')||''})});
+    if((await r.json()).ok) loadChanges(); }catch(e){}
+}
 function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
 async function ask(){
   const q=$('q').value.trim(); if(!q)return; $('q').value='';
