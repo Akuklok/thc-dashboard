@@ -26,6 +26,7 @@ MIN_TRANSFER      = 4       # don't suggest moving fewer than this many units (a
 WEEKLY_BUDGET     = None    # $ cap on the NET BUY; None = show the full buy
 PRIORITY          = "stockout"   # stockout | margin | deals | balanced
 TOP_TEXT          = 20      # lines in the text summary
+REVIEW_BUY_USD    = 4000    # a single-item buy at/above this gets flagged for human review
 
 # Which departments to build, and the exact Department values that map to each (excludes
 # "- Open"/deposit/giftcard junk by using exact matches). Adjust "Other" as needed.
@@ -162,6 +163,19 @@ def load_remove_set():
     return frozenset()
 
 
+def load_new_set():
+    """UPCs on the product file's New Items tab (no sales history yet - flag for manual qty)."""
+    for folder in OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
+        p = os.path.join(folder, "New Items.csv")
+        if os.path.exists(p):
+            try:
+                d = pd.read_csv(p, dtype={"upc": str})
+                return set(d["upc"].map(dbb.norm))
+            except Exception:
+                pass
+    return frozenset()
+
+
 def load_buy_months():
     """UPC -> set of month numbers it should be bought in (real months only), from Cost Reference.
     Items with no real month listed ('ALL', 'LTO', blank, etc.) are absent = buyable any time."""
@@ -184,7 +198,7 @@ def load_buy_months():
 
 
 def run_department(df, label, retail, buyers, today, fdate, stale_days, need_basis,
-                   remove_set=frozenset(), buy_months=None):
+                   remove_set=frozenset(), buy_months=None, new_items=None):
     """Build the order + transfer plan for one department's per-store rows. Writes files,
     returns a summary dict for the roll-up."""
     if df.empty:
@@ -260,6 +274,27 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         buy = buy[~mask].copy()
     net_total = float(buy["Net Buy $"].sum())   # the actual buy now (excludes discontinued + buy-month waits)
 
+    # Human-review flags: surface anything the system isn't fully confident about so a buyer can
+    # eyeball it before ordering. Flagged items STAY in the order - this is a check, not a block.
+    nset = new_items or frozenset()
+    def _review(r):
+        out = []
+        if not (r["cost"] > 0):
+            out.append("No cost data - verify price")
+        gm = r["GM %"]
+        if pd.isna(gm) or gm < 0:
+            out.append("Margin looks off - check retail/cost")
+        elif gm > 95:
+            out.append("Margin over 95% - check retail")
+        if r["Net Buy $"] >= REVIEW_BUY_USD:
+            out.append(f"Large buy (${r['Net Buy $']:,.0f}) - confirm")
+        if dbb.norm(r["upc"]) in nset:
+            out.append("New item - set quantity by hand")
+        if str(r.get("Buy Month", "")).startswith("Off-month"):
+            out.append("Off buy-month - confirm timing")
+        return "; ".join(out)
+    buy["Review"] = [_review(r) for _, r in buy.iterrows()]
+
     if PRIORITY == "margin":
         buy = buy.sort_values(["GM %", "profit_protected"], ascending=[False, False]); basis = "highest margin first"
     elif PRIORITY == "deals":
@@ -277,7 +312,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         within, deferred = buy, buy.iloc[0:0]
 
     cols = ["Item", "Category", "Supplier", "OH", "WOS", "Gross Need", "Transfer", "Buy Units",
-            "Buy Cases", "cost", "Net Buy $", "GM %", "Discount %", "Deal Terms", "Buy Month"]
+            "Buy Cases", "cost", "Net Buy $", "GM %", "Discount %", "Deal Terms", "Buy Month", "Review"]
     ren = {"OH": "Chain OH (TOH)", "cost": "Unit Cost"}
     def fmt(d):
         d = d[[c for c in cols if c in d.columns]].rename(columns=ren)
@@ -286,6 +321,8 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     out, defr = fmt(within), fmt(deferred)
     removed_out = fmt(removed) if len(removed) else None
     bm_wait_out = fmt(bm_wait) if len(bm_wait) else None
+    rev = within[within["Review"].astype(str).str.len() > 0] if len(within) else within
+    review_out = fmt(rev) if len(rev) else None
 
     urgent = low = 0
     if len(tplan):
@@ -314,7 +351,9 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
           f"{int(g['Transfer'].sum()):,} units to rebalance",
           f"  Transfers: {len(tplan):,} moves  -  {urgent + low} urgent "
           f"({urgent} stockouts, {low} under 2wk), {max(len(tplan) - urgent - low, 0):,} routine",
-          f"  Ranked by {basis}.", "",
+          f"  Ranked by {basis}.",
+          (f"  >> {len(review_out)} item(s) flagged for your review before ordering (see NEEDS REVIEW below)."
+           if review_out is not None and len(review_out) else None), "",
           f"  TOP {TOP_TEXT} TO BUY",
           f"  {'#':>2}  {'ITEM':<36} {'BUY':<12} {'NET $':>8} {'GROSS':>6} {'XFER':>5} {'WOS':>5}",
           "  " + "-" * 72]
@@ -328,6 +367,12 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
                  f"{int(r['Transfer']):>5} {wos:>5}{disc}")
     if len(out) > TOP_TEXT:
         L.append(f"  ...and {len(out) - TOP_TEXT:,} more in the full list.")
+    if review_out is not None and len(review_out):
+        L += ["", f"  NEEDS REVIEW ({len(review_out)} items the system isn't fully sure about - check before ordering):"]
+        for _, r in review_out.head(15).iterrows():
+            L.append(f"    {str(r['Item'])[:40]:40}  {r['Review']}")
+        if len(review_out) > 15:
+            L.append(f"    ...and {len(review_out) - 15} more (see Needs Review tab).")
     if removed_out is not None and len(removed_out):
         L += ["", f"  BEING REMOVED - DO NOT REORDER ({len(removed_out)} discontinued items still selling/low - run down stock):"]
         for _, r in removed_out.head(15).iterrows():
@@ -345,6 +390,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     text = "\n".join([x for x in L if x is not None])
 
     sheets = {"Recommended Order": out}
+    if review_out is not None and len(review_out): sheets["Needs Review"] = review_out
     if removed_out is not None and len(removed_out): sheets["Being Removed"] = removed_out
     if bm_wait_out is not None and len(bm_wait_out): sheets["Buy-Month Wait"] = bm_wait_out
     if len(tplan): sheets["Transfer Plan"] = tplan
@@ -396,13 +442,14 @@ def main():
     buyers, _ = dbb.buyer_lookup()
     remove_set = load_remove_set()
     buy_months = load_buy_months()
+    new_items = load_new_set()
     dep = df["Department"].astype(str).str.strip().str.lower() if "Department" in df.columns else None
 
     summaries = []
     for label, matches in DEPARTMENTS.items():
         ddf = df if dep is None else df[dep.isin([m.lower() for m in matches])]
         s = run_department(ddf.copy(), label, retail, buyers, today, fdate, stale_days, need_basis,
-                           remove_set, buy_months)
+                           remove_set, buy_months, new_items)
         if s:
             summaries.append(s)
             print(f"{label:<9} net buy ${s['Net Buy $']:>11,.0f}  | gross ${s['Gross $']:>11,.0f}  "
