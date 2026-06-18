@@ -472,7 +472,10 @@ def _build_system(dept, focus=""):
         "- Prices: 'Cost'/'Unit Cost' = what Top Ten PAYS the vendor (used for order $); 'Retail' = the regular "
         "customer shelf price; 'Club Price' = the member/club customer price; 'Margin %' = (Retail - Cost)/Retail. "
         "Never report cost as retail or vice versa.\n"
-        "- If a fact truly isn't present, say so in one short line.\n\n"
+        "- If a fact truly isn't present, say so in one short line.\n"
+        "- If a SCREENSHOT is attached, it's the buyer's current screen (Cloud Retailer, a distributor "
+        "portal, Excel, etc.). Read what's on it, answer their question about it, and tie it to the buying "
+        "data when useful (e.g., compare an on-screen price/qty to the recommended buy or the cost/retail).\n\n"
         "The data below has: the weekly ORDER (chain-wide buy), the TRANSFER plan + PER-STORE NEEDS "
         "(use for store questions), and a full INVENTORY snapshot of every item (on-hand chain + by "
         "store, velocity, WOS, cost, retail, margin, sales) plus TOP SELLERS, LOW/AT-RISK, ACTIVE DEALS, "
@@ -480,12 +483,23 @@ def _build_system(dept, focus=""):
         "DATA:\n" + build_context(dept, focus))
 
 
+def _img_parts(img):
+    """A Gemini inline_data part from a data URL (screenshot the buyer attached)."""
+    mime = "image/jpeg" if "jpeg" in img.split(",", 1)[0] else "image/png"
+    b64 = img.split(",", 1)[1] if "," in img else img
+    return {"inline_data": {"mime_type": mime, "data": b64}}
+
+
 def gemini_chat(key, system, messages):
-    contents = [{"role": "model" if m["role"] == "assistant" else "user",
-                 "parts": [{"text": m["content"]}]} for m in messages[-6:]]
+    contents = []
+    for m in messages[-6:]:
+        parts = [{"text": m.get("content", "")}]
+        if m.get("image"):
+            parts.append(_img_parts(m["image"]))
+        contents.append({"role": "model" if m["role"] == "assistant" else "user", "parts": parts})
     body = {"system_instruction": {"parts": [{"text": system}]},
             "contents": contents,
-            "generationConfig": {"maxOutputTokens": 900, "temperature": 0.3}}
+            "generationConfig": {"maxOutputTokens": 1100, "temperature": 0.3}}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={key}"
     last = None
     for attempt in range(3):   # free tier occasionally returns 429/503 (busy) - retry briefly
@@ -505,8 +519,17 @@ def gemini_chat(key, system, messages):
 
 
 def claude_chat(key, system, messages):
-    body = {"model": CLAUDE_MODEL, "max_tokens": 900, "system": system,
-            "messages": [{"role": m["role"], "content": m["content"]} for m in messages][-6:]}
+    msgs = []
+    for m in messages[-6:]:
+        if m.get("image") and m["role"] == "user":
+            mime = "image/jpeg" if "jpeg" in m["image"].split(",", 1)[0] else "image/png"
+            b64 = m["image"].split(",", 1)[1] if "," in m["image"] else m["image"]
+            msgs.append({"role": "user", "content": [
+                {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}},
+                {"type": "text", "text": m.get("content", "")}]})
+        else:
+            msgs.append({"role": m["role"], "content": m.get("content", "")})
+    body = {"model": CLAUDE_MODEL, "max_tokens": 1100, "system": system, "messages": msgs}
     req = urllib.request.Request("https://api.anthropic.com/v1/messages",
                                  data=json.dumps(body).encode(),
                                  headers={"x-api-key": key, "anthropic-version": "2023-06-01",
