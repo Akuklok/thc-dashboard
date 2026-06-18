@@ -112,6 +112,7 @@
     <button id="tabToday" class="on" onclick="show('today')">Today — what to do</button>
     <button id="tabAsk" onclick="show('ask')">Ask the assistant</button>
     <button id="tabLists" onclick="show('lists')">Product Lists</button>
+    <button id="tabVend" onclick="show('vendors')">Order by distributor</button>
   </div>
 
   <main id="today">
@@ -144,6 +145,14 @@
     <span class="hint" id="listCount"></span>
     <div class="wrap"><table id="listTbl"></table></div>
     <div id="listPager" class="hint" style="margin-top:8px"></div>
+  </main>
+
+  <main id="vendors" style="display:none">
+    <div class="hint">Pick a distributor to get this week's order ready to paste into their portal or email.</div>
+    <select id="vsel" onchange="loadVendorOrder()" style="padding:8px;border:1px solid var(--line);border-radius:8px;margin:0 8px 8px 0;max-width:100%"></select>
+    <button class="pgbtn" id="vcopy" onclick="copyVendor()" style="display:none">Copy order</button>
+    <span class="hint" id="vtot"></span>
+    <div class="wrap"><table id="vendTbl"></table></div>
   </main>
 
   <div id="report" style="display:none" onclick="if(event.target===this)closeReport()">
@@ -210,11 +219,38 @@ function deptChange(){
   localStorage.setItem('dept',$('dept').value);
   loadToday();
   if($('lists').style.display!=='none') loadTabs();
+  if($('vendors').style.display!=='none') loadVendors();
+}
+let vendText='';
+async function loadVendors(){
+  const dept=$('dept').value;
+  $('vsel').innerHTML='<option>Loading…</option>'; $('vendTbl').innerHTML=''; $('vtot').textContent=''; $('vcopy').style.display='none';
+  let vs=[];
+  try{ vs=(await (await fetch('/api/vendors?dept='+encodeURIComponent(dept))).json()).vendors||[]; }catch(e){}
+  if(!vs.length){ $('vsel').innerHTML='<option>No order for '+dept+'</option>'; $('vendTbl').innerHTML='<tr><td>Nothing to order.</td></tr>'; return; }
+  $('vsel').innerHTML=vs.map(v=>`<option value="${esc(v.name)}">${esc(v.name)} — ${v.items} items · ${money(v.dollars)}</option>`).join('');
+  loadVendorOrder();
+}
+async function loadVendorOrder(){
+  const dept=$('dept').value, vendor=$('vsel').value;
+  $('vendTbl').innerHTML='<tr><td>Loading…</td></tr>';
+  try{
+    const d=await (await fetch('/api/vendororder?dept='+encodeURIComponent(dept)+'&vendor='+encodeURIComponent(vendor))).json();
+    vendText=d.text||'';
+    mountTable('vendTbl', d.cols, d.rows);
+    $('vtot').textContent = d.units!==undefined ? `${d.units.toLocaleString()} units · ${money(d.total)}` : '';
+    $('vcopy').style.display = (d.rows&&d.rows.length)?'inline-block':'none';
+  }catch(e){ $('vendTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
+}
+function copyVendor(){
+  navigator.clipboard.writeText(vendText).then(()=>{ const b=$('vcopy'),t=b.textContent; b.textContent='Copied!'; setTimeout(()=>b.textContent=t,1500); });
 }
 function show(v){
-  for(const k of ['today','ask','lists']) $(k).style.display = (v===k)?'block':'none';
-  $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':''; $('tabLists').className=v==='lists'?'on':'';
+  for(const k of ['today','ask','lists','vendors']) $(k).style.display = (v===k)?'block':'none';
+  $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':'';
+  $('tabLists').className=v==='lists'?'on':''; $('tabVend').className=v==='vendors'?'on':'';
   if(v==='lists') loadTabs();
+  if(v==='vendors') loadVendors();
 }
 let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0, lf={}, lfacets={}; const LPAGE=400;
 let listTimer=null, lfTimer=null;
