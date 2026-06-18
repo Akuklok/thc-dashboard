@@ -9,6 +9,18 @@
     "qty": null,
     "note": "verify",
     "prev": null,
-    "undone": false
+    "undone": true
+  },
+  {
+    "id": "17817951224586122u",
+    "ts": "2026-06-18 15:05",
+    "who": "verify",
+    "dept": "THC",
+    "item": "__deploy_test__",
+    "action": "undo",
+    "qty": null,
+    "note": "undid 'approve'",
+    "prev": null,
+    "undone": true
   }
 ]
