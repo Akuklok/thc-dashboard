@@ -25,6 +25,7 @@
   .subtabs button.on{background:var(--green);color:#fff;border-color:var(--green);font-weight:600}
   .find{width:100%;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:0 0 8px;display:block}
   th{user-select:none}
+  .exp{background:var(--green2);color:#fff;border:0;padding:4px 11px;border-radius:6px;cursor:pointer;font-size:12px;margin-left:8px;font-weight:600;vertical-align:middle}
   .pgbtn{background:var(--green);color:#fff;border:0;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:13px;margin-left:6px}
   .pgbtn:disabled{background:#cdd3ce;cursor:default}
   .frow th{padding:3px 6px;background:#f4f6f4;position:sticky}
@@ -121,10 +122,10 @@
     <div class="cards" id="cards"></div>
     <h3>Transfers — move stock between stores first</h3>
     <div class="cards" id="trcards"></div>
-    <h3>What to buy <span class="hint" id="buyHint"></span></h3>
+    <h3>What to buy <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportTbl('buyTbl', $('dept').value+' order')">Export to Excel</button></h3>
     <input class="find" id="findBuy" placeholder="Find in this list (item, deal, category)..." oninput="filterTable('buyTbl',this.value)"/>
     <div class="wrap"><table id="buyTbl"></table></div>
-    <h3>Transfer plan <span class="hint">(most urgent first)</span></h3>
+    <h3>Transfer plan <span class="hint">(most urgent first)</span> <button class="exp" onclick="exportTbl('trTbl', $('dept').value+' transfers')">Export to Excel</button></h3>
     <div class="wrap"><table id="trTbl"></table></div>
   </main>
 
@@ -146,6 +147,7 @@
     <div id="ltabs" class="subtabs"></div>
     <input class="find" id="findList" placeholder="Search this tab across all rows..." oninput="searchList(this.value)"/>
     <span class="hint" id="listCount"></span>
+    <button class="exp" onclick="exportList()">Export to Excel</button>
     <div class="wrap"><table id="listTbl"></table></div>
     <div id="listPager" class="hint" style="margin-top:8px"></div>
   </main>
@@ -154,6 +156,7 @@
     <div class="hint">Pick a distributor to get this week's order ready to paste into their portal or email.</div>
     <select id="vsel" onchange="loadVendorOrder()" style="padding:8px;border:1px solid var(--line);border-radius:8px;margin:0 8px 8px 0;max-width:100%"></select>
     <button class="pgbtn" id="vcopy" onclick="copyVendor()" style="display:none">Copy order</button>
+    <button class="pgbtn" id="vxlsx" onclick="exportVendor()" style="display:none">Export to Excel</button>
     <span class="hint" id="vtot"></span>
     <div class="wrap"><table id="vendTbl"></table></div>
   </main>
@@ -192,6 +195,7 @@
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" defer></script>
 
 <script>
 const ALLDEPTS=["THC","Wine","Spirits","Beer","Other"];   // each department is its own section
@@ -242,11 +246,30 @@ async function loadVendorOrder(){
     vendText=d.text||'';
     mountTable('vendTbl', d.cols, d.rows);
     $('vtot').textContent = d.units!==undefined ? `${d.units.toLocaleString()} units · ${money(d.total)}` : '';
-    $('vcopy').style.display = (d.rows&&d.rows.length)?'inline-block':'none';
+    const has=(d.rows&&d.rows.length)?'inline-block':'none';
+    $('vcopy').style.display=has; $('vxlsx').style.display=has;
   }catch(e){ $('vendTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
 }
 function copyVendor(){
   navigator.clipboard.writeText(vendText).then(()=>{ const b=$('vcopy'),t=b.textContent; b.textContent='Copied!'; setTimeout(()=>b.textContent=t,1500); });
+}
+// ---- export tables to a real .xlsx (SheetJS) ----
+function exportXlsx(name, cols, rows){
+  if(!window.XLSX){ alert('Still loading the export tool — try again in a second.'); return; }
+  if(!cols||!cols.length||!rows||!rows.length){ alert('Nothing to export here yet.'); return; }
+  const aoa=[cols, ...rows.map(r=>r.map(v=>v==null?'':v))];
+  const ws=XLSX.utils.aoa_to_sheet(aoa);
+  const wb=XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, 'Data');
+  XLSX.writeFile(wb, name.replace(/[^\w .-]/g,'')+'.xlsx');
+}
+function exportTbl(id, name){ const t=TBL[id]; if(!t){ alert('Open this first.'); return; } exportXlsx(name, t.cols, t.rows); }
+function exportVendor(){ exportXlsx(($('dept').value+' - '+$('vsel').value+' order'), (TBL['vendTbl']||{}).cols, (TBL['vendTbl']||{}).rows); }
+async function exportList(){
+  const dept=$('dept').value, tab=curTab; if(!tab){ alert('Pick a tab first.'); return; }
+  const fx=Object.keys(lf).filter(c=>lfacets[c]);
+  const p=new URLSearchParams({dept,tab,q:lq,sort:lsort||'',dir:ldir,offset:0,limit:50000,f:JSON.stringify(lf),fx:JSON.stringify(fx)});
+  try{ const d=await (await fetch('/api/list?'+p.toString())).json(); exportXlsx(`${dept} - ${tab}`, d.cols, d.rows); }
+  catch(e){ alert('Could not export — try again.'); }
 }
 function show(v){
   for(const k of ['today','ask','lists','vendors']) $(k).style.display = (v===k)?'block':'none';
