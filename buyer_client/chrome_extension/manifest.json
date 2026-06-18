@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Top Ten Buyer Assistant",
+  "version": "1.0",
+  "description": "Buying assistant in your sidebar — recommendations, transfers, and deal evaluation while you browse.",
+  "permissions": ["sidePanel", "activeTab", "scripting", "storage"],
+  "host_permissions": ["http://localhost:8520/*", "https://*/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Open Top Ten Buyer" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "icons": { "192": "icon-192.png", "512": "icon-512.png" }
+}
