@@ -9,6 +9,7 @@
   645 items   |   14,399 units to buy   |   13,346 units to rebalance
   Transfers: 1,216 moves  -  214 urgent (61 stockouts, 153 under 2wk), 1,002 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
+  >> 7 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,6 +35,15 @@
   19  Bota Box Redvolution 3L Box          105u/35cs      $2,333    124    18   2.9
   20  Matua Valley Sauv Blanc 750ml        96u/8cs          $832    148    52   3.0
   ...and 625 more in the full list.
+
+  NEEDS REVIEW (7 items the system isn't fully sure about - check before ordering):
+    Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost
+    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost; Large buy ($4,369) - confirm
+    Bota Box Redvolution 3L Box               Margin looks off - check retail/cost
+    The Horologist Sauvignon Blanc NZ 750ml   Large buy ($5,937) - confirm
+    Joel Gott Chardonnay 750ml                Margin looks off - check retail/cost
+    Chateau Ste Michelle Light Sauvignon Bla  Margin looks off - check retail/cost
+    Josh Cellars Cabernet Sauvignon 375ml     Margin over 95% - check retail
 
   BEING REMOVED - DO NOT REORDER (136 discontinued items still selling/low - run down stock):
     7 Deadly Cabernet Sauvignon 750ml           (would have bought 12u)
