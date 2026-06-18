@@ -77,6 +77,7 @@
   .pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600}
   .STOCKOUT{background:#fde7e7;color:#b3261e}
   .Low{background:#fff4e0;color:#9a6700}
+  .rflag{background:#fff4e0;color:#9a6700;padding:2px 7px;border-radius:6px;font-size:12px;white-space:normal;display:inline-block}
 </style>
 </head>
 <body>
@@ -270,6 +271,7 @@ function drawTable(id){
     h+='<tr>'+r.map((v,i)=>{
       let s=(v===null||v===undefined)?'':v;
       if(t.cols[i]==='Priority'&&s){const cls=String(s).startsWith('Low')?'Low':s;return `<td><span class="pill ${cls}">${s}</span></td>`;}
+      if(t.cols[i]==='Review'&&s)return `<td><span class="rflag">${s}</span></td>`;
       if(['Net Buy $','Value $'].includes(t.cols[i])&&s!=='')s=money(+s);
       return `<td>${s}</td>`;}).join('')+'</tr>';
   }
@@ -288,7 +290,8 @@ async function loadToday(){
     <div class="card"><div class="lbl">Cover by transfer</div><div class="val">${money(h.transfer)}</div></div>
     <div class="card"><div class="lbl">Gross need (all stores)</div><div class="val">${money(h.gross)}</div></div>
     <div class="card"><div class="lbl">Items to buy</div><div class="val">${n(h.items)}</div></div>
-    ${h.wait_items ? `<div class="card"><div class="lbl">Waiting for buy-month</div><div class="val">${n(h.wait_items)}</div><div class="lbl" style="text-transform:none">${money(h.wait_buy)} deferred to cheaper months</div></div>` : ''}` : '';
+    ${h.wait_items ? `<div class="card"><div class="lbl">Waiting for buy-month</div><div class="val">${n(h.wait_items)}</div><div class="lbl" style="text-transform:none">${money(h.wait_buy)} deferred to cheaper months</div></div>` : ''}
+    ${h.review_items ? `<div class="card" style="border-color:#e0a800;background:#fffaf0"><div class="lbl">Needs your review</div><div class="val" style="color:#9a6700">${n(h.review_items)}</div><div class="lbl" style="text-transform:none">flagged in the buy — see the Review column</div></div>` : ''}` : '';
   $('trcards').innerHTML = (h.transfers!==undefined) ? `
     <div class="card"><div class="lbl">Urgent moves</div><div class="val">${n((h.stockouts||0)+(h.low||0))}</div></div>
     <div class="card"><div class="lbl">Stores out of stock</div><div class="val">${n(h.stockouts)}</div></div>
