@@ -1,11 +1,1 @@
-[
-  {
-    "dept": "THC",
-    "item": "__deploy_test__",
-    "action": "approve",
-    "qty": null,
-    "note": "verify",
-    "ts": "2026-06-18 15:05",
-    "who": "verify"
-  }
-]
+[]
