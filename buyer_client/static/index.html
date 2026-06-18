@@ -77,6 +77,7 @@
   #msgs{flex:1;overflow:auto;padding:6px}
   .msg{max-width:80%;padding:10px 14px;border-radius:14px;margin:8px 0;white-space:pre-wrap;line-height:1.45}
   .me{background:var(--green);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
+  .msg img{max-width:230px;border-radius:8px;display:block}
   .ai{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px}
   .row{display:flex;gap:8px;padding-top:8px}
   .row input{flex:1;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:15px}
@@ -128,10 +129,12 @@
   </main>
 
   <main id="ask" style="display:none">
-    <div class="hint">Ask anything about your department's buying — e.g. "What should I buy this week and what can I cover with transfers?"</div>
+    <div class="hint">Ask anything about your buying — or tap <b>Screen</b> to share what you're looking at (Cloud Retailer, a portal, Excel) and ask about it.</div>
     <div id="chat">
       <div id="msgs"></div>
+      <div id="shotNote" class="hint" style="display:none"></div>
       <div class="row">
+        <button onclick="captureScreen()" id="shotBtn" title="Share your screen and ask about it">Screen</button>
         <input id="q" placeholder="Ask the assistant..." onkeydown="if(event.key==='Enter')ask()"/>
         <button onclick="ask()">Send</button>
       </div>
@@ -510,9 +513,31 @@ async function undoChange(id){
     if((await r.json()).ok) loadChanges(); }catch(e){}
 }
 function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
+// capture the buyer's screen and attach it to the next question (vision Q&A)
+let pendingShot='';
+async function captureScreen(){
+  if(!navigator.mediaDevices||!navigator.mediaDevices.getDisplayMedia){ $('shotNote').style.display='block'; $('shotNote').textContent='Screen capture needs a desktop browser.'; return; }
+  try{
+    const stream=await navigator.mediaDevices.getDisplayMedia({video:true});
+    const v=document.createElement('video'); v.srcObject=stream; await v.play();
+    await new Promise(r=>setTimeout(r,300));
+    const sw=v.videoWidth||1280, sh=v.videoHeight||720, sc=Math.min(1,1280/sw);
+    const c=document.createElement('canvas'); c.width=Math.round(sw*sc); c.height=Math.round(sh*sc);
+    c.getContext('2d').drawImage(v,0,0,c.width,c.height);
+    pendingShot=c.toDataURL('image/jpeg',0.8);
+    stream.getTracks().forEach(t=>t.stop());
+    $('shotNote').style.display='block';
+    $('shotNote').innerHTML='Screen captured — type your question and Send. <a href="#" onclick="clearShot();return false">remove</a>';
+    $('q').placeholder="Ask about what's on your screen..."; $('q').focus();
+  }catch(e){ /* user cancelled the picker */ }
+}
+function clearShot(){ pendingShot=''; $('shotNote').style.display='none'; $('q').placeholder='Ask the assistant...'; }
+function bubbleImg(src){ const m=document.createElement('div'); m.className='msg me'; const i=document.createElement('img'); i.src=src; m.appendChild(i); $('msgs').appendChild(m); $('msgs').scrollTop=1e9; }
 async function ask(){
-  const q=$('q').value.trim(); if(!q)return; $('q').value='';
-  bubble(q,'me'); history.push({role:'user',content:q});
+  const q=$('q').value.trim(); if(!q && !pendingShot)return; $('q').value='';
+  const msg={role:'user',content:q||'What am I looking at, and anything I should know for buying?'};
+  if(pendingShot){ msg.image=pendingShot; bubbleImg(pendingShot); }
+  bubble(q||'(about this screen)','me'); history.push(msg); clearShot();
   const t=bubble('Thinking…','ai');
   try{
     const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
