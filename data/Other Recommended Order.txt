@@ -1,13 +1,15 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Saturday, Jun 20, 2026
+  RECOMMENDED OTHER ORDER          Monday, Jun 22, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     46,509
-  Coverable by transfer .......  $     22,292   (48%)
-  NET BUY from vendors ........  $     21,725   <- the order
+  (data is 1 day(s) old, from Jun 21 - refreshes automatically)
 
-  256 items   |   5,605 units to buy   |   8,672 units to rebalance
-  Transfers: 798 moves  -  175 urgent (91 stockouts, 84 under 2wk), 623 routine
+  Gross need (all stores) .....  $     46,509
+  Coverable by transfer .......  $     22,042   (47%)
+  NET BUY from vendors ........  $     21,943   <- the order
+
+  255 items   |   5,667 units to buy   |   8,575 units to rebalance
+  Transfers: 795 moves  -  186 urgent (101 stockouts, 85 under 2wk), 609 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 3 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -15,26 +17,26 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
-   2  Sprite Diet Zero 2L                  160u/20cs        $513    163     0   1.9
-   3  Ocean Spray Cranberry Juice          12u/1cs           $35      8     0   2.0
-   4  Minute Maid Lemonade 2L              136u/17cs        $436    170    32   2.2
-   5  Gatorade Gatorlyte Mixed Berry 20oz  12u/1cs           $22     28    21   2.4
-   6  Polar Club Soda Liter                60u/5cs           $50    111    47   2.6
-   7  Gosling's Ginger Beer 6pk 12oz can   20u/5cs           $86     27     8   2.9
-   8  Coke Diet 2L                         144u/18cs        $463    196    49   3.4
-   9  Sprite 2L                            128u/16cs        $411    174    50   3.4
-  10  Master of Mixes Simple Syrup 375ml   48u/4cs          $128     88    37   3.8
-  11  16 oz Red Party Cups, 50 pack by Tr  34u/34cs         $171     34     0   3.8
-  12  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   3.8
-  13  ReaLime 5oz                          48u/2cs           $48     91    51   3.9
-  14  Gatorade Gatorlyte Orange 20oz       12u/1cs           $22     34    27   4.1
-  15  Gosling's Diet Ginger Beer 6pk 12oz  24u/6cs          $106     22     0   4.3
-  16  Gatorlyte Lemon Lime 20oz            36u/3cs           $66     81    44   4.3
-  17  Roses Grenadine 12oz                 18u/3cs           $67     34    17   4.3
-  18  Zing Zang Bloody Mary Dill Pickles   12u/2cs           $44     11     0   4.3
-  19  Fresca 2L                            80u/10cs         $257    125    49   4.4
-  20  Barritt's Ginger Beer 6pk 12oz can   8u/2cs            $48     10     0   4.5
-  ...and 236 more in the full list.
+   2  Sprite Diet Zero 2L                  160u/20cs        $513    163     0   1.7
+   3  Ocean Spray Cranberry Juice          12u/1cs           $35      8     0   1.8
+   4  Gatorade Gatorlyte Mixed Berry 20oz  12u/1cs           $22     28    21   2.0
+   5  Minute Maid Lemonade 2L              136u/17cs        $436    170    32   2.1
+   6  Polar Club Soda Liter                60u/5cs           $50    111    46   2.3
+   7  Gosling's Ginger Beer 6pk 12oz can   20u/5cs           $86     27     8   2.5
+   8  Sprite 2L                            136u/17cs        $436    174    37   2.9
+   9  Coke Diet 2L                         152u/19cs        $489    196    43   3.2
+  10  Master of Mixes Simple Syrup 375ml   60u/5cs          $160     88    32   3.4
+  11  16 oz Red Party Cups, 50 pack by Tr  34u/34cs         $171     34     0   3.5
+  12  ReaLime 5oz                          48u/2cs           $48     91    46   3.6
+  13  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   3.8
+  14  Fresca 2L                            80u/10cs         $257    125    44   3.9
+  15  Roses Grenadine 12oz                 18u/3cs           $67     34    16   3.9
+  16  Red Bull White Peach 12oz can        24u/1cs           $55     29     4   4.0
+  17  Tres Agaves Margarita Mix Liter      12u/1cs           $70     74    63   4.1
+  18  Gatorade Gatorlyte Orange 20oz       12u/1cs           $22     34    27   4.1
+  19  Jose Cuervo Margarita Mix 1.75L      18u/3cs           $93     34    16   4.3
+  20  Cock n Bull Ginger Beer 4pk 12oz bt  24u/4cs          $100     44    22   4.3
+  ...and 235 more in the full list.
 
   NEEDS REVIEW (3 items the system isn't fully sure about - check before ordering):
     Spooky Sriracha 32oz                      Margin looks off - check retail/cost

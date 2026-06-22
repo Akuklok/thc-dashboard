@@ -1,13 +1,15 @@
 ==========================================================================
-  RECOMMENDED SPIRITS ORDER          Saturday, Jun 20, 2026
+  RECOMMENDED SPIRITS ORDER          Monday, Jun 22, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    578,114
-  Coverable by transfer .......  $    207,662   (36%)
-  NET BUY from vendors ........  $    215,232   <- the order
+  (data is 1 day(s) old, from Jun 21 - refreshes automatically)
 
-  500 items   |   28,510 units to buy   |   47,266 units to rebalance
-  Transfers: 2,052 moves  -  345 urgent (62 stockouts, 283 under 2wk), 1,707 routine
+  Gross need (all stores) .....  $    580,185
+  Coverable by transfer .......  $    205,076   (35%)
+  NET BUY from vendors ........  $    219,853   <- the order
+
+  501 items   |   29,539 units to buy   |   46,067 units to rebalance
+  Transfers: 2,030 moves  -  383 urgent (70 stockouts, 313 under 2wk), 1,647 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -15,34 +17,34 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  New Amsterdam Gin 1.75L              36u/6cs          $521     34     0   0.9
-   2  Spiritless Kentucky 74 700ml         6u/1cs           $143      6     0   1.2
+   2  Chi-Chi's Skinny Margarita 1.75L     6u/1cs            $54      6     0   1.0
    3  New Amsterdam Peach Vodka 750ml      12u/1cs          $107      9     0   1.2
    4  New Amsterdam Mango 750ml            12u/1cs          $108      7     0   1.3
-   5  Lalo Tequila Blanco 750ml            12u/2cs          $387     14     0   1.6
-   6  Bacardi Superior Light Rum 1.75L     336u/56cs      $4,035    384    51   1.7
-   7  Corralejo Reposado Tequila 750ml     6u/1cs           $130      5     0   1.7
-   8  Casamigos Blanco 1.75L               3u/1cs           $216      2     0   1.7
-   9  Lunazul Reposado Tequila Liter       144u/12cs      $2,205    171    33   1.8
-  10  New Amsterdam Pink Whitney Buckets   6u/1cs            $80      5     0   1.8
-  11  Captain Morgan Spiced Rum 1.75L      648u/108cs    $13,131    717    71   1.9
-  12  Chi-Chi's Skinny Margarita 1.75L     6u/1cs            $54      6     0   1.9
-  13  Windsor Canadian 1.75L               288u/48cs      $7,956    333    43   2.0
-  14  Phillips Vodka 1.75L                 162u/27cs      $1,702    181    21   2.1
-  15  Cruzan Single Barrel Rum 750ml       6u/1cs           $135      4     0   2.1
-  16  Karkov Vodka 1.75L                   318u/53cs      $2,795    429   112   2.2
-  17  Bacardi Limon Rum 1.75L              192u/32cs      $3,294    217    22   2.2
-  18  Evan Williams Bourbon 1.75L          126u/21cs      $2,192    159    33   2.2
-  19  On The Rocks Variety Pack 8pk 12oz   36u/12cs         $593     43     6   2.2
-  20  Lucky One Lemonade Variety 8pk 12oz  24u/8cs          $363     23     0   2.2
-  ...and 480 more in the full list.
+   5  Lalo Tequila Blanco 750ml            12u/2cs          $387     14     0   1.4
+   6  Bacardi Superior Light Rum 1.75L     336u/56cs      $4,017    384    50   1.6
+   7  Lunazul Reposado Tequila Liter       144u/12cs      $2,205    171    33   1.6
+   8  Spiritless Kentucky 74 700ml         6u/1cs           $144      6     0   1.6
+   9  Corralejo Reposado Tequila 750ml     6u/1cs           $130      5     0   1.7
+  10  Casamigos Blanco 1.75L               3u/1cs           $216      2     0   1.7
+  11  Captain Morgan Spiced Rum 1.75L      648u/108cs    $13,120    717    72   1.8
+  12  New Amsterdam Pink Whitney Buckets   6u/1cs            $80      5     0   1.8
+  13  Windsor Canadian 1.75L               294u/49cs      $8,444    333    38   1.8
+  14  Bacardi Limon Rum 1.75L              198u/33cs      $3,397    217    20   1.9
+  15  Phillips Vodka 1.75L                 168u/28cs      $1,765    181    16   2.0
+  16  Ketel One Vodka 1.75L                168u/28cs      $4,349    218    53   2.1
+  17  Evan Williams Bourbon 1.75L          126u/21cs      $2,192    159    33   2.1
+  18  Lunazul Blanco Tequila Liter         84u/7cs        $1,286     97    18   2.1
+  19  Cruzan Single Barrel Rum 750ml       6u/1cs           $135      4     0   2.1
+  20  Karkov Vodka 1.75L                   318u/53cs      $2,787    429   110   2.2
+  ...and 481 more in the full list.
 
   NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
     New Amsterdam Gin 1.75L                   Off buy-month - confirm timing
-    Bacardi Superior Light Rum 1.75L          Large buy ($4,035) - confirm
-    Captain Morgan Spiced Rum 1.75L           Large buy ($13,131) - confirm
-    Windsor Canadian 1.75L                    Margin looks off - check retail/cost; Large buy ($7,956) - confirm
-    Ketel One Vodka 1.75L                     Large buy ($4,194) - confirm
-    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($7,558) - confirm
+    Bacardi Superior Light Rum 1.75L          Large buy ($4,017) - confirm
+    Captain Morgan Spiced Rum 1.75L           Large buy ($13,120) - confirm
+    Windsor Canadian 1.75L                    Margin looks off - check retail/cost; Large buy ($8,444) - confirm
+    Ketel One Vodka 1.75L                     Large buy ($4,349) - confirm
+    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($9,453) - confirm
     Bombay Gin Liter                          Margin looks off - check retail/cost
     Gamle Ode Aquavit Dill 750ml              Margin looks off - check retail/cost
 
@@ -53,7 +55,7 @@
     Aperol Aperitivo 375ml                      (would have bought 12u)
     Bailey's Irish Cream Liter                  (would have bought 24u)
     Buzzballz Biggies Chocolate Tease 1.75L     (would have bought 21u)
-    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 18u)
+    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 24u)
     Buzzballz Biggies Tequila 'Rita 1.75L       (would have bought 18u)
     Buzzballz Chili Mango Chiller 187ml         (would have bought 24u)
     Buzzballz Espresso Martini Chiller 187ml    (would have bought 24u)
@@ -64,7 +66,7 @@
     Cazadores Reposado Tequila 750ml            (would have bought 12u)
     ...and 110 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (82 routine deal items out of their buy month - $33,434 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (82 routine deal items out of their buy month - $33,928 cheaper to buy in-month):
     818 Tequila Blanco 750ml                    Wait for buy-month (Jul, Aug, Oct, Dec)
     Absolut Citron Vodka Liter                  Wait for buy-month (Jan, Apr, Jul, Oct)
     Absolut Lime Vodka Liter                    Wait for buy-month (Jan, Apr, Jul, Oct)
