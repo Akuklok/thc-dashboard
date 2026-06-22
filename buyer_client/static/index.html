@@ -122,6 +122,7 @@
     <select id="dept" onchange="deptChange()"></select>
     <span class="sp"></span>
     <span id="updated" style="font-size:12px;opacity:.9"></span>
+    <a id="inboxLink" href="/admin.html" style="display:none;color:#cfe8dd;font-size:12px;text-decoration:none;margin:0 4px" title="Feedback inbox (admin)">Inbox ✉</a>
     <button onclick="exportAll()" title="Download every tab as one Excel workbook">Export all</button>
     <button onclick="openCustomize()" title="Customize what you see">Customize</button>
     <button id="reportBtn" onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
@@ -265,6 +266,10 @@ function init(){
   applyPrefs();
   loadToday();
   checkReportUpdates();
+  // discreet inbox link: only on a device that has signed into the inbox, or with ?admin
+  if(localStorage.getItem('adminkey') || new URLSearchParams(location.search).has('admin')){
+    const il=$('inboxLink'); if(il) il.style.display='inline';
+  }
 }
 function deptChange(){
   localStorage.setItem('dept',$('dept').value);

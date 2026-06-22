@@ -79,7 +79,8 @@ function card(r){
   return `<div class="card" id="c-${r.id}">
     <span class="st ${st}">${st==='fixed'?'Fixed':'Open'}</span>
     <div class="meta">${esc(r.who||'(no name)')} · ${esc(r.dept||'')} · ${esc(r.page||'')} · ${esc(r.ts||'')}</div>
-    <div class="txt">${esc(r.text||'(screenshot only — see email)')}</div>
+    <div class="txt">${esc(r.text||'(no description)')}</div>
+    ${r.image?`<div style="margin:6px 0"><img src="${r.image}" alt="screenshot" style="max-width:100%;border:1px solid var(--line);border-radius:8px"/></div>`:''}
     <div class="row">
       <textarea id="rep-${r.id}" rows="2" placeholder="Reply to the buyer (they'll see this in the app)">${esc(r.reply||'')}</textarea>
       <button class="fix" onclick="resolve('${r.id}', '${st==='fixed'?'open':'fixed'}')">${st==='fixed'?'Reopen':'Mark fixed'}</button>

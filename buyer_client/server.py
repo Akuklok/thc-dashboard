@@ -134,8 +134,27 @@ def update_index(mutate):
 
 
 def admin_ok(key):
-    real = os.environ.get("ADMIN_KEY", "")
-    return bool(real) and key == real
+    """Inbox auth. Accepts the host ADMIN_KEY env var (if set) OR a key whose
+    sha256 matches feedback/admin_key.sha256 in the repo — so the inbox works
+    without host config and the lead can rotate the key via set_inbox_key.py."""
+    if not key:
+        return False
+    env = os.environ.get("ADMIN_KEY", "")
+    if env and key == env:
+        return True
+    import hashlib
+    try:
+        if gh_token():
+            stored = gh_read("feedback/admin_key.sha256")
+        else:
+            p = os.path.join(HERE, "local_admin_key.sha256")
+            stored = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
+        stored = (stored or "").strip()
+        if stored and hashlib.sha256(key.encode("utf-8")).hexdigest() == stored:
+            return True
+    except Exception:
+        pass
+    return False
 
 
 DEC_PATH = "data/buyer_decisions.json"          # buyer review decisions (applied by the order engine)
@@ -879,10 +898,13 @@ class Handler(BaseHTTPRequestHandler):
             device = str(payload.get("device", "")).strip()
             emailed, detail = send_feedback_email(f"Buyer feedback - {who} ({dept})", html, img_b64)
             rid = re.sub(r"\D", "", str(time.time()))
+            rec = {"id": rid, "ts": ts, "who": who, "dept": dept, "page": page,
+                   "text": text, "device": device, "status": "open", "reply": "", "emailed": emailed}
+            if img:
+                rec["image"] = img        # full data URL, shown in the inbox card
             try:
                 def add(data):
-                    data.append({"id": rid, "ts": ts, "who": who, "dept": dept, "page": page,
-                                 "text": text, "device": device, "status": "open", "reply": "", "emailed": emailed})
+                    data.append(rec)
                 update_index(add)
             except Exception:
                 pass
