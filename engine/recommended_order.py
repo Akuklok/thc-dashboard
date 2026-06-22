@@ -376,12 +376,15 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     else:
         within, deferred = buy, buy.iloc[0:0]
 
-    cols = ["Item", "Category", "Supplier", "OH", "WOS", "Gross Need", "Transfer", "Buy Units",
+    cols = ["Item", "upc", "Category", "Supplier", "OH", "WOS", "Gross Need", "Transfer", "Buy Units",
             "Buy Cases", "cost", "Net Buy $", "GM %", "Discount %", "Deal Terms", "Buy Month", "Review"]
-    ren = {"OH": "Chain OH (TOH)", "cost": "Unit Cost"}
+    ren = {"OH": "Chain OH (TOH)", "cost": "Unit Cost", "upc": "Product Code"}
     def fmt(d):
         d = d[[c for c in cols if c in d.columns]].rename(columns=ren)
         if "Unit Cost" in d: d["Unit Cost"] = d["Unit Cost"].round(2)
+        if "Product Code" in d:   # keep as a clean string (no .0), for lookup/search
+            d["Product Code"] = d["Product Code"].map(
+                lambda x: "" if x is None or (isinstance(x, float) and pd.isna(x)) else re.sub(r"\.0$", "", str(x)).strip())
         return d
     out, defr = fmt(within), fmt(deferred)
     removed_out = fmt(removed) if len(removed) else None
