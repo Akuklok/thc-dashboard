@@ -112,6 +112,14 @@
   .warnbar{margin:0 0 12px;padding:10px 14px;border-radius:8px;font-size:13px;line-height:1.45;font-weight:600}
   .warnbar.warn{background:#fff4d6;border:1px solid #e0a800;color:#7a5b00}
   .warnbar.bad{background:#fdecec;border:1px solid #d9534f;color:#a11}
+  .startcard{position:relative;background:#f0f7f3;border:1px solid #bfe0d0;border-radius:12px;padding:14px 38px 14px 16px;margin:0 0 14px;font-size:14px;line-height:1.5}
+  .startcard .sx{position:absolute;top:6px;right:8px;background:none;border:0;color:#6b756f;font-size:16px;cursor:pointer;padding:4px}
+  .startcard .ss{margin-top:7px;display:flex;gap:9px;align-items:flex-start}
+  .startcard .sn{flex:none;width:20px;height:20px;border-radius:50%;background:var(--green);color:#fff;font-size:12px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;margin-top:1px}
+  .subhint{color:var(--muted);font-size:12.5px;margin:-2px 0 9px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 10px}
+  .chips button{background:#eef4f1;border:1px solid var(--line);color:var(--ink);border-radius:16px;padding:6px 12px;font-size:13px;cursor:pointer}
+  .chips button:hover{background:#e0ece6}
 </style>
 </head>
 <body>
@@ -138,21 +146,36 @@
   <main id="today">
     <div id="prefNote" class="note" style="display:none"></div>
     <div id="freshwarn" class="warnbar" style="display:none"></div>
-    <div class="sec" id="sec-glance"><h3><span id="lbl-glance">This week at a glance</span></h3><div class="cards" id="cards"></div></div>
-    <div class="sec" id="sec-trcards"><h3><span id="lbl-trcards">Transfers — move stock between stores first</span></h3><div class="cards" id="trcards"></div></div>
+    <div id="startCard" class="startcard" style="display:none">
+      <button class="sx" onclick="dismissStart()" title="Hide">✕</button>
+      <b>Your weekly buying assistant — here's what to do:</b>
+      <div class="ss"><span class="sn">1</span><span>Look over <b>this week's recommended order</b> below. Would you have bought differently?</span></div>
+      <div class="ss"><span class="sn">2</span><span>Use <b>Ask the assistant</b> (top) for anything — “what's low at Blaine?”, “is this deal worth it?”</span></div>
+      <div class="ss"><span class="sn">3</span><span>Tell us what's <b>wrong, missing, or confusing</b> — tap <b>Report</b> (top-right). That helps most.</span></div>
+    </div>
+    <div class="sec" id="sec-glance"><h3><span id="lbl-glance">This week at a glance</span></h3><div class="subhint">How big this week's buy is, and what needs your attention.</div><div class="cards" id="cards"></div></div>
+    <div class="sec" id="sec-trcards"><h3><span id="lbl-trcards">Transfers — move stock between stores first</span></h3><div class="subhint">Shift overstock between stores before buying — it's cheaper than ordering more.</div><div class="cards" id="trcards"></div></div>
     <div class="sec" id="sec-buy">
       <h3><span id="lbl-buy">What to buy</span> <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportTbl('buyTbl', $('dept').value+' order')">Export to Excel</button></h3>
+      <div class="subhint">The system's suggested order for the week — leave it, or change/skip anything. <b style="color:#9a6700">Yellow rows need your review.</b></div>
       <input class="find" id="findBuy" placeholder="Find in this list (item, deal, category)..." oninput="filterTable('buyTbl',this.value)"/>
       <div class="wrap"><table id="buyTbl"></table></div>
     </div>
     <div class="sec" id="sec-plan">
       <h3><span id="lbl-plan">Transfer plan</span> <span class="hint">(most urgent first)</span> <button class="exp" onclick="exportTbl('trTbl', $('dept').value+' transfers')">Export to Excel</button></h3>
+      <div class="subhint">Exactly what to move between stores this week, most urgent first.</div>
       <div class="wrap"><table id="trTbl"></table></div>
     </div>
   </main>
 
   <main id="ask" style="display:none">
     <div class="hint">Ask anything about your buying — or tap <b>Screen</b> to share what you're looking at (Cloud Retailer, a portal, Excel) and ask about it.</div>
+    <div id="askChips" class="chips">
+      <button onclick="askQuick('What should I buy first this week, and why?')">What should I buy first?</button>
+      <button onclick="askQuick('What is low or out of stock at Blaine right now?')">What's low at Blaine?</button>
+      <button onclick="askQuick('Walk me through this week\'s recommended order — anything risky or unusual?')">Explain this week's order</button>
+      <button onclick="pickCompare()">Compare a vendor sheet</button>
+    </div>
     <div style="margin:0 0 6px;font-size:13px"><a href="#" onclick="toggleHistory();return false" style="color:var(--green2)">Your history</a> &nbsp;·&nbsp; <a href="#" onclick="newChat();return false" style="color:var(--green2)">New chat</a></div>
     <div id="histList" style="display:none;margin-bottom:8px"></div>
     <div id="chat">
@@ -268,6 +291,7 @@ function init(){
   applyPrefs();
   loadToday();
   checkReportUpdates();
+  if(!localStorage.getItem('ttb_seen_start')){ const sc=$('startCard'); if(sc) sc.style.display='block'; }
   // discreet inbox link: only on a device that has signed into the inbox, or with ?admin
   if(localStorage.getItem('adminkey') || new URLSearchParams(location.search).has('admin')){
     const il=$('inboxLink'); if(il) il.style.display='inline';
@@ -742,6 +766,8 @@ async function ask(){
   }catch(e){t.textContent='(Error reaching the assistant)';}
 }
 function pickCompare(){ $('cmpFile').click(); }
+function dismissStart(){ try{localStorage.setItem('ttb_seen_start','1');}catch(e){} const sc=$('startCard'); if(sc) sc.style.display='none'; }
+function askQuick(t){ show('ask'); $('q').value=t; ask(); }
 async function doCompare(){
   const f=$('cmpFile').files[0]; if(!f) return; $('cmpFile').value='';
   bubble('Comparing "'+f.name+'" to our '+$('dept').value+' catalog…','me');
