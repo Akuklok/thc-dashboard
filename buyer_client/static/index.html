@@ -601,10 +601,10 @@ document.addEventListener('paste',e=>{
 function flaggedRows(){
   const t=TBL['buyTbl']; if(!t)return [];
   const ci=n=>t.cols.indexOf(n);
-  const ri=ci('Review'), ii=ci('Item'), ui=ci('Buy Units'), ni=ci('Net Buy $');
+  const ri=ci('Review'), ii=ci('Item'), ui=ci('Buy Units'), ni=ci('Net Buy $'), pi=ci('Product Code');
   return t.rows.filter(r=>ri>=0 && String(r[ri]||'').trim()).map(r=>({
     item:String(ii>=0?r[ii]:''), reason:String(ri>=0?r[ri]:''),
-    units: ui>=0?r[ui]:'', net: ni>=0?r[ni]:''}));
+    units: ui>=0?r[ui]:'', net: ni>=0?r[ni]:'', code: pi>=0?String(r[pi]||''):''}));
 }
 async function openReview(){
   const dept=$('dept').value, items=flaggedRows();
@@ -617,6 +617,7 @@ async function openReview(){
     const p=prior[it.item.toLowerCase()]||{}, act=p.action||'leave';
     return `<div class="revitem" data-item="${esc(it.item)}">
       <div><b>${esc(it.item)}</b></div>
+      ${it.code?`<div class="hint" style="font-family:ui-monospace,Consolas,monospace;user-select:all" title="Product code — tap to select, then search for it">Code ${esc(it.code)}</div>`:''}
       <div class="hint">${esc(it.reason)} &middot; now ${it.units} units &middot; ${money(+it.net||0)}</div>
       <div class="ra">
         <select id="ra${i}" onchange="revAct(${i})">
