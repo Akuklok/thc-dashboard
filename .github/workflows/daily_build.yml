@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install dependencies
-        run: pip install pandas numpy openpyxl paramiko python-calamine
+        run: pip install pandas numpy openpyxl paramiko python-calamine pyarrow
       - name: Build orders from the SFTP report
         env:
           SFTP_HOST: ${{ secrets.SFTP_HOST }}

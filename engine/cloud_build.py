@@ -78,6 +78,23 @@ def main():
     ro.main()                       # orders + transfer plans (excludes Remove/discontinued items)
     bs.main()                       # per-item snapshots: retail from report, cost/deals from product files
     cp.main()                       # mirror the buyers' product-list tabs (if product files present)
+    # --- best-effort extras (never break the core orders/snapshots build) ---
+    PARQUET = os.path.join(DATA, "thc_history.parquet")
+    try:
+        import build_history as bh, analyze_history as ah
+        bh.FOLDERS = [WORK]; bh.CACHE = PARQUET
+        bh.LOG = os.path.join(WORK, "history_log.txt")
+        bh.main()                   # append today's report to the seasonality history cache
+        ah.CACHE = PARQUET; ah.OUT_FOLDERS = [DATA]
+        ah.main()                   # refresh THC History Insights.xlsx (seasonality)
+    except (Exception, SystemExit) as e:
+        print("Seasonality refresh skipped:", e)
+    try:
+        import batch_deal_eval as bd
+        bd.BUYER_FOLDERS = [WORK]; bd.OUT_FOLDERS = [DATA]
+        bd.main()                   # refresh THC Deal Evaluation.xlsx
+    except (Exception, SystemExit) as e:
+        print("Deal evaluation skipped:", e)
     print("Cloud build complete -> orders + snapshots in", DATA)
 
 
