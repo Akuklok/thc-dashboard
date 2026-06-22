@@ -109,6 +109,9 @@
   .crow{display:block;padding:5px 0;font-size:14px}
   .crow input[type=checkbox]{margin-right:8px;vertical-align:middle}
   .crow input[type=text]{margin-left:8px;padding:3px 7px;border:1px solid var(--line);border-radius:5px;font-size:13px;width:200px;max-width:48%}
+  .warnbar{margin:0 0 12px;padding:10px 14px;border-radius:8px;font-size:13px;line-height:1.45;font-weight:600}
+  .warnbar.warn{background:#fff4d6;border:1px solid #e0a800;color:#7a5b00}
+  .warnbar.bad{background:#fdecec;border:1px solid #d9534f;color:#a11}
 </style>
 </head>
 <body>
@@ -133,6 +136,7 @@
 
   <main id="today">
     <div id="prefNote" class="note" style="display:none"></div>
+    <div id="freshwarn" class="warnbar" style="display:none"></div>
     <div class="sec" id="sec-glance"><h3><span id="lbl-glance">This week at a glance</span></h3><div class="cards" id="cards"></div></div>
     <div class="sec" id="sec-trcards"><h3><span id="lbl-trcards">Transfers — move stock between stores first</span></h3><div class="cards" id="trcards"></div></div>
     <div class="sec" id="sec-buy">
@@ -470,12 +474,34 @@ function drawTable(id){
 }
 function sortBy(id,c){ const t=TBL[id]; if(!t)return; if(t.sortCol===c)t.sortDir*=-1; else {t.sortCol=c;t.sortDir=1;} drawTable(id); }
 function filterTable(id,val){ const t=TBL[id]; if(!t)return; t.filter=val; drawTable(id); }
+function showFreshness(st){
+  const el=$('freshwarn'); if(!el) return;
+  st=st||{};
+  let msg='', level='warn', age=null;
+  if(st.data_date){
+    const dd=new Date(st.data_date+'T00:00:00');
+    if(!isNaN(dd)) age=Math.floor((Date.now()-dd.getTime())/86400000);
+  }
+  if(st.health==='failed'){
+    level='bad';
+    msg="The latest update didn't finish, so these are the last known-good numbers"+(st.data_date?(' (from '+fmtd(st.data_date)+')'):'')+'. They will refresh on the next successful run.';
+  } else if(st.health==='degraded'){
+    level='warn';
+    msg='Some of this week\'s numbers may not have refreshed.'+((st.warnings&&st.warnings.length)?(' '+st.warnings.join(' ')):'');
+  } else if(age!=null && age>=3){
+    level='warn';
+    msg='Heads up - these numbers are from '+fmtd(st.data_date)+' ('+age+' day'+(age===1?'':'s')+' ago). The weekly update may not have run yet.';
+  }
+  if(msg){ el.textContent=msg; el.className='warnbar '+level; el.style.display='block'; }
+  else { el.style.display='none'; }
+}
 async function loadToday(){
   const dept=$('dept').value;
   const d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
   const h=d.headline||{}; const st=d.status||{};
   const n=v=>(v===undefined||v===null)?'-':v.toLocaleString();
   $('updated').textContent = st.built_utc ? ('Updated '+ago(st.built_utc)+(st.data_date?(' · data '+fmtd(st.data_date)):'')) : '';
+  showFreshness(st);
   $('cards').innerHTML = h.items!==undefined ? `
     <div class="card big"><div class="lbl">Net buy from vendors</div><div class="val">${money(h.net_buy)}</div></div>
     <div class="card"><div class="lbl">Cover by transfer</div><div class="val">${money(h.transfer)}</div></div>
