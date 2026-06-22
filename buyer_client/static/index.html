@@ -477,6 +477,10 @@ function filterTable(id,val){ const t=TBL[id]; if(!t)return; t.filter=val; drawT
 function showFreshness(st){
   const el=$('freshwarn'); if(!el) return;
   st=st||{};
+  const _t=new URLSearchParams(location.search).get('test');   // ?test=stale|failed|degraded (preview only, your URL only)
+  if(_t==='stale') st={built_utc:st.built_utc, data_date:new Date(Date.now()-10*86400000).toISOString().slice(0,10)};
+  else if(_t==='failed') st=Object.assign({},st,{health:'failed'});
+  else if(_t==='degraded') st=Object.assign({},st,{health:'degraded',warnings:['(Preview) Some reports did not rebuild this run.']});
   let msg='', level='warn', age=null;
   if(st.data_date){
     const dd=new Date(st.data_date+'T00:00:00');
