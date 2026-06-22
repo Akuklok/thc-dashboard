@@ -160,6 +160,8 @@
       <div id="shotNote" class="hint" style="display:none"></div>
       <div class="row">
         <button onclick="captureScreen()" id="shotBtn" title="Share your screen and ask about it">Screen</button>
+        <button onclick="pickCompare()" id="cmpBtn" title="Upload a vendor sheet / list and compare it to our cost &amp; stock by UPC">Compare file</button>
+        <input id="cmpFile" type="file" accept=".xlsx,.xls,.csv,.txt" style="display:none" onchange="doCompare()"/>
         <input id="q" placeholder="Ask the assistant..." onkeydown="if(event.key==='Enter')ask()"/>
         <button onclick="ask()">Send</button>
       </div>
@@ -738,6 +740,51 @@ async function ask(){
       body:JSON.stringify({dept:$('dept').value,messages:history})});
     const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply}); saveChat();
   }catch(e){t.textContent='(Error reaching the assistant)';}
+}
+function pickCompare(){ $('cmpFile').click(); }
+async function doCompare(){
+  const f=$('cmpFile').files[0]; if(!f) return; $('cmpFile').value='';
+  bubble('Comparing "'+f.name+'" to our '+$('dept').value+' catalog…','me');
+  const t=bubble('Matching by UPC…','ai');
+  const data=await new Promise(res=>{const r=new FileReader();r.onload=()=>res(r.result);r.readAsDataURL(f);});
+  try{
+    const r=await fetch('/api/compare',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({dept:$('dept').value,filename:f.name,data})});
+    const res=await r.json();
+    if(res.error){ t.textContent=res.error; return; }
+    t.remove(); renderCompare(f.name,res);
+  }catch(e){ t.textContent='(Could not compare that file)'; }
+}
+function renderCompare(fname,res){
+  const s=res.summary||{}, rows=res.rows||[];
+  const fmtp=v=>(v==null||v==='')?'':money(+v);
+  const vs=v=>{ if(v==null||v==='')return ''; const n=+v; return `<span style="color:${n>0?'#1f7a1f':'#c00000'}">${n>0?'+':''}${n}%</span>`; };
+  const m=document.createElement('div'); m.className='msg ai'; m.style.maxWidth='100%';
+  let h=`<b>Compared ${esc(fname)}</b><div class="hint">${s.matched||0} of ${s.total||0} we carry · `
+    +`${s.cheaper_than_our_cost||0} below our cost · ${s.low_stock||0} low-stock to restock · `
+    +`${s.overstock||0} we're overstocked on · ${s.not_carried||0} we don't carry</div>`
+    +`<div class="hint" style="margin-top:2px">“vs cost” = their price vs OUR supplier cost (green = cheaper). Retail/Club are our customer prices.</div>`;
+  h+='<div class="wrap" style="max-height:340px;overflow:auto;margin-top:6px"><table style="font-size:12px"><thead><tr>'
+    +['Item','UPC','Carry','Their $','Our cost','vs cost','Retail','Club','OH','WOS','Deal','Flag'].map(x=>`<th>${x}</th>`).join('')
+    +'</tr></thead><tbody>';
+  for(const r of rows.slice(0,250)){
+    const fc=(r.flag&&r.flag.indexOf('LOW')>=0)?'#9a6700':((r.flag&&r.flag.indexOf('OVER')>=0)?'#7a5b00':'#888');
+    h+=`<tr${r.carry==='No'?' style="opacity:.5"':''}><td>${esc(r.their_item||'')}</td>`
+      +`<td style="font-family:monospace">${esc(r.upc||'')}</td><td>${r.carry}</td>`
+      +`<td>${fmtp(r.their_price)}</td><td>${fmtp(r.our_cost)}</td><td>${vs(r.vs_cost_pct)}</td>`
+      +`<td>${fmtp(r.our_retail)}</td><td>${fmtp(r.our_club)}</td>`
+      +`<td>${r.oh==null?'':Math.round(r.oh)}</td><td>${r.wos==null?'':(+r.wos).toFixed(1)}</td>`
+      +`<td>${esc(r.deal||'')}</td><td style="color:${fc}">${esc(r.flag||'')}</td></tr>`;
+  }
+  h+='</tbody></table></div>'+(rows.length>250?`<div class="hint">Showing first 250 of ${rows.length}.</div>`:'');
+  m.innerHTML=h; $('msgs').appendChild(m); $('msgs').scrollTop=1e9;
+  // hand the assistant a compact version so follow-ups work (not shown as a bubble)
+  const top=rows.filter(r=>r.carry==='Yes').slice(0,60).map(r=>
+    `${r.their_item} | our cost ${r.our_cost} | their ${r.their_price} | vs cost ${r.vs_cost_pct==null?'':r.vs_cost_pct+'%'} | OH ${r.oh} | WOS ${r.wos}${r.flag?(' | '+r.flag):''}`).join('\n');
+  history.push({role:'user',content:`[Uploaded "${fname}" compared to our ${$('dept').value} catalog by UPC. Our cost = supplier/buyer cost, not retail/club. `
+    +`${s.matched} of ${s.total} carried, ${s.cheaper_than_our_cost} below our cost, ${s.low_stock} low-stock, ${s.overstock} overstocked, ${s.not_carried} not carried.]\n${top}`});
+  const line=`I compared ${fname} — ${s.matched} of ${s.total} we carry. Ask which to buy, where their price beats our cost, or what we're overstocked on.`;
+  history.push({role:'assistant',content:line}); bubble(line,'ai'); saveChat();
 }
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('/sw.js').catch(()=>{});

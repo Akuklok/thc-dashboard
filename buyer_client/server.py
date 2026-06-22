@@ -887,6 +887,28 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, {"reply": reply})
             except Exception as e:
                 return self._send(200, {"reply": f"(Assistant error: {e})"})
+        if u.path == "/api/compare":
+            try:
+                import base64, io, csv, compare as cmp
+                dept = str(payload.get("dept", "THC")).strip() or "THC"
+                fname = str(payload.get("filename", "upload"))
+                raw = str(payload.get("data", ""))
+                if raw.startswith("data:") and "," in raw:
+                    raw = raw.split(",", 1)[1]
+                fb = base64.b64decode(raw)
+
+                def rows_of(name):
+                    b = get_bytes(name)
+                    return list(csv.DictReader(io.StringIO(b.decode("utf-8", "replace")))) if b else []
+                catalog = rows_of("%s - Full List.csv" % dept)
+                if not catalog and dept == "Beer":           # Beer product tabs live under Spirits
+                    catalog = rows_of("Spirits - Full List.csv")
+                if not catalog:
+                    return self._send(200, {"error": "No product catalog (Full List) found for %s yet." % dept})
+                stock = rows_of("%s Inventory.csv" % dept)
+                return self._send(200, cmp.compare(fb, fname, catalog, stock))
+            except Exception as e:
+                return self._send(200, {"error": "Couldn't compare that file: %s" % e})
         if u.path == "/api/feedback":
             text = str(payload.get("text", "")).strip()
             who = str(payload.get("who", "")).strip() or "(no name)"
