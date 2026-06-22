@@ -2,14 +2,12 @@
   RECOMMENDED BEER ORDER          Monday, Jun 22, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Jun 21 - refreshes automatically)
+  Gross need (all stores) .....  $     23,036
+  Coverable by transfer .......  $      6,653   (29%)
+  NET BUY from vendors ........  $     12,040   <- the order
 
-  Gross need (all stores) .....  $     23,052
-  Coverable by transfer .......  $      6,637   (29%)
-  NET BUY from vendors ........  $     12,038   <- the order
-
-  56 items   |   1,120 units to buy   |   576 units to rebalance
-  Transfers: 80 moves  -  44 urgent (24 stockouts, 20 under 2wk), 36 routine
+  56 items   |   1,117 units to buy   |   581 units to rebalance
+  Transfers: 82 moves  -  44 urgent (27 stockouts, 17 under 2wk), 38 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 6 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -17,25 +15,25 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  High Noon Passionfruit 4pk 12oz can  12u/2cs          $105     12     0   OUT
-   2  Absolut Vodkarita 4pk 12oz can       12u/2cs           $77      9     0   0.6
-   3  High Noon Variety Pack 8pk 12oz can  99u/33cs       $1,685    133    33   1.1
+   2  Absolut Vodkarita 4pk 12oz can       12u/2cs           $77      9     0   0.3
+   3  High Noon Variety Pack 8pk 12oz can  108u/36cs      $1,834    133    26   1.0
    4  Sunny D Variety Pack 8pk 12oz can    21u/7cs          $325     21     0   1.3
-   5  High Noon Tropical Variety Pack 8pk  114u/38cs      $1,943    120     6   1.5
-   6  Bacardi Rum Punch 4pk 12oz can       6u/1cs            $49      5     0   1.5
-   7  High Noon Pineapple 4pk 12oz can     156u/26cs      $1,345    156     0   1.6
-   8  Two Chicks Vodka Variety Pack 8pk 1  12u/4cs          $163     11     0   1.7
-   9  High Noon Lemon 4pk 12oz can         24u/4cs          $207     24     0   1.7
-  10  High Noon Grapefruit 4pk 12oz can    48u/8cs          $405     60    15   1.8
-  11  Two Chicks New Fashioned 4pk 12oz c  18u/3cs          $142     16     0   2.0
-  12  Zing Zang RTD Margarita 4pk 12oz ca  6u/1cs            $58      7     0   2.1
-  13  High Noon Tequila Variety Pack 8pk   12u/4cs          $222     74    62   2.3
-  14  Two Chicks Craft Cocktail Variety P  9u/3cs           $110      8     0   2.3
-  15  Sunny D Vodka Seltzer 4pk 12oz can   24u/4cs          $195     29     4   2.3
-  16  Saint Spritz Hugo 4pk 355ml          12u/2cs          $124     12     0   2.3
-  17  Two Chicks Pear & Elderflower 4pk 1  48u/8cs          $371     54     4   2.7
-  18  Monaco Moscow Mule 4pk 12oz can      5u/5cs            $38      5     0   2.9
-  19  Zing Zang RTD Bloody Mary 4pk 12oz   30u/5cs          $292     35     6   3.1
-  20  Malibu Pina Colada 4pk 12oz can      12u/2cs           $86     11     0   3.3
+   5  High Noon Tropical Variety Pack 8pk  114u/38cs      $1,946    120     6   1.4
+   6  Loyal 9 Lemonade 4pk 12oz can        6u/1cs            $47      5     0   1.4
+   7  High Noon Pineapple 4pk 12oz can     156u/26cs      $1,344    156     0   1.5
+   8  Bacardi Rum Punch 4pk 12oz can       6u/1cs            $49      5     0   1.5
+   9  High Noon Grapefruit 4pk 12oz can    42u/7cs          $355     60    18   1.8
+  10  Two Chicks Vodka Variety Pack 8pk 1  12u/4cs          $163     11     0   1.8
+  11  High Noon Lemon 4pk 12oz can         24u/4cs          $207     24     0   1.8
+  12  Two Chicks New Fashioned 4pk 12oz c  18u/3cs          $142     16     0   1.8
+  13  Zing Zang RTD Margarita 4pk 12oz ca  6u/1cs            $58      7     0   2.2
+  14  Bacardi Mojito 4pk 12oz can          6u/1cs            $49      4     0   2.3
+  15  Saint Spritz Hugo 4pk 355ml          12u/2cs          $124     12     0   2.3
+  16  High Noon Tequila Variety Pack 8pk   12u/4cs          $222     74    62   2.4
+  17  Sunny D Vodka Seltzer 4pk 12oz can   24u/4cs          $195     29     4   2.4
+  18  Two Chicks Craft Cocktail Variety P  9u/3cs           $110      8     0   2.5
+  19  Two Chicks Pear & Elderflower 4pk 1  48u/8cs          $371     54     4   2.7
+  20  Monaco Moscow Mule 4pk 12oz can      5u/5cs            $38      5     0   2.9
   ...and 36 more in the full list.
 
   NEEDS REVIEW (6 items the system isn't fully sure about - check before ordering):
@@ -43,8 +41,8 @@
     High Noon Variety Pack 8pk 12oz can       Off buy-month - confirm timing
     High Noon Tropical Variety Pack 8pk 12oz  Off buy-month - confirm timing
     High Noon Pineapple 4pk 12oz can          Off buy-month - confirm timing
-    High Noon Lemon 4pk 12oz can              Off buy-month - confirm timing
     High Noon Grapefruit 4pk 12oz can         Off buy-month - confirm timing
+    High Noon Lemon 4pk 12oz can              Off buy-month - confirm timing
 
   BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
     Jack & Coke 4pk 12oz can                    (would have bought 6u)
@@ -55,7 +53,7 @@
     The Finnish Long Drink Traditional 6pk 12o  (would have bought 20u)
     The Finnish Long Drink Zero 6pk 12oz can    (would have bought 8u)
 
-  WAIT FOR BUY-MONTH (6 routine deal items out of their buy month - $3,439 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (6 routine deal items out of their buy month - $3,380 cheaper to buy in-month):
     High Noon Black Cherry 4pk 12oz can         Wait for buy-month (May, Aug)
     High Noon Lime 4pk 12oz can                 Wait for buy-month (May, Aug)
     High Noon Mango 4pk 12oz can                Wait for buy-month (May, Aug)
