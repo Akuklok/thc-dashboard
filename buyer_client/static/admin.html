@@ -29,6 +29,8 @@
   .row .fix{white-space:nowrap}
   .hint{color:var(--muted);font-size:13px}
   h2{font-size:15px;color:var(--muted);margin:18px 0 8px;text-transform:uppercase;letter-spacing:.4px}
+  h2.toggle{cursor:pointer;user-select:none}
+  h2.toggle:hover{color:var(--green2)}
 </style>
 </head>
 <body>
@@ -90,7 +92,14 @@ function card(r){
 function render(reps){
   const open=reps.filter(r=>r.status!=='fixed'), done=reps.filter(r=>r.status==='fixed');
   $('open').innerHTML='<h2>Open ('+open.length+')</h2>'+(open.length?open.map(card).join(''):'<div class="hint">Nothing open. Nice.</div>');
-  $('done').innerHTML='<h2>Fixed ('+done.length+')</h2>'+done.map(card).join('');
+  $('done').innerHTML='<h2 class="toggle" onclick="toggleDone()"><span id="caret">▸</span> Fixed ('+done.length+') — click to show</h2>'
+    +'<div id="donewrap" style="display:none">'+done.map(card).join('')+'</div>';
+}
+function toggleDone(){
+  const w=$('donewrap'); if(!w) return;
+  const show=w.style.display==='none';
+  w.style.display=show?'block':'none';
+  $('caret').textContent=show?'▾':'▸';
 }
 async function resolve(id,status){
   const reply=$('rep-'+id)?$('rep-'+id).value.trim():'';
