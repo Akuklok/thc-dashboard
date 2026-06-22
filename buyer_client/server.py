@@ -145,10 +145,12 @@ def admin_ok(key):
     import hashlib
     try:
         if gh_token():
-            stored = gh_read("feedback/admin_key.sha256")
+            stored = gh_read("feedback/admin_key.sha256")        # bytes (or None)
         else:
             p = os.path.join(HERE, "local_admin_key.sha256")
-            stored = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
+            stored = open(p, "rb").read() if os.path.exists(p) else b""
+        if isinstance(stored, bytes):
+            stored = stored.decode("utf-8", "replace")
         stored = (stored or "").strip()
         if stored and hashlib.sha256(key.encode("utf-8")).hexdigest() == stored:
             return True
