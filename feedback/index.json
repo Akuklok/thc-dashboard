@@ -7,9 +7,9 @@
     "page": "Today",
     "text": "test with past reports",
     "device": "dmqihu0loyt0j5w",
-    "status": "fixed",
+    "status": "open",
     "reply": "Reload the app \u2192 Product Lists, and under any tab you'll see \u2039 Prev / Next \u203a with \"Showing 1\u2013400 of 5,405.\" Search and column-sort both work across the entire list.",
     "emailed": true,
-    "resolved_ts": "2026-06-17 21:21"
+    "resolved_ts": "2026-06-22 15:30"
   }
 ]
