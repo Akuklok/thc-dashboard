@@ -34,3 +34,12 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "daily order build $(date -u +%F)"
           git push
+      - name: Flag the failure in the app
+        if: failure()
+        run: |
+          python engine/flag_failure.py
+          git config user.name "buying-bot"
+          git config user.email "bot@toptenliquors.com"
+          git add data/status.json
+          git diff --staged --quiet || git commit -m "build failed - flag stale in app"
+          git push
