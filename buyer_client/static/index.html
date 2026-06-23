@@ -9,20 +9,20 @@
 <link rel="apple-touch-icon" href="/icon-192.png"/>
 <title>Top Ten Buyer</title>
 <style>
-  :root{--green:#0F3A4C;--green2:#15728E;--bg:#f5f6f4;--card:#fff;--line:#e3e6e2;--ink:#1a1f1c;--muted:#6b756f}
+  :root{--green:#0F3A4C;--green2:#15728E;--bg:#f5f6f4;--card:#fff;--line:#e3e6e2;--ink:#1a1f1c;--muted:#6b756f;--accent:#15728E;--accent-ink:#fff}
   *{box-sizing:border-box}
   body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
-  header{background:var(--green);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  header{background:var(--green);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;border-bottom:3px solid var(--accent)}
   header .brand{font-weight:700;font-size:18px;letter-spacing:.2px}
-  header select{padding:6px 10px;border-radius:8px;border:0;font-size:14px}
+  header select{padding:6px 11px;border-radius:8px;border:0;font-size:14px;background:var(--accent);color:var(--accent-ink);font-weight:700}
   header .sp{flex:1}
   header button{background:rgba(255,255,255,.15);color:#fff;border:0;padding:6px 12px;border-radius:8px;cursor:pointer}
   .tabs{display:flex;gap:6px;padding:10px 16px 0}
   .tabs button{background:none;border:0;padding:10px 16px;font-size:15px;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent}
-  .tabs button.on{color:var(--green);border-color:var(--green);font-weight:600}
+  .tabs button.on{color:var(--green);border-color:var(--accent);font-weight:600}
   .subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
   .subtabs button{background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:13px;color:var(--ink)}
-  .subtabs button.on{background:var(--green);color:#fff;border-color:var(--green);font-weight:600}
+  .subtabs button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
   .find{width:100%;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:0 0 8px;display:block}
   th{user-select:none}
   .exp{background:var(--green2);color:#fff;border:0;padding:4px 11px;border-radius:6px;cursor:pointer;font-size:12px;margin-left:8px;font-weight:600;vertical-align:middle}
@@ -288,6 +288,7 @@ function init(){
   $('dept').innerHTML=ALLDEPTS.map(d=>`<option>${d}</option>`).join('');
   const last=localStorage.getItem('dept');
   if(last && ALLDEPTS.includes(last)) $('dept').value=last;
+  setAccent($('dept').value);
   applyPrefs();
   loadToday();
   checkReportUpdates();
@@ -297,8 +298,11 @@ function init(){
     const il=$('inboxLink'); if(il) il.style.display='inline';
   }
 }
+const DEPT_COLORS={THC:['#2E7D32','#fff'],Wine:['#8E2A45','#fff'],Spirits:['#2F86A6','#fff'],Beer:['#E0A52E','#14110a'],Other:['#5A6470','#fff']};
+function setAccent(dept){ const c=DEPT_COLORS[dept]||['#15728E','#fff']; const r=document.documentElement.style; r.setProperty('--accent',c[0]); r.setProperty('--accent-ink',c[1]); }
 function deptChange(){
   localStorage.setItem('dept',$('dept').value);
+  setAccent($('dept').value);
   loadToday();
   if($('lists').style.display!=='none') loadTabs();
   if($('vendors').style.display!=='none') loadVendors();
