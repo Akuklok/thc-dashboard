@@ -1,0 +1,37 @@
+name: Live sales feed
+
+# Pulls near-real-time sales from Cloud Retailer and refreshes data/live_sales.json
+# so the buying app's "Today's sales" tab stays current. No PC needed.
+on:
+  schedule:
+    - cron: "0 * * * *"        # top of every hour (tune the frequency here)
+  workflow_dispatch: {}        # run on demand from the Actions tab
+
+permissions:
+  contents: write              # so it can commit the refreshed data file
+
+concurrency:
+  group: live-sales
+  cancel-in-progress: true     # if a pull is still running when the next hour fires, replace it
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull today's sales from Cloud Retailer
+        env:
+          CR_BASE: ${{ secrets.CR_BASE }}
+          CR_USERNAME: ${{ secrets.CR_USERNAME }}
+          CR_PASSWORD: ${{ secrets.CR_PASSWORD }}
+        run: python engine/cloud_retailer_api.py --summary
+      - name: Publish refreshed live sales
+        run: |
+          git config user.name "buying-bot"
+          git config user.email "bot@toptenliquors.com"
+          git add data/live_sales.json
+          git diff --staged --quiet || git commit -m "live sales $(date -u +%FT%H:%MZ)"
+          git push
