@@ -20,7 +20,7 @@ Outputs per department ("<Dept> Recommended Order.xlsx" + .txt):
 
 ============================  TUNABLE RULES  ============================
 """
-TARGET_WEEKS      = 4       # fallback target if the file has no POS suggestion
+TARGET_WEEKS      = 4       # reorder when 30-day weeks-of-supply dips below this; top up to it
 DONOR_KEEP_WEEKS  = 4       # a store keeps this many weeks for itself before donating the rest
 MIN_TRANSFER      = 4       # don't suggest moving fewer than this many units (avoid trivial transfers)
 WEEKLY_BUDGET     = None    # $ cap on the NET BUY; None = show the full buy
@@ -255,7 +255,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     }
     g = df.groupby("Product Description").agg(**agg).reset_index().rename(columns={"Product Description": "Item"})
     g["case"] = _num(g["case"]).fillna(1).replace(0, 1)
-    g["wk_vel"] = 0.6 * g["u30"] * 7 / 30 + 0.4 * g["u90"] * 7 / 90
+    g["wk_vel"] = g["u30"] * 7 / 30                      # 30-day weekly velocity (matches the reorder rule)
     g["WOS"] = np.where(g["wk_vel"] > 0, g["OH"] / g["wk_vel"], np.nan).round(1)
     g = g.merge(tsum, on="Item", how="left")
     for c in ("Gross Need", "Transfer", "Net Buy"):
@@ -266,6 +266,12 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     g["Buy Cases"]  = (g["Net Buy"] / g["case"]).round(0)
     g["Buy Units"]  = (g["Buy Cases"] * g["case"]).astype(int)
     g["Net Buy $"]  = (g["Buy Units"] * g["cost"]).round(0)
+
+    # Only BUY when the SKU is below the reorder threshold chain-wide — matches how the
+    # buyer reads the 30-day weeks-of-supply column ("order when it dips below 4 weeks").
+    # At TARGET_WEEKS+ weeks we redistribute via TRANSFER instead of buying new stock.
+    enough = g["WOS"] >= TARGET_WEEKS
+    g.loc[enough, ["Net Buy", "Buy Cases", "Buy Units", "Net Buy $"]] = 0
 
     upc = g["upc"].map(dbb.norm)
     g["retail"] = upc.map(retail)
@@ -499,12 +505,13 @@ def main():
     for c in ("Avg Cost", "Supplier Cost", "Purchase Price"):
         if have(c):
             df["cost"] = np.where(df["cost"] > 0, df["cost"], df[c])
-    df["vel"] = 0.6 * df["30D"] * 7 / 30 + 0.4 * df["90D"] * 7 / 90
-    if have("PM"):
-        df["need"] = df["PM"].clip(lower=0); need_basis = "Cloud Retailer per-store reorder need (PM)"
-    else:
-        df["need"] = (df["vel"] * TARGET_WEEKS - df["OH"]).clip(lower=0)
-        need_basis = f"per-store top-up to {TARGET_WEEKS} weeks (no POS suggestion in file)"
+    # Reorder rule the buyer actually uses (Abby, 2026-06): 30-day weeks-of-supply —
+    # reorder when it dips below TARGET_WEEKS, then top back up to TARGET_WEEKS. (Was:
+    # Cloud Retailer's PM column + a 30/90 velocity blend, which ran way high or way low
+    # vs how she buys.)  need>0 only when 30-day WOS < TARGET_WEEKS.
+    df["vel"] = df["30D"] * 7 / 30                       # 30-day weekly velocity
+    df["need"] = (df["vel"] * TARGET_WEEKS - df["OH"]).clip(lower=0)
+    need_basis = f"30-day weeks-of-supply: reorder under {TARGET_WEEKS} wks, top up to {TARGET_WEEKS}"
 
     retail = retail_price_map(xl)
     buyers, _ = dbb.buyer_lookup()
