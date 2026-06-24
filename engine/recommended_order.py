@@ -253,6 +253,8 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         "cost": ("cost", "median"),
         "case": ("Case Qty/Reorder Multiple", "max") if have("Case Qty/Reorder Multiple") else ("OH", "max"),
     }
+    if "has_par" in df.columns:
+        agg["has_par"] = ("has_par", "max")
     g = df.groupby("Product Description").agg(**agg).reset_index().rename(columns={"Product Description": "Item"})
     g["case"] = _num(g["case"]).fillna(1).replace(0, 1)
     g["wk_vel"] = g["u30"] * 7 / 30                      # 30-day weekly velocity (matches the reorder rule)
@@ -270,7 +272,8 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     # Only BUY when the SKU is below the reorder threshold chain-wide — matches how the
     # buyer reads the 30-day weeks-of-supply column ("order when it dips below 4 weeks").
     # At TARGET_WEEKS+ weeks we redistribute via TRANSFER instead of buying new stock.
-    enough = g["WOS"] >= TARGET_WEEKS
+    hp = g["has_par"].astype(bool) if "has_par" in g.columns else False
+    enough = (g["WOS"] >= TARGET_WEEKS) & (~hp)     # par SKUs keep their agreed floor
     g.loc[enough, ["Net Buy", "Buy Cases", "Buy Units", "Net Buy $"]] = 0
 
     upc = g["upc"].map(dbb.norm)
@@ -482,6 +485,27 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
             "Transfer $": xfer_total, "Net Buy $": net_total}
 
 
+def load_par(folders=None):
+    """Agreed vendor par (CASES to keep on hand) per (UPC, store), from par_quantities.csv.
+    Returns {(norm_upc, store_lower): cases}; empty if no file. The order never recommends a
+    (SKU, store) below this floor."""
+    out = {}
+    for folder in (folders or OUT_FOLDERS):
+        p = os.path.join(folder, "par_quantities.csv")
+        if os.path.exists(p):
+            try:
+                d = pd.read_csv(p, dtype={"upc": str})
+                for _, r in d.iterrows():
+                    u = dbb.norm(r.get("upc")); s = str(r.get("store", "")).strip().lower()
+                    c = _num(r.get("cases"))
+                    if u and s and c > 0:
+                        out[(u, s)] = c
+                return out
+            except Exception:
+                pass
+    return out
+
+
 def main():
     today = datetime.date.today()
     path = find_inventory_file()
@@ -512,6 +536,19 @@ def main():
     df["vel"] = df["30D"] * 7 / 30                       # 30-day weekly velocity
     df["need"] = (df["vel"] * TARGET_WEEKS - df["OH"]).clip(lower=0)
     need_basis = f"30-day weeks-of-supply: reorder under {TARGET_WEEKS} wks, top up to {TARGET_WEEKS}"
+
+    # Agreed vendor par (e.g. Gigli): never recommend a (SKU, store) below the agreed minimum
+    # on hand. Par is in CASES -> convert to units via the per-SKU case pack.
+    par = load_par()
+    df["has_par"] = False
+    if par and have("Case Qty/Reorder Multiple"):
+        keys = list(zip(df["Product Code"].map(dbb.norm),
+                        df["Location Name"].astype(str).str.strip().str.lower()))
+        cases = pd.Series([par.get(k, 0) for k in keys], index=df.index)
+        df["has_par"] = cases > 0
+        par_units = cases * df["Case Qty/Reorder Multiple"].replace(0, 1)
+        df["need"] = np.maximum(df["need"], (par_units - df["OH"]).clip(lower=0))
+        print(f"Vendor par applied: {int(df['has_par'].sum())} (SKU x store) floors set.")
 
     retail = retail_price_map(xl)
     buyers, _ = dbb.buyer_lookup()
