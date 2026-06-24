@@ -358,7 +358,8 @@ function renderVendorOrder(d){
     if(st.length){
       const chips=st.map(p=>`<span style="display:inline-block;margin:1px 7px 1px 0;color:${p[1]<=0?'#c00000':(p[1]<10?'#9a6700':'#444')}">${esc(p[0])} <b>${p[1]}</b></span>`).join('');
       h+=`<td><a href="#" onclick="const e=this.parentNode.querySelector('.bsd');e.style.display=e.style.display==='block'?'none':'block';return false" style="color:var(--green2);white-space:nowrap">${st.length} stores ▾</a><div class="bsd" style="display:none;font-size:11px;margin-top:3px;max-width:360px;line-height:1.7">${chips}</div></td>`;
-    } else { h+='<td class="hint">—</td>'; }
+    } else if((d.oos||[])[i]){ h+='<td style="color:#c00000;font-size:11px;white-space:nowrap">out at all stores</td>'; }
+    else { h+='<td class="hint">—</td>'; }
     h+='</tr>';
   });
   $('vendTbl').innerHTML=h+'</tbody>';

@@ -811,7 +811,9 @@ class Handler(BaseHTTPRequestHandler):
                 b = get_bytes("%s Inventory.csv" % dept)
                 if b:
                     for row in _csv.DictReader(_io.StringIO(b.decode("utf-8", "replace"))):
-                        inv[str(row.get("Item", "")).strip().lower()] = row.get("By Store OH", "")
+                        try: coh = int(float(row.get("Chain OH") or 0))
+                        except Exception: coh = 0
+                        inv[str(row.get("Item", "")).strip().lower()] = (row.get("By Store OH", ""), coh)
             except Exception:
                 pass
             def _bs(s):
@@ -822,9 +824,14 @@ class Handler(BaseHTTPRequestHandler):
                         try: out.append([st.strip(), int(float(oh))])
                         except Exception: pass
                 return out
-            by_store = [_bs(inv.get(str(r.get("Item", "")).strip().lower(), "")) for _, r in x.iterrows()]
+            by_store, oos = [], []
+            for _, r in x.iterrows():
+                bsv, coh = inv.get(str(r.get("Item", "")).strip().lower(), ("", 0))
+                lst = _bs(bsv)
+                by_store.append(lst)
+                oos.append((not lst) and coh <= 0)
             return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt,
-                                    "total": total, "units": units, "by_store": by_store})
+                                    "total": total, "units": units, "by_store": by_store, "oos": oos})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
