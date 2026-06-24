@@ -341,11 +341,27 @@ async function loadVendorOrder(){
   try{
     const d=await (await fetch('/api/vendororder?dept='+encodeURIComponent(dept)+'&vendor='+encodeURIComponent(vendor))).json();
     vendText=d.text||'';
-    mountTable('vendTbl', d.cols, d.rows);
+    renderVendorOrder(d);
     $('vtot').textContent = d.units!==undefined ? `${d.units.toLocaleString()} units · ${money(d.total)}` : '';
     const has=(d.rows&&d.rows.length)?'inline-block':'none';
     $('vcopy').style.display=has; $('vxlsx').style.display=has;
   }catch(e){ $('vendTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
+}
+function renderVendorOrder(d){
+  const cols=d.cols||[], rows=d.rows||[], bs=d.by_store||[];
+  TBL['vendTbl']={cols,rows,sortCol:null,sortDir:1,filter:'',reviewOnly:false};   // for export
+  if(!rows.length){ $('vendTbl').innerHTML='<tr><td>Nothing to order.</td></tr>'; return; }
+  let h='<thead><tr>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'<th>On-hand by store</th></tr></thead><tbody>';
+  rows.forEach((r,i)=>{
+    h+='<tr>'+r.map((v,j)=>{ let s=(v==null)?'':v; if(cols[j]==='Net Buy $'&&s!=='')s=money(+s); return `<td>${esc(s)}</td>`; }).join('');
+    const st=bs[i]||[];
+    if(st.length){
+      const chips=st.map(p=>`<span style="display:inline-block;margin:1px 7px 1px 0;color:${p[1]<=0?'#c00000':(p[1]<10?'#9a6700':'#444')}">${esc(p[0])} <b>${p[1]}</b></span>`).join('');
+      h+=`<td><a href="#" onclick="const e=this.parentNode.querySelector('.bsd');e.style.display=e.style.display==='block'?'none':'block';return false" style="color:var(--green2);white-space:nowrap">${st.length} stores ▾</a><div class="bsd" style="display:none;font-size:11px;margin-top:3px;max-width:360px;line-height:1.7">${chips}</div></td>`;
+    } else { h+='<td class="hint">—</td>'; }
+    h+='</tr>';
+  });
+  $('vendTbl').innerHTML=h+'</tbody>';
 }
 function copyVendor(){
   navigator.clipboard.writeText(vendText).then(()=>{ const b=$('vcopy'),t=b.textContent; b.textContent='Copied!'; setTimeout(()=>b.textContent=t,1500); });

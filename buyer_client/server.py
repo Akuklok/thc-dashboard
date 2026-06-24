@@ -795,7 +795,7 @@ class Handler(BaseHTTPRequestHandler):
             dept = qs.get("dept", ["THC"])[0]; vendor = qs.get("vendor", [""])[0]
             _, buys, _, _, _ = read_order(dept)
             if buys is None or "Supplier" not in buys.columns:
-                return self._send(200, {"cols": [], "rows": [], "text": "", "total": 0, "units": 0})
+                return self._send(200, {"cols": [], "rows": [], "text": "", "total": 0, "units": 0, "by_store": []})
             x = buys[buys["Supplier"].astype(str) == vendor]
             cols = [c for c in ["Item", "Buy Units", "Buy Cases", "Net Buy $", "Deal Terms", "Buy Month", "Review"] if c in x.columns]
             disp = x[cols].fillna("").astype(object)
@@ -804,7 +804,27 @@ class Handler(BaseHTTPRequestHandler):
             txt = "Item\tUnits\tCases\n" + "\n".join(
                 f"{r.get('Item','')}\t{int(pd.to_numeric(r.get('Buy Units'),errors='coerce') or 0)}\t{int(pd.to_numeric(r.get('Buy Cases'),errors='coerce') or 0)}"
                 for _, r in x.iterrows())
-            return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt, "total": total, "units": units})
+            # per-store on-hand for each item (stores order their own, so each needs its number)
+            inv = {}
+            try:
+                import csv as _csv, io as _io
+                b = get_bytes("%s Inventory.csv" % dept)
+                if b:
+                    for row in _csv.DictReader(_io.StringIO(b.decode("utf-8", "replace"))):
+                        inv[str(row.get("Item", "")).strip().lower()] = row.get("By Store OH", "")
+            except Exception:
+                pass
+            def _bs(s):
+                out = []
+                for part in str(s or "").split(";"):
+                    if ":" in part:
+                        st, oh = part.rsplit(":", 1)
+                        try: out.append([st.strip(), int(float(oh))])
+                        except Exception: pass
+                return out
+            by_store = [_bs(inv.get(str(r.get("Item", "")).strip().lower(), "")) for _, r in x.iterrows()]
+            return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt,
+                                    "total": total, "units": units, "by_store": by_store})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
