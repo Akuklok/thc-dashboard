@@ -2,61 +2,77 @@
   RECOMMENDED BEER ORDER          Wednesday, Jun 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     23,015
-  Coverable by transfer .......  $      6,449   (28%)
-  NET BUY from vendors ........  $     11,981   <- the order
+  Gross need (all stores) .....  $    563,676
+  Coverable by transfer .......  $    205,145   (36%)
+  NET BUY from vendors ........  $    319,116   <- the order
 
-  56 items   |   1,111 units to buy   |   576 units to rebalance
-  Transfers: 83 moves  -  48 urgent (30 stockouts, 18 under 2wk), 35 routine
+  863 items   |   30,146 units to buy   |   18,765 units to rebalance
+  Transfers: 1,786 moves  -  1581 urgent (892 stockouts, 689 under 2wk), 205 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 6 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 71 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  High Noon Passionfruit 4pk 12oz can  12u/2cs          $105     12     0   OUT
-   2  Absolut Vodkarita 4pk 12oz can       12u/2cs           $77      9     0   OUT
-   3  Sunny D Variety Pack 8pk 12oz can    21u/7cs          $324     21     0   0.5
-   4  High Noon Variety Pack 8pk 12oz can  108u/36cs      $1,832    133    26   0.8
-   5  High Noon Pineapple 4pk 12oz can     156u/26cs      $1,341    156     0   1.3
-   6  High Noon Tropical Variety Pack 8pk  114u/38cs      $1,945    120     6   1.5
-   7  Bacardi Rum Punch 4pk 12oz can       6u/1cs            $49      5     0   1.5
-   8  High Noon Grapefruit 4pk 12oz can    36u/6cs          $304     60    22   1.6
-   9  High Noon Lemon 4pk 12oz can         24u/4cs          $205     24     0   1.7
-  10  Two Chicks New Fashioned 4pk 12oz c  18u/3cs          $142     16     0   1.7
-  11  Two Chicks Vodka Variety Pack 8pk 1  12u/4cs          $163     11     0   1.9
-  12  Bacardi Mojito 4pk 12oz can          6u/1cs            $49      4     0   2.1
-  13  Zing Zang RTD Margarita 4pk 12oz ca  6u/1cs            $58      7     0   2.2
-  14  Sunny D Vodka Seltzer 4pk 12oz can   24u/4cs          $195     29     4   2.3
-  15  High Noon Tequila Variety Pack 8pk   12u/4cs          $223     74    62   2.4
-  16  Loyal 9 Lemonade 4pk 12oz can        6u/1cs            $47      5     0   2.4
-  17  Two Chicks Pear & Elderflower 4pk 1  48u/8cs          $371     54     4   2.5
-  18  Two Chicks Craft Cocktail Variety P  9u/3cs           $110      8     0   2.8
-  19  Monaco Moscow Mule 4pk 12oz can      5u/5cs            $38      5     0   2.9
-  20  Malibu Pina Colada 4pk 12oz can      12u/2cs           $86     11     0   3.0
-  ...and 36 more in the full list.
+   1  Summit Winter 12pk 12oz can          136u/136cs     $1,804    144     8   OUT
+   2  Wooden Hill Mango Strut 4pk 16oz ca  24u/4cs          $182     27     0   OUT
+   3  Modelo Especial                      21u/21cs           $4     21     0   OUT
+   4  Founders All Day IPA Variety 12pk 1  64u/32cs         $912     68     5   OUT
+   5  Beatbox Sweet Heat Cinnamon 500ml    36u/3cs            $0     31     0   OUT
+   6  Schell's Peanut Butter Porter 12pk   14u/14cs         $213     14     0   OUT
+   7  Hop & Barrel Rotating 6pk 12oz can   12u/12cs          $95     12     0   OUT
+   8  Gray Duck Spiked Nitro Cold Brew 4p  12u/3cs          $129     12     0   OUT
+   9  Fulton Brewing Chill City 6pk 12oz   11u/11cs          $58     11     0   OUT
+  10  Miller High Life 24pk 16oz can       82u/82cs       $1,249     82     0   OUT
+  11  Bent Paddle Light Lager  12pk 12oz   410u/410cs     $4,796    410     0   OUT
+  12  Toppling Goliath Lemon Meringue 4pk  6u/1cs             $0      8     0   OUT
+  13  Samuel Adams Seasonal 6pk 12oz btl   16u/4cs          $123     20     4   OUT
+  14  Hamm's 6pk 12oz can                  15u/15cs          $36     15     0   OUT
+  15  Tattersall Key Lime Gin & Tonic 4pk  6u/1cs            $68      7     0   OUT
+  16  Sierra Nevada Hazy Little Thing 12o  7u/7cs             $7      7     0   OUT
+  17  Summit Sampler Pack 12pk 12oz can    388u/194cs     $5,122    393     4   OUT
+  18  The Finnish Long Drink Zero Sugar C  12u/1cs            $0     13     0   OUT
+  19  Summit Saga Variety 12pk 12oz can    564u/282cs     $7,445    564     0   OUT
+  20  Dual Citizen Elbow Bender 4pk 16oz   6u/1cs            $52      7     0   OUT
+  ...and 843 more in the full list.
 
-  NEEDS REVIEW (6 items the system isn't fully sure about - check before ordering):
-    High Noon Passionfruit 4pk 12oz can       Off buy-month - confirm timing
-    High Noon Variety Pack 8pk 12oz can       Off buy-month - confirm timing
-    High Noon Pineapple 4pk 12oz can          Off buy-month - confirm timing
-    High Noon Tropical Variety Pack 8pk 12oz  Off buy-month - confirm timing
-    High Noon Grapefruit 4pk 12oz can         Off buy-month - confirm timing
-    High Noon Lemon 4pk 12oz can              Off buy-month - confirm timing
+  NEEDS REVIEW (71 items the system isn't fully sure about - check before ordering):
+    Beatbox Sweet Heat Cinnamon 500ml         No cost data - verify price; Margin over 95% - check retail
+    Bent Paddle Light Lager  12pk 12oz can    Large buy ($4,796) - confirm
+    Toppling Goliath Lemon Meringue 4pk 16oz  No cost data - verify price; Margin over 95% - check retail
+    Summit Sampler Pack 12pk 12oz can         Large buy ($5,122) - confirm
+    The Finnish Long Drink Zero Sugar Citrus  No cost data - verify price; Margin over 95% - check retail
+    Summit Saga Variety 12pk 12oz can         Large buy ($7,445) - confirm
+    Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
+    Twisted Tea Raspberry                     No cost data - verify price; Margin over 95% - check retail
+    2 Towns POG Cosmic Crisp 6pk 12oz can     Margin looks off - check retail/cost
+    Pipeworks 
+Ninja Vs unicorn vs haze 4pk   No cost data - verify price; Margin over 95% - check retail
+    Tucher Helles Lager                       No cost data - verify price; Margin over 95% - check retail
+    Earth Rider 6pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
+    *STELLA ARTOIS                            No cost data - verify price; Margin over 95% - check retail
+    Pacifico 24oz btl                         No cost data - verify price; Margin over 95% - check retail
+    Mystery Beer 24pk                         Large buy ($8,352) - confirm
+    ...and 56 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
-    Jack & Coke 4pk 12oz can                    (would have bought 6u)
-    Jack & Coke Zero 4pk 12oz can               (would have bought 12u)
-    Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 5u)
-    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 16u)
-    The Finnish Long Drink Strong 6pk 12oz can  (would have bought 12u)
-    The Finnish Long Drink Traditional 6pk 12o  (would have bought 20u)
-    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 8u)
+  BEING REMOVED - DO NOT REORDER (12 discontinued items still selling/low - run down stock):
+    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 60u)
+    Athletic Brew Run Wild IPA 6pk 12oz can     (would have bought 28u)
+    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 80u)
+    Heineken 0.0 N/A 6pk 12oz btl               (would have bought 20u)
+    Heineken 0.0 NA 12pk 12oz can               (would have bought 36u)
+    High Noon End Zone Pack 8pk 12oz can        (would have bought 250u)
+    High Noon Pool Pack 8pk 12oz can            (would have bought 3u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 144u)
+    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 20u)
+    The Finnish Long Drink Strong 6pk 12oz can  (would have bought 8u)
+    The Finnish Long Drink Traditional 6pk 12o  (would have bought 32u)
+    Two Chicks Apple Gimlet 4pk 12oz can        (would have bought 6u)
 
-  WAIT FOR BUY-MONTH (6 routine deal items out of their buy month - $3,635 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (6 routine deal items out of their buy month - $5,199 cheaper to buy in-month):
+    High Noon Beach Variety 12pk 12oz           Wait for buy-month (May, Aug)
     High Noon Black Cherry 4pk 12oz can         Wait for buy-month (May, Aug)
     High Noon Lime 4pk 12oz can                 Wait for buy-month (May, Aug)
     High Noon Mango 4pk 12oz can                Wait for buy-month (May, Aug)
     High Noon Peach 4pk 12oz can                Wait for buy-month (May, Aug)
     High Noon Variety Pack 12pk 12oz can        Wait for buy-month (May, Aug)
-    High Noon Watermelon 4pk 12oz can           Wait for buy-month (May, Aug)

@@ -2,59 +2,46 @@
   RECOMMENDED OTHER ORDER          Wednesday, Jun 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     46,509
-  Coverable by transfer .......  $     22,242   (48%)
-  NET BUY from vendors ........  $     21,730   <- the order
+  Gross need (all stores) .....  $     28,495
+  Coverable by transfer .......  $     14,107   (50%)
+  NET BUY from vendors ........  $     10,414   <- the order
 
-  253 items   |   5,600 units to buy   |   8,622 units to rebalance
-  Transfers: 792 moves  -  182 urgent (99 stockouts, 83 under 2wk), 610 routine
+  54 items   |   5,876 units to buy   |   3,544 units to rebalance
+  Transfers: 312 moves  -  259 urgent (108 stockouts, 151 under 2wk), 53 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 3 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
-   2  Sprite Diet Zero 2L                  160u/20cs        $513    163     5   1.7
-   3  Gatorade Gatorlyte Mixed Berry 20oz  12u/1cs           $22     28    21   1.8
-   4  Ocean Spray Cranberry Juice          12u/1cs           $35      8     0   1.8
-   5  Minute Maid Lemonade 2L              144u/18cs        $462    170    29   2.2
-   6  Gosling's Ginger Beer 6pk 12oz can   20u/5cs           $86     27     8   2.5
-   7  Polar Club Soda Liter                72u/6cs           $59    111    43   2.8
-   8  Sprite 2L                            128u/16cs        $411    174    47   2.8
-   9  Coke Diet 2L                         152u/19cs        $489    196    43   3.2
-  10  Master of Mixes Simple Syrup 375ml   48u/4cs          $128     88    36   3.4
-  11  16 oz Red Party Cups, 50 pack by Tr  34u/34cs         $171     34     0   3.4
-  12  ReaLime 5oz                          48u/2cs           $48     91    46   3.6
-  13  Fresca 2L                            80u/10cs         $257    125    46   4.0
-  14  Cock n Bull Ginger Beer 4pk 12oz bt  24u/4cs          $100     44    22   4.1
-  15  Gatorade Gatorlyte Orange 20oz       12u/1cs           $22     34    27   4.1
-  16  Tres Agaves Margarita Mix Liter      12u/1cs           $70     74    61   4.2
-  17  Roses Grenadine 12oz                 18u/3cs           $67     34    17   4.2
-  18  Jose Cuervo Margarita Mix 1.75L      18u/3cs           $91     34    16   4.3
-  19  Barritt's Ginger Beer 6pk 12oz can   8u/2cs            $48     10     0   4.3
-  20  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   4.4
-  ...and 233 more in the full list.
+   1  Non-Refundable Transaction           1710u/1710cs       $0   1710     0   OUT
+   2  Zoa Tropical Punch 12oz can          12u/1cs           $18     10     0   OUT
+   3  Swisher Sweets Cigarillo             14u/14cs           $0     14     0   OUT
+   4  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   5  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+   6  Velo Pouch 9mg Spearmint             20u/4cs          $168     22     0   OUT
+   7  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
+   8  Dole Pineapple Juice 6pk 6oz can     8u/1cs            $24      6     0   OUT
+   9  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
+  10  Charm Social Tonic Lemon Ginger 12o  14u/14cs          $34     14     0   OUT
+  11  Master of Mixes Pina Colada Liter    12u/1cs           $44      7     0   OUT
+  12  Dole Lemonade 2L                     8u/1cs            $16      7     0   OUT
+  13  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
+  14  Bag Fee                              125u/125cs         $0    125     0   OUT
+  15  Fre Pouch 6mg Mint                   5u/1cs            $40      7     0   OUT
+  16  Tip Item                             205u/205cs         $0    205     0   OUT
+  17  MN Ice Big Bag                       1613u/1613cs   $5,342   1678    65   0.5
+  18  Middletons Black & Mild Single       50u/2cs           $92     42     0   0.6
+  19  Alani Nu Pink Slush 12oz can         12u/1cs           $21     15     0   0.7
+  20  Master of Mixes Strawberry Daq/Marg  12u/1cs           $44     10     0   0.7
+  ...and 34 more in the full list.
 
-  NEEDS REVIEW (3 items the system isn't fully sure about - check before ordering):
-    Spooky Sriracha 32oz                      Margin looks off - check retail/cost
-    Top Ten Branded Wine Tote Bags            No cost data - verify price; Margin looks off - check retail/cost
-    7up 20oz                                  Margin looks off - check retail/cost
-
-  BEING REMOVED - DO NOT REORDER (17 discontinued items still selling/low - run down stock):
-    Coco Lopez Cream of Coconut 15oz            (would have bought 12u)
-    Codigo Organic Agave Nectar 12oz            (would have bought 12u)
-    Dashfire Mole Bitters 50ml                  (would have bought 6u)
-    Fever Tree Bloody Mary Mix 750ml            (would have bought 6u)
-    Fever Tree Classic Margarita Mix 750ml      (would have bought 12u)
-    Fever Tree Club Soda 8pk 5oz can            (would have bought 15u)
-    Fever Tree Elderflower Tonic 4pk 6.7oz btl  (would have bought 6u)
-    Fever Tree Ginger Ale 4pk 6.7oz btl         (would have bought 6u)
-    Fever Tree Light Margarita Mix 750ml        (would have bought 24u)
-    Fever Tree Light Tonic Water 4pk 6.7oz btl  (would have bought 6u)
-    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 3u)
-    Fever Tree Sparkling Lime & Yuzu 4pk 6.7oz  (would have bought 18u)
-    Fever Tree Sparkling Sicilian Lemonade 4pk  (would have bought 12u)
-    Fever Tree Tonic Water 8pk 5oz can          (would have bought 12u)
-    Lovejoy's Thai Basil Bloody Mary Mix 25oz   (would have bought 12u)
-    ...and 2 more (see Being Removed tab).
+  NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
+    Swisher Sweets Cigarillo                  No cost data - verify price; Margin over 95% - check retail
+    Wedding Delivery Fee                      No cost data - verify price; Margin over 95% - check retail
+    Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
+    Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
+    MN Ice Big Bag                            Large buy ($5,342) - confirm
+    Middletons Black & Mild Single            Margin looks off - check retail/cost

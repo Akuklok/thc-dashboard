@@ -2,81 +2,79 @@
   RECOMMENDED SPIRITS ORDER          Wednesday, Jun 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    580,605
-  Coverable by transfer .......  $    203,552   (35%)
-  NET BUY from vendors ........  $    223,657   <- the order
+  Gross need (all stores) .....  $    336,133
+  Coverable by transfer .......  $    122,226   (36%)
+  NET BUY from vendors ........  $    105,713   <- the order
 
-  502 items   |   31,090 units to buy   |   44,538 units to rebalance
-  Transfers: 2,017 moves  -  440 urgent (99 stockouts, 341 under 2wk), 1,577 routine
+  123 items   |   6,499 units to buy   |   19,897 units to rebalance
+  Transfers: 1,041 moves  -  864 urgent (346 stockouts, 518 under 2wk), 177 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 7 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  New Amsterdam Gin 1.75L              36u/6cs          $541     34     0   0.4
-   2  Lunazul Reposado Tequila Liter       144u/12cs      $2,205    171    30   1.2
-   3  New Amsterdam Mango 750ml            12u/1cs          $108      7     0   1.2
-   4  Bacardi Superior Light Rum 1.75L     336u/56cs      $3,315    384    48   1.3
-   5  New Amsterdam Peach Vodka 750ml      12u/1cs          $107      9     0   1.3
-   6  Chi-Chi's Skinny Margarita 1.75L     6u/1cs            $54      6     0   1.3
-   7  Lalo Tequila Blanco 750ml            12u/2cs          $387     14     0   1.4
-   8  Phillips Vodka 1.75L                 168u/28cs      $1,765    181    11   1.6
-   9  Svedka Vodka Traveler                156u/13cs      $1,242    165     7   1.6
-  10  Spiritless Kentucky 74 700ml         6u/1cs           $144      6     0   1.6
-  11  Windsor Canadian 1.75L               300u/50cs      $9,477    333    34   1.6
-  12  Captain Morgan Spiced Rum 1.75L      648u/108cs    $13,112    717    72   1.7
-  13  Bacardi Limon Rum 1.75L              192u/32cs      $3,294    217    24   1.7
-  14  Evan Williams Bourbon 1.75L          126u/21cs      $2,192    159    33   1.8
-  15  Corralejo Reposado Tequila 750ml     6u/1cs           $130      5     0   1.8
-  16  Casamigos Blanco 1.75L               3u/1cs           $216      2     0   1.8
-  17  New Amsterdam Pink Whitney Buckets   6u/1cs            $80      5     0   1.8
-  18  Lunazul Blanco Tequila Liter         84u/7cs        $1,286     97    13   1.9
-  19  Karkov Vodka 1.75L                   324u/54cs      $2,829    429   108   2.0
-  20  Ketel One Vodka 1.75L                168u/28cs      $4,350    218    53   2.0
-  ...and 482 more in the full list.
+   1  High Noon Transfusion 6pk 12oz can   28u/7cs          $315     28     0   OUT
+   2  Jameson Select Res Black Barre Lite  6u/1cs           $172      7     0   OUT
+   3  Woody Creek Mary's Select Gin 750ml  6u/1cs           $120      6     0   OUT
+   4  Brinley Shipwreck Vanilla Rum 750ml  6u/1cs           $111      5     0   OUT
+   5  Woody Creek Vodka 750ml              6u/1cs           $108      6     0   OUT
+   6  Casa Noble Anejo Tequila 750ml       6u/1cs           $236      4     0   OUT
+   7  Seagrams 7 Blended Traveler          12u/1cs          $128      7     0   OUT
+   8  Lazzaroni Limoncello 750ml           6u/1cs           $110      4     0   OUT
+   9  Effen Cucumber Vodka 750ml           6u/1cs            $86      4     0   OUT
+  10  Sheep Dog Peanut Butter Whiskey 750  12u/1cs          $153      8     0   OUT
+  11  Rumple Minze 375ml                   12u/1cs           $92      7     0   OUT
+  12  99 Apples 100ml                      48u/1cs           $71     35     0   OUT
+  13  Buzzballz Grape Gone Wild Vikings 2  7u/7cs           $139      7     0   OUT
+  14  Zing Zang RTD Bloody Mary 1.75L      6u/1cs            $81      5     0   OUT
+  15  Carolans Cold Brew 750ml             1u/1cs            $11      1     0   OUT
+  16  Drapo Rosso Vermouth 500ml           1u/1cs            $10      1     0   OUT
+  17  Woody Creek Distillers Colorado Str  18u/3cs          $715     17     0   OUT
+  18  El Nivel Reposado 750ml              6u/1cs         $1,376      4     0   OUT
+  19  New Amsterdam Gin 1.75L              72u/12cs       $1,082     69     0   0.4
+  20  Copper & Cask #15 21yr Cigar Blend   24u/4cs        $1,032     23     0   0.5
+  ...and 103 more in the full list.
 
-  NEEDS REVIEW (7 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
+    Jameson Select Res Black Barre Liter      Off buy-month - confirm timing
+    El Nivel Reposado 750ml                   Margin looks off - check retail/cost
     New Amsterdam Gin 1.75L                   Off buy-month - confirm timing
+    Eagle Rare Single Barrel 750ml            Large buy ($7,220) - confirm
+    Jose Cuervo Auth Watermelon 1.75L         No cost data - verify price; Margin over 95% - check retail
+    Lunazul Reposado Tequila Liter            Large buy ($4,226) - confirm
+    Bacardi Superior Light Rum 1.75L          Large buy ($4,499) - confirm
     Svedka Vodka Traveler                     Off buy-month - confirm timing
-    Windsor Canadian 1.75L                    Margin looks off - check retail/cost; Large buy ($9,477) - confirm
-    Captain Morgan Spiced Rum 1.75L           Large buy ($13,112) - confirm
-    Ketel One Vodka 1.75L                     Large buy ($4,350) - confirm
-    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($9,255) - confirm
-    Bombay Gin Liter                          Margin looks off - check retail/cost
+    Windsor Canadian 1.75L                    Margin looks off - check retail/cost; Large buy ($9,098) - confirm
+    Captain Morgan Spiced Rum 1.75L           Large buy ($8,863) - confirm
+    Angel's Envy Bourbon 750ml                Off buy-month - confirm timing
+    Ketel One Vodka 1.75L                     Large buy ($5,127) - confirm
+    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($6,170) - confirm
 
-  BEING REMOVED - DO NOT REORDER (125 discontinued items still selling/low - run down stock):
-    Absolut Raspberri Vodka Liter               (would have bought 12u)
-    Absolut Vanilla Vodka Liter                 (would have bought 12u)
-    Absolut Vodka 1.75L                         (would have bought 12u)
-    Aperol Aperitivo 375ml                      (would have bought 12u)
-    Bailey's Irish Cream Liter                  (would have bought 24u)
-    Buzzballz Biggies Chocolate Tease 1.75L     (would have bought 21u)
-    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 18u)
-    Buzzballz Biggies Tequila 'Rita 1.75L       (would have bought 18u)
-    Buzzballz Chili Mango Chiller 187ml         (would have bought 24u)
-    Buzzballz Espresso Martini Chiller 187ml    (would have bought 24u)
-    Buzzballz Hazelnut Latte Chiller 187ml      (would have bought 24u)
-    Buzzballz Lime 'Rita Chiller 187ml          (would have bought 24u)
-    Captain Morgan Silver Rum 1.75L             (would have bought 18u)
-    Cazadores Blanco Tequila 750ml              (would have bought 12u)
-    Cazadores Reposado Tequila 750ml            (would have bought 12u)
-    ...and 110 more (see Being Removed tab).
+  BEING REMOVED - DO NOT REORDER (19 discontinued items still selling/low - run down stock):
+    Crown Royal Canadian 1.75L                  (would have bought 24u)
+    Don Julio Reposado Tequila 750ml            (would have bought 264u)
+    Fireball 50ml Trick or Treat Bags           (would have bought 42u)
+    J. Carver Vodka 750ml                       (would have bought 6u)
+    Jackson Morgan Peaches & Cream 750ml        (would have bought 6u)
+    Martini & Rossi Sweet Vermouth 750ml        (would have bought 12u)
+    Plantation 3 Stars Silver Liter             (would have bought 12u)
+    Seagrams 7 Blended 1.75L                    (would have bought 48u)
+    Skyy Vodka 1.75L                            (would have bought 60u)
+    Smirnoff Vodka 375ml                        (would have bought 72u)
+    Stolichnaya Vodka 1.75L                     (would have bought 12u)
+    Svedka Vodka Liter                          (would have bought 120u)
+    Taaka Vodka 375ml                           (would have bought 24u)
+    Tanqueray Gin 1.75L                         (would have bought 48u)
+    Tito's Vodka 1.75L                          (would have bought 924u)
+    ...and 4 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (81 routine deal items out of their buy month - $32,572 cheaper to buy in-month):
-    818 Tequila Blanco 750ml                    Wait for buy-month (Jul, Aug, Oct, Dec)
-    Absolut Citron Vodka Liter                  Wait for buy-month (Jan, Apr, Jul, Oct)
-    Absolut Lime Vodka Liter                    Wait for buy-month (Jan, Apr, Jul, Oct)
-    Absolut Mandrin Vodka Liter                 Wait for buy-month (Jan, Apr, Jul, Oct)
-    Absolut Pears Vodka Liter                   Wait for buy-month (Jan, Apr, Jul, Oct)
-    Absolut Ruby Red Vodka Liter                Wait for buy-month (Jan, Apr, Jul, Oct)
-    Absolut Vodka 750ml                         Wait for buy-month (Jan, Apr, Jul, Oct)
-    Absolut Vodka Tabasco Chili Pepper Liter    Wait for buy-month (Jan, Apr, Jul, Oct)
-    Angel's Envy Bourbon 750ml                  Wait for buy-month (Feb, May, Jul, Sep, Nov)
-    Angel's Envy Rye 750ml                      Wait for buy-month (Feb, May, Jul, Sep, Nov)
-    Bailey's Caramel 750ml                      Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
-    Bailey's Chocolate 750ml                    Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
-    Bailey's Irish Cream 1.75L                  Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
-    Bailey's Irish Cream 750ml                  Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
-    Baileys Coffee Toffee 750ml                 Wait for buy-month (Feb, Mar, May, Aug, Oct, Nov, Dec)
-    ...and 66 more (see Buy-Month Wait tab).
+  WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $4,556 cheaper to buy in-month):
+    Captain Morgan Spiced Rum Liter             Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    E&J Brandy 1.75L                            Wait for buy-month (Feb, May, Sep, Dec)
+    Seagrams Extra Dry Gin 1.75L                Wait for buy-month (Jan, Apr, Jul, Oct)
+    Seagrams Lime Gin 1.75L                     Wait for buy-month (Jan, Apr, Jul, Oct)
+    Smirnoff Red White and Berry 1.75L          Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Smirnoff Vodka Traveler                     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    St Germain Elderflower Liqueur 375ml        Wait for buy-month (Feb, May, Jul, Sep, Nov)
+    St Germain Elderflower Liqueur 750ml        Wait for buy-month (Feb, May, Jul, Sep, Nov)

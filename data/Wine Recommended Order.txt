@@ -2,82 +2,72 @@
   RECOMMENDED WINE ORDER          Wednesday, Jun 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    328,279
-  Coverable by transfer .......  $    111,243   (34%)
-  NET BUY from vendors ........  $    147,583   <- the order
+  Gross need (all stores) .....  $    128,256
+  Coverable by transfer .......  $     57,221   (45%)
+  NET BUY from vendors ........  $     32,063   <- the order
 
-  649 items   |   15,066 units to buy   |   13,218 units to rebalance
-  Transfers: 1,214 moves  -  226 urgent (55 stockouts, 171 under 2wk), 988 routine
+  66 items   |   2,538 units to buy   |   6,883 units to rebalance
+  Transfers: 785 moves  -  681 urgent (312 stockouts, 369 under 2wk), 104 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 9 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $93     12     0   0.2
-   2  Barefoot Pinot Noir 250ml            12u/2cs           $72     10     0   0.7
-   3  Gallo Merlot 1.5L                    6u/1cs            $41      6     0   1.2
-   4  Bota Box Pinot Grigio 3L Box         150u/50cs      $4,000    153     4   1.2
-   5  Bota Box Chardonnay 3L Box           75u/25cs       $1,100     74     0   1.3
-   6  Bota Box Sauvignon Blanc 3L Box      171u/57cs      $2,508    171     0   1.4
-   7  Bota Box Brightside Sauv Blanc/PG 3  15u/5cs          $220     16     0   1.9
-   8  Black Box Sauvignon Blanc 3L Box     252u/42cs      $6,581    256     4   1.9
-   9  Yes Way Rose 750ml                   72u/6cs          $570    107    30   2.2
-  10  Yellow Tail Super Crisp Chard 1.5L   30u/5cs          $232     30     0   2.2
-  11  Underwood Bubbles 355ml              108u/9cs         $448    144    38   2.4
-  12  Bota Box Redvolution 3L Box          117u/39cs      $1,680    124     6   2.6
-  13  Bota Box Breeze Pinot Grigio 3L Box  27u/9cs          $396     39    12   2.6
-  14  Bota Box Pinot Noir 3L Box           33u/11cs         $484     36     4   2.6
-  15  Sutter Home Sauvignon Blanc 187ml    36u/6cs          $160     50    17   2.7
-  16  Bota Box Dry Rose 3L Box             30u/10cs         $438     33     4   2.7
-  17  Bota Box Cabernet Sauvignon 3L Box   78u/26cs       $4,613     79     0   2.7
-  18  Barefoot Pinot Grigio 1.5L           30u/5cs          $242     47    19   2.8
-  19  Bota Box Nighthawk Blk Bourbon Cabe  81u/27cs       $1,188     87     5   2.9
-  20  Bota Box Nighthawk Black Lush Pinot  42u/14cs         $616     43     0   2.9
-  ...and 629 more in the full list.
+   1  Fowler Wine Cabernet Sauvignon / D   2u/2cs            $32      2     0   OUT
+   2  Atomic Boss Blue Rizz 500ml          36u/3cs            $0     37     0   OUT
+   3  90+ Cellars DOC Prosecco Lot 50 (si  192u/8cs         $516    183     0   OUT
+   4  LaMarca Prosecco 187ml               24u/1cs           $60     27     0   OUT
+   5  Riff Pinot Grigio 750ml              12u/1cs           $96      8     0   OUT
+   6  La Vieille Ferme Rouge 3L Box        6u/1cs           $112      4     0   OUT
+   7  Morgon                               1u/1cs             $0      1     0   OUT
+   8  Sutter Home Sweet Red 187ml          6u/1cs            $26      4     0   OUT
+   9  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
+  10  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
+  11  Geisen Pinot Gris 750ml              1u/1cs             $8      1     0   OUT
+  12  Atomic Boss Berry Blast 500ml        36u/3cs           $96     36     0   OUT
+  13  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $93     20     0   0.2
+  14  Battenfeld Spanier Gruner Sylvaner   12u/1cs          $152      9     0   0.4
+  15  Barefoot Pinot Noir 250ml            18u/3cs          $108     19     0   0.7
+  16  Barefoot Rose 1.5L                   6u/1cs            $48      5     0   0.7
+  17  Gallo Merlot 1.5L                    24u/4cs          $162     22     0   1.0
+  18  Lolli Sweet Red 750ml                12u/1cs           $96      8     0   1.1
+  19  Bota Box Chardonnay 3L Box           96u/32cs       $1,408     96     0   1.2
+  20  Bota Box Pinot Grigio 3L Box         186u/62cs      $4,960    189     4   1.2
+  ...and 46 more in the full list.
 
-  NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
-    Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost; Large buy ($4,000) - confirm
-    Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost; Large buy ($6,581) - confirm; Off buy-month - confirm timing
-    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost; Large buy ($4,613) - confirm
-    Josh Cellars Cabernet Sauvignon 750ml     Margin looks off - check retail/cost; Large buy ($4,885) - confirm
-    The Horologist Sauvignon Blanc NZ 750ml   Large buy ($6,657) - confirm
-    Joel Gott Chardonnay 750ml                Margin looks off - check retail/cost
-    Chateau Ste Michelle Light Sauvignon Bla  Margin looks off - check retail/cost
-    Josh Cellars Cabernet Sauvignon 375ml     Margin over 95% - check retail
+  NEEDS REVIEW (9 items the system isn't fully sure about - check before ordering):
+    Atomic Boss Blue Rizz 500ml               No cost data - verify price; Margin over 95% - check retail
+    LaMarca Prosecco 187ml                    Off buy-month - confirm timing
+    Morgon                                    No cost data - verify price; Margin over 95% - check retail
+    Atomic Boss Berry Blast 500ml             Margin looks off - check retail/cost
+    Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost; Large buy ($4,960) - confirm
+    Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost; Large buy ($4,544) - confirm; Off buy-month - confirm timing
+    90+ Cellars Prosecco Rose (single) 187ml  Margin over 95% - check retail
+    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
+    Josh Cellars Cabernet Sauvignon 750ml     Margin looks off - check retail/cost
 
-  BEING REMOVED - DO NOT REORDER (136 discontinued items still selling/low - run down stock):
-    7 Deadly Cabernet Sauvignon 750ml           (would have bought 12u)
-    7 Deadly Red 750ml                          (would have bought 12u)
-    7 Deadly Zins 750ml                         (would have bought 12u)
-    AVA Grace Chardonnay 750ml                  (would have bought 12u)
-    AVA Grace Pinot Grigio 750ml                (would have bought 12u)
-    AVA Grace Sauvignon Blanc 750ml             (would have bought 12u)
-    Avaline Red 750ml                           (would have bought 12u)
-    Avaline Rose 750ml                          (would have bought 12u)
-    Avaline White 750ml                         (would have bought 12u)
-    Bogle Cabernet Sauvignon 750ml              (would have bought 24u)
-    Bogle Chardonnay 750ml                      (would have bought 24u)
-    Bogle Essential Red 750ml                   (would have bought 24u)
-    Bogle Juggernaut Cabernet 750ml             (would have bought 12u)
-    Bogle Juggernaut Chardonnay 750ml           (would have bought 12u)
-    Bogle Juggernaut RRV Pinot Noir 750ml       (would have bought 24u)
-    ...and 121 more (see Being Removed tab).
+  BEING REMOVED - DO NOT REORDER (13 discontinued items still selling/low - run down stock):
+    Cannonball Cabernet Sauvignon 750ml         (would have bought 1u)
+    Daou Cabernet Sauvignon 750ml               (would have bought 84u)
+    Franzia Chablis 5L Box                      (would have bought 4u)
+    Franzia Chardonnay 5L Box                   (would have bought 72u)
+    Franzia Chillable Red 3L Box                (would have bought 6u)
+    Franzia Crisp White 5L Box                  (would have bought 16u)
+    Franzia Merlot 5L Box                       (would have bought 8u)
+    Franzia Moscato 5L Box                      (would have bought 12u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 44u)
+    Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 4u)
+    Franzia Sauvignon Blanc 5L Box              (would have bought 8u)
+    Franzia Sunset Blush 5L Box                 (would have bought 68u)
+    Franzia White Zinfandel 5L Box              (would have bought 16u)
 
-  WAIT FOR BUY-MONTH (84 routine deal items out of their buy month - $33,198 cheaper to buy in-month):
-    Acrobat Pinot Gris 750ml                    Wait for buy-month (Feb, Apr, May, Aug, Sep, Dec)
-    Acrobat Pinot Noir 750ml                    Wait for buy-month (Feb, Apr, May, Aug, Sep, Dec)
-    Acrobat Rose 750ml                          Wait for buy-month (Feb, Apr, May, Aug, Sep, Dec)
-    Angeline Pinot Noir 750ml                   Wait for buy-month (Mar, May, Aug, Nov, Dec)
-    Angeline Reserve Pinot Noir 750ml           Wait for buy-month (Mar, May, Aug, Nov, Dec)
-    Bertrand Cote des Roses Rose 750ml          Wait for buy-month (Feb, May, Jul, Sep, Nov)
-    Black Box Brilliant Cabernet 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Brilliant Chardonnay 3L Box       Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Brilliant Pinot Grigio 3L Box     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+  WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $9,525 cheaper to buy in-month):
     Black Box Buttery Chardonnay 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Cab Sauv 3L Box                   Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Chardonnay 3L Box                 Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Deep Dark Cabernet 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Dolce Semi-Sweet Red Blend 3L Bo  Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Malbec 3L Box                     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    ...and 69 more (see Buy-Month Wait tab).
+    Black Box Merlot 3L Box                     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Pinot Grigio 3L Box               Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Pinot Noir 3L Box                 Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Tart Tangy Sauvignon Blanc 3L Bo  Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Decoy Cabernet Sauvignon 750ml              Wait for buy-month (Mar, Apr, Jul, Aug, Oct, Nov)
