@@ -145,6 +145,7 @@
     <button id="tabAsk" onclick="show('ask')">Ask the assistant</button>
     <button id="tabLists" onclick="show('lists')">Product Lists</button>
     <button id="tabVend" onclick="show('vendors')">Order by distributor</button>
+    <button id="tabLive" onclick="show('live')">Today's sales</button>
   </div>
 
   <main id="today">
@@ -213,6 +214,15 @@
     <button class="pgbtn" id="vxlsx" onclick="exportVendor()" style="display:none">Export to Excel</button>
     <span class="hint" id="vtot"></span>
     <div class="wrap"><table id="vendTbl"></table></div>
+  </main>
+
+  <main id="live" style="display:none">
+    <div class="hint" id="liveAsOf">Loading today's sales…</div>
+    <div id="liveCards" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px"></div>
+    <h3 style="margin:16px 0 4px">By store</h3>
+    <div class="wrap"><table id="liveStores"></table></div>
+    <h3 style="margin:16px 0 4px">Top sellers today</h3>
+    <div class="wrap"><table id="liveTop"></table></div>
   </main>
 
   <div id="report" style="display:none" onclick="if(event.target===this)closeReport()">
@@ -325,6 +335,7 @@ function deptChange(){
   loadToday();
   if($('lists').style.display!=='none') loadTabs();
   if($('vendors').style.display!=='none') loadVendors();
+  if($('live').style.display!=='none') loadLive();
 }
 let vendText='';
 let storesLoaded='';
@@ -440,7 +451,7 @@ async function exportList(){
 }
 // ---- per-buyer customization (saved on this device only) ----
 const PREF_SECTIONS=[['glance','This week at a glance'],['trcards','Transfers — move stock between stores first'],['buy','What to buy'],['plan','Transfer plan']];
-const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor']];
+const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor'],['tabLive',"Today's sales"]];
 let lastBuyCols=[];
 function defPrefs(){ const show={},labels={}; PREF_SECTIONS.forEach(([id,l])=>{show[id]=true;labels[id]=l;}); PREF_TABS.forEach(([id])=>show[id]=true); return {note:'',show,labels,buyCols:null}; }
 function getPrefs(){ const d=defPrefs(); try{ const s=JSON.parse(localStorage.getItem('prefs')||'{}'); return {note:s.note||'',show:Object.assign(d.show,s.show||{}),labels:Object.assign(d.labels,s.labels||{}),buyCols:s.buyCols||null}; }catch(e){ return d; } }
@@ -472,11 +483,39 @@ function saveCustomize(){
 }
 function resetCustomize(){ localStorage.removeItem('prefs'); applyPrefs(); loadToday(); closeCustomize(); }
 function show(v){
-  for(const k of ['today','ask','lists','vendors']) $(k).style.display = (v===k)?'block':'none';
+  for(const k of ['today','ask','lists','vendors','live']) $(k).style.display = (v===k)?'block':'none';
   $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':'';
   $('tabLists').className=v==='lists'?'on':''; $('tabVend').className=v==='vendors'?'on':'';
+  $('tabLive').className=v==='live'?'on':'';
   if(v==='lists') loadTabs();
   if(v==='vendors') loadVendors();
+  if(v==='live') loadLive();
+}
+function fmtTime(iso){ if(!iso) return '—'; try{ return new Date(iso).toLocaleString([],{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
+async function loadLive(){
+  const dept=$('dept').value;
+  $('liveAsOf').textContent="Loading today's sales…";
+  $('liveCards').innerHTML=''; $('liveStores').innerHTML=''; $('liveTop').innerHTML='';
+  let d;
+  try{ d=await (await fetch('/api/livesales?dept='+encodeURIComponent(dept))).json(); }
+  catch(e){ $('liveAsOf').textContent='Could not load.'; return; }
+  if(!d.available){ $('liveAsOf').textContent="Today's sales feed isn't switched on yet."; return; }
+  const chain=d.chain||{};
+  $('liveAsOf').innerHTML=`Live from the registers · <b>as of ${fmtTime(d.as_of)}</b>`;
+  $('liveCards').innerHTML=
+    `<div class="card big"><div class="lbl">${esc(dept)} sales today</div><div class="val">${money(d.sales||0)}</div></div>`+
+    `<div class="card"><div class="lbl">${esc(dept)} units</div><div class="val">${(d.units||0).toLocaleString()}</div></div>`+
+    `<div class="card"><div class="lbl">Whole chain today</div><div class="val">${money(chain.sales||0)}</div></div>`;
+  const bs=d.by_store||[];
+  $('liveStores').innerHTML = bs.length
+    ? '<thead><tr><th>Store</th><th>Units</th><th>Sales</th></tr></thead><tbody>'+
+      bs.map(r=>`<tr><td>${esc(r.store)}</td><td>${(r.units||0).toLocaleString()}</td><td>${money(r.sales||0)}</td></tr>`).join('')+'</tbody>'
+    : '<tr><td>No '+esc(dept)+' sales rung up yet today.</td></tr>';
+  const tp=d.top||[];
+  $('liveTop').innerHTML = tp.length
+    ? '<thead><tr><th>Item</th><th>Code</th><th>Units</th><th>Sales</th></tr></thead><tbody>'+
+      tp.map(r=>`<tr><td>${esc(r.item)}</td><td>${esc(r.code)}</td><td>${(r.units||0).toLocaleString()}</td><td>${money(r.sales||0)}</td></tr>`).join('')+'</tbody>'
+    : '';
 }
 let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0, lf={}, lfacets={}; const LPAGE=400;
 let listTimer=null, lfTimer=null;

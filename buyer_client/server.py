@@ -888,6 +888,21 @@ class Handler(BaseHTTPRequestHandler):
                 for _, r in x.iterrows())
             return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt,
                                     "total": total, "units": units, "cases": cases, "mode": "store"})
+        if u.path == "/api/livesales":
+            # near-real-time "today's sales" for one department, from data/live_sales.json
+            dept = parse_qs(u.query).get("dept", ["THC"])[0]
+            b = get_bytes("live_sales.json")
+            if not b:
+                return self._send(200, {"available": False})
+            try:
+                d = json.loads(b.decode("utf-8", "replace"))
+            except Exception:
+                return self._send(200, {"available": False})
+            dv = (d.get("depts") or {}).get(dept) or {"units": 0, "sales": 0, "by_store": [], "top": []}
+            return self._send(200, {"available": True, "as_of": d.get("as_of"), "date": d.get("date"),
+                                    "dept": dept, "chain": d.get("chain") or {},
+                                    "units": dv.get("units", 0), "sales": dv.get("sales", 0),
+                                    "by_store": dv.get("by_store", []), "top": dv.get("top", [])})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
