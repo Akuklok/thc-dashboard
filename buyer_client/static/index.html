@@ -610,7 +610,9 @@ async function openReport(){
   $('report').style.display='flex';
   renderMyReports();
   if(window.html2canvas){
-    try{ const cv=await html2canvas(document.body,{scale:0.8,logging:false,useCORS:true}); setShot(cv.toDataURL('image/png')); }
+    // skip the open report overlay so the screenshot shows the page behind it, not this box
+    try{ const cv=await html2canvas(document.body,{scale:0.8,logging:false,useCORS:true,
+           ignoreElements:el=>el.id==='report'}); setShot(cv.toDataURL('image/png')); }
     catch(e){}
   }
 }
