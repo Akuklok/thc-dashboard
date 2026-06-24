@@ -206,7 +206,8 @@
   </main>
 
   <main id="vendors" style="display:none">
-    <div class="hint">Pick a distributor to get this week's order ready to paste into their portal or email.</div>
+    <div class="hint">Pick your store, then a distributor, to get that store's order ready to paste into their portal or email.</div>
+    <select id="storesel" onchange="onStoreChange()" style="padding:8px;border:1px solid var(--line);border-radius:8px;margin:0 8px 8px 0;max-width:100%"></select>
     <select id="vsel" onchange="loadVendorOrder()" style="padding:8px;border:1px solid var(--line);border-radius:8px;margin:0 8px 8px 0;max-width:100%"></select>
     <button class="pgbtn" id="vcopy" onclick="copyVendor()" style="display:none">Copy order</button>
     <button class="pgbtn" id="vxlsx" onclick="exportVendor()" style="display:none">Export to Excel</button>
@@ -326,23 +327,46 @@ function deptChange(){
   if($('vendors').style.display!=='none') loadVendors();
 }
 let vendText='';
+let storesLoaded='';
+function inStoreMode(){ const s=$('storesel').value; return !!(s && s!=='__all__'); }
 async function loadVendors(){
   const dept=$('dept').value;
-  $('vsel').innerHTML='<option>Loading…</option>'; $('vendTbl').innerHTML=''; $('vtot').textContent=''; $('vcopy').style.display='none';
+  if(storesLoaded!==dept){            // (re)build the store picker when the department changes
+    let stores=[];
+    try{ stores=(await (await fetch('/api/stores?dept='+encodeURIComponent(dept))).json()).stores||[]; }catch(e){}
+    $('storesel').innerHTML='<option value="__all__">All stores (chain order)</option>'+stores.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
+    storesLoaded=dept;
+  }
+  await loadVendorList();
+}
+function onStoreChange(){ loadVendorList(); }
+async function loadVendorList(){
+  const dept=$('dept').value, store=$('storesel').value, perStore=inStoreMode();
+  $('vsel').innerHTML='<option>Loading…</option>'; $('vendTbl').innerHTML=''; $('vtot').textContent='';
+  $('vcopy').style.display='none'; $('vxlsx').style.display='none';
   let vs=[];
-  try{ vs=(await (await fetch('/api/vendors?dept='+encodeURIComponent(dept))).json()).vendors||[]; }catch(e){}
-  if(!vs.length){ $('vsel').innerHTML='<option>No order for '+dept+'</option>'; $('vendTbl').innerHTML='<tr><td>Nothing to order.</td></tr>'; return; }
-  $('vsel').innerHTML=vs.map(v=>`<option value="${esc(v.name)}">${esc(v.name)} — ${v.items} items · ${money(v.dollars)}</option>`).join('');
+  try{
+    const url=perStore ? '/api/storevendors?dept='+encodeURIComponent(dept)+'&store='+encodeURIComponent(store)
+                       : '/api/vendors?dept='+encodeURIComponent(dept);
+    vs=(await (await fetch(url)).json()).vendors||[];
+  }catch(e){}
+  if(!vs.length){ $('vsel').innerHTML='<option>Nothing to order'+(perStore?(' for '+store):'')+'</option>'; $('vendTbl').innerHTML='<tr><td>Nothing to order'+(perStore?(' for '+esc(store)):'')+'.</td></tr>'; return; }
+  $('vsel').innerHTML=vs.map(v=>{
+    const meta=perStore ? `${v.items} items · ${v.cases} cases · ${money(v.dollars)}` : `${v.items} items · ${money(v.dollars)}`;
+    return `<option value="${esc(v.name)}">${esc(v.name)} — ${meta}</option>`;
+  }).join('');
   loadVendorOrder();
 }
 async function loadVendorOrder(){
-  const dept=$('dept').value, vendor=$('vsel').value;
+  const dept=$('dept').value, vendor=$('vsel').value, store=$('storesel').value, perStore=inStoreMode();
   $('vendTbl').innerHTML='<tr><td>Loading…</td></tr>';
   try{
-    const d=await (await fetch('/api/vendororder?dept='+encodeURIComponent(dept)+'&vendor='+encodeURIComponent(vendor))).json();
+    const url=perStore ? '/api/storeorder?dept='+encodeURIComponent(dept)+'&store='+encodeURIComponent(store)+'&vendor='+encodeURIComponent(vendor)
+                       : '/api/vendororder?dept='+encodeURIComponent(dept)+'&vendor='+encodeURIComponent(vendor);
+    const d=await (await fetch(url)).json();
     vendText=d.text||'';
     renderVendorOrder(d);
-    $('vtot').textContent = d.units!==undefined ? `${d.units.toLocaleString()} units · ${money(d.total)}` : '';
+    $('vtot').textContent = d.units!==undefined ? (perStore?`${(d.cases||0).toLocaleString()} cases · ${d.units.toLocaleString()} units · ${money(d.total)}`:`${d.units.toLocaleString()} units · ${money(d.total)}`) : '';
     const has=(d.rows&&d.rows.length)?'inline-block':'none';
     $('vcopy').style.display=has; $('vxlsx').style.display=has;
   }catch(e){ $('vendTbl').innerHTML='<tr><td>Could not load.</td></tr>'; }
@@ -351,9 +375,15 @@ function renderVendorOrder(d){
   const cols=d.cols||[], rows=d.rows||[], bs=d.by_store||[];
   TBL['vendTbl']={cols,rows,sortCol:null,sortDir:1,filter:'',reviewOnly:false};   // for export
   if(!rows.length){ $('vendTbl').innerHTML='<tr><td>Nothing to order.</td></tr>'; return; }
+  const isMoney=c=>c==='Net Buy $'||c==='Order $';
+  if(d.mode==='store'){            // one store: plain order table, no on-hand-by-store column
+    let h='<thead><tr>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'</tr></thead><tbody>';
+    rows.forEach(r=>{ h+='<tr>'+r.map((v,j)=>{ let s=(v==null)?'':v; if(isMoney(cols[j])&&s!=='')s=money(+s); return `<td>${esc(s)}</td>`; }).join('')+'</tr>'; });
+    $('vendTbl').innerHTML=h+'</tbody>'; return;
+  }
   let h='<thead><tr>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'<th>On-hand by store</th></tr></thead><tbody>';
   rows.forEach((r,i)=>{
-    h+='<tr>'+r.map((v,j)=>{ let s=(v==null)?'':v; if(cols[j]==='Net Buy $'&&s!=='')s=money(+s); return `<td>${esc(s)}</td>`; }).join('');
+    h+='<tr>'+r.map((v,j)=>{ let s=(v==null)?'':v; if(isMoney(cols[j])&&s!=='')s=money(+s); return `<td>${esc(s)}</td>`; }).join('');
     const st=bs[i]||[];
     if(st.length){
       const chips=st.map(p=>`<span style="display:inline-block;margin:1px 7px 1px 0;color:${p[1]<=0?'#c00000':(p[1]<10?'#9a6700':'#444')}">${esc(p[0])} <b>${p[1]}</b></span>`).join('');
@@ -377,7 +407,11 @@ function exportXlsx(name, cols, rows){
   XLSX.writeFile(wb, name.replace(/[^\w .-]/g,'')+'.xlsx');
 }
 function exportTbl(id, name){ const t=TBL[id]; if(!t){ alert('Open this first.'); return; } exportXlsx(name, t.cols, t.rows); }
-function exportVendor(){ exportXlsx(($('dept').value+' - '+$('vsel').value+' order'), (TBL['vendTbl']||{}).cols, (TBL['vendTbl']||{}).rows); }
+function exportVendor(){
+  const store=$('storesel').value, perStore=store&&store!=='__all__';
+  const name=$('dept').value+' - '+(perStore?store+' - ':'')+$('vsel').value+' order';
+  exportXlsx(name, (TBL['vendTbl']||{}).cols, (TBL['vendTbl']||{}).rows);
+}
 async function exportAll(){
   if(!window.XLSX){ alert('Still loading the export tool — try again in a second.'); return; }
   const dept=$('dept').value, wb=XLSX.utils.book_new(), used={};

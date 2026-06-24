@@ -363,6 +363,17 @@ def load_list(name):
         return None
 
 
+def load_store_orders(dept):
+    """Per-store order table ('<Dept> Store Orders.csv'): each store's own order, by distributor."""
+    b = get_bytes(f"{dept} Store Orders.csv")
+    if not b:
+        return None
+    try:
+        return pd.read_csv(io.BytesIO(b), dtype={"Product Code": str})
+    except Exception:
+        return None
+
+
 # Product-list tabs, in the order buyers expect them (extras appended alphabetically).
 TAB_ORDER = ["Full List", "New Items", "Remove", "Upcoming Price Changes", "Price Level",
              "Retail Pricing Table", "Markups"]
@@ -832,6 +843,51 @@ class Handler(BaseHTTPRequestHandler):
                 oos.append((not lst) and coh <= 0)
             return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt,
                                     "total": total, "units": units, "by_store": by_store, "oos": oos})
+        if u.path == "/api/stores":
+            # the stores that have anything to order this week (for the per-store order picker)
+            dept = parse_qs(u.query).get("dept", ["THC"])[0]
+            so = load_store_orders(dept)
+            stores = (sorted(so["Store"].dropna().astype(str).str.strip().unique().tolist())
+                      if so is not None and "Store" in so.columns else [])
+            return self._send(200, {"stores": stores})
+        if u.path == "/api/storevendors":
+            # distributors a given store needs to order from, with item/case/$ counts
+            qs = parse_qs(u.query)
+            dept = qs.get("dept", ["THC"])[0]; store = qs.get("store", [""])[0]
+            so = load_store_orders(dept)
+            out = []
+            if so is not None and "Store" in so.columns and "Supplier" in so.columns:
+                x = so[so["Store"].astype(str).str.strip() == store]
+                for sup, g in x.groupby(x["Supplier"].astype(str)):
+                    out.append({"name": sup, "items": int(len(g)),
+                                "cases": int(pd.to_numeric(g.get("Order Cases"), errors="coerce").fillna(0).sum()),
+                                "dollars": float(pd.to_numeric(g.get("Order $"), errors="coerce").fillna(0).sum())})
+                out.sort(key=lambda v: -v["dollars"])
+            return self._send(200, {"vendors": out})
+        if u.path == "/api/storeorder":
+            # one store's order from one distributor (full cases per store)
+            qs = parse_qs(u.query)
+            dept = qs.get("dept", ["THC"])[0]; store = qs.get("store", [""])[0]; vendor = qs.get("vendor", [""])[0]
+            so = load_store_orders(dept)
+            if so is None or "Store" not in so.columns:
+                return self._send(200, {"cols": [], "rows": [], "text": "", "total": 0,
+                                        "units": 0, "cases": 0, "mode": "store"})
+            x = so[so["Store"].astype(str).str.strip() == store]
+            if vendor and "Supplier" in x.columns:
+                x = x[x["Supplier"].astype(str) == vendor]
+            cols = [c for c in ["Item", "Product Code", "Store OH", "WOS", "Order Cases", "Order Units", "Order $"]
+                    if c in x.columns]
+            disp = x[cols].fillna("").astype(object)
+            units = int(pd.to_numeric(x.get("Order Units"), errors="coerce").fillna(0).sum())
+            cases = int(pd.to_numeric(x.get("Order Cases"), errors="coerce").fillna(0).sum())
+            total = float(pd.to_numeric(x.get("Order $"), errors="coerce").fillna(0).sum())
+            txt = "Item\tCode\tCases\tUnits\n" + "\n".join(
+                f"{r.get('Item','')}\t{r.get('Product Code','')}\t"
+                f"{int(pd.to_numeric(r.get('Order Cases'),errors='coerce') or 0)}\t"
+                f"{int(pd.to_numeric(r.get('Order Units'),errors='coerce') or 0)}"
+                for _, r in x.iterrows())
+            return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt,
+                                    "total": total, "units": units, "cases": cases, "mode": "store"})
         if u.path == "/api/tabs":
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
             return self._send(200, {"tabs": list_tabs(dept)})
