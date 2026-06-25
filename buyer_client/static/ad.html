@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ad Order Helper — Top Ten Buyer</title>
+<style>
+  :root{ --navy:#0F3A4C; --teal:#15728E; --line:#dce3e7; --bg:#f5f8fa; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:14px/1.45 -apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1d2a30; background:var(--bg); }
+  header{ background:var(--navy); color:#fff; padding:12px 16px; }
+  header b{ font-size:16px; } header .sub{ font-size:12px; opacity:.85; }
+  .wrap{ max-width:1000px; margin:0 auto; padding:16px; }
+  .row{ display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:10px; }
+  label{ font-size:12px; color:#5a6470; display:block; margin-bottom:3px; }
+  select, textarea{ border:1px solid var(--line); border-radius:8px; padding:8px; font:inherit; }
+  textarea{ width:100%; height:150px; resize:vertical; }
+  button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:9px 16px; cursor:pointer; font-size:14px; }
+  button.ghost{ background:#fff; color:var(--navy); border:1px solid var(--line); }
+  .hint{ color:#5a6470; font-size:12px; }
+  table{ border-collapse:collapse; width:100%; background:#fff; margin-top:10px; font-size:13px; }
+  th, td{ border:1px solid var(--line); padding:6px 8px; text-align:left; white-space:nowrap; }
+  th{ background:#eef3f5; position:sticky; top:0; }
+  td.flag{ color:#9a6700; white-space:normal; }
+  .tablewrap{ overflow:auto; max-height:60vh; border-radius:8px; }
+  .pill{ display:inline-block; background:#eaf3f6; border:1px solid var(--line); border-radius:20px; padding:2px 10px; font-size:12px; margin-right:6px; }
+  .miss{ background:#fdecec; border-color:#f3c2c2; color:#c00000; }
+</style>
+</head>
+<body>
+  <header><b>Ad Order Helper</b><div class="sub">Paste the weekly or Sunday ad list, get UPCs and suggested cases</div></header>
+  <div class="wrap">
+    <div class="row">
+      <div><label>Department</label>
+        <select id="dept"><option>Wine</option><option>Beer</option><option>Spirits</option><option>THC</option><option>Other</option></select></div>
+      <div><label>Ad type</label>
+        <select id="kind"><option value="weekly">Weekly Special (4.5 wk)</option><option value="sunday">Sunday Special (8 wk)</option></select></div>
+      <div style="flex:1"></div>
+      <button onclick="run()" id="go">Suggest order</button>
+    </div>
+    <label>Ad items — one per line (product description or UPC)</label>
+    <textarea id="items" placeholder="Risata Moscato d'Asti 750ml&#10;Yellow Tail Big Bold Red 1.5L&#10;084279977638"></textarea>
+    <div class="hint" style="margin:6px 0">Tip: paste straight from the ad. It matches each line to our catalog, pulls stock and velocity, and suggests cases to hit the weeks-of-supply target.</div>
+    <div id="summary" style="margin:10px 0"></div>
+    <div id="actions" style="display:none;margin-bottom:8px">
+      <button class="ghost" onclick="copyOut()" id="copyBtn">Copy (UPC, item, cases)</button>
+    </div>
+    <div class="tablewrap"><table id="tbl"></table></div>
+    <div id="missed" style="margin-top:10px"></div>
+  </div>
+<script>
+  const $=id=>document.getElementById(id);
+  let outText='';
+  function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  function money(v){ const n=+v; return isNaN(n)?'':'$'+n.toLocaleString(undefined,{maximumFractionDigits:0}); }
+  async function run(){
+    const items=$('items').value.trim();
+    if(!items){ $('summary').textContent='Paste some ad items first.'; return; }
+    $('go').disabled=true; $('summary').textContent='Matching...'; $('tbl').innerHTML=''; $('missed').innerHTML=''; $('actions').style.display='none';
+    let d;
+    try{ d=await (await fetch('/api/adorder',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({dept:$('dept').value, kind:$('kind').value, items})})).json(); }
+    catch(e){ $('summary').textContent='Could not reach the server.'; $('go').disabled=false; return; }
+    $('go').disabled=false;
+    if(d.error){ $('summary').textContent=d.error; return; }
+    outText=d.text||'';
+    $('summary').innerHTML=`<span class="pill">${d.matched} matched</span>`+
+      (d.missed?`<span class="pill miss">${d.missed} not found</span>`:'')+
+      `<span class="pill">target ${d.target} weeks</span>`;
+    const cols=d.cols||[], rows=d.rows||[];
+    let h='<thead><tr>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'</tr></thead><tbody>';
+    rows.forEach(r=>{ h+='<tr>'+r.map((v,j)=>{
+      const c=cols[j]; let s=(v==null)?'':v; if((c==='Case price'||c==='Order $')&&s!=='')s=money(s);
+      return `<td class="${c==='Flag'?'flag':''}">${esc(s)}</td>`; }).join('')+'</tr>'; });
+    $('tbl').innerHTML=h+'</tbody>';
+    $('actions').style.display=rows.length?'block':'none';
+    if((d.unmatched||[]).length){ $('missed').innerHTML='<b>Not found (check spelling or look up by hand):</b><br>'+
+      d.unmatched.map(x=>'• '+esc(x)).join('<br>'); }
+  }
+  function copyOut(){ navigator.clipboard.writeText(outText).then(()=>{ const b=$('copyBtn'),t=b.textContent; b.textContent='Copied!'; setTimeout(()=>b.textContent=t,1500); }); }
+  $('items').addEventListener('keydown',e=>{ if((e.ctrlKey||e.metaKey)&&e.key==='Enter') run(); });
+</script>
+</body>
+</html>

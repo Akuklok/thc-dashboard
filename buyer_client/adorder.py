@@ -66,7 +66,7 @@ def _best_token(qtokens, pool):
 def suggest(items, kind, catalog_rows, inv_rows, month=None):
     target = TARGETS.get(str(kind or "").lower(), 4.5)
 
-    cat_by_upc, cat_by_desc, cat_tokens = {}, {}, []
+    cat_by_upc, cat_by_desc, cat_tokens, desc_upcs = {}, {}, [], {}
     for r in catalog_rows:
         u = _digits(r.get("Product UPC"))
         if u:
@@ -74,6 +74,8 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
         d = _norm(r.get("Product Description"))
         if d:
             cat_by_desc.setdefault(d, r)
+            if u:
+                desc_upcs.setdefault(d, set()).add(u)
             cat_tokens.append((set(d.split()), r))
 
     inv_by_desc, inv_tokens = {}, []
@@ -120,6 +122,8 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
         flags = []
         if conf == "fuzzy":
             flags.append("check match")
+        if conf != "upc" and len(desc_upcs.get(cd, ())) > 1:
+            flags.append("multiple UPCs, confirm")
         if not inv:
             flags.append("no stock data")
         bm = str(cat.get("Buy Months (if appl.)") or "").strip()

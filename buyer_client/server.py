@@ -1076,6 +1076,35 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, excel_plan(req_text, payload.get("context", {}) or {}))
             except Exception as e:
                 return self._send(200, {"summary": f"Error planning that: {e}", "actions": []})
+        if u.path == "/api/adorder":
+            # weekly/Sunday ad helper: match a pasted ad list to UPCs + suggest cases (WOS target)
+            try:
+                import adorder as _ad, csv as _csv, io as _io, datetime as _dt
+                dept = str(payload.get("dept", "Wine")).strip() or "Wine"
+                kind = str(payload.get("kind", "weekly")).strip() or "weekly"
+                items = payload.get("items") or []
+                if isinstance(items, str):
+                    items = [x for x in re.split(r"[\r\n]+", items) if x.strip()]
+
+                def rows_of(name):
+                    b = get_bytes(name)
+                    return list(_csv.DictReader(_io.StringIO(b.decode("utf-8", "replace")))) if b else []
+                cat = rows_of("%s - Full List.csv" % dept)
+                if not cat and dept == "Beer":
+                    cat = rows_of("Spirits - Full List.csv")
+                if not cat:
+                    return self._send(200, {"error": "No product catalog (Full List) for %s yet." % dept})
+                inv = rows_of("%s Inventory.csv" % dept)
+                res = _ad.suggest(items, kind, cat, inv, month=_dt.date.today().month)
+                cols = ["UPC", "Item", "On hand", "Wk vel", "WOS", "Suggested cases", "Case price", "Order $", "Flag"]
+                rows = [[r.get(c) for c in cols] for r in res["rows"]]
+                text = "\n".join("%s\t%s\t%s" % (r.get("UPC"), r.get("Item"), r.get("Suggested cases"))
+                                 for r in res["rows"])
+                return self._send(200, {"cols": cols, "rows": rows, "text": text,
+                                        "unmatched": res.get("unmatched", []), "target": res.get("target"),
+                                        "matched": res.get("matched", 0), "missed": res.get("missed", 0)})
+            except Exception as e:
+                return self._send(200, {"error": "Couldn't build the ad order: %s" % e})
         if u.path == "/api/compare":
             try:
                 import base64, io, csv, compare as cmp
