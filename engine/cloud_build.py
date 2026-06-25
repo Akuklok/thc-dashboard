@@ -95,6 +95,16 @@ def main():
         bd.main()                   # refresh THC Deal Evaluation.xlsx
     except (Exception, SystemExit) as e:
         print("Deal evaluation skipped:", e)
+    try:
+        import pull_wine_report as pwr   # wine report prepped from today's inventory pull (Inventory Calc, ready to paste)
+        pwr.build(folders=[WORK], out_dir=DATA)
+    except (Exception, SystemExit) as e:
+        print("Wine report prep skipped:", e)
+    try:
+        import pull_open_pos as pop       # wine Open POs pulled + filtered from Cloud Retailer (needs CR_* env)
+        pop.build(out_dir=DATA)
+    except (Exception, SystemExit) as e:
+        print("Open POs pull skipped:", e)
     print("Cloud build complete -> orders + snapshots in", DATA)
 
 
