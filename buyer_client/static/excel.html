@@ -1,72 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TopTenBuyer.ai for Excel</title>
+<title>Top Ten Buyer — Excel</title>
 <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
 <style>
-  :root{--green:#0F3A4C;--green2:#15728E;--bg:#f5f6f4;--line:#e3e6e2;--muted:#6b756f}
-  *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#1a1f1c;font-size:14px}
-  header{background:var(--green);color:#fff;padding:8px 10px;display:flex;align-items:center;gap:8px}
-  header b{font-size:14px} header select{margin-left:auto;border:0;border-radius:6px;padding:4px 6px}
-  .pad{padding:10px}
-  .read{width:100%;background:var(--green2);color:#fff;border:0;padding:9px;border-radius:8px;font-size:13px;margin-bottom:8px;cursor:pointer}
-  #msgs{height:calc(100vh - 180px);overflow:auto}
-  .msg{padding:8px 10px;border-radius:12px;margin:6px 0;white-space:pre-wrap;line-height:1.4;font-size:13px}
-  .me{background:var(--green);color:#fff;margin-left:18px;border-bottom-right-radius:3px}
-  .ai{background:#fff;border:1px solid var(--line);margin-right:18px;border-bottom-left-radius:3px}
-  .row{display:flex;gap:6px;margin-top:6px}
-  .row input{flex:1;padding:9px;border:1px solid var(--line);border-radius:8px}
-  .row button{background:var(--green);color:#fff;border:0;padding:0 12px;border-radius:8px;cursor:pointer}
-  .muted{color:var(--muted);font-size:12px}
+  :root{ --navy:#0F3A4C; --teal:#15728E; --line:#dce3e7; --bg:#f5f8fa; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:14px/1.45 -apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1d2a30; background:#fff;
+        display:flex; flex-direction:column; height:100vh; }
+  header{ background:var(--navy); color:#fff; padding:10px 12px; }
+  header b{ font-size:15px; } header .sub{ font-size:11px; opacity:.85; }
+  .bar{ display:flex; gap:8px; align-items:center; padding:8px 10px; border-bottom:1px solid var(--line); flex-wrap:wrap; }
+  select{ padding:6px; border:1px solid var(--line); border-radius:7px; }
+  #log{ flex:1; overflow:auto; padding:10px; background:var(--bg); }
+  .msg{ margin:0 0 8px; padding:8px 10px; border-radius:10px; max-width:92%; white-space:pre-wrap; word-break:break-word; }
+  .me{ background:var(--teal); color:#fff; margin-left:auto; }
+  .ai{ background:#fff; border:1px solid var(--line); }
+  .hint{ color:#5a6470; font-size:12px; }
+  .chipbar{ padding:0 10px; }
+  .chip{ display:none; font-size:12px; background:#eaf3f6; border:1px solid var(--line); border-radius:20px; padding:3px 10px; color:var(--navy); }
+  .chip a{ color:#c00; text-decoration:none; margin-left:6px; cursor:pointer; }
+  .tools{ display:flex; gap:6px; padding:8px 10px 0; }
+  .tools button{ flex:1; }
+  button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:8px 10px; cursor:pointer; font-size:13px; }
+  button.ghost{ background:#fff; color:var(--navy); border:1px solid var(--line); }
+  button:disabled{ opacity:.5; cursor:default; }
+  .composer{ display:flex; gap:6px; padding:8px 10px 10px; border-top:1px solid var(--line); }
+  textarea{ flex:1; resize:none; height:46px; padding:8px; border:1px solid var(--line); border-radius:8px; font:inherit; }
+  #status{ font-size:12px; color:#5a6470; padding:0 10px 6px; min-height:16px; }
 </style>
 </head>
 <body>
-<div class="pad" id="boot"><div class="muted">Loading TopTenBuyer.ai…</div></div>
-<div id="app" style="display:none">
-  <header><b>TopTenBuyer.ai</b><select id="dept"></select></header>
-  <div class="pad">
-    <button class="read" id="readBtn">Read my selected cells &amp; ask</button>
-    <div id="msgs"></div>
-    <div class="row">
-      <input id="q" placeholder="Ask anything…"/>
-      <button id="send">Send</button>
-    </div>
+  <header>
+    <b>Top Ten Buyer</b>
+    <div class="sub">Buying assistant, right inside Excel</div>
+  </header>
+  <div class="bar">
+    <span class="hint">Department</span>
+    <select id="dept">
+      <option>THC</option><option>Beer</option><option>Wine</option><option>Spirits</option><option>Other</option>
+    </select>
   </div>
-</div>
+  <div id="log">
+    <div class="msg ai">Hi! Ask me about products, deals, or what's low. Highlight cells and tap <b>Use selection</b> to send them to me, and <b>Insert answer</b> drops my reply back into your sheet.</div>
+  </div>
+  <div class="chipbar"><span class="chip" id="chip"></span></div>
+  <div class="tools">
+    <button class="ghost" id="selBtn" onclick="attachSelection()">Use selection</button>
+    <button class="ghost" id="insBtn" onclick="insertAnswer()">Insert answer</button>
+  </div>
+  <div id="status"></div>
+  <div class="composer">
+    <textarea id="q" placeholder="Ask the assistant..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();send();}"></textarea>
+    <button onclick="send()" id="sendBtn">Send</button>
+  </div>
 <script>
-const ALLDEPTS=["THC","Wine","Spirits","Beer","Other"];
-let history=[];
-const $=id=>document.getElementById(id);
-function bubble(t,c){ const m=document.createElement('div'); m.className='msg '+c; m.textContent=t; $('msgs').appendChild(m); $('msgs').scrollTop=1e9; return m; }
-async function send(userText, display){
-  bubble(display,'me'); history.push({role:'user',content:userText});
-  const t=bubble('Thinking…','ai');
-  try{
-    const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({dept:$('dept').value,messages:history})});
-    const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply});
-  }catch(e){ t.textContent='(Error reaching the assistant)'; }
-}
-function ask(){ const q=$('q').value.trim(); if(!q)return; $('q').value=''; send(q,q); }
-async function readAsk(){
-  let sel=null;
-  try{
-    sel=await Excel.run(async ctx=>{ const r=ctx.workbook.getSelectedRange(); r.load('values,address'); await ctx.sync();
-      const text=r.values.map(row=>row.map(c=>c==null?'':c).join('\t')).join('\n'); return {address:r.address,text}; });
-  }catch(e){ bubble('Select some cells first, then tap the button again.','ai'); return; }
-  const typed=$('q').value.trim(); $('q').value='';
-  const question=typed||"Here are the cells I'm working on in Excel. What stands out vs our buying data — anything to buy, skip, or fix?";
-  send(question+"\n\n[My Excel selection "+sel.address+"]:\n"+sel.text, (typed||'Read my selection')+' ('+sel.address+')');
-}
-Office.onReady(function(){
-  $('boot').style.display='none'; $('app').style.display='block';
-  $('dept').innerHTML=ALLDEPTS.map(d=>`<option>${d}</option>`).join('');
-  $('send').addEventListener('click',ask);
-  $('q').addEventListener('keydown',e=>{ if(e.key==='Enter') ask(); });
-  $('readBtn').addEventListener('click',readAsk);
-});
+  const $ = id => document.getElementById(id);
+  let messages = [];          // {role, content, display}
+  let attached = null;        // {address, tsv}
+  let inExcel = false;
+  let busy = false;
+
+  if (window.Office && Office.onReady) {
+    Office.onReady(info => {
+      inExcel = !!(info && info.host === Office.HostType.Excel);
+      if (!inExcel) {
+        $('selBtn').disabled = true; $('insBtn').disabled = true;
+        status("Open this panel inside Excel to read or write cells. Chat works here either way.");
+      }
+    });
+  } else {
+    $('selBtn').disabled = true; $('insBtn').disabled = true;
+  }
+
+  try { const d = localStorage.getItem('xl_dept'); if (d) $('dept').value = d; } catch (e) {}
+  $('dept').onchange = () => { try { localStorage.setItem('xl_dept', $('dept').value); } catch (e) {} };
+
+  function status(t){ $('status').textContent = t || ''; }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  function render(){
+    $('log').innerHTML = messages.map(m =>
+      `<div class="msg ${m.role==='user'?'me':'ai'}">${esc(m.display||m.content)}</div>`).join('');
+    $('log').scrollTop = $('log').scrollHeight;
+  }
+  function updateChip(){
+    const c = $('chip');
+    if (attached){ c.style.display='inline-block'; c.innerHTML = `Selection attached (${esc(attached.address)}) <a onclick="attached=null;updateChip()">remove</a>`; }
+    else c.style.display='none';
+  }
+
+  async function send(){
+    const t = $('q').value.trim();
+    if (!t || busy) return;
+    let content = t, display = t;
+    if (attached){ content += `\n\n[Selected cells from Excel, ${attached.address}]:\n${attached.tsv}`; display = t + `\n(+ selection ${attached.address})`; }
+    messages.push({ role:'user', content, display });
+    $('q').value = ''; attached = null; updateChip(); render();
+    busy = true; $('sendBtn').disabled = true; status('Thinking...');
+    try {
+      const r = await fetch('/api/chat', { method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ dept: $('dept').value, messages: messages.map(m=>({role:m.role, content:m.content})) }) });
+      const d = await r.json();
+      messages.push({ role:'assistant', content: d.reply || '(no reply)' });
+      render(); status('');
+    } catch (e) {
+      messages.push({ role:'assistant', content: 'Could not reach the assistant. Check your connection and try again.' });
+      render(); status('');
+    }
+    busy = false; $('sendBtn').disabled = false;
+  }
+
+  async function attachSelection(){
+    if (!inExcel) return;
+    try {
+      await Excel.run(async ctx => {
+        const r = ctx.workbook.getSelectedRange(); r.load('values,address'); await ctx.sync();
+        const tsv = (r.values || []).map(row => row.map(v => v==null?'':v).join('\t')).join('\n');
+        attached = { address: r.address, tsv };
+      });
+      updateChip(); status('Selection attached. Type a question and Send.');
+    } catch (e) { status('Could not read the selection: ' + (e.message || e)); }
+  }
+
+  async function insertAnswer(){
+    if (!inExcel) return;
+    const last = [...messages].reverse().find(m => m.role === 'assistant');
+    if (!last){ status('Ask something first, then insert.'); return; }
+    const grid = last.content.replace(/\r/g,'').trim().split('\n').map(l => l.split('\t'));
+    const cols = Math.max(1, ...grid.map(g => g.length));
+    const data = grid.map(g => { const a = g.slice(); while (a.length < cols) a.push(''); return a; });
+    try {
+      await Excel.run(async ctx => {
+        const start = ctx.workbook.getSelectedRange().getCell(0, 0);
+        const target = start.getResizedRange(data.length - 1, cols - 1);
+        target.values = data; target.format.autofitColumns();
+        await ctx.sync();
+      });
+      status(`Inserted ${data.length} row(s) at your selection.`);
+    } catch (e) { status('Could not insert: ' + (e.message || e)); }
+  }
 </script>
 </body>
 </html>

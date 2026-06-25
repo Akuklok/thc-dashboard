@@ -7,10 +7,10 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Top Ten Liquors</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="TopTenBuyer.ai"/>
-  <Description DefaultValue="Buying assistant in Excel - reads your selected cells and answers using your live buying data."/>
-  <IconUrl DefaultValue="https://topten-buyer.onrender.com/icon-192.png"/>
-  <HighResolutionIconUrl DefaultValue="https://topten-buyer.onrender.com/icon-512.png"/>
+  <DisplayName DefaultValue="Top Ten Buyer"/>
+  <Description DefaultValue="Buying assistant inside Excel: chat with it, send your selected cells to it, and drop answers back into the sheet, using your live buying data."/>
+  <IconUrl DefaultValue="https://topten-buyer.onrender.com/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://topten-buyer.onrender.com/icon-80.png"/>
   <SupportUrl DefaultValue="https://topten-buyer.onrender.com"/>
   <AppDomains>
     <AppDomain>https://topten-buyer.onrender.com</AppDomain>
