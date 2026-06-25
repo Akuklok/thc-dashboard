@@ -481,6 +481,49 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
                 fh.write(text)
         except PermissionError:
             print(f"  locked, skipped: {folder}")
+
+    # ---- Per-store order: each store orders its own, by distributor (full cases per store) ----
+    # Surfaces the per-store need the engine already computed (line ~537), so a store buyer can
+    # pull up just their location and order from each distributor the way they normally do.
+    # No transfer logic here on purpose: this is the "each store orders its own" view.
+    try:
+        so = df.copy()
+        so["need_u"] = _num(so.get("need")).fillna(0)
+        so = so[so["need_u"] > 0]
+        if remove_set and "Product Code" in so.columns:
+            so = so[~so["Product Code"].map(dbb.norm).isin(remove_set)]
+        if len(so) and "Location Name" in so.columns:
+            ccol = "Case Qty/Reorder Multiple"
+            case = (_num(so[ccol]).fillna(1).replace(0, 1)) if ccol in so.columns else pd.Series(1.0, index=so.index)
+            cases = np.ceil(so["need_u"] / case).clip(lower=1).astype(int)   # round each store UP to a full case
+            units = (cases * case).round().astype(int)
+            cost = _num(so.get("cost")).fillna(0)
+            vel = _num(so.get("vel")).fillna(0)
+            oh = _num(so.get("OH")).fillna(0)
+            sup = so["Supplier"].astype(str) if "Supplier" in so.columns else ""
+            pc = so["Product Code"].map(
+                lambda x: "" if x is None or (isinstance(x, float) and pd.isna(x)) else re.sub(r"\.0$", "", str(x)).strip()
+            ) if "Product Code" in so.columns else ""
+            store_tbl = pd.DataFrame({
+                "Store": so["Location Name"].astype(str).str.strip(),
+                "Supplier": sup,
+                "Item": so["Product Description"].astype(str),
+                "Product Code": pc,
+                "Store OH": oh.astype(int),
+                "WOS": np.where(vel > 0, (oh / vel).round(1), np.nan),
+                "Order Cases": cases,
+                "Order Units": units,
+                "Unit Cost": cost.round(2),
+                "Order $": (units * cost).round(0),
+            }).sort_values(["Store", "Supplier", "WOS"], na_position="last")
+            for folder in OUT_FOLDERS:
+                try:
+                    store_tbl.to_csv(os.path.join(folder, f"{base} Store Orders.csv"), index=False)
+                except PermissionError:
+                    pass
+    except Exception as e:
+        print(f"  per-store order skipped for {label}: {e}")
+
     return {"Department": label, "Items": len(out), "Gross $": gross_total,
             "Transfer $": xfer_total, "Net Buy $": net_total}
 
