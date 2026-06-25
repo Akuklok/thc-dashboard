@@ -660,6 +660,88 @@ def ai_reply(dept, messages):
     return "No AI key configured (add anthropic_key.txt or gemini_key.txt)."
 
 
+# ---- Excel agent: turn a plain request + the sheet's shape into a concrete, approvable plan ----
+EXCEL_AGENT_SYSTEM = (
+    "You help a wine buyer edit their Excel workbook. The buyer gives a plain-English request and the "
+    "current sheet's shape; you return a JSON plan of concrete operations they will review and approve "
+    "before anything runs.\n\n"
+    "Use ONLY these operations:\n"
+    '- {"op":"setValues","sheet":S,"address":A,"values":[[...]]}  write a block; A is the top-left cell.\n'
+    '- {"op":"clearValues","sheet":S,"address":A}  clear the cells in range A (e.g. "B2:B50").\n'
+    '- {"op":"deleteRowsWhere","sheet":S,"column":C,"test":T,"value":V}  delete data rows where column C '
+    '(a column letter or header name) meets test T. T is one of "zero","negative","blank","equals","contains"; '
+    'value only for equals/contains.\n'
+    '- {"op":"highlight","sheet":S,"address":A,"color":H}  fill cells A with hex color H (e.g. "#FFFF00").\n'
+    '- {"op":"copyValues","fromSheet":S1,"fromAddress":A1,"toSheet":S2,"toAddress":A2}  copy values from A1 to anchor A2.\n\n'
+    "Rules:\n"
+    "- Use ONLY the real sheet names, column letters/headers, and addresses in the CONTEXT. Never invent columns or sheets.\n"
+    "- If the request names no sheet, act on the active sheet. 'sheet' may be omitted to mean the active sheet.\n"
+    "- If the request is ambiguous, or you would be guessing which column or range, DO NOT guess: return an empty "
+    "actions array and put a short clarifying question in 'summary'.\n"
+    "- Keep it to the fewest operations that satisfy the request.\n"
+    "- Output ONLY a JSON object, no prose and no code fences: "
+    '{"summary":"<one line of what you will do, or a question>","actions":[...]}.'
+)
+
+
+def _parse_json_obj(text):
+    t = str(text or "").strip()
+    if t.startswith("```"):
+        t = re.sub(r"^```[a-zA-Z]*\n?", "", t)
+        t = re.sub(r"\n?```$", "", t.strip())
+    i, j = t.find("{"), t.rfind("}")
+    if i >= 0 and j > i:
+        t = t[i:j + 1]
+    try:
+        return json.loads(t)
+    except Exception:
+        return None
+
+
+def _excel_ctx_text(ctx):
+    lines = ["Active sheet: %s" % ctx.get("activeSheet", "?")]
+    if ctx.get("sheets"):
+        lines.append("All sheets: %s" % ", ".join(map(str, ctx["sheets"])))
+    if ctx.get("selection"):
+        lines.append("Current selection: %s" % ctx["selection"])
+    hdrs = ctx.get("headers") or []
+    if hdrs:
+        lines.append("Columns (letter = header):")
+        lines.append("  " + ", ".join("%s=%s" % (h.get("col"), h.get("name")) for h in hdrs))
+    rows = ctx.get("sampleRows") or []
+    if rows:
+        lines.append("Sample data rows:")
+        for r in rows[:5]:
+            lines.append("  " + " | ".join("" if c is None else str(c) for c in r))
+    return "\n".join(lines)
+
+
+def excel_plan(request_text, ctx):
+    msgs = [{"role": "user", "content": "REQUEST:\n%s\n\nCONTEXT:\n%s" % (request_text, _excel_ctx_text(ctx))}]
+    ak = _key("ANTHROPIC_API_KEY", ANTHROPIC_KEYFILE)
+    gk = _key("GEMINI_API_KEY", GEMINI_KEYFILE)
+    raw = ""
+    if ak:
+        try:
+            raw = claude_chat(ak, EXCEL_AGENT_SYSTEM, msgs)
+        except Exception:
+            if gk:
+                raw = gemini_chat(gk, EXCEL_AGENT_SYSTEM, msgs)
+            else:
+                raise
+    elif gk:
+        raw = gemini_chat(gk, EXCEL_AGENT_SYSTEM, msgs)
+    else:
+        return {"summary": "No AI key configured.", "actions": []}
+    plan = _parse_json_obj(raw)
+    if not isinstance(plan, dict):
+        return {"summary": "I couldn't form a clear plan, try rephrasing.", "actions": []}
+    plan.setdefault("summary", "")
+    if not isinstance(plan.get("actions"), list):
+        plan["actions"] = []
+    return plan
+
+
 def dept_totals(dept):
     """True chain totals from the all-department summary (includes items fully covered
     by transfer, which aren't in the buy list)."""
@@ -985,6 +1067,15 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(200, {"reply": reply})
             except Exception as e:
                 return self._send(200, {"reply": f"(Assistant error: {e})"})
+        if u.path == "/api/excel-actions":
+            # turn a plain request + the sheet's shape into an approvable plan of cell operations
+            try:
+                req_text = str(payload.get("request", "")).strip()
+                if not req_text:
+                    return self._send(200, {"summary": "What would you like me to do?", "actions": []})
+                return self._send(200, excel_plan(req_text, payload.get("context", {}) or {}))
+            except Exception as e:
+                return self._send(200, {"summary": f"Error planning that: {e}", "actions": []})
         if u.path == "/api/compare":
             try:
                 import base64, io, csv, compare as cmp

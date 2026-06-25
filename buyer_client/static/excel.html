@@ -52,9 +52,20 @@
     <button class="ghost" id="insBtn" onclick="insertAnswer()">Insert answer</button>
   </div>
   <div id="status"></div>
+  <div id="plan" style="display:none;margin:0 10px 8px;border:1px solid var(--line);border-radius:10px;background:#fff">
+    <div style="padding:8px 10px;border-bottom:1px solid var(--line);font-size:13px"><b>Proposed changes</b> <span class="hint" id="planSum"></span></div>
+    <div id="planList" style="padding:6px 10px;font-size:12px;max-height:180px;overflow:auto"></div>
+    <div style="display:flex;gap:6px;padding:8px 10px;border-top:1px solid var(--line)">
+      <button onclick="applyPlan()" id="applyBtn">Approve and apply</button>
+      <button class="ghost" onclick="cancelPlan()">Cancel</button>
+    </div>
+  </div>
   <div class="composer">
-    <textarea id="q" placeholder="Ask the assistant..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();send();}"></textarea>
-    <button onclick="send()" id="sendBtn">Send</button>
+    <textarea id="q" placeholder="Ask a question, or tell me what to change in the sheet..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();send();}"></textarea>
+    <div style="display:flex;flex-direction:column;gap:4px">
+      <button onclick="send()" id="sendBtn">Ask</button>
+      <button onclick="planEdit()" id="doBtn" class="ghost">Do it</button>
+    </div>
   </div>
 <script>
   const $ = id => document.getElementById(id);
@@ -140,6 +151,104 @@
       });
       status(`Inserted ${data.length} row(s) at your selection.`);
     } catch (e) { status('Could not insert: ' + (e.message || e)); }
+  }
+
+  // ---- agent: propose sheet edits, show them, apply on approval ----
+  let plan = null;
+  function colLetter(n){ let s=''; n+=1; while(n>0){ const m=(n-1)%26; s=String.fromCharCode(65+m)+s; n=(n-m-1)/26|0; } return s; }
+  function startCol(addr){ const a=String(addr||'').split('!').pop().split(':')[0]; const m=a.match(/[A-Z]+/i); if(!m) return 0; let n=0; for(const ch of m[0].toUpperCase()) n=n*26+(ch.charCodeAt(0)-64); return n-1; }
+  function startRow(addr){ const a=String(addr||'').split('!').pop().split(':')[0]; const m=a.match(/\d+/); return m?parseInt(m[0],10):1; }
+  function bare(addr){ return String(addr||'').split('!').pop(); }
+  function shOf(c, name){ return name ? c.workbook.worksheets.getItem(name) : c.workbook.worksheets.getActiveWorksheet(); }
+
+  async function gatherContext(){
+    return await Excel.run(async c=>{
+      const wb=c.workbook;
+      const shs=wb.worksheets; shs.load('items/name');
+      const sh=wb.worksheets.getActiveWorksheet(); sh.load('name');
+      const used=sh.getUsedRange(); used.load('values,address');
+      const sel=wb.getSelectedRange(); sel.load('address');
+      await c.sync();
+      const vals=used.values||[]; const off=startCol(used.address);
+      const headers=(vals[0]||[]).map((v,i)=>({col:colLetter(off+i), name:String(v==null?'':v)}));
+      return { activeSheet:sh.name, sheets:shs.items.map(s=>s.name), selection:sel.address,
+               headers, sampleRows:vals.slice(1,6) };
+    });
+  }
+  async function planEdit(){
+    if(!inExcel){ status('Open this inside Excel to edit the sheet.'); return; }
+    const req=$('q').value.trim(); if(!req){ status('Type what you want changed, then Do it.'); return; }
+    cancelPlan(); status('Looking at your sheet...');
+    let ctx; try{ ctx=await gatherContext(); }catch(e){ status('Could not read the sheet: '+(e.message||e)); return; }
+    let d;
+    try{ d=await (await fetch('/api/excel-actions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({request:req, context:ctx})})).json(); }
+    catch(e){ status('Could not reach the assistant.'); return; }
+    plan=d; renderPlan(d); status('');
+  }
+  function describe(a){
+    switch(a.op){
+      case 'setValues': return `Write ${(a.values||[]).length} row(s) at ${a.sheet?a.sheet+'!':''}${a.address}`;
+      case 'clearValues': return `Clear ${a.sheet?a.sheet+'!':''}${a.address}`;
+      case 'deleteRowsWhere': return `Delete rows where ${a.column} is ${a.test}${a.value!=null?(' '+a.value):''} (${a.sheet||'active sheet'})`;
+      case 'highlight': return `Highlight ${a.sheet?a.sheet+'!':''}${a.address} ${a.color||''}`;
+      case 'copyValues': return `Copy ${a.fromSheet?a.fromSheet+'!':''}${a.fromAddress} to ${a.toSheet?a.toSheet+'!':''}${a.toAddress}`;
+      default: return JSON.stringify(a);
+    }
+  }
+  function renderPlan(d){
+    $('planSum').textContent=d.summary||'';
+    const acts=d.actions||[];
+    if(!acts.length){ $('planList').innerHTML='<span class="hint">No changes to make.</span>'; $('applyBtn').style.display='none'; }
+    else { $('planList').innerHTML=acts.map((a,i)=>`<div>${i+1}. ${esc(describe(a))}</div>`).join(''); $('applyBtn').style.display=''; }
+    $('plan').style.display='block';
+  }
+  function cancelPlan(){ plan=null; $('plan').style.display='none'; }
+  async function applyPlan(){
+    if(!plan||!(plan.actions||[]).length) return;
+    $('applyBtn').disabled=true; status('Applying...');
+    try{
+      for(const a of plan.actions) await applyOne(a);
+      status(`Done. ${plan.actions.length} change(s) applied. Check it, then save.`);
+      $('q').value=''; cancelPlan();
+    }catch(e){ status('Stopped partway: '+(e.message||e)); }
+    $('applyBtn').disabled=false;
+  }
+  async function applyOne(a){
+    await Excel.run(async c=>{
+      if(a.op==='setValues'){
+        const v=a.values||[]; if(!v.length) return;
+        const cols=Math.max(...v.map(r=>r.length));
+        const data=v.map(r=>{const x=r.slice(); while(x.length<cols)x.push(''); return x;});
+        const cell=shOf(c,a.sheet).getRange(bare(a.address)).getCell(0,0);
+        cell.getResizedRange(data.length-1, cols-1).values=data;
+      } else if(a.op==='clearValues'){
+        shOf(c,a.sheet).getRange(bare(a.address)).clear(Excel.ClearApplyTo.contents);
+      } else if(a.op==='highlight'){
+        shOf(c,a.sheet).getRange(bare(a.address)).format.fill.color = a.color||'#FFFF00';
+      } else if(a.op==='copyValues'){
+        const src=shOf(c,a.fromSheet).getRange(bare(a.fromAddress)); src.load('values'); await c.sync();
+        const v=src.values||[]; const rows=v.length, cols=v[0]?v[0].length:0;
+        if(rows&&cols){ shOf(c,a.toSheet).getRange(bare(a.toAddress)).getCell(0,0).getResizedRange(rows-1,cols-1).values=v; }
+      } else if(a.op==='deleteRowsWhere'){
+        const sh=shOf(c,a.sheet); const used=sh.getUsedRange(); used.load('values,address'); await c.sync();
+        const vals=used.values||[]; const off=startCol(used.address); const top=startRow(used.address);
+        let ci=-1; const colArg=String(a.column||'');
+        if(/^[A-Za-z]+$/.test(colArg)){ let n=0; for(const ch of colArg.toUpperCase()) n=n*26+(ch.charCodeAt(0)-64); ci=(n-1)-off; }
+        else { const hdr=vals[0]||[]; ci=hdr.findIndex(h=>String(h).trim().toLowerCase()===colArg.trim().toLowerCase()); }
+        if(ci<0 || ci>=((vals[0]||[]).length)) throw new Error('column '+a.column+' not found');
+        const test=String(a.test||'').toLowerCase(), val=a.value, del=[];
+        for(let r=1;r<vals.length;r++){ const cell=vals[r][ci]; const num=parseFloat(cell); let hit=false;
+          if(test==='zero') hit=(cell===0||num===0);
+          else if(test==='negative') hit=(!isNaN(num)&&num<0);
+          else if(test==='blank') hit=(cell===''||cell==null);
+          else if(test==='equals') hit=(String(cell)===String(val));
+          else if(test==='contains') hit=(String(cell).toLowerCase().includes(String(val||'').toLowerCase()));
+          if(hit) del.push(top+r);
+        }
+        for(let k=del.length-1;k>=0;k--) sh.getRange(`${del[k]}:${del[k]}`).delete(Excel.DeleteShiftDirection.up);
+      }
+      await c.sync();
+    });
   }
 </script>
 </body>
