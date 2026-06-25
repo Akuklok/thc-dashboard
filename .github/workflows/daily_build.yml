@@ -26,6 +26,9 @@ jobs:
           SFTP_PASS: ${{ secrets.SFTP_PASS }}
           SFTP_PORT: ${{ secrets.SFTP_PORT }}
           SFTP_PATH: ${{ secrets.SFTP_PATH }}
+          CR_BASE: ${{ secrets.CR_BASE }}
+          CR_USERNAME: ${{ secrets.CR_USERNAME }}
+          CR_PASSWORD: ${{ secrets.CR_PASSWORD }}
         run: python engine/cloud_build.py
       - name: Publish refreshed data
         run: |
