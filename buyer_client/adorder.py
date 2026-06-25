@@ -111,13 +111,13 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
         if not inv:
             inv, _ = _best_token(set(cd.split()), inv_tokens)
         oh = _num(inv.get("Chain OH")) if inv else 0.0
-        vel = _num(inv.get("Wk Velocity")) if inv else 0.0
-        wos = _num(inv.get("WOS")) if inv else 0.0
+        vel30 = _num(inv.get("Wk Velocity")) if inv else 0.0
+        vel90 = (_num(inv.get("90D Units")) * 7.0 / 90.0) if inv else 0.0
+        vel = vel30 if vel30 > 0 else vel90              # fall back to the 90-day pace
+        wos = round(oh / vel, 1) if vel > 0 else (_num(inv.get("WOS")) if inv else 0.0)
 
         cpk = _num(cat.get("Units/Case")) or 1.0
         price = _num(cat.get("Net Case")) or _num(cat.get("Case 1 (Retail)"))
-        need_u = max(0.0, target * vel - oh)
-        cases = int(math.ceil(need_u / cpk)) if need_u > 0 else 0
 
         flags = []
         if conf == "fuzzy":
@@ -126,6 +126,16 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
             flags.append("multiple UPCs, confirm")
         if not inv:
             flags.append("no stock data")
+
+        if vel > 0:
+            need_u = max(0.0, target * vel - oh)
+            cases = int(math.ceil(need_u / cpk)) if need_u > 0 else 0
+            if vel30 <= 0 and vel90 > 0:
+                flags.append("based on 90-day pace")
+        else:
+            cases = None                                 # no sales history -> the buyer sets the quantity
+            flags.append("no recent sales, set by hand")
+
         bm = str(cat.get("Buy Months (if appl.)") or "").strip()
         if bm and month:
             months = _parse_months(bm)
@@ -136,8 +146,8 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
             "UPC": _digits(cat.get("Product UPC")),
             "Item": cat.get("Product Description"),
             "On hand": int(round(oh)), "Wk vel": round(vel, 1), "WOS": round(wos, 1),
-            "Target WOS": target, "Suggested cases": cases,
-            "Case price": round(price, 2), "Order $": round(cases * price, 2),
+            "Target WOS": target, "Suggested cases": (cases if cases is not None else ""),
+            "Case price": round(price, 2), "Order $": round((cases or 0) * price, 2),
             "Flag": "; ".join(flags),
         })
 

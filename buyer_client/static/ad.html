@@ -71,6 +71,7 @@
     let h='<thead><tr>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'</tr></thead><tbody>';
     rows.forEach(r=>{ h+='<tr>'+r.map((v,j)=>{
       const c=cols[j]; let s=(v==null)?'':v; if((c==='Case price'||c==='Order $')&&s!=='')s=money(s);
+      if(c==='Suggested cases'&&(s===''||s==null))s='—';
       return `<td class="${c==='Flag'?'flag':''}">${esc(s)}</td>`; }).join('')+'</tr>'; });
     $('tbl').innerHTML=h+'</tbody>';
     $('actions').style.display=rows.length?'block':'none';
