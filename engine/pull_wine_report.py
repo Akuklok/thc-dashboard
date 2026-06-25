@@ -11,11 +11,16 @@ def _default_folders():
     return [os.path.join(home, "Downloads"), os.path.join(home, "OneDrive - Top Ten Liquors", "THC Reports")]
 
 
+PATTERNS = ["Full Inventory Sales Report*.xlsx", "*Full Inventory*Sales*.xlsx",
+            "*Inventory Sales Rep*.xlsx", "*Inventory*Sales*Report*.xlsx"]
+
+
 def latest_report(folders=None):
     cands = []
     for folder in (folders or _default_folders()):
-        cands += glob.glob(os.path.join(folder, "Full Inventory Sales Report*.xlsx"))
-    cands = [c for c in cands if not os.path.basename(c).startswith("~$")]
+        for pat in PATTERNS:
+            cands += glob.glob(os.path.join(folder, pat))
+    cands = [c for c in set(cands) if not os.path.basename(c).startswith("~$")]
     return max(cands, key=os.path.getmtime) if cands else None
 
 
