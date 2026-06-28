@@ -1,17 +1,11 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
 Receiving,842094109418,For You Botanical Single Bottle Wine Bag by Cakewalk,"True Brands, Inc.",Stillwater,1028765,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,842094109456,No-Mess Glitter Bow Assorted Wine Bag by Cakewalk,"True Brands, Inc.",St. Louis Park,1028752,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Receiving,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Receiving,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1028653,Receiving,12.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Stillwater,1028765,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Receiving,876718021664,Grand Cru: Stemless Wine Glass,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Receiving,876718022258,Truetap: Double-Hinged Waiters Corkscrew,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,876718025310,Wine Stain Gift Bag,"True Brands, Inc.",St. Louis Park,1028752,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,876718025334,Retro: 24 oz Cocktail Shaker,"True Brands, Inc.",St. Louis Park,1028752,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,876718029431,Big Jig: Double Jigger,"True Brands, Inc.",Stillwater,1028765,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Receiving,876718030413,Shoot Ping Pong Balls,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,876718034732,Assorted Cheers Wine Bags by Cakewalk,"True Brands, Inc.",St. Louis Park,1028752,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Receiving,876718039232,Beer Pong Kit,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,876718049798,Smile There's Wine Bag by Cakewalk 750ml,"True Brands, Inc.",St. Louis Park,1028752,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
 Receiving,678113000165,Ercole Monferratto Rosso Liter,Libation Project,St. Louis Park,1028746,Receiving,1.0,,,Wine,Other Reds,Store Request,,2026-06-22T00:00:00
 Receiving,750625653012,Clean Slate Riesling 750ml,"Grape Beginnings, Inc.",Vadnais Heights,1028769,Receiving,1.0,,,Wine,Other Whites,,,2026-06-22T00:00:00
@@ -173,12 +167,12 @@ Discrepancy,085000016046,Barefoot Bubbly Pinot Grigio 750ml,Johnson Brothers - S
 Discrepancy,085000025871,Barefoot Rose 750ml,Johnson Brothers - St. Paul,Minneapolis,1028648,Inventory Received,1.0,0.0,-1.0,Wine,Rose,Month End,bo,2026-06-22T00:00:00
 Discrepancy,739949050509,Silk & Spice White Blend 750ml,Paustis Wine,Minneapolis,1028650,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,Month End,mi ,2026-06-22T00:00:00
 Discrepancy,031259032863,Yellow Tail Moscato 1.5L,Phillips Wine & Spirits - St. Paul,Minneapolis,1028651,Inventory Received,1.0,0.0,-1.0,Wine,Moscato,Month End,bo,2026-06-22T00:00:00
-Discrepancy,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Discrepancy,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1028653,Receiving,12.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Discrepancy,876718021664,Grand Cru: Stemless Wine Glass,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Discrepancy,876718022258,Truetap: Double-Hinged Waiters Corkscrew,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Discrepancy,876718030413,Shoot Ping Pong Balls,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
-Discrepancy,876718039232,Beer Pong Kit,"True Brands, Inc.",Minneapolis,1028653,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-06-22T00:00:00
+Discrepancy,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1028653,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,mi,2026-06-22T00:00:00
+Discrepancy,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1028653,Inventory Received,12.0,0.0,-12.0,Miscellaneous,Accessories,,MI,2026-06-22T00:00:00
+Discrepancy,876718021664,Grand Cru: Stemless Wine Glass,"True Brands, Inc.",Minneapolis,1028653,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,mi,2026-06-22T00:00:00
+Discrepancy,876718022258,Truetap: Double-Hinged Waiters Corkscrew,"True Brands, Inc.",Minneapolis,1028653,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,mi,2026-06-22T00:00:00
+Discrepancy,876718030413,Shoot Ping Pong Balls,"True Brands, Inc.",Minneapolis,1028653,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,mi,2026-06-22T00:00:00
+Discrepancy,876718039232,Beer Pong Kit,"True Brands, Inc.",Minneapolis,1028653,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,mi,2026-06-22T00:00:00
 Discrepancy,669576019214,Decoy Sauvignon Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minnetonka,1028661,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,Month End,mi,2026-06-22T00:00:00
 Discrepancy,088586625848,Chateau Ste Michelle Gewurztraminer 750ml,Southern Glazer's Wine & Spirits of MN,Osseo,1028676,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,Month End,on back order ,2026-06-22T00:00:00
 Discrepancy,086003903920,Woodbridge Light Oak Chardonna 1.5L,Southern Glazer's Wine & Spirits of MN,Plymouth,1028679,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Free Goods,not on truck,2026-06-22T00:00:00
