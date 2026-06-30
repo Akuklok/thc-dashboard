@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Today's Wine Prep — Top Ten Buyer</title>
+<style>
+  :root{ --navy:#0F3A4C; --teal:#15728E; --line:#dce3e7; --bg:#f5f8fa; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:14px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1d2a30; background:var(--bg); }
+  header{ background:var(--navy); color:#fff; padding:14px 16px; }
+  header b{ font-size:16px; } header .sub{ font-size:12px; opacity:.85; }
+  .wrap{ max-width:720px; margin:0 auto; padding:18px; }
+  .card{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:14px; display:flex; align-items:center; gap:14px; }
+  .card .info{ flex:1; }
+  .card h3{ margin:0 0 3px; font-size:15px; color:var(--navy); }
+  .card .meta{ font-size:12px; color:#5a6470; }
+  a.btn{ background:var(--navy); color:#fff; text-decoration:none; border-radius:8px; padding:10px 16px; font-size:14px; white-space:nowrap; }
+  a.btn.off{ background:#c9d3d8; pointer-events:none; }
+  .asof{ font-size:12px; color:#5a6470; margin-bottom:12px; }
+  .note{ font-size:12px; color:#5a6470; margin-top:6px; }
+</style>
+</head>
+<body>
+  <header><b>Today's Wine Prep</b><div class="sub">The two files, pulled and cleaned automatically. Download and paste.</div></header>
+  <div class="wrap">
+    <div class="asof" id="asof">Loading…</div>
+    <div id="cards"></div>
+    <div class="note">These rebuild every afternoon after the day's report drops. The wine report is filtered to Wine (Accessories, Box Wine, Blanks and Blaine2 removed) and sorted, ready to paste into Inventory Calc. Open POs covers Receiving plus recent not-received-in-full items.</div>
+  </div>
+<script>
+  const $=id=>document.getElementById(id);
+  function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  async function load(){
+    let d;
+    try{ d=await (await fetch('/api/wineprep')).json(); }
+    catch(e){ $('asof').textContent='Could not load.'; return; }
+    $('asof').textContent = d.date ? ('Data date: '+d.date) : 'Not built yet — run the Daily buying build once.';
+    $('cards').innerHTML = (d.files||[]).map(f=>{
+      const ok=f.available;
+      return `<div class="card"><div class="info"><h3>${esc(f.label)}</h3>`+
+        `<div class="meta">${ok?(f.rows.toLocaleString()+' rows · '+esc(f.name)):'not built yet'}</div></div>`+
+        `<a class="btn ${ok?'':'off'}" href="/api/dl?name=${encodeURIComponent(f.name)}">Download</a></div>`;
+    }).join('');
+  }
+  load();
+</script>
+</body>
+</html>

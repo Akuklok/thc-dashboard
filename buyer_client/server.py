@@ -1045,6 +1045,39 @@ class Handler(BaseHTTPRequestHandler):
             if want_facets:
                 resp["facets"] = facets
             return self._send(200, resp)
+        if u.path == "/api/wineprep":
+            # status of the daily-built wine prep files (for the download page)
+            out = []
+            for name, label in (("Wine Inventory Calc.csv", "Wine report (Inventory Calc)"),
+                                 ("Wine Open POs.csv", "Open POs")):
+                b = get_bytes(name)
+                rows = (b.decode("utf-8", "replace").count("\n") - 1) if b else 0
+                out.append({"name": name, "label": label, "available": bool(b), "rows": max(rows, 0)})
+            date = ""
+            sb = get_bytes("status.json")
+            if sb:
+                try:
+                    date = json.loads(sb.decode("utf-8", "replace")).get("data_date", "")
+                except Exception:
+                    pass
+            return self._send(200, {"files": out, "date": date})
+        if u.path == "/api/dl":
+            # download one of the daily wine prep files (allowlisted)
+            name = parse_qs(u.query).get("name", [""])[0]
+            if name not in ("Wine Open POs.csv", "Wine Inventory Calc.csv"):
+                return self._send(404, b"not found", "text/plain")
+            b = get_bytes(name)
+            if not b:
+                return self._send(404, b"Not built yet. Run the daily build first.", "text/plain")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv")
+            self.send_header("Content-Disposition", 'attachment; filename="%s"' % name)
+            self.send_header("Content-Length", str(len(b)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(b)
+            return
         return self._serve_static(u.path)
 
     def do_POST(self):
