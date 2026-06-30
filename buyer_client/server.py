@@ -374,6 +374,20 @@ def load_store_orders(dept):
         return None
 
 
+def wineprep_bytes(name):
+    """Bytes of a daily wine-prep file. The wine report is stored gzipped to keep the repo lean."""
+    if name == "Wine Inventory Calc.csv":
+        gz = get_bytes("Wine Inventory Calc.csv.gz")
+        if gz:
+            try:
+                import gzip as _gz
+                return _gz.decompress(gz)
+            except Exception:
+                return None
+        return get_bytes(name)            # fallback if a plain CSV was ever pushed
+    return get_bytes(name)
+
+
 # Product-list tabs, in the order buyers expect them (extras appended alphabetically).
 TAB_ORDER = ["Full List", "New Items", "Remove", "Upcoming Price Changes", "Price Level",
              "Retail Pricing Table", "Markups"]
@@ -1050,7 +1064,7 @@ class Handler(BaseHTTPRequestHandler):
             out = []
             for name, label in (("Wine Inventory Calc.csv", "Wine report (Inventory Calc)"),
                                  ("Wine Open POs.csv", "Open POs")):
-                b = get_bytes(name)
+                b = wineprep_bytes(name)
                 rows = (b.decode("utf-8", "replace").count("\n") - 1) if b else 0
                 out.append({"name": name, "label": label, "available": bool(b), "rows": max(rows, 0)})
             date = ""
@@ -1066,7 +1080,7 @@ class Handler(BaseHTTPRequestHandler):
             name = parse_qs(u.query).get("name", [""])[0]
             if name not in ("Wine Open POs.csv", "Wine Inventory Calc.csv"):
                 return self._send(404, b"not found", "text/plain")
-            b = get_bytes(name)
+            b = wineprep_bytes(name)
             if not b:
                 return self._send(404, b"Not built yet. Run the daily build first.", "text/plain")
             self.send_response(200)
