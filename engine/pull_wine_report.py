@@ -46,8 +46,8 @@ def build(folders=None, out_dir=None):
     out = df[keep].sort_values(["Location Name", "Product Description"])
     out_dir = out_dir or os.path.join(os.path.expanduser("~"), "Downloads")
     os.makedirs(out_dir, exist_ok=True)
-    dest = os.path.join(out_dir, "Wine Inventory Calc.csv")
-    out.to_csv(dest, index=False, encoding="utf-8-sig")
+    dest = os.path.join(out_dir, "Wine Inventory Calc.csv.gz")   # gzip keeps the repo lean (~11MB -> ~1.5MB)
+    out.to_csv(dest, index=False, encoding="utf-8-sig", compression="gzip")
     print("  wine report: %d wine rows (from %d total) -> %s" % (len(out), len(df), dest))
     return dest
 
