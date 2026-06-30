@@ -1152,6 +1152,45 @@ class Handler(BaseHTTPRequestHandler):
                                         "matched": res.get("matched", 0), "missed": res.get("missed", 0)})
             except Exception as e:
                 return self._send(200, {"error": "Couldn't build the ad order: %s" % e})
+        if u.path == "/api/poimport":
+            # turn the pasted Add-to-Order block into Cloud Retailer's Custom PO Import CSV
+            try:
+                import csv as _csv, io as _io
+                raw = str(payload.get("data", ""))
+                date = str(payload.get("date", "")).strip()
+                rows = [ln.split("\t") for ln in raw.replace("\r", "").split("\n") if ln.strip()]
+
+                def _is_num(x):
+                    try:
+                        float(str(x).replace("$", "").replace(",", "").strip())
+                        return True
+                    except Exception:
+                        return False
+                if rows and not _is_num(rows[0][0]):     # drop a pasted header row
+                    rows = rows[1:]
+                HEAD = ["CasePrice", "CaseQuantity", "CasesOrdered", "Date", "Location", "ProductCode",
+                        "ReorderNumber", "Supplier", "Description", "Note", "ReferenceNumber"]
+                out, skipped = [], 0
+                for r in rows:
+                    r = (list(r) + [""] * 11)[:11]
+                    try:
+                        if float(str(r[2]).replace(",", "").strip() or 0) == 0:   # CasesOrdered 0/blank -> drop
+                            skipped += 1
+                            continue
+                    except Exception:
+                        skipped += 1
+                        continue
+                    if date:
+                        r[3] = date                                              # uniform Monday date
+                    out.append(r)
+                buf = _io.StringIO()
+                w = _csv.writer(buf)
+                w.writerow(HEAD)
+                for r in out:
+                    w.writerow(r)
+                return self._send(200, {"csv": buf.getvalue(), "rows": len(out), "skipped": skipped})
+            except Exception as e:
+                return self._send(200, {"error": "Couldn't build the import file: %s" % e})
         if u.path == "/api/compare":
             try:
                 import base64, io, csv, compare as cmp

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PO Import Builder — Top Ten Buyer</title>
+<style>
+  :root{ --navy:#0F3A4C; --teal:#15728E; --line:#dce3e7; --bg:#f5f8fa; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:14px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1d2a30; background:var(--bg); }
+  header{ background:var(--navy); color:#fff; padding:14px 16px; }
+  header b{ font-size:16px; } header .sub{ font-size:12px; opacity:.85; }
+  .wrap{ max-width:880px; margin:0 auto; padding:18px; }
+  label{ font-size:12px; color:#5a6470; display:block; margin:0 0 3px; }
+  textarea{ width:100%; height:200px; border:1px solid var(--line); border-radius:8px; padding:8px; font:12px/1.4 monospace; resize:vertical; }
+  input[type=text]{ border:1px solid var(--line); border-radius:8px; padding:8px; font:inherit; }
+  button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:10px 16px; cursor:pointer; font-size:14px; }
+  button.ghost{ background:#fff; color:var(--navy); border:1px solid var(--line); }
+  button:disabled{ opacity:.5; }
+  .row{ display:flex; gap:12px; align-items:flex-end; flex-wrap:wrap; margin:10px 0; }
+  .hint{ font-size:12px; color:#5a6470; }
+  .pill{ display:inline-block; background:#eaf3f6; border:1px solid var(--line); border-radius:20px; padding:3px 10px; font-size:12px; margin-right:6px; }
+  #out{ margin-top:12px; }
+</style>
+</head>
+<body>
+  <header><b>PO Import Builder</b><div class="sub">Paste the finished order, get the Cloud Retailer import CSV, ready to upload</div></header>
+  <div class="wrap">
+    <label>Paste the Add-to-Order PO Import section (columns W to AF: CasePrice, CaseQuantity, CasesOrdered, Date, Location, ProductCode, ReorderNumber, Supplier, Description, Note)</label>
+    <textarea id="data" placeholder="Select those columns in Excel and paste here. A header row is fine, it'll be skipped."></textarea>
+    <div class="row">
+      <div><label>PO date (the Monday date)</label><input type="text" id="date" placeholder="mm/dd/yyyy" size="14"/></div>
+      <button onclick="run()" id="go">Build import CSV</button>
+      <button class="ghost" onclick="dl()" id="dlBtn" style="display:none">Download CSV</button>
+    </div>
+    <div id="out" class="hint"></div>
+    <div class="hint" style="margin-top:10px">Drops any zero-case rows, stamps every row with the date you enter, and writes Cloud Retailer's exact import columns. Then upload it in CR under the Custom Purchase Order Import Tool, same as always.</div>
+  </div>
+<script>
+  const $=id=>document.getElementById(id);
+  let csv='', dt='';
+  function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  async function run(){
+    const data=$('data').value.trim();
+    if(!data){ $('out').textContent='Paste the order rows first.'; return; }
+    dt=$('date').value.trim();
+    $('go').disabled=true; $('out').textContent='Building...'; $('dlBtn').style.display='none';
+    let d;
+    try{ d=await (await fetch('/api/poimport',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({data,date:dt})})).json(); }
+    catch(e){ $('out').textContent='Could not reach the server.'; $('go').disabled=false; return; }
+    $('go').disabled=false;
+    if(d.error){ $('out').textContent=d.error; return; }
+    csv=d.csv||'';
+    $('out').innerHTML=`<span class="pill">${d.rows} rows ready</span>`+(d.skipped?`<span class="pill">${d.skipped} zero-case rows dropped</span>`:'')+(dt?`<span class="pill">dated ${esc(dt)}</span>`:'<span class="pill">no date set</span>');
+    $('dlBtn').style.display=csv?'inline-block':'none';
+  }
+  function dl(){
+    const blob=new Blob([csv],{type:'text/csv'});
+    const a=document.createElement('a');
+    const tag=(dt||'').replace(/[^0-9]/g,'-');
+    a.href=URL.createObjectURL(blob); a.download='wine po import '+(tag||'today')+'.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+  }
+</script>
+</body>
+</html>
