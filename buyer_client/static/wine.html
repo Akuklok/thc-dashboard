@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wine Buyer Assistant — Top Ten Buyer</title>
+<style>
+  :root{ --navy:#0F3A4C; --teal:#15728E; --line:#dce3e7; --bg:#f5f8fa; --maroon:#8E2A45; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:14px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1d2a30; background:var(--bg); }
+  header{ background:var(--navy); color:#fff; padding:18px 20px; }
+  header b{ font-size:19px; } header .sub{ font-size:13px; opacity:.85; margin-top:2px; }
+  .wrap{ max-width:900px; margin:0 auto; padding:20px; }
+  .intro{ color:#3a4750; margin:4px 0 18px; }
+  h2{ font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:var(--teal); margin:22px 0 10px; }
+  .cards{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media (max-width:640px){ .cards{ grid-template-columns:1fr; } }
+  .card{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:8px; }
+  .card h3{ margin:0; font-size:16px; color:var(--navy); }
+  .card p{ margin:0; font-size:13px; color:#5a6470; flex:1; }
+  .card .meta{ font-size:12px; color:#5a6470; }
+  a.btn, button.btn{ background:var(--navy); color:#fff; text-decoration:none; border:0; border-radius:8px; padding:10px 14px; font-size:14px; text-align:center; cursor:pointer; display:inline-block; }
+  a.btn.off{ background:#c9d3d8; pointer-events:none; }
+  a.btn.ghost{ background:#fff; color:var(--navy); border:1px solid var(--line); }
+  .asof{ font-size:12px; color:#5a6470; margin-bottom:8px; }
+  .vision{ margin-top:22px; background:#fff; border:1px solid var(--line); border-left:4px solid var(--maroon); border-radius:10px; padding:14px 16px; }
+  .vision b{ color:var(--navy); }
+</style>
+</head>
+<body>
+  <header><b>Wine Buyer Assistant</b><div class="sub">The weekly wine order, in one place</div></header>
+  <div class="wrap">
+    <div class="intro">The reports are pulled and cleaned automatically overnight. The ad math and the import file are a paste away. Same order Laura builds, with the grunt-work taken out.</div>
+
+    <h2>Today's prep · pulled and cleaned automatically</h2>
+    <div class="asof" id="asof">Loading…</div>
+    <div class="cards" id="prep"></div>
+
+    <h2>Tools</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Ad helper</h3>
+        <p>Paste the weekly or Sunday ad list. It matches each item to its UPC, pulls stock and sales, and suggests the cases to hit the weeks-of-supply target. Flags multiple-UPC items and buy-month conflicts.</p>
+        <a class="btn" href="/ad.html">Open ad helper</a>
+      </div>
+      <div class="card">
+        <h3>PO import builder</h3>
+        <p>Paste the finished order, enter the Monday date, and download Cloud Retailer's import CSV, ready to upload. No new book, no deleting columns.</p>
+        <a class="btn" href="/poimport.html">Open PO import builder</a>
+      </div>
+    </div>
+
+    <div class="vision">
+      <b>Coming next:</b> the assistant moves inside Excel. It can already look at your screen and answer questions today. Next it lives right in the spreadsheet, proposing the adds, deletes, and clean-ups and doing them once the buyer approves. Built and waiting on IT to enable Office add-ins.
+    </div>
+  </div>
+<script>
+  const $=id=>document.getElementById(id);
+  function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  async function load(){
+    let d;
+    try{ d=await (await fetch('/api/wineprep')).json(); }
+    catch(e){ $('asof').textContent='Could not load.'; return; }
+    $('asof').textContent = d.date ? ('Data date: '+d.date) : 'Not built yet — run the Daily buying build once.';
+    $('prep').innerHTML = (d.files||[]).map(f=>{
+      const ok=f.available;
+      return `<div class="card"><h3>${esc(f.label)}</h3>`+
+        `<p class="meta">${ok?(f.rows.toLocaleString()+' rows, filtered and sorted, paste-ready'):'not built yet'}</p>`+
+        `<a class="btn ${ok?'':'off'}" href="/api/dl?name=${encodeURIComponent(f.name)}">Download</a></div>`;
+    }).join('');
+  }
+  load();
+</script>
+</body>
+</html>
