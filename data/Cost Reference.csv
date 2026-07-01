@@ -231,7 +231,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 685165387120,THC,20.72,Lift Bridge Supports to Hit Pricing,
 685165385218,THC,9.9,$14.40/cs Rebate paid out by LB at the end of each quarter,
 685165385119,THC,9.9,$14.40/cs Rebate paid out by LB at the end of each quarter,
-850072957111,THC,8.42,,
 198715259247,THC,11.2,,
 198715952650,THC,11.2,,
 198715262681,THC,11.2,,
@@ -251,7 +250,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 197644401932,THC,6.99,,
 197644908578,THC,11.2,,
 197644147694,THC,6.99,,
-850072957098,THC,8.42,,
 620221420205,THC,9.73,Extra on 12pk to make up for 4pk,
 620221420120,THC,9.73,Extra on 12pk to make up for 4pk,
 602221420034,THC,9.73,Extra on 12pk to make up for 4pk,
@@ -322,8 +320,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 673658343036,THC,16.67,Pallet Buy 104 Case,
 673658343043,THC,13.34,Pallet Buy 104 Case,
 673658342886,THC,10.0,Pallet Buy 104 Case,
-850072957173,THC,9.08,,
-850072957197,THC,8.42,,
 850013921089,THC,2.0,,
 850013921492,THC,7.33,,
 850013921249,THC,2.0,,
@@ -337,11 +333,15 @@ upc,Department,Buyer Cost,Deal,Buy Months
 860008762467,THC,11.33,,
 860008762443,THC,11.33,,
 860012955015,THC,23.04,,
-850072957234,THC,9.08,,
 850072957074,THC,9.08,,
 850072957029,THC,9.08,,
 850072957159,THC,9.08,,
+850072957111,THC,8.42,,
 850072957135,THC,9.08,,
+850072957098,THC,8.42,,
+850072957173,THC,9.08,,
+850072957197,THC,8.42,,
+850072957234,THC,9.08,,
 850072957265,THC,18.23,,
 649696068644,THC,2.15,,
 649696065605,THC,2.15,,
@@ -387,8 +387,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 850009601230,THC,10.67,,
 850009601407,THC,16.0,,
 810091530252,THC,10.33,,
-810091530368,THC,10.33,,
 810091530849,THC,13.33,,
+810091530368,THC,10.33,,
 810012698610,THC,11.75,,
 810012698634,THC,11.75,,
 810012698597,THC,11.75,,
@@ -1190,11 +1190,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82100179077,Wine,6.85,,
 82100179039,Wine,4.76,,
 85000007570,Wine,6.76,,
-85000029022,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000029022,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000029886,Wine,7.56,,1|3|6|9
-85000031780,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000031780,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000031797,Wine,7.56,,1|3|6|9
-85000032879,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000032879,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 18341751260,Wine,7.42,,
 85000008799,Wine,9.52,,
 85000426746,Wine,9.52,,
@@ -1206,82 +1206,82 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000022108,Wine,9.52,,
 85000016046,Wine,7.42,,
 85000016039,Wine,7.42,,
-85000031926,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000031926,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000031933,Wine,7.56,,1|3|6|9
 85000031711,Wine,14.18,,
-18341751017,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+18341751017,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000005217,Wine,6.18,,
 18341151015,Wine,7.56,,1|3|6|9
 85000022948,Wine,14.18,,
 85000029947,Wine,3.09,,
-18341751055,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+18341751055,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000026090,Wine,14.18,,
 8553601,Wine,6.18,,
 18341151053,Wine,7.56,,1|3|6|9
 85000028421,Wine,3.09,,
-85000034927,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000034927,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000036181,Wine,7.56,,1|3|6|9
 85000021576,Wine,7.56,,1|3|6|9
-85000032176,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000032176,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000032183,Wine,7.56,,1|3|6|9
-18341751109,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+18341751109,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000005460,Wine,6.18,,
 18341151107,Wine,7.56,,1|3|6|9
-85000016688,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000016688,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000026083,Wine,14.18,,
 85000005590,Wine,6.18,,
 85000016671,Wine,7.56,,1|3|6|9
 85000028438,Wine,3.09,,
-85000029008,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000029008,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000029893,Wine,7.56,,1|3|6|9
 85000037614,Wine,7.56,,1|3|6|9
-85000037607,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
-85000033319,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000037607,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+85000033319,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000033326,Wine,7.56,,1|3|6|9
-85000020456,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000020456,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000031346,Wine,14.18,,
 85000005941,Wine,6.18,,
 85000020609,Wine,7.56,,1|3|6|9
-85000014448,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000014448,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000022955,Wine,14.18,,
 85000005286,Wine,6.18,,
 85000014431,Wine,7.56,,1|3|6|9
 85000028414,Wine,3.09,,
-85000017074,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000017074,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 8556006,Wine,6.18,,
 85000028551,Wine,14.18,,
 85000017364,Wine,7.56,,1|3|6|9
-85000019894,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000019894,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000041857,Wine,6.18,,
 85000020289,Wine,7.56,,1|3|6|9
 85000028568,Wine,14.18,,
-85000021088,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000021088,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000021132,Wine,7.56,,1|3|6|9
-85000015810,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000015810,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000031018,Wine,14.18,,
 8562609,Wine,6.18,,
 85000018132,Wine,7.56,,1|3|6|9
 85000029978,Wine,3.09,,
-85000025871,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000025871,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000046647,Wine,6.18,,
 85000028544,Wine,14.18,,
 85000026472,Wine,7.56,,1|3|6|9
 85000028407,Wine,3.09,,
-85000025055,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000025055,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000025062,Wine,7.56,,1|3|6|9
-18341751024,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+18341751024,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 18341151022,Wine,7.56,,1|3|6|9
 85000031001,Wine,14.18,,
 85000029961,Wine,3.09,,
 85000029909,Wine,7.56,,1|3|6|9
-85000029015,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
-85000018491,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000029015,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+85000018491,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 8557306,Wine,6.18,,
 85000018682,Wine,7.56,,1|3|6|9
 85000029954,Wine,3.09,,
-85000029923,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+85000029923,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000029916,Wine,7.56,,1|3|6|9
-18341751062,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|9
+18341751062,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 8553106,Wine,6.18,,
 18341151060,Wine,7.56,,1|3|6|9
 85000004241,Wine,10.18,,
@@ -1521,7 +1521,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 605779976480,Wine,7.72,,
 795652200556,Wine,4.05,,
 605779976251,Wine,4.05,,
-31259004327,Wine,11.52,"Buy any 4 Josh (all flavors and sizes) and receive 1 free Josh Cabernet (#859252), plus 1 #1554031 Josh Cabernet 375ml on every 17.",
+31259004327,Wine,11.31,"Buy any 4 Josh (all flavors and sizes) and receive 1 free Josh Cabernet (#859252), plus 1 #1554031 Josh Cabernet 375ml on every 17.",
 31259004204,Wine,2.34,,
 857744001318,Wine,8.32,,
 857744001325,Wine,6.43,,
@@ -1544,7 +1544,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 31259005348,Wine,6.43,,
 31259005706,Wine,8.32,,
 31259049229,Wine,8.32,,
-31259049236,Wine,11.52,"Buy any 4 Josh (all flavors and sizes) and receive 1 free Josh Cabernet (#859252), plus 1 #1554031 Josh Cabernet 375ml on every 17.",
+31259049236,Wine,11.31,"Buy any 4 Josh (all flavors and sizes) and receive 1 free Josh Cabernet (#859252), plus 1 #1554031 Josh Cabernet 375ml on every 17.",
 31259003047,Wine,11.52,,
 86395354003,Wine,11.93,,
 86395350005,Wine,6.34,,
@@ -1585,18 +1585,18 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000018026,Wine,8.18,,
 85000011270,Wine,8.18,,
 8560300,Wine,14.03,,
-8531104,Wine,8.18,,
+8531104,Wine,8.85,,
+8561707,Wine,8.85,,
 8561804,Wine,14.03,,
-8561707,Wine,8.18,,
+8580605,Wine,8.85,,
 8597100,Wine,14.03,,
-8580605,Wine,8.18,,
-8598604,Wine,8.18,,
-85000018415,Wine,8.18,,
+8598604,Wine,8.85,,
+85000018415,Wine,8.85,,
+8565208,Wine,8.85,,
 8565305,Wine,14.03,,
-8565208,Wine,8.18,,
-85000013052,Wine,8.18,,
+85000013052,Wine,8.85,,
+8570909,Wine,8.85,,
 8572101,Wine,14.03,,
-8570909,Wine,8.18,,
 851645004058,Wine,13.42,,
 85000033661,Wine,8.09,,
 85000036365,Wine,8.09,,
@@ -1860,6 +1860,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 860001082616,Wine,10.83,,
 5541630220184,Wine,11.17,,
 400000016924,Wine,14.83,,
+8052740494580,Wine,10.17,,
 400000011233,Wine,30.17,,
 860000502825,Wine,12.17,,
 860000502818,Wine,14.17,,
@@ -2382,28 +2383,28 @@ upc,Department,Buyer Cost,Deal,Buy Months
 664841007002,Wine,14.88,,
 715543111327,Wine,16.88,,
 727760510531,Wine,27.71,,
-740814152242,Wine,13.42,,
 812643020006,Wine,12.87,,
 80232000030,Wine,13.42,,
-729722700103,Wine,7.2,3 free Angeline CA PN on 24 cases,3|5|8|11|12
-729722700271,Wine,7.2,3 free Angeline CA PN on 24 cases,3|5|8|11|12
-729722700127,Wine,7.2,3 free Angeline CA PN on 24 cases,3|5|8|11|12
-729722700219,Wine,9.86,3 free Angeline CA PN on 24 cases,3|5|8|11|12
-729722700257,Wine,9.86,3 free Angeline CA PN on 24 cases,3|5|8|11|12
-729722700608,Wine,7.2,3 free Angeline CA PN on 24 cases,3|5|8|11|12
+729722700103,Wine,7.2,3 free Angeline CA PN on 24 cases,
+729722700271,Wine,7.2,3 free Angeline CA PN on 24 cases,
+729722700127,Wine,7.2,3 free Angeline CA PN on 24 cases,
+729722700219,Wine,9.86,3 free Angeline CA PN on 24 cases,
+729722700257,Wine,9.86,3 free Angeline CA PN on 24 cases,
+729722700608,Wine,7.2,3 free Angeline CA PN on 24 cases,
 613605062054,Wine,34.85,,
 716898950012,Wine,96.85,,
 855622000118,Wine,31.31,,
 855622000811,Wine,31.31,,
 855622000910,Wine,12.65,,
 855622000019,Wine,31.31,,
+86001458866,Wine,12.09,,
 856184006211,Wine,16.65,,
 856184006112,Wine,10.65,,
 856184006310,Wine,10.65,,
 17224510208,Wine,6.97,,
-17224710202,Wine,12.92,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-17224710226,Wine,12.92,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-17224710219,Wine,20.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $34.99),2|3|4|7|8|11
+17224710202,Wine,12.92,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+17224710226,Wine,12.92,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+17224710219,Wine,20.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $34.99),
 85000020562,Wine,17.76,,
 724404009031,Wine,25.09,,
 724404009383,Wine,14.09,,
@@ -2415,13 +2416,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 850067411048,Wine,9.54,,
 8027185219111,Wine,56.09,,
 17224110101,Wine,127.68,,
-17224412106,Wine,64.06,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $76.49),2|3|4|7|8|11
-17224713104,Wine,32.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $49.99),2|3|4|7|8|11
-17224712107,Wine,54.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $69.99),2|3|4|7|8|11
+17224412106,Wine,64.06,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $76.49),
+17224713104,Wine,32.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $49.99),10|11|12
+17224712107,Wine,54.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $69.99),
 17224510109,Wine,28.72,,
-17224770107,Wine,19.92,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-17224720102,Wine,126.09,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-17224710011,Wine,21.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
+17224770107,Wine,19.92,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+17224720102,Wine,126.09,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+17224710011,Wine,21.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
 857885000003,Wine,14.58,,
 857885000294,Wine,9.03,,
 400000023489,Wine,235.1,,
@@ -2442,9 +2443,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 3760302820917,Wine,25.09,,
 812949023459,Wine,8.98,,
 81753809423,Wine,24.76,,
-17224760122,Wine,13.09,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
+17224760122,Wine,13.09,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
 17224560128,Wine,6.22,,
-17224750123,Wine,7.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
+17224750123,Wine,7.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
 753625103402,Wine,8.45,,
 81753811020,Wine,232.18,,
 97546512128,Wine,24.59,,
@@ -2453,15 +2454,15 @@ upc,Department,Buyer Cost,Deal,Buy Months
 489192372975,Wine,56.85,,
 689192370278,Wine,66.85,,
 689192370179,Wine,43.43,,
-636595108755,Wine,229.18,,
+636595123758,Wine,229.18,Case 1,
 853562004401,Wine,14.09,,
 769692007239,Wine,14.42,,
 892420000018,Wine,26.76,,
 819451006505,Wine,33.52,,
 819451006000,Wine,97.78,,
 831526000638,Wine,5.72,,
-831526000614,Wine,10.17,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-812949023053,Wine,9.76,Net Pricing,
+831526000614,Wine,10.17,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+812949023053,Wine,9.42,Net Pricing,
 15917026968,Wine,37.68,,
 721512000691,Wine,6.15,,
 721512000622,Wine,6.31,,
@@ -2470,8 +2471,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 721512000660,Wine,8.65,,
 721512000653,Wine,10.31,,
 400000021645,Wine,45.18,,
-862442000020,Wine,37.68,,
-862442000013,Wine,38.11,,
+862442000020,Wine,36.85,,
+862442000013,Wine,36.85,,
 47156357503,Wine,51.76,,
 47156107504,Wine,35.09,,
 47156157509,Wine,26.09,,
@@ -2491,8 +2492,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 819135020018,Wine,21.43,,
 400000023410,Wine,273.93,,
 851115002188,Wine,24.68,,
+851115002706,Wine,11.42,,
 819451005003,Wine,11.42,,
-851115002287,Wine,11.09,Deepest pricing as Case 1,
+851115002287,Wine,11.42,Deepest pricing as Case 1,
 722690500058,Wine,12.09,,
 81753802363,Wine,218.18,,
 734599721656,Wine,279.18,,
@@ -2503,6 +2505,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 673087131242,Wine,7.31,,
 740814050005,Wine,13.42,,
 740814100007,Wine,22.23,,
+740814152242,Wine,13.42,,
 740814130004,Wine,33.78,,
 740814020008,Wine,18.89,,
 740814070003,Wine,13.42,,
@@ -2534,8 +2537,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 670580009177,Wine,7.8,,
 6009648622647,Wine,29.09,,
 710909510103,Wine,5.64,,
-710909710107,Wine,10.75,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-710909720106,Wine,8.59,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
+710909710107,Wine,10.75,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+710909720106,Wine,8.59,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
 860003017517,Wine,50.34,,
 860003017500,Wine,35.43,,
 860003017524,Wine,47.34,,
@@ -2551,12 +2554,12 @@ upc,Department,Buyer Cost,Deal,Buy Months
 732099038687,Wine,10.09,,
 732099038694,Wine,11.42,,
 877397000452,Wine,10.09,,
-82544990528,Wine,9.09,1 free on 8,
-82544990719,Wine,9.09,1 free on 8,
-82544990047,Wine,9.09,1 free on 8,
-82544990474,Wine,9.09,1 free on 8,
-82544991266,Wine,9.09,1 free on 8,
-82544009046,Wine,9.09,1 free on 8,
+82544990528,Wine,8.39,1 free on 8,
+82544990719,Wine,8.39,1 free on 8,
+82544990047,Wine,8.39,1 free on 8,
+82544990474,Wine,8.39,1 free on 8,
+82544991266,Wine,8.39,1 free on 8,
+82544009046,Wine,8.39,1 free on 8,
 721512005023,Wine,8.31,,
 721512005030,Wine,12.98,,
 721512005047,Wine,6.31,,
@@ -2590,12 +2593,12 @@ upc,Department,Buyer Cost,Deal,Buy Months
 182442000401,Wine,11.02,,
 8031481004661,Wine,17.09,,
 859889006005,Wine,31.31,,
-859889006210,Wine,21.31,1 free Boen Tri-App Pinot Noir on 5 Cases M/M all Copper Cane Portfolio,
+859889006210,Wine,17.98,1 free Boen Tri-App Pinot Noir on 5 Cases M/M all Copper Cane Portfolio,
 859889006906,Wine,17.98,,
 859889006302,Wine,17.98,,
 859889006111,Wine,62.63,,
-860009046009,Wine,12.65,1 free Boen Tri-App Pinot Noir on 5 Cases M/M all Copper Cane Portfolio,
-860009046030,Wine,10.65,1 free Boen Tri-App Pinot Noir on 5 Cases M/M all Copper Cane Portfolio,
+860009046009,Wine,11.31,1 free Boen Tri-App Pinot Noir on 5 Cases M/M all Copper Cane Portfolio,
+860009046030,Wine,9.98,1 free Boen Tri-App Pinot Noir on 5 Cases M/M all Copper Cane Portfolio,
 851718000628,Wine,10.09,,
 851718000604,Wine,18.18,,
 851718000758,Wine,20.18,,
@@ -2645,8 +2648,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 97546082003,Wine,17.51,,
 761247105124,Wine,14.09,,
 761247107326,Wine,20.09,,
-710909750103,Wine,8.59,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
-710909760102,Wine,11.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,2|3|4|7|8|11
+710909750103,Wine,8.59,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
+710909760102,Wine,11.42,5 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio,
 88254000007,Wine,10.36,,
 88254758748,Wine,26.85,,
 88254758724,Wine,12.87,,
@@ -2672,17 +2675,16 @@ upc,Department,Buyer Cost,Deal,Buy Months
 352833000406,Wine,22.18,,
 785214690758,Wine,37.59,,
 785214490754,Wine,37.59,,
-856036001098,Wine,3.76,1 free case of rose bubbles on 5,
+856036001098,Wine,3.98,1 free case of rose bubbles on 5,
 856036001005,Wine,8.58,,
-856036001067,Wine,3.76,1 free case of rose bubbles on 5,
-856036001043,Wine,3.76,1 free case of rose bubbles on 5,
+856036001067,Wine,3.98,1 free case of rose bubbles on 5,
+856036001043,Wine,3.98,1 free case of rose bubbles on 5,
+856036001074,Wine,3.98,1 free case of rose bubbles on 5,
 856036001081,Wine,8.58,,
-856036001074,Wine,3.76,1 free case of rose bubbles on 5,
-856036001197,Wine,3.74,1 free case of rose bubbles on 5,
-856036001692,Wine,3.74,1 free case of rose bubbles on 5,
+856036001197,Wine,3.98,1 free case of rose bubbles on 5,
+856036001692,Wine,3.98,1 free case of rose bubbles on 5,
 81753050207,Wine,52.4,,
 81753050221,Wine,32.13,,
-81753050351,Wine,55.43,,
 81753833435,Wine,165.18,,
 81753837624,Wine,90.18,,
 81753802479,Wine,59.76,,
@@ -4472,7 +4474,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 859551001130,Wine,12.12,,
 6328231030356,Wine,25.58,,
 632823102038,Wine,16.79,,
-748789805057,Wine,12.12,,
 748789805033,Wine,14.12,,
 89419458114,Wine,36.79,,
 3760108440319,Wine,36.79,,
@@ -4648,7 +4649,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 852165006362,Wine,9.46,,
 852165006386,Wine,9.46,,
 748789700499,Wine,18.25,,
-748789700482,Wine,18.25,,
+748789700482,Wine,20.92,,
 748789700024,Wine,12.46,,
 814829022729,Wine,25.62,,
 814829026727,Wine,23.96,,
@@ -4672,7 +4673,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 747846250007,Wine,11.46,,
 791066018824,Wine,49.12,,
 615503150093,Wine,34.12,,
-615503050126,Wine,11.46,,
+615503050126,Wine,12.79,,
 747846637501,Wine,20.25,,
 891178001063,Wine,12.12,,
 3760171672402,Wine,11.46,,
@@ -4821,7 +4822,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 747846783000,Wine,9.46,,
 747846640273,Wine,16.25,,
 24680975311,Wine,18.12,,
-400000025230,Wine,20.12,,
 896136001826,Wine,38.46,,
 748789710016,Wine,29.58,,
 3477370000065,Wine,13.83,,
@@ -4931,10 +4931,10 @@ upc,Department,Buyer Cost,Deal,Buy Months
 22916573089,Wine,8.0,,
 851390003009,Wine,8.79,,
 851390003023,Wine,8.79,,
-8004730005108,Wine,10.12,Net Down Pricing,
-80516121765,Wine,5.73,Net Down Pricing,
-8004730005078,Wine,10.12,Net Down Pricing,
-8004730005061,Wine,5.73,Net Down Pricing,
+8004730005108,Wine,11.46,Net Down Pricing,
+80516121765,Wine,6.4,Net Down Pricing,
+8004730005078,Wine,11.46,Net Down Pricing,
+8004730005061,Wine,6.4,Net Down Pricing,
 85203005199,Wine,7.35,,
 20106502871,Wine,9.46,,
 8801100130978,Wine,4.62,,
@@ -5002,10 +5002,10 @@ upc,Department,Buyer Cost,Deal,Buy Months
 607054492500,Wine,8.12,,
 607054492609,Wine,8.12,,
 607054492272,Wine,7.46,,
-88603011500,Wine,5.68,1 on 10 cases NC,
-88603010954,Wine,5.68,1 on 10 cases NC,
-88603010695,Wine,5.12,1 on 10 cases NC,
-88603010688,Wine,5.12,1 on 10 cases NC,
+88603011500,Wine,8.0,1 on 10 cases NC,
+88603010954,Wine,8.0,1 on 10 cases NC,
+88603010695,Wine,6.19,1 on 10 cases NC,
+88603010688,Wine,6.19,1 on 10 cases NC,
 871752000019,Wine,11.33,,
 810034600134,Wine,5.12,,
 89098801034,Wine,16.25,,
@@ -5274,9 +5274,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 98709434004,Wine,9.75,,
 98709436046,Wine,22.5,,
 98709436008,Wine,14.25,,
-8052740494580,Wine,10.17,,
-851115002706,Wine,11.42,,
-86001458866,Wine,12.09,,
 80686833697,Spirits,12.07,,
 730699618544,Spirits,34.08,Buy 5 cases Receive 1 case NC - Accum,
 730669325717,Spirits,47.92,,
