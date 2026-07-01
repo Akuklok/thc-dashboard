@@ -1,64 +1,53 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Tuesday, Jun 30, 2026
+  RECOMMENDED WINE ORDER          Wednesday, Jul 01, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     95,740
-  Coverable by transfer .......  $     45,373   (47%)
-  NET BUY from vendors ........  $     18,759   <- the order
+  Gross need (all stores) .....  $     84,245
+  Coverable by transfer .......  $     45,815   (54%)
+  NET BUY from vendors ........  $     14,360   <- the order
 
-  49 items   |   1,682 units to buy   |   5,759 units to rebalance
-  Transfers: 640 moves  -  530 urgent (190 stockouts, 340 under 2wk), 110 routine
+  44 items   |   1,381 units to buy   |   5,698 units to rebalance
+  Transfers: 639 moves  -  514 urgent (176 stockouts, 338 under 2wk), 125 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 6 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 5 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Fowler Wine Cabernet Sauvignon / D   2u/2cs            $32      2     0   OUT
-   2  Atomic Boss Blue Rizz 500ml          36u/3cs            $0     38     0   OUT
-   3  90+ Cellars DOC Prosecco Lot 50 (si  168u/7cs         $452    168     0   OUT
-   4  LaMarca Prosecco 187ml               24u/1cs           $52     22     0   OUT
+   1  Atomic Boss Blue Rizz 500ml          36u/3cs            $0     36     0   OUT
+   2  90+ Cellars DOC Prosecco Lot 50 (si  168u/7cs         $454    170     0   OUT
+   3  Battenfeld Spanier Gruner Sylvaner   12u/1cs          $152      8     0   OUT
+   4  LaMarca Prosecco 187ml               24u/1cs           $94     22     0   OUT
    5  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
-   6  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
-   7  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
-   8  Atomic Boss Berry Blast 500ml        24u/2cs           $64     22     0   OUT
-   9  Barefoot Pinot Noir 250ml            24u/4cs          $144     21     0   0.5
-  10  Battenfeld Spanier Gruner Sylvaner   12u/1cs          $152      7     0   0.5
-  11  Soon Hari Strawberry Soju 375ml      20u/1cs           $87     22     0   0.9
-  12  Bota Box Sauvignon Blanc 3L Box      204u/68cs      $2,992    203     0   1.4
-  13  Gallo Merlot 1.5L                    18u/3cs          $123     19     0   1.4
-  14  Bota Box Pinot Grigio 3L Box         132u/44cs      $2,570    137     4   1.9
-  15  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $87     12     0   2.0
-  16  Bota Box Chardonnay 3L Box           63u/21cs         $924     64     0   2.1
-  17  Yellow Tail Jammy Red Roo 1.5L       6u/1cs            $47      6     0   2.1
-  18  Bota Box Brightside Sauv Blanc/PG 3  30u/10cs         $440     30     0   2.2
-  19  Underwood Bubbles 355ml              108u/9cs         $448    138    32   2.4
-  20  Bota Box Cabernet Sauvignon 3L Box   48u/16cs       $2,610     52     4   2.4
-  ...and 29 more in the full list.
+   6  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
+   7  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
+   8  Fowler Wine Cabernet Sauvignon / D   1u/1cs            $16      1     0   OUT
+   9  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
+  10  Atomic Boss Berry Blast 500ml        24u/2cs           $64     21     0   OUT
+  11  Barefoot Pinot Noir 250ml            24u/4cs          $144     21     0   0.5
+  12  Gallo Merlot 1.5L                    18u/3cs          $123     19     0   1.4
+  13  Yellow Tail Jammy Red Roo 1.5L       6u/1cs            $47      8     0   1.4
+  14  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $87     12     0   2.0
+  15  Gekkeikan Sake 1.5L                  12u/2cs          $128      9     0   2.3
+  16  Elk Cove Pinot Noir Rose 750ml       12u/1cs          $153     18     5   2.4
+  17  The Paring Sauvignon Blanc 750ml     12u/1cs          $216      7     0   2.4
+  18  Mionetto Alcohol Removed Sparkling   6u/1cs            $64     10     4   2.5
+  19  Bota Box Sauvignon Blanc 3L Box      114u/38cs      $1,672    136    21   2.6
+  20  Underwood Bubbles 355ml              96u/8cs          $406    130    31   2.6
+  ...and 24 more in the full list.
 
-  NEEDS REVIEW (6 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (5 items the system isn't fully sure about - check before ordering):
     Atomic Boss Blue Rizz 500ml               No cost data - verify price; Margin over 95% - check retail
     LaMarca Prosecco 187ml                    Off buy-month - confirm timing
     Atomic Boss Berry Blast 500ml             Margin looks off - check retail/cost
-    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
     90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
-    Bota Box Redvolution 3L Box               Margin looks off - check retail/cost
+    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
 
-  BEING REMOVED - DO NOT REORDER (8 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
     Cannonball Cabernet Sauvignon 750ml         (would have bought 1u)
     Daou Cabernet Sauvignon 750ml               (would have bought 36u)
-    Franzia Chardonnay 5L Box                   (would have bought 48u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 12u)
-    Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 8u)
-    Franzia Sunset Blush 5L Box                 (would have bought 48u)
+    Franzia Chardonnay 5L Box                   (would have bought 56u)
+    Franzia Crisp White 5L Box                  (would have bought 12u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 24u)
+    Franzia Sunset Blush 5L Box                 (would have bought 52u)
     Ganbei Baljiu 750ML/ D                      (would have bought 1u)
-    Mogen David Concord 3L                      (would have bought 8u)
-
-  WAIT FOR BUY-MONTH (7 routine deal items out of their buy month - $8,641 cheaper to buy in-month):
-    Black Box Buttery Chardonnay 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Cab Sauv 3L Box                   Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Chardonnay 3L Box                 Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Merlot 3L Box                     Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Pinot Grigio 3L Box               Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Sauvignon Blanc 3L Box            Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Tart Tangy Sauvignon Blanc 3L Bo  Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
