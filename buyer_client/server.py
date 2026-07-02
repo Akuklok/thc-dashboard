@@ -1038,17 +1038,16 @@ class Handler(BaseHTTPRequestHandler):
         if u.path == "/api/livesales":
             # near-real-time "today's sales": server-refreshed cache, committed file as fallback
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
-            if _cr_ready():                                # host pulls its own: serve the in-memory cache
-                with _LIVE_LOCK:
-                    d = _LIVE["data"]; ts = _LIVE["ts"]
-                if d is None:
-                    d = _live_from_repo()
-                if (time.time() - ts > 720) and not _LIVE_BUSY.is_set():   # stale -> refresh in background
-                    threading.Thread(target=refresh_live_sales, daemon=True).start()
-            else:                                          # no host creds yet: serve the committed file, read fresh
-                d = _live_from_repo()
+            with _LIVE_LOCK:
+                cache = _LIVE["data"]; cts = _LIVE["ts"]
+            repo = _live_from_repo()
+            d = cache
+            if repo and str(repo.get("as_of", "")) > str((cache or {}).get("as_of", "")):
+                d = repo                                   # committed file is newer than our cache -> serve it
             if not d:
                 return self._send(200, {"available": False})
+            if _cr_ready() and (time.time() - cts > 720) and not _LIVE_BUSY.is_set():   # stale -> refresh in bg
+                threading.Thread(target=refresh_live_sales, daemon=True).start()
             dv = (d.get("depts") or {}).get(dept) or {"units": 0, "sales": 0, "by_store": [], "top": []}
             return self._send(200, {"available": True, "as_of": d.get("as_of"), "date": d.get("date"),
                                     "dept": dept, "chain": d.get("chain") or {},
