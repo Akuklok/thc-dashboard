@@ -491,6 +491,7 @@ function show(v){
   if(v==='vendors') loadVendors();
   if(v==='live') loadLive();
 }
+let liveTimer=null;
 function fmtTime(iso){ if(!iso) return '—'; try{ return new Date(iso).toLocaleString([],{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
 async function loadLive(){
   const dept=$('dept').value;
@@ -516,6 +517,8 @@ async function loadLive(){
     ? '<thead><tr><th>Item</th><th>Code</th><th>Units</th><th>Sales</th></tr></thead><tbody>'+
       tp.map(r=>`<tr><td>${esc(r.item)}</td><td>${esc(r.code)}</td><td>${(r.units||0).toLocaleString()}</td><td>${money(r.sales||0)}</td></tr>`).join('')+'</tbody>'
     : '';
+  clearTimeout(liveTimer);
+  liveTimer=setTimeout(()=>{ if($('live').style.display!=='none') loadLive(); }, 120000);   // refresh every 2 min while viewing
 }
 let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0, lf={}, lfacets={}; const LPAGE=400;
 let listTimer=null, lfTimer=null;

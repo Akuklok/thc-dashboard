@@ -12,7 +12,7 @@ their department's "what to do today" and answers "ask anything" with Claude.
 Run locally:  python server.py   (then open http://localhost:8520)
 Deploy later: same code goes on a small cloud host so all 3 buyers reach it from any computer.
 """
-import os, io, re, glob, json, base64, time, urllib.request, urllib.parse, urllib.error
+import os, io, re, glob, json, base64, time, threading, urllib.request, urllib.parse, urllib.error
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import pandas as pd
@@ -386,6 +386,57 @@ def wineprep_bytes(name):
                 return None
         return get_bytes(name)            # fallback if a plain CSV was ever pushed
     return get_bytes(name)
+
+
+# ---- Live sales: the server keeps today's numbers fresh itself, no reliance on GitHub's scheduler ----
+# Needs the CR_* env vars on the host. Falls back to the committed data/live_sales.json until then.
+_LIVE = {"data": None, "ts": 0.0}
+_LIVE_LOCK = threading.Lock()
+_LIVE_BUSY = threading.Event()
+
+
+def _cr_ready():
+    return bool(os.environ.get("CR_USERNAME") and os.environ.get("CR_BASE"))
+
+
+def _live_from_repo():
+    b = get_bytes("live_sales.json")
+    if not b:
+        return None
+    try:
+        return json.loads(b.decode("utf-8", "replace"))
+    except Exception:
+        return None
+
+
+def refresh_live_sales():
+    """Pull today's sales from Cloud Retailer into the in-memory cache (one at a time)."""
+    if _LIVE_BUSY.is_set():
+        return
+    _LIVE_BUSY.set()
+    try:
+        import cloud_retailer_api as cr
+        summ = cr.sales_summary()
+        with _LIVE_LOCK:
+            _LIVE["data"] = summ
+            _LIVE["ts"] = time.time()
+        print("live sales refreshed:", summ.get("date"), summ.get("rows"), "rows")
+    except Exception as e:
+        print("live sales refresh failed:", e)
+    finally:
+        _LIVE_BUSY.clear()
+
+
+def live_refresher_loop():
+    with _LIVE_LOCK:                                   # seed from the committed file so we're never empty
+        if _LIVE["data"] is None:
+            _LIVE["data"] = _live_from_repo()
+    while True:
+        if _cr_ready():
+            refresh_live_sales()
+            time.sleep(900)                            # ~15 min between full refreshes (the pull itself is slow)
+        else:
+            time.sleep(300)                            # no creds on the host yet: just serve the committed file
 
 
 # Product-list tabs, in the order buyers expect them (extras appended alphabetically).
@@ -985,15 +1036,17 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, {"cols": cols, "rows": disp.values.tolist(), "text": txt,
                                     "total": total, "units": units, "cases": cases, "mode": "store"})
         if u.path == "/api/livesales":
-            # near-real-time "today's sales" for one department, from data/live_sales.json
+            # near-real-time "today's sales": server-refreshed cache, committed file as fallback
             dept = parse_qs(u.query).get("dept", ["THC"])[0]
-            b = get_bytes("live_sales.json")
-            if not b:
+            with _LIVE_LOCK:
+                d = _LIVE["data"]; ts = _LIVE["ts"]
+            if d is None:
+                d = _live_from_repo()
+            if not d:
                 return self._send(200, {"available": False})
-            try:
-                d = json.loads(b.decode("utf-8", "replace"))
-            except Exception:
-                return self._send(200, {"available": False})
+            # if the host has CR creds and our cache is stale, kick a background refresh (non-blocking)
+            if _cr_ready() and (time.time() - ts > 720) and not _LIVE_BUSY.is_set():
+                threading.Thread(target=refresh_live_sales, daemon=True).start()
             dv = (d.get("depts") or {}).get(dept) or {"units": 0, "sales": 0, "by_store": [], "top": []}
             return self._send(200, {"available": True, "as_of": d.get("as_of"), "date": d.get("date"),
                                     "dept": dept, "chain": d.get("chain") or {},
@@ -1322,4 +1375,5 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print(f"Buyer client running on {HOST}:{PORT}")
+    threading.Thread(target=live_refresher_loop, daemon=True).start()   # keeps today's sales fresh on its own
     ThreadingHTTPServer((HOST, PORT), Handler).serve_forever()
