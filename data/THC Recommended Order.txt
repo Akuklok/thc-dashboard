@@ -1,13 +1,13 @@
 ==========================================================================
-  RECOMMENDED THC ORDER          Wednesday, Jul 01, 2026
+  RECOMMENDED THC ORDER          Thursday, Jul 02, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     61,882
-  Coverable by transfer .......  $     35,190   (57%)
-  NET BUY from vendors ........  $     14,717   <- the order
+  Gross need (all stores) .....  $     65,547
+  Coverable by transfer .......  $     36,454   (56%)
+  NET BUY from vendors ........  $     17,048   <- the order
 
-  60 items   |   2,308 units to buy   |   4,674 units to rebalance
-  Transfers: 454 moves  -  279 urgent (111 stockouts, 168 under 2wk), 175 routine
+  64 items   |   2,415 units to buy   |   4,951 units to rebalance
+  Transfers: 476 moves  -  289 urgent (119 stockouts, 170 under 2wk), 187 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 4 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -15,37 +15,37 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Voltage Relax Pack 12pack Variety 1  2u/1cs            $47      2     0   OUT
-   2  Looner Wild Grape 10mg THC 12oz can  87u/87cs         $244     87     0   OUT
-   3  Looner Root Beer 10mg THC Soda 12oz  80u/80cs         $224     80     0   OUT
-   4  Looner Sweet Orange Soda 10mg THC 1  80u/80cs         $224     80     0   OUT
-   5  Looner Professor Pepper 10mg THC 12  80u/80cs         $224     80     0   OUT
-   6  Looner Creme Soda 10mg THC 12oz can  71u/71cs         $199     71     0   OUT
-   7  Looner Peach Lemonade 10mg THC 12oz  59u/59cs         $165     59     0   OUT
-   8  Looner Pink Lemonade 10mg THC 12oz   58u/58cs         $162     58     0   OUT
-   9  Tempter's Strawberry 10mg THC 12oz   54u/54cs         $144     54     0   OUT  22% off
-  10  Looner Deww 10mg THC 12oz can        55u/55cs         $154     55     0   OUT
-  11  Tempter's Citrus 10mg THC 12oz can   42u/42cs         $112     42     0   OUT  22% off
-  12  IYKYK Strawberry Lemonade 10mg 12oz  36u/36cs          $81     36     0   OUT
-  13  Looner Half and Half 10mg THC 12oz   40u/40cs         $112     40     0   OUT
-  14  Looner Lemon Lime 10mg THC 12oz can  38u/38cs         $106     38     0   OUT
-  15  Tempter's Blueberry 10mg THC 12oz c  37u/37cs          $99     37     0   OUT  22% off
-  16  Foundry Nation Two Scoops Root Beer  29u/29cs          $56     29     0   OUT
-  17  Looner Classic Lemonade 10mg THC 12  38u/38cs         $106     38     0   OUT
-  18  Looner Cola 10mg THC 12oz can        36u/36cs         $101     36     0   OUT
-  19  Looner Mocktail Mule 10mg THC 12oz   32u/32cs          $90     32     0   OUT
-  20  Birch's Cherry Seltzer 10mg THC 12o  23u/23cs          $46     23     0   OUT
-  ...and 40 more in the full list.
+   2  THC Mystery Box 12pk                 172u/172cs     $1,376    172     0   OUT
+   3  Looner Wild Grape 10mg THC 12oz can  90u/90cs         $252     90     0   OUT
+   4  Looner Sweet Orange Soda 10mg THC 1  89u/89cs         $249     89     0   OUT
+   5  Looner Root Beer 10mg THC Soda 12oz  87u/87cs         $244     87     0   OUT
+   6  Looner Professor Pepper 10mg THC 12  83u/83cs         $232     83     0   OUT
+   7  Looner Creme Soda 10mg THC 12oz can  73u/73cs         $204     73     0   OUT
+   8  Looner Peach Lemonade 10mg THC 12oz  64u/64cs         $179     64     0   OUT
+   9  Looner Deww 10mg THC 12oz can        61u/61cs         $171     61     0   OUT
+  10  Tempter's Strawberry 10mg THC 12oz   56u/56cs         $150     56     0   OUT
+  11  Looner Pink Lemonade 10mg THC 12oz   58u/58cs         $162     58     0   OUT
+  12  Tempter's Citrus 10mg THC 12oz can   41u/41cs         $110     41     0   OUT
+  13  IYKYK Strawberry Lemonade 10mg 12oz  36u/36cs          $81     36     0   OUT
+  14  Looner Half and Half 10mg THC 12oz   41u/41cs         $115     41     0   OUT
+  15  Looner Lemon Lime 10mg THC 12oz can  39u/39cs         $109     39     0   OUT
+  16  Looner Classic Lemonade 10mg THC 12  38u/38cs         $106     38     0   OUT
+  17  Tempter's Blueberry 10mg THC 12oz c  36u/36cs          $96     36     0   OUT
+  18  Foundry Nation Two Scoops Root Beer  28u/28cs          $54     28     0   OUT
+  19  Looner Cola 10mg THC 12oz can        35u/35cs          $98     35     0   OUT
+  20  Looner Mocktail Mule 10mg THC 12oz   31u/31cs          $87     31     0   OUT
+  ...and 44 more in the full list.
 
   NEEDS REVIEW (4 items the system isn't fully sure about - check before ordering):
     Modist Melt Ginger Lemon Lime THC 10mg 4  New item - set quantity by hand
     Modist Melt Hot Box THC 10mg Variety 12p  New item - set quantity by hand
     Odder Variety Pack 10mg THC 9pk 12oz can  New item - set quantity by hand
-    BLNCD Mocktail Variety Pack 10mg 12pk 12  No cost data - verify price; Margin over 95% - check retail
+    Insight Flavor Pixels Plus Raspberry Pea  New item - set quantity by hand
 
   BEING REMOVED - DO NOT REORDER (6 discontinued items still selling/low - run down stock):
     Blackstack Real Trees King Size Straw Kiwi  (would have bought 6u)
     Brez Double 5mg THC 12oz can                (would have bought 48u)
     Brez Single 2.5mg THC 7.5oz can             (would have bought 72u)
     Minny Grown Boat Cruise Cosmo 4pk 12oz can  (would have bought 12u)
-    Minny Grown Highbernate Sleepy Time Tonic   (would have bought 24u)
+    Minny Grown Highbernate Sleepy Time Tonic   (would have bought 18u)
     Wild State Birdie Pineapple Mango 10mg THC  (would have bought 12u)

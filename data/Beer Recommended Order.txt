@@ -1,15 +1,15 @@
 ==========================================================================
-  RECOMMENDED BEER ORDER          Wednesday, Jul 01, 2026
+  RECOMMENDED BEER ORDER          Thursday, Jul 02, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    532,769
-  Coverable by transfer .......  $    217,942   (41%)
-  NET BUY from vendors ........  $    279,539   <- the order
+  Gross need (all stores) .....  $    578,617
+  Coverable by transfer .......  $    229,190   (40%)
+  NET BUY from vendors ........  $    313,592   <- the order
 
-  801 items   |   26,696 units to buy   |   19,555 units to rebalance
-  Transfers: 1,801 moves  -  1556 urgent (850 stockouts, 706 under 2wk), 245 routine
+  845 items   |   29,439 units to buy   |   20,385 units to rebalance
+  Transfers: 1,839 moves  -  1604 urgent (885 stockouts, 719 under 2wk), 235 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 73 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 72 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -17,33 +17,32 @@
    1  Beatbox Sweet Heat Cinnamon 500ml    24u/2cs            $0     30     0   OUT
    2  Wooden Hill Mango Strut 4pk 16oz ca  24u/4cs          $182     27     0   OUT
    3  Modelo Especial                      21u/21cs           $4     21     0   OUT
-   4  Miller High Life 24pk 16oz can       80u/80cs       $1,219     80     0   OUT
+   4  Miller High Life 24pk 16oz can       79u/79cs       $1,203     79     0   OUT
    5  Founders All Day IPA Variety 12pk 1  68u/34cs         $969     68     0   OUT
    6  Schilling Grapefruit and Chill 6pk   14u/14cs         $121     14     0   OUT
-   7  Samuel Adams Jack-O 12pk 12oz can    24u/12cs         $308     24     0   OUT
-   8  Wooden Hill Pixie Catcher            11u/11cs         $109     11     0   OUT
-   9  Fulton Brewing Chill City 6pk 12oz   11u/11cs          $58     11     0   OUT
+   7  Miller High Life Light 24pk 16oz ca  13u/13cs         $108     13     0   OUT
+   8  Samuel Adams Jack-O 12pk 12oz can    24u/12cs         $308     24     0   OUT
+   9  Wooden Hill Pixie Catcher            11u/11cs         $109     11     0   OUT
   10  Firestone Walker Cali Squeeze Blood  11u/11cs          $23     11     0   OUT
-  11  Bent Paddle Light Lager  12pk 12oz   422u/422cs     $4,937    422     0   OUT
-  12  Grain Belt Elite 12pk 12oz can       38u/19cs         $317     38     0   OUT
+  11  Grain Belt Elite 12pk 12oz can       38u/19cs         $317     38     0   OUT
+  12  Bent Paddle Light Lager  12pk 12oz   428u/428cs     $5,007    428     0   OUT
   13  Toppling Goliath Lemon Meringue 4pk  6u/1cs             $0      8     0   OUT
   14  Samuel Adams Seasonal 6pk 12oz btl   16u/4cs          $123     20     4   OUT
   15  HIgh Noon Black Cherry 12oz can      8u/8cs            $10      8     0   OUT
-  16  Summit Saga Variety 12pk 12oz can    552u/276cs     $7,286    558     5   OUT
-  17  Summit Sampler Pack 12pk 12oz can    380u/190cs     $5,016    383     4   OUT
+  16  Summit Saga Variety 12pk 12oz can    556u/278cs     $7,339    561     6   OUT
+  17  Summit Sampler Pack 12pk 12oz can    378u/189cs     $4,990    382     4   OUT
   18  Hamm's 6pk 12oz can                  15u/15cs          $36     15     0   OUT
   19  Line Line Glacial Lakes Rye Pale Al  30u/5cs          $300     32     0   OUT
   20  Toppling Goliath Hazy Day Sue 6pk 1  144u/36cs      $1,440    144     0   OUT
-  ...and 781 more in the full list.
+  ...and 825 more in the full list.
 
-  NEEDS REVIEW (73 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (72 items the system isn't fully sure about - check before ordering):
     Beatbox Sweet Heat Cinnamon 500ml         No cost data - verify price; Margin over 95% - check retail
-    Bent Paddle Light Lager  12pk 12oz can    Large buy ($4,937) - confirm
+    Bent Paddle Light Lager  12pk 12oz can    Large buy ($5,007) - confirm
     Toppling Goliath Lemon Meringue 4pk 16oz  No cost data - verify price; Margin over 95% - check retail
-    Summit Saga Variety 12pk 12oz can         Large buy ($7,286) - confirm
-    Summit Sampler Pack 12pk 12oz can         Large buy ($5,016) - confirm
+    Summit Saga Variety 12pk 12oz can         Large buy ($7,339) - confirm
+    Summit Sampler Pack 12pk 12oz can         Large buy ($4,990) - confirm
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
-    Twisted Tea Raspberry                     No cost data - verify price; Margin over 95% - check retail
     2 Towns POG Cosmic Crisp 6pk 12oz can     Margin looks off - check retail/cost
     Pipeworks 
 Ninja Vs unicorn vs haze 4pk   No cost data - verify price; Margin over 95% - check retail
@@ -53,28 +52,29 @@ Ninja Vs unicorn vs haze 4pk   No cost data - verify price; Margin over 95% - ch
     Pacifico 24oz btl                         No cost data - verify price; Margin over 95% - check retail
     Modist Supra Deluxe Sea Salt Lime 16oz c  No cost data - verify price; Margin over 95% - check retail
     Fair State Raspberry Roselle 4pk 12oz ca  Margin looks off - check retail/cost
-    ...and 58 more (see Needs Review tab).
+    Mystery Beer 24pk                         Large buy ($7,866) - confirm
+    ...and 57 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (14 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (13 discontinued items still selling/low - run down stock):
     Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 32u)
-    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 28u)
+    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 36u)
     Athletic Lite N/A 6pk 12oz can              (would have bought 20u)
-    Beatbox Tropical Punch  500ml               (would have bought 24u)
-    Heineken 0.0 N/A 6pk 12oz btl               (would have bought 20u)
+    Beatbox Tropical Punch  500ml               (would have bought 12u)
+    Heineken 0.0 N/A 6pk 12oz btl               (would have bought 24u)
     Heineken 0.0 NA 12pk 12oz can               (would have bought 32u)
     High Noon End Zone Pack 8pk 12oz can        (would have bought 250u)
     High Noon Pool Pack 8pk 12oz can            (would have bought 3u)
     Jack & Coke Zero 4pk 12oz can               (would have bought 6u)
-    Monaco Tequila Lime Crush 12oz can          (would have bought 96u)
-    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 8u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 84u)
     The Finnish Long Drink Strong 6pk 12oz can  (would have bought 8u)
-    The Finnish Long Drink Traditional 6pk 12o  (would have bought 16u)
+    The Finnish Long Drink Traditional 6pk 12o  (would have bought 28u)
     Two Chicks Apple Gimlet 4pk 12oz can        (would have bought 8u)
 
-  WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $2,195 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (9 routine deal items out of their buy month - $2,351 cheaper to buy in-month):
     High Noon Beach Variety 12pk 12oz           Wait for buy-month (May, Aug)
     High Noon Black Cherry 4pk 12oz can         Wait for buy-month (May, Aug)
     High Noon Iced Tea Variety Pack 8pk 12oz c  Wait for buy-month (Jun)
+    High Noon Lemon 4pk 12oz can                Wait for buy-month (May, Aug)
     High Noon Lime 4pk 12oz can                 Wait for buy-month (May, Aug)
     High Noon Mango 4pk 12oz can                Wait for buy-month (May, Aug)
     High Noon Peach 4pk 12oz can                Wait for buy-month (May, Aug)
