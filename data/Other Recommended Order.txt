@@ -1,13 +1,13 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Thursday, Jul 02, 2026
+  RECOMMENDED OTHER ORDER          Friday, Jul 03, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     28,922
-  Coverable by transfer .......  $     14,060   (49%)
-  NET BUY from vendors ........  $     11,317   <- the order
+  Gross need (all stores) .....  $     31,291
+  Coverable by transfer .......  $     14,154   (45%)
+  NET BUY from vendors ........  $     13,577   <- the order
 
-  71 items   |   5,870 units to buy   |   3,567 units to rebalance
-  Transfers: 311 moves  -  248 urgent (106 stockouts, 142 under 2wk), 63 routine
+  76 items   |   6,725 units to buy   |   3,575 units to rebalance
+  Transfers: 306 moves  -  256 urgent (111 stockouts, 145 under 2wk), 50 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -16,25 +16,25 @@
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           1724u/1724cs       $0   1724     0   OUT
    2  Matches- Box                         2u/2cs             $4      2     0   OUT
-   3  Middletons Black & Mild Single       100u/4cs         $148     92     0   OUT
-   4  Dole Strawberry Lemonade 2L          8u/1cs            $20     11     0   OUT
-   5  Gatorlyte Lime Cucumber 20oz         24u/2cs           $22     26     0   OUT
-   6  Wedding Return Fee                   4u/4cs             $0      4     0   OUT
-   7  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-   8  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
-   9  Velo Citrus Chill 9mg                10u/2cs           $84      9     0   OUT
-  10  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
-  11  Charm Social Tonic Lemon Ginger 12o  14u/14cs          $34     14     0   OUT
-  12  Dole Lemonade 2L                     8u/1cs            $16      7     0   OUT
-  13  Bag Fee                              119u/119cs         $0    119     0   OUT
-  14  Black & Mild Wood Tip B1G1           4u/4cs             $0      4     0   OUT
-  15  Fre Pouch 6mg Mint                   5u/1cs            $40      4     0   OUT
-  16  Fre Pouch 6mg Wintergreen            5u/1cs            $40      7     0   OUT
-  17  Tip Item                             209u/209cs         $0    209     0   OUT
-  18  Klarbrunn Club Soda Liter            15u/1cs           $13     13     0   0.3
-  19  MN Ice Big Bag                       1559u/1559cs   $5,140   1616    57   0.5
-  20  Gatorade Gatorlyte Pineapple Mango   20u/20cs          $25     20     0   0.5
-  ...and 51 more in the full list.
+   3  Dole Strawberry Lemonade 2L          16u/2cs           $39     19     0   OUT
+   4  Middletons Black & Mild Single       100u/4cs         $148    100     0   OUT
+   5  Dole Lemonade 2L                     8u/1cs            $16     11     0   OUT
+   6  Gatorlyte Lime Cucumber 20oz         24u/2cs           $22     23     0   OUT
+   7  Wedding Return Fee                   4u/4cs             $0      4     0   OUT
+   8  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   9  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
+  10  Zyn 3mg Wintergreen                  15u/3cs          $126     16     0   OUT
+  11  Master of Mixes Pina Colada Liter    12u/1cs           $44     17     0   OUT
+  12  Charm Social Tonic Lemon Ginger 12o  19u/19cs          $46     19     0   OUT
+  13  Velo Citrus Chill 9mg                10u/2cs           $84      9     0   OUT
+  14  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
+  15  Bag Fee                              114u/114cs         $0    114     0   OUT
+  16  Black & Mild Wood Tip B1G1           4u/4cs             $0      4     0   OUT
+  17  Orange Crush 10pk 8oz can            3u/1cs            $13      2     0   OUT
+  18  Fre Pouch 6mg Mint                   5u/1cs            $40      4     0   OUT
+  19  Fre Pouch 6mg Wintergreen            5u/1cs            $40      7     0   OUT
+  20  Tip Item                             213u/213cs         $0    213     0   OUT
+  ...and 56 more in the full list.
 
   NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
@@ -44,8 +44,8 @@
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Big Bag                            Large buy ($5,140) - confirm
+    MN Ice Big Bag                            Large buy ($6,075) - confirm
 
   BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
     Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 9u)
-    Fever Tree Tonic Water 8pk 5oz can          (would have bought 12u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 15u)

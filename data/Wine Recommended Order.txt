@@ -1,40 +1,40 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Thursday, Jul 02, 2026
+  RECOMMENDED WINE ORDER          Friday, Jul 03, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     67,210
-  Coverable by transfer .......  $     40,001   (60%)
-  NET BUY from vendors ........  $      4,245   <- the order
+  Gross need (all stores) .....  $     75,718
+  Coverable by transfer .......  $     46,059   (61%)
+  NET BUY from vendors ........  $      6,982   <- the order
 
-  31 items   |   700 units to buy   |   5,019 units to rebalance
-  Transfers: 567 moves  -  423 urgent (121 stockouts, 302 under 2wk), 144 routine
+  32 items   |   970 units to buy   |   5,771 units to rebalance
+  Transfers: 632 moves  -  487 urgent (142 stockouts, 345 under 2wk), 145 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 4 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  90+ Cellars DOC Prosecco Lot 50 (si  192u/8cs         $519    183     0   OUT
-   2  Atomic Boss Blue Rizz 500ml          36u/3cs            $0     32     0   OUT
-   3  LaMarca Prosecco 187ml               24u/1cs           $94     22     0   OUT
+   1  90+ Cellars DOC Prosecco Lot 50 (si  192u/8cs         $519    202     0   OUT
+   2  Atomic Boss Blue Rizz 500ml          24u/2cs            $0     30     0   OUT
+   3  LaMarca Prosecco 187ml               24u/1cs           $94     20     0   OUT
    4  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
    5  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
    6  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
    7  Fowler Wine Cabernet Sauvignon / D   1u/1cs            $16      1     0   OUT
    8  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
-   9  Atomic Boss Berry Blast 500ml        24u/2cs           $64     21     0   OUT
-  10  Yellow Tail Jammy Red Roo 1.5L       6u/1cs            $47      8     0   1.4
-  11  Barefoot Pinot Noir 250ml            18u/3cs          $108     17     0   1.6
-  12  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     49    23   1.8
-  13  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $87     12     0   2.0
+   9  Atomic Boss Berry Blast 500ml        24u/2cs           $64     18     0   OUT
+  10  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     52    24   1.4
+  11  Yellow Tail Jammy Red Roo 1.5L       6u/1cs            $47      8     0   1.4
+  12  Barefoot Pinot Noir 250ml            18u/3cs          $108     17     0   1.6
+  13  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $87     13     0   1.8
   14  Gallo Merlot 1.5L                    12u/2cs           $84     13     0   2.4
   15  The Paring Sauvignon Blanc 750ml     12u/1cs          $216      7     0   2.4
-  16  Mionetto Alcohol Removed Sparkling   6u/1cs            $64     10     4   2.5
-  17  Elk Cove Pinot Noir Rose 750ml       12u/1cs          $153     14     5   2.7
-  18  Yellow Tail Super Crisp Chard 1.5L   18u/3cs          $139     20     0   3.1
-  19  Josh Cellars Chardonnay 750ml        60u/5cs          $494     91    33   3.3
-  20  Underwood Bubbles 355ml              48u/4cs          $208     87    35   3.4
-  ...and 11 more in the full list.
+  16  Underwood Bubbles 355ml              120u/10cs        $523    155    36   2.5
+  17  Elk Cove Pinot Noir Rose 750ml       12u/1cs          $153     14     5   2.5
+  18  Yellow Tail Super Crisp Chard 1.5L   24u/4cs          $185     26     0   2.6
+  19  Castello del Poggio Prosecco 750ml   24u/2cs          $160     28    10   2.8
+  20  Josh Cellars Chardonnay 750ml        96u/8cs          $795    127    32   2.9
+  ...and 12 more in the full list.
 
   NEEDS REVIEW (4 items the system isn't fully sure about - check before ordering):
     Atomic Boss Blue Rizz 500ml               No cost data - verify price; Margin over 95% - check retail
@@ -42,9 +42,10 @@
     Atomic Boss Berry Blast 500ml             Margin looks off - check retail/cost
     90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
 
-  BEING REMOVED - DO NOT REORDER (5 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (6 discontinued items still selling/low - run down stock):
     Cannonball Cabernet Sauvignon 750ml         (would have bought 1u)
-    Daou Cabernet Sauvignon 750ml               (would have bought 60u)
+    Daou Cabernet Sauvignon 750ml               (would have bought 48u)
     Franzia Chardonnay 5L Box                   (would have bought 44u)
+    Franzia Crisp White 5L Box                  (would have bought 8u)
     Franzia Sunset Blush 5L Box                 (would have bought 48u)
     Ganbei Baljiu 750ML/ D                      (would have bought 1u)
