@@ -164,7 +164,12 @@ if __name__ == "__main__":
         for a in sys.argv:
             if a.startswith("--pages="):
                 cap = int(a.split("=", 1)[1])
-        summ = sales_summary(max_pages=cap)
+        try:
+            summ = sales_summary(max_pages=cap)
+        except Exception as e:
+            # e.g. Cloud Retailer token blocked (400): skip quietly, don't fail the job (no failure emails)
+            print("live sales pull skipped:", e)
+            raise SystemExit(0)
         # write to <cwd>/data so the GitHub Action (cwd = repo root) updates the app's data/ folder
         out = os.environ.get("LIVE_OUT") or os.path.join(os.getcwd(), "data", "live_sales.json")
         os.makedirs(os.path.dirname(out), exist_ok=True)
