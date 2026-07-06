@@ -432,11 +432,14 @@ def live_refresher_loop():
         if _LIVE["data"] is None:
             _LIVE["data"] = _live_from_repo()
     while True:
-        if _cr_ready():
+        # Off by default: the daily 6am GitHub Action refreshes data/live_sales.json.
+        # The server just serves that file (the endpoint re-reads it each request).
+        # Set LIVE_SERVER_PULL=1 to also let the host pull (not recommended - hammers the API).
+        if _cr_ready() and os.environ.get("LIVE_SERVER_PULL"):
             refresh_live_sales()
-            time.sleep(900)                            # ~15 min between full refreshes (the pull itself is slow)
+            time.sleep(900)
         else:
-            time.sleep(300)                            # no creds on the host yet: just serve the committed file
+            time.sleep(3600)
 
 
 # Product-list tabs, in the order buyers expect them (extras appended alphabetically).
@@ -1046,7 +1049,7 @@ class Handler(BaseHTTPRequestHandler):
                 d = repo                                   # committed file is newer than our cache -> serve it
             if not d:
                 return self._send(200, {"available": False})
-            if _cr_ready() and (time.time() - cts > 720) and not _LIVE_BUSY.is_set():   # stale -> refresh in bg
+            if os.environ.get("LIVE_SERVER_PULL") and _cr_ready() and (time.time() - cts > 720) and not _LIVE_BUSY.is_set():
                 threading.Thread(target=refresh_live_sales, daemon=True).start()
             dv = (d.get("depts") or {}).get(dept) or {"units": 0, "sales": 0, "by_store": [], "top": []}
             return self._send(200, {"available": True, "as_of": d.get("as_of"), "date": d.get("date"),

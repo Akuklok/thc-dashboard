@@ -145,7 +145,7 @@
     <button id="tabAsk" onclick="show('ask')">Ask the assistant</button>
     <button id="tabLists" onclick="show('lists')">Product Lists</button>
     <button id="tabVend" onclick="show('vendors')">Order by distributor</button>
-    <button id="tabLive" onclick="show('live')">Today's sales</button>
+    <button id="tabLive" onclick="show('live')">Yesterday's sales</button>
   </div>
 
   <main id="today">
@@ -451,7 +451,7 @@ async function exportList(){
 }
 // ---- per-buyer customization (saved on this device only) ----
 const PREF_SECTIONS=[['glance','This week at a glance'],['trcards','Transfers — move stock between stores first'],['buy','What to buy'],['plan','Transfer plan']];
-const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor'],['tabLive',"Today's sales"]];
+const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor'],['tabLive',"Yesterday's sales"]];
 let lastBuyCols=[];
 function defPrefs(){ const show={},labels={}; PREF_SECTIONS.forEach(([id,l])=>{show[id]=true;labels[id]=l;}); PREF_TABS.forEach(([id])=>show[id]=true); return {note:'',show,labels,buyCols:null}; }
 function getPrefs(){ const d=defPrefs(); try{ const s=JSON.parse(localStorage.getItem('prefs')||'{}'); return {note:s.note||'',show:Object.assign(d.show,s.show||{}),labels:Object.assign(d.labels,s.labels||{}),buyCols:s.buyCols||null}; }catch(e){ return d; } }
@@ -495,30 +495,34 @@ let liveTimer=null;
 function fmtTime(iso){ if(!iso) return '—'; try{ return new Date(iso).toLocaleString([],{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
 async function loadLive(){
   const dept=$('dept').value;
-  $('liveAsOf').textContent="Loading today's sales…";
+  $('liveAsOf').textContent="Loading yesterday's sales…";
   $('liveCards').innerHTML=''; $('liveStores').innerHTML=''; $('liveTop').innerHTML='';
   let d;
   try{ d=await (await fetch('/api/livesales?dept='+encodeURIComponent(dept))).json(); }
   catch(e){ $('liveAsOf').textContent='Could not load.'; return; }
-  if(!d.available){ $('liveAsOf').textContent="Today's sales feed isn't switched on yet."; return; }
+  if(!d.available){ $('liveAsOf').textContent="Yesterday's sales feed isn't switched on yet."; return; }
   const chain=d.chain||{};
-  $('liveAsOf').innerHTML=`Live from the registers · <b>as of ${fmtTime(d.as_of)}</b>`;
+  const _dm=String(d.date||'').match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  const _dd=_dm?new Date(+_dm[3],+_dm[2]-1,+_dm[1]):null;
+  const _age=_dd?Math.floor((Date.now()-_dd.getTime())/86400000):null;
+  $('liveAsOf').innerHTML = (_age!=null && _age>2)
+    ? `<span style="color:#b45309;font-weight:700">Not updated since ${esc(d.date||'')} - the 6am sync may not have run.</span>`
+    : `Yesterday's full-day sales &middot; <b>${esc(d.date||'')}</b> <span class="hint">(synced ${fmtTime(d.as_of)})</span>`;
   $('liveCards').innerHTML=
-    `<div class="card big"><div class="lbl">${esc(dept)} sales today</div><div class="val">${money(d.sales||0)}</div></div>`+
+    `<div class="card big"><div class="lbl">${esc(dept)} sales</div><div class="val">${money(d.sales||0)}</div></div>`+
     `<div class="card"><div class="lbl">${esc(dept)} units</div><div class="val">${(d.units||0).toLocaleString()}</div></div>`+
-    `<div class="card"><div class="lbl">Whole chain today</div><div class="val">${money(chain.sales||0)}</div></div>`;
+    `<div class="card"><div class="lbl">Whole chain</div><div class="val">${money(chain.sales||0)}</div></div>`;
   const bs=d.by_store||[];
   $('liveStores').innerHTML = bs.length
     ? '<thead><tr><th>Store</th><th>Units</th><th>Sales</th></tr></thead><tbody>'+
       bs.map(r=>`<tr><td>${esc(r.store)}</td><td>${(r.units||0).toLocaleString()}</td><td>${money(r.sales||0)}</td></tr>`).join('')+'</tbody>'
-    : '<tr><td>No '+esc(dept)+' sales rung up yet today.</td></tr>';
+    : '<tr><td>No '+esc(dept)+' sales for '+esc(d.date||'that day')+'.</td></tr>';
   const tp=d.top||[];
   $('liveTop').innerHTML = tp.length
     ? '<thead><tr><th>Item</th><th>Code</th><th>Units</th><th>Sales</th></tr></thead><tbody>'+
       tp.map(r=>`<tr><td>${esc(r.item)}</td><td>${esc(r.code)}</td><td>${(r.units||0).toLocaleString()}</td><td>${money(r.sales||0)}</td></tr>`).join('')+'</tbody>'
     : '';
-  clearTimeout(liveTimer);
-  liveTimer=setTimeout(()=>{ if($('live').style.display!=='none') loadLive(); }, 120000);   // refresh every 2 min while viewing
+  // Yesterday's numbers are static; no auto-refresh needed (loads once per tab open).
 }
 let curTabs=[], curTab=null, lq='', lsort='', ldir='asc', loff=0, lf={}, lfacets={}; const LPAGE=400;
 let listTimer=null, lfTimer=null;
