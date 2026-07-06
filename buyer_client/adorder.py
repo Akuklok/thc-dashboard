@@ -196,3 +196,62 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
 
     return {"rows": rows, "unmatched": unmatched, "target": target, "kind": kind,
             "matched": len(rows), "missed": len(unmatched)}
+
+
+def parse_ad_file(xlsx_bytes, kind="weekly", target_date=None):
+    """Read the 'Weekly and Sunday Specials' workbook and pull one ad week's item lines.
+    The sheets are one block per week (a header with the ad date, then Type/Item/Size/price rows).
+    Returns {items, week (chosen ad date), weeks (all ad dates)}."""
+    import io, datetime, openpyxl
+    wb = openpyxl.load_workbook(io.BytesIO(xlsx_bytes), read_only=True, data_only=True)
+    want = "sunday" if str(kind).lower().startswith("sun") else "weekly"
+    sheet = None
+    for s in wb.sheetnames:
+        sl = s.lower()
+        if want == "sunday" and "sunday" in sl and "special" in sl:
+            sheet = s; break
+        if want == "weekly" and "weekly" in sl and "ad" in sl:
+            sheet = s; break
+    if not sheet:
+        wb.close()
+        return {"items": [], "week": None, "weeks": []}
+    rows = [list(r) for r in wb[sheet].iter_rows(values_only=True)]
+    wb.close()
+
+    target = target_date or datetime.date.today()
+    blocks = []                                            # (row index, ad date) one per week
+    for i, r in enumerate(rows):
+        if not r:
+            continue
+        text = " ".join(str(c).lower() for c in r[:8] if c is not None)
+        if "in-store ad" in text or "content due" in text:
+            dt = None
+            for c in r[:10]:
+                if isinstance(c, datetime.datetime):
+                    dt = c.date(); break
+            if dt:
+                blocks.append((i, dt))
+    if not blocks:
+        return {"items": [], "week": None, "weeks": []}
+    past = [b for b in blocks if b[1] <= target]
+    chosen = max(past, key=lambda b: b[1]) if past else min(blocks, key=lambda b: b[1])
+    ci = blocks.index(chosen)
+    start, end = chosen[0], (blocks[ci + 1][0] if ci + 1 < len(blocks) else len(rows))
+
+    items = []
+    for r in rows[start:end]:
+        if not r or len(r) < 3:
+            continue
+        c2 = r[2]
+        if c2 is None or isinstance(c2, datetime.datetime):
+            continue
+        it = re.sub(r"\s+", " ", str(c2)).strip()
+        if not it or it.lower() == "item":
+            continue
+        rt = " ".join(str(x).lower() for x in r[:8] if x is not None)
+        if "in-store ad" in rt or "content due" in rt:
+            continue
+        if len(r) > 1 and str(r[1]).strip().lower() == "type":
+            continue
+        items.append(it)
+    return {"items": items, "week": chosen[1].isoformat(), "weeks": [b[1].isoformat() for b in blocks]}

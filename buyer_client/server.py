@@ -1206,6 +1206,45 @@ class Handler(BaseHTTPRequestHandler):
                                         "matched": res.get("matched", 0), "missed": res.get("missed", 0)})
             except Exception as e:
                 return self._send(200, {"error": "Couldn't build the ad order: %s" % e})
+        if u.path == "/api/adfile":
+            # read the Weekly/Sunday Specials workbook, pull one ad week, match it to the dept catalog
+            try:
+                import base64 as _b64, datetime as _dt, csv as _csv, io as _io, adorder as _ad
+                dept = str(payload.get("dept", "Wine")).strip() or "Wine"
+                kind = str(payload.get("kind", "weekly")).strip() or "weekly"
+                raw = str(payload.get("data", ""))
+                if raw.startswith("data:") and "," in raw:
+                    raw = raw.split(",", 1)[1]
+                fb = _b64.b64decode(raw)
+                target = None
+                wk = payload.get("week")
+                if wk:
+                    try:
+                        target = _dt.date.fromisoformat(str(wk))
+                    except Exception:
+                        target = None
+                parsed = _ad.parse_ad_file(fb, kind=kind, target_date=target)
+
+                def rows_of(name):
+                    b = get_bytes(name)
+                    return list(_csv.DictReader(_io.StringIO(b.decode("utf-8", "replace")))) if b else []
+                cat = rows_of("%s - Full List.csv" % dept)
+                if not cat and dept == "Beer":
+                    cat = rows_of("Spirits - Full List.csv")
+                if not cat:
+                    return self._send(200, {"error": "No product catalog (Full List) for %s yet." % dept})
+                inv = rows_of("%s Inventory.csv" % dept)
+                month = (target or _dt.date.today()).month
+                res = _ad.suggest(parsed["items"], kind, cat, inv, month=month)
+                cols = ["UPC", "Item", "On hand", "Wk vel", "WOS", "Suggested cases", "Case price", "Order $", "Flag"]
+                rows = [[r.get(c) for c in cols] for r in res["rows"]]
+                text = "\n".join("%s\t%s\t%s" % (r.get("UPC"), r.get("Item"), r.get("Suggested cases"))
+                                 for r in res["rows"])
+                return self._send(200, {"cols": cols, "rows": rows, "text": text, "unmatched": res["unmatched"],
+                                        "matched": res["matched"], "missed": res["missed"], "target": res["target"],
+                                        "week": parsed["week"], "weeks": parsed["weeks"], "adcount": len(parsed["items"])})
+            except Exception as e:
+                return self._send(200, {"error": "Couldn't read the ad file: %s" % e})
         if u.path == "/api/poimport":
             # turn the pasted Add-to-Order block into Cloud Retailer's Custom PO Import CSV
             try:

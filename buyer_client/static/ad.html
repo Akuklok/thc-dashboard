@@ -13,34 +13,51 @@
   .wrap{ max-width:1000px; margin:0 auto; padding:16px; }
   .row{ display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-bottom:10px; }
   label{ font-size:12px; color:#5a6470; display:block; margin-bottom:3px; }
-  select, textarea{ border:1px solid var(--line); border-radius:8px; padding:8px; font:inherit; }
-  textarea{ width:100%; height:150px; resize:vertical; }
+  select, textarea, input[type=file]{ border:1px solid var(--line); border-radius:8px; padding:8px; font:inherit; background:#fff; }
+  textarea{ width:100%; height:120px; resize:vertical; }
   button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:9px 16px; cursor:pointer; font-size:14px; }
   button.ghost{ background:#fff; color:var(--navy); border:1px solid var(--line); }
+  button:disabled{ opacity:.5; }
   .hint{ color:#5a6470; font-size:12px; }
+  .panel{ background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px; margin-bottom:12px; }
+  .or{ text-align:center; color:#9aa7ad; font-size:12px; text-transform:uppercase; letter-spacing:.08em; margin:6px 0; }
   table{ border-collapse:collapse; width:100%; background:#fff; margin-top:10px; font-size:13px; }
   th, td{ border:1px solid var(--line); padding:6px 8px; text-align:left; white-space:nowrap; }
   th{ background:#eef3f5; position:sticky; top:0; }
   td.flag{ color:#9a6700; white-space:normal; }
-  .tablewrap{ overflow:auto; max-height:60vh; border-radius:8px; }
+  .tablewrap{ overflow:auto; max-height:58vh; border-radius:8px; }
   .pill{ display:inline-block; background:#eaf3f6; border:1px solid var(--line); border-radius:20px; padding:2px 10px; font-size:12px; margin-right:6px; }
   .miss{ background:#fdecec; border-color:#f3c2c2; color:#c00000; }
 </style>
 </head>
 <body>
-  <header><b>Ad Order Helper</b><div class="sub">Paste the weekly or Sunday ad list, get UPCs and suggested cases</div></header>
+  <header><b>Ad Order Helper</b><div class="sub">Load the Weekly and Sunday Specials file, or paste a list, to get UPCs and suggested cases</div></header>
   <div class="wrap">
     <div class="row">
       <div><label>Department</label>
         <select id="dept"><option>Wine</option><option>Beer</option><option>Spirits</option><option>THC</option><option>Other</option></select></div>
       <div><label>Ad type</label>
         <select id="kind"><option value="weekly">Weekly Special (4.5 wk)</option><option value="sunday">Sunday Special (8 wk)</option></select></div>
-      <div style="flex:1"></div>
-      <button onclick="run()" id="go">Suggest order</button>
     </div>
-    <label>Ad items — one per line (product description or UPC)</label>
-    <textarea id="items" placeholder="Risata Moscato d'Asti 750ml&#10;Yellow Tail Big Bold Red 1.5L&#10;084279977638"></textarea>
-    <div class="hint" style="margin:6px 0">Tip: paste straight from the ad. It matches each line to our catalog, pulls stock and velocity, and suggests cases to hit the weeks-of-supply target.</div>
+
+    <div class="panel">
+      <label>Load straight from the Weekly and Sunday Specials file</label>
+      <div class="row" style="margin-bottom:6px">
+        <input type="file" id="adfile" accept=".xlsx" onchange="loadFile()"/>
+        <div id="weekbox" style="display:none"><label>Ad week</label>
+          <select id="weeksel" onchange="reloadFile()"></select></div>
+      </div>
+      <div class="hint">It reads the current ad week automatically, splits the slash pairs, expands whole brands to their UPCs, and matches everything for the department above. Non-department items are ignored.</div>
+    </div>
+
+    <div class="or">or paste a list</div>
+
+    <div class="panel">
+      <label>Ad items, one per line (product description or UPC)</label>
+      <textarea id="items" placeholder="Josh Cab/Papi Cab&#10;All 90+ Cellars&#10;084279977638"></textarea>
+      <div class="row" style="margin:8px 0 0"><button onclick="run()" id="go">Suggest order</button></div>
+    </div>
+
     <div id="summary" style="margin:10px 0"></div>
     <div id="actions" style="display:none;margin-bottom:8px">
       <button class="ghost" onclick="copyOut()" id="copyBtn">Copy (UPC, item, cases)</button>
@@ -50,23 +67,55 @@
   </div>
 <script>
   const $=id=>document.getElementById(id);
-  let outText='';
+  let outText='', adB64='';
   function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
   function money(v){ const n=+v; return isNaN(n)?'':'$'+n.toLocaleString(undefined,{maximumFractionDigits:0}); }
+  function busy(on){ $('go').disabled=on; }
+
+  async function post(path, body){
+    return await (await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})).json();
+  }
+
   async function run(){
     const items=$('items').value.trim();
-    if(!items){ $('summary').textContent='Paste some ad items first.'; return; }
-    $('go').disabled=true; $('summary').textContent='Matching...'; $('tbl').innerHTML=''; $('missed').innerHTML=''; $('actions').style.display='none';
-    let d;
-    try{ d=await (await fetch('/api/adorder',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({dept:$('dept').value, kind:$('kind').value, items})})).json(); }
-    catch(e){ $('summary').textContent='Could not reach the server.'; $('go').disabled=false; return; }
-    $('go').disabled=false;
+    if(!items){ $('summary').textContent='Paste some ad items, or load the file above.'; return; }
+    busy(true); $('summary').textContent='Matching...';
+    let d; try{ d=await post('/api/adorder',{dept:$('dept').value,kind:$('kind').value,items}); }
+    catch(e){ $('summary').textContent='Could not reach the server.'; busy(false); return; }
+    busy(false); renderResult(d);
+  }
+
+  function loadFile(){
+    const f=$('adfile').files[0]; if(!f) return;
+    const r=new FileReader();
+    r.onload=()=>{ adB64=r.result; $('weeksel').innerHTML=''; reloadFile(true); };
+    r.readAsDataURL(f);
+  }
+  async function reloadFile(firstLoad){
+    if(!adB64){ return; }
+    $('summary').textContent='Reading the ad file...';
+    const week = (!firstLoad && $('weeksel').value) ? $('weeksel').value : null;
+    let d; try{ d=await post('/api/adfile',{dept:$('dept').value,kind:$('kind').value,data:adB64,week}); }
+    catch(e){ $('summary').textContent='Could not read the file.'; return; }
+    if(d.weeks && d.weeks.length){
+      $('weekbox').style.display='block';
+      if(firstLoad || $('weeksel').options.length!==d.weeks.length){
+        $('weeksel').innerHTML=d.weeks.map(w=>`<option value="${w}">${w}</option>`).join('');
+      }
+      if(d.week) $('weeksel').value=d.week;
+    }
+    renderResult(d);
+  }
+
+  function renderResult(d){
     if(d.error){ $('summary').textContent=d.error; return; }
     outText=d.text||'';
-    $('summary').innerHTML=`<span class="pill">${d.matched} matched</span>`+
-      (d.missed?`<span class="pill miss">${d.missed} not found</span>`:'')+
-      `<span class="pill">target ${d.target} weeks</span>`;
+    let pills=`<span class="pill">${d.matched} matched</span>`;
+    if(d.week) pills+=`<span class="pill">ad week ${esc(d.week)}</span>`;
+    if(d.adcount!=null) pills+=`<span class="pill">${d.adcount} ad lines</span>`;
+    if(d.missed) pills+=`<span class="pill miss">${d.missed} not this dept / not found</span>`;
+    pills+=`<span class="pill">target ${d.target} weeks</span>`;
+    $('summary').innerHTML=pills;
     const cols=d.cols||[], rows=d.rows||[];
     let h='<thead><tr>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'</tr></thead><tbody>';
     rows.forEach(r=>{ h+='<tr>'+r.map((v,j)=>{
@@ -75,11 +124,12 @@
       return `<td class="${c==='Flag'?'flag':''}">${esc(s)}</td>`; }).join('')+'</tr>'; });
     $('tbl').innerHTML=h+'</tbody>';
     $('actions').style.display=rows.length?'block':'none';
-    if((d.unmatched||[]).length){ $('missed').innerHTML='<b>Not found (check spelling or look up by hand):</b><br>'+
-      d.unmatched.map(x=>'• '+esc(x)).join('<br>'); }
+    const um=d.unmatched||[];
+    $('missed').innerHTML = um.length ? '<b>Not matched (usually other departments, or shorthand to look up by hand):</b><br>'+um.map(x=>'• '+esc(x)).join('<br>') : '';
   }
   function copyOut(){ navigator.clipboard.writeText(outText).then(()=>{ const b=$('copyBtn'),t=b.textContent; b.textContent='Copied!'; setTimeout(()=>b.textContent=t,1500); }); }
-  $('items').addEventListener('keydown',e=>{ if((e.ctrlKey||e.metaKey)&&e.key==='Enter') run(); });
+  $('dept').addEventListener('change',()=>{ if(adB64) reloadFile(); });
+  $('kind').addEventListener('change',()=>{ if(adB64) reloadFile(); });
 </script>
 </body>
 </html>
