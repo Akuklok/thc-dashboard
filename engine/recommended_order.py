@@ -255,10 +255,16 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     }
     if "has_par" in df.columns:
         agg["has_par"] = ("has_par", "max")
+    if have("LY4"):
+        agg["uly4"] = ("LY4", "sum")            # last-year same 4-week units (for the seasonal signal)
     g = df.groupby("Product Description").agg(**agg).reset_index().rename(columns={"Product Description": "Item"})
     g["case"] = _num(g["case"]).fillna(1).replace(0, 1)
     g["wk_vel"] = g["u30"] * 7 / 30                      # 30-day weekly velocity (matches the reorder rule)
     g["WOS"] = np.where(g["wk_vel"] > 0, g["OH"] / g["wk_vel"], np.nan).round(1)
+    # Informational signals only — surfaced for the buyer, they do NOT change the buy quantity.
+    v90 = g["u90"] * 7 / 90                              # 12-week weekly pace
+    g["Trend"] = np.where(v90 > 0, ((g["wk_vel"] / v90 - 1) * 100).round(0), np.nan)   # +% = speeding up vs 12wk
+    g["LY wk"] = (g["uly4"] / 4.0).round(1) if "uly4" in g.columns else np.nan          # last-year weekly pace
     g = g.merge(tsum, on="Item", how="left")
     for c in ("Gross Need", "Transfer", "Net Buy"):
         g[c] = _num(g[c]).fillna(0)
@@ -385,7 +391,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     else:
         within, deferred = buy, buy.iloc[0:0]
 
-    cols = ["Item", "upc", "Category", "Supplier", "OH", "WOS", "Gross Need", "Transfer", "Buy Units",
+    cols = ["Item", "upc", "Category", "Supplier", "OH", "WOS", "Trend", "LY wk", "Gross Need", "Transfer", "Buy Units",
             "Buy Cases", "cost", "Net Buy $", "GM %", "Discount %", "Deal Terms", "Buy Month", "Review"]
     ren = {"OH": "Chain OH (TOH)", "cost": "Unit Cost", "upc": "Product Code"}
     def fmt(d):
