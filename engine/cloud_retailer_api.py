@@ -126,9 +126,9 @@ def sales_summary(date_str=None, max_pages=400):
     if not date_str:
         try:                                  # store-local (Central) day, so it doesn't roll over at UTC midnight
             from zoneinfo import ZoneInfo
-            d = datetime.datetime.now(ZoneInfo("America/Chicago")).date()
+            d = datetime.datetime.now(ZoneInfo("America/Chicago")).date() - datetime.timedelta(days=1)
         except Exception:
-            d = datetime.date.today()
+            d = datetime.date.today() - datetime.timedelta(days=1)
         date_str = f"{d.month}/{d.day}/{d.year}"
     rows = fetch_all("SaleReport-Detailed", _day_query(date_str), max_pages=max_pages)
     leaves = [r for r in rows if str(r.get("productCode") or "").strip()]
