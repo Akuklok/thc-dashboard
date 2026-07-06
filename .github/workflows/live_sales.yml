@@ -4,7 +4,7 @@ name: Live sales feed
 # so the buying app's "Today's sales" tab stays current. No PC needed.
 on:
   schedule:
-    - cron: "0 11 * * *"        # top of every hour (tune the frequency here)
+    - cron: "0 11 * * *"        # 6am Central (CDT) daily - yesterday full day
   workflow_dispatch: {}        # run on demand from the Actions tab
 
 permissions:
