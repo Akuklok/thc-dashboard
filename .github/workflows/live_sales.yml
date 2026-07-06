@@ -4,7 +4,7 @@ name: Live sales feed
 # so the buying app's "Today's sales" tab stays current. No PC needed.
 on:
   schedule:
-    - cron: "0 * * * *"        # top of every hour (tune the frequency here)
+    - cron: "0 11 * * *"        # top of every hour (tune the frequency here)
   workflow_dispatch: {}        # run on demand from the Actions tab
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Pull today's sales from Cloud Retailer
+      - name: Pull yesterday's sales from Cloud Retailer
         env:
           CR_BASE: ${{ secrets.CR_BASE }}
           CR_USERNAME: ${{ secrets.CR_USERNAME }}
