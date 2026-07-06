@@ -1,14 +1,16 @@
 """
 Weekly / Sunday ad order helper.
 
-Given a list of ad items (product descriptions or UPCs), match each to the wine catalog
-(Wine - Full List.csv) for UPC / case pack / price / buy months, pull current stock and
-velocity from the snapshot (Wine Inventory.csv), and suggest the cases needed to hit the
-weeks-of-supply target:
-    Weekly Special  -> 4.5 weeks of supply   (Laura's rule: 4 to 4.5)
-    Sunday Special  -> 8 weeks of supply     (8+ rule of thumb)
+Given ad items (which come as marketing shorthand: slash pairs, whole brands, abbreviations),
+match each to the wine catalog for UPC / case pack / price / buy months, pull stock and velocity
+from the snapshot, and suggest cases to hit the weeks-of-supply target:
+    Weekly Special -> 4.5 weeks     Sunday Special -> 8 weeks
 
-Returns paste-ready rows plus any items it could not match (so the buyer can eyeball them).
+Handles:
+  - "A/B"                    -> split, match each side
+  - "All 90+ Cellars"       -> expand to every UPC in that brand
+  - "Josh Cab"              -> prefix-fuzzy to "Josh Cellars Cabernet"
+Returns paste-ready rows plus anything it could not match.
 """
 import re, math
 
@@ -16,6 +18,9 @@ TARGETS = {"weekly": 4.5, "sunday": 8.0}
 
 _MONTHS = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+_BRAND_SIGNAL = re.compile(r"\ball\b|\(all|all types|all varietals|all flavors|all varieties", re.I)
+BRAND_CAP = 40
 
 
 def _norm(s):
@@ -35,10 +40,8 @@ def _num(s):
 
 
 def _parse_months(s):
-    """Pull month numbers out of a Buy Months string ('Jan/Feb', 'March, April', '1|3', ...)."""
     out = set()
-    low = str(s or "").lower()
-    for tok in re.split(r"[^a-z0-9]+", low):
+    for tok in re.split(r"[^a-z0-9]+", str(s or "").lower()):
         if not tok:
             continue
         if tok[:3] in _MONTHS:
@@ -48,19 +51,26 @@ def _parse_months(s):
     return out
 
 
-def _best_token(qtokens, pool):
-    """Best Jaccard-overlap row in pool (list of (tokenset, row)). Returns (row, score)."""
-    best, best_score = None, 0.0
-    for toks, row in pool:
-        if not toks:
+def _expand_queries(raw):
+    """A raw ad line -> list of (query, is_brand). Splits slash pairs and flags whole-brand items."""
+    out = []
+    for part in re.split(r"\s*/\s*", str(raw or "")):
+        p = part.strip()
+        if not p:
             continue
-        inter = len(qtokens & toks)
-        if not inter:
-            continue
-        score = inter / len(qtokens | toks)
-        if score > best_score:
-            best, best_score = row, score
-    return best, best_score
+        is_brand = bool(_BRAND_SIGNAL.search(p))
+        q = re.sub(r"\(all[^)]*\)", " ", p, flags=re.I)
+        q = re.sub(r"\ball (types|varietals|flavors|varieties)\b", " ", q, flags=re.I)
+        q = re.sub(r"\ball\b", " ", q, flags=re.I)
+        q = re.sub(r"\s+", " ", q).strip()
+        out.append((q or p, is_brand))
+    return out
+
+
+def _prefix_hit(qt, ct):
+    # exact, or a catalog word that extends a short query abbreviation (cab -> cabernet).
+    # Deliberately NOT the other direction, so a brand like "whitehaven" doesn't match "white".
+    return qt == ct or (3 <= len(qt) < len(ct) and ct.startswith(qt))
 
 
 def suggest(items, kind, catalog_rows, inv_rows, month=None):
@@ -85,71 +95,104 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
             inv_by_desc.setdefault(d, r)
             inv_tokens.append((set(d.split()), r))
 
-    rows, unmatched = [], []
-    for raw in items:
-        q = str(raw or "").strip()
-        if not q:
-            continue
-        cat, conf = None, "exact"
+    def best_token(qtokens, pool):
+        best, best_score = None, 0.0
+        for toks, row in pool:
+            if not toks:
+                continue
+            hit = sum(1 for qt in qtokens if any(_prefix_hit(qt, ct) for ct in toks))
+            if not hit:
+                continue
+            score = hit / max(len(qtokens), 1)
+            if score > best_score:
+                best, best_score = row, score
+        return best, best_score
+
+    def match_one(q):
         dig = _digits(q)
         if len(dig) >= 11:
-            cat = cat_by_upc.get(dig) or cat_by_upc.get(dig.lstrip("0"))
-            conf = "upc"
-        if not cat:
-            nd = _norm(q)
-            cat = cat_by_desc.get(nd)
-            if not cat:
-                cand, sc = _best_token(set(nd.split()), cat_tokens)
-                if cand and sc >= 0.5:
-                    cat, conf = cand, "fuzzy"
-        if not cat:
-            unmatched.append(q)
-            continue
+            c = cat_by_upc.get(dig) or cat_by_upc.get(dig.lstrip("0"))
+            if c:
+                return c, "upc"
+        nd = _norm(q)
+        if nd in cat_by_desc:
+            return cat_by_desc[nd], "exact"
+        cand, sc = best_token(set(nd.split()), cat_tokens)
+        if cand and sc >= 0.6:
+            return cand, "fuzzy"
+        return None, None
 
+    def brand_matches(brand_tokens):
+        return [row for toks, row in cat_tokens if brand_tokens and brand_tokens <= toks]
+
+    def build_row(cat, conf, extra_flags):
         cd = _norm(cat.get("Product Description"))
         inv = inv_by_desc.get(cd)
         if not inv:
-            inv, _ = _best_token(set(cd.split()), inv_tokens)
+            inv, _ = best_token(set(cd.split()), inv_tokens)
         oh = _num(inv.get("Chain OH")) if inv else 0.0
         vel30 = _num(inv.get("Wk Velocity")) if inv else 0.0
         vel90 = (_num(inv.get("90D Units")) * 7.0 / 90.0) if inv else 0.0
-        vel = vel30 if vel30 > 0 else vel90              # fall back to the 90-day pace
+        vel = vel30 if vel30 > 0 else vel90
         wos = round(oh / vel, 1) if vel > 0 else (_num(inv.get("WOS")) if inv else 0.0)
-
         cpk = _num(cat.get("Units/Case")) or 1.0
         price = _num(cat.get("Net Case")) or _num(cat.get("Case 1 (Retail)"))
 
-        flags = []
+        flags = list(extra_flags)
         if conf == "fuzzy":
             flags.append("check match")
         if conf != "upc" and len(desc_upcs.get(cd, ())) > 1:
             flags.append("multiple UPCs, confirm")
         if not inv:
             flags.append("no stock data")
-
         if vel > 0:
             need_u = max(0.0, target * vel - oh)
             cases = int(math.ceil(need_u / cpk)) if need_u > 0 else 0
             if vel30 <= 0 and vel90 > 0:
                 flags.append("based on 90-day pace")
         else:
-            cases = None                                 # no sales history -> the buyer sets the quantity
+            cases = None
             flags.append("no recent sales, set by hand")
-
         bm = str(cat.get("Buy Months (if appl.)") or "").strip()
         if bm and month:
             months = _parse_months(bm)
             if months and month not in months:
                 flags.append("not buy month (%s)" % bm)
 
-        rows.append({
-            "UPC": _digits(cat.get("Product UPC")),
-            "Item": cat.get("Product Description"),
-            "On hand": int(round(oh)), "Wk vel": round(vel, 1), "WOS": round(wos, 1),
-            "Target WOS": target, "Suggested cases": (cases if cases is not None else ""),
-            "Case price": round(price, 2), "Order $": round((cases or 0) * price, 2),
-            "Flag": "; ".join(flags),
-        })
+        return {"UPC": _digits(cat.get("Product UPC")), "Item": re.sub(r"\s+", " ", str(cat.get("Product Description") or "")).strip(),
+                "On hand": int(round(oh)), "Wk vel": round(vel, 1), "WOS": round(wos, 1),
+                "Target WOS": target, "Suggested cases": (cases if cases is not None else ""),
+                "Case price": round(price, 2), "Order $": round((cases or 0) * price, 2),
+                "Flag": "; ".join(flags)}
+
+    rows, unmatched, seen = [], [], set()
+    for raw in items:
+        for q, is_brand in _expand_queries(raw):
+            if is_brand:
+                bts = {t for t in set(_norm(q).split()) if len(t) >= 2}
+                ms = brand_matches(bts)
+                if ms:
+                    capped = len(ms) > BRAND_CAP
+                    for cat in ms[:BRAND_CAP]:
+                        u = _digits(cat.get("Product UPC"))
+                        if u and u in seen:
+                            continue
+                        if u:
+                            seen.add(u)
+                        rows.append(build_row(cat, "brand", ["whole brand"] + (["many, review"] if capped else [])))
+                else:
+                    unmatched.append(raw)
+            else:
+                cat, conf = match_one(q)
+                if cat:
+                    u = _digits(cat.get("Product UPC"))
+                    if u and u in seen:
+                        continue
+                    if u:
+                        seen.add(u)
+                    rows.append(build_row(cat, conf, []))
+                else:
+                    unmatched.append(q)
 
     return {"rows": rows, "unmatched": unmatched, "target": target, "kind": kind,
             "matched": len(rows), "missed": len(unmatched)}
