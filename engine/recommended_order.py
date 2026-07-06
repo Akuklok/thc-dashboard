@@ -346,6 +346,9 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
             out.append("New item - set quantity by hand")
         if str(r.get("Buy Month", "")).startswith("Off-month"):
             out.append("Off buy-month - confirm timing")
+        lyw = r.get("LY wk"); wv = r.get("wk_vel") or 0
+        if pd.notna(lyw) and lyw >= 2 and lyw >= 1.5 * wv:      # last year sold more this period -> ramping
+            out.append(f"Seasonal - last year ~{lyw:.0f}/wk vs {wv:.0f} now, buy ahead?")
         return "; ".join(out)
     buy["Review"] = [_review(r) for _, r in buy.iterrows()]
 
