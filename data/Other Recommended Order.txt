@@ -1,42 +1,42 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Monday, Jul 06, 2026
+  RECOMMENDED OTHER ORDER          Tuesday, Jul 07, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     35,460
-  Coverable by transfer .......  $     15,186   (43%)
-  NET BUY from vendors ........  $     16,343   <- the order
+  Gross need (all stores) .....  $     32,292
+  Coverable by transfer .......  $     14,019   (43%)
+  NET BUY from vendors ........  $     14,304   <- the order
 
-  86 items   |   7,632 units to buy   |   3,756 units to rebalance
-  Transfers: 340 moves  -  293 urgent (136 stockouts, 157 under 2wk), 47 routine
+  80 items   |   6,984 units to buy   |   3,642 units to rebalance
+  Transfers: 327 moves  -  284 urgent (135 stockouts, 149 under 2wk), 43 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           1734u/1734cs       $0   1734     0   OUT
-   2  Matches- Box                         2u/2cs             $4      2     0   OUT
-   3  Dole Strawberry Lemonade 2L          24u/3cs           $59     26     0   OUT
-   4  Dole Lemonade 2L                     8u/1cs            $16      8     0   OUT
-   5  Middletons Black & Mild Single       100u/4cs         $148     91     0   OUT
-   6  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      5     0   OUT
-   7  Gatorlyte Lime Cucumber 20oz         24u/2cs           $22     24     0   OUT
-   8  Master of Mixes Pina Colada Liter    24u/2cs           $88     19     0   OUT
-   9  Wedding Return Fee                   4u/4cs             $0      4     0   OUT
-  10  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-  11  Velo Pouch 9mg Wintergreen           25u/5cs          $210     24     0   OUT
-  12  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
-  13  Zyn 3mg Wintergreen                  15u/3cs          $126     15     0   OUT
-  14  Charm Social Tonic Lemon Ginger 12o  22u/22cs          $53     22     0   OUT
-  15  Master of Mixes Strawberry Daq/Marg  24u/2cs           $74     24     0   OUT
-  16  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
-  17  Velo Citrus Chill 9mg                5u/1cs            $42      7     0   OUT
-  18  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
-  19  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
-  20  Bag Fee                              105u/105cs         $0    105     0   OUT
-  ...and 66 more in the full list.
+   1  Non-Refundable Transaction           1736u/1736cs       $0   1736     0   OUT
+   2  Dole Lemonade 2L                     8u/1cs            $16      6     0   OUT
+   3  Matches- Box                         2u/2cs             $4      2     0   OUT
+   4  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      5     0   OUT
+   5  Velo Pouch 9mg Wintergreen           25u/5cs          $210     26     0   OUT
+   6  Master of Mixes Pina Colada Liter    24u/2cs           $88     19     0   OUT
+   7  Wedding Return Fee                   4u/4cs             $0      4     0   OUT
+   8  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   9  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
+  10  Charm Social Tonic Lemon Ginger 12o  22u/22cs          $53     22     0   OUT
+  11  Zyn 3mg Wintergreen                  15u/3cs          $126     13     0   OUT
+  12  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
+  13  Master of Mixes Strawberry Daq/Marg  24u/2cs           $74     22     0   OUT
+  14  Velo Citrus Chill 9mg                5u/1cs            $42      7     0   OUT
+  15  Middletons Black & Mild Single       75u/3cs          $111     66     0   OUT
+  16  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
+  17  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
+  18  Bag Fee                              103u/103cs         $0    103     0   OUT
+  19  Black & Mild Wood Tip B1G1           4u/4cs             $0      4     0   OUT
+  20  Orange Crush 10pk 8oz can            3u/1cs            $13      2     0   OUT
+  ...and 60 more in the full list.
 
-  NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Matches- Box                              Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
@@ -44,7 +44,13 @@
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Big Bag                            Large buy ($7,189) - confirm
+    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~10/wk vs 6 now, buy ahead?
+    MN Ice Big Bag                            Large buy ($6,155) - confirm
+    ReaLime Lime Juice 8oz                    Seasonal - last year ~16/wk vs 9 now, buy ahead?
+    Zyn Peppermint 6mg                        Seasonal - last year ~7/wk vs 4 now, buy ahead?
+    Barritt's Ginger Beer 6pk 12oz can        Seasonal - last year ~3/wk vs 2 now, buy ahead?
+    Starry Zero 10pk 8oz can                  Seasonal - last year ~5/wk vs 2 now, buy ahead?
 
-  BEING REMOVED - DO NOT REORDER (1 discontinued items still selling/low - run down stock):
-    Fever Tree Tonic Water 8pk 5oz can          (would have bought 12u)
+  BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
+    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 15u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 15u)
