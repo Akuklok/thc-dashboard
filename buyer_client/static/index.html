@@ -503,7 +503,7 @@ async function loadLive(){
   if(!d.available){ $('liveAsOf').textContent="Yesterday's sales feed isn't switched on yet."; return; }
   const chain=d.chain||{};
   const _dm=String(d.date||'').match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
-  const _dd=_dm?new Date(+_dm[3],+_dm[2]-1,+_dm[1]):null;
+  const _dd=_dm?new Date(+_dm[3],+_dm[1]-1,+_dm[2]):null;   // date is M/D/YYYY
   const _age=_dd?Math.floor((Date.now()-_dd.getTime())/86400000):null;
   $('liveAsOf').innerHTML = (_age!=null && _age>2)
     ? `<span style="color:#b45309;font-weight:700">Not updated since ${esc(d.date||'')} - the 6am sync may not have run.</span>`
