@@ -73,6 +73,19 @@ def _prefix_hit(qt, ct):
     return qt == ct or (3 <= len(qt) < len(ct) and ct.startswith(qt))
 
 
+# Wine varietal initialisms that prefix-matching can't catch (SB -> Sauvignon Blanc, etc.).
+_VARIETAL_ABBR = {
+    "sb": "sauvignon blanc", "cs": "cabernet sauvignon", "pn": "pinot noir",
+    "pg": "pinot grigio", "pgr": "pinot gris", "gsm": "grenache syrah mourvedre",
+    "cdp": "chateauneuf du pape",
+}
+
+
+def _expand_abbr(norm_query):
+    """Expand standalone varietal initialisms in a normalized query (Horologist SB -> ... sauvignon blanc)."""
+    return " ".join(_VARIETAL_ABBR.get(t, t) for t in norm_query.split())
+
+
 def suggest(items, kind, catalog_rows, inv_rows, month=None):
     target = TARGETS.get(str(kind or "").lower(), 4.5)
 
@@ -117,7 +130,7 @@ def suggest(items, kind, catalog_rows, inv_rows, month=None):
         nd = _norm(q)
         if nd in cat_by_desc:
             return cat_by_desc[nd], "exact"
-        cand, sc = best_token(set(nd.split()), cat_tokens)
+        cand, sc = best_token(set(_expand_abbr(nd).split()), cat_tokens)
         if cand and sc >= 0.6:
             return cand, "fuzzy"
         return None, None
