@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wine POs by Vendor — Top Ten Buyer</title>
+<style>
+  :root{ --navy:#0F3A4C; --teal:#15728E; --line:#dce3e7; --bg:#f5f8fa; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:14px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1d2a30; background:var(--bg); }
+  header{ background:var(--navy); color:#fff; padding:14px 16px; }
+  header b{ font-size:16px; } header .sub{ font-size:12px; opacity:.85; }
+  .wrap{ max-width:720px; margin:0 auto; padding:18px; }
+  .card{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:14px 16px; margin-bottom:10px; display:flex; align-items:center; gap:14px; }
+  .card .info{ flex:1; min-width:0; }
+  .card h3{ margin:0 0 2px; font-size:15px; color:var(--navy); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .card .meta{ font-size:12px; color:#5a6470; }
+  a.btn{ background:var(--navy); color:#fff; text-decoration:none; border-radius:8px; padding:9px 15px; font-size:14px; white-space:nowrap; }
+  a.dlall{ display:inline-block; margin-bottom:14px; }
+  .asof{ font-size:12px; color:#5a6470; margin-bottom:12px; }
+  .note{ font-size:12px; color:#5a6470; margin-top:10px; }
+  .empty{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px; color:#5a6470; }
+</style>
+</head>
+<body>
+  <header><b>Wine POs by Vendor</b><div class="sub">This week's orders, split into one file per vendor. Download and email each one.</div></header>
+  <div class="wrap">
+    <div class="asof" id="asof">Loading…</div>
+    <div id="cards"></div>
+    <div class="note">These rebuild every afternoon from the current Receiving POs on the wine team, grouped by supplier. Each file has the order lines for that one vendor (UPC, description, vendor item #, cases, cost). Download a vendor's file and attach it to their email. Sending stays manual — nothing goes out on its own.</div>
+  </div>
+<script>
+  const $=id=>document.getElementById(id);
+  function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  async function load(){
+    let d;
+    try{ d=await (await fetch('/api/vendorpos')).json(); }
+    catch(e){ $('asof').textContent='Could not load.'; return; }
+    const v=(d.vendors||[]);
+    $('asof').textContent = v.length
+      ? ((d.generated?('Built '+d.generated+' · '):'')+v.length+' vendor'+(v.length==1?'':'s')+(d.since?(' · POs since '+d.since):''))
+      : '';
+    if(!v.length){
+      $('cards').innerHTML='<div class="empty">No vendor files yet. They build every afternoon after the day’s report drops, or after the next wine order is entered.</div>';
+      return;
+    }
+    $('cards').innerHTML = v.map(f=>{
+      return `<div class="card"><div class="info"><h3>${esc(f.name)}</h3>`+
+        `<div class="meta">${(f.lines||0).toLocaleString()} line${f.lines==1?'':'s'}</div></div>`+
+        `<a class="btn" href="/api/vendordl?name=${encodeURIComponent(f.file)}">Download</a></div>`;
+    }).join('');
+  }
+  load();
+</script>
+</body>
+</html>

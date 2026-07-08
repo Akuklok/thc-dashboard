@@ -388,6 +388,11 @@ def wineprep_bytes(name):
     return get_bytes(name)
 
 
+def vendorpos_bytes(name):
+    """Bytes of one per-vendor wine PO file from data/vendor_pos/."""
+    return get_bytes("vendor_pos/" + name)
+
+
 # ---- Live sales: the server keeps today's numbers fresh itself, no reliance on GitHub's scheduler ----
 # Needs the CR_* env vars on the host. Falls back to the committed data/live_sales.json until then.
 _LIVE = {"data": None, "ts": 0.0}
@@ -1138,6 +1143,33 @@ class Handler(BaseHTTPRequestHandler):
             if name not in ("Wine Open POs.csv", "Wine Inventory Calc.csv"):
                 return self._send(404, b"not found", "text/plain")
             b = wineprep_bytes(name)
+            if not b:
+                return self._send(404, b"Not built yet. Run the daily build first.", "text/plain")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv")
+            self.send_header("Content-Disposition", 'attachment; filename="%s"' % name)
+            self.send_header("Content-Length", str(len(b)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(b)
+            return
+        if u.path == "/api/vendorpos":
+            # list this week's per-vendor wine PO files (for the download page)
+            idx = {"vendors": [], "generated": ""}
+            b = get_bytes("vendor_pos/_index.json")
+            if b:
+                try:
+                    idx = json.loads(b.decode("utf-8", "replace"))
+                except Exception:
+                    pass
+            return self._send(200, idx)
+        if u.path == "/api/vendordl":
+            name = parse_qs(u.query).get("name", [""])[0]
+            # no slash = can't escape vendor_pos/ (a vendor file may legitimately contain ".." e.g. "Inc..csv")
+            if not name.endswith(".csv") or "/" in name or "\\" in name:
+                return self._send(404, b"not found", "text/plain")
+            b = vendorpos_bytes(name)
             if not b:
                 return self._send(404, b"Not built yet. Run the daily build first.", "text/plain")
             self.send_response(200)
