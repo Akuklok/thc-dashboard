@@ -105,6 +105,11 @@ def main():
         pop.build(out_dir=DATA)
     except (Exception, SystemExit) as e:
         print("Open POs pull skipped:", e)
+    try:
+        import pull_vendor_pos as pvp     # this week's wine POs split into one file per vendor (needs CR_* env)
+        pvp.build(out_dir=os.path.join(DATA, "vendor_pos"))
+    except (Exception, SystemExit) as e:
+        print("Vendor PO split skipped:", e)
     print("Cloud build complete -> orders + snapshots in", DATA)
 
 
