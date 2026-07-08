@@ -99,6 +99,11 @@
   .me{background:var(--green);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
   .msg img{max-width:230px;border-radius:8px;display:block}
   .ai{background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px}
+  .msg .mdh{font-weight:700;margin:9px 0 3px;font-size:14px}
+  .msg .mdh:first-child{margin-top:0}
+  .msg .mdul{margin:4px 0;padding-left:20px}
+  .msg .mdul li{margin:3px 0}
+  .msg .mdsp{height:7px}
   .hrow{border:1px solid var(--line);border-radius:8px;padding:7px 10px;margin:4px 0;cursor:pointer;font-size:13px;background:#fff}
   .hrow:hover{background:#eef1ee}
   .row{display:flex;gap:8px;padding-top:8px}
@@ -882,7 +887,21 @@ async function undoChange(id){
   try{ const r=await fetch('/api/undo',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,who:localStorage.getItem('rname')||''})});
     if((await r.json()).ok) loadChanges(); }catch(e){}
 }
-function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;m.textContent=text;$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
+// light markdown so the assistant's ## headings, **bold** and - bullets render as formatting instead of showing the raw symbols
+function mdLite(t){
+  t=String(t==null?'':t).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const bold=s=>s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+  const out=[]; let inList=false;
+  for(const ln of t.split(/\r?\n/)){
+    const h=ln.match(/^\s*#{1,6}\s+(.*\S)\s*$/), li=ln.match(/^\s*[-*]\s+(.*)$/);
+    if(h){ if(inList){out.push('</ul>');inList=false;} out.push('<div class="mdh">'+bold(h[1])+'</div>'); }
+    else if(li){ if(!inList){out.push('<ul class="mdul">');inList=true;} out.push('<li>'+bold(li[1])+'</li>'); }
+    else { if(inList){out.push('</ul>');inList=false;} out.push(ln.trim()===''?'<div class="mdsp"></div>':'<div>'+bold(ln)+'</div>'); }
+  }
+  if(inList)out.push('</ul>');
+  return out.join('');
+}
+function bubble(text,cls){const m=document.createElement('div');m.className='msg '+cls;if(cls==='ai'){m.innerHTML=mdLite(text);}else{m.textContent=text;}$('msgs').appendChild(m);$('msgs').scrollTop=1e9;return m;}
 // ---- chat history (saved on this device): browse & reopen past requests/actions ----
 let convId=null;
 function getChats(){ try{ return JSON.parse(localStorage.getItem('chats')||'[]'); }catch(e){ return []; } }
@@ -948,7 +967,7 @@ async function ask(){
   try{
     const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
       body:JSON.stringify({dept:$('dept').value,messages:history})});
-    const d=await r.json(); t.textContent=d.reply; history.push({role:'assistant',content:d.reply}); saveChat();
+    const d=await r.json(); t.innerHTML=mdLite(d.reply); history.push({role:'assistant',content:d.reply}); saveChat();
   }catch(e){t.textContent='(Error reaching the assistant)';}
 }
 function pickCompare(){ $('cmpFile').click(); }
