@@ -1,54 +1,56 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Tuesday, Jul 07, 2026
+  RECOMMENDED WINE ORDER          Wednesday, Jul 08, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     85,922
-  Coverable by transfer .......  $     52,075   (61%)
-  NET BUY from vendors ........  $     10,381   <- the order
+  Gross need (all stores) .....  $     91,869
+  Coverable by transfer .......  $     54,109   (59%)
+  NET BUY from vendors ........  $     13,357   <- the order
 
-  41 items   |   1,332 units to buy   |   6,614 units to rebalance
-  Transfers: 721 moves  -  570 urgent (185 stockouts, 385 under 2wk), 151 routine
+  44 items   |   1,600 units to buy   |   6,838 units to rebalance
+  Transfers: 737 moves  -  599 urgent (194 stockouts, 405 under 2wk), 138 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 6 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 7 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  90+ Cellars DOC Prosecco Lot 50 (si  240u/10cs        $649    230     0   OUT
-   2  Atomic Boss Blue Rizz 500ml          24u/2cs            $0     26     0   OUT
-   3  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
-   4  Locations F 750ml                    2u/2cs            $22      2     0   OUT
-   5  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
-   6  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
-   7  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
-   8  Fowler Wine Cabernet Sauvignon / D   1u/1cs            $16      1     0   OUT
-   9  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
-  10  Atomic Boss Berry Blast 500ml        12u/1cs           $32     13     0   OUT
-  11  Yellow Tail Jammy Red Roo 1.5L       12u/2cs           $94     10     0   0.9
-  12  J Friederich Zeller Schwarze 750ml   12u/1cs           $71      9     0   1.2
-  13  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $87     12     0   1.8
-  14  Barefoot Pinot Noir 250ml            12u/2cs           $72     11     0   2.0
-  15  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     42    24   2.2
-  16  Gallo Merlot 1.5L                    12u/2cs           $83     13     0   2.2
-  17  Underwood Bubbles 355ml              120u/10cs        $524    171    45   2.3
-  18  Josh Cellars Chardonnay 750ml        156u/13cs      $1,306    181    29   2.4
-  19  The Paring Sauvignon Blanc 750ml     12u/1cs          $216      7     0   2.4
-  20  Yellow Tail Super Crisp Chard 1.5L   30u/5cs          $232     28     0   2.5
-  ...and 21 more in the full list.
+   1  Les Allies Brut 187ml                24u/1cs           $69     18     0   OUT
+   2  J Friederich Zeller Schwarze 750ml   36u/3cs          $213     32     0   OUT
+   3  90+ Cellars DOC Prosecco Lot 50 (si  240u/10cs        $649    237     0   OUT
+   4  Atomic Boss Blue Rizz 500ml          24u/2cs            $0     25     0   OUT
+   5  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
+   6  Locations F 750ml                    2u/2cs            $22      2     0   OUT
+   7  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
+   8  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
+   9  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
+  10  Fowler Wine Cabernet Sauvignon / D   1u/1cs            $16      1     0   OUT
+  11  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
+  12  Atomic Boss Berry Blast 500ml        12u/1cs           $32     12     0   OUT
+  13  Yellow Tail Jammy Red Roo 1.5L       12u/2cs           $94     10     0   0.9
+  14  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $87     12     0   1.8
+  15  Barefoot Pinot Noir 250ml            12u/2cs           $72     11     0   2.0
+  16  Josh Cellars Chardonnay 750ml        168u/14cs      $1,402    192    26   2.2
+  17  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     42    24   2.2
+  18  Underwood Bubbles 355ml              120u/10cs        $524    166    52   2.3
+  19  Gallo Merlot 1.5L                    12u/2cs           $83     12     0   2.4
+  20  The Paring Sauvignon Blanc 750ml     12u/1cs          $216      7     0   2.4
+  ...and 24 more in the full list.
 
-  NEEDS REVIEW (6 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (7 items the system isn't fully sure about - check before ordering):
     Atomic Boss Blue Rizz 500ml               No cost data - verify price; Margin over 95% - check retail
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
     Atomic Boss Berry Blast 500ml             Margin looks off - check retail/cost
+    Yellow Tail Jammy Red Roo 1.5L            Seasonal - last year ~4/wk vs 2 now, buy ahead?
     90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
     La Vieille Ferme Rose 4pk 250ml can       Seasonal - last year ~3/wk vs 1 now, buy ahead?
     Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost
 
-  BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
-    Bogle Cabernet Sauvignon 750ml              (would have bought 60u)
+  BEING REMOVED - DO NOT REORDER (8 discontinued items still selling/low - run down stock):
+    Bogle Cabernet Sauvignon 750ml              (would have bought 84u)
     Cannonball Cabernet Sauvignon 750ml         (would have bought 1u)
     Daou Cabernet Sauvignon 750ml               (would have bought 48u)
-    Franzia Chardonnay 5L Box                   (would have bought 52u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 16u)
-    Franzia Sunset Blush 5L Box                 (would have bought 56u)
+    Franzia Chardonnay 5L Box                   (would have bought 56u)
+    Franzia Chillable Red 5L Box                (would have bought 16u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 24u)
+    Franzia Sunset Blush 5L Box                 (would have bought 68u)
     Ganbei Baljiu 750ML/ D                      (would have bought 1u)
