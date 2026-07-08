@@ -4,13 +4,15 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
 <meta name="theme-color" content="#0F3A4C"/>
+<meta name="color-scheme" content="light"/>
 <link rel="manifest" href="/manifest.webmanifest"/>
 <link rel="icon" href="/icon.svg"/>
 <link rel="apple-touch-icon" href="/icon-192.png"/>
 <title>Top Ten Buyer</title>
 <style>
-  :root{--green:#0F3A4C;--green2:#15728E;--bg:#f5f6f4;--card:#fff;--line:#e3e6e2;--ink:#1a1f1c;--muted:#6b756f;--accent:#15728E;--accent-ink:#fff}
+  :root{--green:#0F3A4C;--green2:#15728E;--bg:#f5f6f4;--card:#fff;--line:#e3e6e2;--ink:#1a1f1c;--muted:#6b756f;--accent:#15728E;--accent-ink:#fff;color-scheme:light}
   *{box-sizing:border-box}
+  select,textarea,input:not([type=checkbox]):not([type=radio]){background:#fff;color:var(--ink)}   /* keep text fields & dropdowns readable even if the phone/browser is in dark mode (color-scheme:light on :root covers the rest) */
   body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
   header{background:var(--green);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;border-bottom:3px solid var(--accent)}
   header .brand{font-weight:700;font-size:18px;letter-spacing:.2px}
