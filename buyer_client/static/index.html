@@ -27,6 +27,20 @@
   .subtabs button{background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:20px;cursor:pointer;font-size:13px;color:var(--ink)}
   .subtabs button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
   .find{width:100%;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:0 0 8px;display:block}
+  .budgetbar{margin:8px 0 12px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;background:#fafcfb}
+  .budgetbar label{font-weight:600;margin-right:9px;font-size:14px}
+  .budgetbar .bin{width:150px;padding:7px 9px;border:1px solid #cfd8dd;border-radius:7px;font-size:15px}
+  .budgetbar .bhint{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+  .bout{margin-top:10px}
+  .bbarwrap{height:9px;background:#e9eef1;border-radius:5px;overflow:hidden;margin-bottom:8px}
+  .bbar{height:100%;border-radius:5px;transition:width .3s ease}
+  .bhead{font-size:13px;line-height:1.5}
+  .bcut{margin-top:10px;border-top:1px dashed var(--line);padding-top:9px}
+  .bcuth{font-size:12px;font-weight:600;color:#9a6700;margin-bottom:6px}
+  .bcutrow{display:flex;justify-content:space-between;gap:12px;font-size:12px;padding:3px 0;border-bottom:1px solid #f0f3f5}
+  .bcutn{color:var(--muted);white-space:nowrap}
+  .bcode{font-family:ui-monospace,Consolas,monospace;color:var(--muted);font-size:11px}
+  .bcutft{font-size:11px;color:var(--muted);margin-top:7px}
   th{user-select:none}
   .exp{background:var(--green2);color:#fff;border:0;padding:4px 11px;border-radius:6px;cursor:pointer;font-size:12px;margin-left:8px;font-weight:600;vertical-align:middle}
   .pgbtn{background:var(--green);color:#fff;border:0;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:13px;margin-left:6px}
@@ -163,6 +177,12 @@
     <div class="sec" id="sec-buy">
       <h3><span id="lbl-buy">What to buy</span> <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportTbl('buyTbl', $('dept').value+' order')">Export to Excel</button></h3>
       <div class="subhint">The system's suggested order for the week — leave it, or change/skip anything. <b style="color:#9a6700">Yellow rows need your review.</b></div>
+      <div class="budgetbar" id="budgetBar">
+        <label for="budgetIn">Weekly budget</label>
+        <input class="bin" id="budgetIn" type="text" inputmode="numeric" placeholder="e.g. 500,000" oninput="applyBudget()" onblur="fmtBudget()"/>
+        <span class="bhint">Enter your budget and I'll show whether this order fits. A little over is fine — up to $1,000.</span>
+        <div class="bout" id="budgetOut" style="display:none"></div>
+      </div>
       <input class="find" id="findBuy" placeholder="Find in this list (item, deal, category)..." oninput="filterTable('buyTbl',this.value)"/>
       <div class="wrap"><table id="buyTbl"></table></div>
     </div>
@@ -297,6 +317,48 @@ function ago(iso){
   return Math.round(h/24)+' days ago';
 }
 function fmtd(d){ if(!d) return ''; const p=String(d).split('-'); return p.length>=3?(+p[1])+'/'+(+p[2]):d; }
+// ---- weekly budget fit: enter a budget, see whether the order fits, and what to defer if it's over ----
+const BUDGET_STRETCH=1000;
+function parseBudget(s){
+  s=String(s==null?'':s).trim().replace(/[$,\s]/g,'');
+  let mult=1; const m=s.match(/([km])$/i);
+  if(m){ mult=m[1].toLowerCase()==='k'?1000:1e6; s=s.slice(0,-1); }   // "400k" -> 400000, "0.6m" -> 600000
+  const n=parseFloat(s); return isNaN(n)?0:n*mult;
+}
+function fmtBudget(){ const el=$('budgetIn'); if(!el)return; const n=parseBudget(el.value); el.value=n?n.toLocaleString('en-US'):''; applyBudget(); }
+function orderLines(){
+  const cols=lastBuyCols||[], rows=lastBuyRows||[];
+  if(!rows.length) return [];
+  const ci=n=>cols.indexOf(n);
+  const ni=ci('Net Buy $'), ii=ci('Item'), ui=ci('Buy Units'), pi=ci('Product Code');
+  return rows.map(r=>({item:String(ii>=0?r[ii]:''),
+    net:(+String(ni>=0?r[ni]:0).replace(/[$,]/g,''))||0,
+    units:(ui>=0&&r[ui]!=='')?r[ui]:'', code:pi>=0?String(r[pi]||''):''}));
+}
+function loadBudget(){ const el=$('budgetIn'); if(!el) return; el.value=localStorage.getItem('budget_'+$('dept').value)||''; applyBudget(); }
+function applyBudget(){
+  const out=$('budgetOut'); if(!out) return;
+  const budget=parseBudget($('budgetIn').value);
+  localStorage.setItem('budget_'+$('dept').value, ($('budgetIn').value||'').trim());
+  const lines=orderLines(), total=lines.reduce((a,l)=>a+l.net,0);
+  if(!budget){ out.style.display='none'; out.innerHTML=''; return; }
+  out.style.display='block';
+  const over=total-budget, pct=Math.max(3,Math.min(100, total/budget*100));
+  const color=over<=0?'var(--green2)':(over<BUDGET_STRETCH?'#e0a800':'#c00000');
+  let head;
+  if(over<=0) head=`<b style="color:var(--green2)">Fits your budget.</b> This order is ${money(total)} of ${money(budget)} — ${money(-over)} to spare.`;
+  else if(over<BUDGET_STRETCH) head=`<b style="color:#9a6700">A little over — you're fine.</b> ${money(total)} is ${money(over)} over ${money(budget)}, under the $1,000 stretch.`;
+  else head=`<b style="color:#c00000">Over budget.</b> ${money(total)} is ${money(over)} over ${money(budget)}.`;
+  let cut='';
+  if(over>=BUDGET_STRETCH){
+    const rev=lines.slice().reverse(), defer=[]; let removed=0;
+    for(const l of rev){ if(total-removed<=budget) break; if(l.net<=0) continue; defer.push(l); removed+=l.net; }
+    if(defer.length) cut=`<div class="bcut"><div class="bcuth">Defer these ${defer.length} least-urgent item${defer.length>1?'s':''} to get to ${money(total-removed)} (within budget):</div>`+
+      defer.map(l=>`<div class="bcutrow"><span>${esc(l.item)}${l.code?` <span class="bcode">${esc(l.code)}</span>`:''}</span><span class="bcutn">${l.units!==''?l.units+' u · ':''}${money(l.net)}</span></div>`).join('')+
+      `<div class="bcutft">These are the lowest-priority buys this week (most weeks of stock on hand). Defer them, or trim a few instead — your call.</div></div>`;
+  }
+  out.innerHTML=`<div class="bbarwrap"><div class="bbar" style="width:${pct}%;background:${color}"></div></div><div class="bhead">${head}</div>${cut}`;
+}
 
 function init(){
   $('app').style.display='block';
@@ -452,7 +514,7 @@ async function exportList(){
 // ---- per-buyer customization (saved on this device only) ----
 const PREF_SECTIONS=[['glance','This week at a glance'],['trcards','Transfers — move stock between stores first'],['buy','What to buy'],['plan','Transfer plan']];
 const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor'],['tabLive',"Yesterday's sales"]];
-let lastBuyCols=[];
+let lastBuyCols=[],lastBuyRows=[];
 function defPrefs(){ const show={},labels={}; PREF_SECTIONS.forEach(([id,l])=>{show[id]=true;labels[id]=l;}); PREF_TABS.forEach(([id])=>show[id]=true); return {note:'',show,labels,buyCols:null}; }
 function getPrefs(){ const d=defPrefs(); try{ const s=JSON.parse(localStorage.getItem('prefs')||'{}'); return {note:s.note||'',show:Object.assign(d.show,s.show||{}),labels:Object.assign(d.labels,s.labels||{}),buyCols:s.buyCols||null}; }catch(e){ return d; } }
 function applyPrefs(){ const p=getPrefs();
@@ -670,7 +732,7 @@ async function loadToday(){
     <div class="card"><div class="lbl">Routine top-ups</div><div class="val">${n(h.routine)}</div></div>` : '';
   $('buyHint').textContent = h.items!==undefined ? `(${n(h.items)} items · ${n(h.units)} units · most urgent first)` : '';
   if($('findBuy')) $('findBuy').value='';
-  lastBuyCols = d.buy_cols||[];
+  lastBuyCols = d.buy_cols||[]; lastBuyRows = d.buy_rows||[];
   let bc=d.buy_cols||[], br=d.buy_rows||[];
   const pf=getPrefs();
   if(pf.buyCols && pf.buyCols.length){
@@ -678,6 +740,7 @@ async function loadToday(){
     if(idx.length){ bc=idx.map(i=>d.buy_cols[i]); br=(d.buy_rows||[]).map(r=>idx.map(i=>r[i])); }
   }
   mountTable('buyTbl',bc,br);
+  loadBudget();
   mountTable('trTbl',d.tr_cols,d.tr_rows);
   saveChat(); history=[]; convId=null; $('msgs').innerHTML='';
 }
