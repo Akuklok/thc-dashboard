@@ -1,55 +1,55 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Wednesday, Jul 08, 2026
+  RECOMMENDED OTHER ORDER          Thursday, Jul 09, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     33,265
-  Coverable by transfer .......  $     14,665   (44%)
-  NET BUY from vendors ........  $     14,514   <- the order
+  Gross need (all stores) .....  $     30,771
+  Coverable by transfer .......  $     13,878   (45%)
+  NET BUY from vendors ........  $     12,620   <- the order
 
-  80 items   |   7,068 units to buy   |   3,734 units to rebalance
-  Transfers: 331 moves  -  289 urgent (137 stockouts, 152 under 2wk), 42 routine
+  73 items   |   6,548 units to buy   |   3,738 units to rebalance
+  Transfers: 316 moves  -  276 urgent (130 stockouts, 146 under 2wk), 40 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           1736u/1736cs       $0   1736     0   OUT
    2  Dole Lemonade 2L                     8u/1cs            $16      8     0   OUT
-   3  Matches- Box                         2u/2cs             $4      2     0   OUT
-   4  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      5     0   OUT
-   5  Zyn 3mg Wintergreen                  20u/4cs          $168     19     0   OUT
-   6  Velo Pouch 9mg Wintergreen           25u/5cs          $210     26     0   OUT
-   7  Master of Mixes Pina Colada Liter    24u/2cs           $88     19     0   OUT
-   8  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
-   9  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
-  10  Velo Wintergreen 6mg                 20u/4cs          $168     21     0   OUT
-  11  Charm Social Tonic Lemon Ginger 12o  23u/23cs          $56     23     0   OUT
-  12  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
-  13  Master of Mixes Strawberry Daq/Marg  24u/2cs           $74     21     0   OUT
-  14  Velo Citrus Chill 9mg                5u/1cs            $42      7     0   OUT
-  15  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
-  16  Middletons Black & Mild Single       75u/3cs          $111     64     0   OUT
-  17  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
-  18  Zoa Tropical Punch 12oz can          12u/1cs           $18      8     0   OUT
-  19  Bag Fee                              103u/103cs         $0    103     0   OUT
-  20  Black & Mild Wood Tip B1G1           4u/4cs             $0      4     0   OUT
-  ...and 60 more in the full list.
+   3  Black & Mild (1 Extra)               2u/2cs             $0      2     0   OUT
+   4  Matches- Box                         2u/2cs             $4      2     0   OUT
+   5  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      5     0   OUT
+   6  Master of Mixes Pina Colada Liter    24u/2cs           $88     19     0   OUT
+   7  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+   8  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
+   9  Charm Social Tonic Lemon Ginger 12o  21u/21cs          $51     21     0   OUT
+  10  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
+  11  Master of Mixes Strawberry Daq/Marg  24u/2cs           $74     21     0   OUT
+  12  Velo Citrus Chill 9mg                5u/1cs            $42      7     0   OUT
+  13  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
+  14  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
+  15  Zoa Tropical Punch 12oz can          12u/1cs           $18      8     0   OUT
+  16  Bag Fee                              104u/104cs         $0    104     0   OUT
+  17  Black & Mild Wood Tip B1G1           4u/4cs             $0      4     0   OUT
+  18  Orange Crush 10pk 8oz can            3u/1cs            $13      2     0   OUT
+  19  Mountain Dew Voltage 20oz            4u/4cs             $6      4     0   OUT
+  20  Fre Pouch 6mg Mint                   5u/1cs            $40      4     0   OUT
+  ...and 53 more in the full list.
 
-  NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
+    Black & Mild (1 Extra)                    No cost data - verify price; Margin over 95% - check retail
     Matches- Box                              Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~11/wk vs 6 now, buy ahead?
-    MN Ice Big Bag                            Large buy ($6,184) - confirm
-    Zyn Peppermint 6mg                        Seasonal - last year ~7/wk vs 5 now, buy ahead?
-    ReaLime Lime Juice 8oz                    Seasonal - last year ~16/wk vs 8 now, buy ahead?
+    MN Ice Big Bag                            Large buy ($6,229) - confirm
     Barritt's Ginger Beer 6pk 12oz can        Seasonal - last year ~3/wk vs 2 now, buy ahead?
-    Starry Zero 10pk 8oz can                  Seasonal - last year ~5/wk vs 2 now, buy ahead?
+    ReaLime Lime Juice 8oz                    Seasonal - last year ~16/wk vs 8 now, buy ahead?
+    Starry Zero 10pk 8oz can                  Seasonal - last year ~6/wk vs 2 now, buy ahead?
     Swisher Sweets Cigarillo                  No cost data - verify price; Margin over 95% - check retail
 
-  BEING REMOVED - DO NOT REORDER (1 discontinued items still selling/low - run down stock):
-    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 21u)
+  BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
+    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 30u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 18u)
