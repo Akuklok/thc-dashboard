@@ -1,22 +1,22 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Thursday, Jul 09, 2026
+  RECOMMENDED WINE ORDER          Friday, Jul 10, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     86,615
-  Coverable by transfer .......  $     52,335   (60%)
-  NET BUY from vendors ........  $     10,527   <- the order
+  Gross need (all stores) .....  $     84,834
+  Coverable by transfer .......  $     50,178   (59%)
+  NET BUY from vendors ........  $     10,587   <- the order
 
-  35 items   |   1,328 units to buy   |   6,473 units to rebalance
-  Transfers: 700 moves  -  568 urgent (168 stockouts, 400 under 2wk), 132 routine
+  39 items   |   1,316 units to buy   |   6,194 units to rebalance
+  Transfers: 678 moves  -  544 urgent (154 stockouts, 390 under 2wk), 134 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 6 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Les Allies Brut 187ml                24u/1cs           $69     22     0   OUT
-   2  90+ Cellars DOC Prosecco Lot 50 (si  240u/10cs        $649    248     0   OUT
-   3  Atomic Boss Blue Rizz 500ml          24u/2cs            $0     25     0   OUT
+   1  Les Allies Brut 187ml                24u/1cs           $69     24     0   OUT
+   2  90+ Cellars DOC Prosecco Lot 50 (si  264u/11cs        $714    256     0   OUT
+   3  Atomic Boss Blue Rizz 500ml          24u/2cs            $0     24     0   OUT
    4  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
    5  Locations F 750ml                    2u/2cs            $22      2     0   OUT
    6  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
@@ -24,32 +24,33 @@
    8  Lustau East India Solera Oloroso 75  1u/1cs            $19      1     0   OUT
    9  Fowler Wine Cabernet Sauvignon / D   1u/1cs            $16      1     0   OUT
   10  Ruby Red Rose Grapefruit             1u/1cs             $6      1     0   OUT
-  11  Yellow Tail Jammy Red Roo 1.5L       12u/2cs           $94     10     0   0.9
-  12  Barefoot Pinot Noir 250ml            12u/2cs           $72     11     0   2.0
-  13  90+ Cellars Prosecco Rose (single)   24u/1cs            $3     43    24   2.1
-  14  Josh Cellars Chardonnay 750ml        144u/12cs      $1,219    177    31   2.6
-  15  La Vieille Ferme Rose 4pk 250ml can  6u/1cs            $60      4     0   2.6
-  16  Underwood Bubbles 355ml              84u/7cs          $371    141    52   2.7
-  17  Gallo Merlot 1.5L                    12u/2cs           $83     10     0   2.7
-  18  Shania White 3L Box                  6u/2cs            $77      5     0   2.9
-  19  Black Box Chardonnay 3L Box          96u/16cs       $1,278    110    16   3.0
-  20  Woodbridge Chardonnay 1.5L           66u/11cs         $292    143    77   3.0
-  ...and 15 more in the full list.
+  11  Barefoot Pinot Noir 250ml            18u/3cs          $108     19     0   1.1
+  12  La Vieille Ferme Rose 4pk 250ml can  6u/1cs            $60      6     0   1.4
+  13  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     46    24   1.8
+  14  Shania White 3L Box                  9u/3cs           $115      9     0   2.1
+  15  Bev Cal Rose 4pk 250ml               12u/2cs          $136     14     0   2.8
+  16  Gallo Merlot 1.5L                    12u/2cs           $83      9     0   2.9
+  17  Woodbridge Chardonnay 1.5L           66u/11cs         $296    144    77   3.0
+  18  Josh Cellars Pinot Grigio 750ml      84u/7cs          $736    103    22   3.0
+  19  Klinker Brick Rose 750ml             12u/1cs           $82     23    14   3.0
+  20  Black Box Chardonnay 3L Box          84u/14cs       $1,135    106    22   3.1
+  ...and 19 more in the full list.
 
   NEEDS REVIEW (6 items the system isn't fully sure about - check before ordering):
     Atomic Boss Blue Rizz 500ml               No cost data - verify price; Margin over 95% - check retail
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
-    Yellow Tail Jammy Red Roo 1.5L            Seasonal - last year ~4/wk vs 2 now, buy ahead?
-    90+ Cellars Prosecco Rose (single) 187ml  Margin over 95% - check retail
-    La Vieille Ferme Rose 4pk 250ml can       Seasonal - last year ~3/wk vs 1 now, buy ahead?
+    La Vieille Ferme Rose 4pk 250ml can       Seasonal - last year ~2/wk vs 1 now, buy ahead?
+    90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
     Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost
+    Yellow Tail Jammy Red Roo 1.5L            Seasonal - last year ~4/wk vs 2 now, buy ahead?
 
-  BEING REMOVED - DO NOT REORDER (8 discontinued items still selling/low - run down stock):
-    Bogle Cabernet Sauvignon 750ml              (would have bought 72u)
+  BEING REMOVED - DO NOT REORDER (6 discontinued items still selling/low - run down stock):
+    Bogle Cabernet Sauvignon 750ml              (would have bought 84u)
     Cannonball Cabernet Sauvignon 750ml         (would have bought 1u)
-    Daou Cabernet Sauvignon 750ml               (would have bought 24u)
-    Franzia Chardonnay 5L Box                   (would have bought 60u)
-    Franzia Chillable Red 5L Box                (would have bought 16u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 12u)
-    Franzia Sunset Blush 5L Box                 (would have bought 56u)
+    Daou Cabernet Sauvignon 750ml               (would have bought 36u)
+    Franzia Chardonnay 5L Box                   (would have bought 56u)
+    Franzia Sunset Blush 5L Box                 (would have bought 60u)
     Ganbei Baljiu 750ML/ D                      (would have bought 1u)
+
+  WAIT FOR BUY-MONTH (1 routine deal items out of their buy month - $39 cheaper to buy in-month):
+    Daily's Bahama Mama RTD Frozen 10oz         Wait for buy-month (Sep, Oct, Nov, Dec)
