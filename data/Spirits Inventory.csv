@@ -331,7 +331,7 @@ E&J Brandy 375ml,Brandy,Johnson Brothers - St. Paul,176,13.0,13.5,4.71,8.99,7.96
 Evan Williams 100 Proof 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,73,13.0,5.6,22.0,35.49,29.96,38,,55,169,Stillwater:1;Vadnais Heights:2;Ramsey:3;Woodbury:3;Andover:5;Chanhassen:5;Rosemount:6;Roseville:6;Blaine:7;Cottage Grove:8;Minnetonka:10;Bloomington:17
 Svedka Citron Vodka 1.75L,Vodka,Southern Glazer's Wine & Spirits of MN,112,12.9,8.7,14.76,17.99,15.96,18,"Buy Deep Every Month, EO Months Listed",54,171,Plymouth:1;Ramsey:2;Chanhassen:3;Minnetonka:4;Rosemount:5;Vadnais Heights:5;Andover:5;Stillwater:6;Osseo:7;Woodbury:7;St. Louis Park:12;Minneapolis:17;Blaine:18;Cottage Grove:20
 Teremana Tequila Reposado 750ml,Agave,Southern Glazer's Wine & Spirits of MN,37,12.9,2.9,26.38,37.99,32.96,31,,63,130,Minnetonka:1;Roseville:1;St. Louis Park:1;Bloomington:2;Plymouth:2;Andover:3;Rosemount:3;Woodbury:8;Cottage Grove:8;Stillwater:9
-St Germain Elderflower Liqueur 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,11,12.8,0.9,19.55,35.49,29.96,45,,56,159,Plymouth:2;Blaine:2;Bloomington:7
+St Germain Elderflower Liqueur 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,11,12.8,0.9,21.99,35.49,29.96,38,,56,159,Plymouth:2;Blaine:2;Bloomington:7
 99 Coconuts 50ml,Schnapps,Southern Glazer's Wine & Spirits of MN,111,12.8,8.7,0.61,1.49,1.24,59,,47,199,Roseville:26;Bloomington:85
 E&J Apple Brandy 750ml,Brandy,Johnson Brothers - St. Paul,77,12.7,6.1,9.84,16.99,14.96,42,Deep Net,54,165,Cottage Grove:1;Roseville:2;Chanhassen:3;Ramsey:3;Vadnais Heights:4;Blaine:4;St. Louis Park:4;Andover:6;Minnetonka:6;Plymouth:6;Bloomington:8;Woodbury:8;Minneapolis:22
 Christian Brothers Brandy Liter,Brandy,Southern Glazer's Wine & Spirits of MN,86,12.7,6.8,8.87,14.99,12.96,41,,59,143,Minnetonka:1;Rosemount:1;Plymouth:2;Blaine:2;Ramsey:2;Andover:3;Cottage Grove:6;Chanhassen:7;Osseo:11;St. Louis Park:13;Woodbury:14;Stillwater:24
@@ -511,7 +511,7 @@ Pendleton Canadian Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,66,7
 La Gritona Reposado 750ml,Agave,"Maverick Beverage Co., LLC - MN",35,7.1,4.9,40.12,59.99,49.96,33,,31,89,Roseville:2;Minnetonka:4;Chanhassen:5;Andover:6;Blaine:8;Bloomington:10
 Bulleit 95 Rye Whiskey Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,61,7.1,8.6,23.43,37.99,32.96,38,Case 1 Must hit 3 cs within month,31,89,Andover:1;Osseo:2;Rosemount:2;Ramsey:3;Woodbury:4;Stillwater:5;Cottage Grove:6;Chanhassen:8;St. Louis Park:8;Minnetonka:11;Vadnais Heights:11
 Jackson Morgan Salted Caramel Cream 750ml,Cordials,Bellboy Corporation,98,7.1,13.8,15.47,25.99,22.96,40,1CS Free on M/M 750 & 50's 10CS -across chain monthly accum,34,76,Cottage Grove:1;Roseville:2;St. Louis Park:2;Rosemount:2;Vadnais Heights:2;Woodbury:2;Plymouth:4;Ramsey:4;Stillwater:4;Bloomington:5;Chanhassen:6;Minneapolis:6;Blaine:6;Osseo:7;Andover:11;Minnetonka:34
-Crown Royal Blackberry 50ml,Whisky/Whiskey,,7,7.0,1.0,1.25,2.29,1.96,45,,38,53,Blaine:7
+Crown Royal Blackberry 50ml,Whisky/Whiskey,,7,7.0,1.0,1.27,2.29,1.96,45,Case 1,38,53,Blaine:7
 Korbel Brandy Liter,Brandy,Southern Glazer's Wine & Spirits of MN,51,7.0,7.3,11.14,18.99,15.96,41,,30,89,Chanhassen:1;Plymouth:1;Woodbury:1;St. Louis Park:1;Minnetonka:2;Cottage Grove:2;Osseo:3;Vadnais Heights:5;Ramsey:6;Rosemount:9;Andover:10;Blaine:10
 Old Forester Bourbon 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,78,7.0,11.2,17.31,28.99,24.96,40,,29,93,Ramsey:1;Woodbury:1;Cottage Grove:1;Chanhassen:2;Minnetonka:5;Vadnais Heights:5;Blaine:5;Plymouth:6;Osseo:9;Rosemount:10;Roseville:10;Bloomington:11;St. Louis Park:12
 Lalo Tequila Blanco 750ml,Agave,Johnson Brothers - St. Paul,17,7.0,2.4,30.54,46.99,39.96,35,.5 Free on 8,27,104,Bloomington:1;Osseo:5;Roseville:5;Stillwater:6
@@ -1456,397 +1456,397 @@ Black Velvet Toasted Caramel 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spiri
 Willett Potstill Reserve 1.75L,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,17,0.5,31.2,75.37,119.99,99.96,37,Case 1,3,4,Minnetonka:1;Roseville:16
 Jim Beam Bourbon Cream 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,39,0.5,83.6,14.35,23.99,19.96,40,,2,6,Minnetonka:1;Cottage Grove:2;Chanhassen:3;Roseville:5;Woodbury:13;Osseo:15
 818 Tequila Reposado 750ml,Agave,Southern Glazer's Wine & Spirits of MN,12,0.5,22.0,22.63,47.99,39.96,53,,3,4,St. Louis Park:3;Minneapolis:9
-Don Fulano Reposado Tequila 750ml,Agave,Johnson Brothers - St. Paul,3,0.4,6.9,49.02,64.99,,25,,2,5,Minnetonka:3
-Merrys Irish Cream 1.75L,Cordials,Johnson Brothers - St. Paul,1,0.4,2.3,22.5,51.99,43.96,57,1 free on 5 mix and match sizes.  750 original free goods,2,5,Andover:1
-Green Spot Irish Whiskey 750ml,Whisky/Whiskey,Bellboy Corporation,15,0.4,34.4,46.0,71.99,59.96,36,case 1,2,5,Minnetonka:3;St. Louis Park:3;Blaine:4;Rosemount:5
-Paul Sutton Bourbon Vikings LTD 750ml,Whisky/Whiskey,"Vinocopia, Inc",9,0.4,20.7,60.38,92.99,77.96,35,,2,5,Roseville:1;Minneapolis:2;Minnetonka:2;Osseo:2;Chanhassen:2
-Bailey's Strawberries & Cream 750ml,Cordials,Phillips Wine & Spirits - St. Paul,0,0.4,0.0,19.09,29.99,26.96,36,Case 1 Must hit 16 cs within month,0,12,
-Rum Chata GoChata,Cordials,Johnson Brothers - St. Paul,36,0.4,96.4,8.05,11.99,,33,,2,3,Andover:1;Vadnais Heights:1;Rosemount:8;Roseville:8;Blaine:18
-Windsor Apple 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,11,0.4,27.2,8.34,13.99,,40,Case 1,2,4,Rosemount:1;Chanhassen:2;Minnetonka:8
-Cathead Old Soul 109 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.4,9.9,42.93,54.99,44.86,22,Case 1,2,4,Minneapolis:4
-Grey Goose Watermelon & Basil Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,1,0.4,2.5,18.54,28.99,23.96,36,,2,4,Osseo:1
-Jim Beam Bourbon Peach 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,47,0.4,107.9,25.12,35.49,29.96,29,,2,5,Cottage Grove:2;Ramsey:4;Woodbury:4;Minnetonka:5;Stillwater:7;Osseo:8;Roseville:8;St. Louis Park:9
-Carpano Classico Vermouth 375ml,Vermouth,"Breakthru Beverage Minnesota Wine & Spirits, LLC",14,0.4,37.5,11.35,20.99,17.96,46,,2,3,Andover:1;Roseville:6;Chanhassen:7
-Jack Daniels Single Brl Proof 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,2,0.4,4.9,53.48,64.99,59.96,18,,2,4,Bloomington:2
-Rich & Rare Reserve 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",1,0.4,2.6,8.28,12.99,,36,,1,8,Blaine:1
-Griffo Stony Point Whiskey 750ml,Whisky/Whiskey,Bellboy Corporation,18,0.4,46.3,24.12,41.99,24.86,43,,1,8,Andover:2;Ramsey:2;Chanhassen:3;Minnetonka:3;Rosemount:3;Cottage Grove:5
 Takamine 8yr Whiskey 750ml,Whisky/Whiskey,"Grape Beginnings, Inc.",0,0.4,0.0,75.5,107.99,89.96,30,,2,3,
-Angostura 5yr Rum 750ml,Rum,Southern Glazer's Wine & Spirits of MN,2,0.4,5.6,17.38,27.99,22.96,38,,1,7,Bloomington:2
-Ansac Cognac VS 750ml,Brandy,Bellboy Corporation,11,0.4,25.3,17.83,24.99,,29,,2,5,Bloomington:11
-Canadian Club 18yr 750ml,Canadian Whisky,DNU - Created from invalid import,31,0.4,83.0,30.13,48.99,40.96,38,,2,3,Ramsey:3;Blaine:8;Andover:9;Woodbury:11
-Canerock Rum 700ml,Rum,Bellboy Corporation,6,0.4,14.8,19.6,35.49,29.96,45,1cs free every 6cs purchased-accum chain monthly,2,4,Rosemount:1;Andover:1;Blaine:4
-Olmeca Altos Reposado 1.75L,Agave,Southern Glazer's Wine & Spirits of MN,5,0.4,12.4,29.38,59.99,49.96,51,,2,4,Osseo:1;Minneapolis:4
-Elijah Craig Bourbon Private Barrel 750ml,Bourbon,Southern Glazer's Wine & Spirits of MN,30,0.4,68.9,63.75,107.99,89.96,41,,2,5,Andover:1;Blaine:1;Chanhassen:5;Rosemount:6;St. Louis Park:7;Minneapolis:10
-Smirnoff Strawberry Vodka Liter,Vodka,Johnson Brothers - St. Paul,12,0.4,28.6,10.17,18.99,15.96,46,Case 1 Must hit 8 cs within month,1,9,Plymouth:3;Minnetonka:9
-Glenlivet French Oak 15 Yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.4,0.0,76.0,101.99,84.96,25,,2,3,
-El Tequileno Platinum Blanco 750ml,Agave,Southern Glazer's Wine & Spirits of MN,5,0.4,11.5,34.63,65.99,54.96,48,,2,5,Minnetonka:1;St. Louis Park:4
-Cathead Raspberry 750ml,Vodka,Phillips Wine & Spirits - St. Paul,15,0.4,34.4,12.26,16.99,13.86,28,Case 1,2,5,Roseville:1;Andover:5;St. Louis Park:9
-Korbel XS Brandy 1.75L,Brandy,Southern Glazer's Wine & Spirits of MN,9,0.4,23.1,18.38,31.99,26.96,43,,1,8,Andover:1;Blaine:1;Rosemount:1;Minneapolis:3;Minnetonka:3
-Dekuyper Watermelon Pucker Traveler,Schnapps,Southern Glazer's Wine & Spirits of MN,5,0.4,13.4,6.73,11.49,9.96,41,,2,3,Cottage Grove:5
-Chairman's Reserve Spiced Rum 750ml,Rum,"Maverick Beverage Co., LLC - MN",16,0.4,41.1,20.25,35.49,29.96,43,"1/2 on 5 m/m all chairman's, spiced as FG",1,8,Chanhassen:2;Minneapolis:2;Blaine:5;St. Louis Park:7
-Sauza Hornitos Anejo Tequila 750ml,Agave,Southern Glazer's Wine & Spirits of MN,24,0.4,55.1,20.79,33.49,27.96,38,,2,5,Osseo:3;Chanhassen:5;Rosemount:5;Blaine:11
-Herradura Silver Tequila Liter,Agave,Johnson Brothers - St. Paul,21,0.4,58.7,38.15,57.99,47.96,34,,1,7,Chanhassen:1;Osseo:1;Vadnais Heights:1;Woodbury:1;Plymouth:2;Ramsey:2;Stillwater:2;St. Louis Park:4;Minneapolis:7
-Mathilde Framboise Liqueur 375ml,Cordials,Bellboy Corporation,22,0.4,50.5,10.42,15.99,13.96,35,,2,5,Osseo:1;Chanhassen:4;Minnetonka:6;Ramsey:11
-Old New England Egg Nog 750ml,Cordials,Bellboy Corporation,25,0.4,57.4,6.71,8.99,6.95,25,CASE 1,2,5,Blaine:1;St. Louis Park:1;Vadnais Heights:1;Minnetonka:2;Woodbury:4;Osseo:5;Chanhassen:11
-Old Forester Mint Julep Liter,Pre-Mix,Johnson Brothers - St. Paul,65,0.4,181.7,23.09,42.99,35.96,46,Allocation,1,7,Blaine:10;Andover:11;Roseville:11;St. Louis Park:11;Vadnais Heights:11;Woodbury:11
-Select Club Pecan Praline 750ml,Whisky/Whiskey,Bellboy Corporation,2,0.4,5.4,16.92,19.99,,15,,2,3,Blaine:2
-Pama Pomegranate Liqueur 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,13,0.4,29.8,15.55,26.99,22.96,42,,2,5,Ramsey:1;Osseo:2;St. Louis Park:2;Minnetonka:3;Bloomington:5
-Stellum Rye Cask Strength 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",24,0.4,59.3,38.18,60.99,,37,,2,4,Blaine:1;Minnetonka:4;Cottage Grove:5;Andover:6;Chanhassen:8
-Stolichnaya Orange Vodka Liter,Vodka,Johnson Brothers - St. Paul,8,0.4,21.4,9.38,23.99,,61,,2,3,Rosemount:4;Chanhassen:4
-Pantalones Tequila Reposado 750ml,Agave,Southern Glazer's Wine & Spirits of MN,16,0.4,44.7,33.88,53.99,44.96,37,,1,7,Rosemount:1;Andover:3;Blaine:6;St. Louis Park:6
+Prairie Organic Gin 750ml,Gin,Phillips Wine & Spirits - St. Paul,1,0.4,2.3,15.54,29.99,24.96,48,3 free vodka 1.75 free on 21cases monthly,2,5,Vadnais Heights:1
 Skyy Watermelon Liter,Vodka,,0,0.4,0.0,13.21,19.99,,34,,2,3,
-Monkey 47 Gin Liter,Gin,Bellboy Corporation,12,0.4,27.6,69.13,89.99,74.96,23,,2,5,St. Louis Park:2;Minnetonka:5;Roseville:5
-Real Del Valle Tequila Reposado 750ml,Agave,"Maverick Beverage Co., LLC - MN",8,0.4,22.4,21.12,33.49,27.96,37,,1,7,Blaine:4;Minneapolis:4
-360 Double Chocolate Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,6,0.4,14.3,12.05,14.99,12.96,20,,1,9,Chanhassen:6
-Woodford Reserve Barrel Strength Rye 700ml,Whisky/Whiskey,Johnson Brothers - St. Paul,16,0.4,36.7,98.6,129.99,,24,,2,5,Osseo:1;Ramsey:1;Rosemount:1;Roseville:1;Chanhassen:2;Minnetonka:2;St. Louis Park:2;Vadnais Heights:2;Andover:4
+Jim Beam Bourbon Peach 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,47,0.4,107.9,25.12,35.49,29.96,29,,2,5,Cottage Grove:2;Ramsey:4;Woodbury:4;Minnetonka:5;Stillwater:7;Osseo:8;Roseville:8;St. Louis Park:9
+Herradura Silver Tequila Liter,Agave,Johnson Brothers - St. Paul,21,0.4,58.7,38.15,57.99,47.96,34,,1,7,Chanhassen:1;Osseo:1;Vadnais Heights:1;Woodbury:1;Plymouth:2;Ramsey:2;Stillwater:2;St. Louis Park:4;Minneapolis:7
+Jack Daniels Single Brl Proof 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,2,0.4,4.9,53.48,64.99,59.96,18,,2,4,Bloomington:2
+Canadian Club 18yr 750ml,Canadian Whisky,DNU - Created from invalid import,31,0.4,83.0,30.13,48.99,40.96,38,,2,3,Ramsey:3;Blaine:8;Andover:9;Woodbury:11
+Griffo Stony Point Whiskey 750ml,Whisky/Whiskey,Bellboy Corporation,18,0.4,46.3,24.12,41.99,24.86,43,,1,8,Andover:2;Ramsey:2;Chanhassen:3;Minnetonka:3;Rosemount:3;Cottage Grove:5
+Select Club Pecan Praline 750ml,Whisky/Whiskey,Bellboy Corporation,2,0.4,5.4,16.92,19.99,,15,,2,3,Blaine:2
+Grey Goose Watermelon & Basil Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,1,0.4,2.5,18.54,28.99,23.96,36,,2,4,Osseo:1
+Phillips Blackberry Brandy 200ml,Brandy,Phillips Wine & Spirits - St. Paul,43,0.4,115.2,3.22,5.49,4.96,41,Case 1,2,3,Blaine:43
+Madison Avenue Orangecello 750ml,Cordials,"Vinocopia, Inc",9,0.4,20.7,22.17,29.99,,26,Case 1,2,5,Minnetonka:1;Vadnais Heights:1;Rosemount:2;Woodbury:5
 Codigo 1530 Reposado 750ml,Agave,"Vinocopia, Inc",12,0.4,29.7,45.61,77.99,64.96,42,M&M 5 Cases Receive 1 Case Blanco NC,2,4,Chanhassen:3;Woodbury:3;Blaine:6
 Copperwing Vodka 750ml,Vodka,,4,0.4,10.7,18.28,29.99,24.95,39,,2,3,Minneapolis:1;Minnetonka:1;Blaine:2
+360 Double Chocolate Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,6,0.4,14.3,12.05,14.99,12.96,20,,1,9,Chanhassen:6
+Stolichnaya Orange Vodka Liter,Vodka,Johnson Brothers - St. Paul,8,0.4,21.4,9.38,23.99,,61,,2,3,Rosemount:4;Chanhassen:4
+Revel Stoke S'mores Whisky Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,40,0.4,107.1,12.83,23.99,19.96,47,1 on 9 mix & match,2,3,Stillwater:1;Chanhassen:2;Vadnais Heights:2;Cottage Grove:8;St. Louis Park:27
+Stellum Rye Cask Strength 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",24,0.4,59.3,38.18,60.99,,37,,2,4,Blaine:1;Minnetonka:4;Cottage Grove:5;Andover:6;Chanhassen:8
 E&J Peach Brandy 750ml,Brandy,Johnson Brothers - St. Paul,7,0.4,18.7,9.84,14.99,12.49,34,Deep Net,0,12,Minnetonka:2;Ramsey:2;Plymouth:3
-Zing Zang RTD Bloody Mary 1.75L,Pre-Mix,Phillips Wine & Spirits - St. Paul,2,0.4,4.6,13.08,20.99,17.96,38,1 BMM 1.75 free on 10 mix & match,2,5,Minneapolis:1;Plymouth:1
+Revel Stoke Roasted Apple Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,14,0.4,39.1,12.83,23.99,19.96,47,1 on 9 mix & match,1,7,Ramsey:1;Stillwater:1;Chanhassen:2;Roseville:2;Bloomington:8
+Lillet Rose 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,9,0.4,22.3,14.77,23.99,19.96,38,,2,4,Andover:1;St. Louis Park:8
 Gilbeys Gin 1.75L,Gin,Bellboy Corporation,2,0.4,4.6,15.16,18.99,,20,,2,5,Blaine:2
-Madison Avenue Orangecello 750ml,Cordials,"Vinocopia, Inc",9,0.4,20.7,22.17,29.99,,26,Case 1,2,5,Minnetonka:1;Vadnais Heights:1;Rosemount:2;Woodbury:5
+Zing Zang RTD Bloody Mary 1.75L,Pre-Mix,Phillips Wine & Spirits - St. Paul,2,0.4,4.6,13.08,20.99,17.96,38,1 BMM 1.75 free on 10 mix & match,2,5,Minneapolis:1;Plymouth:1
+Monkey 47 Gin Liter,Gin,Bellboy Corporation,12,0.4,27.6,69.13,89.99,74.96,23,,2,5,St. Louis Park:2;Minnetonka:5;Roseville:5
+Woodford Reserve Barrel Strength Rye 700ml,Whisky/Whiskey,Johnson Brothers - St. Paul,16,0.4,36.7,98.6,129.99,,24,,2,5,Osseo:1;Ramsey:1;Rosemount:1;Roseville:1;Chanhassen:2;Minnetonka:2;St. Louis Park:2;Vadnais Heights:2;Andover:4
 Tanqueray Gin 375ml,Gin,Johnson Brothers - St. Paul,12,0.4,29.7,10.92,18.99,15.96,42,Case 1,2,4,Vadnais Heights:2;Cottage Grove:10
+Sauza Hornitos Anejo Tequila 750ml,Agave,Southern Glazer's Wine & Spirits of MN,24,0.4,55.1,20.79,33.49,27.96,38,,2,5,Osseo:3;Chanhassen:5;Rosemount:5;Blaine:11
+Don Fulano Reposado Tequila 750ml,Agave,Johnson Brothers - St. Paul,3,0.4,6.9,49.02,64.99,,25,,2,5,Minnetonka:3
 Campbelltown Loch 700ml,Whisky/Whiskey,"New France Wine Co, Inc",18,0.4,44.5,43.5,74.99,62.96,42,,2,4,Andover:1;Roseville:3;Blaine:4;Chanhassen:5;Woodbury:5
 Phillips Rootbeer Schnapps Liter,Schnapps,Phillips Wine & Spirits - St. Paul,5,0.4,13.4,8.15,14.99,12.96,46,1 free Pep 60 Liter on 8 cs,2,3,Bloomington:5
 Jim Beam Black 7yr 375ML,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,52,0.4,119.4,11.12,19.99,16.96,44,,2,5,Plymouth:6;Minneapolis:11;Ramsey:14;Andover:21
 Codigo 1530 Anejo 750ml,Agave,"Vinocopia, Inc",4,0.4,9.9,93.11,119.99,99.96,22,M&M 5 Cases Receive 1 Case Blanco NC,2,4,Stillwater:1;Andover:3
-Nikka Coffey Grain Whisky 750ml,Whisky/Whiskey,Bellboy Corporation,11,0.4,25.3,50.0,77.99,64.96,36,,2,5,Blaine:1;Bloomington:2;Cottage Grove:2;St. Louis Park:6
-Revel Stoke S'mores Whisky Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,40,0.4,107.1,12.83,23.99,19.96,47,1 on 9 mix & match,2,3,Stillwater:1;Chanhassen:2;Vadnais Heights:2;Cottage Grove:8;St. Louis Park:27
-Revel Stoke Roasted Apple Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,14,0.4,39.1,12.83,23.99,19.96,47,1 on 9 mix & match,1,7,Ramsey:1;Stillwater:1;Chanhassen:2;Roseville:2;Bloomington:8
-Phillips Peach Schnapps 375ml,Schnapps,Phillips Wine & Spirits - St. Paul,10,0.4,26.8,5.4,8.99,,40,Case 1,2,3,Chanhassen:10
-Gamle Ode Aquavit Dill 750ml,Cordials,"Vinocopia, Inc",9,0.4,23.1,27.92,41.99,34.96,34,,1,8,St. Louis Park:2;Woodbury:3;Blaine:4
-Lillet Rose 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,9,0.4,22.3,14.77,23.99,19.96,38,,2,4,Andover:1;St. Louis Park:8
-Earl Giles Gin Liter,Gin,Small Lot MN,0,0.4,0.0,15.79,24.99,20.96,37,TTL Best Pricing,2,4,
 Tattersall Port-Barreled Rye 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.4,9.2,37.18,47.99,39.95,23,Case 1,2,5,Vadnais Heights:1;St. Louis Park:3
-Prohibition Orange Bitters,Mixes,Am Craft Spirits,18,0.4,44.5,11.73,17.99,,35,,2,4,Roseville:3;Blaine:6;St. Louis Park:9
-Prairie Organic Gin 750ml,Gin,Phillips Wine & Spirits - St. Paul,1,0.4,2.3,15.54,29.99,24.96,48,3 free vodka 1.75 free on 21cases monthly,2,5,Vadnais Heights:1
+Nikka Coffey Grain Whisky 750ml,Whisky/Whiskey,Bellboy Corporation,11,0.4,25.3,50.0,77.99,64.96,36,,2,5,Blaine:1;Bloomington:2;Cottage Grove:2;St. Louis Park:6
+Gamle Ode Aquavit Dill 750ml,Cordials,"Vinocopia, Inc",9,0.4,23.1,27.92,41.99,34.96,34,,1,8,St. Louis Park:2;Woodbury:3;Blaine:4
+Phillips Peach Schnapps 375ml,Schnapps,Phillips Wine & Spirits - St. Paul,10,0.4,26.8,5.4,8.99,,40,Case 1,2,3,Chanhassen:10
+Carpano Classico Vermouth 375ml,Vermouth,"Breakthru Beverage Minnesota Wine & Spirits, LLC",14,0.4,37.5,11.35,20.99,17.96,46,,2,3,Andover:1;Roseville:6;Chanhassen:7
+Cathead Old Soul 109 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.4,9.9,42.93,54.99,44.86,22,Case 1,2,4,Minneapolis:4
+Windsor Apple 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,11,0.4,27.2,8.34,13.99,,40,Case 1,2,4,Rosemount:1;Chanhassen:2;Minnetonka:8
+Old Forester Mint Julep Liter,Pre-Mix,Johnson Brothers - St. Paul,65,0.4,181.7,23.09,42.99,35.96,46,Allocation,1,7,Blaine:10;Andover:11;Roseville:11;St. Louis Park:11;Vadnais Heights:11;Woodbury:11
+Old New England Egg Nog 750ml,Cordials,Bellboy Corporation,25,0.4,57.4,6.71,8.99,6.95,25,CASE 1,2,5,Blaine:1;St. Louis Park:1;Vadnais Heights:1;Minnetonka:2;Woodbury:4;Osseo:5;Chanhassen:11
+Chairman's Reserve Spiced Rum 750ml,Rum,"Maverick Beverage Co., LLC - MN",16,0.4,41.1,20.25,35.49,29.96,43,"1/2 on 5 m/m all chairman's, spiced as FG",1,8,Chanhassen:2;Minneapolis:2;Blaine:5;St. Louis Park:7
+Elijah Craig Bourbon Private Barrel 750ml,Bourbon,Southern Glazer's Wine & Spirits of MN,30,0.4,68.9,63.75,107.99,89.96,41,,2,5,Andover:1;Blaine:1;Chanhassen:5;Rosemount:6;St. Louis Park:7;Minneapolis:10
+Olmeca Altos Reposado 1.75L,Agave,Southern Glazer's Wine & Spirits of MN,5,0.4,12.4,29.38,59.99,49.96,51,,2,4,Osseo:1;Minneapolis:4
+Ansac Cognac VS 750ml,Brandy,Bellboy Corporation,11,0.4,25.3,17.83,24.99,,29,,2,5,Bloomington:11
+Angostura 5yr Rum 750ml,Rum,Southern Glazer's Wine & Spirits of MN,2,0.4,5.6,17.38,27.99,22.96,38,,1,7,Bloomington:2
+Bailey's Strawberries & Cream 750ml,Cordials,Phillips Wine & Spirits - St. Paul,0,0.4,0.0,19.09,29.99,26.96,36,Case 1 Must hit 16 cs within month,0,12,
+Glenlivet French Oak 15 Yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.4,0.0,76.0,101.99,84.96,25,,2,3,
+Rum Chata GoChata,Cordials,Johnson Brothers - St. Paul,36,0.4,96.4,8.05,11.99,,33,,2,3,Andover:1;Vadnais Heights:1;Rosemount:8;Roseville:8;Blaine:18
+El Tequileno Platinum Blanco 750ml,Agave,Southern Glazer's Wine & Spirits of MN,5,0.4,11.5,34.63,65.99,54.96,48,,2,5,Minnetonka:1;St. Louis Park:4
+Cathead Raspberry 750ml,Vodka,Phillips Wine & Spirits - St. Paul,15,0.4,34.4,12.26,16.99,13.86,28,Case 1,2,5,Roseville:1;Andover:5;St. Louis Park:9
+Real Del Valle Tequila Reposado 750ml,Agave,"Maverick Beverage Co., LLC - MN",8,0.4,22.4,21.12,33.49,27.96,37,,1,7,Blaine:4;Minneapolis:4
+Smirnoff Strawberry Vodka Liter,Vodka,Johnson Brothers - St. Paul,12,0.4,28.6,10.17,18.99,15.96,46,Case 1 Must hit 8 cs within month,1,9,Plymouth:3;Minnetonka:9
 Admiral Nelson's Cherry Spiced 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,7,0.4,18.7,12.13,13.79,11.95,12,,2,3,St. Louis Park:1;Minnetonka:2;Blaine:4
-Phillips Blackberry Brandy 200ml,Brandy,Phillips Wine & Spirits - St. Paul,43,0.4,115.2,3.22,5.49,4.96,41,Case 1,2,3,Blaine:43
-Bacardi Raspberry Rum 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,13,0.3,46.4,17.29,25.99,21.96,33,,0,9,Minnetonka:3;Andover:4;Stillwater:6
-Bacardi Pineapple Fusion Rum Liter,Rum,Southern Glazer's Wine & Spirits of MN,21,0.3,71.1,12.01,20.99,17.96,43,,1,5,Rosemount:2;Cottage Grove:4;Chanhassen:15
-Evan Williams Single BBL 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,4,0.3,11.7,26.38,38.99,,32,30 6PK Allocation,2,2,Minneapolis:4
-Lucky Ones Sweet Tea Vodka Half & Half 4pk 12oz can,Pre-Mix,Johnson Brothers - St. Paul,23,0.3,70.4,7.67,12.99,10.96,41,Deep Net,1,6,Minneapolis:23
-Bacardi Gran Reserva Diez 750ml,Rum,Southern Glazer's Wine & Spirits of MN,1,0.3,3.8,23.63,34.99,13.47,32,,1,4,Osseo:1
-McAdams Canadian 1.75L,Whisky/Whiskey,Johnson Brothers - St. Paul,6,0.3,22.7,11.15,21.99,17.96,49,1 on 6,1,4,Andover:1;Chanhassen:1;Stillwater:1;Minnetonka:3
-Du Nord Prominence Gin 750ml,Gin,Phillips Wine & Spirits - St. Paul,42,0.3,150.0,21.85,37.99,31.96,42,Case 1,0,9,Blaine:1;Minneapolis:1;St. Louis Park:2;Andover:3;Chanhassen:5;Woodbury:30
-Phillips Peach Schnapps Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,16,0.3,57.1,6.43,12.49,10.96,49,1 free Pep 60 Liter on 8 cs,0,9,Ramsey:1;Bloomington:5;Blaine:10
-Phillips Peppermint 80pf Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,50,0.3,169.2,8.33,12.49,10.96,33,1 free Pep 60 Liter on 8 cs,1,5,Osseo:1;Rosemount:4;Blaine:7;Plymouth:7;Minnetonka:12;St. Louis Park:19
-El Popo Avila Reposado Tequila 750ml,Agave,"New France Wine Co, Inc",34,0.3,104.1,45.42,72.99,60.96,38,,1,6,Minneapolis:3;Roseville:3;Plymouth:4;Rosemount:4;Andover:5;Chanhassen:5;Cottage Grove:5;Osseo:5
-Midleton Very Rare 750ml,Whisky/Whiskey,Bellboy Corporation,0,0.3,0.0,260.52,329.99,274.96,21,,2,2,
-Phillips Rootbeer Schnapps Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,3,0.3,9.6,6.43,11.49,9.96,44,1 free Pep 60 Liter on 8 cs,0,10,Minnetonka:3
-Southern Comfort 100pf 50ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",149,0.3,563.4,0.6,2.99,,80,"150cs 50ml purchase in a month (Buffalo Trace Cream, Canadian Mist, Dr Mcgil, Fireball, Goldschlager, Hartley Brandy, Margaritaville, Parrot Bay, Platinum 7x, R&R, Scoresby, Sheep Dog, SoCo, Taaka, Traveller, Wheately, Yukon Jack)",1,4,Andover:61;Cottage Grove:88
-On The Rocks Whiskey Sour 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,10,0.3,29.2,15.2,24.99,18.96,39,,2,2,Plymouth:5;Roseville:5
-Lucky Ones Sweet Tea Vodka Original 4pk 12oz can,Pre-Mix,Johnson Brothers - St. Paul,24,0.3,73.5,7.67,12.99,10.96,41,Deep Net,1,6,Minneapolis:24
+Mathilde Framboise Liqueur 375ml,Cordials,Bellboy Corporation,22,0.4,50.5,10.42,15.99,13.96,35,,2,5,Osseo:1;Chanhassen:4;Minnetonka:6;Ramsey:11
+Pama Pomegranate Liqueur 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,13,0.4,29.8,15.55,26.99,22.96,42,,2,5,Ramsey:1;Osseo:2;St. Louis Park:2;Minnetonka:3;Bloomington:5
+Pantalones Tequila Reposado 750ml,Agave,Southern Glazer's Wine & Spirits of MN,16,0.4,44.7,33.88,53.99,44.96,37,,1,7,Rosemount:1;Andover:3;Blaine:6;St. Louis Park:6
+Merrys Irish Cream 1.75L,Cordials,Johnson Brothers - St. Paul,1,0.4,2.3,22.5,51.99,43.96,57,1 free on 5 mix and match sizes.  750 original free goods,2,5,Andover:1
+Green Spot Irish Whiskey 750ml,Whisky/Whiskey,Bellboy Corporation,15,0.4,34.4,46.0,71.99,59.96,36,case 1,2,5,Minnetonka:3;St. Louis Park:3;Blaine:4;Rosemount:5
+Earl Giles Gin Liter,Gin,Small Lot MN,0,0.4,0.0,15.79,24.99,20.96,37,TTL Best Pricing,2,4,
+Rich & Rare Reserve 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",1,0.4,2.6,8.28,12.99,,36,,1,8,Blaine:1
+Paul Sutton Bourbon Vikings LTD 750ml,Whisky/Whiskey,"Vinocopia, Inc",9,0.4,20.7,60.38,92.99,77.96,35,,2,5,Roseville:1;Minneapolis:2;Minnetonka:2;Osseo:2;Chanhassen:2
+Korbel XS Brandy 1.75L,Brandy,Southern Glazer's Wine & Spirits of MN,9,0.4,23.1,18.38,31.99,26.96,43,,1,8,Andover:1;Blaine:1;Rosemount:1;Minneapolis:3;Minnetonka:3
+Canerock Rum 700ml,Rum,Bellboy Corporation,6,0.4,14.8,19.6,35.49,29.96,45,1cs free every 6cs purchased-accum chain monthly,2,4,Rosemount:1;Andover:1;Blaine:4
+Prohibition Orange Bitters,Mixes,Am Craft Spirits,18,0.4,44.5,11.73,17.99,,35,,2,4,Roseville:3;Blaine:6;St. Louis Park:9
+Dekuyper Watermelon Pucker Traveler,Schnapps,Southern Glazer's Wine & Spirits of MN,5,0.4,13.4,6.73,11.49,9.96,41,,2,3,Cottage Grove:5
 Per Se Paloma 4pk 8oz can,Pre-Mix,Am Craft Spirits,14,0.3,42.9,7.65,12.49,10.96,39,1 on 7 M&M accumulating monthly,1,6,Roseville:1;Rosemount:2;St. Louis Park:3;Blaine:4;Ramsey:4
 Malibu Watermelon Rum Liter,Rum,Southern Glazer's Wine & Spirits of MN,13,0.3,49.2,12.63,19.99,16.96,37,,1,4,Minnetonka:1;Osseo:2;Rosemount:2;Andover:8
-Rum Chata Pumpkin Spice 750ml,Cordials,Johnson Brothers - St. Paul,139,0.3,470.3,16.22,25.99,21.96,38,DEEP NET,1,5,St. Louis Park:3;Stillwater:3;Blaine:5;Chanhassen:9;Rosemount:10;Roseville:13;Minnetonka:15;Woodbury:34;Andover:47
-Don Q Coco Rum 1.75L,Rum,Johnson Brothers - St. Paul,15,0.3,50.8,17.63,22.49,18.95,22,1 free case on 10,1,5,Plymouth:2;Blaine:3;Osseo:3;Ramsey:3;Chanhassen:4
+Christian Bros Sacred Bond Brandy 750ml,Brandy,Southern Glazer's Wine & Spirits of MN,7,0.3,26.5,18.06,24.99,,28,,1,4,Ramsey:7
+Kilkerran 8 Year Old Cask Strength 700ml,Scotch Whisky,"New France Wine Co, Inc",0,0.3,0.0,82.08,119.99,101.96,32,Allocated,2,2,
 Phillips Lime Vodka Liter,Vodka,Phillips Wine & Spirits - St. Paul,10,0.3,37.8,9.72,12.99,,25,Case 1,1,4,Blaine:5;Bloomington:5
-Rich & Rare Reserve Canadian Whiskey 1.75L,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",11,0.3,35.4,9.44,13.79,11.96,32,,0,10,Cottage Grove:2;St. Louis Park:2;Plymouth:3;Minnetonka:4
-Letherbee Original Label Gin 750ml,Gin,"Tradition Wine & Spirits, LLC",9,0.3,26.3,22.33,25.99,,14,,2,2,Stillwater:1;Plymouth:3;Bloomington:5
-Dekuyper Creme De Banana 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,7,0.3,26.5,0.07,12.49,10.96,99,,1,4,Andover:7
 Buzzballz Chli Mango 1.75L,Pre-mixed,Phillips Wine & Spirits - St. Paul,9,0.3,34.0,11.74,23.49,15.96,50,2cs of Vikings 187ml on 25cs,1,4,Blaine:1;Roseville:2;Woodbury:2;Minneapolis:4
-Phillips Canadian 1.75L,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,0,0.3,0.0,14.02,16.99,,17,Case 1,2,2,
-Bombay Gin 750ml,Gin,Southern Glazer's Wine & Spirits of MN,5,0.3,15.3,12.45,19.99,,38,,1,6,Osseo:1;Bloomington:4
-Laphroaig Cairdeas 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,8,0.3,30.3,81.97,109.99,,25,,1,4,Minnetonka:1;Chanhassen:2;Ramsey:5
-Breckenridge Bitters 750ml,Cordials,,3,0.3,8.8,16.0,31.99,,50,,2,2,Ramsey:3
-Longrow Peated Cask Strength 700ml,Whisky/Whiskey,"New France Wine Co, Inc",0,0.3,0.0,82.08,119.99,101.96,32,Allocated,2,2,
-Paul Masson Grande Amber Traveler,Brandy,Phillips Wine & Spirits - St. Paul,12,0.3,38.6,6.09,12.99,,53,Case 1,0,10,Minneapolis:12
-Diplomatico Mantuano 750ml,Rum,Johnson Brothers - St. Paul,2,0.3,5.8,21.18,27.99,23.95,24,,2,2,Minnetonka:2
-Paul Masson Grande Amber 1.75L,Brandy,Phillips Wine & Spirits - St. Paul,15,0.3,50.8,12.18,21.99,19.96,45,Case 1,1,5,Andover:1;Blaine:4;St. Louis Park:4;Minneapolis:6
-Patron Silver Tequila 1.75L,Agave,Southern Glazer's Wine & Spirits of MN,4,0.3,11.7,63.41,99.99,,37,,2,2,Vadnais Heights:4
-Don Fulano Blanco Suave 750ml,Agave,Johnson Brothers - St. Paul,9,0.3,34.0,41.35,54.99,,25,,1,4,Rosemount:2;Ramsey:7
-Courvoisier VSOP Cognac 750ml,Brandy,Southern Glazer's Wine & Spirits of MN,21,0.3,79.4,27.81,45.99,37.95,40,,1,4,Roseville:1;Woodbury:3;Ramsey:5;Andover:6;Plymouth:6
-Patron Anejo Sherry Cask 750ml,Agave,Southern Glazer's Wine & Spirits of MN,9,0.3,30.5,60.13,89.99,74.96,33,,1,5,Chanhassen:1;Vadnais Heights:1;Blaine:2;Roseville:2;Woodbury:3
-El Popo Avila Blanco 750ml,Agave,"New France Wine Co, Inc",60,0.3,183.7,37.92,58.99,42.96,36,,1,6,St. Louis Park:1;Plymouth:2;Roseville:3;Woodbury:4;Andover:5;Chanhassen:5;Osseo:5;Ramsey:5;Rosemount:6;Minneapolis:7;Cottage Grove:8;Blaine:9
-Don Julio Anejo 375ml,Agave,Bellboy Corporation,4,0.3,11.7,23.75,33.99,28.96,30,case 1,2,2,St. Louis Park:6
-Herradura Anejo Tequila 750ml,Agave,Johnson Brothers - St. Paul,18,0.3,60.9,41.43,64.99,53.96,36,,1,5,Blaine:1;Minnetonka:1;Cottage Grove:2;Roseville:3;Bloomington:5;St. Louis Park:6
-Raff Arkansas Black Straight Applejack 750ml,Brandy,Bellboy Corporation,0,0.3,0.0,20.17,26.99,22.95,25,,1,4,
 Canadian Club Reserve 9yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.3,5.8,13.56,18.99,,29,,2,2,Woodbury:2
-Ole Smoky Mountain Java Cream Liqueur 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,6,0.3,20.3,16.94,26.99,22.96,37,,1,5,Blaine:2;Andover:4
+Paul Masson Grande Amber Traveler,Brandy,Phillips Wine & Spirits - St. Paul,12,0.3,38.6,6.09,12.99,,53,Case 1,0,10,Minneapolis:12
+Paul Masson Grande Amber 1.75L,Brandy,Phillips Wine & Spirits - St. Paul,15,0.3,50.8,12.18,21.99,19.96,45,Case 1,1,5,Andover:1;Blaine:4;St. Louis Park:4;Minneapolis:6
 Windsor Reserve 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,2,0.3,5.8,13.67,19.99,,32,Case 1,2,2,Blaine:2
-Rabbit Hole Boxergrail Rye 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,3,0.3,8.8,40.62,57.99,47.95,30,,2,2,Stillwater:1;Chanhassen:2
-Dashfire Lemon & Lavender Martini 100ml,Pre-Mix,"Vinocopia, Inc",24,0.3,81.2,3.97,6.49,5.96,39,,1,5,Roseville:2;Chanhassen:3;Ramsey:20
 Zing Zang RTD Mango Margarita 4pk 12oz can,Pre-Mix,Phillips Wine & Spirits - St. Paul,6,0.3,17.5,9.33,14.99,12.96,38,1 BMM 1.75 free on 10 mix & match,2,2,Blaine:1;Cottage Grove:1;Ramsey:1;Minnetonka:1;Osseo:2
 Codigo 1530 Mezcal 750ml,Agave,"Vinocopia, Inc",1,0.3,2.9,45.33,59.99,49.96,24,,2,2,St. Louis Park:1
-Stolichnaya Vodka 50ml,Vodka,Johnson Brothers - St. Paul,104,0.3,334.3,1.88,3.99,2.96,53,,0,10,Cottage Grove:104
 21 Seeds Valencia Orange Tequila 750ml,Agave,Phillips Wine & Spirits - St. Paul,7,0.3,20.5,21.02,35.49,29.96,41,Case 1 Must hit 4 cs within month,2,2,Rosemount:3;Osseo:4
-Tempus Fugit Alessio Rosso Vermouth 375ml,Vermouth,Phillips Wine & Spirits - St. Paul,1,0.3,2.9,14.76,21.99,,33,Case 1,2,2,Woodbury:1
-Tempus Fugit Alessio Bianco Vermouth 375ml,Vermouth,Phillips Wine & Spirits - St. Paul,3,0.3,11.3,14.76,21.99,,33,Case 1,1,4,Woodbury:1;Stillwater:2
-Buffalo Trace 1.75L,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",4,0.3,12.3,37.69,49.99,,25,,1,6,Andover:1;Bloomington:1;Plymouth:1;Blaine:1
-Ciroc Pineapple Passion Spritz 750ml,Pre-Mix,Johnson Brothers - St. Paul,0,0.3,0.0,6.25,11.49,9.95,46,,2,2,
-Whistle Pig Piggybank 10 Year 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.3,5.8,187.77,299.99,249.96,37,,2,2,Blaine:2
-Midnight Moonshake Apple Pie 50ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",76,0.3,232.7,1.83,3.99,2.96,54,,1,6,Vadnais Heights:6;St. Louis Park:22;Roseville:23;Andover:25
-45th Parallel Gin 750ml,Gin,"Vinocopia, Inc",20,0.3,67.7,32.25,47.99,39.96,33,Net Down Price,1,5,St. Louis Park:2;Blaine:6;Stillwater:6;Woodbury:6
-Whistlepig Bourbon Snout to Tail 10yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.3,5.8,,93.99,79.96,,,2,2,Blaine:1;Woodbury:1
-Coldcock Whiskey 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,1,0.3,2.9,18.74,23.99,,22,,2,2,Woodbury:1
-Ice Hole Rootbeer Schnapps Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,0,0.3,0.0,9.65,13.99,,31,Case 1,1,6,
-Camarena Anejo Tequila 750ml,Agave,Johnson Brothers - St. Paul,4,0.3,12.2,25.02,33.99,,26,,1,6,Chanhassen:1;Stillwater:1;St. Louis Park:2
-Copper & Cask MK-522 Top Ten Single Barrel 750ml,Whisky/Whiskey,Bellboy Corporation,2,0.3,5.8,31.67,59.99,49.96,47,,2,2,Osseo:2
-Crown Royal Vanilla 50ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,41,0.3,155.0,1.27,3.99,,68,Case 1,1,4,Stillwater:41
-Midwest Vodka Liter,Vodka,"Vinocopia, Inc",17,0.3,49.7,20.79,23.99,19.96,13,,2,2,Plymouth:2;Ramsey:2;Cottage Grove:3;Stillwater:3;Chanhassen:7
-Svedka Strawberry Lemonade Vod Liter,Vodka,Southern Glazer's Wine & Spirits of MN,10,0.3,35.7,9.81,17.49,14.96,44,,0,9,Plymouth:2;Minnetonka:3;St. Louis Park:5
-Western Son Lemon Liter,Vodka,Johnson Brothers - St. Paul,6,0.3,17.5,9.93,15.99,13.46,38,Net Down Case Price,2,2,St. Louis Park:1;Plymouth:5
-Bubbas Secret Still Chocolate Marshmallow 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,7,0.3,26.5,15.17,25.99,21.96,42,Case 1,1,4,Andover:3;Blaine:4
-Grand Marnier Liqueur Liter,Cordials,Johnson Brothers - St. Paul,10,0.3,29.2,32.38,43.99,35.96,26,,0,11,Minnetonka:5;St. Louis Park:5
-George Dickel Bottled in Bond 13yr 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,18,0.3,68.1,37.59,53.99,44.96,30,Case 1,1,4,Ramsey:1;St. Louis Park:1;Cottage Grove:6;Andover:10
-Elijah Craig 18yr Single Barrel 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,16,0.3,60.5,137.0,199.99,,31,,1,4,Minnetonka:1;Rosemount:1;Vadnais Heights:1;Blaine:6;St. Louis Park:7
-Western Son Prickly Pear 50ml,Vodka,Johnson Brothers - St. Paul,4,0.3,13.5,0.7,1.49,1.24,53,Net Down Case Price,1,5,Vadnais Heights:4
-Tattersall Lime Crema 750ml,Cordials,Phillips Wine & Spirits - St. Paul,1,0.3,2.9,20.43,34.99,,42,Case 1,2,2,Roseville:1
-Christian Bros Sacred Bond Brandy 750ml,Brandy,Southern Glazer's Wine & Spirits of MN,7,0.3,26.5,18.06,24.99,,28,,1,4,Ramsey:7
-Angel's Envy Bottled In Bond Cask Strength 750ml,Bourbon,DNU - Created from invalid import,9,0.3,26.3,52.63,84.99,70.96,38,,0,11,Andover:1;Roseville:1;Minnetonka:2;Woodbury:5
-Zing Zang RTD Blazing Bloody Mary 4pk 12oz can,Pre-Mix,Phillips Wine & Spirits - St. Paul,4,0.3,11.7,9.33,15.99,12.96,42,1 BMM 1.75 free on 10 mix & match,2,2,Bloomington:4
-Svedka Citron Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,10,0.3,29.2,9.81,17.49,14.96,44,,2,2,Minneapolis:10
+Patron Silver Tequila 1.75L,Agave,Southern Glazer's Wine & Spirits of MN,4,0.3,11.7,63.41,99.99,,37,,2,2,Vadnais Heights:4
+Patron Anejo Sherry Cask 750ml,Agave,Southern Glazer's Wine & Spirits of MN,9,0.3,30.5,60.13,89.99,74.96,33,,1,5,Chanhassen:1;Vadnais Heights:1;Blaine:2;Roseville:2;Woodbury:3
+El Popo Avila Blanco 750ml,Agave,"New France Wine Co, Inc",60,0.3,183.7,37.92,58.99,42.96,36,,1,6,St. Louis Park:1;Plymouth:2;Roseville:3;Woodbury:4;Andover:5;Chanhassen:5;Osseo:5;Ramsey:5;Rosemount:6;Minneapolis:7;Cottage Grove:8;Blaine:9
+McAdams Canadian 1.75L,Whisky/Whiskey,Johnson Brothers - St. Paul,6,0.3,22.7,11.15,21.99,17.96,49,1 on 6,1,4,Andover:1;Chanhassen:1;Stillwater:1;Minnetonka:3
 Dekuyper Orange Curacao 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,12,0.3,40.6,13.55,13.79,11.96,2,,1,5,Blaine:2;Plymouth:2;Bloomington:8
-Ole Smoky Hunch Punch Lightnin 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.3,0.0,16.94,26.99,22.96,37,,1,6,
+Midleton Very Rare 750ml,Whisky/Whiskey,Bellboy Corporation,0,0.3,0.0,260.52,329.99,274.96,21,,2,2,
+Crown Royal Vanilla 50ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,41,0.3,155.0,1.27,3.99,,68,Case 1,1,4,Stillwater:41
+Ciroc Pineapple Passion Spritz 750ml,Pre-Mix,Johnson Brothers - St. Paul,0,0.3,0.0,6.25,11.49,9.95,46,,2,2,
+Dekuyper Creme De Banana 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,7,0.3,26.5,0.07,12.49,10.96,99,,1,4,Andover:7
+On The Rocks Whiskey Sour 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,10,0.3,29.2,15.2,24.99,18.96,39,,2,2,Plymouth:5;Roseville:5
+El Popo Avila Reposado Tequila 750ml,Agave,"New France Wine Co, Inc",34,0.3,104.1,45.42,72.99,60.96,38,,1,6,Minneapolis:3;Roseville:3;Plymouth:4;Rosemount:4;Andover:5;Chanhassen:5;Cottage Grove:5;Osseo:5
+Evan Williams Single BBL 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,4,0.3,11.7,26.38,38.99,,32,30 6PK Allocation,2,2,Minneapolis:4
+Grand Marnier Liqueur Liter,Cordials,Johnson Brothers - St. Paul,10,0.3,29.2,32.38,43.99,35.96,26,,0,11,Minnetonka:5;St. Louis Park:5
+Buffalo Trace 1.75L,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",4,0.3,12.3,37.69,49.99,,25,,1,6,Andover:1;Bloomington:1;Plymouth:1;Blaine:1
+Elijah Craig 18yr Single Barrel 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,16,0.3,60.5,137.0,199.99,,31,,1,4,Minnetonka:1;Rosemount:1;Vadnais Heights:1;Blaine:6;St. Louis Park:7
+Tattersall Lime Crema 750ml,Cordials,Phillips Wine & Spirits - St. Paul,1,0.3,2.9,20.43,34.99,,42,Case 1,2,2,Roseville:1
 Blue Chair Bay Banana Rum 750ml,Rum,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.3,18.9,14.35,23.99,19.96,40,5cs purchase in a month,1,4,Woodbury:5
 Old Parr 12yr Scotch 750ml,Whisky/Whiskey,Bellboy Corporation,22,0.3,74.4,20.92,33.99,28.96,38,,1,5,Blaine:22
-Kilkerran 8 Year Old Cask Strength 700ml,Scotch Whisky,"New France Wine Co, Inc",0,0.3,0.0,82.08,119.99,101.96,32,Allocated,2,2,
-Virginia Dist American Single Malt Cabernet Cask 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.2,29.2,30.0,46.99,39.96,36,,1,1,St. Louis Park:5
-Flying Dutchman Vodka 750ml,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",10,0.2,49.5,13.33,27.99,,52,,1,2,Osseo:3;Stillwater:3;Ramsey:4
-Maestro Dobel Anejo 750ml,Agave,Johnson Brothers - St. Paul,10,0.2,42.9,33.35,53.99,44.96,38,Buy 3cs get 1cs Diamante Free,1,3,Woodbury:1;Minneapolis:4;Bloomington:5
-Phillips Apricot Brandy Liter,Brandy,Phillips Wine & Spirits - St. Paul,25,0.2,114.8,10.62,17.49,14.96,39,1 Free Blackberry Liter on 8 cs asst Cordials,0,7,Vadnais Heights:3;Minnetonka:4;Rosemount:4;Stillwater:6;Chanhassen:8
-Boodles Gin Liter,Gin,Bellboy Corporation,6,0.2,35.1,21.42,26.99,,21,,1,1,Minnetonka:6
-Clermont Steep American Single Malt 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,19,0.2,81.4,38.7,65.99,44.95,41,,1,3,Blaine:2;Plymouth:2;Andover:3;Osseo:3;Rosemount:4;St. Louis Park:5
-Flying Dutchman Cr�me de Cacao 750ml,Cordials,Bellboy Corporation,12,0.2,70.1,12.17,29.99,24.96,59,M/M buy 2cs across chain receive 1cs free/monthly accum,1,1,Woodbury:2;Blaine:5;Chanhassen:5
-Wild Turkey American Honey 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,26.38,41.99,34.96,37,,0,7,
-Flor de Azar Triple Sec 750ml,Cordials,"Bourget Imports, LLC",8,0.2,46.8,28.29,41.49,35.96,32,,1,1,Minnetonka:4;St. Louis Park:4
-Virginia Distlling Courage and Conviction American Single Malt,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",7,0.2,34.6,45.0,69.99,59.96,36,,1,2,Andover:2;Blaine:5
-Phillips Blue 100 Peppermint Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,24,0.2,154.3,10.48,18.99,15.96,45,1 free Pep 60 Liter on 8 cs,0,5,Woodbury:2;Blaine:3;Cottage Grove:7;Vadnais Heights:12
-Galliano 375ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",10,0.2,49.5,15.1,19.99,,24,,1,2,Woodbury:4;Andover:6
-Dulce Vida Tequila Blanco 750ml,Agave,Phillips Wine & Spirits - St. Paul,16,0.2,79.1,23.24,38.99,,40,Case 1,1,2,Roseville:1;Osseo:2;Stillwater:4;Minnetonka:9
-Phillips Peppermint 80pf 200ml,Schnapps,Phillips Wine & Spirits - St. Paul,33,0.2,192.9,3.01,6.99,,57,Case 1,1,1,Stillwater:33
-Effen Dutch Raspberry Vodka 750ml,Vodka,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,13.8,25.99,21.96,47,,1,1,
-Wheatley Vodka 750ml,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",16,0.2,79.1,11.44,17.99,,36,25 case  deal,1,2,Rosemount:2;Andover:3;Roseville:11
-Wheel Horse Winter Wheat Wheated Bourbon 750ml,Bourbon,Bellboy Corporation,1,0.2,6.4,18.83,39.99,32.96,53,,0,5,Woodbury:1
-Phillips Vodka Liter,Vodka,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,6.88,11.99,,43,Case 1,1,1,
-Villa One Silver Tequilla 750ml,Agave,Johnson Brothers - St. Paul,4,0.2,23.4,30.08,44.99,,33,,1,1,Chanhassen:1;Vadnais Heights:1;Roseville:2
-Phillips UV Vodka Liter,Vodka,Phillips Wine & Spirits - St. Paul,4,0.2,23.4,9.21,14.99,12.96,39,2 free Blue 1.75 on 25,1,1,Blaine:4
-Fleischmanns Gin 1.75L,Gin,Southern Glazer's Wine & Spirits of MN,8,0.2,46.8,13.63,17.99,,24,,1,1,Woodbury:8
-Old Bardstown Bourbon 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,16,0.2,93.5,15.09,24.99,20.96,40,Case 1,1,1,Chanhassen:3;Plymouth:5;Cottage Grove:8
-Old Crow Bourbon 1.75L,Whisky/Whiskey,Bellboy Corporation,1,0.2,5.8,17.0,20.99,,19,,1,1,Minnetonka:1
-Tyrconnell Single Malt 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,1,0.2,5.8,23.01,36.99,,38,,1,1,Minnetonka:1
+Ole Smoky Mountain Java Cream Liqueur 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,6,0.3,20.3,16.94,26.99,22.96,37,,1,5,Blaine:2;Andover:4
+Southern Comfort 100pf 50ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",149,0.3,563.4,0.6,2.99,,80,"150cs 50ml purchase in a month (Buffalo Trace Cream, Canadian Mist, Dr Mcgil, Fireball, Goldschlager, Hartley Brandy, Margaritaville, Parrot Bay, Platinum 7x, R&R, Scoresby, Sheep Dog, SoCo, Taaka, Traveller, Wheately, Yukon Jack)",1,4,Andover:61;Cottage Grove:88
+Ole Smoky Hunch Punch Lightnin 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.3,0.0,16.94,26.99,22.96,37,,1,6,
+Svedka Citron Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,10,0.3,29.2,9.81,17.49,14.96,44,,2,2,Minneapolis:10
+Midwest Vodka Liter,Vodka,"Vinocopia, Inc",17,0.3,49.7,20.79,23.99,19.96,13,,2,2,Plymouth:2;Ramsey:2;Cottage Grove:3;Stillwater:3;Chanhassen:7
+Svedka Strawberry Lemonade Vod Liter,Vodka,Southern Glazer's Wine & Spirits of MN,10,0.3,35.7,9.81,17.49,14.96,44,,0,9,Plymouth:2;Minnetonka:3;St. Louis Park:5
+45th Parallel Gin 750ml,Gin,"Vinocopia, Inc",20,0.3,67.7,32.25,47.99,39.96,33,Net Down Price,1,5,St. Louis Park:2;Blaine:6;Stillwater:6;Woodbury:6
+Whistlepig Bourbon Snout to Tail 10yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.3,5.8,,93.99,79.96,,,2,2,Blaine:1;Woodbury:1
+Angel's Envy Bottled In Bond Cask Strength 750ml,Bourbon,DNU - Created from invalid import,9,0.3,26.3,52.63,84.99,70.96,38,,0,11,Andover:1;Roseville:1;Minnetonka:2;Woodbury:5
+Bubbas Secret Still Chocolate Marshmallow 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,7,0.3,26.5,15.17,25.99,21.96,42,Case 1,1,4,Andover:3;Blaine:4
+Camarena Anejo Tequila 750ml,Agave,Johnson Brothers - St. Paul,4,0.3,12.2,25.02,33.99,,26,,1,6,Chanhassen:1;Stillwater:1;St. Louis Park:2
+Copper & Cask MK-522 Top Ten Single Barrel 750ml,Whisky/Whiskey,Bellboy Corporation,2,0.3,5.8,31.67,59.99,49.96,47,,2,2,Osseo:2
+Coldcock Whiskey 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,1,0.3,2.9,18.74,23.99,,22,,2,2,Woodbury:1
+Whistle Pig Piggybank 10 Year 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.3,5.8,187.77,299.99,249.96,37,,2,2,Blaine:2
+Zing Zang RTD Blazing Bloody Mary 4pk 12oz can,Pre-Mix,Phillips Wine & Spirits - St. Paul,4,0.3,11.7,9.33,15.99,12.96,42,1 BMM 1.75 free on 10 mix & match,2,2,Bloomington:4
+Bacardi Raspberry Rum 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,13,0.3,46.4,17.29,25.99,21.96,33,,0,9,Minnetonka:3;Andover:4;Stillwater:6
+Tempus Fugit Alessio Rosso Vermouth 375ml,Vermouth,Phillips Wine & Spirits - St. Paul,1,0.3,2.9,14.76,21.99,,33,Case 1,2,2,Woodbury:1
+Tempus Fugit Alessio Bianco Vermouth 375ml,Vermouth,Phillips Wine & Spirits - St. Paul,3,0.3,11.3,14.76,21.99,,33,Case 1,1,4,Woodbury:1;Stillwater:2
+Bacardi Pineapple Fusion Rum Liter,Rum,Southern Glazer's Wine & Spirits of MN,21,0.3,71.1,12.01,20.99,17.96,43,,1,5,Rosemount:2;Cottage Grove:4;Chanhassen:15
+George Dickel Bottled in Bond 13yr 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,18,0.3,68.1,37.59,53.99,44.96,30,Case 1,1,4,Ramsey:1;St. Louis Park:1;Cottage Grove:6;Andover:10
+Bacardi Gran Reserva Diez 750ml,Rum,Southern Glazer's Wine & Spirits of MN,1,0.3,3.8,23.63,34.99,13.47,32,,1,4,Osseo:1
+Western Son Prickly Pear 50ml,Vodka,Johnson Brothers - St. Paul,4,0.3,13.5,0.7,1.49,1.24,53,Net Down Case Price,1,5,Vadnais Heights:4
+Herradura Anejo Tequila 750ml,Agave,Johnson Brothers - St. Paul,18,0.3,60.9,41.43,64.99,53.96,36,,1,5,Blaine:1;Minnetonka:1;Cottage Grove:2;Roseville:3;Bloomington:5;St. Louis Park:6
+Western Son Lemon Liter,Vodka,Johnson Brothers - St. Paul,6,0.3,17.5,9.93,15.99,13.46,38,Net Down Case Price,2,2,St. Louis Park:1;Plymouth:5
+Don Julio Anejo 375ml,Agave,Bellboy Corporation,4,0.3,11.7,23.75,33.99,28.96,30,case 1,2,2,St. Louis Park:6
+Don Fulano Blanco Suave 750ml,Agave,Johnson Brothers - St. Paul,9,0.3,34.0,41.35,54.99,,25,,1,4,Rosemount:2;Ramsey:7
+Ice Hole Rootbeer Schnapps Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,0,0.3,0.0,9.65,13.99,,31,Case 1,1,6,
+Diplomatico Mantuano 750ml,Rum,Johnson Brothers - St. Paul,2,0.3,5.8,21.18,27.99,23.95,24,,2,2,Minnetonka:2
+Laphroaig Cairdeas 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,8,0.3,30.3,81.97,109.99,,25,,1,4,Minnetonka:1;Chanhassen:2;Ramsey:5
+Rich & Rare Reserve Canadian Whiskey 1.75L,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",11,0.3,35.4,9.44,13.79,11.96,32,,0,10,Cottage Grove:2;St. Louis Park:2;Plymouth:3;Minnetonka:4
+Don Q Coco Rum 1.75L,Rum,Johnson Brothers - St. Paul,15,0.3,50.8,17.63,22.49,18.95,22,1 free case on 10,1,5,Plymouth:2;Blaine:3;Osseo:3;Ramsey:3;Chanhassen:4
+Rum Chata Pumpkin Spice 750ml,Cordials,Johnson Brothers - St. Paul,139,0.3,470.3,16.22,25.99,21.96,38,DEEP NET,1,5,St. Louis Park:3;Stillwater:3;Blaine:5;Chanhassen:9;Rosemount:10;Roseville:13;Minnetonka:15;Woodbury:34;Andover:47
+Letherbee Original Label Gin 750ml,Gin,"Tradition Wine & Spirits, LLC",9,0.3,26.3,22.33,25.99,,14,,2,2,Stillwater:1;Plymouth:3;Bloomington:5
+Midnight Moonshake Apple Pie 50ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",76,0.3,232.7,1.83,3.99,2.96,54,,1,6,Vadnais Heights:6;St. Louis Park:22;Roseville:23;Andover:25
+Longrow Peated Cask Strength 700ml,Whisky/Whiskey,"New France Wine Co, Inc",0,0.3,0.0,82.08,119.99,101.96,32,Allocated,2,2,
+Raff Arkansas Black Straight Applejack 750ml,Brandy,Bellboy Corporation,0,0.3,0.0,20.17,26.99,22.95,25,,1,4,
+Lucky Ones Sweet Tea Vodka Original 4pk 12oz can,Pre-Mix,Johnson Brothers - St. Paul,24,0.3,73.5,7.67,12.99,10.96,41,Deep Net,1,6,Minneapolis:24
+Stolichnaya Vodka 50ml,Vodka,Johnson Brothers - St. Paul,104,0.3,334.3,1.88,3.99,2.96,53,,0,10,Cottage Grove:104
+Lucky Ones Sweet Tea Vodka Half & Half 4pk 12oz can,Pre-Mix,Johnson Brothers - St. Paul,23,0.3,70.4,7.67,12.99,10.96,41,Deep Net,1,6,Minneapolis:23
+Dashfire Lemon & Lavender Martini 100ml,Pre-Mix,"Vinocopia, Inc",24,0.3,81.2,3.97,6.49,5.96,39,,1,5,Roseville:2;Chanhassen:3;Ramsey:20
+Du Nord Prominence Gin 750ml,Gin,Phillips Wine & Spirits - St. Paul,42,0.3,150.0,21.85,37.99,31.96,42,Case 1,0,9,Blaine:1;Minneapolis:1;St. Louis Park:2;Andover:3;Chanhassen:5;Woodbury:30
+Breckenridge Bitters 750ml,Cordials,,3,0.3,8.8,16.0,31.99,,50,,2,2,Ramsey:3
+Rabbit Hole Boxergrail Rye 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,3,0.3,8.8,40.62,57.99,47.95,30,,2,2,Stillwater:1;Chanhassen:2
+Phillips Peach Schnapps Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,16,0.3,57.1,6.43,12.49,10.96,49,1 free Pep 60 Liter on 8 cs,0,9,Ramsey:1;Bloomington:5;Blaine:10
+Phillips Rootbeer Schnapps Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,3,0.3,9.6,6.43,11.49,9.96,44,1 free Pep 60 Liter on 8 cs,0,10,Minnetonka:3
+Phillips Peppermint 80pf Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,50,0.3,169.2,8.33,12.49,10.96,33,1 free Pep 60 Liter on 8 cs,1,5,Osseo:1;Rosemount:4;Blaine:7;Plymouth:7;Minnetonka:12;St. Louis Park:19
+Courvoisier VSOP Cognac 750ml,Brandy,Southern Glazer's Wine & Spirits of MN,21,0.3,79.4,27.81,45.99,37.95,40,,1,4,Roseville:1;Woodbury:3;Ramsey:5;Andover:6;Plymouth:6
+Bombay Gin 750ml,Gin,Southern Glazer's Wine & Spirits of MN,5,0.3,15.3,12.45,19.99,,38,,1,6,Osseo:1;Bloomington:4
+Phillips Canadian 1.75L,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,0,0.3,0.0,14.02,16.99,,17,Case 1,2,2,
+Bib & Tucker 10yr Bourbon 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,13,0.2,64.3,57.68,82.99,74.96,30,Case one,1,2,Andover:2;Woodbury:2;Blaine:4;St. Louis Park:5
+45th Parallel WI Wheat Whiskey 750ml,Whisky/Whiskey,"Vinocopia, Inc",2,0.2,11.7,35.92,53.99,44.96,33,Net Down Pricing,1,1,Plymouth:1;Woodbury:1
+1800 Coconut Tequila 750ml,Agave,Johnson Brothers - St. Paul,0,0.2,0.0,18.3,30.49,25.96,40,,1,3,
+Jameson Caskmates IPA Edition 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,45.0,59.99,,25,,1,1,
+1792 Full Proof 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.2,29.2,33.67,48.99,39.96,31,,1,1,Blaine:1;Roseville:4
+Jameson Cold Brew 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,14,0.2,81.8,13.11,29.99,25.96,56,,1,1,Plymouth:2;Ramsey:2;Stillwater:4;St. Louis Park:6
+Western Son Grapefruit Liter,Vodka,Johnson Brothers - St. Paul,16,0.2,68.6,9.93,15.99,13.46,38,Net Down Case Price,1,3,Blaine:5;Vadnais Heights:5;Roseville:6
+Wyoming Whiskey Small Batch 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",11,0.2,58.9,33.94,49.99,41.96,32,,0,6,Plymouth:2;Chanhassen:3;Blaine:6
+44 North Mountain Huckleberry 750ml,Vodka,"Vinocopia, Inc",23,0.2,147.9,20.42,33.49,27.96,39,Net Down Case 1 Pricing,0,5,St. Louis Park:7;Blaine:8;Minnetonka:8
+21 Seeds Cucumber Jalapeno Tequila 750ml,Agave,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,21.02,35.49,29.96,41,Case 1 Must hit 4 cs within month,1,1,
+Jeppson's Malort 750ml,Cordials,"New France Wine Co, Inc",11,0.2,44.2,19.21,24.96,,23,Rewards sale pricing,0,8,Minneapolis:2;Roseville:4;Bloomington:5
+Jefferson's Rye Ocean Aged at Sea 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,7,0.2,40.9,60.13,95.99,79.96,37,,1,1,Andover:1;Blaine:6
+Ocean Vodka 750ml,Vodka,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,20.38,33.99,27.96,40,,1,1,Stillwater:2
+Ocean Organic Vodka 50ml,Vodka,Southern Glazer's Wine & Spirits of MN,25,0.2,123.6,3.07,4.99,3.96,38,,1,2,Stillwater:25
+Northland Organic Vodka 1.75L,Vodka,Small Lot MN,3,0.2,17.5,23.76,43.99,36.96,46,,1,1,Andover:3
+Tattersall Straight Rye 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,26.43,41.99,34.96,37,Case 1,1,1,
+Tattersall Sour Cherry 750ml,Cordials,Phillips Wine & Spirits - St. Paul,14,0.2,81.8,22.68,35.99,,37,Case 1,1,1,Minneapolis:2;Ramsey:2;Osseo:10
+Jose Cuervo Devil's Reserve Tequila Liter,Agave,Johnson Brothers - St. Paul,10,0.2,49.5,16.5,22.99,18.96,28,,1,2,Minnetonka:10
+J. Henry 5YR Wisconsin Bourbon 750ML/ D,Accessories,Discontinued,1,0.2,5.8,75.0,99.99,,25,,1,1,Stillwater:1
+Buil & Gine Vermut Priorat 750ml,Vermouth,"New France Wine Co, Inc",1,0.2,4.3,18.21,29.99,,39,,1,3,Plymouth:1
+Tattersall Manhattan 750ml,Pre-Mix,Phillips Wine & Spirits - St. Paul,7,0.2,40.9,27.93,39.99,,30,Case 1,1,1,Cottage Grove:1;Minnetonka:1;Plymouth:1;Ramsey:1;Stillwater:1;Rosemount:2
+Tattersall Grapefruit Crema 750ml,Cordials,Phillips Wine & Spirits - St. Paul,3,0.2,17.5,20.43,34.99,,42,Case 1,1,1,Chanhassen:3
+Jefferson's Ocean Top Ten Barrel Pick 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,4,0.2,23.4,80.38,131.99,109.96,39,,1,1,Ramsey:4
+Black Velvet 200ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,15,0.2,74.2,2.22,3.99,,44,,1,2,Ramsey:15
+New Amsterdam London Dry Gin 1.75L,Gin,Johnson Brothers - St. Paul,2,0.2,11.7,19.23,27.99,,31,1 free Strat Gin 1.75's on 15,1,1,Chanhassen:2
+DOM Benedictine 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,15,0.2,96.4,24.36,38.99,31.96,38,,0,5,Roseville:1;Minnetonka:4;Blaine:10
+Absolut Watermelon Liter,Vodka,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,12.03,24.99,21.96,52,,1,1,Minnetonka:2
+Apologue Aronia Berry Liqueur 750ml,Cordials,"Tradition Wine & Spirits, LLC",7,0.2,34.6,24.0,39.99,34.95,40,,1,2,Plymouth:1;Vadnais Heights:2;Woodbury:4
+Angel's Envy Triple Oak Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,49.15,89.99,74.96,45,,1,1,
+TCRL Fiji 750ml,Rum,Libation Project,20,0.2,98.9,44.0,58.99,48.95,25,,1,2,Osseo:2;Roseville:2;Chanhassen:4;Woodbury:5;Rosemount:7
+J. Carver Barrel Gin 750ml,Gin,The Wine Company,3,0.2,14.8,24.33,45.99,37.96,47,,1,2,Vadnais Heights:3
+TCRL Australia 750ml,Rum,Libation Project,22,0.2,94.3,44.5,58.99,48.95,25,Case 1,1,3,Ramsey:1;Andover:2;Roseville:3;Chanhassen:4;St. Louis Park:4;Blaine:8
+Alma Del Jaguar Blanco 750ml,Agave,"Maverick Beverage Co., LLC - MN",3,0.2,12.9,35.31,53.99,44.96,35,1btl on 1 cs,1,3,St. Louis Park:1;Minneapolis:2
+Cruzan Light Rum Liter,Rum,Southern Glazer's Wine & Spirits of MN,8,0.2,46.8,7.91,14.99,12.96,47,,1,1,Minnetonka:8
+Ten to One Dark Rum 750ml,Rum,"Grape Beginnings, Inc.",4,0.2,19.8,34.0,56.99,47.96,40,,1,2,Stillwater:4
+99 Pineapples 375ml,Schnapps,Southern Glazer's Wine & Spirits of MN,4,0.2,23.4,5.03,9.99,8.96,50,,1,1,Ramsey:1;Vadnais Heights:3
+99 Pineapples 200ml,Schnapps,Southern Glazer's Wine & Spirits of MN,33,0.2,192.9,2.87,5.99,,52,,1,1,Andover:13;Cottage Grove:20
+Three Fingers High Whiskey 750ml,Whisky/Whiskey,"New France Wine Co, Inc",5,0.2,23.0,36.42,47.99,39.95,24,Rewards sale pricing,0,7,Roseville:5
+Absinthe Honeoye Falls Cascade 375ml,Cordials,Discontinued,1,0.2,5.8,25.0,35.99,,31,,1,1,Chanhassen:1
+Crown Royal Hand Select Barrel Vikings Version,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,41.34,71.99,59.96,43,Case 1 Must hit 12 cs within month,1,2,
+Dashfire Elderflower Martinez 100ml,Pre-Mix,"Vinocopia, Inc",38,0.2,162.9,3.56,6.49,5.96,45,Net Down Pricing,1,3,Ramsey:2;Chanhassen:5;Osseo:8;Vadnais Heights:10;Rosemount:13
+Ardbeg Spectacular 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,17.5,97.68,129.99,,25,Case 1,1,1,St. Louis Park:3
+Dampfwerk Single Malt Whiskey 750ml,Whisky/Whiskey,The Wine Company,10,0.2,58.4,44.25,65.99,54.96,33,,1,1,Cottage Grove:1;Minnetonka:1;Rosemount:1;Ramsey:2;Blaine:5
+Ice Hole Butterscotch Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,8,0.2,34.3,9.65,13.99,,31,Case 1,1,3,Minneapolis:8
+Kilbeggan Small Batch Rye 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,14,0.2,69.2,21.82,34.99,,38,,1,2,Chanhassen:4;Minnetonka:5;Ramsey:5
+Kilbeggan Single Grain/Triple Cask 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.2,19.8,18.18,35.49,29.96,49,3 bottles single grain free on 2 cases,1,2,Rosemount:4
+Dampfwerk Aged Grape Brandy 375ml,Brandy,The Wine Company,3,0.2,17.5,29.12,39.99,,27,,1,1,Rosemount:3
+St Agrestis Inferno Bitter 750ml,Cordials,,3,0.2,14.8,26.67,34.99,,24,,1,2,Blaine:3
+Apologue Persimmon Liqueur 750ml,Cordials,"Tradition Wine & Spirits, LLC",18,0.2,105.2,24.52,39.99,34.95,39,,1,1,Andover:2;Plymouth:2;Vadnais Heights:2;Blaine:3;St. Louis Park:4;Rosemount:5
+Apologue Celery Root Liqueur 750ml,Cordials,"Tradition Wine & Spirits, LLC",4,0.2,19.8,24.6,39.99,34.95,38,,1,2,Roseville:2;St. Louis Park:2
+Studio Rye Whiskey 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",15,0.2,87.7,43.69,56.99,,23,,1,1,Vadnais Heights:3;Plymouth:4;Rosemount:8
+Keeper's Heart Cask Strength Bourbon 700ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,13,0.2,83.6,45.88,53.99,44.96,15,,0,5,Minneapolis:1;St. Louis Park:2;Woodbury:2;Andover:3;Blaine:5
+Stranahan's Colorado Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,5,0.2,21.4,32.43,59.99,49.96,46,Buy 3cs get 1cs Blue Peak Free,1,3,Bloomington:2;Blaine:3
+Stock 84 Liter,Brandy,Bellboy Corporation,0,0.2,0.0,9.91,17.99,,45,,1,1,
+Ciroc Passion 750ml,Vodka,Johnson Brothers - St. Paul,0,0.2,0.0,21.17,34.99,,39,,0,6,
+Cihuatan Indigo 8yr Rum 750ml,Rum,"New France Wine Co, Inc",5,0.2,29.2,19.21,31.99,26.96,40,,1,1,Bloomington:5
+Absolut Lime 1.75L,Vodka,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,22.91,29.99,24.95,24,,1,1,
+Absolut Juice Strawberry Liter,Vodka,Southern Glazer's Wine & Spirits of MN,34,0.2,168.1,13.35,24.99,21.96,47,,1,2,Chanhassen:34
+Tenjaku Whisky 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,1,0.2,4.9,34.3,51.99,42.96,34,,1,2,Minnetonka:1
+Austin Cocktails Cucumber Mojito 4pk 8oz can,Pre-Mix,"Breakthru Beverage Minnesota Beer, LLC",5,0.2,29.2,8.35,11.99,12.96,30,,1,1,Minneapolis:5
+Astral Tequila 750ml,Agave,Southern Glazer's Wine & Spirits of MN,3,0.2,17.5,31.83,35.49,29.96,10,,1,1,Osseo:3
+Spiritless Kentucky 74 Spiced 750ml /D,Whisky/Whiskey,Discontinued,14,0.2,90.0,22.06,35.99,29.95,39,Case 1 Pricing,0,5,Minneapolis:3;Ramsey:3;Blaine:4;Cottage Grove:4
+Spirit Works Vodka 750ml,Vodka,Bellboy Corporation,3,0.2,17.5,19.0,29.99,,37,,1,1,Minnetonka:3
+Spirit Works Straight Wheat 750ml,Whisky/Whiskey,Bellboy Corporation,2,0.2,11.7,30.0,49.99,,40,,1,1,Minnetonka:2
+Sqrrl Peanut Butter Whiskey 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,12,0.2,70.1,14.42,20.99,17.96,31,,1,1,Chanhassen:4;Minnetonka:4;Osseo:4
+Kilchoman Machir Bay 750ml,Whisky/Whiskey,The Wine Company,2,0.2,8.6,47.92,64.99,,26,,1,3,Chanhassen:1;Stillwater:1
+Nikka Yoichi Single Malt Whisky 750ml,Whisky/Whiskey,Bellboy Corporation,5,0.2,21.4,66.67,107.99,89.96,38,,1,3,Blaine:2;St. Louis Park:3
+Hunt & Gather Lot 2 15yr Canadian Whisky 750ml,Whisky/Whiskey,Bellboy Corporation,1,0.2,4.9,41.5,47.99,39.95,14,,1,2,Vadnais Heights:1
+Chopin Rye Vodka 750ml,Vodka,Southern Glazer's Wine & Spirits of MN,7,0.2,40.9,19.62,29.99,,35,,1,1,Cottage Grove:2;Rosemount:2;Osseo:3
+DeLola Spritz Paloma 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,4,0.2,23.4,15.0,23.99,19.96,37,,1,1,Chanhassen:1;Minnetonka:3
+Stellum Bourbon Cask Strength 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",5,0.2,21.4,39.02,60.99,,36,,1,3,Chanhassen:2;Roseville:3
+Stearns American Small Batch  Avon Rye Whiskey 750ml/ D,Accessories,Discontinued,3,0.2,17.5,29.6,48.99,,40,,1,1,Stillwater:3
+Starr Blu Vodka 750ml,Vodka,Johnson Brothers - St. Paul,7,0.2,40.9,5.8,16.99,,66,,1,1,Andover:7
+Dekuyper Sour Apple Pucker Liter,Schnapps,Southern Glazer's Wine & Spirits of MN,10,0.2,64.1,6.73,13.79,11.96,51,,1,1,Stillwater:10
+Dekuyper Creme De Cassis 750ml,Schnapps,Southern Glazer's Wine & Spirits of MN,9,0.2,52.6,0.07,12.49,10.96,99,,1,1,Rosemount:1;Andover:8
+Dekuyper C D Menthe White 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,6,0.2,25.7,8.15,13.79,11.96,41,,1,3,Blaine:2;Andover:4
+Dekuyper C D Cocoa Dark 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,24,0.2,110.2,7.62,13.79,11.96,45,,0,7,Cottage Grove:3;Osseo:3;Woodbury:3;Blaine:6;Vadnais Heights:9
+Smoke Wagon Whiskey Desert Colt Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,6,0.2,25.7,30.07,48.99,40.96,39,,1,3,St. Louis Park:1;Andover:2;Chanhassen:3
+Dekuyper Blueberry Liter,Schnapps,Southern Glazer's Wine & Spirits of MN,9,0.2,38.6,6.73,13.99,,52,,1,3,Blaine:9
+Kinky Ruby Liqueur 750ml,Cordials,Johnson Brothers - St. Paul,2,0.2,8.6,13.67,18.99,15.96,28,,1,3,Blaine:1;Stillwater:1
+Deep Eddy Orange Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,3,0.2,17.5,14.52,23.99,19.96,39,,1,1,Chanhassen:3
+Smirnoff Peach Lemonade 1.75L,Vodka,Johnson Brothers - St. Paul,3,0.2,14.8,15.96,21.99,,27,,1,2,Roseville:3
+Southern Comfort 200ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.2,0.0,2.77,6.49,5.96,57,15 case deal,1,2,
+Sobieski Vodka Liter,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",12,0.2,59.3,10.54,14.99,12.96,30,,1,2,St. Louis Park:2;Bloomington:5;Roseville:5
+Smoke Wagon Whiskey Uncut Unfiltered Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,1,0.2,5.8,57.88,89.99,74.96,36,,1,1,Andover:1
+Komos Reposado Rosa 750ml,Agave,Johnson Brothers - St. Paul,0,0.2,0.0,82.68,119.99,99.96,31,,1,1,
+Dewar's White Label Scotch 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.2,8.6,16.15,25.99,21.96,38,,1,3,Minnetonka:2
+Bacardi Lime Rum 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,17.29,25.99,21.96,33,,0,5,
+High Plains Blended Rye 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",14,0.2,69.2,40.25,59.99,49.96,33,,1,2,Plymouth:1;Woodbury:4;St. Louis Park:9
+LaCrosse Robbers Rye 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.2,0.0,33.69,49.99,,33,Case 1,1,1,
+Kurvball Whiskey 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,12,0.2,51.4,18.79,26.99,19.95,30,,1,3,Cottage Grove:2;Osseo:2;Ramsey:2;St. Louis Park:6
+Skyy Pineapple Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,1,0.2,4.9,11.31,19.99,16.96,43,,1,2,Chanhassen:1
+Bacardi Mango Chile Rum 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,40,0.2,197.8,17.29,23.99,19.95,28,,1,2,Vadnais Heights:2;Andover:3;Woodbury:3;Blaine:6;Osseo:7;Ramsey:9;Minnetonka:10
+Leroux Ginger Brandy Liter,Brandy,"Breakthru Beverage Minnesota Wine & Spirits, LLC",6,0.2,35.1,10.04,13.79,11.95,27,,1,1,Cottage Grove:6
+Chi-Chi's Skinny Margarita 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,3.82,6.99,,45,,0,6,
 Barrell Craft Dovetail Gray Label Bourbon 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",0,0.2,0.0,200.0,239.99,199.95,17,,1,1,
+Revel Stoke Roasted Pineapple Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,19,0.2,111.0,12.83,20.99,17.96,39,1 on 9 mix & match,1,1,Roseville:1;Chanhassen:3;Minnetonka:7;Rosemount:8
 Caribou Crossing Canadian Whisky 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",20,0.2,122.7,43.13,9999.99,,100,,1,1,Minneapolis:0;Blaine:1;Minnetonka:1;Vadnais Heights:1;St. Louis Park:3;Chanhassen:5;Cottage Grove:9
 Lucky Ones Sweet Tea Vodka Peach 4pk 12oz can,Pre-Mix,Johnson Brothers - St. Paul,24,0.2,128.6,7.67,12.99,10.96,41,Deep Net,0,6,Minneapolis:24
 Maker's Mark Bourbon Wood Finishing The Stewards,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,5,0.2,29.2,58.22,88.99,74.96,35,,1,1,Blaine:5
 Chi-Chi's Pina Colada 1.75L,Pre-Mix,Southern Glazer's Wine & Spirits of MN,8,0.2,51.4,9.13,14.99,12.96,39,,0,5,Bloomington:8
 Uncle Val's Gin 750ml,Gin,Bellboy Corporation,6,0.2,29.7,28.17,42.99,35.96,34,,1,2,Ramsey:6
-Maraska Slivovitz 750ml,Brandy,Bellboy Corporation,0,0.2,0.0,18.83,23.99,19.95,22,,1,1,
-Gin Lane 1751 London Dry Gin 750ml,Gin,Bellboy Corporation,1,0.2,4.9,16.0,26.99,9.97,41,,1,2,Stillwater:1
-Montenegro Amaro 750ml,Cordials,Johnson Brothers - St. Paul,2,0.2,9.9,33.93,47.99,39.96,29,,1,2,Blaine:2
-Benriach 10yr Scotch 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,12.9,0.18,54.99,49.96,100,,1,3,Andover:1;Blaine:2
+Tyrconnell Single Malt 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,1,0.2,5.8,23.01,36.99,,38,,1,1,Minnetonka:1
+Haus Rose Rose' Aperitif 750ml,Cordials,Libation Project,8,0.2,46.8,23.73,39.99,,41,,1,1,Vadnais Heights:3;Plymouth:5
 Courvoisier VS Cognac 375ml,Brandy,Southern Glazer's Wine & Spirits of MN,4,0.2,17.1,10.11,23.99,19.96,58,,1,3,St. Louis Park:1;Blaine:3
-45th Parallel Vodka 750ml,Vodka,"Vinocopia, Inc",8,0.2,51.4,24.25,35.49,29.96,32,Net Down Pricing,0,5,Blaine:2;Minnetonka:2;St. Louis Park:2;Stillwater:2
-Old Forester 1870 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,23,0.2,113.7,29.38,47.99,39.96,39,,1,2,Blaine:1;Stillwater:4;Minnetonka:6;Osseo:6;St. Louis Park:6
-Passoa Liqueur,Cordials,,103,0.2,601.9,0.01,3.49,,100,,1,1,Stillwater:103
-Milagro Reposado Tequila 375ml,Agave,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.2,0.0,11.33,17.99,,37,,0,6,
-Exclusiv Vodca Liter,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,17.5,9.15,14.99,,39,,1,1,Andover:3
-On The Rocks Cosmo 4pk 12oz can,Pre-Mix,Southern Glazer's Wine & Spirits of MN,5,0.2,29.2,8.38,12.99,10.96,35,,1,1,Bloomington:5
-Pantalones Tequila Anejo 750ml,Agave,Southern Glazer's Wine & Spirits of MN,7,0.2,34.6,37.63,59.99,49.96,37,,1,2,Blaine:3;St. Louis Park:4
-On The Rocks Espresso Martini 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,9,0.2,38.6,15.2,24.99,18.96,39,,1,3,Blaine:9
-Fireball 100ml 6pk 100ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,67,0.2,287.1,1.23,11.49,9.96,89,9cs one invoice,1,3,St. Louis Park:3;Minnetonka:6;Plymouth:6;Ramsey:8;Osseo:14;Chanhassen:15;Stillwater:15
-Paladar Tequila Tempranillo 750ml,Agave,"New France Wine Co, Inc",2,0.2,11.7,116.42,187.99,156.96,38,,1,1,Minnetonka:2
-On The Rocks Mokito 4pk 12oz can,Pre-Mix,Southern Glazer's Wine & Spirits of MN,3,0.2,12.9,8.38,12.99,10.96,35,,1,3,Bloomington:3
-Massaya Arak Lebanon Anisette Liqueur 750ml,Cordials,,11,0.2,64.3,23.0,39.99,,42,,1,1,Osseo:4;Chanhassen:7
-Cantera Negra Extra Anejo 750ml,Agave,Phillips Wine & Spirits - St. Paul,8,0.2,39.6,65.64,106.99,,39,1 cs any Redemption 750 free on 15 m&m café and extra anejo,1,2,Roseville:1;Andover:3;Cottage Grove:4
-Martini & Rossi Rubino Riserva 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,17.24,25.99,,34,,1,1,Rosemount:2
-Martini & Rossi Fiero L'Aperitivo 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,19,0.2,94.0,10.41,17.49,14.96,40,,1,2,Chanhassen:5;Stillwater:6;Woodbury:8
-Orphan Barrel Muckety Muck 25 Yr Scotch 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,17.5,188.71,299.99,249.96,37,,1,1,St. Louis Park:3
-On the Rocks Midori Sour 375ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,8.67,13.79,11.96,37,,1,1,
-Milagro Silver Tequila 1.75L,Agave,"Breakthru Beverage Minnesota Wine & Spirits, LLC",1,0.2,4.9,35.86,48.99,,27,5cs purchase in a month,1,2,Rosemount:1
-Glenmorangie X 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,17,0.2,99.4,24.18,29.99,,19,Case 1,1,1,Stillwater:2;Woodbury:2;Ramsey:4;Rosemount:9
-Metaxa Ouzo 750ml,Cordials,Bellboy Corporation,2,0.2,11.7,16.21,21.99,,26,,1,1,Minnetonka:2
-Gozio Amaretto 750ml,Cordials,"Vinocopia, Inc",10,0.2,49.5,28.04,45.99,37.96,39,Net Down Case 1 Pricing,1,2,Plymouth:1;Ramsey:1;Minnetonka:2;Blaine:6
-Grand Marnier Liqueur 200ml,Cordials,Bellboy Corporation,14,0.2,69.2,8.92,11.99,,26,,1,2,Minneapolis:14
-Evangeline's Praline Liqueur 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,17.5,11.27,17.99,,37,,1,1,Ramsey:3
-Olmeca Altos Anejo 750ml,Agave,Southern Glazer's Wine & Spirits of MN,5,0.2,29.2,24.12,47.99,39.96,50,,1,1,Osseo:5
-Basil Hayden's 10 yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,4,0.2,25.7,60.13,89.99,74.96,33,,0,5,Blaine:2;St. Louis Park:2
+Revel Stoke Spiced Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,9,0.2,52.6,13.0,20.99,17.96,38,,1,1,Ramsey:4;St. Louis Park:5
+Virginia Distlling Courage and Conviction American Single Malt,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",7,0.2,34.6,45.0,69.99,59.96,36,,1,2,Andover:2;Blaine:5
+Virginia Dist American Single Malt Cabernet Cask 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.2,29.2,30.0,46.99,39.96,36,,1,1,St. Louis Park:5
+Maestro Dobel Anejo 750ml,Agave,Johnson Brothers - St. Paul,10,0.2,42.9,33.35,53.99,44.96,38,Buy 3cs get 1cs Diamante Free,1,3,Woodbury:1;Minneapolis:4;Bloomington:5
+J. Carver Vodka 750ml,Vodka,The Wine Company,0,0.2,0.0,17.31,30.99,,44,,1,3,
+Boodles Gin Liter,Gin,Bellboy Corporation,6,0.2,35.1,21.42,26.99,,21,,1,1,Minnetonka:6
+Haus Bitter Clove Aperitif 750ml,Cordials,Libation Project,33,0.2,212.1,23.33,39.99,19.86,42,,0,5,Minnetonka:3;Osseo:3;Chanhassen:4;Blaine:6;Cottage Grove:8;Vadnais Heights:9
+Hampden Estate The Younger 750ml,Rum,Libation Project,0,0.2,0.0,44.5,57.99,47.95,23,Case 1,1,1,
+Phillips Blue 100 Peppermint Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,24,0.2,154.3,10.48,18.99,15.96,45,1 free Pep 60 Liter on 8 cs,0,5,Woodbury:2;Blaine:3;Cottage Grove:7;Vadnais Heights:12
+Jim Beam Peach Liter,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.2,9.9,15.92,22.99,,31,,1,2,Plymouth:2
+Phillips Apricot Brandy Liter,Brandy,Phillips Wine & Spirits - St. Paul,25,0.2,114.8,10.62,17.49,14.96,39,1 Free Blackberry Liter on 8 cs asst Cordials,0,7,Vadnais Heights:3;Minnetonka:4;Rosemount:4;Stillwater:6;Chanhassen:8
+Rondiaz Peach 1.75L,Rum,Johnson Brothers - St. Paul,21,0.2,90.0,10.92,17.99,15.96,39,7 free Spiced 1.75 on 16 mix all 1.75,1,3,St. Louis Park:4;Cottage Grove:5;Rosemount:5;Ramsey:7
+Maraska Slivovitz 750ml,Brandy,Bellboy Corporation,0,0.2,0.0,18.83,23.99,19.95,22,,1,1,
 Mamitas Tequila Seltzer 4pk 12oz can/ D,,Discontinued,5,0.2,29.2,4.04,,,,,1,1,St. Louis Park:5
-George Dickel 8yr Bourbon 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,12.1,21.29,38.99,32.96,45,,0,8,Blaine:1;Ramsey:1;St. Louis Park:1
+Pyrat XO Reserve Rum 375ml,Rum,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,12.43,19.99,,38,,1,1,
+Jack Daniels Fire 200ml,Whisky/Whiskey,Johnson Brothers - St. Paul,83,0.2,410.4,5.52,10.49,4.48,47,,1,2,Osseo:37;Minneapolis:46
 El Mayor Anejo 750ml,Agave,"Vinocopia, Inc",8,0.2,34.3,25.04,41.99,34.96,40,,1,3,Cottage Grove:1;Bloomington:2;St. Louis Park:2;Blaine:3
 Phillips Peach Schnapps 1.75L,Schnapps,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,11.71,18.99,15.96,38,1 free Pep 60 Liter on 8 cs,1,1,
-Bols Strawberry Liqueur Liter,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",18,0.2,105.2,11.1,14.99,,26,,1,1,St. Louis Park:18
-Blue Chair Bay Coconut Spiced Cream 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,14.8,14.35,23.99,19.96,40,5cs purchase in a month,1,2,Vadnais Heights:3
-Blue Chair Bay Mocha Cream 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",35,0.2,225.0,14.35,23.99,19.96,40,5cs purchase in a month,0,5,Blaine:7;Minneapolis:28
-Carolans Cold Brew 750ml,Cordials,,0,0.2,0.0,10.81,17.49,14.96,38,,1,1,
-Carpano Antica Formula 750ml,Vermouth,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,13.8,27.98,41.99,34.96,33,,0,7,St. Louis Park:1;Bloomington:2
-Casa Dragones Tequila 750ml,Agave,,0,0.2,0.0,229.0,279.99,,18,,1,1,
-Fireball Yule Nog 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",27,0.2,133.5,9.75,14.99,9.95,35,,1,2,Vadnais Heights:1;Osseo:2;Woodbury:6;Stillwater:7;Cottage Grove:11
-Mijenta Tequila Anejo Gran Reserva 750ml,Agave,"New France Wine Co, Inc",7,0.2,34.6,111.86,151.99,128.96,26,5cs purchase in a month,1,2,St. Louis Park:1;Minnetonka:2;Blaine:4
+Puntagave Tequila Blanco 750ml,Agave,"Tradition Wine & Spirits, LLC",2,0.2,11.7,36.0,53.99,44.96,33,,1,1,Chanhassen:1;St. Louis Park:1
+Jack Daniels Single Barrel Heritage 25' 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,10,0.2,53.6,52.87,69.99,,24,,0,6,Osseo:2;Blaine:3;Bloomington:5
+Crooked Water Sundog Gin 750ml,Gin,Johnson Brothers - St. Paul,3,0.2,17.5,11.43,29.49,9.97,61,,1,1,Blaine:3
+Cantera Negra Extra Anejo 750ml,Agave,Phillips Wine & Spirits - St. Paul,8,0.2,39.6,65.64,106.99,,39,1 cs any Redemption 750 free on 15 m&m café and extra anejo,1,2,Roseville:1;Andover:3;Cottage Grove:4
+Du Nord Caf� Frieda 750ml,Cordials,Phillips Wine & Spirits - St. Paul,5,0.2,32.1,24.1,37.99,31.96,37,Case 1,0,5,St. Louis Park:1;Minneapolis:4
+Crown Royal Black Cherry Whiskey Sour 750ml,Pre-Mix,Phillips Wine & Spirits - St. Paul,22,0.2,128.6,17.4,26.99,22.96,36,Case 1,1,1,Osseo:1;Chanhassen:4;Cottage Grove:7;Minnetonka:10
+Don Q Gold Rum 1.75L,Rum,Johnson Brothers - St. Paul,5,0.2,24.7,17.63,24.99,,29,1 free case on 10,1,2,Plymouth:1;Blaine:4
+Drink Wisconsinbly Orange RTD 12oz 4pk Cans,,"Vinocopia, Inc",8,0.2,39.6,10.0,15.99,13.96,37,Net Down Pricing,1,2,Rosemount:2;Woodbury:6
+Canadian Club Classic 12yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,5,0.2,24.7,15.07,19.99,,25,,1,2,Plymouth:5
 Valentine Mayor Pingree Red Label 750ml,Whisky/Whiskey,,9,0.2,44.5,36.33,47.99,39.95,24,,1,2,Stillwater:1;Woodbury:8
 Panther Minnesota 14 Whiskey 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,8,0.2,34.3,26.43,44.99,,41,Case 1,1,3,Cottage Grove:1;Minneapolis:7
 Panther MN 14 Maple Whiskey 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,3,0.2,14.8,26.43,29.99,,12,Case 1,1,2,Minneapolis:3
 Pearse Lyon Irish Whiskey 7yr 750ml,Whisky/Whiskey,"Grape Beginnings, Inc.",9,0.2,52.6,30.25,47.99,39.96,37,,1,1,Minnetonka:9
-Grey Goose Strawberry & Lemongrass Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,9,0.2,52.6,18.54,28.99,23.96,36,,1,1,Ramsey:1;Minnetonka:3;Rosemount:5
-"Gray Duck Muddled Strawberry, Basil & Chili Liter",Pre-Mix,Johnson Brothers - St. Paul,3,0.2,17.5,22.68,29.99,,24,Case 1,1,1,St. Louis Park:3
-Jim Beam Orange 750ml,Whisky/Whiskey,,18,0.2,77.1,12.56,20.99,17.96,40,,1,3,Roseville:5;St. Louis Park:6;Chanhassen:7
-Patron El Cielo Silver 700ml,Agave,Southern Glazer's Wine & Spirits of MN,17,0.2,84.1,75.23,107.99,89.95,30,,1,2,Minneapolis:2;Plymouth:2;Andover:4;St. Louis Park:4;Roseville:5
-Midnight Moonshake Chocolate Brownie 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.2,29.2,13.53,23.99,19.96,44,,1,1,Blaine:5
-Patron El Alto 750ml,Agave,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,98.13,155.99,129.96,37,,1,1,Plymouth:2
-Midwest Gin Liter,Gin,"Vinocopia, Inc",17,0.2,99.4,21.62,23.99,19.96,10,,1,1,Woodbury:6;Minnetonka:11
-Canadian Club Classic 12yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,5,0.2,24.7,15.07,19.99,,25,,1,2,Plymouth:5
-Absolut Juice Strawberry Liter,Vodka,Southern Glazer's Wine & Spirits of MN,34,0.2,168.1,13.35,24.99,21.96,47,,1,2,Chanhassen:34
-Absolut Lime 1.75L,Vodka,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,22.91,29.99,24.95,24,,1,1,
-Cihuatan Indigo 8yr Rum 750ml,Rum,"New France Wine Co, Inc",5,0.2,29.2,19.21,31.99,26.96,40,,1,1,Bloomington:5
-Ciroc Passion 750ml,Vodka,Johnson Brothers - St. Paul,0,0.2,0.0,21.17,34.99,,39,,0,6,
-Stock 84 Liter,Brandy,Bellboy Corporation,0,0.2,0.0,9.91,17.99,,45,,1,1,
-Stranahan's Colorado Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,5,0.2,21.4,32.43,59.99,49.96,46,Buy 3cs get 1cs Blue Peak Free,1,3,Bloomington:2;Blaine:3
-Keeper's Heart Cask Strength Bourbon 700ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,13,0.2,83.6,45.88,53.99,44.96,15,,0,5,Minneapolis:1;St. Louis Park:2;Woodbury:2;Andover:3;Blaine:5
-Studio Rye Whiskey 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",15,0.2,87.7,43.69,56.99,,23,,1,1,Vadnais Heights:3;Plymouth:4;Rosemount:8
-Apologue Celery Root Liqueur 750ml,Cordials,"Tradition Wine & Spirits, LLC",4,0.2,19.8,24.6,39.99,34.95,38,,1,2,Roseville:2;St. Louis Park:2
-Dorda Sea Salt Caramel 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,3,0.2,17.5,16.88,29.99,24.96,44,,1,1,Plymouth:1;Minnetonka:2
-St Agrestis Inferno Bitter 750ml,Cordials,,3,0.2,14.8,26.67,34.99,,24,,1,2,Blaine:3
-Dampfwerk Aged Grape Brandy 375ml,Brandy,The Wine Company,3,0.2,17.5,29.12,39.99,,27,,1,1,Rosemount:3
-Kilbeggan Single Grain/Triple Cask 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.2,19.8,18.18,35.49,29.96,49,3 bottles single grain free on 2 cases,1,2,Rosemount:4
-Kilbeggan Small Batch Rye 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,14,0.2,69.2,21.82,34.99,,38,,1,2,Chanhassen:4;Minnetonka:5;Ramsey:5
-Ice Hole Butterscotch Traveler,Schnapps,Phillips Wine & Spirits - St. Paul,8,0.2,34.3,9.65,13.99,,31,Case 1,1,3,Minneapolis:8
-Dampfwerk Single Malt Whiskey 750ml,Whisky/Whiskey,The Wine Company,10,0.2,58.4,44.25,65.99,54.96,33,,1,1,Cottage Grove:1;Minnetonka:1;Rosemount:1;Ramsey:2;Blaine:5
-Ardbeg Spectacular 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,17.5,97.68,129.99,,25,Case 1,1,1,St. Louis Park:3
-Dashfire Elderflower Martinez 100ml,Pre-Mix,"Vinocopia, Inc",38,0.2,162.9,3.56,6.49,5.96,45,Net Down Pricing,1,3,Ramsey:2;Chanhassen:5;Osseo:8;Vadnais Heights:10;Rosemount:13
-Crown Royal Hand Select Barrel Vikings Version,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,41.34,71.99,59.96,43,Case 1 Must hit 12 cs within month,1,2,
-Apologue Persimmon Liqueur 750ml,Cordials,"Tradition Wine & Spirits, LLC",18,0.2,105.2,24.52,39.99,34.95,39,,1,1,Andover:2;Plymouth:2;Vadnais Heights:2;Blaine:3;St. Louis Park:4;Rosemount:5
-Dekuyper Blueberry Liter,Schnapps,Southern Glazer's Wine & Spirits of MN,9,0.2,38.6,6.73,13.99,,52,,1,3,Blaine:9
-Smoke Wagon Whiskey Desert Colt Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,6,0.2,25.7,30.07,48.99,40.96,39,,1,3,St. Louis Park:1;Andover:2;Chanhassen:3
-Dekuyper C D Cocoa Dark 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,24,0.2,110.2,7.62,13.79,11.96,45,,0,7,Cottage Grove:3;Osseo:3;Woodbury:3;Blaine:6;Vadnais Heights:9
-Dekuyper C D Menthe White 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,6,0.2,25.7,8.15,13.79,11.96,41,,1,3,Blaine:2;Andover:4
-Dekuyper Creme De Cassis 750ml,Schnapps,Southern Glazer's Wine & Spirits of MN,9,0.2,52.6,0.07,12.49,10.96,99,,1,1,Rosemount:1;Andover:8
-Dekuyper Sour Apple Pucker Liter,Schnapps,Southern Glazer's Wine & Spirits of MN,10,0.2,64.1,6.73,13.79,11.96,51,,1,1,Stillwater:10
-Starr Blu Vodka 750ml,Vodka,Johnson Brothers - St. Paul,7,0.2,40.9,5.8,16.99,,66,,1,1,Andover:7
-Stearns American Small Batch  Avon Rye Whiskey 750ml/ D,Accessories,Discontinued,3,0.2,17.5,29.6,48.99,,40,,1,1,Stillwater:3
-Stellum Bourbon Cask Strength 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",5,0.2,21.4,39.02,60.99,,36,,1,3,Chanhassen:2;Roseville:3
-Tenjaku Whisky 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,1,0.2,4.9,34.3,51.99,42.96,34,,1,2,Minnetonka:1
-Chopin Rye Vodka 750ml,Vodka,Southern Glazer's Wine & Spirits of MN,7,0.2,40.9,19.62,29.99,,35,,1,1,Cottage Grove:2;Rosemount:2;Osseo:3
-Hunt & Gather Lot 2 15yr Canadian Whisky 750ml,Whisky/Whiskey,Bellboy Corporation,1,0.2,4.9,41.5,47.99,39.95,14,,1,2,Vadnais Heights:1
-Kilchoman Machir Bay 750ml,Whisky/Whiskey,The Wine Company,2,0.2,8.6,47.92,64.99,,26,,1,3,Chanhassen:1;Stillwater:1
-Sqrrl Peanut Butter Whiskey 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,12,0.2,70.1,14.42,20.99,17.96,31,,1,1,Chanhassen:4;Minnetonka:4;Osseo:4
-Spirit Works Straight Wheat 750ml,Whisky/Whiskey,Bellboy Corporation,2,0.2,11.7,30.0,49.99,,40,,1,1,Minnetonka:2
-Spirit Works Vodka 750ml,Vodka,Bellboy Corporation,3,0.2,17.5,19.0,29.99,,37,,1,1,Minnetonka:3
-Spiritless Kentucky 74 Spiced 750ml /D,Whisky/Whiskey,Discontinued,14,0.2,90.0,22.06,35.99,29.95,39,Case 1 Pricing,0,5,Minneapolis:3;Ramsey:3;Blaine:4;Cottage Grove:4
-Astral Tequila 750ml,Agave,Southern Glazer's Wine & Spirits of MN,3,0.2,17.5,31.83,35.49,29.96,10,,1,1,Osseo:3
-Austin Cocktails Cucumber Mojito 4pk 8oz can,Pre-Mix,"Breakthru Beverage Minnesota Beer, LLC",5,0.2,29.2,8.35,11.99,12.96,30,,1,1,Minneapolis:5
-DeLola Spritz Paloma 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,4,0.2,23.4,15.0,23.99,19.96,37,,1,1,Chanhassen:1;Minnetonka:3
-Jose Cuervo Devil's Reserve Tequila Liter,Agave,Johnson Brothers - St. Paul,10,0.2,49.5,16.5,22.99,18.96,28,,1,2,Minnetonka:10
-Tattersall Sour Cherry 750ml,Cordials,Phillips Wine & Spirits - St. Paul,14,0.2,81.8,22.68,35.99,,37,Case 1,1,1,Minneapolis:2;Ramsey:2;Osseo:10
-Tattersall Straight Rye 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,26.43,41.99,34.96,37,Case 1,1,1,
-Northland Organic Vodka 1.75L,Vodka,Small Lot MN,3,0.2,17.5,23.76,43.99,36.96,46,,1,1,Andover:3
-Ocean Organic Vodka 50ml,Vodka,Southern Glazer's Wine & Spirits of MN,25,0.2,123.6,3.07,4.99,3.96,38,,1,2,Stillwater:25
-Ocean Vodka 750ml,Vodka,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,20.38,33.99,27.96,40,,1,1,Stillwater:2
-Jefferson's Rye Ocean Aged at Sea 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,7,0.2,40.9,60.13,95.99,79.96,37,,1,1,Andover:1;Blaine:6
-Jeppson's Malort 750ml,Cordials,"New France Wine Co, Inc",11,0.2,44.2,19.21,24.96,,23,Rewards sale pricing,0,8,Minneapolis:2;Roseville:4;Bloomington:5
-21 Seeds Cucumber Jalapeno Tequila 750ml,Agave,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,21.02,35.49,29.96,41,Case 1 Must hit 4 cs within month,1,1,
-Absinthe Honeoye Falls Cascade 375ml,Cordials,Discontinued,1,0.2,5.8,25.0,35.99,,31,,1,1,Chanhassen:1
-Wyoming Whiskey Small Batch 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",11,0.2,58.9,33.94,49.99,41.96,32,,0,6,Plymouth:2;Chanhassen:3;Blaine:6
-Western Son Grapefruit Liter,Vodka,Johnson Brothers - St. Paul,16,0.2,68.6,9.93,15.99,13.46,38,Net Down Case Price,1,3,Blaine:5;Vadnais Heights:5;Roseville:6
-Jameson Cold Brew 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,14,0.2,81.8,13.11,29.99,25.96,56,,1,1,Plymouth:2;Ramsey:2;Stillwater:4;St. Louis Park:6
-1792 Full Proof 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.2,29.2,33.67,48.99,39.96,31,,1,1,Blaine:1;Roseville:4
-Jameson Caskmates IPA Edition 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,45.0,59.99,,25,,1,1,
-1800 Coconut Tequila 750ml,Agave,Johnson Brothers - St. Paul,0,0.2,0.0,18.3,30.49,25.96,40,,1,3,
-45th Parallel WI Wheat Whiskey 750ml,Whisky/Whiskey,"Vinocopia, Inc",2,0.2,11.7,35.92,53.99,44.96,33,Net Down Pricing,1,1,Plymouth:1;Woodbury:1
-Bib & Tucker 10yr Bourbon 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,13,0.2,64.3,57.68,82.99,74.96,30,Case one,1,2,Andover:2;Woodbury:2;Blaine:4;St. Louis Park:5
-Nikka Yoichi Single Malt Whisky 750ml,Whisky/Whiskey,Bellboy Corporation,5,0.2,21.4,66.67,107.99,89.96,38,,1,3,Blaine:2;St. Louis Park:3
-44 North Mountain Huckleberry 750ml,Vodka,"Vinocopia, Inc",23,0.2,147.9,20.42,33.49,27.96,39,Net Down Case 1 Pricing,0,5,St. Louis Park:7;Blaine:8;Minnetonka:8
-Three Fingers High Whiskey 750ml,Whisky/Whiskey,"New France Wine Co, Inc",5,0.2,23.0,36.42,47.99,39.95,24,Rewards sale pricing,0,7,Roseville:5
-99 Pineapples 200ml,Schnapps,Southern Glazer's Wine & Spirits of MN,33,0.2,192.9,2.87,5.99,,52,,1,1,Andover:13;Cottage Grove:20
-99 Pineapples 375ml,Schnapps,Southern Glazer's Wine & Spirits of MN,4,0.2,23.4,5.03,9.99,8.96,50,,1,1,Ramsey:1;Vadnais Heights:3
-Ten to One Dark Rum 750ml,Rum,"Grape Beginnings, Inc.",4,0.2,19.8,34.0,56.99,47.96,40,,1,2,Stillwater:4
-Cruzan Light Rum Liter,Rum,Southern Glazer's Wine & Spirits of MN,8,0.2,46.8,7.91,14.99,12.96,47,,1,1,Minnetonka:8
-Alma Del Jaguar Blanco 750ml,Agave,"Maverick Beverage Co., LLC - MN",3,0.2,12.9,35.31,53.99,44.96,35,1btl on 1 cs,1,3,St. Louis Park:1;Minneapolis:2
-TCRL Australia 750ml,Rum,Libation Project,22,0.2,94.3,44.5,58.99,48.95,25,Case 1,1,3,Ramsey:1;Andover:2;Roseville:3;Chanhassen:4;St. Louis Park:4;Blaine:8
-J. Carver Barrel Gin 750ml,Gin,The Wine Company,3,0.2,14.8,24.33,45.99,37.96,47,,1,2,Vadnais Heights:3
-TCRL Fiji 750ml,Rum,Libation Project,20,0.2,98.9,44.0,58.99,48.95,25,,1,2,Osseo:2;Roseville:2;Chanhassen:4;Woodbury:5;Rosemount:7
-J. Henry 5YR Wisconsin Bourbon 750ML/ D,Accessories,Discontinued,1,0.2,5.8,75.0,99.99,,25,,1,1,Stillwater:1
-Apologue Aronia Berry Liqueur 750ml,Cordials,"Tradition Wine & Spirits, LLC",7,0.2,34.6,24.0,39.99,34.95,40,,1,2,Plymouth:1;Vadnais Heights:2;Woodbury:4
-Absolut Watermelon Liter,Vodka,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,12.03,24.99,21.96,52,,1,1,Minnetonka:2
-DOM Benedictine 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,15,0.2,96.4,24.36,38.99,31.96,38,,0,5,Roseville:1;Minnetonka:4;Blaine:10
-New Amsterdam London Dry Gin 1.75L,Gin,Johnson Brothers - St. Paul,2,0.2,11.7,19.23,27.99,,31,1 free Strat Gin 1.75's on 15,1,1,Chanhassen:2
-Black Velvet 200ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,15,0.2,74.2,2.22,3.99,,44,,1,2,Ramsey:15
-Jefferson's Ocean Top Ten Barrel Pick 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,4,0.2,23.4,80.38,131.99,109.96,39,,1,1,Ramsey:4
-Tattersall Grapefruit Crema 750ml,Cordials,Phillips Wine & Spirits - St. Paul,3,0.2,17.5,20.43,34.99,,42,Case 1,1,1,Chanhassen:3
-Tattersall Manhattan 750ml,Pre-Mix,Phillips Wine & Spirits - St. Paul,7,0.2,40.9,27.93,39.99,,30,Case 1,1,1,Cottage Grove:1;Minnetonka:1;Plymouth:1;Ramsey:1;Stillwater:1;Rosemount:2
-Buil & Gine Vermut Priorat 750ml,Vermouth,"New France Wine Co, Inc",1,0.2,4.3,18.21,29.99,,39,,1,3,Plymouth:1
-Angel's Envy Triple Oak Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,49.15,89.99,74.96,45,,1,1,
-Puntagave Tequila Blanco 750ml,Agave,"Tradition Wine & Spirits, LLC",2,0.2,11.7,36.0,53.99,44.96,33,,1,1,Chanhassen:1;St. Louis Park:1
-Pyrat XO Reserve Rum 375ml,Rum,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,12.43,19.99,,38,,1,1,
-Her Vodka Liter,Vodka,Bellboy Corporation,14,0.2,69.2,13.83,17.99,,23,,1,2,Woodbury:14
-Rondiaz Peach 1.75L,Rum,Johnson Brothers - St. Paul,21,0.2,90.0,10.92,17.99,15.96,39,7 free Spiced 1.75 on 16 mix all 1.75,1,3,St. Louis Park:4;Cottage Grove:5;Rosemount:5;Ramsey:7
-New Amsterdam Heat Check 750ml,Vodka,Johnson Brothers - St. Paul,0,0.2,0.0,,17.49,14.96,,,1,3,
-Revel Stoke Cream Liqueur 750ml,Cordials,Phillips Wine & Spirits - St. Paul,2,0.2,11.7,12.27,18.99,,35,,1,1,Osseo:2
-Revel Stoke Dill Pickle Whisky Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.2,23.4,12.83,20.99,17.96,39,1 on 9 mix & match,1,1,Cottage Grove:1;Ramsey:3
-Revel Stoke Peach Whisky Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,6,0.2,35.1,12.83,20.99,17.96,39,1 on 9 mix & match,1,1,Roseville:6
-Loonman Aquavit 750ml,Cordials,Bellboy Corporation,11,0.2,64.3,16.02,26.99,22.96,41,1 on 6 - Aquavit is free goods,1,1,Blaine:1;Plymouth:1;Stillwater:4;Minnetonka:5
-Kinky Ruby Liqueur 750ml,Cordials,Johnson Brothers - St. Paul,2,0.2,8.6,13.67,18.99,15.96,28,,1,3,Blaine:1;Stillwater:1
-Libélula Tequila Joven,Tequila1,,5,0.2,21.4,,34.99,,,,1,3,Minnetonka:5
-Revel Stoke Roasted Pineapple Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,19,0.2,111.0,12.83,20.99,17.96,39,1 on 9 mix & match,1,1,Roseville:1;Chanhassen:3;Minnetonka:7;Rosemount:8
-Revel Stoke Spiced Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,9,0.2,52.6,13.0,20.99,17.96,38,,1,1,Ramsey:4;St. Louis Park:5
-J. Carver Vodka 750ml,Vodka,The Wine Company,0,0.2,0.0,17.31,30.99,,44,,1,3,
-Jim Beam Peach Liter,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.2,9.9,15.92,22.99,,31,,1,2,Plymouth:2
-Jack Daniels Fire 200ml,Whisky/Whiskey,Johnson Brothers - St. Paul,83,0.2,410.4,5.52,10.49,4.48,47,,1,2,Osseo:37;Minneapolis:46
-Jack Daniels Single Barrel Heritage 25' 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,10,0.2,53.6,52.87,69.99,,24,,0,6,Osseo:2;Blaine:3;Bloomington:5
-Crooked Water Sundog Gin 750ml,Gin,Johnson Brothers - St. Paul,3,0.2,17.5,11.43,29.49,9.97,61,,1,1,Blaine:3
-Crown Royal Black Cherry Whiskey Sour 750ml,Pre-Mix,Phillips Wine & Spirits - St. Paul,22,0.2,128.6,17.4,26.99,22.96,36,Case 1,1,1,Osseo:1;Chanhassen:4;Cottage Grove:7;Minnetonka:10
-Letherbee Vernal Gin 750ml,Gin,"Tradition Wine & Spirits, LLC",59,0.2,237.1,25.5,39.99,19.86,36,,0,8,Andover:2;Plymouth:7;Woodbury:14;Chanhassen:17;Blaine:19
-Chartreuse Green 750ml,Cordials,Bellboy Corporation,0,0.2,0.0,40.92,65.99,54.96,38,,1,1,
-Hamilton Demerara 151 Rum 750ml,Rum,"Tradition Wine & Spirits, LLC",9,0.2,38.6,23.42,29.99,27.96,22,,1,3,Roseville:9
-Bordiga St Hubertus Amaro 750ml,Cordials,The Wine Company,2,0.2,11.7,39.58,51.99,,24,,1,1,Vadnais Heights:2
-Broker's Gin Liter,Gin,Southern Glazer's Wine & Spirits of MN,2,0.2,8.6,15.55,33.49,27.96,54,,1,3,Woodbury:2
-Brother Justus Cold-Peated Whiskey 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",10,0.2,49.5,67.87,95.99,79.96,29,3cs purchase in a month,1,2,Roseville:2;Cottage Grove:3;Minnetonka:5
-Brother Justus Silver Whiskey 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",21,0.2,122.7,30.19,47.99,39.96,37,3cs purchase in a month,1,1,Chanhassen:1;Roseville:1;Minneapolis:5;Minnetonka:6;Andover:8
-Brother Justus Single Barrel 750ml,Whisky/Whiskey,,3,0.2,17.5,63.75,89.99,74.96,29,,1,1,Minnetonka:3
-Pinnacle Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,60,0.2,257.1,8.79,14.99,12.96,41,,1,3,Blaine:6;Andover:18;Osseo:36
-Barrell Craft Gray Label Bourbon 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",2,0.2,9.9,120.5,284.99,237.45,58,Allocated,1,2,Blaine:1;Roseville:1
-Puntagave Mezcal Espadin 750ml,Agave,"Tradition Wine & Spirits, LLC",6,0.2,29.7,36.0,59.99,49.96,40,,1,2,Plymouth:1;St. Louis Park:5
-Pimms No 1 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,23,0.2,105.6,16.48,25.99,,37,,0,7,Ramsey:2;Roseville:2;Stillwater:2;Minnetonka:3;Andover:6;St. Louis Park:8
-Drink Wisconsinbly Cran Apple RTD 12oz 4pk Cans,,"Vinocopia, Inc",14,0.2,90.0,10.0,15.99,13.96,37,Net Down Pricing,0,5,Cottage Grove:2;Rosemount:3;Stillwater:3;Woodbury:6
-Drink Wisconsinbly Orange RTD 12oz 4pk Cans,,"Vinocopia, Inc",8,0.2,39.6,10.0,15.99,13.96,37,Net Down Pricing,1,2,Rosemount:2;Woodbury:6
-Du Nord Caf� Frieda 750ml,Cordials,Phillips Wine & Spirits - St. Paul,5,0.2,32.1,24.1,37.99,31.96,37,Case 1,0,5,St. Louis Park:1;Minneapolis:4
-Hampden Estate The Younger 750ml,Rum,Libation Project,0,0.2,0.0,44.5,57.99,47.95,23,Case 1,1,1,
-Haus Bitter Clove Aperitif 750ml,Cordials,Libation Project,33,0.2,212.1,23.33,39.99,19.86,42,,0,5,Minnetonka:3;Osseo:3;Chanhassen:4;Blaine:6;Cottage Grove:8;Vadnais Heights:9
-Haus Rose Rose' Aperitif 750ml,Cordials,Libation Project,8,0.2,46.8,23.73,39.99,,41,,1,1,Vadnais Heights:3;Plymouth:5
-Havana Club Anejo Classico 750ml,Rum,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,17.31,24.99,,31,,1,1,
-Dubliner Irish Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,13,0.2,64.3,22.68,32.99,,31,Case 1,1,2,Ramsey:1;Cottage Grove:3;Chanhassen:9
-Barrell Craft Seagrass Rye 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",3,0.2,14.8,63.25,95.99,79.96,34,Mix and match 6 cases of barrell,1,2,St. Louis Park:1;Minnetonka:2
-Don Fulano Imperial Extra Anejo 750ml,Agave,Johnson Brothers - St. Paul,5,0.2,29.2,166.02,179.99,149.95,8,,1,1,St. Louis Park:1;Blaine:4
-Sauza Hornitos Black Barrel 750ml,Agave,Southern Glazer's Wine & Spirits of MN,9,0.2,44.5,26.32,41.99,34.96,37,,1,2,Blaine:4;Chanhassen:5
-Savage & Cooke Lip Service Rye 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,8,0.2,46.8,26.43,39.99,,34,,1,1,Cottage Grove:1;Vadnais Heights:2;Woodbury:2;Rosemount:3
-Savage & Cooke Second Glance Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,10,0.2,58.4,31.1,45.99,,32,,1,1,Andover:1;Minnetonka:4;Woodbury:5
-Chi-Chi's Skinny Margarita 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,3.82,6.99,,45,,0,6,
-Leroux Ginger Brandy Liter,Brandy,"Breakthru Beverage Minnesota Wine & Spirits, LLC",6,0.2,35.1,10.04,13.79,11.95,27,,1,1,Cottage Grove:6
-Bacardi Mango Chile Rum 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,40,0.2,197.8,17.29,23.99,19.95,28,,1,2,Vadnais Heights:2;Andover:3;Woodbury:3;Blaine:6;Osseo:7;Ramsey:9;Minnetonka:10
-Skyy Pineapple Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,1,0.2,4.9,11.31,19.99,16.96,43,,1,2,Chanhassen:1
-Kurvball Whiskey 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,12,0.2,51.4,18.79,26.99,19.95,30,,1,3,Cottage Grove:2;Osseo:2;Ramsey:2;St. Louis Park:6
-Don Q Gold Rum 1.75L,Rum,Johnson Brothers - St. Paul,5,0.2,24.7,17.63,24.99,,29,1 free case on 10,1,2,Plymouth:1;Blaine:4
-High Plains Blended Rye 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",14,0.2,69.2,40.25,59.99,49.96,33,,1,2,Plymouth:1;Woodbury:4;St. Louis Park:9
-Bacardi Lime Rum 1.75L,Rum,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,17.29,25.99,21.96,33,,0,5,
-Dewar's White Label Scotch 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,2,0.2,8.6,16.15,25.99,21.96,38,,1,3,Minnetonka:2
-Komos Reposado Rosa 750ml,Agave,Johnson Brothers - St. Paul,0,0.2,0.0,82.68,119.99,99.96,31,,1,1,
-Smoke Wagon Whiskey Uncut Unfiltered Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,1,0.2,5.8,57.88,89.99,74.96,36,,1,1,Andover:1
-Sobieski Vodka Liter,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",12,0.2,59.3,10.54,14.99,12.96,30,,1,2,St. Louis Park:2;Bloomington:5;Roseville:5
-Southern Comfort 200ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.2,0.0,2.77,6.49,5.96,57,15 case deal,1,2,
-Smirnoff Peach Lemonade 1.75L,Vodka,Johnson Brothers - St. Paul,3,0.2,14.8,15.96,21.99,,27,,1,2,Roseville:3
-Deep Eddy Orange Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,3,0.2,17.5,14.52,23.99,19.96,39,,1,1,Chanhassen:3
-LaCrosse Robbers Rye 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.2,0.0,33.69,49.99,,33,Case 1,1,1,
 Rowan's Creek Bourbon 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,2,0.2,11.7,33.93,57.99,47.96,41,Case 1,1,1,Roseville:2
+Drink Wisconsinbly Cran Apple RTD 12oz 4pk Cans,,"Vinocopia, Inc",14,0.2,90.0,10.0,15.99,13.96,37,Net Down Pricing,0,5,Cottage Grove:2;Rosemount:3;Stillwater:3;Woodbury:6
+Grey Goose Strawberry & Lemongrass Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,9,0.2,52.6,18.54,28.99,23.96,36,,1,1,Ramsey:1;Minnetonka:3;Rosemount:5
 Roe & Co. Irish Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,5,0.2,29.2,22.68,37.99,32.96,40,Case 1 Must hit 3 cs within month,1,1,St. Louis Park:5
+"Gray Duck Muddled Strawberry, Basil & Chili Liter",Pre-Mix,Johnson Brothers - St. Paul,3,0.2,17.5,22.68,29.99,,24,Case 1,1,1,St. Louis Park:3
 Ron Zacapa 23 750ml,Rum,Bellboy Corporation,4,0.2,17.1,28.83,47.99,39.96,40,Case 1,1,3,Plymouth:1;Minnetonka:3
+Pimms No 1 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,23,0.2,105.6,16.48,25.99,,37,,0,7,Ramsey:2;Roseville:2;Stillwater:2;Minnetonka:3;Andover:6;St. Louis Park:8
+Barrell Craft Seagrass Rye 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",3,0.2,14.8,63.25,95.99,79.96,34,Mix and match 6 cases of barrell,1,2,St. Louis Park:1;Minnetonka:2
+Patron El Cielo Silver 700ml,Agave,Southern Glazer's Wine & Spirits of MN,17,0.2,84.1,75.23,107.99,89.95,30,,1,2,Minneapolis:2;Plymouth:2;Andover:4;St. Louis Park:4;Roseville:5
+Patron El Alto 750ml,Agave,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,98.13,155.99,129.96,37,,1,1,Plymouth:2
+Barrell Craft Gray Label Bourbon 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",2,0.2,9.9,120.5,284.99,237.45,58,Allocated,1,2,Blaine:1;Roseville:1
+Passoa Liqueur,Cordials,,103,0.2,601.9,0.01,3.49,,100,,1,1,Stillwater:103
+Revel Stoke Dill Pickle Whisky Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,4,0.2,23.4,12.83,20.99,17.96,39,1 on 9 mix & match,1,1,Cottage Grove:1;Ramsey:3
 Rondiaz Lemon Rum 1.75L,Rum,Johnson Brothers - St. Paul,25,0.2,107.1,10.92,17.99,15.96,39,7 free Spiced 1.75 on 16 mix all 1.75,1,3,Rosemount:12;St. Louis Park:13
+Pantalones Tequila Anejo 750ml,Agave,Southern Glazer's Wine & Spirits of MN,7,0.2,34.6,37.63,59.99,49.96,37,,1,2,Blaine:3;St. Louis Park:4
 Leroux Polish Blackberry 200ml,Brandy,Bellboy Corporation,11,0.2,54.4,2.35,4.49,,48,,1,2,Ramsey:11
+Paladar Tequila Tempranillo 750ml,Agave,"New France Wine Co, Inc",2,0.2,11.7,116.42,187.99,156.96,38,,1,1,Minnetonka:2
+Pinnacle Vodka Liter,Vodka,Southern Glazer's Wine & Spirits of MN,60,0.2,257.1,8.79,14.99,12.96,41,,1,3,Blaine:6;Andover:18;Osseo:36
 Leroux Rock & Rye 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",7,0.2,40.9,3.25,13.99,,77,,1,1,Blaine:7
+Massaya Arak Lebanon Anisette Liqueur 750ml,Cordials,,11,0.2,64.3,23.0,39.99,,42,,1,1,Osseo:4;Chanhassen:7
+Martini & Rossi Rubino Riserva 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,2,0.2,11.7,17.24,25.99,,34,,1,1,Rosemount:2
+Martini & Rossi Fiero L'Aperitivo 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,19,0.2,94.0,10.41,17.49,14.96,40,,1,2,Chanhassen:5;Stillwater:6;Woodbury:8
+Revel Stoke Peach Whisky Liter,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,6,0.2,35.1,12.83,20.99,17.96,39,1 on 9 mix & match,1,1,Roseville:6
+Orphan Barrel Muckety Muck 25 Yr Scotch 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,17.5,188.71,299.99,249.96,37,,1,1,St. Louis Park:3
+On the Rocks Midori Sour 375ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,8.67,13.79,11.96,37,,1,1,
+Brother Justus Single Barrel 750ml,Whisky/Whiskey,,3,0.2,17.5,63.75,89.99,74.96,29,,1,1,Minnetonka:3
 Santa Marta Amaretto 700ml,Cordials,,5,0.2,24.7,13.18,24.99,,47,,1,2,Chanhassen:5
 Rum Chata Coconut Cream 750ml,Cordials,Johnson Brothers - St. Paul,3,0.2,17.5,17.76,25.99,21.96,32,DEEP NET,1,1,Minnetonka:1;Chanhassen:2
+Brother Justus Silver Whiskey 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",21,0.2,122.7,30.19,47.99,39.96,37,3cs purchase in a month,1,1,Chanhassen:1;Roseville:1;Minneapolis:5;Minnetonka:6;Andover:8
 Bailey's Deliciously Light Irish Cream 750ml,Cordials,Phillips Wine & Spirits - St. Paul,11,0.2,54.4,19.09,29.99,25.96,36,Case 1 Must hit 16 cs within month,1,2,Ramsey:3;Minnetonka:8
-Don Fulano Anejo Tequila 750ml,Agave,Johnson Brothers - St. Paul,0,0.2,4.7,68.02,95.99,79.96,29,,1,1,Chanhassen:0;Andover:0
+Evangeline's Praline Liqueur 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,17.5,11.27,17.99,,37,,1,1,Ramsey:3
+Brother Justus Cold-Peated Whiskey 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",10,0.2,49.5,67.87,95.99,79.96,29,3cs purchase in a month,1,2,Roseville:2;Cottage Grove:3;Minnetonka:5
+Baker's Single Barrel 7yr High Rye Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,5,0.2,24.7,56.3,83.99,69.96,33,Case1,1,2,Minneapolis:1;Chanhassen:2;Stillwater:2
+Olmeca Altos Anejo 750ml,Agave,Southern Glazer's Wine & Spirits of MN,5,0.2,29.2,24.12,47.99,39.96,50,,1,1,Osseo:5
 Truly Strawberry Lemonade Vodka 1.75L,Vodka,Southern Glazer's Wine & Spirits of MN,6,0.2,25.7,16.18,23.99,19.96,33,,1,3,Andover:1;Plymouth:1;Chanhassen:4
+Broker's Gin Liter,Gin,Southern Glazer's Wine & Spirits of MN,2,0.2,8.6,15.55,33.49,27.96,54,,1,3,Woodbury:2
+Grand Marnier Liqueur 200ml,Cordials,Bellboy Corporation,14,0.2,69.2,8.92,11.99,,26,,1,2,Minneapolis:14
+Gozio Amaretto 750ml,Cordials,"Vinocopia, Inc",10,0.2,49.5,28.04,45.99,37.96,39,Net Down Case 1 Pricing,1,2,Plymouth:1;Ramsey:1;Minnetonka:2;Blaine:6
+Metaxa Ouzo 750ml,Cordials,Bellboy Corporation,2,0.2,11.7,16.21,21.99,,26,,1,1,Minnetonka:2
+Glenmorangie X 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,17,0.2,99.4,24.18,29.99,,19,Case 1,1,1,Stillwater:2;Woodbury:2;Ramsey:4;Rosemount:9
+Milagro Silver Tequila 1.75L,Agave,"Breakthru Beverage Minnesota Wine & Spirits, LLC",1,0.2,4.9,35.86,48.99,,27,5cs purchase in a month,1,2,Rosemount:1
+Puntagave Mezcal Espadin 750ml,Agave,"Tradition Wine & Spirits, LLC",6,0.2,29.7,36.0,59.99,49.96,40,,1,2,Plymouth:1;St. Louis Park:5
 Truly Wild Berry Vodka 1.75L,Vodka,Southern Glazer's Wine & Spirits of MN,5,0.2,29.2,16.18,23.99,19.96,33,,1,1,Chanhassen:2;St. Louis Park:3
+Basil Hayden's 10 yr 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,4,0.2,25.7,60.13,89.99,74.96,33,,0,5,Blaine:2;St. Louis Park:2
+On The Rocks Mokito 4pk 12oz can,Pre-Mix,Southern Glazer's Wine & Spirits of MN,3,0.2,12.9,8.38,12.99,10.96,35,,1,3,Bloomington:3
+Bordiga St Hubertus Amaro 750ml,Cordials,The Wine Company,2,0.2,11.7,39.58,51.99,,24,,1,1,Vadnais Heights:2
+Hamilton Demerara 151 Rum 750ml,Rum,"Tradition Wine & Spirits, LLC",9,0.2,38.6,23.42,29.99,27.96,22,,1,3,Roseville:9
 Tuaca 375ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",2,0.2,11.7,8.05,13.99,,42,,1,1,Chanhassen:2
 Absinthe Ordinaire 750ml,Cordials,Bellboy Corporation,13,0.2,64.3,19.58,24.99,,22,,1,2,Stillwater:3;Minnetonka:5;Rosemount:5
+Chartreuse Green 750ml,Cordials,Bellboy Corporation,0,0.2,0.0,40.92,65.99,54.96,38,,1,1,
+Fireball 100ml 6pk 100ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,67,0.2,287.1,1.23,11.49,9.96,89,9cs one invoice,1,3,St. Louis Park:3;Minnetonka:6;Plymouth:6;Ramsey:8;Osseo:14;Chanhassen:15;Stillwater:15
+Dulce Vida Tequila Blanco 750ml,Agave,Phillips Wine & Spirits - St. Paul,16,0.2,79.1,23.24,38.99,,40,Case 1,1,2,Roseville:1;Osseo:2;Stillwater:4;Minnetonka:9
+On The Rocks Espresso Martini 750ml,Pre-Mix,Southern Glazer's Wine & Spirits of MN,9,0.2,38.6,15.2,24.99,18.96,39,,1,3,Blaine:9
+On The Rocks Cosmo 4pk 12oz can,Pre-Mix,Southern Glazer's Wine & Spirits of MN,5,0.2,29.2,8.38,12.99,10.96,35,,1,1,Bloomington:5
+Exclusiv Vodca Liter,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,17.5,9.15,14.99,,39,,1,1,Andover:3
+Milagro Reposado Tequila 375ml,Agave,"Breakthru Beverage Minnesota Wine & Spirits, LLC",0,0.2,0.0,11.33,17.99,,37,,0,6,
+Mijenta Tequila Anejo Gran Reserva 750ml,Agave,"New France Wine Co, Inc",7,0.2,34.6,111.86,151.99,128.96,26,5cs purchase in a month,1,2,St. Louis Park:1;Minnetonka:2;Blaine:4
+Revel Stoke Cream Liqueur 750ml,Cordials,Phillips Wine & Spirits - St. Paul,2,0.2,11.7,12.27,18.99,,35,,1,1,Osseo:2
+Midwest Gin Liter,Gin,"Vinocopia, Inc",17,0.2,99.4,21.62,23.99,19.96,10,,1,1,Woodbury:6;Minnetonka:11
+Midnight Moonshake Chocolate Brownie 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",5,0.2,29.2,13.53,23.99,19.96,44,,1,1,Blaine:5
+Dorda Sea Salt Caramel 750ml,Cordials,Southern Glazer's Wine & Spirits of MN,3,0.2,17.5,16.88,29.99,24.96,44,,1,1,Plymouth:1;Minnetonka:2
+Phillips Peppermint 80pf 200ml,Schnapps,Phillips Wine & Spirits - St. Paul,33,0.2,192.9,3.01,6.99,,57,Case 1,1,1,Stillwater:33
+Effen Dutch Raspberry Vodka 750ml,Vodka,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,13.8,25.99,21.96,47,,1,1,
+Jim Beam Orange 750ml,Whisky/Whiskey,,18,0.2,77.1,12.56,20.99,17.96,40,,1,3,Roseville:5;St. Louis Park:6;Chanhassen:7
+Loonman Aquavit 750ml,Cordials,Bellboy Corporation,11,0.2,64.3,16.02,26.99,22.96,41,1 on 6 - Aquavit is free goods,1,1,Blaine:1;Plymouth:1;Stillwater:4;Minnetonka:5
+Her Vodka Liter,Vodka,Bellboy Corporation,14,0.2,69.2,13.83,17.99,,23,,1,2,Woodbury:14
+Letherbee Vernal Gin 750ml,Gin,"Tradition Wine & Spirits, LLC",59,0.2,237.1,25.5,39.99,19.86,36,,0,8,Andover:2;Plymouth:7;Woodbury:14;Chanhassen:17;Blaine:19
+Phillips Vodka Liter,Vodka,Phillips Wine & Spirits - St. Paul,0,0.2,0.0,6.88,11.99,,43,Case 1,1,1,
 Tomintoul 12 Yr Speyside Sherry Cask 750ml,Whisky/Whiskey,,2,0.2,11.7,52.67,74.99,,30,,1,1,Chanhassen:2
+Fireball Yule Nog 750ml,Whisky/Whiskey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",27,0.2,133.5,9.75,14.99,9.95,35,,1,2,Vadnais Heights:1;Osseo:2;Woodbury:6;Stillwater:7;Cottage Grove:11
 Courvoisier XO Cognac 750ml,Brandy,Southern Glazer's Wine & Spirits of MN,3,0.2,14.8,110.0,167.99,139.96,35,,1,2,Andover:3
+Casa Dragones Tequila 750ml,Agave,,0,0.2,0.0,229.0,279.99,,18,,1,1,
 J. Carver Straight Wheat Whiskey 750ml,Whisky/Whiskey,The Wine Company,10,0.2,42.9,32.67,50.99,42.45,36,,1,3,Ramsey:1;Woodbury:3;St. Louis Park:6
+Carpano Antica Formula 750ml,Vermouth,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,13.8,27.98,41.99,34.96,33,,0,7,St. Louis Park:1;Bloomington:2
+Carolans Cold Brew 750ml,Cordials,,0,0.2,0.0,10.81,17.49,14.96,38,,1,1,
+Blue Chair Bay Mocha Cream 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",35,0.2,225.0,14.35,23.99,19.96,40,5cs purchase in a month,0,5,Blaine:7;Minneapolis:28
+Blue Chair Bay Coconut Spiced Cream 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",3,0.2,14.8,14.35,23.99,19.96,40,5cs purchase in a month,1,2,Vadnais Heights:3
+Phillips UV Vodka Liter,Vodka,Phillips Wine & Spirits - St. Paul,4,0.2,23.4,9.21,14.99,12.96,39,2 free Blue 1.75 on 25,1,1,Blaine:4
+Bols Strawberry Liqueur Liter,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",18,0.2,105.2,11.1,14.99,,26,,1,1,St. Louis Park:18
+Dubliner Irish Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,13,0.2,64.3,22.68,32.99,,31,Case 1,1,2,Ramsey:1;Cottage Grove:3;Chanhassen:9
+George Dickel 8yr Bourbon 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,12.1,21.29,38.99,32.96,45,,0,8,Blaine:1;Ramsey:1;St. Louis Park:1
+Galliano 375ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",10,0.2,49.5,15.1,19.99,,24,,1,2,Woodbury:4;Andover:6
 Dirty Monkey Peanut Butter Banana Whiskey 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,11,0.2,64.3,17.34,29.99,24.96,42,Case 1,1,1,Cottage Grove:11
 Disaronno Velvet Cream Liqueur 750ml,Cordials,"Breakthru Beverage Minnesota Wine & Spirits, LLC",2,0.2,8.6,21.84,29.99,,27,3 case deal on one invoice,1,3,Stillwater:2
+Flying Dutchman Vodka 750ml,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",10,0.2,49.5,13.33,27.99,,52,,1,2,Osseo:3;Stillwater:3;Ramsey:4
+Flying Dutchman Cr�me de Cacao 750ml,Cordials,Bellboy Corporation,12,0.2,70.1,12.17,29.99,24.96,59,M/M buy 2cs across chain receive 1cs free/monthly accum,1,1,Woodbury:2;Blaine:5;Chanhassen:5
+Flor de Azar Triple Sec 750ml,Cordials,"Bourget Imports, LLC",8,0.2,46.8,28.29,41.49,35.96,32,,1,1,Minnetonka:4;St. Louis Park:4
+Wild Turkey American Honey 1.75L,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,26.38,41.99,34.96,37,,0,7,
 Doc Swinson's Alter Ego Rye 750ml,Whisky/Whiskey,"Maverick Beverage Co., LLC - MN",2,0.2,9.9,37.11,59.99,49.96,38,,1,2,St. Louis Park:2
-Baker's Single Barrel 7yr High Rye Bourbon 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,5,0.2,24.7,56.3,83.99,69.96,33,Case1,1,2,Minneapolis:1;Chanhassen:2;Stillwater:2
+Clermont Steep American Single Malt 750ml,Whisky/Whiskey,Southern Glazer's Wine & Spirits of MN,19,0.2,81.4,38.7,65.99,44.95,41,,1,3,Blaine:2;Plymouth:2;Andover:3;Osseo:3;Rosemount:4;St. Louis Park:5
+Don Fulano Anejo Tequila 750ml,Agave,Johnson Brothers - St. Paul,0,0.2,4.7,68.02,95.99,79.96,29,,1,1,Chanhassen:0;Andover:0
+Don Fulano Imperial Extra Anejo 750ml,Agave,Johnson Brothers - St. Paul,5,0.2,29.2,166.02,179.99,149.95,8,,1,1,St. Louis Park:1;Blaine:4
+45th Parallel Vodka 750ml,Vodka,"Vinocopia, Inc",8,0.2,51.4,24.25,35.49,29.96,32,Net Down Pricing,0,5,Blaine:2;Minnetonka:2;St. Louis Park:2;Stillwater:2
+Sauza Hornitos Black Barrel 750ml,Agave,Southern Glazer's Wine & Spirits of MN,9,0.2,44.5,26.32,41.99,34.96,37,,1,2,Blaine:4;Chanhassen:5
+Benriach 10yr Scotch 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,3,0.2,12.9,0.18,54.99,49.96,100,,1,3,Andover:1;Blaine:2
+Montenegro Amaro 750ml,Cordials,Johnson Brothers - St. Paul,2,0.2,9.9,33.93,47.99,39.96,29,,1,2,Blaine:2
+Savage & Cooke Lip Service Rye 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,8,0.2,46.8,26.43,39.99,,34,,1,1,Cottage Grove:1;Vadnais Heights:2;Woodbury:2;Rosemount:3
+Gin Lane 1751 London Dry Gin 750ml,Gin,Bellboy Corporation,1,0.2,4.9,16.0,26.99,9.97,41,,1,2,Stillwater:1
+Savage & Cooke Second Glance Whiskey 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,10,0.2,58.4,31.1,45.99,,32,,1,1,Andover:1;Minnetonka:4;Woodbury:5
+Old Forester 1870 750ml,Whisky/Whiskey,Johnson Brothers - St. Paul,23,0.2,113.7,29.38,47.99,39.96,39,,1,2,Blaine:1;Stillwater:4;Minnetonka:6;Osseo:6;St. Louis Park:6
+Old Crow Bourbon 1.75L,Whisky/Whiskey,Bellboy Corporation,1,0.2,5.8,17.0,20.99,,19,,1,1,Minnetonka:1
+Old Bardstown Bourbon 750ml,Whisky/Whiskey,Phillips Wine & Spirits - St. Paul,16,0.2,93.5,15.09,24.99,20.96,40,Case 1,1,1,Chanhassen:3;Plymouth:5;Cottage Grove:8
+Fleischmanns Gin 1.75L,Gin,Southern Glazer's Wine & Spirits of MN,8,0.2,46.8,13.63,17.99,,24,,1,1,Woodbury:8
+Villa One Silver Tequilla 750ml,Agave,Johnson Brothers - St. Paul,4,0.2,23.4,30.08,44.99,,33,,1,1,Chanhassen:1;Vadnais Heights:1;Roseville:2
+Wheel Horse Winter Wheat Wheated Bourbon 750ml,Bourbon,Bellboy Corporation,1,0.2,6.4,18.83,39.99,32.96,53,,0,5,Woodbury:1
+Wheatley Vodka 750ml,Vodka,"Breakthru Beverage Minnesota Wine & Spirits, LLC",16,0.2,79.1,11.44,17.99,,36,25 case  deal,1,2,Rosemount:2;Andover:3;Roseville:11
+Libélula Tequila Joven,Tequila1,,5,0.2,21.4,,34.99,,,,1,3,Minnetonka:5
+Havana Club Anejo Classico 750ml,Rum,Southern Glazer's Wine & Spirits of MN,0,0.2,0.0,17.31,24.99,,31,,1,1,
+New Amsterdam Heat Check 750ml,Vodka,Johnson Brothers - St. Paul,0,0.2,0.0,,17.49,14.96,,,1,3,
 Campo Azul Gran Classico Tequila Reposado Liter,Agave,"New France Wine Co, Inc",12,0.1,128.6,20.21,31.99,26.96,37,Rewards sale pricing,0,3,Chanhassen:2;Minnetonka:4;Woodbury:6
 Jackson Morgan Spiced Pumpkin Roll 750ml,Cordials,Bellboy Corporation,2,0.1,32.1,15.47,25.99,21.96,40,1CS Free on M/M 750 & 50's 10CS -across chain monthly accum,0,2,Ramsey:1;Stillwater:1
 Black Maple Hill Rye 750ml,Whisky/Whiskey,"Tradition Wine & Spirits, LLC",15,0.1,241.1,58.0,71.99,59.95,19,,0,2,Rosemount:1;Andover:7;Chanhassen:7
@@ -2782,7 +2782,7 @@ Western Son Prickly Pear Liter,Vodka,Johnson Brothers - St. Paul,0,0.0,,9.93,15.
 Western Son Raspberry Liter,Vodka,Johnson Brothers - St. Paul,0,0.0,,9.93,15.99,13.46,38,Net Down Case Price,0,0,
 Western Son Strawberry Liter,Vodka,Johnson Brothers - St. Paul,0,0.0,,9.93,15.99,13.46,38,Net Down Case Price,0,0,
 Western Son Watermelon Liter,Vodka,Bellboy Corporation,8,0.0,,9.93,15.99,13.46,38,Net Down Case Price,0,0,St. Louis Park:1;Plymouth:7
-Wheel Horse Double Oak Bourbon 750ml,Whisky/Whiskey,Bellboy Corporation,0,0.0,,21.83,39.99,33.96,45,,0,0,
+Wheel Horse Double Oak Bourbon 750ml,Whisky/Whiskey,Bellboy Corporation,0,0.0,,22.83,39.99,33.96,43,Limited Release Allocation,0,0,
 Whip Shots Mocha 200ml,Pre-Mix,Johnson Brothers - St. Paul,0,0.0,0.0,10.19,16.99,,40,Case 1 Pricing,0,1,
 Whip Shots Vanilla 200ml,Pre-Mix,Johnson Brothers - St. Paul,0,0.0,,10.19,16.99,,40,Case 1 Pricing,0,0,
 Villa One Reposado Tequila 750ml,Agave,Johnson Brothers - St. Paul,0,0.0,,34.8,49.99,,30,,0,0,
