@@ -45,6 +45,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 198715421057,THC,11.2,,
 860012637768,THC,2.5,,
 860013612733,THC,11.33,,
+860012187997,THC,11.33,,
 860013707101,THC,9.98,,
 860013612757,THC,9.98,,
 860013612719,THC,12.17,,
@@ -6070,25 +6071,24 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82000741992,Spirits,19.38,4 cases  - across chain - same week,1|3|5|7|9|11
 82000742005,Spirits,24.32,4 cases  - across chain - same week,2|4|6|8|10|12
 82000741985,Spirits,18.84,Case 1,
-82000757917,Spirits,21.0,,
 82000741978,Spirits,7.38,Case 1,
 8224705,Spirits,18.84,Case 1,
-87000202078,Spirits,24.0,,
+82000757917,Spirits,21.0,,
 82000757900,Spirits,16.59,Case 1,
-82000766834,Spirits,12.91,4cs across chain - same week,
+82000773146,Spirits,13.59,Case 1,
 8727707,Spirits,7.12,case 1,
 82000759102,Spirits,18.66,4cs + 1cs seagrams mags on 60,2|4|6|8|10|12
 8727309,Spirits,4.42,Case 1,
 8731409,Spirits,0.68,Case 1,
 8719300,Spirits,10.42,Case 1 Must hit 5 cs within month,2|4|6|8|10|12
+8727008,Spirits,13.84,Case 1 Must hit 8 cs within month,1|3|5|7|9|11
 87000002708,Spirits,14.91,4 cases  - across chain-same week,1|3|5|7|9|11
 87000002715,Spirits,9.0,5 cases - across chain-one week,2|4|6|8|10|12
 87000201156,Spirits,19.0,M/M 175's PET/Glass/lsilver-20cs across chain same week,2|4|6|8|10|12
-82000773146,Spirits,13.59,Case 1,
-8727008,Spirits,13.84,Case 1 Must hit 8 cs within month,1|3|5|7|9|11
+82000773153,Spirits,13.59,Case 1,
+87000202078,Spirits,24.0,,
 87000202443,Spirits,35.17,Case 1,
 87000201781,Spirits,20.25,,4|6
-82000773153,Spirits,13.59,Case 1,
 82000743507,Spirits,15.18,Case 1,
 82000797432,Spirits,15.18,Case 1,
 82000797449,Spirits,15.18,Case 1,
@@ -6096,6 +6096,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 87000003323,Spirits,10.42,Case 1,2|4|6|8|10|12
 820000006435,Spirits,1.13,Case 1,
 82000808879,Spirits,20.18,Case 1,
+82000766834,Spirits,12.91,4cs across chain - same week,
 82000766858,Spirits,16.58,3cases across chain in one week,
 816136023222,Spirits,34.83,,
 816136023376,Spirits,21.33,,
@@ -6406,19 +6407,17 @@ upc,Department,Buyer Cost,Deal,Buy Months
 711841589257,Spirits,41.43,Case 1,
 712038686117,Spirits,19.31,Case 1,
 82000750437,Spirits,22.79,,
-87000007246,Spirits,26.67,"3cs m/m crown Apple  liter across chain, same week",1|3|5|7|9|11
-87000700604,Spirits,38.92,Case 1,1|3|5|7|9|11
 82000750420,Spirits,12.71,Case 1,
+82000750444,Spirits,32.34,Case 1,
+82000750451,Spirits,46.68,Case 1,
 82000807964,Spirits,9.09,Case 1,
 82000807971,Spirits,17.4,Case 1,
 82000789550,Spirits,23.01,Case 1,
+87000007246,Spirits,26.67,"3cs m/m crown Apple  liter across chain, same week",1|3|5|7|9|11
+87000700604,Spirits,38.92,Case 1,1|3|5|7|9|11
 87000007604,Spirits,12.37,,
-82000771586,Spirits,26.67,"3cs m/m crown liter , across chain same week",1|3|5|7|9|11
-82000771593,Spirits,38.92,"6 cs m/m crown Apple175 across chain, MONTHLY ACCUM",1|3|5|7|9|11
 87000007253,Spirits,19.75,"12cs m/m (Reg, Apple, Peach,Vanilla)across chain-same week",2|4|6|8|10|12
 8772707,Spirits,5.87,Case 1,
-82000750444,Spirits,32.34,Case 1,
-82000750451,Spirits,46.68,Case 1,
 8719902,Spirits,1.27,Case 1,
 82000811053,Spirits,16.09,Case 1 Must hit 12 cs within month,2|4|6|8|10|12
 82000796794,Spirits,105.18,Case 1,
@@ -6428,9 +6427,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82000782919,Spirits,19.75,"12cs m/m (Reg, Apple, Peach,Vanilla)across chain-same week",2|4|6|8|10|12
 82000795391,Spirits,11.94,Case 1,
 82000807322,Spirits,1.27,Case 1,
-82000771555,Spirits,12.37,,
 82000795377,Spirits,26.4,Case 1 Must hit 3 cs within month,
 82000795360,Spirits,36.7,Case 1 Must hit 6 cs within month,1|3|5|7|9|11
+82000771586,Spirits,26.67,"3cs m/m crown liter , across chain same week",1|3|5|7|9|11
+82000771593,Spirits,38.92,"6 cs m/m crown Apple175 across chain, MONTHLY ACCUM",1|3|5|7|9|11
+82000771555,Spirits,12.37,,
 82000771562,Spirits,19.75,"12cs m/m (Reg, Apple, Peach,Vanilla)across chain-same week",2|4|6|8|10|12
 82000771548,Spirits,5.87,Case 1,
 8245805,Spirits,1.27,Case 1,
@@ -7251,6 +7252,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 86160200041,Spirits,18.93,Net Down Case Price,
 810735017460,Spirits,5.17,CASE 1,
 857552008783,Spirits,36.19,3 case deal on invoice 1 case = 1 btl Carpano Classico 750 n/c or 4 case (1 of each) = 1 case Carpano Classico n/c,
+810183690222,Spirits,18.94,Case 1,
 857552008615,Spirits,24.94,3 case deal on invoice - 1 case = 1 btl Carpano Classico 750 n/c or 4 case (1 of each) = 1 case Carpano Classico n/c,
 810735017873,Spirits,24.94,3 case deal on invoice 1 case = 1 btl Carpano Classico 750 n/c or 4 case (1 of each) = 1 case Carpano Classico n/c,
 80432105993,Spirits,46.0,case 1,
@@ -7403,6 +7405,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 854396005176,Spirits,42.13,39 case allocation,
 86003267121,Spirits,23.47,,2|5|8|11
 854396005190,Spirits,112.63,,
+86003267244,Spirits,131.38,,
 94922868176,Spirits,44.3,,
 86003267084,Spirits,60.13,,
 854396005008,Spirits,23.47,,2|5|8|11
@@ -9158,6 +9161,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 721059003094,Spirits,112.63,,
 721059003711,Spirits,187.63,3 bottles,
 721059957502,Spirits,32.38,,
+721059002974,Spirits,52.63,,
 721059003421,Spirits,233.47,Allocated - 2 btls,
 721059000000,Spirits,52.63,,
 881314623631,Spirits,6.1,,
@@ -9471,7 +9475,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 9024153090863,Spirits,21.75,,
 27724207508,Spirits,25.69,3 case deal,
 27724227506,Spirits,24.94,3 case deal,
-80480007379,Spirits,19.55,,2|5|7|9|11
+80480007379,Spirits,21.99,,2|5|7|9|11
 80480006662,Spirits,12.23,,2|5|7|9|11
 80480004712,Spirits,2.52,,
 87236992002,Spirits,9.83,,
@@ -9970,7 +9974,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 810879021873,Spirits,19.0,,
 810879027134,Spirits,20.5,,
 810879023662,Spirits,21.83,Allocation,
-810879028384,Spirits,21.83,,
+810879028384,Spirits,22.83,Limited Release Allocation,
 810204641196,Spirits,22.83,Limited Release Allocation,
 810879021743,Spirits,19.0,,
 858202003950,Spirits,10.19,Case 1 Pricing,
@@ -10124,5 +10128,4 @@ upc,Department,Buyer Cost,Deal,Buy Months
 616003122863,Spirits,3.25,1 BMM 1.75 free on 10 mix & match,
 616003112161,Spirits,3.25,1 BMM 1.75 free on 10 mix & match,
 50037033755,Spirits,12.85,,
-721059002974,Spirits,52.63,,
-86003267244,Spirits,131.38,,
+82000007159,Spirits,1.27,Case 1,
