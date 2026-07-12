@@ -1,20 +1,20 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Saturday, Jul 11, 2026
+  RECOMMENDED OTHER ORDER          Sunday, Jul 12, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     30,395
-  Coverable by transfer .......  $     13,647   (45%)
-  NET BUY from vendors ........  $     12,547   <- the order
+  Gross need (all stores) .....  $     34,380
+  Coverable by transfer .......  $     14,777   (43%)
+  NET BUY from vendors ........  $     15,251   <- the order
 
-  79 items   |   6,507 units to buy   |   3,805 units to rebalance
-  Transfers: 328 moves  -  272 urgent (125 stockouts, 147 under 2wk), 56 routine
+  85 items   |   7,580 units to buy   |   3,964 units to rebalance
+  Transfers: 346 moves  -  294 urgent (141 stockouts, 153 under 2wk), 52 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 14 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           1740u/1740cs       $0   1740     0   OUT
+   1  Non-Refundable Transaction           1739u/1739cs       $0   1739     0   OUT
    2  Dole Lemonade 2L                     8u/1cs            $16      8     0   OUT
    3  Black & Mild (1 Extra)               2u/2cs             $0      2     0   OUT
    4  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
@@ -28,29 +28,30 @@
   12  Charm Social Tonic Lemon Ginger 12o  24u/24cs          $58     24     0   OUT
   13  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
   14  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      6     0   OUT
-  15  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
-  16  Velo Citrus Chill 9mg                5u/1cs            $42      6     0   OUT
-  17  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
-  18  Zoa Tropical Punch 12oz can          12u/1cs           $18      8     0   OUT
-  19  Bag Fee                              91u/91cs           $0     91     0   OUT
-  20  Black & Mild Wood Tip B1G1           4u/4cs             $0      4     0   OUT
-  ...and 59 more in the full list.
+  15  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
+  16  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
+  17  Velo Citrus Chill 9mg                5u/1cs            $42      6     0   OUT
+  18  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
+  19  Zoa Tropical Punch 12oz can          12u/1cs           $18      8     0   OUT
+  20  Kolder Can Cooler                    2u/2cs             $3      2     0   OUT
+  ...and 65 more in the full list.
 
-  NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (14 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Black & Mild (1 Extra)                    No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Matches- Box                              Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Big Bag                            Large buy ($6,109) - confirm
-    ReaLime Lime Juice 8oz                    Seasonal - last year ~16/wk vs 8 now, buy ahead?
+    MN Ice Big Bag                            Large buy ($7,492) - confirm
+    ReaLime Lime Juice 8oz                    Seasonal - last year ~16/wk vs 9 now, buy ahead?
+    Barritt's Ginger Beer 6pk 12oz can        Seasonal - last year ~3/wk vs 1 now, buy ahead?
     Swisher Sweets Cigarillo                  No cost data - verify price; Margin over 95% - check retail
-    Barritt's Ginger Beer 6pk 12oz can        Seasonal - last year ~3/wk vs 2 now, buy ahead?
     Starry Zero 10pk 8oz can                  Seasonal - last year ~6/wk vs 2 now, buy ahead?
+    Zing Zang Margarita Mix 1.75L             Seasonal - last year ~19/wk vs 12 now, buy ahead?
 
   BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
-    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 30u)
-    Fever Tree Tonic Water 8pk 5oz can          (would have bought 18u)
+    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 33u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 24u)
