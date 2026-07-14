@@ -1,4 +1,16 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1029663,700083319661,"Two Dogs, A Peacock & A Horse Sauvignon Blanc 750ml",BlackElephantSB,12,1.0,168.0,168.0,
-Minnetonka,1029596,816068010109,The Paring Sauvignon Blanc 750ml,ParingSauvBlanc22,12,0.5,216.0,108.0,
-Minnetonka,1029765,856146006372,Paladar Tequila Reposado 750ml,PaladarReposado750,6,1.0,282.0,282.0,Store Request
+St. Louis Park,1030187,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Bloomington,1029957,197644894079,Revel 88 Avila Blanco Tequila 750ml,RevelBlanco,6,1.0,158.0,158.0,Store Request
+Rosemount,1030025,197644894079,Revel 88 Avila Blanco Tequila 750ml,RevelBlanco,6,2.0,158.0,316.0,Store Request
+Bloomington,1029957,198168596999,Revel 88 Avila Reposado Tequila 750ml,RevelReposado,6,1.0,198.0,198.0,Store Request
+Rosemount,1030025,198168596999,Revel 88 Avila Reposado Tequila 750ml,RevelReposado,6,1.0,198.0,198.0,Store Request
+Blaine,1030082,695798115328,G. D. Vajra Langhe Rosso,VajraRosso23,12,1.0,144.0,144.0,
+Blaine,1029944,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Minnetonka,1029992,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Plymouth,1030008,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Stillwater,1030048,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Vadnais Heights,1030053,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Woodbury,1030061,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Rosemount,1030025,860013231330,Revel Avila Cuernavaca 12oz can,RevelCuernavaca,24,1.0,112.0,112.0,Store Request
+Minnetonka,1029992,860013231347,Revel Avila Spicy Cuernavaca 12oz can,RevelSpicyCuernavaca,24,1.0,112.0,112.0,
+Rosemount,1030025,860013231347,Revel Avila Spicy Cuernavaca 12oz can,RevelSpicyCuernavaca,24,1.0,112.0,112.0,Store Request

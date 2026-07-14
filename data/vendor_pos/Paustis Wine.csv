@@ -1,4 +1,98 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Minneapolis,1029588,763955018000,XXL Guava 750ml,763955018000,12,1.0,80.0,80.0,
-Minneapolis,1029588,857680001007,Shannon Ridge Sauvignon Blanc 750ml,2557,12,1.0,96.0,96.0,
-Ramsey,1029623,893828001010,Papi Sauvignon Blanc 750ml,2807,12,1.0,52.84,52.84,
+Blaine,1030084,052392122082,Winehaven Strawberry Rhubarb,12854,12,1.0,128.0,128.0,
+Blaine,1030084,400000014296,Libretto Pinot Gris 750ml,3010,12,1.0,54.84,54.84,
+Minneapolis,1030117,400000014296,Libretto Pinot Gris 750ml,3010,12,1.0,54.84,54.84,
+Ramsey,1030151,400000014296,Libretto Pinot Gris 750ml,3010,12,1.0,54.84,54.84,
+St. Louis Park,1030189,400000014296,Libretto Pinot Gris 750ml,3010,12,1.0,54.84,54.84,
+Blaine,1030084,652935100210,MD Petite Petit 750ml,13190,12,1.0,144.0,144.0,
+Andover,1030071,652935100333,MD Freakshow Cab Sauv 750ml,14261,12,1.0,144.0,144.0,
+Bloomington,1030092,652935100500,MD Freakshow Zinfandel 750ml,1426,12,1.0,144.0,144.0,
+Chanhassen,1030099,652935100500,MD Freakshow Zinfandel 750ml,1426,12,1.0,144.0,144.0,
+Blaine,1030084,652935100531,MD Freakshow Chardonnay 750ml,1551,12,1.0,144.0,144.0,
+Andover,1030068,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,4.0,74.84,299.36,Buyer's Select
+Blaine,1030078,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,10.0,74.84,748.4,Buyer's Select
+Bloomington,1030091,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,1.0,74.84,74.84,Buyer's Select
+Chanhassen,1030096,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,2.0,74.84,149.68,Buyer's Select
+Minnetonka,1030122,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,1.0,74.84,74.84,Buyer's Select
+Plymouth,1030139,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,2.0,74.84,149.68,Buyer's Select
+Roseville,1030167,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,1.0,74.84,74.84,Buyer's Select
+St. Louis Park,1030182,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,7.0,74.84,523.88,Buyer's Select
+Vadnais Heights,1030207,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,2732,12,2.0,74.84,149.68,Buyer's Select
+Blaine,1030078,766181261974,Clemente VII Chianti Classico 750ml,2862,12,1.0,124.84,124.84,Buyer's Select
+Andover,1030068,766181651607,Strade di Toscana IGT 750ml,2870,12,1.0,100.84,100.84,Buyer's Select
+Chanhassen,1030096,766181651607,Strade di Toscana IGT 750ml,2870,12,1.0,100.84,100.84,Buyer's Select
+Cottage Grove,1030105,766181651607,Strade di Toscana IGT 750ml,2870,12,1.0,100.84,100.84,Buyer's Select
+Roseville,1030167,766181651607,Strade di Toscana IGT 750ml,2870,12,1.0,100.84,100.84,Buyer's Select
+St. Louis Park,1030182,766181651607,Strade di Toscana IGT 750ml,2870,12,1.0,100.84,100.84,Buyer's Select
+Vadnais Heights,1030207,766181651607,Strade di Toscana IGT 750ml,2870,12,1.0,100.84,100.84,Buyer's Select
+Chanhassen,1030096,766181771947,Clemente VII Chianti Riserva 750ml,2820,12,1.0,142.84,142.84,Buyer's Select
+Cottage Grove,1030105,8017193004007,Nestore Bosco Montepulciano 750ml,2866,12,1.0,94.84,94.84,Buyer's Select
+Roseville,1030167,8017193004007,Nestore Bosco Montepulciano 750ml,2866,12,1.0,94.84,94.84,Buyer's Select
+Andover,1030068,8052049650533,Terre di Mario Red 750ml,2872,12,3.0,73.84,221.52,Buyer's Select
+Blaine,1030078,8052049650533,Terre di Mario Red 750ml,2872,12,17.0,73.84,1255.27,Buyer's Select
+Osseo,1030133,8052049650533,Terre di Mario Red 750ml,2872,12,7.0,73.84,516.88,Buyer's Select
+Plymouth,1030139,8052049650533,Terre di Mario Red 750ml,2872,12,16.0,73.84,1181.43,Buyer's Select
+Rosemount,1030156,8052049650533,Terre di Mario Red 750ml,2872,12,4.0,73.84,295.36,Buyer's Select
+Roseville,1030167,8052049650533,Terre di Mario Red 750ml,2872,12,8.0,73.84,590.72,Buyer's Select
+Woodbury,1030220,8052049650533,Terre di Mario Red 750ml,2872,12,4.0,73.84,295.36,Buyer's Select
+Andover,1030068,8052049651592,Terre di Mario Bianco 750ml,2871,12,1.0,73.84,73.84,Buyer's Select
+Blaine,1030078,8052049651592,Terre di Mario Bianco 750ml,2871,12,1.0,73.84,73.84,Buyer's Select
+Chanhassen,1030096,8052049651592,Terre di Mario Bianco 750ml,2871,12,3.0,73.84,221.52,Buyer's Select
+Plymouth,1030139,8052049651592,Terre di Mario Bianco 750ml,2871,12,1.0,73.84,73.84,Buyer's Select
+Roseville,1030167,8052049651592,Terre di Mario Bianco 750ml,2871,12,4.0,73.84,295.36,Buyer's Select
+St. Louis Park,1030182,8052049651592,Terre di Mario Bianco 750ml,2871,12,2.0,73.84,147.68,Buyer's Select
+Stillwater,1030200,8052049651592,Terre di Mario Bianco 750ml,2871,12,1.0,73.84,73.84,Buyer's Select
+Woodbury,1030220,8052049651592,Terre di Mario Bianco 750ml,2871,12,2.0,73.84,147.68,Buyer's Select
+Blaine,1030078,8056039990869,Alberigo Pinot Grigio 750ml,2861,12,1.0,76.84,76.84,Buyer's Select
+Chanhassen,1030096,8056039990869,Alberigo Pinot Grigio 750ml,2861,12,1.0,76.84,76.84,Buyer's Select
+Cottage Grove,1030105,8056039990869,Alberigo Pinot Grigio 750ml,2861,12,1.0,76.84,76.84,Buyer's Select
+Minneapolis,1030113,8056039990869,Alberigo Pinot Grigio 750ml,2861,12,3.0,76.84,230.52,Buyer's Select
+Osseo,1030133,8056039990869,Alberigo Pinot Grigio 750ml,2861,12,1.0,76.84,76.84,Buyer's Select
+Plymouth,1030139,8056039990869,Alberigo Pinot Grigio 750ml,2861,12,1.0,76.84,76.84,Buyer's Select
+St. Louis Park,1030189,810022274200,Kris Pinot Grigio 750ml,2541,12,1.0,111.0,111.0,
+Roseville,1030167,817597020218,Red Quartz Pinot Noir 750ml,2869,12,1.0,82.84,82.84,Buyer's Select
+St. Louis Park,1030182,817597020218,Red Quartz Pinot Noir 750ml,2869,12,1.0,82.84,82.84,Buyer's Select
+Andover,1030068,817597020225,Green Quartz Sauvignon Blanc 750ml,2864,12,1.0,82.84,82.84,Buyer's Select
+Blaine,1030078,817597020225,Green Quartz Sauvignon Blanc 750ml,2864,12,2.0,82.84,165.68,Buyer's Select
+Roseville,1030167,817597020225,Green Quartz Sauvignon Blanc 750ml,2864,12,1.0,82.84,82.84,Buyer's Select
+St. Louis Park,1030182,817597020225,Green Quartz Sauvignon Blanc 750ml,2864,12,4.0,82.84,331.36,Buyer's Select
+Vadnais Heights,1030207,817597020225,Green Quartz Sauvignon Blanc 750ml,2864,12,1.0,82.84,82.84,Buyer's Select
+Blaine,1030078,817597020454,Quartz Chardonnay 750ml,2868,12,2.0,82.84,165.68,Buyer's Select
+Chanhassen,1030096,817597020454,Quartz Chardonnay 750ml,2868,12,1.0,82.84,82.84,Buyer's Select
+Minneapolis,1030113,817597020454,Quartz Chardonnay 750ml,2868,12,2.0,82.84,165.68,Buyer's Select
+Roseville,1030167,817597020454,Quartz Chardonnay 750ml,2868,12,2.0,82.84,165.68,Buyer's Select
+Blaine,1030084,818051020744,Bread & Butter Cab Sauv 750ml,1241,12,1.0,120.0,120.0,
+Woodbury,1030225,818051022663,Bread & Butter Pinot Grigio 750ml,2265,12,1.0,112.0,112.0,
+Chanhassen,1030099,850832004260,Bread & Butter Chardonnay 750ml,15568,12,1.0,112.0,112.0,
+St. Louis Park,1030194,850832004260,Bread & Butter Chardonnay 750ml,15568,12,2.0,112.0,224.0,Store Request
+Vadnais Heights,1030211,850832004260,Bread & Butter Chardonnay 750ml,15568,12,1.0,112.0,112.0,
+Andover,1030068,857680001533,High Valley Cabernet Sauvignon 750ml,2715,12,2.0,91.37,182.74,Buyer's Select
+Blaine,1030078,857680001533,High Valley Cabernet Sauvignon 750ml,2715,12,1.0,91.37,91.37,Buyer's Select
+Osseo,1030133,857680001533,High Valley Cabernet Sauvignon 750ml,2715,12,1.0,91.37,91.37,Buyer's Select
+Plymouth,1030139,857680001533,High Valley Cabernet Sauvignon 750ml,2715,12,1.0,91.37,91.37,Buyer's Select
+Roseville,1030167,857680001533,High Valley Cabernet Sauvignon 750ml,2715,12,2.0,91.37,182.74,Buyer's Select
+Vadnais Heights,1030207,857680001533,High Valley Cabernet Sauvignon 750ml,2715,12,3.0,91.37,274.11,Buyer's Select
+Andover,1030068,857680001618,High Valley Sauvignon Blanc 750ml,2716,12,1.0,72.84,72.84,Buyer's Select
+Chanhassen,1030096,857680001618,High Valley Sauvignon Blanc 750ml,2716,12,2.0,72.84,145.68,Buyer's Select
+Minneapolis,1030113,857680001618,High Valley Sauvignon Blanc 750ml,2716,12,2.0,72.84,145.68,Buyer's Select
+Osseo,1030133,857680001618,High Valley Sauvignon Blanc 750ml,2716,12,2.0,72.84,145.68,Buyer's Select
+Blaine,1030084,857680001960,Clay Shannon Napa Cabernet Sauvignon 750ml,2545,12,1.0,143.0,143.0,
+Roseville,1030167,859764007356,Vulcani di Italia Etna Red 750ml,2873,12,1.0,142.84,142.84,Buyer's Select
+Andover,1030068,869382000219,One Flock Red Blend 750ml,2976,12,2.0,77.84,155.68,Buyer's Select
+Blaine,1030078,869382000219,One Flock Red Blend 750ml,2976,12,9.0,77.84,700.56,Buyer's Select
+Minneapolis,1030113,869382000219,One Flock Red Blend 750ml,2976,12,1.0,77.84,77.84,Buyer's Select
+Osseo,1030133,869382000219,One Flock Red Blend 750ml,2976,12,1.0,77.84,77.84,Buyer's Select
+Plymouth,1030139,869382000219,One Flock Red Blend 750ml,2976,12,1.0,77.84,77.84,Buyer's Select
+Rosemount,1030156,869382000219,One Flock Red Blend 750ml,2976,12,1.0,77.84,77.84,Buyer's Select
+Roseville,1030167,869382000219,One Flock Red Blend 750ml,2976,12,2.0,77.84,155.68,Buyer's Select
+St. Louis Park,1030182,869382000219,One Flock Red Blend 750ml,2976,12,2.0,77.84,155.68,Buyer's Select
+Stillwater,1030200,869382000219,One Flock Red Blend 750ml,2976,12,1.0,77.84,77.84,Buyer's Select
+Woodbury,1030220,869382000219,One Flock Red Blend 750ml,2976,12,1.0,77.84,77.84,Buyer's Select
+Blaine,1030078,869382000233,One Flock Chardonnay 750ml,2978,12,1.0,77.84,77.84,Buyer's Select
+Andover,1030068,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,1.0,77.84,77.84,Buyer's Select
+Blaine,1030078,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,3.0,77.84,233.52,Buyer's Select
+Minneapolis,1030113,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,2.0,77.84,155.68,Buyer's Select
+Plymouth,1030139,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,2.0,77.84,155.68,Buyer's Select
+Ramsey,1030148,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,1.0,77.84,77.84,Buyer's Select
+Roseville,1030167,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,1.0,77.84,77.84,Buyer's Select
+Woodbury,1030220,869382000271,One Flock Sauvignon Blanc 750ml,2977,12,2.0,77.84,155.68,Buyer's Select

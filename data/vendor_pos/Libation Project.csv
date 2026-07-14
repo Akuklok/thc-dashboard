@@ -1,15 +1,9 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1029806,3274510003791,Dolin Dry Vermouth 750ml,50120,12,1.0,152.0,152.0,
-St. Louis Park,1029806,3274510003814,Dolin Rouge Vermouth 750ml,50125,12,1.0,152.0,152.0,
-Blaine,1029546,604331008386,Kuranui Sauvignon Blanc 750ml,PLUME_RIDGE_CA:Kuran,12,1.0,100.0,100.0,
-Roseville,1029652,604331008386,Kuranui Sauvignon Blanc 750ml,PLUME_RIDGE_CA:Kuran,12,2.0,100.0,200.0,Store Request
-Stillwater,1029679,604331008386,Kuranui Sauvignon Blanc 750ml,PLUME_RIDGE_CA:Kuran,12,1.0,100.0,100.0,
-Minneapolis,1029586,678113000165,Ercole Monferratto Rosso Liter,90500,12,2.0,136.0,272.0,
-Stillwater,1029679,678113000165,Ercole Monferratto Rosso Liter,90500,12,0.5,136.0,68.0,
-Minneapolis,1029586,678113000172,Ercole Rose DOC Liter,TPG_NJ:ErcoleRose_23,12,2.0,136.0,272.0,
-Vadnais Heights,1029691,678113000172,Ercole Rose DOC Liter,TPG_NJ:ErcoleRose_23,12,2.0,136.0,272.0,
-Woodbury,1029699,678113000172,Ercole Rose DOC Liter,TPG_NJ:ErcoleRose_23,12,2.0,136.0,272.0,
-St. Louis Park,1029661,837571004454,Prisma Sauvignon Blanc 750ml,BRAZOS_CA:PrismaSauv,12,1.0,128.0,128.0,
-Minneapolis,1029586,853868006680,Pavette Pinot Noir 750ml,16012,12,1.0,116.0,116.0,
-Blaine,1029546,854657002937,Piazza Grande Lambrusco Spuman 750ml,CANTINA_DI_CARPI_DI:,12,1.0,112.0,112.0,
-St. Louis Park,1029661,854657002937,Piazza Grande Lambrusco Spuman 750ml,CANTINA_DI_CARPI_DI:,12,2.0,112.0,224.0,
+St. Louis Park,1030037,3274510003807,Dolin Dry Vermouth 375ml,50122,12,1.0,112.0,112.0,
+Woodbury,1030065,3274510003821,Dolin Blanc Vermouth 750ml,HAUSALPENZ_NJ:DolinV,12,0.5,152.0,76.0,Store Request
+St. Louis Park,1030185,678113000158,Ercole Bianco DOC  Liter,90525,12,1.0,136.0,136.0,
+Andover,1030070,678113000165,Ercole Monferratto Rosso Liter,90500,12,1.0,136.0,136.0,
+St. Louis Park,1030185,678113000165,Ercole Monferratto Rosso Liter,90500,12,1.0,136.0,136.0,
+St. Louis Park,1030185,678113000172,Ercole Rose DOC Liter,TPG_NJ:ErcoleRose_23,12,1.0,136.0,136.0,
+Roseville,1030170,854657002937,Piazza Grande Lambrusco Spuman 750ml,CANTINA_DI_CARPI_DI:,12,1.0,112.0,112.0,
+St. Louis Park,1030185,860001082616,Tembo Pinot Noir 750ml,ENOS_CA:TemboPinotNo,12,1.0,128.0,128.0,

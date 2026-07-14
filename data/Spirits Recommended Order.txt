@@ -1,87 +1,88 @@
 ==========================================================================
-  RECOMMENDED SPIRITS ORDER          Monday, Jul 13, 2026
+  RECOMMENDED SPIRITS ORDER          Tuesday, Jul 14, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    334,123
-  Coverable by transfer .......  $    114,865   (34%)
-  NET BUY from vendors ........  $     91,781   <- the order
+  Gross need (all stores) .....  $    328,684
+  Coverable by transfer .......  $    112,720   (34%)
+  NET BUY from vendors ........  $     88,208   <- the order
 
-  131 items   |   14,421 units to buy   |   20,357 units to rebalance
-  Transfers: 1,142 moves  -  961 urgent (481 stockouts, 480 under 2wk), 181 routine
+  128 items   |   14,482 units to buy   |   20,250 units to rebalance
+  Transfers: 1,136 moves  -  975 urgent (495 stockouts, 480 under 2wk), 161 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 16 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 19 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Ole Smoky MS Apple Pie               2u/2cs            $33      2     0   OUT
+   1  Copper & Cask #16 11yr Bourbon 750m  18u/3cs          $834     18     0   OUT
    2  Midleton Very Rare 750ml             3u/1cs           $515      2     0   OUT
    3  Skyy Blood Orange Vodka Liter        12u/1cs          $149     14     0   OUT
-   4  High Noon Transfusion 6pk 12oz can   12u/3cs          $135     11     0   OUT
-   5  Chi-Chi's Skinny Margarita 1.75L     12u/2cs          $108      9     0   OUT
+   4  Chi-Chi's Skinny Margarita 1.75L     12u/2cs          $108      9     0   OUT
+   5  High Noon Transfusion 6pk 12oz can   8u/2cs            $90      8     0   OUT
    6  Woody Creek Mary's Select Gin 750ml  6u/1cs           $120      6     0   OUT
    7  Woody Creek Vodka 750ml              6u/1cs           $108      6     0   OUT
-   8  Liber & Co Passionfruit  375ml       6u/1cs            $78      4     0   OUT
-   9  Buzzballz Grape Gone Wild Vikings 2  4u/4cs            $51      4     0   OUT
-  10  McMasters Canadian Whiskey 1.75L     6u/1cs            $80      4     0   OUT
-  11  Woody Creek Distillers Colorado Str  18u/3cs          $715     17     0   OUT
-  12  New Amsterdam Apple Vodka            120u/1cs          $80     89     0   0.1
-  13  Kessler Blended Whiskey 1.75L        12u/2cs          $148     12     0   0.3
-  14  New Amsterdam Red Berry Vodka 750ml  12u/1cs          $108     11     0   0.3
-  15  Copper & Cask #15 21yr Cigar Blend   12u/2cs          $516     10     0   0.4
-  16  New Amsterdam Tangerine 750ml        12u/1cs          $108     11     0   0.4
-  17  Copper & Cask #16 11yr Bourbon 750m  12u/2cs          $556     15     0   0.5
-  18  Proper Twelve Irish Whiskey 1.75L    6u/1cs           $196      7     0   0.5
-  19  New Amsterdam Peach Vodka 750ml      12u/1cs          $104     15     0   0.5
-  20  BuzzBallz Tropical Beach Ball Biggi  18u/6cs          $270     19     0   0.6
-  ...and 111 more in the full list.
+   8  Buzzballz Grape Gone Wild Vikings 2  3u/3cs            $38      3     0   OUT
+   9  McMasters Canadian Whiskey 1.75L     6u/1cs            $80      4     0   OUT
+  10  Woody Creek Distillers Colorado Str  18u/3cs          $715     17     0   OUT
+  11  Ole Smoky MS Apple Pie               1u/1cs            $16      1     0   OUT
+  12  Kessler Blended Whiskey 1.75L        12u/2cs          $148     12     0   0.3
+  13  New Amsterdam Red Berry Vodka 750ml  12u/1cs          $108     11     0   0.3
+  14  Copper & Cask #15 21yr Cigar Blend   12u/2cs          $516     10     0   0.4
+  15  New Amsterdam Tangerine 750ml        12u/1cs          $108     11     0   0.4
+  16  Proper Twelve Irish Whiskey 1.75L    6u/1cs           $196      7     0   0.5
+  17  New Amsterdam Peach Vodka 750ml      12u/1cs          $104     15     0   0.5
+  18  BuzzBallz Tropical Beach Ball Biggi  18u/6cs          $270     18     0   0.6
+  19  El Nivel Reposado 750ml              6u/1cs         $1,217      6     0   0.6
+  20  Kinky Liqueur Party Bucket 50ml 20p  12u/2cs          $160     12     0   0.9
+  ...and 108 more in the full list.
 
-  NEEDS REVIEW (16 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (19 items the system isn't fully sure about - check before ordering):
     El Nivel Reposado 750ml                   Margin looks off - check retail/cost
     Lunazul Reposado Tequila Liter            Large buy ($6,064) - confirm
     Chi-Chi's Margarita 1.75L                 Seasonal - last year ~10/wk vs 4 now, buy ahead?
-    Teremana Tequila Blanco 750ml             Off buy-month - confirm timing
-    Fireball Whisky 50ml                      Large buy ($4,102) - confirm
     Svedka Vodka Traveler                     Off buy-month - confirm timing
+    Teremana Tequila Blanco 750ml             Off buy-month - confirm timing
+    Fireball Whisky 50ml                      Large buy ($4,093) - confirm
+    Smirnoff Vodka 1.75L                      Large buy ($4,303) - confirm
     Jose Cuervo Auth Watermelon 1.75L         No cost data - verify price; Margin over 95% - check retail
     Lucky One Lemonade Variety 8pk 12oz can   Seasonal - last year ~26/wk vs 5 now, buy ahead?
-    Smirnoff Vodka 1.75L                      Large buy ($4,026) - confirm
-    Bacardi Superior Light Rum 1.75L          Large buy ($4,608) - confirm
-    Bacardi Limon Rum 1.75L                   Seasonal - last year ~133/wk vs 84 now, buy ahead?
-    New Amsterdam Gin 1.75L                   Seasonal - last year ~17/wk vs 10 now, buy ahead?
+    Bacardi Limon Rum 1.75L                   Seasonal - last year ~134/wk vs 85 now, buy ahead?
+    Bacardi Superior Light Rum 1.75L          Large buy ($4,743) - confirm
+    New Amsterdam Gin 1.75L                   Seasonal - last year ~18/wk vs 10 now, buy ahead?
     Prairie Gin 1.75L                         Seasonal - last year ~2/wk vs 1 now, buy ahead?
-    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($8,509) - confirm
+    Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($5,626) - confirm
     Casamigos Blanco 750ml                    Margin looks off - check retail/cost
-    ...and 1 more (see Needs Review tab).
+    ...and 4 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (32 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (29 discontinued items still selling/low - run down stock):
     Asbach Uralt German Bra 750ml               (would have bought 6u)
     Bacardi Limitada Rum 750ml                  (would have bought 6u)
     Buffalo Trace Bourbon Liter                 (would have bought 96u)
-    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 24u)
-    Buzzballz Biggies Tequila 'Rita 1.75L       (would have bought 18u)
+    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 21u)
     Casa Dragones Tequila 750ml                 (would have bought 1u)
     Crown Royal Canadian 1.75L                  (would have bought 30u)
     Dekuyper Peachtree Schnapps Traveler 750ml  (would have bought 12u)
     Dekuyper Triple Sec 1.75L                   (would have bought 6u)
-    Far North Solveig Gin 750ml                 (would have bought 12u)
-    Fireball 50ml Trick or Treat Bags           (would have bought 31u)
+    Far North Solveig Gin 750ml                 (would have bought 6u)
+    Fireball 50ml Trick or Treat Bags           (would have bought 20u)
     Fris Vodka 1.75L                            (would have bought 6u)
     Grey Goose Strawberry & Lemongrass Vodka L  (would have bought 6u)
     Jose Cuervo Silver Tequila 750ml            (would have bought 36u)
     Korbel Brandy PET 1.75L                     (would have bought 12u)
-    ...and 17 more (see Being Removed tab).
+    Martini & Rossi Dry Vermouth 750ml          (would have bought 6u)
+    ...and 14 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (12 routine deal items out of their buy month - $6,894 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (13 routine deal items out of their buy month - $7,291 cheaper to buy in-month):
+    Beefeater Gin Liter                         Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     Bombay Sapphire Gin Liter                   Wait for buy-month (Feb, May, Jun, Aug, Nov, Dec)
     Christian Brothers Brandy 1.75L             Wait for buy-month (Mar, Jun, Aug, Oct, Dec)
     Crown Royal Regal Apple 750ml               Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     E&J Brandy 1.75L                            Wait for buy-month (Feb, May, Sep, Dec)
     Evan Williams Bourbon 1.75L                 Wait for buy-month (Jan, Apr, Jun, Aug, Oct, Dec)
     Jefferson's KY Whisky Reserve 750ml         Wait for buy-month (Jan, Apr, Jun, Aug, Oct, Dec)
+    Jim Beam Bourbon Liter                      Wait for buy-month (Mar, Jun, Sep, Dec)
     Sauza Hornitos Plata 750ml                  Wait for buy-month (Feb, Apr, May, Aug, Oct, Nov)
     Smirnoff Red White & Berry Liter            Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     Svedka Blue Raspberry Vodka 1.75L           Wait for buy-month (Feb, May, Aug, Nov)
-    Svedka Strawberry Vodka 1.75L               Wait for buy-month (Feb, May, Aug, Nov)
     Svedka Vodka 100pf 1.75L                    Wait for buy-month (Feb, May, Aug, Nov)
     Teremana Tequila Reposado 750ml             Wait for buy-month (Mar, Jun, Sep, Dec)
