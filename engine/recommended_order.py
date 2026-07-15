@@ -306,12 +306,36 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         g.loc[is_ad, "Buy Units"] = (g.loc[is_ad, "Buy Cases"] * g.loc[is_ad, "case"]).fillna(0).astype(int)
         g.loc[is_ad, "Net Buy $"] = (g.loc[is_ad, "Buy Units"] * g.loc[is_ad, "cost"]).round(0)
 
+    # Buy-month stock-up: when an item is IN its buy-month this month, buy AHEAD to last until
+    # its NEXT buy-month (capped ~1 yr) so we load up while the deal price is on. Exempt from the
+    # "enough" cutoff below (like ad items) and labeled + flagged for review further down.
+    g["bm_stock"] = False; g["bm_wks"] = 0.0
+    if buy_months:
+        cur_m = fdate.month
+        def _wks_to_next(u):
+            ms = buy_months.get(dbb.norm(u))
+            if not ms or cur_m not in ms:
+                return 0.0
+            ahead = sorted(((m - cur_m) % 12) for m in ms if (m - cur_m) % 12 != 0)
+            return (ahead[0] if ahead else 12) * 4.345      # only one buy-month a year -> ~52 wks
+        wtn = g["upc"].map(_wks_to_next).clip(upper=52.0)
+        inmonth = wtn > 0
+        g.loc[inmonth, "bm_stock"] = True
+        g.loc[inmonth, "bm_wks"] = wtn[inmonth]
+        bm_units = (wtn * g["wk_vel"] - g["OH"]).clip(lower=0)
+        boost = inmonth & (bm_units > g["Net Buy"].fillna(0))
+        g.loc[boost, "Net Buy"] = bm_units[boost]
+        g.loc[inmonth, "Buy Cases"] = np.ceil((g.loc[inmonth, "Net Buy"] / g.loc[inmonth, "case"]).fillna(0))
+        g.loc[inmonth, "Buy Units"] = (g.loc[inmonth, "Buy Cases"] * g.loc[inmonth, "case"]).fillna(0).astype(int)
+        g.loc[inmonth, "Net Buy $"] = (g.loc[inmonth, "Buy Units"] * g.loc[inmonth, "cost"]).round(0)
+
     # Only BUY when the SKU is below the reorder threshold chain-wide — matches how the
     # buyer reads the 30-day weeks-of-supply column ("order when it dips below 4 weeks").
     # At TARGET_WEEKS+ weeks we redistribute via TRANSFER instead of buying new stock.
     hp = g["has_par"].astype(bool) if "has_par" in g.columns else False
     on_ad = g["ad_kind"].astype(str).str.len() > 0 if "ad_kind" in g.columns else False
-    enough = (g["WOS"] >= TARGET_WEEKS) & (~hp) & (~on_ad)   # par + ad SKUs keep their floor
+    on_bm = g["bm_stock"].astype(bool) if "bm_stock" in g.columns else False
+    enough = (g["WOS"] >= TARGET_WEEKS) & (~hp) & (~on_ad) & (~on_bm)   # par + ad + buy-month keep their floor
     g.loc[enough, ["Net Buy", "Buy Cases", "Buy Units", "Net Buy $"]] = 0
 
     upc = g["upc"].map(dbb.norm)
@@ -354,7 +378,9 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
                 notes.append(""); defer.append(False); continue
             mtxt = ", ".join(calendar.month_abbr[m] for m in sorted(months))
             if cur_month in months:
-                notes.append(f"In buy-month ({mtxt})"); defer.append(False)
+                wk = r.get("bm_wks") or 0
+                lasts = f" - stock up ~{wk:.0f}wks to next deal" if wk >= 4 else ""
+                notes.append(f"In buy-month ({mtxt}){lasts}"); defer.append(False)
             elif pd.notna(r["WOS"]) and r["WOS"] < 2:          # urgent -> buy anyway
                 notes.append(f"Off-month, buy anyway - urgent (deal: {mtxt})"); defer.append(False)
             else:                                              # routine -> wait for the deal
@@ -380,8 +406,11 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         if r["Net Buy $"] >= REVIEW_BUY_USD:
             out.append(f"Large buy (${r['Net Buy $']:,.0f}) - confirm")
         w = r.get("WOS")
-        if pd.notna(w) and w > 8:
+        bmn = str(r.get("Buy Month", ""))
+        if pd.notna(w) and w > 8 and not bmn.startswith("In buy-month"):
             out.append(f"Overstocked ({w:.0f} wks on hand) - confirm before buying more")
+        if bmn.startswith("In buy-month") and "stock up" in bmn:
+            out.append(f"Buy-month stock-up (${r['Net Buy $']:,.0f} to next deal) - confirm")
         if dbb.norm(r["upc"]) in nset:
             out.append("New item - set quantity by hand")
         if str(r.get("Buy Month", "")).startswith("Off-month"):
