@@ -742,9 +742,11 @@ EXCEL_AGENT_SYSTEM = (
     '- {"op":"setValues","sheet":S,"address":A,"values":[[...]]}  write a block; A is the top-left cell.\n'
     '- {"op":"clearValues","sheet":S,"address":A}  clear the cells in range A (e.g. "B2:B50").\n'
     '- {"op":"deleteRowsWhere","sheet":S,"column":C,"test":T,"value":V}  delete data rows where column C '
-    '(a column letter or header name) meets test T. T is one of "zero","negative","blank","equals","contains"; '
-    'value only for equals/contains.\n'
-    '- {"op":"highlight","sheet":S,"address":A,"color":H}  fill cells A with hex color H (e.g. "#FFFF00").\n'
+    '(a column letter or header name) meets test T. T is one of "zero","negative","blank","equals","contains","greaterthan","lessthan"; '
+    'value is required for equals/contains/greaterthan/lessthan.\n'
+    '- {"op":"highlightRowsWhere","sheet":S,"column":C,"test":T,"value":V,"color":H}  fill the WHOLE data row a hex '
+    'color H where column C meets test T (same tests as deleteRowsWhere). Use this for "flag/highlight/color rows where...".\n'
+    '- {"op":"highlight","sheet":S,"address":A,"color":H}  fill a specific cell range A with hex color H (e.g. "#FFFF00").\n'
     '- {"op":"copyValues","fromSheet":S1,"fromAddress":A1,"toSheet":S2,"toAddress":A2}  copy values from A1 to anchor A2.\n\n'
     "Rules:\n"
     "- Use ONLY the real sheet names, column letters/headers, and addresses in the CONTEXT. Never invent columns or sheets.\n"

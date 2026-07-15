@@ -24,6 +24,8 @@
   .chip a{ color:#c00; text-decoration:none; margin-left:6px; cursor:pointer; }
   .tools{ display:flex; gap:6px; padding:8px 10px 0; }
   .tools button{ flex:1; }
+  .quickbar{ display:flex; gap:6px; padding:4px 10px 6px; flex-wrap:wrap; }
+  .quickbar .q{ background:#eaf3f6; color:var(--navy); border:1px solid var(--line); font-size:12px; padding:6px 9px; border-radius:20px; flex:0 0 auto; }
   button{ background:var(--navy); color:#fff; border:0; border-radius:8px; padding:8px 10px; cursor:pointer; font-size:13px; }
   button.ghost{ background:#fff; color:var(--navy); border:1px solid var(--line); }
   button:disabled{ opacity:.5; cursor:default; }
@@ -50,6 +52,13 @@
   <div class="tools">
     <button class="ghost" id="selBtn" onclick="attachSelection()">Use selection</button>
     <button class="ghost" id="insBtn" onclick="insertAnswer()">Insert answer</button>
+  </div>
+  <div class="hint" style="padding:8px 10px 2px">Quick actions &mdash; I show the change first, you Approve:</div>
+  <div class="quickbar">
+    <button class="q" onclick="quick('Delete every row where the Cases Ordered column (or Buy Cases) is 0 or blank.')">Clear non-orders</button>
+    <button class="q" onclick="quick('Highlight whole rows in yellow where the weeks of supply (WOS) column is greater than 8.')">Flag overstock</button>
+    <button class="q" onclick="quick('Highlight whole rows in red where the Supplier column contains the word Discontinued.')">Flag discontinued</button>
+    <button class="q" onclick="quick('Highlight whole rows in orange where the OH (on hand) column is negative.')">Flag negatives</button>
   </div>
   <div id="status"></div>
   <div id="plan" style="display:none;margin:0 10px 8px;border:1px solid var(--line);border-radius:10px;background:#fff">
@@ -160,6 +169,22 @@
   function startRow(addr){ const a=String(addr||'').split('!').pop().split(':')[0]; const m=a.match(/\d+/); return m?parseInt(m[0],10):1; }
   function bare(addr){ return String(addr||'').split('!').pop(); }
   function shOf(c, name){ return name ? c.workbook.worksheets.getItem(name) : c.workbook.worksheets.getActiveWorksheet(); }
+  function _hit(cell, test, val){
+    const num=parseFloat(cell); test=String(test||'').toLowerCase();
+    if(test==='zero') return (cell===0||num===0);
+    if(test==='negative') return (!isNaN(num)&&num<0);
+    if(test==='blank') return (cell===''||cell==null);
+    if(test==='equals') return (String(cell)===String(val));
+    if(test==='contains') return (String(cell).toLowerCase().includes(String(val||'').toLowerCase()));
+    if(test==='greaterthan') return (!isNaN(num)&&num>parseFloat(val));
+    if(test==='lessthan') return (!isNaN(num)&&num<parseFloat(val));
+    return false;
+  }
+  function _colIndex(vals, colArg, off){
+    colArg=String(colArg||'');
+    if(/^[A-Za-z]+$/.test(colArg)){ let n=0; for(const ch of colArg.toUpperCase()) n=n*26+(ch.charCodeAt(0)-64); return (n-1)-off; }
+    const hdr=vals[0]||[]; return hdr.findIndex(h=>String(h).trim().toLowerCase()===colArg.trim().toLowerCase());
+  }
 
   async function gatherContext(){
     return await Excel.run(async c=>{
@@ -185,12 +210,14 @@
     catch(e){ status('Could not reach the assistant.'); return; }
     plan=d; renderPlan(d); status('');
   }
+  function quick(req){ if(!inExcel){ status('Open this inside Excel to use quick actions.'); return; } $('q').value=req; planEdit(); }
   function describe(a){
     switch(a.op){
       case 'setValues': return `Write ${(a.values||[]).length} row(s) at ${a.sheet?a.sheet+'!':''}${a.address}`;
       case 'clearValues': return `Clear ${a.sheet?a.sheet+'!':''}${a.address}`;
       case 'deleteRowsWhere': return `Delete rows where ${a.column} is ${a.test}${a.value!=null?(' '+a.value):''} (${a.sheet||'active sheet'})`;
       case 'highlight': return `Highlight ${a.sheet?a.sheet+'!':''}${a.address} ${a.color||''}`;
+      case 'highlightRowsWhere': return `Color rows where ${a.column} is ${a.test}${a.value!=null?(' '+a.value):''} (${a.sheet||'active sheet'})`;
       case 'copyValues': return `Copy ${a.fromSheet?a.fromSheet+'!':''}${a.fromAddress} to ${a.toSheet?a.toSheet+'!':''}${a.toAddress}`;
       default: return JSON.stringify(a);
     }
@@ -232,20 +259,19 @@
       } else if(a.op==='deleteRowsWhere'){
         const sh=shOf(c,a.sheet); const used=sh.getUsedRange(); used.load('values,address'); await c.sync();
         const vals=used.values||[]; const off=startCol(used.address); const top=startRow(used.address);
-        let ci=-1; const colArg=String(a.column||'');
-        if(/^[A-Za-z]+$/.test(colArg)){ let n=0; for(const ch of colArg.toUpperCase()) n=n*26+(ch.charCodeAt(0)-64); ci=(n-1)-off; }
-        else { const hdr=vals[0]||[]; ci=hdr.findIndex(h=>String(h).trim().toLowerCase()===colArg.trim().toLowerCase()); }
+        const ci=_colIndex(vals, a.column, off);
         if(ci<0 || ci>=((vals[0]||[]).length)) throw new Error('column '+a.column+' not found');
-        const test=String(a.test||'').toLowerCase(), val=a.value, del=[];
-        for(let r=1;r<vals.length;r++){ const cell=vals[r][ci]; const num=parseFloat(cell); let hit=false;
-          if(test==='zero') hit=(cell===0||num===0);
-          else if(test==='negative') hit=(!isNaN(num)&&num<0);
-          else if(test==='blank') hit=(cell===''||cell==null);
-          else if(test==='equals') hit=(String(cell)===String(val));
-          else if(test==='contains') hit=(String(cell).toLowerCase().includes(String(val||'').toLowerCase()));
-          if(hit) del.push(top+r);
-        }
+        const del=[];
+        for(let r=1;r<vals.length;r++){ if(_hit(vals[r][ci], a.test, a.value)) del.push(top+r); }
         for(let k=del.length-1;k>=0;k--) sh.getRange(`${del[k]}:${del[k]}`).delete(Excel.DeleteShiftDirection.up);
+      } else if(a.op==='highlightRowsWhere'){
+        const sh=shOf(c,a.sheet); const used=sh.getUsedRange(); used.load('values,address'); await c.sync();
+        const vals=used.values||[]; const off=startCol(used.address); const top=startRow(used.address);
+        const ncol=(vals[0]||[]).length; const left=colLetter(off), right=colLetter(off+ncol-1);
+        const ci=_colIndex(vals, a.column, off);
+        if(ci<0 || ci>=ncol) throw new Error('column '+a.column+' not found');
+        const color=a.color||'#FFFF00';
+        for(let r=1;r<vals.length;r++){ if(_hit(vals[r][ci], a.test, a.value)){ const rn=top+r; sh.getRange(`${left}${rn}:${right}${rn}`).format.fill.color=color; } }
       }
       await c.sync();
     });
