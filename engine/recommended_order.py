@@ -163,6 +163,21 @@ def load_remove_set():
     return frozenset()
 
 
+def load_ad_map(dept):
+    """UPCs on this week's ad (<dept> Ad Products.csv) -> (kind, weeks-of-supply target).
+    Ad items get bought up to their target and labeled so buyers can trace and check them."""
+    for folder in OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
+        p = os.path.join(folder, "%s Ad Products.csv" % dept)
+        if os.path.exists(p):
+            try:
+                d = pd.read_csv(p, dtype={"upc": str})
+                return {dbb.norm(r["upc"]): (str(r.get("kind", "")), float(r.get("target_wos", 4.5)))
+                        for _, r in d.iterrows()}
+            except Exception:
+                pass
+    return {}
+
+
 def load_new_set():
     """UPCs on the product file's New Items tab (no sales history yet - flag for manual qty)."""
     for folder in OUT_FOLDERS + list(getattr(dbb, "INPUT_FOLDERS", [])):
@@ -242,6 +257,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     returns a summary dict for the roll-up."""
     if df.empty:
         return None
+    ad_map = load_ad_map(label)
     tsum, tplan = plan_transfers(df[["Product Description", "Location Name", "OH", "vel", "need"]],
                                  DONOR_KEEP_WEEKS, MIN_TRANSFER)
     have = lambda c: c in df.columns
@@ -275,11 +291,27 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     g["Buy Units"]  = (g["Buy Cases"] * g["case"]).astype(int)
     g["Net Buy $"]  = (g["Buy Units"] * g["cost"]).round(0)
 
+    # Ad floor: items on this week's ad get bought up to their weeks-of-supply target
+    # (weekly 4.5 / Sunday 8). Labeled below in Deal Terms so the buyer can trace and check it.
+    g["ad_kind"] = ""
+    if ad_map:
+        amatch = g["upc"].map(dbb.norm).map(lambda u: ad_map.get(u))
+        is_ad = amatch.notna()
+        g.loc[is_ad, "ad_kind"] = amatch[is_ad].map(lambda t: t[0])
+        atgt = amatch.map(lambda t: t[1] if t else np.nan)
+        ad_units = (atgt * g["wk_vel"] - g["OH"]).clip(lower=0)
+        boost = is_ad & (ad_units > g["Net Buy"].fillna(0))
+        g.loc[boost, "Net Buy"] = ad_units[boost]
+        g.loc[is_ad, "Buy Cases"] = np.ceil((g.loc[is_ad, "Net Buy"] / g.loc[is_ad, "case"]).fillna(0))
+        g.loc[is_ad, "Buy Units"] = (g.loc[is_ad, "Buy Cases"] * g.loc[is_ad, "case"]).fillna(0).astype(int)
+        g.loc[is_ad, "Net Buy $"] = (g.loc[is_ad, "Buy Units"] * g.loc[is_ad, "cost"]).round(0)
+
     # Only BUY when the SKU is below the reorder threshold chain-wide — matches how the
     # buyer reads the 30-day weeks-of-supply column ("order when it dips below 4 weeks").
     # At TARGET_WEEKS+ weeks we redistribute via TRANSFER instead of buying new stock.
     hp = g["has_par"].astype(bool) if "has_par" in g.columns else False
-    enough = (g["WOS"] >= TARGET_WEEKS) & (~hp)     # par SKUs keep their agreed floor
+    on_ad = g["ad_kind"].astype(str).str.len() > 0 if "ad_kind" in g.columns else False
+    enough = (g["WOS"] >= TARGET_WEEKS) & (~hp) & (~on_ad)   # par + ad SKUs keep their floor
     g.loc[enough, ["Net Buy", "Buy Cases", "Buy Units", "Net Buy $"]] = 0
 
     upc = g["upc"].map(dbb.norm)
@@ -290,6 +322,10 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         dd, _m, t = buyers.get(u, (None, None, ""))
         disc.append(dd); deal.append(t)
     g["Discount %"] = disc; g["Deal Terms"] = deal
+    for i in (g.index[g["ad_kind"].astype(str).str.len() > 0] if "ad_kind" in g.columns else []):
+        sun = str(g.at[i, "ad_kind"]).lower().startswith("sun")
+        tag = "ON AD - %s special (buy to %sw)" % ("Sunday" if sun else "weekly", 8.0 if sun else 4.5)
+        g.at[i, "Deal Terms"] = (tag + "; " + str(g.at[i, "Deal Terms"])) if str(g.at[i, "Deal Terms"] or "") else tag
     on_deal = g["Deal Terms"].astype(str).str.len() > 0
     g["profit_protected"] = g["wk_vel"] * (g["retail"].fillna(g["cost"]) - g["cost"]).clip(lower=0)
 
