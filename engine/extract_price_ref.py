@@ -192,7 +192,18 @@ def main():
             n += 1
         print(f"{dept}: {n} items from {os.path.basename(f)}")
     if rows:
-        df = pd.DataFrame(rows).drop_duplicates("upc")
+        # A product's UPC repeats across the sheet with its fields scattered on different rows
+        # (cost on one occurrence, buy-months on another). Coalesce to the best non-empty value
+        # per field per UPC instead of keeping only the first row - the old drop_duplicates("upc")
+        # was silently losing ~1 in 5 buy-months (161 of 457 wine items, 34 spirits).
+        df = pd.DataFrame(rows)
+        def _first(s):
+            for v in s:
+                if v not in ("", None) and not (isinstance(v, float) and pd.isna(v)):
+                    return v
+            return ""
+        df = df.groupby("upc", as_index=False).agg(
+            {"Department": "first", "Buyer Cost": _first, "Deal": _first, "Buy Months": _first})
         for o in OUT:
             os.makedirs(o, exist_ok=True)
             try:
