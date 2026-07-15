@@ -59,6 +59,8 @@
     <button class="q" onclick="quick('Highlight whole rows in yellow where the weeks of supply (WOS) column is greater than 8.')">Flag overstock</button>
     <button class="q" onclick="quick('Highlight whole rows in red where the Supplier column contains the word Discontinued.')">Flag discontinued</button>
     <button class="q" onclick="quick('Highlight whole rows in orange where the OH (on hand) column is negative.')">Flag negatives</button>
+    <input id="budgetIn" placeholder="budget $" inputmode="numeric" style="width:82px;padding:6px 8px;border:1px solid var(--line);border-radius:20px;font-size:12px"/>
+    <button class="q" onclick="fitBudget()">Fit to budget</button>
   </div>
   <div id="status"></div>
   <div id="plan" style="display:none;margin:0 10px 8px;border:1px solid var(--line);border-radius:10px;background:#fff">
@@ -211,12 +213,40 @@
     plan=d; renderPlan(d); status('');
   }
   function quick(req){ if(!inExcel){ status('Open this inside Excel to use quick actions.'); return; } $('q').value=req; planEdit(); }
+  async function fitBudget(){
+    if(!inExcel){ status('Open this inside Excel to fit the order to a budget.'); return; }
+    const el=$('budgetIn'); const budget=parseFloat(String(el?el.value:'').replace(/[$,\s]/g,''));
+    if(!budget){ status('Type your budget in the box, then tap Fit to budget.'); return; }
+    cancelPlan(); status('Reading your order...');
+    let data;
+    try{ data=await Excel.run(async c=>{ const sh=c.workbook.worksheets.getActiveWorksheet(); const used=sh.getUsedRange(); used.load('values,address'); await c.sync(); return {vals:used.values||[], addr:used.address}; }); }
+    catch(e){ status('Could not read the sheet: '+(e.message||e)); return; }
+    const vals=data.vals; if(vals.length<2){ status('No order rows to work with.'); return; }
+    const hdr=(vals[0]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
+    const find=ns=>{ for(const n of ns){ const i=hdr.indexOf(n); if(i>=0) return i; } return -1; };
+    const ni=find(['net buy $','net buy','order $','extended cost','ext cost']);
+    const wi=find(['wos','weeks of supply']); const ii=find(['item','product description','description']);
+    if(ni<0){ status('I need a cost column like "Net Buy $" to total the order.'); return; }
+    const toN=v=>{ const n=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(n)?0:n; };
+    const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[0]||[]).length;
+    const left=colLetter(off), right=colLetter(off+ncol-1);
+    const rows=[];
+    for(let r=1;r<vals.length;r++){ rows.push({rn:top+r, net:toN(vals[r][ni]), wos:(wi>=0?toN(vals[r][wi]):0), item:(ii>=0?String(vals[r][ii]||''):('row '+(top+r)))}); }
+    const total=rows.reduce((a,x)=>a+x.net,0);
+    if(total<=budget){ status('Order is $'+Math.round(total).toLocaleString()+', already within $'+Math.round(budget).toLocaleString()+'. Nothing to cut.'); return; }
+    const cuts=[]; let removed=0;
+    for(const x of rows.slice().sort((a,b)=>(b.wos-a.wos)||(b.net-a.net))){ if(total-removed<=budget) break; if(x.net<=0) continue; cuts.push(x); removed+=x.net; }
+    if(!cuts.length){ status('Could not find enough to cut to hit that budget.'); return; }
+    const actions=cuts.map(x=>({op:'highlight', address:left+x.rn+':'+right+x.rn, color:'#FFC7CE', note:'Cut: '+x.item.slice(0,34)+' ($'+Math.round(x.net).toLocaleString()+')'}));
+    plan={summary:'Drop these '+cuts.length+' least-urgent items ($'+Math.round(removed).toLocaleString()+') to go from $'+Math.round(total).toLocaleString()+' to $'+Math.round(total-removed).toLocaleString()+', under your $'+Math.round(budget).toLocaleString()+' budget.', actions:actions};
+    renderPlan(plan); status('');
+  }
   function describe(a){
     switch(a.op){
       case 'setValues': return `Write ${(a.values||[]).length} row(s) at ${a.sheet?a.sheet+'!':''}${a.address}`;
       case 'clearValues': return `Clear ${a.sheet?a.sheet+'!':''}${a.address}`;
       case 'deleteRowsWhere': return `Delete rows where ${a.column} is ${a.test}${a.value!=null?(' '+a.value):''} (${a.sheet||'active sheet'})`;
-      case 'highlight': return `Highlight ${a.sheet?a.sheet+'!':''}${a.address} ${a.color||''}`;
+      case 'highlight': return a.note ? a.note : `Highlight ${a.sheet?a.sheet+'!':''}${a.address} ${a.color||''}`;
       case 'highlightRowsWhere': return `Color rows where ${a.column} is ${a.test}${a.value!=null?(' '+a.value):''} (${a.sheet||'active sheet'})`;
       case 'copyValues': return `Copy ${a.fromSheet?a.fromSheet+'!':''}${a.fromAddress} to ${a.toSheet?a.toSheet+'!':''}${a.toAddress}`;
       default: return JSON.stringify(a);
