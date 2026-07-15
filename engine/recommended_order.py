@@ -297,11 +297,12 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     net_total = float(g["Net Buy $"].sum())
 
     buy = g[g["Buy Units"] > 0].copy()
-    removed = buy.iloc[0:0]
-    if remove_set:                              # pull items flagged for removal out of the buy
-        is_rm = buy["upc"].map(dbb.norm).isin(remove_set)
-        removed = buy[is_rm].copy()
-        buy = buy[~is_rm].copy()
+    # pull discontinued items out of the buy: on the remove list, OR the supplier is flagged "Discontinued"
+    is_rm = buy["upc"].map(dbb.norm).isin(remove_set) if remove_set else pd.Series(False, index=buy.index)
+    if "Supplier" in buy.columns:
+        is_rm = is_rm | buy["Supplier"].astype(str).str.contains("Discontinued", case=False, na=False)
+    removed = buy[is_rm].copy()
+    buy = buy[~is_rm].copy()
 
     # Buy-month timing: a deal item bought outside its buy month costs more. DEFER routine
     # off-month buys to their month; keep URGENT ones (stockout / under 2wk) but flag them.
@@ -342,6 +343,9 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
             out.append("Margin over 95% - check retail")
         if r["Net Buy $"] >= REVIEW_BUY_USD:
             out.append(f"Large buy (${r['Net Buy $']:,.0f}) - confirm")
+        w = r.get("WOS")
+        if pd.notna(w) and w > 8:
+            out.append(f"Overstocked ({w:.0f} wks on hand) - confirm before buying more")
         if dbb.norm(r["upc"]) in nset:
             out.append("New item - set quantity by hand")
         if str(r.get("Buy Month", "")).startswith("Off-month"):
