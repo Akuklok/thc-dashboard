@@ -1,13 +1,13 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Tuesday, Jul 14, 2026
+  RECOMMENDED OTHER ORDER          Wednesday, Jul 15, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     32,522
-  Coverable by transfer .......  $     15,043   (46%)
-  NET BUY from vendors ........  $     13,180   <- the order
+  Gross need (all stores) .....  $     32,278
+  Coverable by transfer .......  $     14,841   (46%)
+  NET BUY from vendors ........  $     13,008   <- the order
 
-  81 items   |   6,783 units to buy   |   3,776 units to rebalance
-  Transfers: 345 moves  -  293 urgent (137 stockouts, 156 under 2wk), 52 routine
+  79 items   |   6,940 units to buy   |   3,743 units to rebalance
+  Transfers: 347 moves  -  299 urgent (139 stockouts, 160 under 2wk), 48 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 14 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -15,26 +15,26 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           1738u/1738cs       $0   1738     0   OUT
-   2  Alani Nu Purple Cotton Candy 12oz    12u/1cs            $0     12     0   OUT
-   3  Dole Lemonade 2L                     8u/1cs            $16      8     0   OUT
+   2  Alani Nu Purple Cotton Candy 12oz    12u/1cs            $0     14     0   OUT
+   3  Dole Lemonade 2L                     8u/1cs            $16     10     0   OUT
    4  Black & Mild (1 Extra)               2u/2cs             $0      2     0   OUT
    5  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
    6  Matches- Box                         2u/2cs             $4      2     0   OUT
    7  Mountain Dew Voltage 20oz            7u/7cs            $10      7     0   OUT
-   8  Celsius Kiwi Strawberry 12oz can     24u/2cs           $43     22     0   OUT
-   9  Wedding Return Fee                   4u/4cs             $0      4     0   OUT
-  10  Lift Bridge Rootbeer keg             1u/1cs            $75      1     0   OUT
-  11  Gatorade Gatorlyte Pineapple Mango   21u/21cs          $19     21     0   OUT
-  12  Charm Social Tonic Lemon Ginger 12o  23u/23cs          $56     23     0   OUT
-  13  Master of Mixes Pina Colada Liter    12u/1cs           $44     14     0   OUT
-  14  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
-  15  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      6     0   OUT
-  16  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
-  17  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
-  18  Velo Citrus Chill 9mg                5u/1cs            $42      5     0   OUT
-  19  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
-  20  Zoa Tropical Punch 12oz can          12u/1cs           $18      7     0   OUT
-  ...and 61 more in the full list.
+   8  Gatorade Gatorlyte Pineapple Mango   24u/24cs          $22     24     0   OUT
+   9  Celsius Kiwi Strawberry 12oz can     24u/2cs           $43     22     0   OUT
+  10  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+  11  Charm Social Tonic Lemon Ginger 12o  23u/23cs          $56     23     0   OUT
+  12  Master of Mixes Pina Colada Liter    12u/1cs           $44     14     0   OUT
+  13  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
+  14  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      6     0   OUT
+  15  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
+  16  Velo Dragon Fruit 6mg                5u/1cs            $42      7     0   OUT
+  17  Velo Citrus Chill 9mg                5u/1cs            $42      5     0   OUT
+  18  Velo Tropical Heat 6mg               5u/1cs            $42      5     0   OUT
+  19  Zoa Tropical Punch 12oz can          12u/1cs           $18      7     0   OUT
+  20  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      4     0   OUT
+  ...and 59 more in the full list.
 
   NEEDS REVIEW (14 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
@@ -46,12 +46,13 @@
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Big Bag                            Large buy ($6,576) - confirm
+    MN Ice Big Bag                            Large buy ($6,548) - confirm
     Middletons Black & Mild Single            Margin looks off - check retail/cost
     Swisher Sweets Cigarillo                  No cost data - verify price; Margin over 95% - check retail
-    ReaLime Lime Juice 8oz                    Seasonal - last year ~15/wk vs 8 now, buy ahead?
+    ReaLime Lime Juice 8oz                    Seasonal - last year ~15/wk vs 9 now, buy ahead?
     Barritt's Ginger Beer 6pk 12oz can        Seasonal - last year ~3/wk vs 1 now, buy ahead?
 
-  BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
-    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 27u)
-    Fever Tree Tonic Water 8pk 5oz can          (would have bought 12u)
+  BEING REMOVED - DO NOT REORDER (3 discontinued items still selling/low - run down stock):
+    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 12u)
+    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 30u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 21u)
