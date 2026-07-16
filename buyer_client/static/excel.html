@@ -102,9 +102,21 @@
 
   function status(t){ $('status').textContent = t || ''; }
   function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  function mdLite(s){                                            // tiny, safe markdown for AI replies
+    return String(s==null?'':s).split('\n').map(line=>{
+      let t = esc(line);                                        // escape HTML first (injection-safe)
+      t = t.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');  // **bold**
+      t = t.replace(/`([^`]+)`/g,'<code>$1</code>');            // `code`
+      t = t.replace(/^\s*#{1,6}\s+(.+)$/,'<strong>$1</strong>');// # heading -> bold line
+      t = t.replace(/^\s*[-*]\s+(.+)$/,'&bull;&nbsp;$1');       // - bullet -> •
+      return t;
+    }).join('<br>');
+  }
   function render(){
     $('log').innerHTML = messages.map(m =>
-      `<div class="msg ${m.role==='user'?'me':'ai'}">${esc(m.display||m.content)}</div>`).join('');
+      `<div class="msg ${m.role==='user'?'me':'ai'}">${m.role==='user'
+        ? esc(m.display||m.content).replace(/\n/g,'<br>')
+        : mdLite(m.display||m.content)}</div>`).join('');
     $('log').scrollTop = $('log').scrollHeight;
   }
   function updateChip(){
