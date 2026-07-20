@@ -283,7 +283,10 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     g["LY wk"] = (g["uly4"] / 4.0).round(1) if "uly4" in g.columns else np.nan          # last-year weekly pace
     g = g.merge(tsum, on="Item", how="left")
     for c in ("Gross Need", "Transfer", "Net Buy"):
-        g[c] = _num(g[c]).fillna(0)
+        # Keep these FLOAT. The ad floor and the buy-month stock-up below both write fractional
+        # weeks-of-supply targets into "Net Buy"; if pandas infers int64 here, that assignment
+        # raises LossySetitemError and kills the whole nightly build.
+        g[c] = _num(g[c]).fillna(0).astype(float)
 
     g["Gross $"]    = (g["Gross Need"] * g["cost"]).round(0)
     g["Transfer $"] = (g["Transfer"] * g["cost"]).round(0)
