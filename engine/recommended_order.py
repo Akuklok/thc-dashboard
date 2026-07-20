@@ -291,14 +291,17 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     g["Buy Units"]  = (g["Buy Cases"] * g["case"]).astype(int)
     g["Net Buy $"]  = (g["Buy Units"] * g["cost"]).round(0)
 
-    # Ad floor: items on this week's ad get bought up to their weeks-of-supply target
-    # (weekly 4.5 / Sunday 8). Labeled below in Deal Terms so the buyer can trace and check it.
-    g["ad_kind"] = ""
+    # Ad floor: items on this week's ad get bought up to their weeks-of-supply target. That
+    # target is PER-DEPARTMENT (adorder.DEPT_TARGETS) - only THC/Spirits earn the deeper Sunday
+    # target, because Wine/Beer Sunday ads don't out-lift their weekly ads. Labeled below in
+    # Deal Terms so the buyer can trace and check it.
+    g["ad_kind"] = ""; g["ad_target"] = np.nan
     if ad_map:
         amatch = g["upc"].map(dbb.norm).map(lambda u: ad_map.get(u))
         is_ad = amatch.notna()
         g.loc[is_ad, "ad_kind"] = amatch[is_ad].map(lambda t: t[0])
         atgt = amatch.map(lambda t: t[1] if t else np.nan)
+        g.loc[is_ad, "ad_target"] = atgt[is_ad]
         ad_units = (atgt * g["wk_vel"] - g["OH"]).clip(lower=0)
         boost = is_ad & (ad_units > g["Net Buy"].fillna(0))
         g.loc[boost, "Net Buy"] = ad_units[boost]
@@ -348,7 +351,9 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
     g["Discount %"] = disc; g["Deal Terms"] = deal
     for i in (g.index[g["ad_kind"].astype(str).str.len() > 0] if "ad_kind" in g.columns else []):
         sun = str(g.at[i, "ad_kind"]).lower().startswith("sun")
-        tag = "ON AD - %s special (buy to %sw)" % ("Sunday" if sun else "weekly", 8.0 if sun else 4.5)
+        tw = g.at[i, "ad_target"] if "ad_target" in g.columns else np.nan
+        if tw != tw: tw = 4.5                      # fall back if the ad list carries no target
+        tag = "ON AD - %s special (buy to %gw)" % ("Sunday" if sun else "weekly", tw)
         g.at[i, "Deal Terms"] = (tag + "; " + str(g.at[i, "Deal Terms"])) if str(g.at[i, "Deal Terms"] or "") else tag
     on_deal = g["Deal Terms"].astype(str).str.len() > 0
     g["profit_protected"] = g["wk_vel"] * (g["retail"].fillna(g["cost"]) - g["cost"]).clip(lower=0)
