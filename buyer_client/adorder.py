@@ -14,7 +14,20 @@ Returns paste-ready rows plus anything it could not match.
 """
 import re, math
 
-TARGETS = {"weekly": 4.5, "sunday": 8.0}
+TARGETS = {"weekly": 4.5, "sunday": 8.0}          # legacy default (THC/Spirits shape)
+# Ad stock targets PER DEPARTMENT, grounded in measured ad lift (Phase 0 daily analysis,
+# 2026-07-20). Sunday specials only out-lift weekly ads for THC (1.54x vs 1.21x) and Spirits
+# (1.50x vs 1.31x), so only those earn the deeper Sunday target. Wine's Sunday lift (1.26x) is
+# BELOW its weekly (1.52x) and Beer's is flat (1.14x vs 1.20x), so their Sunday ads get the
+# same target as a weekly ad - buying 8 weeks there just built dead stock.
+DEPT_TARGETS = {"thc":     {"weekly": 4.5, "sunday": 8.0},   # keys lowercase: "THC".title() is "Thc"
+                "spirits": {"weekly": 4.5, "sunday": 8.0},
+                "wine":    {"weekly": 4.5, "sunday": 4.5},
+                "beer":    {"weekly": 4.5, "sunday": 4.5}}
+
+def targets_for(dept):
+    """Ad weeks-of-supply targets for a department. Unknown depts get no deeper Sunday."""
+    return DEPT_TARGETS.get(str(dept or "").strip().lower(), {"weekly": 4.5, "sunday": 4.5})
 
 _MONTHS = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
@@ -86,8 +99,8 @@ def _expand_abbr(norm_query):
     return " ".join(_VARIETAL_ABBR.get(t, t) for t in norm_query.split())
 
 
-def suggest(items, kind, catalog_rows, inv_rows, month=None):
-    target = TARGETS.get(str(kind or "").lower(), 4.5)
+def suggest(items, kind, catalog_rows, inv_rows, month=None, targets=None):
+    target = (targets or TARGETS).get(str(kind or "").lower(), 4.5)
 
     cat_by_upc, cat_by_desc, cat_tokens, desc_upcs = {}, {}, [], {}
     for r in catalog_rows:

@@ -1233,7 +1233,8 @@ class Handler(BaseHTTPRequestHandler):
                 if not cat:
                     return self._send(200, {"error": "No product catalog (Full List) for %s yet." % dept})
                 inv = rows_of("%s Inventory.csv" % dept)
-                res = _ad.suggest(items, kind, cat, inv, month=_dt.date.today().month)
+                res = _ad.suggest(items, kind, cat, inv, month=_dt.date.today().month,
+                                  targets=_ad.targets_for(dept))
                 cols = ["UPC", "Item", "On hand", "Wk vel", "WOS", "Suggested cases", "Case price", "Order $", "Flag"]
                 rows = [[r.get(c) for c in cols] for r in res["rows"]]
                 text = "\n".join("%s\t%s\t%s" % (r.get("UPC"), r.get("Item"), r.get("Suggested cases"))
@@ -1272,7 +1273,8 @@ class Handler(BaseHTTPRequestHandler):
                     return self._send(200, {"error": "No product catalog (Full List) for %s yet." % dept})
                 inv = rows_of("%s Inventory.csv" % dept)
                 month = (target or _dt.date.today()).month
-                res = _ad.suggest(parsed["items"], kind, cat, inv, month=month)
+                res = _ad.suggest(parsed["items"], kind, cat, inv, month=month,
+                                  targets=_ad.targets_for(dept))
                 cols = ["UPC", "Item", "On hand", "Wk vel", "WOS", "Suggested cases", "Case price", "Order $", "Flag"]
                 rows = [[r.get(c) for c in cols] for r in res["rows"]]
                 text = "\n".join("%s\t%s\t%s" % (r.get("UPC"), r.get("Item"), r.get("Suggested cases"))
