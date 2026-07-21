@@ -1,8 +1,12 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Plymouth,1030146,089419000160,La Vieille Ferme Rose 3L Box,18023,6,1.0,112.0,112.0,
-Roseville,1030178,3760094280135,Dom Menard Cuvee Marine,26435,12,1.0,84.0,84.0,
-Woodbury,1030229,400000024370,Failla Willamette Valley Pinot Noir 750ml,26450,12,1.0,250.0,250.0,
-Vadnais Heights,1030216,747846010021,Hakutsuru Superior Junmai Ginjo Sake 300ml,7661,12,1.0,90.0,90.0,
-St. Louis Park,1030196,830432002567,Mister Sauvignon Blanc 750ml,24455,12,1.0,152.0,152.0,
-Minnetonka,1030129,850432002758,Wildsong Sauvignon Blanc 750ml,24733,12,1.0,120.0,120.0,Store Request
-Minnetonka,1030130,859551001291,Matchbook The Arsonist Chardonnay 750ml,27357,12,1.0,126.0,126.0,
+Blaine,1030371,089419000108,La Vieille Ferme Rouge 750ml,25686,12,1.0,92.0,92.0,Store Request
+Ramsey,1030450,089419000160,La Vieille Ferme Rose 3L Box,18023,6,1.0,112.0,112.0,
+Roseville,1030484,089419000160,La Vieille Ferme Rose 3L Box,18023,6,1.0,112.0,112.0,
+Woodbury,1030530,089419000160,La Vieille Ferme Rose 3L Box,18023,6,1.0,112.0,112.0,
+Cottage Grove,1030398,089419000177,La Vieille Ferme Rose 750ml,26912,12,1.0,92.0,92.0,
+Minnetonka,1030422,089419000177,La Vieille Ferme Rose 750ml,26912,12,1.0,92.0,92.0,
+Roseville,1030484,089419000177,La Vieille Ferme Rose 750ml,26912,12,2.0,92.0,184.0,
+Woodbury,1030530,089419000177,La Vieille Ferme Rose 750ml,26912,12,1.0,92.0,92.0,
+Blaine,1030371,089419150032,MAN Vintners Chardonnay 750ml,24637,12,1.0,92.0,92.0,Store Request
+Roseville,1030483,3760094280135,Dom Menard Cuvee Marine,26435,12,2.0,84.0,168.0,Store Request
+St. Louis Park,1030680,852064007088,Dampfwerk Aged Apple Brandy 375ml,23381,12,1.0,278.0,278.0,

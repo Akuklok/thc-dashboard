@@ -1,60 +1,60 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Monday, Jul 20, 2026
+  RECOMMENDED OTHER ORDER          Tuesday, Jul 21, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     37,612
-  Coverable by transfer .......  $     15,647   (42%)
-  NET BUY from vendors ........  $     17,244   <- the order
+  Gross need (all stores) .....  $     36,880
+  Coverable by transfer .......  $     15,594   (42%)
+  NET BUY from vendors ........  $     16,683   <- the order
 
-  87 items   |   8,487 units to buy   |   3,749 units to rebalance
-  Transfers: 366 moves  -  324 urgent (152 stockouts, 172 under 2wk), 42 routine
+  84 items   |   8,302 units to buy   |   3,743 units to rebalance
+  Transfers: 370 moves  -  327 urgent (152 stockouts, 175 under 2wk), 43 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 17 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 18 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           1588u/1588cs       $0   1588     0   OUT
+   1  Non-Refundable Transaction           1564u/1564cs       $0   1564     0   OUT
    2  Alani Nu Purple Cotton Candy 12oz    12u/1cs            $0     17     0   OUT
    3  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
    4  Pepsi Diet 12oz can                  2u/2cs            $36      2     0   OUT
-   5  Gatorade Gatorlyte Pineapple Mango   32u/32cs          $29     32     0   OUT
-   6  Velo Peppermint 9mg                  50u/10cs         $420     49     0   OUT
-   7  Celsius Kiwi Strawberry 12oz can     24u/2cs           $43     24     0   OUT
-   8  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
-   9  Bang Purple Haze                     60u/5cs           $93     55     0   OUT
-  10  Charm Social Tonic Lemon Ginger 12o  24u/24cs          $58     24     0   OUT
-  11  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
-  12  Zyn Pouch 3mg Spearmint              10u/2cs           $84      9     0   OUT
-  13  Owen's Transfusion Grape & Ginger A  6u/1cs            $25      6     0   OUT
-  14  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      6     0   OUT
-  15  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
-  16  Velo Citrus Chill 9mg                5u/1cs            $42      5     0   OUT
-  17  Dole Lemonade 2L                     8u/1cs            $16      7     0   OUT
-  18  Alani Nu Orange Kiss 12oz can        12u/1cs           $21      8     0   OUT
-  19  Velo Dragon Fruit 6mg                5u/1cs            $42      4     0   OUT
-  20  Velo Tropical Heat 6mg               5u/1cs            $42      4     0   OUT
-  ...and 67 more in the full list.
+   5  Pepsi 12oz can                       6u/6cs             $0      6     0   OUT
+   6  Gatorade Gatorlyte Pineapple Mango   31u/31cs          $29     31     0   OUT
+   7  Velo Peppermint 9mg                  50u/10cs         $420     50     0   OUT
+   8  Celsius Kiwi Strawberry 12oz can     24u/2cs           $43     24     0   OUT
+   9  MN Ice Big Bag                       2236u/2236cs   $7,661   2236     0   OUT
+  10  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+  11  Bang Purple Haze                     60u/5cs           $93     55     0   OUT
+  12  Charm Social Tonic Lemon Ginger 12o  24u/24cs          $58     24     0   OUT
+  13  Celsius Artic Vibe 12oz can          24u/2cs           $39     21     0   OUT
+  14  Spiegelau Craft Beer Tasting Kit (4  1u/1cs            $11      1     0   OUT
+  15  Zyn Pouch 3mg Spearmint              10u/2cs           $84      9     0   OUT
+  16  Owen's Transfusion Grape & Ginger A  6u/1cs            $25      6     0   OUT
+  17  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      6     0   OUT
+  18  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
+  19  Velo Citrus Chill 9mg                5u/1cs            $42      5     0   OUT
+  20  Dole Lemonade 2L                     8u/1cs            $16      7     0   OUT
+  ...and 64 more in the full list.
 
-  NEEDS REVIEW (17 items the system isn't fully sure about - check before ordering):
-    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
+  NEEDS REVIEW (18 items the system isn't fully sure about - check before ordering):
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~14/wk vs 9 now, buy ahead?
     Alani Nu Purple Cotton Candy 12oz         No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Pepsi Diet 12oz can                       Margin looks off - check retail/cost
+    Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
+    MN Ice Big Bag                            Large buy ($7,661) - confirm
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Master of Mixes Margarita 1.75L           Seasonal - last year ~2/wk vs 1 now, buy ahead?
     Black & Mild (1 Extra)                    No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~28/wk vs 5 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~32/wk vs 2 now, buy ahead?
     Matches- Box                              Margin looks off - check retail/cost
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Big Bag                            Large buy ($8,020) - confirm
     Swisher Sweets Cigarillo                  No cost data - verify price; Margin over 95% - check retail
     Middletons Black & Mild Single            Margin looks off - check retail/cost
-    Gosling's Ginger Beer 6pk 12oz can        Seasonal - last year ~17/wk vs 10 now, buy ahead?
-    ...and 2 more (see Needs Review tab).
+    ...and 3 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (3 discontinued items still selling/low - run down stock):
-    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 33u)
-    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 36u)
-    Fever Tree Tonic Water 8pk 5oz can          (would have bought 18u)
+    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 27u)
+    Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 42u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 27u)

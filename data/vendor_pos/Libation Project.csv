@@ -1,9 +1,12 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1030037,3274510003807,Dolin Dry Vermouth 375ml,50122,12,1.0,112.0,112.0,
-Woodbury,1030065,3274510003821,Dolin Blanc Vermouth 750ml,HAUSALPENZ_NJ:DolinV,12,0.5,152.0,76.0,Store Request
-St. Louis Park,1030185,678113000158,Ercole Bianco DOC  Liter,90525,12,1.0,136.0,136.0,
-Andover,1030070,678113000165,Ercole Monferratto Rosso Liter,90500,12,1.0,136.0,136.0,
-St. Louis Park,1030185,678113000165,Ercole Monferratto Rosso Liter,90500,12,1.0,136.0,136.0,
-St. Louis Park,1030185,678113000172,Ercole Rose DOC Liter,TPG_NJ:ErcoleRose_23,12,1.0,136.0,136.0,
-Roseville,1030170,854657002937,Piazza Grande Lambrusco Spuman 750ml,CANTINA_DI_CARPI_DI:,12,1.0,112.0,112.0,
-St. Louis Park,1030185,860001082616,Tembo Pinot Noir 750ml,ENOS_CA:TemboPinotNo,12,1.0,128.0,128.0,
+Blaine,1030362,604331008386,Kuranui Sauvignon Blanc 750ml,PLUME_RIDGE_CA:Kuran,12,1.0,100.0,100.0,
+Cottage Grove,1030393,604331008386,Kuranui Sauvignon Blanc 750ml,PLUME_RIDGE_CA:Kuran,12,1.0,100.0,100.0,
+Roseville,1030477,678113000158,Ercole Bianco DOC  Liter,90525,12,1.0,136.0,136.0,Store Request
+Andover,1030348,678113000165,Ercole Monferratto Rosso Liter,90500,12,1.0,136.0,136.0,
+Roseville,1030466,678113000172,Ercole Rose DOC Liter,TPG_NJ:ErcoleRose_23,12,1.0,136.0,136.0,
+St. Louis Park,1030670,761371708420,Revive Carbon Negative Vodka 750ml,70400,6,1.0,154.0,154.0,
+St. Louis Park,1030670,761371708437,Revive Carbon Negative Gin 750ml,70401,6,1.0,180.0,180.0,
+St. Louis Park,1030670,8007117011327,Cocchi di Torino 375ml,50128,12,1.0,144.0,144.0,
+Roseville,1030661,853396007180,King's County Straight Bourbon 750ml,97100,6,1.0,316.0,316.0,Store Request
+Blaine,1030362,854657002937,Piazza Grande Lambrusco Spuman 750ml,CANTINA_DI_CARPI_DI:,12,1.0,112.0,112.0,
+Roseville,1030466,854657002937,Piazza Grande Lambrusco Spuman 750ml,CANTINA_DI_CARPI_DI:,12,1.0,112.0,112.0,
