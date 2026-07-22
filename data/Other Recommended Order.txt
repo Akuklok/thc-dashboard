@@ -2,28 +2,28 @@
   RECOMMENDED OTHER ORDER          Wednesday, Jul 22, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     36,164
-  Coverable by transfer .......  $     15,267   (42%)
-  NET BUY from vendors ........  $     16,304   <- the order
+  Gross need (all stores) .....  $     34,991
+  Coverable by transfer .......  $     15,192   (43%)
+  NET BUY from vendors ........  $     15,308   <- the order
 
-  75 items   |   8,274 units to buy   |   3,634 units to rebalance
-  Transfers: 363 moves  -  318 urgent (146 stockouts, 172 under 2wk), 45 routine
+  75 items   |   6,328 units to buy   |   3,614 units to rebalance
+  Transfers: 362 moves  -  317 urgent (144 stockouts, 173 under 2wk), 45 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 14 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           1552u/1552cs       $0   1552     0   OUT
-   2  Plastic Cups 16oz                    2u/2cs             $8      2     0   OUT
-   3  Pepsi Diet 12oz can                  2u/2cs            $36      2     0   OUT
-   4  Pepsi 12oz can                       8u/8cs             $0      8     0   OUT
-   5  MN Ice Big Bag                       2231u/2231cs   $7,643   2231     0   OUT
+   1  Non-Refundable Transaction           27u/27cs           $0     27     0   OUT
+   2  Plastic Cups 16oz                    1u/1cs             $4      1     0   OUT
+   3  Pepsi Diet 12oz can                  1u/1cs            $18      1     0   OUT
+   4  Pepsi 12oz can                       4u/4cs             $0      4     0   OUT
+   5  MN Ice Big Bag                       2032u/2032cs   $6,961   2032     0   OUT
    6  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
    7  Bang Purple Haze                     48u/4cs           $74     51     0   OUT
-   8  Gatorlyte Lime Cucumber 20oz         36u/3cs           $50     35     0   OUT
+   8  Gatorlyte Lime Cucumber 20oz         36u/3cs           $50     33     0   OUT
    9  Charm Social Tonic Lemon Ginger 12o  24u/24cs          $58     24     0   OUT
-  10  Celsius Artic Vibe 12oz can          24u/2cs           $39     21     0   OUT
+  10  Celsius Artic Vibe 12oz can          24u/2cs           $39     20     0   OUT
   11  Owen's Transfusion Grape & Ginger A  6u/1cs            $25      6     0   OUT
   12  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      6     0   OUT
   13  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
@@ -40,7 +40,7 @@
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~12/wk vs 6 now, buy ahead?
     Pepsi Diet 12oz can                       Margin looks off - check retail/cost
     Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
-    MN Ice Big Bag                            Large buy ($7,643) - confirm
+    MN Ice Big Bag                            Large buy ($6,961) - confirm
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Master of Mixes Margarita 1.75L           Seasonal - last year ~2/wk vs 1 now, buy ahead?
     Black & Mild (1 Extra)                    No cost data - verify price; Margin over 95% - check retail
@@ -53,6 +53,6 @@
     Gosling's Ginger Beer 6pk 12oz can        Seasonal - last year ~16/wk vs 9 now, buy ahead?
 
   BEING REMOVED - DO NOT REORDER (3 discontinued items still selling/low - run down stock):
-    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 21u)
+    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 18u)
     Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 45u)
     Fever Tree Tonic Water 8pk 5oz can          (would have bought 18u)

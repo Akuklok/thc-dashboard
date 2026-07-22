@@ -2,78 +2,73 @@
   RECOMMENDED BEER ORDER          Wednesday, Jul 22, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    660,622
-  Coverable by transfer .......  $    230,784   (35%)
-  NET BUY from vendors ........  $    399,640   <- the order
+  Gross need (all stores) .....  $    541,222
+  Coverable by transfer .......  $    213,259   (39%)
+  NET BUY from vendors ........  $    304,171   <- the order
 
-  905 items   |   37,069 units to buy   |   20,765 units to rebalance
-  Transfers: 1,801 moves  -  1534 urgent (819 stockouts, 715 under 2wk), 267 routine
+  669 items   |   26,211 units to buy   |   18,896 units to rebalance
+  Transfers: 1,736 moves  -  1460 urgent (706 stockouts, 754 under 2wk), 276 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 153 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 72 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Cutwater Whiskey Sour 4pk 12oz can   120u/20cs      $1,175    119     0   OUT
-   2  Tucher Festbier 4pk 16oz can         50u/50cs         $465     50     0   OUT
-   3  Grain Belt Elite 12pk 12oz can       36u/18cs         $300     35     0   OUT
-   4  Downeast Cider Seasonal 2 4pk 12oz   318u/53cs      $2,786    319     0   OUT
-   5  Pipeworks 
-Ninja Vs unicorn vs haze  24u/4cs            $0     24     0   OUT
-   6  Modelo Especial                      21u/21cs           $4     21     0   OUT
-   7  Monaco Classic Watermelon Margarita  24u/2cs           $45     24     0   OUT
-   8  Icehouse 40oz btl                    17u/17cs          $38     27    10   OUT
-   9  Hamm's 6pk 12oz can                  15u/15cs          $36     15     0   OUT
-  10  Miller High Life 24pk 16oz can       87u/87cs       $1,325     87     0   OUT
-  11  Miller High Life Light 24pk 16oz ca  13u/13cs         $108     13     0   OUT
-  12  Downeast Blackberry 6pk 12oz can     24u/6cs          $222     26     0   OUT
-  13  Samuel Adams Jack-O 12pk 12oz can    24u/12cs         $308     24     0   OUT
-  14  Lagunitas Seasonal 6pk 12oz btl      12u/3cs           $92     13     0   OUT
-  15  Wooden Hill Pixie Catcher            11u/11cs         $109     11     0   OUT
-  16  Founders All Day IPA Variety 12pk 1  66u/33cs         $940     66     0   OUT
-  17  Tucher Brau Dunkles Hefe Weizen      10u/10cs          $79     10     0   OUT
-  18  Bent Paddle Light Lager  12pk 12oz   465u/465cs     $5,440    460     0   OUT
-  19  Summit Saga Variety 12pk 12oz can    576u/288cs     $7,603    581     5   OUT
-  20  Toppling Goliath Lemon Meringue 4pk  12u/2cs            $0      9     0   OUT
-  ...and 885 more in the full list.
+   1  Tucher Festbier 4pk 16oz can         1u/1cs             $9      1     0   OUT
+   2  Downeast Cider Seasonal 2 4pk 12oz   12u/2cs          $105     11     0   OUT
+   3  Modelo Especial                      1u/1cs             $0      1     0   OUT
+   4  Hamm's 6pk 12oz can                  1u/1cs             $2      1     0   OUT
+   5  Miller High Life 24pk 16oz can       6u/6cs            $91      6     0   OUT
+   6  Miller High Life Light 24pk 16oz ca  1u/1cs             $8      1     0   OUT
+   7  Samuel Adams Jack-O 12pk 12oz can    2u/1cs            $26      2     0   OUT
+   8  Wooden Hill Pixie Catcher            1u/1cs            $10      1     0   OUT
+   9  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
+  10  Bent Paddle Light Lager  12pk 12oz   50u/50cs         $585     45     0   OUT
+  11  Summit Saga Variety 12pk 12oz can    44u/22cs         $581     49     5   OUT
+  12  Toppling Goliath Hazy Day Sue 6pk 1  16u/4cs          $160     17     0   OUT
+  13  Summit Sampler Pack 12pk 12oz can    32u/16cs         $422     36     5   OUT
+  14  HIgh Noon Black Cherry 12oz can      1u/1cs             $1      1     0   OUT
+  15  Fulton Brewing Chill City 6pk 12oz   2u/2cs            $10      2     0   OUT
+  16  Wooden Hill Kold Shoulder            6u/6cs            $45      6     0   OUT
+  17  Firestone Walker Cali Squeeze Blood  2u/2cs             $4      2     0   OUT
+  18  Cutwater Grapefruit Tequila Paloma   48u/2cs            $0     51     0   OUT
+  19  Schilling Grapefruit and Chill 6pk   3u/3cs            $26      3     0   OUT
+  20  Michelob Golden Draft 24pk 12oz btl  2u/2cs             $0      2     0   OUT
+  ...and 649 more in the full list.
 
-  NEEDS REVIEW (153 items the system isn't fully sure about - check before ordering):
-    Cutwater Whiskey Sour 4pk 12oz can        Seasonal - last year ~2/wk vs 0 now, buy ahead?
+  NEEDS REVIEW (72 items the system isn't fully sure about - check before ordering):
     Downeast Cider Seasonal 2 4pk 12oz can    Seasonal - last year ~11/wk vs 3 now, buy ahead?
-    Pipeworks 
-Ninja Vs unicorn vs haze 4pk   No cost data - verify price; Margin over 95% - check retail
-    Icehouse 40oz btl                         Margin looks off - check retail/cost
-    Bent Paddle Light Lager  12pk 12oz can    Large buy ($5,440) - confirm
-    Summit Saga Variety 12pk 12oz can         Large buy ($7,603) - confirm; Seasonal - last year ~24/wk vs 14 now, buy ahead?
-    Toppling Goliath Lemon Meringue 4pk 16oz  No cost data - verify price; Margin over 95% - check retail
-    Downeast Overboard Mix Pack 9pk 12oz can  Seasonal - last year ~9/wk vs 0 now, buy ahead?
-    Summit Sampler Pack 12pk 12oz can         Large buy ($5,227) - confirm; Seasonal - last year ~24/wk vs 10 now, buy ahead?
+    Summit Saga Variety 12pk 12oz can         Seasonal - last year ~24/wk vs 14 now, buy ahead?
+    Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~24/wk vs 10 now, buy ahead?
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
     Michelob Golden Draft 24pk 12oz btl       No cost data - verify price; Margin over 95% - check retail
-    2 Towns POG Cosmic Crisp 6pk 12oz can     Margin looks off - check retail/cost
     Moosehead 12pk 12oz btl                   Seasonal - last year ~6/wk vs 0 now, buy ahead?
-    Mystery Beer 24pk                         Large buy ($6,786) - confirm; Seasonal - last year ~502/wk vs 59 now, buy ahead?
-    Fair State Pilsner 4pk 16oz can           Seasonal - last year ~4/wk vs 0 now, buy ahead?
-    ...and 138 more (see Needs Review tab).
+    Mystery Beer 24pk                         Seasonal - last year ~502/wk vs 59 now, buy ahead?
+    Earth Rider 6pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
+    New Belgium Juicy Haze IPA 6pk 12oz can   Seasonal - last year ~3/wk vs 1 now, buy ahead?
+    Bells Hazy Hearted 16 gal keg             No cost data - verify price; Margin over 95% - check retail
+    Modelo Oro 24pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
+    Modist Supra Deluxe Sea Salt Lime 16oz c  No cost data - verify price; Margin over 95% - check retail
+    Cayman Jack Margarita                     No cost data - verify price; Margin over 95% - check retail
+    Fair State Raspberry Roselle 4pk 12oz ca  Margin looks off - check retail/cost
+    Venn Pineapple Northodox 4pk 16oz can     Seasonal - last year ~2/wk vs 1 now, buy ahead?
+    ...and 57 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (16 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (14 discontinued items still selling/low - run down stock):
     Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 24u)
     Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 36u)
     Athletic Lite N/A 6pk 12oz can              (would have bought 16u)
     Beatbox Blue Razzberry  500ml               (would have bought 48u)
-    Heineken 0.0 NA 12pk 12oz can               (would have bought 16u)
-    High Noon End Zone Pack 8pk 12oz can        (would have bought 250u)
-    High Noon Pool Pack 8pk 12oz can            (would have bought 3u)
+    Heineken 0.0 NA 12pk 12oz can               (would have bought 12u)
     Jack & Coke Zero 4pk 12oz can               (would have bought 6u)
     Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 2u)
     Liqs Whiskey Fireshot                       (would have bought 1u)
-    Monaco Tequila Lime Crush 12oz can          (would have bought 108u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 24u)
     The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 28u)
-    The Finnish Long Drink Strong 6pk 12oz can  (would have bought 16u)
+    The Finnish Long Drink Strong 6pk 12oz can  (would have bought 12u)
     The Finnish Long Drink Traditional 6pk 12o  (would have bought 96u)
     The Finnish Long Drink Zero 6pk 12oz can    (would have bought 64u)
-    ...and 1 more (see Being Removed tab).
+    Two Chicks Apple Gimlet 4pk 12oz can        (would have bought 1u)
 
-  WAIT FOR BUY-MONTH (2 routine deal items out of their buy month - $151 cheaper to buy in-month):
-    High Noon Beach Variety 12pk 12oz           Wait for buy-month (May, Aug)
+  WAIT FOR BUY-MONTH (1 routine deal items out of their buy month - $52 cheaper to buy in-month):
     High Noon Lemon 4pk 12oz can                Wait for buy-month (May, Aug)

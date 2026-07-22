@@ -2,39 +2,39 @@
   RECOMMENDED WINE ORDER          Wednesday, Jul 22, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    125,270
-  Coverable by transfer .......  $     63,450   (51%)
-  NET BUY from vendors ........  $     85,055   <- the order
+  Gross need (all stores) .....  $    124,504
+  Coverable by transfer .......  $     63,045   (51%)
+  NET BUY from vendors ........  $     84,577   <- the order
 
-  116 items   |   6,891 units to buy   |   7,996 units to rebalance
-  Transfers: 805 moves  -  666 urgent (278 stockouts, 388 under 2wk), 139 routine
+  115 items   |   6,842 units to buy   |   7,938 units to rebalance
+  Transfers: 802 moves  -  663 urgent (274 stockouts, 389 under 2wk), 139 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 58 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Penfolds Club Port                   2u/2cs            $20      2     0   OUT
-   2  Ponga Sauvignon Blanc 750ml          12u/1cs          $119      7     0   OUT
-   3  90+ Cellars DOC Prosecco Lot 50 (si  288u/12cs        $777    280     0   OUT
-   4  Coastline Cab Sauv Reserve 750ml     4u/4cs            $22      4     0   OUT
-   5  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
-   6  Atomic Boss Blue Rizz 500ml          12u/1cs            $0      7     0   OUT
-   7  Locations F 750ml                    2u/2cs            $22      2     0   OUT
-   8  Sourcd Amazing Australia Box 750ml   1u/1cs            $30      1     0   OUT
-   9  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
-  10  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
-  11  Boneshaker Zinfandel/ D              1u/1cs            $13      1     0   OUT
-  12  Atomic Boss POG Hard Punch 500ml     48u/4cs            $0     42     0   0.9
-  13  Shania White 3L Box                  9u/3cs           $111     10     0   1.4
-  14  Gallo Merlot 1.5L                    18u/3cs          $122     16     0   1.4
-  15  Barefoot Pinot Noir 250ml            12u/2cs           $72     13     0   1.4
-  16  La Vieille Ferme Rose 4pk 250ml can  6u/1cs            $60      6     0   1.4
-  17  Bota Box Riesling 3L Box             6u/2cs            $88      7     0   1.7
-  18  Josh Cellars Chardonnay 750ml        240u/20cs      $2,005    260    16   1.8
-  19  Yes Way Rose 750ml                   192u/16cs      $1,520    198    11   1.9
-  20  Underwood Bubbles 355ml              156u/13cs        $696    192    40   1.9
-  ...and 96 more in the full list.
+   1  Penfolds Club Port                   1u/1cs            $10      1     0   OUT
+   2  90+ Cellars DOC Prosecco Lot 50 (si  288u/12cs        $777    280     0   OUT
+   3  Coastline Cab Sauv Reserve 750ml     4u/4cs            $22      4     0   OUT
+   4  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
+   5  Atomic Boss Blue Rizz 500ml          12u/1cs            $0      7     0   OUT
+   6  Locations F 750ml                    2u/2cs            $22      2     0   OUT
+   7  Sourcd Amazing Australia Box 750ml   1u/1cs            $30      1     0   OUT
+   8  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
+   9  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
+  10  Boneshaker Zinfandel/ D              1u/1cs            $13      1     0   OUT
+  11  Atomic Boss POG Hard Punch 500ml     48u/4cs            $0     42     0   0.9
+  12  Shania White 3L Box                  9u/3cs           $111     10     0   1.4
+  13  Gallo Merlot 1.5L                    18u/3cs          $122     16     0   1.4
+  14  Barefoot Pinot Noir 250ml            12u/2cs           $72     13     0   1.4
+  15  La Vieille Ferme Rose 4pk 250ml can  6u/1cs            $60      6     0   1.4
+  16  Bota Box Riesling 3L Box             6u/2cs            $88      7     0   1.7
+  17  Josh Cellars Chardonnay 750ml        228u/19cs      $1,905    248    16   1.8
+  18  Yes Way Rose 750ml                   192u/16cs      $1,520    198    11   1.9
+  19  Underwood Bubbles 355ml              156u/13cs        $696    192    40   1.9
+  20  Papi Sauvignon Blanc 750ml           168u/14cs        $741    200    71   2.0
+  ...and 95 more in the full list.
 
   NEEDS REVIEW (58 items the system isn't fully sure about - check before ordering):
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
