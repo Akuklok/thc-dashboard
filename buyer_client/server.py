@@ -274,15 +274,13 @@ def send_feedback_email(subject, html, img_b64):
 
 
 def get_bytes(name):
-    """Return the bytes of a data file. Hosted: from the repo's data/ folder; local: newest match."""
-    if gh_token():
-        url = ("https://api.github.com/repos/%s/%s/contents/data/%s?ref=%s"
-               % (GH_OWNER, GH_REPO, urllib.parse.quote(name), GH_BRANCH))
-        # raw media type returns the file bytes directly (handles files >1MB, which the
-        # default base64-JSON response truncates to empty - e.g. the 2.5MB Full Lists).
-        req = urllib.request.Request(url, headers={"Authorization": "Bearer " + gh_token(),
-                                                   "Accept": "application/vnd.github.raw",
-                                                   "User-Agent": "ttb"})
+    """Return the bytes of a data file. Hosted: read the PUBLIC repo directly over raw.github
+    (no token, so an expired GITHUB_TOKEN can never blank the app); local: newest matching file.
+    raw.githubusercontent serves any file size and has no 60/hr unauth API rate limit."""
+    if os.environ.get("PORT"):                              # hosted (Render sets PORT)
+        url = ("https://raw.githubusercontent.com/%s/%s/%s/data/%s"
+               % (GH_OWNER, GH_REPO, GH_BRANCH, urllib.parse.quote(name)))
+        req = urllib.request.Request(url, headers={"User-Agent": "ttb"})
         try:
             with urllib.request.urlopen(req, timeout=40) as r:
                 return r.read()
