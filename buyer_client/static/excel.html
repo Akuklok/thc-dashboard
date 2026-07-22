@@ -128,6 +128,11 @@
   async function send(){
     const t = $('q').value.trim();
     if (!t || busy) return;
+    // An edit command belongs to the Do-it flow (propose -> approve), not chat (read-only). Route
+    // it there automatically, so it works whichever button the buyer clicked.
+    if (/^\s*(delete|remove|clear|drop|highlight|colou?r|flag|cut|fit|set|fill|change|replace|copy|move|sort|hide|round|format)\b/i.test(t)) {
+      planEdit(); return;
+    }
     let content = t, display = t;
     if (attached){ content += `\n\n[Selected cells from Excel, ${attached.address}]:\n${attached.tsv}`; display = t + `\n(+ selection ${attached.address})`; }
     messages.push({ role:'user', content, display });
@@ -135,7 +140,7 @@
     busy = true; $('sendBtn').disabled = true; status('Thinking...');
     try {
       const r = await fetch('/api/chat', { method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ dept: $('dept').value, messages: messages.map(m=>({role:m.role, content:m.content})) }) });
+        body: JSON.stringify({ dept: $('dept').value, source: 'excel', messages: messages.map(m=>({role:m.role, content:m.content})) }) });
       const d = await r.json();
       messages.push({ role:'assistant', content: d.reply || '(no reply)' });
       render(); status('');

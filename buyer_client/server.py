@@ -706,13 +706,20 @@ def _key(env_name, keyfile):
                                         if os.path.exists(keyfile) else "")
 
 
-def ai_reply(dept, messages):
+def ai_reply(dept, messages, source=None):
     """Claude-powered (Anthropic) when a key is present; falls back to Gemini if Claude errors."""
     # focus on the recent conversation (both sides) so follow-ups like "what's the club price"
     # keep the item the assistant just named in context, not only what the user typed.
     focus = " ".join(m.get("content", "") for m in messages[-6:])
     stable, foc = build_parts(dept, focus)
     system = _build_system(dept, stable)            # stable per-dept data -> cached for Claude
+    if source == "excel":                           # the Ask box inside the Excel add-in, not the web app
+        system += ("\n\nCONTEXT: You are inside the Excel add-in, looking at the buyer's own spreadsheet, "
+                   "NOT the web dashboard. Never mention 'Export to Excel', the Today tab, the Order by "
+                   "Distributor tab, or any web page. You can read and analyze the sheet and answer questions. "
+                   "To CHANGE the sheet (delete rows, clear, highlight, edit, fit to budget) tell them to click "
+                   "the 'Do it' button or a quick-action button, and you will show the exact change for them to "
+                   "approve. Never say you cannot edit, the Do it flow can.")
     msgs = [dict(m) for m in messages]
     if foc.strip():                                 # per-question detail rides with the latest user message
         for m in reversed(msgs):
@@ -1201,7 +1208,7 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, {"ok": False})
         if u.path == "/api/chat":
             try:
-                reply = ai_reply(payload.get("dept", "THC"), payload.get("messages", []))
+                reply = ai_reply(payload.get("dept", "THC"), payload.get("messages", []), payload.get("source"))
                 return self._send(200, {"reply": reply})
             except Exception as e:
                 return self._send(200, {"reply": f"(Assistant error: {e})"})
