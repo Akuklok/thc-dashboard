@@ -1,6 +1,6 @@
 // Service worker: network-first for the app page (so updates show immediately),
 // cache-first for icons, never cache /api/ data. Bump CACHE to force a refresh.
-const CACHE = 'ttb-v60';
+const CACHE = 'ttb-v61';
 const SHELL = ['/icon.svg', '/manifest.webmanifest'];
 
 self.addEventListener('install', e => {

@@ -61,6 +61,8 @@
     <button class="q" onclick="quick('Highlight whole rows in orange where the OH (on hand) column is negative.')">Flag negatives</button>
     <input id="budgetIn" placeholder="budget $" inputmode="numeric" style="width:82px;padding:6px 8px;border:1px solid var(--line);border-radius:20px;font-size:12px"/>
     <button class="q" onclick="fitBudget()">Fit to budget</button>
+    <input id="minwkIn" placeholder="min wks" value="2" inputmode="decimal" style="width:70px;padding:6px 8px;border:1px solid var(--line);border-radius:20px;font-size:12px"/>
+    <button class="q" onclick="rightSize()">Right-size</button>
   </div>
   <div id="status"></div>
   <div id="plan" style="display:none;margin:0 10px 8px;border:1px solid var(--line);border-radius:10px;background:#fff">
@@ -140,6 +142,46 @@
     const c = $('chip');
     if (attached){ c.style.display='inline-block'; c.innerHTML = `Selection attached (${esc(attached.address)}) <a onclick="attached=null;updateChip()">remove</a>`; }
     else c.style.display='none';
+  }
+
+  // Right-size: flag where the buy is more than needed to cover a minimum weeks-of-supply floor,
+  // so a budget-tight buyer can trim cases (not drop items). Highlights + shows the lean qty; her call.
+  async function rightSize(){
+    if(!inExcel){ status('Open this inside Excel to right-size the order.'); return; }
+    let minw=parseFloat(String($('minwkIn')?$('minwkIn').value:'').replace(/[^0-9.]/g,'')); if(!minw||minw<=0) minw=2;
+    cancelPlan(); status('Reading your order...');
+    let data;
+    try{ data=await Excel.run(async c=>{ const sh=c.workbook.worksheets.getActiveWorksheet(); const u=sh.getUsedRange(); u.load('values,address'); await c.sync(); return {vals:u.values||[], addr:u.address}; }); }
+    catch(e){ status('Could not read the sheet: '+(e.message||e)); return; }
+    const vals=data.vals; if(vals.length<2){ status('No order rows to work with.'); return; }
+    const hdr=(vals[0]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
+    const find=ns=>{ for(const n of ns){ const i=hdr.indexOf(n); if(i>=0) return i; } return -1; };
+    const ohi=find(['chain oh (toh)','chain oh','toh','on hand','oh']);
+    const wi=find(['wos','weeks of supply']); const bci=find(['buy cases','cases ordered']);
+    const bui=find(['buy units','buy qty']); const ci=find(['unit cost','cost','net unit cost']);
+    const di=find(['deal terms']);
+    if(ohi<0||wi<0||bci<0){ status('I need On-hand, WOS, and Buy Cases columns to right-size the order.'); return; }
+    const toN=v=>{ const x=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(x)?0:x; };
+    const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[0]||[]).length;
+    const left=colLetter(off), right=colLetter(off+ncol-1);
+    const flags=[]; let freed=0;
+    for(let r=1;r<vals.length;r++){
+      const row=vals[r]; const oh=toN(row[ohi]), wos=toN(row[wi]), bc=toN(row[bci]);
+      const bu=bui>=0?toN(row[bui]):bc, cost=ci>=0?toN(row[ci]):0;
+      if(bc<1) continue;
+      const cp=(bu>0&&bc>0)?bu/bc:1; const vel=(wos>0&&oh>0)?oh/wos:0;
+      if(vel<=0) continue;                                  // out of stock -> needs the full buy, never trim
+      const lean=Math.max(0, Math.ceil(Math.max(0, minw*vel-oh)/cp));
+      if(bc-lean<1) continue;                               // can't drop a full case
+      const save=(bc-lean)*cp*cost; freed+=save;
+      const ad=(di>=0 && String(row[di]||'').toUpperCase().includes('ON AD'))?' - ON AD, keep?':'';
+      flags.push({rn:top+r, save:save, note:bc+' cs -> '+lean+' cs still covers '+minw+'wk (now WOS '+wos.toFixed(1)+', save ~$'+Math.round(save).toLocaleString()+')'+ad});
+    }
+    if(!flags.length){ status('Nothing to trim - every order is already at or below '+minw+' weeks.'); return; }
+    flags.sort((a,b)=>b.save-a.save);
+    const actions=flags.map(f=>({op:'highlight', address:left+f.rn+':'+right+f.rn, color:'#FFF2CC', note:f.note}));
+    plan={summary:'Leaning to a '+minw+'-week floor: '+flags.length+' items you could trim, up to $'+Math.round(freed).toLocaleString()+' freed. Sorted by savings - trim from the top to fit budget. Your call on fast movers (check the WOS) and anything on ad.', actions:actions};
+    renderPlan(plan); status('');
   }
 
   // Feedback: same backend as the web app's Report button, so all reports land in one inbox.
