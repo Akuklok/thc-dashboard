@@ -305,7 +305,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         g.loc[is_ad, "ad_kind"] = amatch[is_ad].map(lambda t: t[0])
         atgt = amatch.map(lambda t: t[1] if t else np.nan)
         g.loc[is_ad, "ad_target"] = atgt[is_ad]
-        ad_units = (atgt * g["wk_vel"] - g["OH"]).clip(lower=0)
+        ad_units = (atgt * g["wk_vel"] - g["OH"].clip(lower=0)).clip(lower=0)
         boost = is_ad & (ad_units > g["Net Buy"].fillna(0))
         g.loc[boost, "Net Buy"] = ad_units[boost]
         g.loc[is_ad, "Buy Cases"] = np.ceil((g.loc[is_ad, "Net Buy"] / g.loc[is_ad, "case"]).fillna(0))
@@ -328,7 +328,7 @@ def run_department(df, label, retail, buyers, today, fdate, stale_days, need_bas
         inmonth = wtn > 0
         g.loc[inmonth, "bm_stock"] = True
         g.loc[inmonth, "bm_wks"] = wtn[inmonth]
-        bm_units = (wtn * g["wk_vel"] - g["OH"]).clip(lower=0)
+        bm_units = (wtn * g["wk_vel"] - g["OH"].clip(lower=0)).clip(lower=0)
         boost = inmonth & (bm_units > g["Net Buy"].fillna(0))
         g.loc[boost, "Net Buy"] = bm_units[boost]
         g.loc[inmonth, "Buy Cases"] = np.ceil((g.loc[inmonth, "Net Buy"] / g.loc[inmonth, "case"]).fillna(0))
@@ -663,7 +663,12 @@ def main():
     # Cloud Retailer's PM column + a 30/90 velocity blend, which ran way high or way low
     # vs how she buys.)  need>0 only when 30-day WOS < TARGET_WEEKS.
     df["vel"] = df["30D"] * 7 / 30                       # 30-day weekly velocity
-    df["need"] = (df["vel"] * TARGET_WEEKS - df["OH"]).clip(lower=0)
+    # Floor on-hand at 0 for the need math: a NEGATIVE count is a receiving error (product came
+    # in but was never scanned), not extra demand. Subtracting a negative inflated the buy by
+    # ~$120k of phantom Beer need each week. This matches how the daily brief already treats it;
+    # the receiving check flags these stores separately for a recount.
+    df["OHneed"] = df["OH"].clip(lower=0)
+    df["need"] = (df["vel"] * TARGET_WEEKS - df["OHneed"]).clip(lower=0)
     need_basis = f"30-day weeks-of-supply: reorder under {TARGET_WEEKS} wks, top up to {TARGET_WEEKS}"
 
     # Agreed vendor par (e.g. Gigli): never recommend a (SKU, store) below the agreed minimum
@@ -676,7 +681,7 @@ def main():
         cases = pd.Series([par.get(k, 0) for k in keys], index=df.index)
         df["has_par"] = cases > 0
         par_units = cases * df["Case Qty/Reorder Multiple"].replace(0, 1)
-        df["need"] = np.maximum(df["need"], (par_units - df["OH"]).clip(lower=0))
+        df["need"] = np.maximum(df["need"], (par_units - df["OHneed"]).clip(lower=0))
         print(f"Vendor par applied: {int(df['has_par'].sum())} (SKU x store) floors set.")
 
     retail = retail_price_map(xl)
