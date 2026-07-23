@@ -291,7 +291,8 @@ def get_bytes(name):
 
 ALL_DEPTS = ["THC", "Wine", "Spirits", "Beer", "Other"]
 USERS = {"akuklok": "topten575corp", "wine": "wine2026",
-         "thc": "thc2026", "beerspirits": "bs2026"}
+         "thc": "thc2026", "beerspirits": "bs2026",
+         "buyer": "topten2026"}          # single shared login for all three buyers
 USER_DEPTS = {
     "akuklok": ALL_DEPTS,
     "wine": ["Wine"],

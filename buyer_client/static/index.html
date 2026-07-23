@@ -148,6 +148,14 @@
 </head>
 <body>
 
+<div id="login" style="display:none">
+  <h1>Top Ten Buyer</h1>
+  <p>Enter the team login to continue.</p>
+  <input id="lgUser" placeholder="Username" autocomplete="username" autocapitalize="none"/>
+  <input id="lgPw" type="password" placeholder="Password" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()"/>
+  <button onclick="doLogin()">Sign in</button>
+  <div id="lgErr" style="color:#c0392b;font-size:13px;margin-top:8px"></div>
+</div>
 <div id="app" style="display:none">
   <header>
     <span class="brand">Top Ten Buyer</span>
@@ -162,7 +170,7 @@
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
   </header>
   <div class="tabs">
-    <button id="tabToday" class="on" onclick="show('today')">Today — what to do</button>
+    <button id="tabToday" class="on" onclick="show('today')">Today: recommended order</button>
     <button id="tabAsk" onclick="show('ask')">Ask the assistant</button>
     <button id="tabLists" onclick="show('lists')">Product Lists</button>
     <button id="tabVend" onclick="show('vendors')">Order by distributor</button>
@@ -1044,7 +1052,20 @@ if('serviceWorker' in navigator){
   let _reloaded=false;
   navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(!_reloaded){_reloaded=true; location.reload();} });
 }
-init();
+function boot(){
+  if(localStorage.getItem('ttb_authed')==='1'){ init(); }
+  else { $('login').style.display='block'; }
+}
+async function doLogin(){
+  const u=($('lgUser').value||'').trim().toLowerCase(), pw=$('lgPw').value||'';
+  $('lgErr').textContent='Checking...';
+  try{
+    const r=await (await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({user:u,pw:pw})})).json();
+    if(r&&r.ok){ localStorage.setItem('ttb_authed','1'); $('login').style.display='none'; init(); }
+    else { $('lgErr').textContent='Wrong username or password.'; }
+  }catch(e){ $('lgErr').textContent='Could not reach the server. Try again.'; }
+}
+boot();
 </script>
 </body>
 </html>
