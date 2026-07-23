@@ -306,6 +306,27 @@
     plan=d; renderPlan(d); status('');
   }
   function quick(req){ if(!inExcel){ status('Open this inside Excel to use quick actions.'); return; } $('q').value=req; planEdit(); }
+  // Find the order-dollars column. Exact names win; else pick the column whose VALUES look like
+  // money (mostly filled, positive, has cents, biggest total) so it works when it's labeled "Total".
+  function findCostCol(hdr, vals){
+    const named=['net buy $','net buy','order $','extended cost','ext cost','ext price','extended price',
+                 'total $','total cost','line total','order total','ext $','net $'];
+    for(const n of named){ const i=hdr.indexOf(n); if(i>=0) return {i:i, guessed:false}; }
+    const moneyWord=h=>/\$|cost|amount|extend|\bext\b|price|total|value|net buy/.test(h);
+    const toN=v=>{ const n=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(n)?null:n; };
+    const ncol=(vals[0]||[]).length, rows=vals.length-1; let best=null;
+    for(let i=0;i<ncol;i++){
+      let nnum=0,npos=0,ndec=0,sum=0;
+      for(let r=1;r<vals.length;r++){ const n=toN(vals[r][i]); if(n===null) continue; nnum++; if(n>0)npos++; if(Math.abs(n%1)>1e-9)ndec++; sum+=n; }
+      if(!nnum) continue;
+      const frac=rows?nnum/rows:0, posFrac=npos/nnum;
+      if(frac<0.6 || posFrac<0.8) continue;                 // a cost column is mostly-filled and positive
+      const score=[moneyWord(hdr[i]||'')?1:0, (ndec/nnum)>=0.3?1:0, sum];   // header hint, has-cents, biggest total
+      if(!best || score[0]>best.s[0] || (score[0]===best.s[0]&&score[1]>best.s[1]) ||
+         (score[0]===best.s[0]&&score[1]===best.s[1]&&score[2]>best.s[2])) best={i:i, s:score};
+    }
+    return best ? {i:best.i, guessed:true} : {i:-1};
+  }
   async function fitBudget(){
     if(!inExcel){ status('Open this inside Excel to fit the order to a budget.'); return; }
     const el=$('budgetIn'); const budget=parseFloat(String(el?el.value:'').replace(/[$,\s]/g,''));
@@ -317,21 +338,22 @@
     const vals=data.vals; if(vals.length<2){ status('No order rows to work with.'); return; }
     const hdr=(vals[0]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
     const find=ns=>{ for(const n of ns){ const i=hdr.indexOf(n); if(i>=0) return i; } return -1; };
-    const ni=find(['net buy $','net buy','order $','extended cost','ext cost']);
+    const cc=findCostCol(hdr, vals); const ni=cc.i;
     const wi=find(['wos','weeks of supply']); const ii=find(['item','product description','description']);
-    if(ni<0){ status('I need a cost column like "Net Buy $" to total the order.'); return; }
+    if(ni<0){ status('I could not find a dollar column (like "Net Buy $" = cases x cost) to total. Add one with numbers in it, then try again.'); return; }
     const toN=v=>{ const n=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(n)?0:n; };
     const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[0]||[]).length;
     const left=colLetter(off), right=colLetter(off+ncol-1);
+    const costNote=cc.guessed ? ('Read the "'+(String((vals[0]||[])[ni]||'').trim()||('column '+colLetter(off+ni)))+'" column (col '+colLetter(off+ni)+') as your order $ - rename it "Net Buy $" if that is the wrong column. ') : '';
     const rows=[];
     for(let r=1;r<vals.length;r++){ rows.push({rn:top+r, net:toN(vals[r][ni]), wos:(wi>=0?toN(vals[r][wi]):0), item:(ii>=0?String(vals[r][ii]||''):('row '+(top+r)))}); }
     const total=rows.reduce((a,x)=>a+x.net,0);
-    if(total<=budget){ status('Order is $'+Math.round(total).toLocaleString()+', already within $'+Math.round(budget).toLocaleString()+'. Nothing to cut.'); return; }
+    if(total<=budget){ status(costNote+'Order is $'+Math.round(total).toLocaleString()+', already within $'+Math.round(budget).toLocaleString()+'. Nothing to cut.'); return; }
     const cuts=[]; let removed=0;
     for(const x of rows.slice().sort((a,b)=>(b.wos-a.wos)||(b.net-a.net))){ if(total-removed<=budget) break; if(x.net<=0) continue; cuts.push(x); removed+=x.net; }
     if(!cuts.length){ status('Could not find enough to cut to hit that budget.'); return; }
     const actions=cuts.map(x=>({op:'highlight', address:left+x.rn+':'+right+x.rn, color:'#FFC7CE', note:'Cut: '+x.item.slice(0,34)+' ($'+Math.round(x.net).toLocaleString()+')'}));
-    plan={summary:'Drop these '+cuts.length+' least-urgent items ($'+Math.round(removed).toLocaleString()+') to go from $'+Math.round(total).toLocaleString()+' to $'+Math.round(total-removed).toLocaleString()+', under your $'+Math.round(budget).toLocaleString()+' budget.', actions:actions};
+    plan={summary:costNote+'Drop these '+cuts.length+' least-urgent items ($'+Math.round(removed).toLocaleString()+') to go from $'+Math.round(total).toLocaleString()+' to $'+Math.round(total-removed).toLocaleString()+', under your $'+Math.round(budget).toLocaleString()+' budget.', actions:actions};
     renderPlan(plan); status('');
   }
   function describe(a){
