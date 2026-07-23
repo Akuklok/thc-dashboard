@@ -158,7 +158,7 @@
     <a id="inboxLink" href="/admin.html" style="display:none;color:#bcd9e6;font-size:12px;text-decoration:none;margin:0 4px" title="Feedback inbox (admin)">Inbox ✉</a>
     <button onclick="exportAll()" title="Download every tab as one Excel workbook">Export all</button>
     <button onclick="openCustomize()" title="Customize what you see">Customize</button>
-    <button id="reportBtn" onclick="openReport()" title="Report a problem or idea (beta)">Report</button>
+    <button id="reportBtn" onclick="openReport()" title="Report a problem or idea">Report</button>
     <button onclick="location.reload()" title="Reload the latest data">Refresh</button>
   </header>
   <div class="tabs">
@@ -167,6 +167,7 @@
     <button id="tabLists" onclick="show('lists')">Product Lists</button>
     <button id="tabVend" onclick="show('vendors')">Order by distributor</button>
     <button id="tabLive" onclick="show('live')">Yesterday's sales</button>
+    <button id="tabTools" onclick="show('tools')">Wine tools</button>
   </div>
 
   <main id="today">
@@ -244,19 +245,36 @@
   </main>
 
   <main id="live" style="display:none">
-    <div class="hint" id="liveAsOf">Loading today's sales…</div>
+    <div class="hint" id="liveAsOf">Loading yesterday's sales…</div>
     <div id="liveCards" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px"></div>
     <h3 style="margin:16px 0 4px">By store</h3>
     <div class="wrap"><table id="liveStores"></table></div>
-    <h3 style="margin:16px 0 4px">Top sellers today</h3>
+    <h3 style="margin:16px 0 4px">Top sellers</h3>
     <div class="wrap"><table id="liveTop"></table></div>
+  </main>
+
+  <main id="tools" style="display:none">
+    <div class="sec">
+      <h3>Wine tools</h3>
+      <div class="subhint">The step-by-step tools for building the wine order. Each opens its own page — use the “Back to app” link at the top of it (or your browser Back button) to come back here.</div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:14px">
+        <a href="/wineprep.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:220px;flex:1;display:block">
+          <b style="color:var(--green)">Wine prep</b><div class="subhint" style="margin-top:4px">Get this week's wine files ready.</div></a>
+        <a href="/ad.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:220px;flex:1;display:block">
+          <b style="color:var(--green)">Ad order helper</b><div class="subhint" style="margin-top:4px">Turn the weekly ad into UPCs and suggested cases.</div></a>
+        <a href="/poimport.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:220px;flex:1;display:block">
+          <b style="color:var(--green)">PO import builder</b><div class="subhint" style="margin-top:4px">Build the file you upload to place the order.</div></a>
+        <a href="/vendorpos.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:220px;flex:1;display:block">
+          <b style="color:var(--green)">Vendor POs</b><div class="subhint" style="margin-top:4px">Split the order into a clean PO per distributor.</div></a>
+      </div>
+    </div>
   </main>
 
   <div id="report" style="display:none" onclick="if(event.target===this)closeReport()">
     <div class="sheet">
       <button class="xbtn" onclick="closeReport()" title="Close" style="float:right">&times;</button>
       <h3 style="margin:0 0 4px">Report a problem or idea</h3>
-      <div class="hint">Goes straight to the team with a screenshot of this screen. Thanks for helping during beta.</div>
+      <div class="hint">Goes straight to the team with a screenshot of this screen. Thanks for the feedback.</div>
       <img id="shotPrev" style="display:none" alt="screenshot preview"/>
       <div class="hint" style="margin:6px 0">Auto-captured this screen. Want a different image? <input type="file" id="shotFile" accept="image/*" onchange="loadShotFile(event)"/> (or paste one)</div>
       <input id="rname" placeholder="Your name (optional)"/>
@@ -520,7 +538,7 @@ async function exportList(){
 }
 // ---- per-buyer customization (saved on this device only) ----
 const PREF_SECTIONS=[['glance','This week at a glance'],['trcards','Transfers — move stock between stores first'],['buy','What to buy'],['plan','Transfer plan']];
-const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor'],['tabLive',"Yesterday's sales"]];
+const PREF_TABS=[['tabAsk','Ask the assistant'],['tabLists','Product Lists'],['tabVend','Order by distributor'],['tabLive',"Yesterday's sales"],['tabTools','Wine tools']];
 let lastBuyCols=[],lastBuyRows=[];
 function defPrefs(){ const show={},labels={}; PREF_SECTIONS.forEach(([id,l])=>{show[id]=true;labels[id]=l;}); PREF_TABS.forEach(([id])=>show[id]=true); return {note:'',show,labels,buyCols:null}; }
 function getPrefs(){ const d=defPrefs(); try{ const s=JSON.parse(localStorage.getItem('prefs')||'{}'); return {note:s.note||'',show:Object.assign(d.show,s.show||{}),labels:Object.assign(d.labels,s.labels||{}),buyCols:s.buyCols||null}; }catch(e){ return d; } }
@@ -552,10 +570,10 @@ function saveCustomize(){
 }
 function resetCustomize(){ localStorage.removeItem('prefs'); applyPrefs(); loadToday(); closeCustomize(); }
 function show(v){
-  for(const k of ['today','ask','lists','vendors','live']) $(k).style.display = (v===k)?'block':'none';
+  for(const k of ['today','ask','lists','vendors','live','tools']) $(k).style.display = (v===k)?'block':'none';
   $('tabToday').className=v==='today'?'on':''; $('tabAsk').className=v==='ask'?'on':'';
   $('tabLists').className=v==='lists'?'on':''; $('tabVend').className=v==='vendors'?'on':'';
-  $('tabLive').className=v==='live'?'on':'';
+  $('tabLive').className=v==='live'?'on':''; $('tabTools').className=v==='tools'?'on':'';
   if(v==='lists') loadTabs();
   if(v==='vendors') loadVendors();
   if(v==='live') loadLive();
@@ -720,7 +738,11 @@ function showFreshness(st){
 }
 async function loadToday(){
   const dept=$('dept').value;
-  const d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json();
+  $('cards').innerHTML='<div class="hint" style="padding:8px 2px">Loading this week’s order…</div>';
+  let d;
+  try{ d=await (await fetch('/api/today?dept='+encodeURIComponent(dept))).json(); }
+  catch(e){ $('cards').innerHTML='<div class="note">Couldn’t load this week’s numbers — check your connection and tap the department again.</div>'; return; }
+  if(d && d.error){ $('cards').innerHTML='<div class="note">This week’s order isn’t ready yet. It rebuilds automatically each afternoon — check back shortly.</div>'; return; }
   const h=d.headline||{}; const st=d.status||{};
   const n=v=>(v===undefined||v===null)?'-':v.toLocaleString();
   $('updated').textContent = st.built_utc ? ('Updated '+ago(st.built_utc)+(st.data_date?(' · data '+fmtd(st.data_date)):'')) : '';

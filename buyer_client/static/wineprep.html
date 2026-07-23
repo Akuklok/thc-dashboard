@@ -22,6 +22,7 @@
 </style>
 </head>
 <body>
+  <a href="/" style="display:inline-block;margin:12px 0 0 16px;font-family:system-ui,-apple-system,sans-serif;font-size:14px;color:#15728E;text-decoration:none">&larr; Back to app</a>
   <header><b>Today's Wine Prep</b><div class="sub">The two files, pulled and cleaned automatically. Download and paste.</div></header>
   <div class="wrap">
     <div class="asof" id="asof">Loading…</div>
@@ -36,7 +37,7 @@
     let d;
     try{ d=await (await fetch('/api/wineprep')).json(); }
     catch(e){ $('asof').textContent='Could not load.'; return; }
-    $('asof').textContent = d.date ? ('Data date: '+d.date) : 'Not built yet — run the Daily buying build once.';
+    $('asof').textContent = d.date ? ('Data date: '+d.date) : "Today's files aren't ready yet — they rebuild automatically each afternoon. Check back shortly.";
     $('cards').innerHTML = (d.files||[]).map(f=>{
       const ok=f.available;
       return `<div class="card"><div class="info"><h3>${esc(f.label)}</h3>`+

@@ -735,7 +735,8 @@ def ai_reply(dept, messages, source=None):
             print("Claude failed, falling back to Gemini:", e)
     if gk:
         return gemini_chat(gk, system, msgs)
-    return "No AI key configured (add anthropic_key.txt or gemini_key.txt)."
+    print("ai_reply: no AI key configured (set ANTHROPIC or GEMINI key)")
+    return "The assistant is temporarily unavailable. Please try again in a moment."
 
 
 # ---- Excel agent: turn a plain request + the sheet's shape into a concrete, approvable plan ----
@@ -812,7 +813,8 @@ def excel_plan(request_text, ctx):
     elif gk:
         raw = gemini_chat(gk, EXCEL_AGENT_SYSTEM, msgs)
     else:
-        return {"summary": "No AI key configured.", "actions": []}
+        print("excel-actions: no AI key configured")
+        return {"summary": "The assistant is temporarily unavailable. Please try again in a moment.", "actions": []}
     plan = _parse_json_obj(raw)
     if not isinstance(plan, dict):
         return {"summary": "I couldn't form a clear plan, try rephrasing.", "actions": []}
@@ -1209,7 +1211,8 @@ class Handler(BaseHTTPRequestHandler):
                 reply = ai_reply(payload.get("dept", "THC"), payload.get("messages", []), payload.get("source"))
                 return self._send(200, {"reply": reply})
             except Exception as e:
-                return self._send(200, {"reply": f"(Assistant error: {e})"})
+                print("chat error:", e)
+                return self._send(200, {"reply": "The assistant hit a snag. Please try again in a moment."})
         if u.path == "/api/excel-actions":
             # turn a plain request + the sheet's shape into an approvable plan of cell operations
             try:

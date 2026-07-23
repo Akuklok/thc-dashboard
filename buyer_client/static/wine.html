@@ -51,7 +51,7 @@
     </div>
 
     <div class="vision">
-      <b>Coming next:</b> the assistant moves inside Excel. It can already look at your screen and answer questions today. Next it lives right in the spreadsheet, proposing the adds, deletes, and clean-ups and doing them once the buyer approves. Built and waiting on IT to enable Office add-ins.
+      <b>New:</b> the assistant now works right inside Excel. Open it from the Home tab (Add-ins &rarr; Top Ten Buyer) and it proposes the adds, deletes, and clean-ups, then makes them once you approve. Nothing changes on its own.
     </div>
   </div>
 <script>
@@ -61,7 +61,7 @@
     let d;
     try{ d=await (await fetch('/api/wineprep')).json(); }
     catch(e){ $('asof').textContent='Could not load.'; return; }
-    $('asof').textContent = d.date ? ('Data date: '+d.date) : 'Not built yet — run the Daily buying build once.';
+    $('asof').textContent = d.date ? ('Data date: '+d.date) : 'These files rebuild automatically each afternoon. Check back shortly.';
     $('prep').innerHTML = (d.files||[]).map(f=>{
       const ok=f.available;
       return `<div class="card"><h3>${esc(f.label)}</h3>`+
