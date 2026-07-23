@@ -164,23 +164,56 @@
     const toN=v=>{ const x=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(x)?0:x; };
     const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[0]||[]).length;
     const left=colLetter(off), right=colLetter(off+ncol-1);
-    const flags=[]; let freed=0;
+    const budget=parseFloat(String($('budgetIn')?$('budgetIn').value:'').replace(/[$,\s]/g,''));  // optional
+    // per-line $ = unit cost x buy units; if there's no unit-cost column, detect an extended-$ column
+    const cc = ci<0 ? findCostCol(hdr, vals) : {i:-1, guessed:false}; const ei=cc.i;
+    const costNote = (budget && cc.guessed) ? ('(Totaled the "'+(String((vals[0]||[])[ei]||'').trim()||('col '+colLetter(off+ei)))+'" column as order $.) ') : '';
+    const cand=[]; let total=0, freedAll=0;
     for(let r=1;r<vals.length;r++){
       const row=vals[r]; const oh=toN(row[ohi]), wos=toN(row[wi]), bc=toN(row[bci]);
       const bu=bui>=0?toN(row[bui]):bc, cost=ci>=0?toN(row[ci]):0;
+      const line=ci>=0 ? bu*cost : (ei>=0 ? toN(row[ei]) : 0); total+=line;
       if(bc<1) continue;
       const cp=(bu>0&&bc>0)?bu/bc:1; const vel=(wos>0&&oh>0)?oh/wos:0;
       if(vel<=0) continue;                                  // out of stock -> needs the full buy, never trim
       const lean=Math.max(0, Math.ceil(Math.max(0, minw*vel-oh)/cp));
       if(bc-lean<1) continue;                               // can't drop a full case
-      const save=(bc-lean)*cp*cost; freed+=save;
-      const ad=(di>=0 && String(row[di]||'').toUpperCase().includes('ON AD'))?' - ON AD, keep?':'';
-      flags.push({rn:top+r, save:save, note:bc+' cs -> '+lean+' cs still covers '+minw+'wk (now WOS '+wos.toFixed(1)+', save ~$'+Math.round(save).toLocaleString()+')'+ad});
+      const percase=ci>=0 ? cp*cost : (bc>0?line/bc:0);     // $ freed per case trimmed
+      const isad=(di>=0 && String(row[di]||'').toUpperCase().includes('ON AD'));
+      const maxfree=(bc-lean)*percase; freedAll+=maxfree;
+      cand.push({rn:top+r, wos:wos, bc:bc, lean:lean, percase:percase, isad:isad, maxfree:maxfree});
     }
-    if(!flags.length){ status('Nothing to trim - every order is already at or below '+minw+' weeks.'); return; }
-    flags.sort((a,b)=>b.save-a.save);
-    const actions=flags.map(f=>({op:'highlight', address:left+f.rn+':'+right+f.rn, color:'#FFF2CC', note:f.note}));
-    plan={summary:'Leaning to a '+minw+'-week floor: '+flags.length+' items you could trim, up to $'+Math.round(freed).toLocaleString()+' freed. Sorted by savings - trim from the top to fit budget. Your call on fast movers (check the WOS) and anything on ad.', actions:actions};
+    if(!cand.length){ status('Nothing to trim - every order is already at or below '+minw+' weeks.'); return; }
+
+    // ---- No budget: flag every droppable item (the budget-lever view) ----
+    if(!budget){
+      cand.sort((a,b)=>b.maxfree-a.maxfree);
+      const actions=cand.map(f=>({op:'highlight', address:left+f.rn+':'+right+f.rn, color:'#FFF2CC',
+        note:f.bc+' cs -> '+f.lean+' cs still covers '+minw+'wk (now WOS '+f.wos.toFixed(1)+', save ~$'+Math.round(f.maxfree).toLocaleString()+')'+(f.isad?' - ON AD, keep?':'')}));
+      plan={summary:'Leaning to a '+minw+'-week floor: '+cand.length+' items you could trim, up to $'+Math.round(freedAll).toLocaleString()+' freed. Sorted by savings. Tip: type a budget $ in the box and I will trim just enough, safest first, to hit it.', actions:actions};
+      renderPlan(plan); status(''); return;
+    }
+
+    // ---- Budget mode: trim just enough to hit the budget, lowest-risk first ----
+    if(total<=0){ status('I could not find a cost or unit-cost column to total the order in dollars, so I cannot trim to a budget. (Right-size without a budget still works - clear the budget box.)'); return; }
+    if(total<=budget){ status(costNote+'Order is $'+Math.round(total).toLocaleString()+', already within $'+Math.round(budget).toLocaleString()+'. Nothing to trim.'); return; }
+    const gap=total-budget;
+    cand.sort((a,b)=> (a.isad-b.isad) || (b.wos-a.wos) || (b.percase-a.percase));  // non-ad first, most overstocked first
+    const picks=[]; let freed=0;
+    for(const f of cand){
+      if(freed>=gap) break;
+      let trim=0; const room=f.bc-f.lean;
+      while(trim<room && freed<gap){ trim++; freed+=f.percase; }
+      if(trim>0) picks.push({f:f, newbc:f.bc-trim, saved:trim*f.percase});
+    }
+    if(!picks.length){ status(costNote+'Could not find cases to trim above the '+minw+'-week floor.'); return; }
+    const actions=picks.map(p=>({op:'highlight', address:left+p.f.rn+':'+right+p.f.rn, color:'#FFF2CC',
+      note:p.f.bc+' cs -> '+p.newbc+' cs (WOS '+p.f.wos.toFixed(1)+', keeps '+minw+'wk floor, save $'+Math.round(p.saved).toLocaleString()+')'+(p.f.isad?' - ON AD':'')}));
+    const newtot=total-freed;
+    plan={summary: (freed<gap-0.5)
+      ? costNote+'Even trimming all '+picks.length+' overstocked items to the '+minw+'-week floor only gets you from $'+Math.round(total).toLocaleString()+' to $'+Math.round(newtot).toLocaleString()+' - still over $'+Math.round(budget).toLocaleString()+'. Lower the floor, or use Fit to budget to drop whole lines.'
+      : costNote+'To hit your $'+Math.round(budget).toLocaleString()+' budget: trim these '+picks.length+' most-overstocked items (save $'+Math.round(freed).toLocaleString()+'), from $'+Math.round(total).toLocaleString()+' to ~$'+Math.round(newtot).toLocaleString()+'. Safest first, ad items last - set each to the new case count.',
+      actions:actions};
     renderPlan(plan); status('');
   }
 
