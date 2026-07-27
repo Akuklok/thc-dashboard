@@ -1049,7 +1049,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 4904230049739,Spirits,49.33,case 1,
 4930127106490,Wine,12.12,,
 49331002215,Wine,20.18,,
-49331002222,Wine,11.23,,
+49331002222,Wine,11.23,2 on 9,
 49331002307,Wine,13.62,,
 49331002314,Wine,25.18,,
 49331003120,Wine,10.58,,
@@ -7907,10 +7907,10 @@ upc,Department,Buyer Cost,Deal,Buy Months
 863411000317,Spirits,12.17,M/M buy 2cs across chain receive 1cs free/monthly accum,3|4
 863411000379,Spirits,12.17,M/M buy 2cs across chain receive 1cs free/monthly accum,3|4
 863655000074,Spirits,37.92,,
-863950924,Wine,11.27,,
-86395094510,Wine,3.32,,
-86395094558,Wine,6.74,,
-86395095005,Wine,5.61,,
+863950924,Wine,11.27,Case 1 on Invoice,
+86395094510,Wine,3.32,Case 1 on Invoice,
+86395094558,Wine,6.74,Case 1,
+86395095005,Wine,5.61,Case 1 on Invoice,
 86395170207,Wine,7.92,,
 86395170405,Wine,7.92,,
 86395350005,Wine,6.34,,
