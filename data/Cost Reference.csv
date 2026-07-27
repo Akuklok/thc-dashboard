@@ -4631,7 +4631,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82000759454,Spirits,20.08,Case 1,1|3|5|7|9|11
 82000759621,Spirits,10.17,Case 1 Must hit 8 cs within month,2|4|6|8|10|12
 82000760832,Spirits,33.75,Case 1,
-82000766070,Spirits,39.33,7 cases m/m w/rye - across month of October,1|3|5|7|9|11
+82000766070,Spirits,38.18,Case 1 Must hit 7 cs within month,1|3|5|7|9|11
 82000766087,Spirits,14.38,Case 1,
 82000766834,Spirits,12.91,4cs across chain - same week,
 82000766858,Spirits,16.58,3cases across chain in one week,
@@ -8092,10 +8092,10 @@ upc,Department,Buyer Cost,Deal,Buy Months
 87000002708,Spirits,14.91,4 cases  - across chain-same week,1|3|5|7|9|11
 87000002715,Spirits,9.0,5 cases - across chain-one week,2|4|6|8|10|12
 87000003323,Spirits,10.42,Case 1,2|4|6|8|10|12
-87000004047,Spirits,39.33,7  cases m/m w/rye - across month of October,1|3|5|7|9|11
+87000004047,Spirits,38.18,Case 1 Must hit 7 cs within month,1|3|5|7|9|11
 87000004122,Spirits,14.38,Case 1,
 87000005525,Spirits,19.25,8  cases M/M RYE  - across chain - same week,2|4|6|8|10|12
-87000005549,Spirits,24.92,2  cases  across chain- same week,1|3|5|7|9|11
+87000005549,Spirits,23.43,Case 1 Must hit 3 cs within month,1|3|5|7|9|11
 87000007123,Spirits,15.1,"3cs, one store",
 87000007246,Spirits,26.67,"3cs m/m crown Apple  liter across chain, same week",1|3|5|7|9|11
 87000007253,Spirits,19.75,"12cs m/m (Reg, Apple, Peach,Vanilla)across chain-same week",2|4|6|8|10|12
