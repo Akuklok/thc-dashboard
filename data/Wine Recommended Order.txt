@@ -1,60 +1,61 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Sunday, Jul 26, 2026
+  RECOMMENDED WINE ORDER          Monday, Jul 27, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    133,934
-  Coverable by transfer .......  $     67,325   (50%)
-  NET BUY from vendors ........  $     89,003   <- the order
+  Gross need (all stores) .....  $    133,139
+  Coverable by transfer .......  $     65,884   (49%)
+  NET BUY from vendors ........  $     91,925   <- the order
 
-  111 items   |   6,908 units to buy   |   8,391 units to rebalance
-  Transfers: 873 moves  -  711 urgent (275 stockouts, 436 under 2wk), 162 routine
+  113 items   |   7,030 units to buy   |   8,207 units to rebalance
+  Transfers: 857 moves  -  711 urgent (286 stockouts, 425 under 2wk), 146 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 52 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 53 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Penfolds Club Port                   1u/1cs            $10      1     0   OUT
    2  Ponga Sauvignon Blanc 750ml          12u/1cs          $119      7     0   OUT
-   3  Atomic Boss POG Hard Punch 500ml     72u/6cs            $0     75     0   OUT
-   4  90+ Cellars DOC Prosecco Lot 50 (si  312u/13cs        $843    305     0   OUT
+   3  Atomic Boss POG Hard Punch 500ml     60u/5cs            $0     63     0   OUT
+   4  90+ Cellars DOC Prosecco Lot 50 (si  312u/13cs        $845    302     0   OUT
    5  Belle Glos Pinot Noir Las Alturas 7  12u/1cs          $398      8     0   OUT
-   6  Coastline Cab Sauv Reserve 750ml     4u/4cs            $22      4     0   OUT
-   7  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
-   8  Locations F 750ml                    2u/2cs            $22      2     0   OUT
-   9  Sourcd Amazing Australia Box 750ml   1u/1cs            $30      1     0   OUT
-  10  Statera WV "Est" Pinot Noir 750ml    1u/1cs            $22      1     0   OUT
-  11  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
-  12  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
-  13  Boneshaker Zinfandel/ D              1u/1cs            $13      1     0   OUT
-  14  Shania White 3L Box                  12u/4cs          $146     12     0   1.1
-  15  Washington Hills Late Riesling 750m  12u/1cs           $80      7     0   1.2
-  16  Yes Way Rose 750ml                   252u/21cs      $1,995    262    11   1.3
-  17  Barefoot Pinot Noir 250ml            12u/2cs           $72     13     0   1.4
-  18  Rancho La Gloria Lime Maragrita RTD  30u/5cs          $320     40    11   1.5
-  19  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     58    24   1.5
-  20  Gallo Merlot 1.5L                    18u/3cs          $123     16     0   1.6
-  ...and 91 more in the full list.
+   6  Livingston Red Rose 1.5L             6u/1cs            $37      6     0   OUT
+   7  Coastline Cab Sauv Reserve 750ml     4u/4cs            $22      4     0   OUT
+   8  Urogallo Fanferria Red               1u/1cs             $0      1     0   OUT
+   9  Locations F 750ml                    2u/2cs            $22      2     0   OUT
+  10  Sourcd Amazing Australia Box 750ml   1u/1cs            $30      1     0   OUT
+  11  Statera WV "Est" Pinot Noir 750ml    1u/1cs            $22      1     0   OUT
+  12  Domaine Petroni Corse Rouge          1u/1cs             $5      1     0   OUT
+  13  Poderi La Collina Dolcetto           1u/1cs             $8      1     0   OUT
+  14  Boneshaker Zinfandel/ D              1u/1cs            $13      1     0   OUT
+  15  Shania White 3L Box                  12u/4cs          $146     12     0   1.1
+  16  Yes Way Rose 750ml                   264u/22cs      $2,090    276    11   1.2
+  17  Washington Hills Late Riesling 750m  12u/1cs           $80      7     0   1.2
+  18  Rancho La Gloria Lime Maragrita RTD  36u/6cs          $384     39     6   1.4
+  19  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     57    24   1.4
+  20  Gallo Merlot 1.5L                    18u/3cs          $122     17     0   1.4
+  ...and 93 more in the full list.
 
-  NEEDS REVIEW (52 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (53 items the system isn't fully sure about - check before ordering):
     Atomic Boss POG Hard Punch 500ml          No cost data - verify price; Margin over 95% - check retail
     Belle Glos Pinot Noir Las Alturas 750ml   Off buy-month - confirm timing
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
     90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
-    Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost; Large buy ($16,295) - confirm; Buy-month stock-up ($16,295 to next deal) - confirm
-    Black Box Tart Tangy Sauvignon Blanc 3L   Buy-month stock-up ($2,558 to next deal) - confirm
-    Black Box Chardonnay 3L Box               Large buy ($8,052) - confirm; Buy-month stock-up ($8,052 to next deal) - confirm
-    Black Box Pinot Grigio 3L Box             Large buy ($10,211) - confirm; Buy-month stock-up ($10,211 to next deal) - confirm
-    Archer Roose Bubbly Rose 4pk 250ml        Seasonal - last year ~4/wk vs 2 now, buy ahead?
-    Bota Box Riesling 3L Box                  Seasonal - last year ~4/wk vs 2 now, buy ahead?
-    Yellow Tail Super Crisp Chard 1.5L        Margin looks off - check retail/cost
-    Black Box Rose 3L Box                     Buy-month stock-up ($1,159 to next deal) - confirm
-    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
+    Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost; Large buy ($17,810) - confirm; Buy-month stock-up ($17,810 to next deal) - confirm
+    Tyku Sake Junmai White 720ml              Margin over 95% - check retail
+    Black Box Tart Tangy Sauvignon Blanc 3L   Buy-month stock-up ($2,473 to next deal) - confirm
+    Black Box Chardonnay 3L Box               Large buy ($7,974) - confirm; Buy-month stock-up ($7,974 to next deal) - confirm
+    Black Box Pinot Grigio 3L Box             Large buy ($10,586) - confirm; Buy-month stock-up ($10,586 to next deal) - confirm
+    Archer Roose Bubbly Rose 4pk 250ml        Seasonal - last year ~3/wk vs 2 now, buy ahead?
+    Black Box Rose 3L Box                     Buy-month stock-up ($1,158 to next deal) - confirm
     Josh Cellars Cabernet Sauvignon 750ml     Margin looks off - check retail/cost
-    Black Box Cab Sauv 3L Box                 Large buy ($5,875) - confirm; Buy-month stock-up ($5,875 to next deal) - confirm
-    ...and 37 more (see Needs Review tab).
+    Yellow Tail Super Crisp Chard 1.5L        Margin looks off - check retail/cost
+    Bonterra Sauvignon Blanc 750ml            Buy-month stock-up ($272 to next deal) - confirm
+    Black Box Buttery Chardonnay 3L Box       Buy-month stock-up ($2,122 to next deal) - confirm
+    ...and 38 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (22 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (21 discontinued items still selling/low - run down stock):
+    Avaline White 750ml                         (would have bought 12u)
     Bogle Cabernet Sauvignon 750ml              (would have bought 312u)
     Bogle Chardonnay 750ml                      (would have bought 72u)
     Bogle Essential Red 750ml                   (would have bought 12u)
@@ -65,19 +66,20 @@
     Bogle Zinfandel 750ml                       (would have bought 24u)
     Franzia Chardonnay 5L Box                   (would have bought 48u)
     Franzia Chillable Red 5L Box                (would have bought 32u)
-    Franzia Crisp White 5L Box                  (would have bought 16u)
+    Franzia Crisp White 5L Box                  (would have bought 12u)
     Franzia Pinot Grigio 5L Box                 (would have bought 60u)
     Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 8u)
     Franzia Sauvignon Blanc 5L Box              (would have bought 8u)
-    Franzia Sunset Blush 5L Box                 (would have bought 60u)
-    ...and 7 more (see Being Removed tab).
+    ...and 6 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $3,614 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (10 routine deal items out of their buy month - $3,477 cheaper to buy in-month):
     19 Crimes Cali Red 750ml                    Wait for buy-month (Mar, May, Jun, Sep, Nov, Dec)
     Daily's Bahama Mama RTD Frozen 10oz         Wait for buy-month (Sep, Oct, Nov, Dec)
     Daily's Hurricane RTD Frozen 10oz           Wait for buy-month (Sep, Oct, Nov, Dec)
     Daily's Strawberry RTD Frozen 10oz          Wait for buy-month (Sep, Oct, Nov, Dec)
+    J Lohr Cabernet Sauvignon 750ml             Wait for buy-month (Mar, Jun, Sep, Nov, Dec)
     Meiomi Cabernet Sauvignon 750ml             Wait for buy-month (Mar, Jun, Sep, Dec)
+    Pine Ridge Chen Blanc/Viognier 750ml        Wait for buy-month (Feb, May, Aug, Oct, Nov)
     Underwood Bubbles 355ml                     Wait for buy-month (Apr, Jun, Aug, Oct)
     Underwood Rose Bubbles 375ml                Wait for buy-month (Apr, Jun, Aug, Oct)
     Whitehaven Sauv Blanc 750ml                 Wait for buy-month (Feb, May, Aug, Nov)
