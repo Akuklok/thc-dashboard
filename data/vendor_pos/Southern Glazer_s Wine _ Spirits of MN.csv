@@ -1,166 +1,778 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1030676,080432000212,Olmeca Altos Lime Margarita 750ml,551097,6,1.0,67.46,67.46,
-St. Louis Park,1030676,080432115763,Glenlivet Caribbean Reserve 750ml,963700,6,1.0,181.58,181.58,
-St. Louis Park,1030676,080432401262,Seagrams Extra Dry Gin 1.75L,10300,6,1.0,89.85,89.85,
-Chanhassen,1030577,080432500149,Jameson Irish Whiskey 375ml,617504,24,1.0,273.24,273.24,
-Andover,1030544,080480001094,Bacardi Limon Rum Traveler,290344,12,1.0,125.37,125.37,
-Bloomington,1030569,080480001506,Bacardi Spiced Rum 1.75L,960686,6,1.0,102.93,102.93,
-Minnetonka,1030605,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,1.0,146.0,146.0,
-St. Louis Park,1030676,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,1.0,146.0,146.0,
-Andover,1030544,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-Chanhassen,1030577,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-Plymouth,1030621,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-Ramsey,1030630,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-St. Louis Park,1030676,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-Vadnais Heights,1030697,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-Plymouth,1030621,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
-Vadnais Heights,1030697,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
-Andover,1030544,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
-Ramsey,1030630,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
-Andover,1030544,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,110.0,
-Chanhassen,1030577,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,110.0,
-Vadnais Heights,1030697,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,110.0,
-St. Louis Park,1030676,080480172022,Cazadores Blanco Tequila 750ml,535798,12,1.0,192.77,192.77,
-Chanhassen,1030577,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
-Minnetonka,1030605,080480280031,Grey Goose Vodka 375ml,38168,12,0.5,138.05,69.03,
-Andover,1030544,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-Plymouth,1030621,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-St. Louis Park,1030676,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-Andover,1030544,080480356200,Bacardi Limon Rum 50ml,511051,120,1.0,100.19,100.19,
-Andover,1030548,080480986285,Bacardi Mojito 4pk 12oz can,984914,6,2.0,48.7,97.4,Store Request
-Andover,1030544,080660010113,99 Butterscotch 50ml,381071,120,1.0,72.1,72.1,
-Plymouth,1030621,080660010113,99 Butterscotch 50ml,381071,120,1.0,72.1,72.1,
-Ramsey,1030630,080660010113,99 Butterscotch 50ml,381071,120,1.0,72.1,72.1,
-Bloomington,1030569,080660010700,99 Pineapples 50ml,395103,120,1.0,72.1,72.1,
-Chanhassen,1030577,080660472072,Barton Vodka 375ml,3996,24,1.0,59.6,59.6,
-Andover,1030544,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
-Vadnais Heights,1030697,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
-St. Louis Park,1030676,080660776057,Caravella Limoncello 750ml,298092,6,1.0,72.9,72.9,
-St. Louis Park,1030676,080686006893,Jim Beam Vanilla 50ml,000948486,120,1.0,79.2,79.2,
-Chanhassen,1030577,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,1.0,45.0,45.0,
-Minnetonka,1030605,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,2.0,45.0,90.0,
-St. Louis Park,1030676,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,3.0,45.0,135.0,
-Vadnais Heights,1030697,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,2.0,45.0,90.0,
-Chanhassen,1030577,080686010357,Suntory -196 Variety Pack 3 8pk 12oz can,656131,3,1.0,44.9,44.9,
-St. Louis Park,1030676,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
-St. Louis Park,1030676,080686363620,Dekuyper Triple Sec 375ml,407361,24,1.0,80.8,80.8,
-St. Louis Park,1030676,080686365204,Dekuyper Peachtree Schnapps Liter,25213,12,1.0,80.0,80.0,
-St. Louis Park,1030676,080686835059,Sauza Hornitos Reposado Tequila 1.75L,963381,6,1.0,174.38,174.38,
-St. Louis Park,1030676,080686835585,Sauza Hornitos Black Barrel 750ml,352601,12,1.0,315.0,315.0,
-Andover,1030544,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
-Chanhassen,1030577,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
-Andover,1030544,080686967675,Cruzan Light Rum 1.75L,546410,6,1.0,74.58,74.58,
-Plymouth,1030440,081308003337,Chloe Pinot Grigio 750ml,351385,12,1.0,84.0,84.0,
-Andover,1030354,081308004396,Cupcake Butterkissed Chard 750ml,464916,12,1.0,64.0,64.0,
-Chanhassen,1030577,082928214318,Fleischmanns Vodka 1.75L,11132,6,1.0,54.0,54.0,
-Plymouth,1030621,083089524001,Jagermeister 750ml,35253,12,1.0,180.0,180.0,
-St. Louis Park,1030676,083089660358,Jagermeister 375ml,602546,12,1.0,103.4,103.4,
-Andover,1030354,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,
-Bloomington,1030379,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,
-Chanhassen,1030389,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,
-Ramsey,1030449,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,
-Minnetonka,1030421,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,
-St. Louis Park,1030497,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,
-Andover,1030354,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,
-Plymouth,1030440,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,
-Chanhassen,1030389,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,
-St. Louis Park,1030676,084704000290,Korbel Brandy PET 1.75L,423531,6,1.0,116.95,116.95,
-Andover,1030354,086003000087,Woodbridge Chardonnay 750ml,646785,12,1.0,48.0,48.0,
-Chanhassen,1030389,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,56.0,56.0,
-St. Louis Park,1030497,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,56.0,56.0,
-Vadnais Heights,1030516,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,56.0,56.0,
-Andover,1030354,086003813854,Woodbridge Cab Sauv 1.5L,87007,6,1.0,56.0,56.0,
-Vadnais Heights,1030516,086003813854,Woodbridge Cab Sauv 1.5L,87007,6,1.0,56.0,56.0,
-Andover,1030354,086003820449,Woodbridge Red Blend 1.5L,449655,6,1.0,56.0,56.0,
-St. Louis Park,1030497,086003820449,Woodbridge Red Blend 1.5L,449655,6,2.0,56.0,112.0,
-Chanhassen,1030389,086003863866,Woodbridge Sauv Blanc 1.5L,638591,6,1.0,56.0,56.0,
-Plymouth,1030440,086003863866,Woodbridge Sauv Blanc 1.5L,638591,6,1.0,56.0,56.0,
-Andover,1030354,086003873889,Woodbridge Chardonnay 1.5L,97438,6,2.0,56.0,112.0,
-Chanhassen,1030389,086003873889,Woodbridge Chardonnay 1.5L,97438,6,10.0,56.0,560.0,
-St. Louis Park,1030497,086003873889,Woodbridge Chardonnay 1.5L,97438,6,4.0,56.0,224.0,
-Andover,1030354,086003903920,Woodbridge Light Oak Chardonna 1.5L,191263,6,1.0,56.0,56.0,
-St. Louis Park,1030497,086003903920,Woodbridge Light Oak Chardonna 1.5L,191263,6,1.0,56.0,56.0,
-Vadnais Heights,1030697,086036707045,Christian Brothers Brandy Traveler,578173,12,1.0,89.5,89.5,
-Andover,1030544,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
-St. Louis Park,1030676,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
-Andover,1030354,086891083186,The Federalist Cab 750ml,642476,12,1.0,128.0,128.0,
-Plymouth,1030621,088004023850,99 Root Beer 50ml,442556,120,1.0,72.1,72.1,
-Vadnais Heights,1030697,088004023850,99 Root Beer 50ml,442556,120,1.0,72.1,72.1,
-St. Louis Park,1030676,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
-Andover,1030544,088004039660,99 Blue Raspberries 50ml,969867,120,1.0,72.1,72.1,
-Bloomington,1030569,088004039660,99 Blue Raspberries 50ml,969867,120,1.0,72.1,72.1,
-Andover,1030544,088004039677,99 Lemon Lime Schnapps 50ml,969878,120,1.0,72.1,72.1,
-Chanhassen,1030577,088004039677,99 Lemon Lime Schnapps 50ml,969878,120,1.0,72.1,72.1,
-St. Louis Park,1030497,088586001864,CSM Indian Wells Cabernet 750ml,000681107,12,1.0,144.0,144.0,
-Chanhassen,1030389,088586010149,Liquid Light Sauvignon Blanc 750ml,632651,12,1.0,104.0,104.0,
-St. Louis Park,1030676,088734100708,Campari Aperitivo 375ml,948645,12,1.0,144.64,144.64,
-Plymouth,1030621,089000003211,Mr Boston Five Star Brandy 1.75L,151747,6,1.0,71.51,71.51,
-Chanhassen,1030577,089000118397,99 Apples 50ml,93645,120,1.0,72.1,72.1,
-Vadnais Heights,1030697,089000990610,99 Peaches 50ml,175096,120,1.0,72.1,72.1,
-Ramsey,1030630,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,79.5,
-Andover,1030544,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Ramsey,1030630,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-St. Louis Park,1030676,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Vadnais Heights,1030697,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Vadnais Heights,1030697,096749021178,Evan Williams 100 Proof 1.75L,29860,6,1.0,131.22,131.22,
-Plymouth,1030621,096749021246,Evan Williams Bourbon Liter,1014,12,1.0,134.96,134.96,
-Bloomington,1030569,096749908011,Lunazul Reposado Tequila Liter,186639,12,3.0,183.75,551.25,
-Chanhassen,1030577,096749908011,Lunazul Reposado Tequila Liter,186639,12,1.0,183.75,183.75,
-Minnetonka,1030605,096749908011,Lunazul Reposado Tequila Liter,186639,12,1.0,183.75,183.75,
-St. Louis Park,1030676,096749908011,Lunazul Reposado Tequila Liter,186639,12,5.0,183.75,918.75,
-Vadnais Heights,1030697,096749908011,Lunazul Reposado Tequila Liter,186639,12,3.0,183.75,551.25,
-Bloomington,1030570,096749908028,Lunazul Blanco Tequila Liter,186580,12,1.0,183.75,183.75,Store Request
-Minnetonka,1030605,096749908028,Lunazul Blanco Tequila Liter,186580,12,0.5,183.75,91.88,
-St. Louis Park,1030676,096749908028,Lunazul Blanco Tequila Liter,186580,12,1.0,183.75,183.75,
-Chanhassen,1030577,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,
-Andover,1030544,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
-Chanhassen,1030577,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
-Ramsey,1030630,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
-Andover,1030544,617768113752,Svedka Vodka 375ml,649729,24,1.0,96.35,96.35,
-Chanhassen,1030577,617768113752,Svedka Vodka 375ml,649729,24,1.0,96.35,96.35,
-Andover,1030544,617768121757,Svedka Vodka Traveler,683121,12,1.0,99.0,99.0,
-Bloomington,1030569,617768121757,Svedka Vodka Traveler,683121,12,1.0,99.0,99.0,
-Ramsey,1030630,617768121757,Svedka Vodka Traveler,683121,12,1.0,99.0,99.0,
-Vadnais Heights,1030697,617768121757,Svedka Vodka Traveler,683121,12,1.0,99.0,99.0,
-St. Louis Park,1030676,655709000013,Jefferson's KY Whisky Reserve 750ml,35472,6,1.0,256.51,256.51,
-St. Louis Park,1030676,664804001351,Espolon Tequila Blanco 1.75L,464549,6,1.0,260.96,260.96,
-Ramsey,1030449,682417072001,Three Rivers Cabernet Sauvignon 750ml,991671,12,1.0,82.88,82.88,
-Andover,1030544,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,1.0,315.0,315.0,
-Chanhassen,1030577,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,1.0,315.0,315.0,
-Minnetonka,1030605,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,1.0,315.0,315.0,
-Plymouth,1030621,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,1.0,315.0,315.0,
-Ramsey,1030630,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,1.0,315.0,315.0,
-St. Louis Park,1030676,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,2.0,315.0,630.0,
-Vadnais Heights,1030697,721059002974,Russells Reserve Bourbon Private Barrel 750ml,701043,6,1.0,315.0,315.0,
-Andover,1030544,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
-Minnetonka,1030605,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
-Plymouth,1030623,721059831000,Skyy Blood Orange Vodka Liter,992493,12,1.0,134.91,134.91,Store Request
-St. Louis Park,1030676,721059897518,Wild Turkey 101 750ml,512412,12,1.0,215.91,215.91,
-St. Louis Park,1030676,721733000043,Patron Citronge 750ml,532606,12,1.0,172.42,172.42,
-Andover,1030354,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,136.0,136.0,
-St. Louis Park,1030676,736040532774,Casa Dragones Blanco Tequila 750ml,386384,6,1.0,329.0,329.0,
-Chanhassen,1030577,835229000407,Absolut Vodka Liter,15402,12,1.0,238.44,238.44,
-Plymouth,1030621,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,
-Vadnais Heights,1030697,850015640025,Teremana Tequila Blanco 750ml,965145,6,1.0,139.5,139.5,
-Bloomington,1030569,850015640032,Teremana Tequila Reposado 750ml,965146,6,1.0,157.5,157.5,
-Minnetonka,1030605,850047003003,Angel's Envy Bourbon 750ml,404725,6,0.5,208.58,104.29,
-St. Louis Park,1030676,850047003065,Angel's Envy Rye 750ml,410753,6,1.0,361.59,361.59,
-Andover,1030354,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,
-Minnetonka,1030421,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,
-St. Louis Park,1030497,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,
-St. Louis Park,1030676,854396005220,High West Bourbon 750ml,548278,6,1.0,140.0,140.0,
-Vadnais Heights,1030697,854396005220,High West Bourbon 750ml,548278,6,1.0,140.0,140.0,
-Andover,1030544,854628006056,Ole Smoky MS Hunch Punch 50ml,411946,48,1.0,96.0,96.0,
-Vadnais Heights,1030697,854628006131,Ole Smoky Salty Caramel Whiskey 750ml,433995,6,1.0,94.5,94.5,
-St. Louis Park,1030676,856065002059,Deep Eddy Vodka 1.75L,319330,6,1.0,106.04,106.04,
-Vadnais Heights,1030697,856065002059,Deep Eddy Vodka 1.75L,319330,6,1.0,106.04,106.04,
-Plymouth,1030621,860265002429,Skrewball Whiskey Peanut butter 50ml,606586,120,1.0,240.0,240.0,
-Andover,1030548,860272001439,The Finnish Long Drink Zero 6pk 12oz can,985046,4,3.0,40.9,122.7,Store Request
-Andover,1030548,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,3.0,40.9,122.7,Store Request
-Andover,1030548,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,Store Request
-Andover,1030548,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,2.0,40.9,81.8,Store Request
-Plymouth,1030440,870661008024,Oyster Bay Sauvignon Blanc 750ml,127630,12,1.0,120.0,120.0,
-St. Louis Park,1030497,870661008024,Oyster Bay Sauvignon Blanc 750ml,127630,12,1.0,120.0,120.0,
-Chanhassen,1030573,887341340091,Aperol Spritz 4pk 200ml btl,612370,6,1.0,0.0,0.0,Free Goods
-St. Louis Park,1030676,887341340091,Aperol Spritz 4pk 200ml btl,612370,6,4.0,67.03,268.12,
-Chanhassen,1030389,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,
+Chanhassen,1030858,011034410048,Martini & Rossi Sweet Vermouth Liter,442533,6,1.0,53.0,53.0,
+Plymouth,1030968,011034410055,Martini & Rossi Sweet Vermouth 750ml,442536,6,1.0,44.99,44.99,
+St. Louis Park,1031040,011034410055,Martini & Rossi Sweet Vermouth 750ml,442536,6,1.0,44.99,44.99,
+Woodbury,1031095,011034410055,Martini & Rossi Sweet Vermouth 750ml,442536,6,1.0,44.99,44.99,
+Rosemount,1031000,011034420054,Martini & Rossi Dry Vermouth 750ml,442540,6,1.0,44.99,44.99,
+Blaine,1031134,033293003007,Freixenet Brut 750ml,635168,12,1.0,111.93,111.93,Month End
+Stillwater,1031322,033293003007,Freixenet Brut 750ml,635168,12,1.0,111.93,111.93,Month End
+Cottage Grove,1031185,033293003809,Freixenet Extra Dry 750ml,637015,12,1.0,111.93,111.93,Month End
+Plymouth,1031239,033293003809,Freixenet Extra Dry 750ml,637015,12,1.0,111.93,111.93,Month End
+Andover,1030799,075496000407,Angostura Aromatic Bitters 4oz,995474,48,1.0,425.0,425.0,Store Request
+Rosemount,1031003,080432000779,Jameson Orange Spritz 4pk 12oz can,615202,6,2.0,48.25,96.5,Store Request
+Blaine,1030821,080432001257,Absolut Ocean Spray Variety Pack 8pk 12oz can,615004,3,1.0,38.74,38.74,
+Roseville,1031025,080432106846,Olmeca Altos Plata Tequila 750ml,298832,6,1.0,114.23,114.23,Store Request
+Roseville,1031025,080432106853,Olmeca Altos Reposado Tequila 750ml,298831,6,1.0,114.23,114.23,Store Request
+Woodbury,1031095,080432107263,Jameson Select Reserve Black Barrel 750ml,145700,12,1.0,377.54,377.54,
+Vadnais Heights,1031078,080432108253,Olmeca Altos Plata 1.75L,354157,6,1.0,175.45,175.45,
+Minnetonka,1030933,080432115763,Glenlivet Caribbean Reserve 750ml,963700,6,1.0,181.58,181.58,Store Request
+Blaine,1030821,080432117538,Jameson Whiskey Ginger & Lime 4pk 12oz can,624422,6,1.0,48.25,48.25,
+Minnetonka,1030931,080432117538,Jameson Whiskey Ginger & Lime 4pk 12oz can,624422,6,1.0,48.25,48.25,
+Rosemount,1031003,080432117538,Jameson Whiskey Ginger & Lime 4pk 12oz can,624422,6,2.0,48.25,96.5,Store Request
+Woodbury,1031100,080432400395,Chivas Regal 12 Yr Scotch 750ml,576451,12,1.0,291.72,291.72,Store Request
+Roseville,1031021,080432400630,Glenlivet Scotch 12 Yr 750ml,15502,12,1.0,410.54,410.54,
+Stillwater,1031065,080432400630,Glenlivet Scotch 12 Yr 750ml,15502,12,1.0,410.54,410.54,Store Request
+Woodbury,1031095,080432400630,Glenlivet Scotch 12 Yr 750ml,15502,12,1.0,410.54,410.54,
+Blaine,1030821,080432401248,Seagrams Extra Dry Gin Traveler,60920,12,1.0,93.65,93.65,
+Plymouth,1030968,080432401255,Seagrams Extra Dry Gin Liter,373541,12,1.0,112.44,112.44,
+Blaine,1030821,080432401262,Seagrams Extra Dry Gin 1.75L,10300,6,1.0,89.85,89.85,
+Plymouth,1030968,080432401262,Seagrams Extra Dry Gin 1.75L,10300,6,1.0,89.85,89.85,
+St. Louis Park,1031040,080432401262,Seagrams Extra Dry Gin 1.75L,10300,6,1.0,89.85,89.85,
+Vadnais Heights,1031078,080432401620,Seagrams Lime Gin Liter,78815,12,1.0,112.44,112.44,
+Vadnais Heights,1031078,080432401644,Seagrams Lime Gin 1.75L,77798,6,1.0,89.85,89.85,
+Blaine,1030821,080432500101,Jameson Irish Whiskey 50ml,961239,120,1.0,280.22,280.22,
+Woodbury,1031095,080432500125,Jameson Irish Whiskey 200ml,168176,24,1.0,160.59,160.59,
+Roseville,1031021,080432500187,Jameson Irish Whiskey 1.75L,24600,6,1.0,247.5,247.5,
+Minneapolis,1030917,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,2.0,146.0,292.0,Store Request
+Plymouth,1030968,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,1.0,146.0,146.0,
+Vadnais Heights,1031081,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,1.0,146.0,146.0,Store Request
+Blaine,1030821,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,1.0,131.14,131.14,
+Minneapolis,1030917,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,5.0,131.14,655.7,Store Request
+Plymouth,1030968,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,1.0,131.14,131.14,
+St. Louis Park,1031040,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,1.0,131.14,131.14,
+Stillwater,1031065,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,1.0,131.14,131.14,Store Request
+Vadnais Heights,1031081,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,1.0,131.14,131.14,Store Request
+Andover,1030792,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,3.0,102.93,308.79,
+Blaine,1030821,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,10.0,102.93,1029.3,
+Chanhassen,1030858,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
+Cottage Grove,1030879,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
+Osseo,1030951,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
+Ramsey,1030985,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
+Rosemount,1031000,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,4.0,102.93,411.72,
+Roseville,1031021,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
+St. Louis Park,1031040,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
+Minneapolis,1030911,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
+Woodbury,1031095,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
+Blaine,1030821,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
+Plymouth,1030968,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
+Roseville,1031021,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
+Woodbury,1031095,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
+Roseville,1031021,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,110.0,
+Woodbury,1031095,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,110.0,
+Andover,1030792,080480025205,Bacardi Gold 1.75L,299707,6,1.0,102.93,102.93,
+Blaine,1030821,080480026219,Bacardi Gold Rum 50ml,28726,120,1.0,100.19,100.19,
+Blaine,1030821,080480170028,Cazadores Reposado Tequila 750ml,535797,12,1.0,192.77,192.77,
+Roseville,1031021,080480170028,Cazadores Reposado Tequila 750ml,535797,12,1.0,192.77,192.77,
+Roseville,1031025,080480172022,Cazadores Blanco Tequila 750ml,535798,12,1.0,192.77,192.77,Store Request
+St. Louis Park,1031040,080480217075,Noilly Prat Sweet Vermouth 750ml,959618,12,1.0,109.29,109.29,
+St. Louis Park,1031040,080480230012,Dewar's White Label Scotch Liter,19307,12,1.0,217.5,217.5,
+Andover,1030792,080480280000,Grey Goose Vodka 1.75L,79019,6,1.0,215.96,215.96,
+Andover,1030792,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
+Cottage Grove,1030879,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
+St. Louis Park,1031040,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
+Vadnais Heights,1031078,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
+Cottage Grove,1030879,080480280024,Grey Goose Vodka 750ml,79026,12,1.0,224.92,224.92,
+Vadnais Heights,1031081,080480300005,Bombay Gin 1.75L,11285,6,1.0,134.11,134.11,Store Request
+Cottage Grove,1030886,080480300012,Bombay Gin Liter,11286,12,1.0,176.69,176.69,Store Request
+Roseville,1031021,080480300012,Bombay Gin Liter,11286,12,1.0,176.69,176.69,
+Plymouth,1030968,080480301002,Bombay Sapphire Gin 1.75L,11290,6,1.0,172.5,172.5,
+Stillwater,1031059,080480301002,Bombay Sapphire Gin 1.75L,11290,6,1.0,172.5,172.5,
+Blaine,1030821,080480301019,Bombay Sapphire Gin Liter,11291,12,1.0,250.5,250.5,
+Roseville,1031021,080480301019,Bombay Sapphire Gin Liter,11291,12,1.0,250.5,250.5,
+St. Louis Park,1031040,080480301019,Bombay Sapphire Gin Liter,11291,12,1.0,250.5,250.5,
+Roseville,1031021,080480301026,Bombay Sapphire Gin 750ml,11292,12,1.0,211.0,211.0,
+Andover,1030792,080480355203,Bacardi Limon Rum 1.75L,28735,6,2.0,102.93,205.86,
+Blaine,1030821,080480355203,Bacardi Limon Rum 1.75L,28735,6,2.0,102.93,205.86,
+Cottage Grove,1030879,080480355203,Bacardi Limon Rum 1.75L,28735,6,3.0,102.93,308.79,
+Minneapolis,1030911,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
+Osseo,1030951,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
+Rosemount,1031000,080480355203,Bacardi Limon Rum 1.75L,28735,6,2.0,102.93,205.86,
+Woodbury,1031095,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
+Andover,1030792,080480356200,Bacardi Limon Rum 50ml,511051,120,1.0,100.19,100.19,
+Blaine,1030821,080480356200,Bacardi Limon Rum 50ml,511051,120,1.0,100.19,100.19,
+Minneapolis,1030911,080480356200,Bacardi Limon Rum 50ml,511051,120,1.0,100.19,100.19,
+Stillwater,1031059,080480356200,Bacardi Limon Rum 50ml,511051,120,1.0,100.19,100.19,
+Blaine,1030821,080480986285,Bacardi Mojito 4pk 12oz can,984914,6,1.0,48.7,48.7,
+Blaine,1030821,080480990107,Grey Goose Berry Rouge 750ml,682308,6,1.0,110.41,110.41,
+Stillwater,1031059,080660010700,99 Pineapples 50ml,395103,120,1.0,72.1,72.1,
+Blaine,1030821,080660018812,Chi-Chi's Margarita 750ml,335661,12,1.0,45.0,45.0,
+Andover,1030792,080660018843,Chi-Chi's Mexican Mudslide 750ml,335662,12,1.0,45.0,45.0,
+Andover,1030792,080660472072,Barton Vodka 375ml,3996,24,1.0,59.6,59.6,
+Woodbury,1031095,080660472089,Barton Vodka 200ml,7363,48,1.0,67.98,67.98,
+Ramsey,1030985,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
+Chanhassen,1030858,080660776057,Caravella Limoncello 750ml,298092,6,1.0,72.9,72.9,
+Minnetonka,1030933,080660776057,Caravella Limoncello 750ml,298092,6,1.0,72.9,72.9,Store Request
+Rosemount,1031000,080686001201,Jim Beam Bourbon Liter,975690,12,1.0,190.27,190.27,
+Cottage Grove,1030879,080686001430,Jim Beam Bourbon Traveler,2801,12,1.0,149.92,149.92,
+Woodbury,1031095,080686001430,Jim Beam Bourbon Traveler,2801,12,1.0,149.92,149.92,
+Plymouth,1030968,080686004424,Knob Creek Rye Whiskey 750ml,581362,6,1.0,152.98,152.98,
+Blaine,1030821,080686006589,Jim Beam Apple 50ml,948385,120,1.0,79.2,79.2,
+Minnetonka,1030931,080686008088,On the Rocks Cosmopolitan 375ml,918515,12,1.0,103.19,103.19,
+Vadnais Heights,1031078,080686008101,On the Rocks Cosmopolitan 750ml,618930,6,1.0,90.42,90.42,
+Minneapolis,1030911,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,10.0,45.0,450.0,
+Minnetonka,1030931,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,1.0,45.0,45.0,
+Stillwater,1031059,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,1.0,45.0,45.0,
+St. Louis Park,1031040,080686009290,Suntory -196 Vodka Lemon 4pk 12oz can,648932,6,1.0,45.0,45.0,
+Bloomington,1030839,080686010357,Suntory -196 Variety Pack 3 8pk 12oz can,656131,3,1.0,44.9,44.9,
+Minneapolis,1030911,080686010357,Suntory -196 Variety Pack 3 8pk 12oz can,656131,3,10.0,44.9,449.0,
+St. Louis Park,1031040,080686010357,Suntory -196 Variety Pack 3 8pk 12oz can,656131,3,1.0,44.9,44.9,
+Osseo,1030951,080686011651,Suntory -196 Vodka Lemon 24oz can,678504,12,1.0,44.9,44.9,
+St. Louis Park,1031040,080686011651,Suntory -196 Vodka Lemon 24oz can,678504,12,1.0,44.9,44.9,
+Minneapolis,1030911,080686012511,On The Rocks Watermelon Margarita 4pk 12oz can,689832,6,1.0,49.45,49.45,
+Andover,1030792,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,3.0,49.45,148.35,
+Chanhassen,1030858,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,3.0,49.45,148.35,
+Minnetonka,1030931,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,2.0,49.45,98.9,
+Plymouth,1030968,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,2.0,49.45,98.9,
+Roseville,1031021,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,5.0,49.45,247.25,
+Chanhassen,1030858,080686012702,Suntory -196 Vodka Combo Crush 8pk 12oz can,692565,3,1.0,45.0,45.0,
+Cottage Grove,1030879,080686012702,Suntory -196 Vodka Combo Crush 8pk 12oz can,692565,3,1.0,45.0,45.0,
+Minneapolis,1030911,080686012702,Suntory -196 Vodka Combo Crush 8pk 12oz can,692565,3,5.0,45.0,225.0,
+Osseo,1030951,080686012702,Suntory -196 Vodka Combo Crush 8pk 12oz can,692565,3,1.0,45.0,45.0,
+Plymouth,1030968,080686016762,Knob Creek Bourbon 750ml,986040,6,1.0,152.98,152.98,
+Roseville,1031021,080686016946,Knob Creek Bourbon 1.75L,991843,6,1.0,270.0,270.0,
+St. Louis Park,1031040,080686016946,Knob Creek Bourbon 1.75L,991843,6,1.0,270.0,270.0,
+Blaine,1030821,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
+Cottage Grove,1030879,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
+Minneapolis,1030911,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
+St. Louis Park,1031040,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
+Andover,1030799,080686310143,Dekuyper Triple Sec Liter,905299,12,1.0,65.75,65.75,Store Request
+Minneapolis,1030911,080686310143,Dekuyper Triple Sec Liter,905299,12,1.0,65.75,65.75,
+Woodbury,1031100,080686316015,Dekuyper Blue Curacao Liter,157604,12,2.0,100.75,201.5,Store Request
+Andover,1030792,08068636408,Dekuyper Triple Sec 750ml,25186,12,1.0,67.42,67.42,
+Rosemount,1031000,08068636408,Dekuyper Triple Sec 750ml,25186,12,1.0,67.42,67.42,
+Andover,1030799,080686365204,Dekuyper Peachtree Schnapps Liter,25213,12,1.0,80.0,80.0,Store Request
+Woodbury,1031100,080686365204,Dekuyper Peachtree Schnapps Liter,25213,12,2.0,80.0,160.0,Store Request
+Blaine,1030821,080686408208,Old Grand Dad 100 pf Bourbon Liter,1342,12,1.0,234.0,234.0,
+Andover,1030792,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
+Blaine,1030821,080686821120,Canadian Club 1.75L,970031,6,2.0,96.51,193.02,
+Chanhassen,1030858,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
+Cottage Grove,1030886,080686821120,Canadian Club 1.75L,970031,6,2.0,96.51,193.02,Store Request
+Osseo,1030951,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
+Stillwater,1031059,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
+Vadnais Heights,1031078,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
+Andover,1030792,080686821434,Canadian Club Traveler,312321,12,1.0,97.76,97.76,
+Woodbury,1031095,080686821434,Canadian Club Traveler,312321,12,1.0,97.76,97.76,
+Cottage Grove,1030879,080686835028,Sauza Hornitos Reposado 750ml,946337,12,1.0,196.73,196.73,
+Osseo,1030951,080686835028,Sauza Hornitos Reposado 750ml,946337,12,1.0,196.73,196.73,
+Woodbury,1031095,080686835028,Sauza Hornitos Reposado 750ml,946337,12,1.0,196.73,196.73,
+Chanhassen,1030858,080686835349,Sauza Hornitos Plata Tequila 1.75L,948669,6,1.0,174.38,174.38,
+Rosemount,1031000,080686835349,Sauza Hornitos Plata Tequila 1.75L,948669,6,1.0,174.38,174.38,
+Stillwater,1031059,080686835349,Sauza Hornitos Plata Tequila 1.75L,948669,6,1.0,174.38,174.38,
+Woodbury,1031095,080686835349,Sauza Hornitos Plata Tequila 1.75L,948669,6,1.0,174.38,174.38,
+Minnetonka,1030931,080686897170,On the Rocks Margarita 750ml,557126,6,1.0,90.42,90.42,
+Blaine,1030821,080686929437,Pinnacle Vodka 375ml,984754,24,1.0,72.95,72.95,
+Blaine,1030821,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Cottage Grove,1030879,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Minneapolis,1030911,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Osseo,1030951,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Plymouth,1030968,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Rosemount,1031000,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+St. Louis Park,1031040,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Stillwater,1031059,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Woodbury,1031095,080686929451,Pinnacle Vodka 1.75L,985201,6,1.0,73.29,73.29,
+Roseville,1031021,080686961109,Courvoisier VS Cognac 200ml,960959,24,1.0,128.48,128.48,
+Andover,1031107,081308000435,Cupcake Sauvignon Blanc 750ml,233789,12,1.0,0.0,0.0,Free Goods
+Chanhassen,1031169,081308001067,Cupcake Pinot Grigio 750ml,290270,12,1.0,64.0,64.0,Month End
+Andover,1031116,081308001333,Cupcake Moscato D'Asti 750ml,301167,12,1.0,92.0,92.0,Month End
+Minneapolis,1031201,081308003009,Cupcake Moscato 750ml,327238,12,1.0,64.0,64.0,Month End
+Andover,1031116,081308003337,Chloe Pinot Grigio 750ml,351385,12,1.0,84.0,84.0,Month End
+Cottage Grove,1031185,081308003337,Chloe Pinot Grigio 750ml,351385,12,1.0,84.0,84.0,Month End
+Rosemount,1031258,081308003733,Chloe Prosecco 750ml,391252,12,1.0,0.0,0.0,Free Goods
+Vadnais Heights,1031337,081308003733,Chloe Prosecco 750ml,391252,12,1.0,96.0,96.0,Month End
+Rosemount,1031264,081308004143,Cupcake Still Rose 750ml,448303,12,1.0,64.0,64.0,Month End
+Stillwater,1031322,081308004143,Cupcake Still Rose 750ml,448303,12,1.0,64.0,64.0,Month End
+Andover,1031116,081308004266,Cocobon DARK Red Blend 750ml,479566,12,1.0,60.0,60.0,Month End
+Minneapolis,1031201,081308004266,Cocobon DARK Red Blend 750ml,479566,12,1.0,60.0,60.0,Month End
+St. Louis Park,1031305,081308004396,Cupcake Butterkissed Chard 750ml,464916,12,1.0,64.0,64.0,Month End
+Andover,1031116,081308004532,Chloe Cabernet Sauvignon 750ml,974786,12,1.0,84.0,84.0,Month End
+Vadnais Heights,1031337,081308004549,AVA Grace Pinot Grigio 750ml,899567,12,1.0,75.96,75.96,Month End
+St. Louis Park,1031305,081308011011,Chloe Sauvignon Blanc 750ml,956817,12,1.0,84.0,84.0,Month End
+Vadnais Heights,1031337,081308011011,Chloe Sauvignon Blanc 750ml,956817,12,1.0,84.0,84.0,Month End
+St. Louis Park,1031305,081308592077,Cupcake Chardonnay 750ml,516463,12,1.0,64.0,64.0,Month End
+Stillwater,1031322,081308592077,Cupcake Chardonnay 750ml,516463,12,1.0,64.0,64.0,Month End
+Cottage Grove,1030879,082928214318,Fleischmanns Vodka 1.75L,11132,6,1.0,54.0,54.0,
+Roseville,1031021,082928214318,Fleischmanns Vodka 1.75L,11132,6,1.0,54.0,54.0,
+Cottage Grove,1030879,083089524001,Jagermeister 750ml,35253,12,1.0,180.0,180.0,
+Rosemount,1031000,083089524001,Jagermeister 750ml,35253,12,1.0,180.0,180.0,
+Stillwater,1031059,083089524001,Jagermeister 750ml,35253,12,1.0,180.0,180.0,
+Minneapolis,1030911,083089660150,Jagermeister Liter,31393,12,1.0,216.0,216.0,
+Osseo,1030951,083089660150,Jagermeister Liter,31393,12,1.0,216.0,216.0,
+Cottage Grove,1030879,083089660174,Jagermeister 1.75L,40495,6,1.0,180.0,180.0,
+Stillwater,1031065,083089660358,Jagermeister 375ml,602546,12,1.0,103.4,103.4,Store Request
+Blaine,1031134,083120003021,Franzia Moscato 5L Box,664292,4,1.0,56.0,56.0,Month End
+Cottage Grove,1031185,083120003021,Franzia Moscato 5L Box,664292,4,1.0,56.0,56.0,Month End
+Andover,1031116,083120003359,Franzia Dark Red 5L Box,664284,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120003359,Franzia Dark Red 5L Box,664284,4,1.0,56.0,56.0,Month End
+Roseville,1031283,083120003359,Franzia Dark Red 5L Box,664284,4,1.0,56.0,56.0,Month End
+Vadnais Heights,1031337,083120003359,Franzia Dark Red 5L Box,664284,4,1.0,56.0,56.0,Month End
+Vadnais Heights,1031337,083120003540,Franzia Pink Moscato 5L Box,664299,4,1.0,56.0,56.0,Month End
+Andover,1031116,083120010128,Franzia Rich and Buttery Chardonnay 5L Box,932086,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120010128,Franzia Rich and Buttery Chardonnay 5L Box,932086,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120011231,Franzia Sauvignon Blanc 5L Box,664282,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120011255,Franzia Bold and Jammy Cab 5L Box,968475,4,1.0,56.0,56.0,Month End
+St. Louis Park,1031305,083120011255,Franzia Bold and Jammy Cab 5L Box,968475,4,1.0,56.0,56.0,Month End
+Stillwater,1031322,083120011255,Franzia Bold and Jammy Cab 5L Box,968475,4,1.0,56.0,56.0,Month End
+Chanhassen,1031169,083120014690,Franzia Spiked Lemonade 5L Box,623338,4,1.0,56.0,56.0,Month End
+Minneapolis,1031201,083120014690,Franzia Spiked Lemonade 5L Box,623338,4,1.0,56.0,56.0,Month End
+Osseo,1031226,083120014690,Franzia Spiked Lemonade 5L Box,623338,4,1.0,56.0,56.0,Month End
+St. Louis Park,1031305,083120015048,Charles Smith Kung Fu Girl Riesling 750ml,602597,12,1.0,88.0,88.0,Month End
+Woodbury,1031352,083120015048,Charles Smith Kung Fu Girl Riesling 750ml,602597,12,1.0,88.0,88.0,Month End
+Chanhassen,1031169,083120015239,Franzia Wine Cocktail Margarita 5L Box,626731,4,1.0,56.0,56.0,Month End
+Minneapolis,1031201,083120015239,Franzia Wine Cocktail Margarita 5L Box,626731,4,1.0,56.0,56.0,Month End
+Andover,1031116,083120015413,Summit Cabernet Sauvignon 3L Box,629479,6,1.0,67.14,67.14,Month End
+Blaine,1031134,083120015413,Summit Cabernet Sauvignon 3L Box,629479,6,1.0,67.14,67.14,Month End
+Stillwater,1031322,083120015413,Summit Cabernet Sauvignon 3L Box,629479,6,1.0,67.14,67.14,Month End
+Minnetonka,1031213,083120015420,Summit Chardonnay 3L Box,629478,6,1.0,67.14,67.14,Month End
+Plymouth,1031239,083120015420,Summit Chardonnay 3L Box,629478,6,1.0,67.14,67.14,Month End
+Stillwater,1031322,083120015420,Summit Chardonnay 3L Box,629478,6,1.0,67.14,67.14,Month End
+Andover,1031116,083120015444,Summit Pinot Grigio 3L Box,629487,6,1.0,67.14,67.14,Month End
+Cottage Grove,1031185,083120015444,Summit Pinot Grigio 3L Box,629487,6,1.0,67.14,67.14,Month End
+Minneapolis,1031201,083120016144,Franzia Strawberry Margarita 5L Box,690580,4,1.0,56.0,56.0,Month End
+Andover,1031116,083120016397,Summit Pinot Noir 3L Box,683150,6,1.0,67.14,67.14,Month End
+Vadnais Heights,1031337,083120016403,Summit Sauvignon Blanc 3L Box,683149,6,1.0,67.14,67.14,Month End
+Andover,1031116,083120100195,Franzia Merlot 5L Box,664277,4,1.0,56.0,56.0,Month End
+Minneapolis,1031201,083120100195,Franzia Merlot 5L Box,664277,4,1.0,56.0,56.0,Month End
+Andover,1031116,083120100393,Franzia Pinot Grigio 5L Box,664272,4,2.0,56.0,112.0,Month End
+Blaine,1031134,083120100393,Franzia Pinot Grigio 5L Box,664272,4,2.0,56.0,112.0,Month End
+Chanhassen,1031169,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Cottage Grove,1031185,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Plymouth,1031239,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Ramsey,1031251,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Rosemount,1031264,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Roseville,1031283,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+St. Louis Park,1031305,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Stillwater,1031322,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+Andover,1031116,083120100690,Franzia Chillable Red 5L Box,664290,4,1.0,47.27,47.27,Month End
+Blaine,1031134,083120100690,Franzia Chillable Red 5L Box,664290,4,2.0,47.27,94.54,Month End
+Minneapolis,1031201,083120100690,Franzia Chillable Red 5L Box,664290,4,1.0,47.27,47.27,Month End
+Osseo,1031226,083120100690,Franzia Chillable Red 5L Box,664290,4,1.0,47.27,47.27,Month End
+Ramsey,1031251,083120100690,Franzia Chillable Red 5L Box,664290,4,1.0,47.27,47.27,Month End
+St. Louis Park,1031305,083120100690,Franzia Chillable Red 5L Box,664290,4,1.0,47.27,47.27,Month End
+Woodbury,1031352,083120100690,Franzia Chillable Red 5L Box,664290,4,1.0,47.27,47.27,Month End
+Blaine,1031134,083120101895,Franzia Cab Sauv 5L Box,664276,4,1.0,56.0,56.0,Month End
+Osseo,1031226,083120101895,Franzia Cab Sauv 5L Box,664276,4,1.0,56.0,56.0,Month End
+St. Louis Park,1031305,083120101895,Franzia Cab Sauv 5L Box,664276,4,1.0,56.0,56.0,Month End
+Stillwater,1031322,083120101895,Franzia Cab Sauv 5L Box,664276,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120101994,Franzia Refreshing White 5L Box,664297,4,1.0,47.27,47.27,Month End
+Osseo,1031226,083120101994,Franzia Refreshing White 5L Box,664297,4,1.0,47.27,47.27,Month End
+Plymouth,1031239,083120101994,Franzia Refreshing White 5L Box,664297,4,1.0,47.27,47.27,Month End
+Woodbury,1031352,083120101994,Franzia Refreshing White 5L Box,664297,4,1.0,47.27,47.27,Month End
+Blaine,1031134,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,Month End
+Bloomington,1031154,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,Month End
+Cottage Grove,1031185,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,Month End
+Minneapolis,1031201,083120102090,Franzia Chardonnay 5L Box,664270,4,2.0,56.0,112.0,Month End
+Osseo,1031226,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,Month End
+Roseville,1031283,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,Month End
+Cottage Grove,1031185,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+Minneapolis,1031201,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+Ramsey,1031251,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+Rosemount,1031264,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+Roseville,1031283,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+St. Louis Park,1031305,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+Andover,1031116,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Bloomington,1031154,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Chanhassen,1031169,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Osseo,1031226,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Ramsey,1031251,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Roseville,1031283,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+Blaine,1031134,083120103295,Franzia Fruity Red Sangria 5L Box,664258,4,1.0,47.27,47.27,Month End
+Minneapolis,1031201,083120103295,Franzia Fruity Red Sangria 5L Box,664258,4,1.0,47.27,47.27,Month End
+Osseo,1031226,083120103295,Franzia Fruity Red Sangria 5L Box,664258,4,1.0,47.27,47.27,Month End
+Roseville,1031283,083120103295,Franzia Fruity Red Sangria 5L Box,664258,4,1.0,47.27,47.27,Month End
+Andover,1031116,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,Month End
+Blaine,1031134,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,Month End
+Minneapolis,1031201,083120103691,Franzia Sunset Blush 5L Box,664304,4,2.0,47.27,94.54,Month End
+Osseo,1031226,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,Month End
+Plymouth,1031239,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,Month End
+Ramsey,1031251,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,Month End
+Chanhassen,1031169,083120192015,Franzia Chardonnay 3L Box,664253,6,1.0,54.0,54.0,Month End
+Blaine,1031134,083120192312,Franzia Chillable Red 3L Box,3200,6,1.0,45.96,45.96,Month End
+Blaine,1031134,083120192718,Franzia Crisp White 3L Box,291033,6,1.0,45.96,45.96,Month End
+Minneapolis,1031201,083120193616,Franzia Sunset Blush 3L Box,412077,6,1.0,45.96,45.96,Month End
+Rosemount,1031264,083120193616,Franzia Sunset Blush 3L Box,412077,6,1.0,45.96,45.96,Month End
+Plymouth,1030968,083120957270,Tribuno Sweet Vermouth 750ml,422226,12,1.0,63.96,63.96,
+Vadnais Heights,1031078,083120957270,Tribuno Sweet Vermouth 750ml,422226,12,1.0,63.96,63.96,
+Rosemount,1031003,083664866281,Lillet Aperitif White 750ml,10895,12,0.5,183.36,91.68,Store Request
+Andover,1031107,083804047211,Cooks Brut 750ml,931304,12,1.0,0.0,0.0,Free Goods
+Andover,1031116,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,Month End
+Chanhassen,1031169,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,Month End
+Roseville,1031283,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,Month End
+Stillwater,1031322,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,Month End
+Stillwater,1031059,084704000290,Korbel Brandy PET 1.75L,423531,6,1.0,116.95,116.95,
+Plymouth,1031239,084704091328,Korbel Brut 750ml,938679,12,1.0,127.97,127.97,Month End
+St. Louis Park,1031305,084704091328,Korbel Brut 750ml,938679,12,1.0,127.97,127.97,Month End
+Andover,1031116,084704091472,Korbel Extra Dry 750ml,938847,12,1.0,127.97,127.97,Month End
+Andover,1031116,084704097979,Korbel Sweet Rose 750ml,938674,12,1.0,127.97,127.97,Month End
+Roseville,1031025,085592123344,Hussong's Reposado 750ml,991,6,1.0,198.0,198.0,Store Request
+Blaine,1030821,085592138591,360 Double Chocolate Vodka Liter,000311451,12,1.0,143.76,143.76,
+Blaine,1030821,085676563868,Calypso Spiced Rum 1.75L,247680,6,1.0,63.0,63.0,
+Minneapolis,1031201,085904015589,Mad Dog Mad Margarita Pet 200ml,655094,24,5.0,36.0,180.0,Month End
+Minneapolis,1031201,085904015596,Mad Dog Spiked Strawberry Pet 200ml,655093,24,1.0,36.0,36.0,Month End
+Minneapolis,1031194,085904015602,Mad Dog Bling Bling Blue Razz Pet 200ml,655096,24,4.0,0.0,0.0,Free Goods
+Minneapolis,1031201,085904015619,Mad Dog Whipped Orange Cream Pet 200ml,655097,24,2.0,36.0,72.0,Month End
+Minneapolis,1031201,085904016166,Mad Dog Purple Drip Pet 200ml,690581,24,1.0,36.0,36.0,Month End
+Minneapolis,1031201,085904016173,Mad Dog Jungle Juice Pet 200ml,690583,24,3.0,36.0,108.0,Month End
+Chanhassen,1031169,086003000087,Woodbridge Chardonnay 750ml,646785,12,1.0,48.0,48.0,Month End
+Cottage Grove,1031185,086003000087,Woodbridge Chardonnay 750ml,646785,12,1.0,48.0,48.0,Month End
+Stillwater,1031322,086003000094,Woodbridge Cabernet Sauvignon 750ml,84889,12,1.0,48.0,48.0,Month End
+Vadnais Heights,1031329,086003000506,Woodbridge Merlot 1.5L,21867,6,1.0,0.0,0.0,Free Goods
+Cottage Grove,1031185,086003001640,Woodbridge Pinot Grigio 750ml,649547,12,1.0,48.0,48.0,Month End
+Roseville,1031283,086003001640,Woodbridge Pinot Grigio 750ml,649547,12,1.0,48.0,48.0,Month End
+Andover,1031107,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,0.0,0.0,Free Goods
+Roseville,1031275,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,0.0,0.0,Free Goods
+Vadnais Heights,1031329,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,0.0,0.0,Free Goods
+Woodbury,1031344,086003001657,Woodbridge Pinot Grigio 1.5L,638586,6,1.0,0.0,0.0,Free Goods
+Woodbury,1031344,086003003408,Woodbridge Pinot Noir 1.5L,132095,6,1.0,0.0,0.0,Free Goods
+Minnetonka,1031213,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,1.0,172.0,172.0,Month End
+Osseo,1031226,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,1.0,172.0,172.0,Month End
+Rosemount,1031264,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,1.0,172.0,172.0,Month End
+Rosemount,1031258,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,0.5,0.0,0.0,Free Goods
+St. Louis Park,1031305,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,1.0,172.0,172.0,Month End
+St. Louis Park,1031296,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,0.5,0.0,0.0,Free Goods
+Woodbury,1031352,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,1.0,172.0,172.0,Month End
+Woodbury,1031344,086003251274,Meiomi Cabernet Sauvignon 750ml,994937,12,0.5,0.0,0.0,Free Goods
+Chanhassen,1031169,086003255067,The Prisoner Wine Co Prisoner Red Blend 750ml,603441,12,1.0,400.0,400.0,Month End
+Rosemount,1031264,086003255067,The Prisoner Wine Co Prisoner Red Blend 750ml,603441,12,1.0,400.0,400.0,Month End
+Andover,1030794,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Chanhassen,1030860,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Cottage Grove,1030881,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Plymouth,1030970,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Ramsey,1030987,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+St. Louis Park,1031042,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Vadnais Heights,1031079,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Woodbury,1031097,086003267107,High West Old Fashioned 750ml,979485,6,1.0,140.0,140.0,Southern July Month End
+Roseville,1031023,086003267121,High West Manhattan 750ml,979489,6,1.0,140.0,140.0,Southern July Month End
+St. Louis Park,1031040,086003272002,Mi Campo Tequila Reposado Liter,921562,6,1.0,120.0,120.0,
+Minneapolis,1030913,086003272019,Mi Campo Reposado 750ml,921560,12,1.0,252.0,252.0,Southern July Month End
+Osseo,1030953,086003272019,Mi Campo Reposado 750ml,921560,12,2.0,252.0,504.0,Southern July Month End
+Plymouth,1030970,086003272019,Mi Campo Reposado 750ml,921560,12,1.0,252.0,252.0,Southern July Month End
+Roseville,1031023,086003272019,Mi Campo Reposado 750ml,921560,12,1.0,252.0,252.0,Southern July Month End
+St. Louis Park,1031042,086003272019,Mi Campo Reposado 750ml,921560,12,1.0,252.0,252.0,Southern July Month End
+St. Louis Park,1031040,086003272026,Mi Campo Tequila Blanco Liter,921561,6,1.0,108.0,108.0,
+Chanhassen,1030859,086003272033,Mi Campo Blanco 750ml,921563,12,1.0,0.0,0.0,Southern July Free Goods
+Minneapolis,1030912,086003272033,Mi Campo Blanco 750ml,921563,12,3.0,0.0,0.0,Southern July Free Goods
+Osseo,1030952,086003272033,Mi Campo Blanco 750ml,921563,12,1.0,0.0,0.0,Southern July Free Goods
+Plymouth,1030969,086003272033,Mi Campo Blanco 750ml,921563,12,1.0,0.0,0.0,Southern July Free Goods
+Roseville,1031023,086003272033,Mi Campo Blanco 750ml,921563,12,1.0,234.0,234.0,Southern July Month End
+Roseville,1031021,086003272071,Mi Campo Tequila Reposado 375ml,586933,12,1.0,120.0,120.0,
+Minneapolis,1031194,086003813854,Woodbridge Cab Sauv 1.5L,87007,6,1.0,0.0,0.0,Free Goods
+Roseville,1031275,086003813854,Woodbridge Cab Sauv 1.5L,87007,6,1.0,0.0,0.0,Free Goods
+Andover,1031107,086003820449,Woodbridge Red Blend 1.5L,449655,6,1.0,0.0,0.0,Free Goods
+Blaine,1031127,086003820449,Woodbridge Red Blend 1.5L,449655,6,1.0,0.0,0.0,Free Goods
+Chanhassen,1031161,086003820449,Woodbridge Red Blend 1.5L,449655,6,1.0,0.0,0.0,Free Goods
+Andover,1031107,086003863866,Woodbridge Sauv Blanc 1.5L,638591,6,1.0,0.0,0.0,Free Goods
+Blaine,1031127,086003873889,Woodbridge Chardonnay 1.5L,97438,6,1.0,0.0,0.0,Free Goods
+Chanhassen,1031161,086003873889,Woodbridge Chardonnay 1.5L,97438,6,1.0,0.0,0.0,Free Goods
+Cottage Grove,1031178,086003873889,Woodbridge Chardonnay 1.5L,97438,6,1.0,0.0,0.0,Free Goods
+Rosemount,1031258,086003873889,Woodbridge Chardonnay 1.5L,97438,6,1.0,0.0,0.0,Free Goods
+St. Louis Park,1031296,086003873889,Woodbridge Chardonnay 1.5L,97438,6,3.0,0.0,0.0,Free Goods
+Blaine,1031127,086003903920,Woodbridge Light Oak Chardonna 1.5L,191263,6,2.0,0.0,0.0,Free Goods
+Minneapolis,1031194,086003903920,Woodbridge Light Oak Chardonna 1.5L,191263,6,1.0,0.0,0.0,Free Goods
+Rosemount,1031258,086003903920,Woodbridge Light Oak Chardonna 1.5L,191263,6,1.0,0.0,0.0,Free Goods
+St. Louis Park,1031296,086003903920,Woodbridge Light Oak Chardonna 1.5L,191263,6,1.0,0.0,0.0,Free Goods
+Andover,1030792,086024015435,Ryan's Cream Liqueur 750ml,403857,12,1.0,89.99,89.99,
+Rosemount,1031000,086024015435,Ryan's Cream Liqueur 750ml,403857,12,1.0,89.99,89.99,
+Stillwater,1031059,086024015435,Ryan's Cream Liqueur 750ml,403857,12,1.0,89.99,89.99,
+Minneapolis,1030911,086036100198,Christian Brothers Brandy 50ml,958647,120,1.0,113.4,113.4,
+Andover,1031116,086036124590,Christian Bros Dry Sherry 750ml,048282,12,1.0,62.0,62.0,Month End
+Roseville,1031283,086036124590,Christian Bros Dry Sherry 750ml,048282,12,2.0,62.0,124.0,Month End
+St. Louis Park,1031305,086036124590,Christian Bros Dry Sherry 750ml,048282,12,1.0,62.0,62.0,Month End
+Andover,1030792,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
+Blaine,1030821,086036815474,Christian Brothers Brandy 1.75L,570738,6,2.0,88.68,177.36,
+Rosemount,1031000,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
+Andover,1030792,086036815559,Christian Brothers Brandy Liter,579847,12,1.0,105.6,105.6,
+Rosemount,1031000,086036815559,Christian Brothers Brandy Liter,579847,12,1.0,105.6,105.6,
+Roseville,1031021,086036815559,Christian Brothers Brandy Liter,579847,12,1.0,105.6,105.6,
+Stillwater,1031322,086891068008,Wairau River Sauvignon Blanc 750ml,643060,12,1.0,136.0,136.0,Month End
+Andover,1031116,086891083049,The Federalist Lodi Zinfandel 750ml,550654,12,1.0,128.0,128.0,Month End
+Blaine,1031134,086891083186,The Federalist Cab 750ml,642476,12,1.0,128.0,128.0,Month End
+Rosemount,1031264,086891086132,The Federalist Honest Red Blend 750ml,547995,12,1.0,128.0,128.0,Month End
+Andover,1031116,087000102705,B&G Vouvray,680249,12,1.0,96.0,96.0,Month End
+Andover,1031364,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+Chanhassen,1031365,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+Plymouth,1031366,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+Rosemount,1031367,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+Roseville,1031368,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+St. Louis Park,1031369,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+Woodbury,1031370,087229000264,Luxardo Espresso Decaf Liqueur 750ml,689998,6,0.17,0.0,0.0,Loader FG
+Andover,1031364,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+Chanhassen,1031365,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+Plymouth,1031366,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+Rosemount,1031367,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+Roseville,1031368,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+St. Louis Park,1031369,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+Woodbury,1031370,087229127022,Luxardo Espresso Coffee Liqueur 750ml,650880,6,0.17,0.0,0.0,Loader FG
+Plymouth,1031239,087512912359,Rodney Strong Sonoma Cabernet Sauvignon 750ml,000681798,12,1.0,152.0,152.0,Month End
+Andover,1030792,088004023850,99 Root Beer 50ml,442556,120,1.0,72.1,72.1,
+Chanhassen,1030858,088004023850,99 Root Beer 50ml,442556,120,1.0,72.1,72.1,
+Chanhassen,1030858,088004024086,99 Peppermint 50ml,347256,120,1.0,72.1,72.1,
+Woodbury,1031095,088004024086,99 Peppermint 50ml,347256,120,1.0,72.1,72.1,
+Andover,1030792,088004038557,99 Peanut Butter Whisky 50ml,956958,120,1.0,72.1,72.1,
+Woodbury,1031095,088004038557,99 Peanut Butter Whisky 50ml,956958,120,1.0,72.1,72.1,
+Andover,1030792,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
+Minneapolis,1030911,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
+Plymouth,1030968,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
+Ramsey,1030985,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
+St. Louis Park,1031040,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
+Andover,1030792,088004039677,99 Lemon Lime Schnapps 50ml,969878,120,1.0,72.1,72.1,
+Ramsey,1030985,088004039677,99 Lemon Lime Schnapps 50ml,969878,120,1.0,72.1,72.1,
+Chanhassen,1030858,088004071240,Svedka Citron Vodka 1.75L,531159,6,1.0,87.74,87.74,
+Stillwater,1031065,088004143541,Pimms No 1 750ml,32752,12,1.0,197.0,197.0,Store Request
+Andover,1030792,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
+Cottage Grove,1030879,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
+Stillwater,1031059,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
+Vadnais Heights,1031078,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
+Vadnais Heights,1031337,088232002610,Sebastiani Cabernet North Coast 750ml,626839,12,1.0,136.0,136.0,Month End
+Blaine,1031140,088232005734,Sebastiani Chardonnay 750ml,568760,12,1.0,96.0,96.0,Store Request
+Vadnais Heights,1031078,088352107264,St Brendans Irish Cream 750ml,24442,12,1.0,93.53,93.53,
+Chanhassen,1031169,088586003448,Columbia Crest H3 Cabernet 750ml,569596,12,1.0,104.0,104.0,Month End
+St. Louis Park,1031305,088586009198,14 Hands Run Wild Red Blend 750ml,990874,12,1.0,88.0,88.0,Month End
+Minneapolis,1031201,088586009327,Chateau Ste Michelle Rose 750ml,655934,12,1.0,88.0,88.0,Month End
+St. Louis Park,1031305,088586010149,Liquid Light Sauvignon Blanc 750ml,632651,12,1.0,104.0,104.0,Month End
+Andover,1031116,088586013355,Chateau Ste Michelle Light Sauvignon Blanc 750ml,632772,12,1.0,88.0,88.0,Month End
+Cottage Grove,1031185,088586401848,Columbia Crest Grd Cab Sauv 750ml,562870,12,1.0,96.0,96.0,Month End
+St. Louis Park,1031305,088586607912,CSM Indian Wells Merlot 750ml,677652,12,1.0,144.0,144.0,Month End
+Stillwater,1031322,088586621840,Chateau Ste Michelle Riesling 750ml,55929,12,1.0,88.0,88.0,Month End
+Cottage Grove,1031185,088586625848,Chateau Ste Michelle Gewurztraminer 750ml,995913,12,1.0,88.0,88.0,Month End
+Ramsey,1031251,088586625848,Chateau Ste Michelle Gewurztraminer 750ml,995913,12,1.0,88.0,88.0,Month End
+St. Louis Park,1031305,088586659935,CSM Indian Wells Chardonnay 750ml,000683280,12,1.0,136.0,136.0,Month End
+St. Louis Park,1031305,088593700200,Stag's Leap WC Artemis Cab Sauv 750ml,000629500,6,1.0,352.0,352.0,Month End
+Chanhassen,1030858,089000003211,Mr Boston Five Star Brandy 1.75L,151747,6,1.0,71.51,71.51,
+Cottage Grove,1030879,089000003211,Mr Boston Five Star Brandy 1.75L,151747,6,1.0,71.51,71.51,
+Plymouth,1030968,089000003211,Mr Boston Five Star Brandy 1.75L,151747,6,1.0,71.51,71.51,
+Blaine,1030821,089000015559,Chi-Chi's Skinny Margarita 1.75L,154069,6,1.0,54.0,54.0,
+Andover,1030792,089000018758,Chi-Chi's Margarita 1.75L,246358,6,1.0,54.0,54.0,
+Plymouth,1030968,089000118397,99 Apples 50ml,93645,120,1.0,72.1,72.1,
+Plymouth,1030968,089000547814,Chi-Chi's Mexican Mudslide 1.75L,4572,6,1.0,54.0,54.0,
+Blaine,1030821,089000620104,99 Bananas 100ml,976369,48,1.0,47.75,47.75,
+Minneapolis,1030911,089000620104,99 Bananas 100ml,976369,48,1.0,47.75,47.75,
+Andover,1030792,089000990610,99 Peaches 50ml,175096,120,1.0,72.1,72.1,
+Minneapolis,1030911,089000990610,99 Peaches 50ml,175096,120,1.0,72.1,72.1,
+Andover,1030792,089000991044,99 Watermelons 50ml,295501,120,1.0,72.1,72.1,
+Roseville,1031021,089000991044,99 Watermelons 50ml,295501,120,1.0,72.1,72.1,
+Blaine,1030821,089540125466,Hiram Walker Apricot Brandy Liter,000190796,12,1.0,125.88,125.88,
+Woodbury,1031095,089540333472,Beefeater Gin 1.75L,600817,6,1.0,134.61,134.61,
+Chanhassen,1030858,089540333489,Beefeater Gin Liter,600814,12,1.0,184.23,184.23,
+Plymouth,1030968,089540333489,Beefeater Gin Liter,600814,12,1.0,184.23,184.23,
+Rosemount,1031000,089540333489,Beefeater Gin Liter,600814,12,1.0,184.23,184.23,
+Vadnais Heights,1031078,089540333489,Beefeater Gin Liter,600814,12,1.0,184.23,184.23,
+Andover,1030792,089540448978,Malibu Rum Liter,33451,12,1.0,183.48,183.48,
+Blaine,1030821,089540449326,Malibu Rum 1.75L,136168,6,1.0,126.0,126.0,
+Andover,1030792,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,
+Woodbury,1031095,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,
+Stillwater,1031322,089819001712,Beringer Main & Vine Chardonnay 750ml,183093,12,1.0,42.0,42.0,Month End
+Blaine,1031134,089819006526,Beringer Main & Vine White Zinfandel 750ml,48446,12,1.0,42.0,42.0,Month End
+Vadnais Heights,1031337,089819006526,Beringer Main & Vine White Zinfandel 750ml,48446,12,1.0,42.0,42.0,Month End
+Andover,1031116,089819068227,Beringer Main & Vine Cab Sauv 750ml,193795,12,1.0,42.0,42.0,Month End
+Andover,1030792,096749000067,Elijah Craig BBN Small Batch 94 750ml,409268,12,1.0,222.75,222.75,
+Cottage Grove,1030879,096749000067,Elijah Craig BBN Small Batch 94 750ml,409268,12,1.0,222.75,222.75,
+St. Louis Park,1031040,096749000067,Elijah Craig BBN Small Batch 94 750ml,409268,12,1.0,222.75,222.75,
+St. Louis Park,1031040,096749000074,Elijah Craig BBN Small Batch 94 1.75L,409269,6,1.0,209.25,209.25,
+St. Louis Park,1031044,096749000814,Pikesville Straight Rye 750ml,388153,6,1.0,256.46,256.46,Store Request
+Blaine,1030821,096749002023,Burnett's Vodka Liter,613586,12,1.0,79.2,79.2,
+Cottage Grove,1030879,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,79.5,
+Ramsey,1030985,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,79.5,
+Blaine,1030821,096749011650,Blackheart Spiced Rum 1.75L,296870,6,1.0,89.28,89.28,
+Chanhassen,1030858,096749011650,Blackheart Spiced Rum 1.75L,296870,6,1.0,89.28,89.28,
+Roseville,1031021,096749011650,Blackheart Spiced Rum 1.75L,296870,6,1.0,89.28,89.28,
+Blaine,1030821,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
+Cottage Grove,1030879,096749021147,Evan Williams Bourbon 1.75L,25099,6,2.0,104.36,208.72,
+Plymouth,1030968,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
+Rosemount,1031000,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
+Stillwater,1031059,096749021147,Evan Williams Bourbon 1.75L,25099,6,2.0,104.36,208.72,
+Woodbury,1031095,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
+Andover,1030792,096749021178,Evan Williams 100 Proof 1.75L,29860,6,1.0,131.22,131.22,
+Woodbury,1031095,096749021178,Evan Williams 100 Proof 1.75L,29860,6,1.0,131.22,131.22,
+Blaine,1030821,096749021772,Evan Williams Bourbon Traveler,3540,12,1.0,114.29,114.29,
+Woodbury,1031095,096749021772,Evan Williams Bourbon Traveler,3540,12,1.0,114.29,114.29,
+Minneapolis,1030911,096749021840,Evan Williams Bourbon 50ml,958636,120,1.0,107.9,107.9,
+Blaine,1030821,096749031559,Larceny Bourbon 750ml,565174,12,1.0,208.73,208.73,
+Plymouth,1030968,096749031559,Larceny Bourbon 750ml,565174,12,1.0,208.73,208.73,
+Osseo,1030951,096749086269,Admiral Nelson's Spiced Rum 1.75L,12732,6,1.0,72.0,72.0,
+Rosemount,1031000,096749086269,Admiral Nelson's Spiced Rum 1.75L,12732,6,1.0,72.0,72.0,
+Blaine,1030821,096749200313,Burnett's Vodka 1.75L,13625,6,1.0,60.9,60.9,
+Chanhassen,1030858,096749200313,Burnett's Vodka 1.75L,13625,6,1.0,60.9,60.9,
+Roseville,1031021,096749200313,Burnett's Vodka 1.75L,13625,6,1.0,60.9,60.9,
+St. Louis Park,1031040,096749701100,Mellow Corn Kentucky Whiskey Liter,40748,12,1.0,170.91,170.91,
+Plymouth,1030968,096749908011,Lunazul Reposado Tequila Liter,186639,12,1.0,183.75,183.75,
+Minneapolis,1030911,096749908028,Lunazul Blanco Tequila Liter,186580,12,2.0,183.75,367.5,
+St. Louis Park,1031040,096749908028,Lunazul Blanco Tequila Liter,186580,12,1.0,183.75,183.75,
+Stillwater,1031059,096749908028,Lunazul Blanco Tequila Liter,186580,12,1.0,183.75,183.75,
+Woodbury,1031095,096749908028,Lunazul Blanco Tequila Liter,186580,12,1.0,183.75,183.75,
+Bloomington,1030839,096749908585,Lunazul Anejo 750ml,166401,6,1.0,80.96,80.96,
+Roseville,1031021,096749908585,Lunazul Anejo 750ml,166401,6,1.0,80.96,80.96,
+St. Louis Park,1031305,098652300029,Cline Ancient Vines Zinfandel 750ml,639579,12,1.0,136.0,136.0,Month End
+Blaine,1031134,098652840013,Cline Farmhouse Red 750ml,653517,12,1.0,96.0,96.0,Month End
+Andover,1031357,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+Chanhassen,1031358,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+Plymouth,1031359,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+Rosemount,1031360,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+Roseville,1031361,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+St. Louis Park,1031362,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+Woodbury,1031363,187229127289,Luxardo Maraschino Cherries 12oz,318964,12,1.0,172.0,172.0,Loader
+Andover,1030793,617768111055,Svedka Vodka 50ml,669024,120,1.0,0.0,0.0,Southern July Free Goods
+Blaine,1030822,617768111055,Svedka Vodka 50ml,669024,120,1.0,0.0,0.0,Southern July Free Goods
+Minneapolis,1030912,617768111055,Svedka Vodka 50ml,669024,120,1.0,0.0,0.0,Southern July Free Goods
+Plymouth,1030970,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,Southern July Month End
+Ramsey,1030987,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,Southern July Month End
+Roseville,1031023,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,Southern July Month End
+Vadnais Heights,1031079,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,Southern July Month End
+Woodbury,1031097,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,Southern July Month End
+Blaine,1030821,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+Minneapolis,1030911,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+Osseo,1030951,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+Plymouth,1030968,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+St. Louis Park,1031040,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+Vadnais Heights,1031078,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+Minneapolis,1030912,617768112007,Svedka Vodka 200ml,000690828,48,1.0,0.0,0.0,Southern July Free Goods
+Cottage Grove,1030880,617768113752,Svedka Vodka 375ml,649729,24,1.0,0.0,0.0,Southern July Free Goods
+Minneapolis,1030912,617768113752,Svedka Vodka 375ml,649729,24,1.0,0.0,0.0,Southern July Free Goods
+Woodbury,1031096,617768113752,Svedka Vodka 375ml,649729,24,1.0,0.0,0.0,Southern July Free Goods
+Andover,1030794,617768121757,Svedka Vodka Traveler,683121,12,2.0,99.0,198.0,Southern July Month End
+Blaine,1030822,617768121757,Svedka Vodka Traveler,683121,12,1.0,0.0,0.0,Southern July Free Goods
+Chanhassen,1030859,617768121757,Svedka Vodka Traveler,683121,12,1.0,0.0,0.0,Southern July Free Goods
+Minneapolis,1030912,617768121757,Svedka Vodka Traveler,683121,12,1.0,0.0,0.0,Southern July Free Goods
+Ramsey,1030986,617768121757,Svedka Vodka Traveler,683121,12,1.0,0.0,0.0,Southern July Free Goods
+Woodbury,1031096,617768121757,Svedka Vodka Traveler,683121,12,1.0,0.0,0.0,Southern July Free Goods
+Cottage Grove,1030879,617768124109,Svedka Raspberry Vodka Liter,532613,12,1.0,116.93,116.93,
+Blaine,1030821,617768141175,Svedka Strawberry Lemonade Vod 1.75L,532607,6,1.0,87.74,87.74,
+Minneapolis,1030911,617768151174,Svedka Mango Pineapple Vodka 1.75L,354692,6,1.0,87.74,87.74,
+Minneapolis,1030911,617768201176,Svedka Blue Raspberry Vodka 1.75L,528766,6,2.0,87.74,175.48,
+St. Louis Park,1031305,631470008342,Miraval Studio M Provence Rose 750ml,686342,12,1.0,144.0,144.0,Month End
+Cottage Grove,1030886,649188900476,Grand Marnier Liqueur 750ml,557631,12,1.0,299.17,299.17,Store Request
+Roseville,1031283,652935100012,7 Deadly Zins 750ml,928642,12,1.0,104.0,104.0,Month End
+Roseville,1031283,652935100449,7 Deadly Red 750ml,916972,12,1.0,104.0,104.0,Month End
+Blaine,1030821,664804001368,Espolon Tequila Reposado 1.75L,464553,6,1.0,297.25,297.25,
+St. Louis Park,1031044,664804001368,Espolon Tequila Reposado 1.75L,464553,6,1.0,297.25,297.25,Store Request
+Andover,1031116,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,4.0,128.4,513.6,Month End
+Blaine,1031134,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,4.0,128.4,513.6,Month End
+Bloomington,1031154,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,4.0,128.4,513.6,Month End
+Cottage Grove,1031185,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,1.0,128.4,128.4,Month End
+Minneapolis,1031201,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,2.0,128.4,256.8,Month End
+Minnetonka,1031213,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,8.0,128.4,1027.2,Month End
+Osseo,1031226,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,2.0,128.4,256.8,Month End
+Plymouth,1031239,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,10.0,128.4,1284.0,Month End
+Roseville,1031283,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,11.0,128.4,1412.4,Month End
+St. Louis Park,1031305,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,20.0,128.4,2568.0,Month End
+Vadnais Heights,1031337,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,1.0,128.4,128.4,Month End
+Woodbury,1031352,689352010310,Kim Crawford Pinot Grigio 750ml,669300,12,1.0,128.4,128.4,Month End
+Minnetonka,1030933,720815270039,Sipsmith London Dry Gin 750ml,408090,6,1.0,135.0,135.0,Store Request
+Plymouth,1030968,721059001502,Appleton Signature Blend 750ml,964124,12,1.0,180.0,180.0,
+Blaine,1030821,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
+Cottage Grove,1030879,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
+Minneapolis,1030917,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,Store Request
+Ramsey,1030985,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
+Rosemount,1031000,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
+Woodbury,1031095,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
+Blaine,1030821,721059817509,Wild Turkey American Honey 750ml,313575,12,1.0,180.0,180.0,
+Vadnais Heights,1031078,721733000012,Patron Anejo Tequila 750ml,327,12,1.0,462.38,462.38,
+Bloomington,1030839,721733000029,Patron Silver Tequila 750ml,328,12,1.0,370.05,370.05,
+Chanhassen,1030858,721733000029,Patron Silver Tequila 750ml,328,12,1.0,370.05,370.05,
+Minneapolis,1030911,721733000029,Patron Silver Tequila 750ml,328,12,1.0,370.05,370.05,
+Andover,1031107,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Chanhassen,1031161,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Minneapolis,1031194,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Plymouth,1031232,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Rosemount,1031258,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Roseville,1031275,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Vadnais Heights,1031329,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+Osseo,1031226,728817199129,Gekkeikan Sake 750ml,89743,12,1.0,64.0,64.0,Month End
+St. Louis Park,1031305,728817199129,Gekkeikan Sake 750ml,89743,12,1.0,64.0,64.0,Month End
+Roseville,1031283,728817199600,Gekkeikan Sake Black & Gold 750ml,69465,6,1.0,72.0,72.0,Month End
+Andover,1031116,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,1.0,225.0,225.0,Month End
+Blaine,1031134,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,1.0,225.0,225.0,Month End
+Chanhassen,1031169,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,1.0,225.0,225.0,Month End
+Minneapolis,1031201,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,1.0,225.0,225.0,Month End
+Roseville,1031275,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1031305,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,3.0,225.0,675.0,Month End
+Stillwater,1031322,733952997103,Justin Cabernet Sauvignon 750ml,661189,12,1.0,225.0,225.0,Month End
+Blaine,1031134,736040520016,Tyku Sake Junmai White 720ml,474878,6,1.0,72.0,72.0,Month End
+Minneapolis,1031201,736040520016,Tyku Sake Junmai White 720ml,474878,6,1.0,72.0,72.0,Month End
+Blaine,1031134,736040520030,Tyku Sake Junmai White 330ml,474856,12,1.0,88.0,88.0,Month End
+Minneapolis,1031201,736040520030,Tyku Sake Junmai White 330ml,474856,12,1.0,88.0,88.0,Month End
+Roseville,1031283,736040520030,Tyku Sake Junmai White 330ml,474856,12,1.0,88.0,88.0,Month End
+St. Louis Park,1031305,736040520030,Tyku Sake Junmai White 330ml,474856,12,1.0,88.0,88.0,Month End
+Blaine,1031134,736040520962,Tyku Sake Junmai Ginjo Black 720ml,474876,6,1.0,92.0,92.0,Month End
+St. Louis Park,1031305,736040520962,Tyku Sake Junmai Ginjo Black 720ml,474876,6,1.0,92.0,92.0,Month End
+Blaine,1031134,736040520986,Tyku Sake Junmai Ginjo Black 330ml,474855,12,1.0,120.0,120.0,Month End
+Roseville,1031283,736040520986,Tyku Sake Junmai Ginjo Black 330ml,474855,12,1.0,120.0,120.0,Month End
+Blaine,1031134,810156440021,Ace Armand De Brignac 750ml,696220,6,0.33,1260.0,415.8,Month End
+St. Louis Park,1031305,810156440021,Ace Armand De Brignac 750ml,696220,6,0.33,1260.0,415.8,Month End
+Roseville,1031021,810845030038,Carolans Irish Cream Liter,637341,12,1.0,164.17,164.17,
+Blaine,1030821,810845030069,Carolans Irish Cream 1.75L,913070,6,1.0,112.48,112.48,
+Cottage Grove,1030879,810845030069,Carolans Irish Cream 1.75L,913070,6,1.0,112.48,112.48,
+Blaine,1031134,812147020083,Bertrand Cote des Roses Rose 750ml,645491,12,1.0,152.0,152.0,Month End
+Minneapolis,1031201,812147020083,Bertrand Cote des Roses Rose 750ml,645491,12,1.0,152.0,152.0,Month End
+Plymouth,1031239,812147020083,Bertrand Cote des Roses Rose 750ml,645491,12,1.0,152.0,152.0,Month End
+Rosemount,1031264,812147020083,Bertrand Cote des Roses Rose 750ml,645491,12,1.0,152.0,152.0,Month End
+Roseville,1031283,812147020083,Bertrand Cote des Roses Rose 750ml,645491,12,1.0,152.0,152.0,Month End
+St. Louis Park,1031305,812147020083,Bertrand Cote des Roses Rose 750ml,645491,12,1.0,152.0,152.0,Month End
+Plymouth,1030968,813497006109,Bumbu Rum 750ml,405590,6,1.0,146.94,146.94,
+Chanhassen,1031169,816136025349,Avaline Rose 750ml,665428,12,1.0,176.0,176.0,Month End
+Bloomington,1031154,816136025363,Avaline White 750ml,665432,12,1.0,176.0,176.0,Month End
+Chanhassen,1031161,816136025363,Avaline White 750ml,665432,12,1.0,0.0,0.0,Free Goods
+Minneapolis,1031201,816136025363,Avaline White 750ml,665432,12,1.0,176.0,176.0,Month End
+Andover,1031116,816136025370,Avaline Red 750ml,665425,12,1.0,176.0,176.0,Month End
+Andover,1031116,816253012482,Freixenet Still Rose 750ml,563288,12,1.0,103.93,103.93,Month End
+Woodbury,1031352,816253012482,Freixenet Still Rose 750ml,563288,12,1.0,103.93,103.93,Month End
+St. Louis Park,1031305,816253012505,Freixenet Still Pinot Grigio 750ml,618750,12,1.0,103.93,103.93,Month End
+Vadnais Heights,1031337,816253012628,Mionetto Alcohol Removed Sparkling N/A 750ml,601419,6,1.0,64.3,64.3,Month End
+St. Louis Park,1031305,833302009163,Flybird Baja Lime Margarita 750ml,982857,12,1.0,96.0,96.0,Month End
+Plymouth,1031239,833302009170,Flybird Strawberry Margarita 750ml,982856,12,1.0,96.0,96.0,Month End
+Blaine,1030823,835229000308,Absolut Vodka 750ml,15403,12,3.0,192.2,576.6,Southern July Month End
+Chanhassen,1030860,835229000308,Absolut Vodka 750ml,15403,12,2.0,192.2,384.4,Southern July Month End
+Minneapolis,1030913,835229000308,Absolut Vodka 750ml,15403,12,2.0,192.2,384.4,Southern July Month End
+Osseo,1030953,835229000308,Absolut Vodka 750ml,15403,12,1.0,192.2,192.2,Southern July Month End
+Ramsey,1030987,835229000308,Absolut Vodka 750ml,15403,12,2.0,192.2,384.4,Southern July Month End
+Rosemount,1031001,835229000308,Absolut Vodka 750ml,15403,12,1.0,192.2,192.2,Southern July Month End
+Roseville,1031023,835229000308,Absolut Vodka 750ml,15403,12,2.0,192.2,384.4,Southern July Month End
+St. Louis Park,1031042,835229000308,Absolut Vodka 750ml,15403,12,1.0,192.2,192.2,Southern July Month End
+Stillwater,1031061,835229000308,Absolut Vodka 750ml,15403,12,3.0,192.2,576.6,Southern July Month End
+Woodbury,1031097,835229000308,Absolut Vodka 750ml,15403,12,1.0,192.2,192.2,Southern July Month End
+Andover,1030794,835229000407,Absolut Vodka Liter,15402,12,1.0,238.44,238.44,Southern July Month End
+Chanhassen,1030860,835229000407,Absolut Vodka Liter,15402,12,2.0,238.44,476.88,Southern July Month End
+Cottage Grove,1030881,835229000407,Absolut Vodka Liter,15402,12,3.0,238.44,715.32,Southern July Month End
+Minneapolis,1030913,835229000407,Absolut Vodka Liter,15402,12,10.0,238.44,2384.4,Southern July Month End
+Osseo,1030953,835229000407,Absolut Vodka Liter,15402,12,1.0,238.44,238.44,Southern July Month End
+Plymouth,1030970,835229000407,Absolut Vodka Liter,15402,12,1.0,238.44,238.44,Southern July Month End
+Ramsey,1030987,835229000407,Absolut Vodka Liter,15402,12,3.0,238.44,715.32,Southern July Month End
+Rosemount,1031001,835229000407,Absolut Vodka Liter,15402,12,1.0,238.44,238.44,Southern July Month End
+Roseville,1031023,835229000407,Absolut Vodka Liter,15402,12,2.0,238.44,476.88,Southern July Month End
+Andover,1030793,835229000605,Absolut Vodka 1.75L,13146,6,8.0,0.0,0.0,Southern July Free Goods
+Blaine,1030822,835229000605,Absolut Vodka 1.75L,13146,6,13.0,0.0,0.0,Southern July Free Goods
+Chanhassen,1030859,835229000605,Absolut Vodka 1.75L,13146,6,4.0,0.0,0.0,Southern July Free Goods
+Minneapolis,1030912,835229000605,Absolut Vodka 1.75L,13146,6,6.0,0.0,0.0,Southern July Free Goods
+Osseo,1030952,835229000605,Absolut Vodka 1.75L,13146,6,2.0,0.0,0.0,Southern July Free Goods
+Plymouth,1030969,835229000605,Absolut Vodka 1.75L,13146,6,4.0,0.0,0.0,Southern July Free Goods
+Ramsey,1030986,835229000605,Absolut Vodka 1.75L,13146,6,4.0,0.0,0.0,Southern July Free Goods
+Rosemount,1031001,835229000605,Absolut Vodka 1.75L,13146,6,4.0,184.5,738.0,Southern July Month End
+Roseville,1031023,835229000605,Absolut Vodka 1.75L,13146,6,4.0,184.5,738.0,Southern July Month End
+St. Louis Park,1031042,835229000605,Absolut Vodka 1.75L,13146,6,3.0,184.5,553.5,Southern July Month End
+Stillwater,1031060,835229000605,Absolut Vodka 1.75L,13146,6,1.0,0.0,0.0,Southern July Free Goods
+Vadnais Heights,1031079,835229000605,Absolut Vodka 1.75L,13146,6,2.0,184.5,369.0,Southern July Month End
+Andover,1030794,835229001244,Absolut Ruby Red Vodka Liter,905409,12,1.0,238.44,238.44,Southern July Month End
+Chanhassen,1030860,835229001244,Absolut Ruby Red Vodka Liter,905409,12,1.0,238.44,238.44,Southern July Month End
+Osseo,1030953,835229001244,Absolut Ruby Red Vodka Liter,905409,12,1.0,238.44,238.44,Southern July Month End
+Blaine,1030823,835229001343,Absolut Pears Vodka Liter,573233,12,1.0,238.44,238.44,Southern July Month End
+Plymouth,1030970,835229001343,Absolut Pears Vodka Liter,573233,12,1.0,238.44,238.44,Southern July Month End
+Woodbury,1031097,835229001343,Absolut Pears Vodka Liter,573233,12,1.0,238.44,238.44,Southern July Month End
+Andover,1030794,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Blaine,1030823,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Cottage Grove,1030881,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Minneapolis,1030913,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Osseo,1030953,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Ramsey,1030987,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Woodbury,1031097,835229001404,Absolut Citron Vodka Liter,10950,12,1.0,238.44,238.44,Southern July Month End
+Andover,1030794,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Blaine,1030823,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Cottage Grove,1030881,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Minneapolis,1030913,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Roseville,1031023,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+St. Louis Park,1031042,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Stillwater,1031061,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Woodbury,1031097,835229001602,Absolut Citron Vodka 1.75L,13503,6,1.0,184.5,184.5,Southern July Month End
+Chanhassen,1030860,835229002401,Absolut Mandrin Vodka Liter,47875,12,1.0,238.44,238.44,Southern July Month End
+Cottage Grove,1030881,835229002401,Absolut Mandrin Vodka Liter,47875,12,1.0,238.44,238.44,Southern July Month End
+Minneapolis,1030913,835229002401,Absolut Mandrin Vodka Liter,47875,12,1.0,238.44,238.44,Southern July Month End
+Plymouth,1030970,835229002401,Absolut Mandrin Vodka Liter,47875,12,1.0,238.44,238.44,Southern July Month End
+Woodbury,1031097,835229002401,Absolut Mandrin Vodka Liter,47875,12,1.0,238.44,238.44,Southern July Month End
+Andover,1030794,835229006409,Absolut Vanilla Vodka Liter,546237,12,1.0,238.44,238.44,Southern July Month End
+Blaine,1030823,835229006409,Absolut Vanilla Vodka Liter,546237,12,1.0,238.44,238.44,Southern July Month End
+Minneapolis,1030913,835229006409,Absolut Vanilla Vodka Liter,546237,12,1.0,238.44,238.44,Southern July Month End
+Ramsey,1030987,835229006409,Absolut Vanilla Vodka Liter,546237,12,1.0,238.44,238.44,Southern July Month End
+Andover,1030794,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Blaine,1030823,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Cottage Grove,1030881,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Minneapolis,1030913,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Plymouth,1030970,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Rosemount,1031001,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+St. Louis Park,1031042,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Stillwater,1031061,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Vadnais Heights,1031079,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Woodbury,1031097,835229008403,Absolut Raspberri Vodka Liter,546232,12,1.0,238.44,238.44,Southern July Month End
+Blaine,1030823,835229010116,Absolut Vodka Colors Liter,361381,12,1.0,238.44,238.44,Southern July Month End
+Andover,1030794,835229010284,Absolut Lime Vodka Liter,414578,12,1.0,238.44,238.44,Southern July Month End
+St. Louis Park,1031042,835229010284,Absolut Lime Vodka Liter,414578,12,1.0,238.44,238.44,Southern July Month End
+Cottage Grove,1030881,835229011151,Absolut Vodka Tabasco Chili Pepper Liter,686533,6,1.0,119.2,119.2,Southern July Month End
+Blaine,1031134,836575000066,Grove Mill Sauvignon Blanc 750ml,623232,12,1.0,112.0,112.0,Month End
+Vadnais Heights,1031337,848375004991,House Wine Rose Bubbles Can 355ml,618437,12,1.0,42.0,42.0,Month End
+Roseville,1031283,848375005004,House Wine Sauvignon Blanc Can 355ml,622337,12,1.0,42.0,42.0,Month End
+St. Louis Park,1031305,848375005141,House Wine Brut Bubbles Can 375ml,558221,12,1.0,42.0,42.0,Month End
+Rosemount,1031000,850015640025,Teremana Tequila Blanco 750ml,965145,6,1.0,139.5,139.5,
+Blaine,1030821,850015640032,Teremana Tequila Reposado 750ml,965146,6,1.0,157.5,157.5,
+Plymouth,1030968,850015640032,Teremana Tequila Reposado 750ml,965146,6,1.0,157.5,157.5,
+Vadnais Heights,1031078,850015640032,Teremana Tequila Reposado 750ml,965146,6,1.0,157.5,157.5,
+Chanhassen,1030858,850047003003,Angel's Envy Bourbon 750ml,404725,6,1.0,208.58,208.58,
+Plymouth,1030968,850047003003,Angel's Envy Bourbon 750ml,404725,6,1.0,208.58,208.58,
+Stillwater,1031059,850047003003,Angel's Envy Bourbon 750ml,404725,6,1.0,208.58,208.58,
+Roseville,1031021,851718000710,Redwood Empire Pipe Dream Bourbon 750ml,946182,6,1.0,166.5,166.5,
+St. Louis Park,1031305,852832104810,Campo Viejo Reserva 750ml,636622,12,1.0,113.0,113.0,Month End
+Stillwater,1031322,852832104810,Campo Viejo Reserva 750ml,636622,12,1.0,113.0,113.0,Month End
+St. Louis Park,1031305,853451008039,Archer Roose Bubbly 4pk 250ml,570547,6,1.0,75.46,75.46,Month End
+Cottage Grove,1031185,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,Month End
+Osseo,1031226,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,Month End
+St. Louis Park,1031305,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,Month End
+Andover,1031116,853706002379,Jam Cellars Butter Sauvignon Blanc 750ml,622341,12,1.0,144.0,144.0,Month End
+St. Louis Park,1031305,853706002577,Jam Cellars Butter Pinot Noir 750ml,622339,12,1.0,144.0,144.0,Month End
+Cottage Grove,1030880,854396005008,High West Double Rye 750ml,443185,6,1.0,0.0,0.0,Southern July Free Goods
+Minneapolis,1030913,854396005008,High West Double Rye 750ml,443185,6,1.0,140.0,140.0,Southern July Month End
+Plymouth,1030970,854396005008,High West Double Rye 750ml,443185,6,1.0,140.0,140.0,Southern July Month End
+St. Louis Park,1031042,854396005008,High West Double Rye 750ml,443185,6,2.0,140.0,280.0,Southern July Month End
+Minneapolis,1030912,854396005220,High West Bourbon 750ml,548278,6,1.0,0.0,0.0,Southern July Free Goods
+Roseville,1031022,854396005220,High West Bourbon 750ml,548278,6,1.0,0.0,0.0,Southern July Free Goods
+St. Louis Park,1031041,854396005220,High West Bourbon 750ml,548278,6,1.0,0.0,0.0,Southern July Free Goods
+St. Louis Park,1031040,854628006056,Ole Smoky MS Hunch Punch 50ml,411946,48,1.0,96.0,96.0,
+Blaine,1030821,854628006131,Ole Smoky Salty Caramel Whiskey 750ml,433995,6,1.0,94.5,94.5,
+Cottage Grove,1030879,854628006131,Ole Smoky Salty Caramel Whiskey 750ml,433995,6,1.0,94.5,94.5,
+Cottage Grove,1031178,855165005076,Meiomi Pinot Noir 750ml,651303,12,1.5,0.0,0.0,Free Goods
+Minnetonka,1031205,855165005076,Meiomi Pinot Noir 750ml,651303,12,0.5,0.0,0.0,Free Goods
+Osseo,1031221,855165005076,Meiomi Pinot Noir 750ml,651303,12,0.5,0.0,0.0,Free Goods
+Cottage Grove,1031185,855165005779,Meiomi Chardonnay 750ml,523076,12,1.0,151.92,151.92,Month End
+Minnetonka,1030931,855880008116,On the Rocks Margarita 375ml,918485,12,1.0,103.19,103.19,
+Minnetonka,1030931,855880008178,On the Rocks Larios Aviation 375ml,918517,12,1.0,103.19,103.19,
+Blaine,1030821,856011004007,Ole Smoky Apple Pie 750ml,398418,6,1.0,100.83,100.83,
+Vadnais Heights,1031078,856011004182,Ole Smoky MS White Lightnin' 50ml,408460,48,1.0,96.0,96.0,
+Woodbury,1031095,856065002059,Deep Eddy Vodka 1.75L,319330,6,1.0,106.04,106.04,
+Rosemount,1031000,856065002103,Deep Eddy Ruby Red Vodka 1.75L,336235,6,1.0,106.04,106.04,
+Bloomington,1031154,858018007401,Black Girl Magic Bubbly Rose Can 375ml,993050,24,1.0,130.0,130.0,Month End
+Roseville,1031025,860002743608,Rosaluna Mezcal Joven 750ml,655131,6,1.0,135.0,135.0,Store Request
+Andover,1030792,860265002405,Skrewball Peanut Butter Whiskey 750ml,561798,12,1.0,225.25,225.25,
+Rosemount,1031000,860265002405,Skrewball Peanut Butter Whiskey 750ml,561798,12,1.0,225.25,225.25,
+Blaine,1030821,860265002443,Skrewball Peanut Butter Whiskey Liter,529073,6,1.0,123.48,123.48,
+Plymouth,1030968,860265002443,Skrewball Peanut Butter Whiskey Liter,529073,6,1.0,123.48,123.48,
+Rosemount,1031003,860272001439,The Finnish Long Drink Zero 6pk 12oz can,985046,4,1.0,40.9,40.9,Store Request
+Stillwater,1031059,860272001439,The Finnish Long Drink Zero 6pk 12oz can,985046,4,1.0,40.9,40.9,
+Vadnais Heights,1031081,860272001439,The Finnish Long Drink Zero 6pk 12oz can,985046,4,1.0,40.9,40.9,Store Request
+Woodbury,1031095,860272001439,The Finnish Long Drink Zero 6pk 12oz can,985046,4,1.0,40.9,40.9,
+Chanhassen,1030858,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Cottage Grove,1030879,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Osseo,1030951,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Plymouth,1030968,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Ramsey,1030985,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Rosemount,1031003,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,2.0,40.9,81.8,Store Request
+Stillwater,1031059,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Vadnais Heights,1031078,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Woodbury,1031095,860272001446,The Finnish Long Drink Traditional 6pk 12oz can,985044,4,1.0,40.9,40.9,
+Cottage Grove,1030879,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,
+Ramsey,1030985,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,
+Rosemount,1031003,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,Store Request
+Stillwater,1031059,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,
+Vadnais Heights,1031081,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,Store Request
+Woodbury,1031095,860272001477,The Finnish Long Drink Strong 6pk 12oz can,956992,4,1.0,40.9,40.9,
+Plymouth,1030968,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,1.0,40.9,40.9,
+Ramsey,1030985,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,1.0,40.9,40.9,
+Rosemount,1031003,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,2.0,40.9,81.8,Store Request
+Stillwater,1031059,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,1.0,40.9,40.9,
+Vadnais Heights,1031078,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,1.0,40.9,40.9,
+Woodbury,1031095,860272001484,The Finnish Long Drink Cranberry 6pk 12oz can,956995,4,1.0,40.9,40.9,
+Minneapolis,1031201,870661008024,Oyster Bay Sauvignon Blanc 750ml,127630,12,1.0,120.0,120.0,Month End
+Rosemount,1031264,870661008024,Oyster Bay Sauvignon Blanc 750ml,127630,12,1.0,120.0,120.0,Month End
+St. Louis Park,1031305,870661008024,Oyster Bay Sauvignon Blanc 750ml,127630,12,1.0,120.0,120.0,Month End
+Blaine,1031134,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,Month End
+Osseo,1031226,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,Month End
+Roseville,1031283,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,Month End
+St. Louis Park,1031305,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,Month End
+Vadnais Heights,1031337,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,Month End
+Andover,1030792,898804009004,Hochstadter's Rock and Rye Slow & Low 750ml,340086,6,1.0,94.5,94.5,
+Roseville,1031021,898804009066,Slow & Low Rock & Rye 100ml,434704,24,1.0,84.35,84.35,

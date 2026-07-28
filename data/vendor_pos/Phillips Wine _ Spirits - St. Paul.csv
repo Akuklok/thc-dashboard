@@ -1,149 +1,581 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1030367,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,46.33,46.33,
-Chanhassen,1030388,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,46.33,46.33,
-Roseville,1030471,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,46.33,46.33,
-Chanhassen,1030388,031259009230,Yellow Tail Merlot 1.5L,859075,6,1.0,46.33,46.33,
-Osseo,1030428,031259009728,Yellow Tail Pinot Grigio 1.5L,000859078,6,2.0,46.33,92.66,
-Woodbury,1030527,031259009728,Yellow Tail Pinot Grigio 1.5L,000859078,6,1.0,46.33,46.33,
-Roseville,1030471,031259014050,Yellow Tail Cab Merlot 1.5L,000859069,6,1.0,46.33,46.33,
-Blaine,1030556,039383007184,Michter's Small Batch Bourbon 750ml,1385772,6,1.0,193.5,193.5,
-Blaine,1030556,072924012131,Cock n Bull Ginger Beer 4pk 12oz btl,000023082,6,1.0,25.0,25.0,
-Osseo,1030428,074806184202,Daily's Strawberry RTD Frozen 10oz,1254818,24,1.0,38.58,38.58,
-Blaine,1030367,074806186206,Daily's Hurricane RTD Frozen 10oz,21907,24,1.0,38.58,38.58,
-Blaine,1030556,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
-Roseville,1030658,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
-Rosemount,1030645,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,
-Osseo,1030612,080686500438,Windsor Canadian Traveler,000004713,12,1.0,99.0,99.0,
-Roseville,1030658,080686500438,Windsor Canadian Traveler,000004713,12,1.0,99.0,99.0,
-Blaine,1030556,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,
-Rosemount,1030645,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,
-Blaine,1030556,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,
-Rosemount,1030645,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,
-Rosemount,1030645,082000797319,Bulleit Old Fashioned 750ml,001871934,12,1.0,207.69,207.69,
-Blaine,1030367,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,
-Osseo,1030428,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,
-Blaine,1030367,082242011051,Bota Box Chardonnay 3L Box,001061230,3,3.0,44.0,132.0,
-Chanhassen,1030388,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,
-Osseo,1030428,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,
-Woodbury,1030527,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,
-Osseo,1030428,082242012362,Bota Box Pinot Noir 3L Box,001147004,3,1.0,44.0,44.0,
-Blaine,1030367,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,2.0,44.0,88.0,
-Rosemount,1030457,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,3.0,44.0,132.0,
-Bloomington,1030378,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,
-Osseo,1030428,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,
-Roseville,1030471,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,3.0,44.0,132.0,
-Woodbury,1030527,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,3.0,44.0,132.0,
-Blaine,1030360,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,1.0,44.0,44.0,Free Goods
-Rosemount,1030457,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,2.0,44.0,88.0,
-Osseo,1030428,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,40.0,40.0,
-Woodbury,1030527,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,40.0,40.0,
-Blaine,1030367,082242015691,Bota Box Nighthawk GD Chardonnay 3L Box,001712994,3,2.0,44.0,88.0,
-Blaine,1030367,082242016049,Bota Box Nighthawk Gold Sauv Blanc 3L Box,001931902,3,1.0,44.0,44.0,
-Bloomington,1030378,082242016049,Bota Box Nighthawk Gold Sauv Blanc 3L Box,001931902,3,1.0,44.0,44.0,
-Osseo,1030428,082242016049,Bota Box Nighthawk Gold Sauv Blanc 3L Box,001931902,3,1.0,44.0,44.0,
-Woodbury,1030527,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,44.0,44.0,
-Blaine,1030367,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,
-Osseo,1030428,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,
-Woodbury,1030527,082242016773,Bota Box Breeze Dry Rose 3L Box,001872251,3,1.0,44.0,44.0,
-Blaine,1030367,082242016780,Bota Box Breeze Pinot Grigio 3L Box,001887584,3,1.0,44.0,44.0,
-Roseville,1030471,082242018074,Bota Box Breeze Cabernet 3L Box,1094367,3,1.0,44.0,44.0,
-Blaine,1030367,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,1.0,44.0,44.0,
-Woodbury,1030527,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,2.0,44.0,88.0,
-Chanhassen,1030388,082242018692,Bota Box Brightside Sauv Blanc/PG 500ml,1208007,12,1.0,40.0,40.0,
-Blaine,1030367,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,
-Blaine,1030367,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,30.0,
-Roseville,1030471,08500928,Sutter Home White Zinfandel 187ml,000055608,6,1.0,30.0,30.0,
-Blaine,1030367,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,3.0,30.0,90.0,
-Chanhassen,1030388,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,
-Osseo,1030428,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,
-Blaine,1030367,08510420,Fre Premium Red 750ml,000079343,12,1.0,76.0,76.0,
-Blaine,1030367,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,90.32,90.32,
-Woodbury,1030527,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,90.32,90.32,
-Roseville,1030471,085200005796,SeaGlass Pinot Gris 750ml,000020359,12,1.0,90.32,90.32,
-Blaine,1030367,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,2.0,30.0,60.0,
-Chanhassen,1030388,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,
-Roseville,1030471,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,2.0,30.0,60.0,
-Blaine,1030367,08572624,Fre Pinot Grigio N/A 750ml,1027755,12,1.0,76.0,76.0,
-Blaine,1030556,086767210029,Bailey's Irish Cream 1.75L,000056994,6,1.0,210.0,210.0,
-Blaine,1030556,087000003323,Captain Morgan Silver Rum 750ml,1762932,12,1.0,143.88,143.88,
-Blaine,1030556,087000007321,Seagrams 7 Blended Liter,000001511,12,1.0,162.0,162.0,
-Blaine,1030556,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,222.0,222.0,
-Chanhassen,1030576,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,222.0,222.0,
-Roseville,1030658,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,222.0,222.0,
-Blaine,1030556,087116000384,Prairie Gin 1.75L,000025930,6,1.0,152.5,152.5,
-Blaine,1030556,087116013193,Phillips Rootbeer Schnapps Traveler,000035519,12,1.0,88.13,88.13,
-Blaine,1030556,087116013735,Phillips Vodka 375ml,001609371,24,1.0,95.0,95.0,
-Blaine,1030556,087116018099,Phillips Vodka 1.75L,000040311,6,4.0,63.03,252.12,
-Bloomington,1030568,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,
-Osseo,1030612,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,
-Woodbury,1030703,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,
-Blaine,1030556,087116019058,Prairie Organic Cucumber Vodka 750ml,001025012,12,1.0,176.86,176.86,
-Blaine,1030556,087116019102,Prairie Organic Vodka 1.75L,000014684,6,1.0,152.0,152.0,
-Roseville,1030658,087116019126,Prairie Organic Vodka 750ml,001034506,12,1.0,176.86,176.86,
-Blaine,1030556,087116048645,Phillips Peppermint 80pf Liter,000064766,12,1.0,119.98,119.98,
-Blaine,1030556,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,143.88,143.88,
-Roseville,1030658,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,143.88,143.88,
-Blaine,1030556,087236992002,St Remy VSOP Brandy 750ml,9627,12,1.0,116.88,116.88,
-Chanhassen,1030576,08772707,Crown Royal Canadian 200ml,000025429,44,1.0,257.0,257.0,
-Chanhassen,1030576,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,
-Rosemount,1030645,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,
-Roseville,1030658,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,
-Bloomington,1030568,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,
-Woodbury,1030703,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,
-Blaine,1030556,088076182448,Bailey's Minis 3 pks,001613230,32,1.0,249.0,249.0,
-Roseville,1030658,616003112161,Zing Zang Sweet & Sour 32oz,001916165,6,2.0,22.04,44.08,
-Woodbury,1030703,616003112161,Zing Zang Sweet & Sour 32oz,001916165,6,1.0,22.04,22.04,
-Blaine,1030556,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,22.04,22.04,
-Rosemount,1030645,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,22.04,22.04,
-Roseville,1030658,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,22.04,22.04,
-Woodbury,1030703,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,22.04,22.04,
-Woodbury,1030703,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,40.12,40.12,
-Blaine,1030556,616003737555,Zing Zang Bloody Mary 6pk 8oz can,1646790,4,1.0,26.05,26.05,
-Blaine,1030556,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,2.0,44.07,88.14,
-Chanhassen,1030576,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,44.07,44.07,
-Rosemount,1030645,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,44.07,44.07,
-Roseville,1030658,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,44.07,44.07,
-Blaine,1030556,616003933254,Zing Zang Michelada 32oz,60504,6,1.0,22.04,22.04,
-Woodbury,1030703,616003933254,Zing Zang Michelada 32oz,60504,6,1.0,22.04,22.04,
-Rosemount,1030645,616003945219,Zing Zang Margarita Mix 32oz,001088970,12,1.0,44.07,44.07,
-Roseville,1030658,616003945219,Zing Zang Margarita Mix 32oz,001088970,12,1.0,44.07,44.07,
-Blaine,1030556,628451773108,Empress 1908 Gin 750ml,001753921,6,1.0,162.0,162.0,
-Bloomington,1030568,630328000385,Luksusowa Potato Vodka Liter,000859324,12,1.0,144.0,144.0,
-Chanhassen,1030388,717888520024,Hess Select Chardonnay 750ml,60137,12,1.0,82.5,82.5,
-Bloomington,1030568,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
-Rosemount,1030645,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
-Roseville,1030658,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
-Blaine,1030556,813724025057,Watkins Orange Bitters 4oz,001263388,12,1.0,75.5,75.5,
-Blaine,1030556,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,
-Chanhassen,1030576,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,
-Roseville,1030658,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,
-Roseville,1030658,850003574066,Two Chicks Pear & Elderflower 4pk 12oz can,001991229,6,1.0,46.16,46.16,
-Woodbury,1030703,850003574066,Two Chicks Pear & Elderflower 4pk 12oz can,001991229,6,1.0,46.16,46.16,
-Rosemount,1030645,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,1.0,41.98,41.98,
-Rosemount,1030645,850003574202,Two Chicks Cranberry Tartini 4pk 12oz can,001104060,6,1.0,46.16,46.16,
-Rosemount,1030645,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,1.0,41.98,41.98,
-Blaine,1030556,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,
-Bloomington,1030568,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,
-Osseo,1030612,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,
-Roseville,1030658,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,
-Woodbury,1030703,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,
-Blaine,1030556,850030494108,Keeper's Heart Irish/Bourbon 700ml,1198591,6,1.0,157.5,157.5,
-Bloomington,1030568,851091006224,Buzzballz Biggies Chocolate Tease 1.75L,1020035,3,1.0,45.0,45.0,
-Blaine,1030556,851091006347,BuzzBallz Biggie Berry Cherry Limeade 1.75L,1709950,3,1.0,45.0,45.0,
-Bloomington,1030568,851091006347,BuzzBallz Biggie Berry Cherry Limeade 1.75L,1709950,3,1.0,45.0,45.0,
-Rosemount,1030645,854125003039,Tres Agaves Margarita Mix Liter,000021508,12,1.0,70.4,70.4,
-Woodbury,1030703,854125003039,Tres Agaves Margarita Mix Liter,000021508,12,1.0,70.4,70.4,
-Blaine,1030556,857641002296,Buzzballz Pineapple Colada Chiller 187ml,1222490,24,1.0,51.45,51.45,
-Rosemount,1030645,857641002654,Buzzballz Strawberry 'Rita Chiller 187ml,1944597,24,1.0,51.45,51.45,
-Woodbury,1030703,857641002654,Buzzballz Strawberry 'Rita Chiller 187ml,1944597,24,1.0,51.45,51.45,
-Blaine,1030556,857641002890,Buzzballz Choco Chiller 187ml,1750182,24,1.0,51.45,51.45,
-Chanhassen,1030576,857641002890,Buzzballz Choco Chiller 187ml,1750182,24,1.0,51.45,51.45,
-Roseville,1030658,857641002890,Buzzballz Choco Chiller 187ml,1750182,24,1.0,51.45,51.45,
-Blaine,1030556,857674007671,Buzzballz Hazelnut Latte Chiller 187ml,1447614,24,1.0,51.45,51.45,
-Blaine,1030556,857674007886,Buzzballz Chili Mango Chiller 187ml,1644618,24,1.0,51.45,51.45,
-Rosemount,1030645,857674007886,Buzzballz Chili Mango Chiller 187ml,1644618,24,1.0,51.45,51.45,
-Blaine,1030556,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,51.45,51.45,
-Bloomington,1030568,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,51.45,51.45,
-Chanhassen,1030576,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,51.45,51.45,
-Blaine,1030556,862367000006,Vikre Boreal Juniper Gin 750ml,000023590,6,1.0,135.0,135.0,
-Woodbury,1030703,899682002286,Filthy Olive Brine 8oz,001580732,12,1.0,46.2,46.2,
+St. Louis Park,1031304,031259002583,Fleurs De Prairie Rose 750ml,001559694,12,1.0,128.0,128.0,Month End
+Andover,1031106,031259008929,Yellow Tail Chardonnay 750ml,000859006,12,1.0,0.0,0.0,Free Goods
+Minneapolis,1031193,031259008929,Yellow Tail Chardonnay 750ml,000859006,12,1.0,0.0,0.0,Free Goods
+Roseville,1031282,031259008929,Yellow Tail Chardonnay 750ml,000859006,12,1.0,64.0,64.0,Month End
+Andover,1031106,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,2.0,0.0,0.0,Free Goods
+Cottage Grove,1031177,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,0.0,0.0,Free Goods
+Minneapolis,1031193,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,0.0,0.0,Free Goods
+Vadnais Heights,1031328,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,0.0,0.0,Free Goods
+Woodbury,1031351,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,46.33,46.33,Month End
+Blaine,1031133,031259009230,Yellow Tail Merlot 1.5L,859075,6,1.0,46.33,46.33,Month End
+Roseville,1031282,031259009230,Yellow Tail Merlot 1.5L,859075,6,1.0,46.33,46.33,Month End
+Osseo,1031220,031259009469,Yellow Tail Cab Sauvignon 1.5L,000859066,6,1.0,0.0,0.0,Free Goods
+Rosemount,1031257,031259009469,Yellow Tail Cab Sauvignon 1.5L,000859066,6,1.0,0.0,0.0,Free Goods
+Roseville,1031274,031259009469,Yellow Tail Cab Sauvignon 1.5L,000859066,6,1.0,0.0,0.0,Free Goods
+Stillwater,1031315,031259009469,Yellow Tail Cab Sauvignon 1.5L,000859066,6,1.0,0.0,0.0,Free Goods
+Vadnais Heights,1031328,031259009469,Yellow Tail Cab Sauvignon 1.5L,000859066,6,1.0,0.0,0.0,Free Goods
+Blaine,1031133,031259009711,Yellow Tail Pinot Grigio 750ml,000859012,12,1.0,64.0,64.0,Month End
+Minneapolis,1031200,031259009711,Yellow Tail Pinot Grigio 750ml,000859012,12,0.5,64.0,32.0,Month End
+Woodbury,1031351,031259009711,Yellow Tail Pinot Grigio 750ml,000859012,12,1.0,64.0,64.0,Month End
+Osseo,1031220,031259009728,Yellow Tail Pinot Grigio 1.5L,000859078,6,1.0,0.0,0.0,Free Goods
+Rosemount,1031263,031259009728,Yellow Tail Pinot Grigio 1.5L,000859078,6,1.0,46.33,46.33,Month End
+Roseville,1031282,031259009728,Yellow Tail Pinot Grigio 1.5L,000859078,6,1.0,46.33,46.33,Month End
+Roseville,1031282,031259018492,Yellow Tail Pinot Noir 750ml,000859027,12,1.0,64.0,64.0,Month End
+Blaine,1031133,031259018690,Yellow Tail Riesling 1.5L,000859090,6,1.0,46.33,46.33,Month End
+Blaine,1031138,031259021911,Barone Fini Pinot Grigio 750ml,001198031,12,1.0,100.0,100.0,Store Request
+St. Louis Park,1031304,031259032641,Yellow Tail Super Crisp Chard 1.5L,001643458,6,1.0,46.33,46.33,Month End
+Vadnais Heights,1031336,031259032641,Yellow Tail Super Crisp Chard 1.5L,001643458,6,1.0,46.33,46.33,Month End
+Minneapolis,1031200,031259032658,Yellow Tail Pinot Noir 1.5L,000859093,6,1.0,46.33,46.33,Month End
+Minneapolis,1031200,031259032863,Yellow Tail Moscato 1.5L,000859102,6,1.0,46.33,46.33,Month End
+Blaine,1031133,031259044101,Yellow Tail Jammy Red Roo 1.5L,001582734,6,1.0,46.33,46.33,Month End
+Blaine,1030820,050200003295,Sunny D Vodka Seltzer 4pk 12oz can,1860346,6,1.0,48.75,48.75,
+Andover,1030791,072924012131,Cock n Bull Ginger Beer 4pk 12oz btl,000023082,6,1.0,25.0,25.0,
+Blaine,1030820,072924012131,Cock n Bull Ginger Beer 4pk 12oz btl,000023082,6,2.0,25.0,50.0,
+St. Louis Park,1031039,072924012131,Cock n Bull Ginger Beer 4pk 12oz btl,000023082,6,1.0,25.0,25.0,
+Cottage Grove,1031184,074806184103,Daily's Margarita RTD Frozen 10oz,1626712,24,1.0,38.58,38.58,Month End
+Osseo,1031225,074806184103,Daily's Margarita RTD Frozen 10oz,1626712,24,1.0,38.58,38.58,Month End
+Plymouth,1031238,074806184103,Daily's Margarita RTD Frozen 10oz,1626712,24,1.0,38.58,38.58,Month End
+Ramsey,1031250,074806184103,Daily's Margarita RTD Frozen 10oz,1626712,24,1.0,38.58,38.58,Month End
+St. Louis Park,1031304,074806184103,Daily's Margarita RTD Frozen 10oz,1626712,24,1.0,38.58,38.58,Month End
+Cottage Grove,1031184,074806184202,Daily's Strawberry RTD Frozen 10oz,1254818,24,1.0,38.58,38.58,Month End
+Plymouth,1031238,074806184202,Daily's Strawberry RTD Frozen 10oz,1254818,24,1.0,38.58,38.58,Month End
+Vadnais Heights,1031336,074806184202,Daily's Strawberry RTD Frozen 10oz,1254818,24,1.0,38.58,38.58,Month End
+Blaine,1031133,074806184400,Daily's Pina Colada RTD Frozen 10oz,1629656,24,1.0,38.58,38.58,Month End
+Cottage Grove,1031184,074806184400,Daily's Pina Colada RTD Frozen 10oz,1629656,24,1.0,38.58,38.58,Month End
+Osseo,1031225,074806184400,Daily's Pina Colada RTD Frozen 10oz,1629656,24,1.0,38.58,38.58,Month End
+Plymouth,1031238,074806184400,Daily's Pina Colada RTD Frozen 10oz,1629656,24,1.0,38.58,38.58,Month End
+Blaine,1031126,074806186107,Daily's B Hawaiian RTD Frozen 10oz,21905,24,1.0,0.0,0.0,Free Goods
+Cottage Grove,1031184,074806186206,Daily's Hurricane RTD Frozen 10oz,21907,24,1.0,38.58,38.58,Month End
+Minneapolis,1031193,074806186206,Daily's Hurricane RTD Frozen 10oz,21907,24,1.0,0.0,0.0,Free Goods
+Osseo,1031225,074806186206,Daily's Hurricane RTD Frozen 10oz,21907,24,1.0,38.58,38.58,Month End
+Woodbury,1031351,074806186206,Daily's Hurricane RTD Frozen 10oz,21907,24,1.0,38.58,38.58,Month End
+Andover,1031115,074806186398,Daily's Bahama Mama RTD Frozen 10oz,21906,24,1.0,38.58,38.58,Month End
+Blaine,1031133,074806186398,Daily's Bahama Mama RTD Frozen 10oz,21906,24,1.0,38.58,38.58,Month End
+Roseville,1031282,074806186398,Daily's Bahama Mama RTD Frozen 10oz,21906,24,1.0,38.58,38.58,Month End
+Plymouth,1031238,074806188309,Daily's Peach on the Beach RTD 10oz,25724,24,1.0,38.58,38.58,Month End
+Andover,1031115,074806189405,Daily's Jamaican RTD Frozen 10oz,23862,24,1.0,38.58,38.58,Month End
+Minneapolis,1031193,074806189405,Daily's Jamaican RTD Frozen 10oz,23862,24,1.0,0.0,0.0,Free Goods
+Osseo,1031225,074806189405,Daily's Jamaican RTD Frozen 10oz,23862,24,1.0,38.58,38.58,Month End
+Roseville,1031282,074806189405,Daily's Jamaican RTD Frozen 10oz,23862,24,1.0,38.58,38.58,Month End
+Blaine,1031133,074806918975,Daily's Blackberry Smash 10oz,1662164,24,1.0,38.58,38.58,Month End
+Minneapolis,1031200,074806918975,Daily's Blackberry Smash 10oz,1662164,24,1.0,38.58,38.58,Month End
+Ramsey,1031250,074806918975,Daily's Blackberry Smash 10oz,1662164,24,1.0,38.58,38.58,Month End
+Woodbury,1031351,074806918975,Daily's Blackberry Smash 10oz,1662164,24,1.0,38.58,38.58,Month End
+Andover,1031115,074806918982,Daily's Peach Smash 10oz,1084050,24,1.0,38.58,38.58,Month End
+Blaine,1030820,080686294016,2 Gingers 1.75L,000019651,6,1.0,151.5,151.5,
+Stillwater,1031058,080686294016,2 Gingers 1.75L,000019651,6,1.0,151.5,151.5,
+Andover,1030790,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Blaine,1030819,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Minneapolis,1030909,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Osseo,1030950,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Ramsey,1030984,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Stillwater,1031057,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Vadnais Heights,1031075,080686294023,2 Gingers Liter,000019543,12,1.0,0.0,0.0,Phillips July Free Goods
+Blaine,1030820,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+Chanhassen,1030857,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+Minneapolis,1030910,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+Plymouth,1030967,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+Roseville,1031020,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+Vadnais Heights,1031077,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+Andover,1030789,080686500124,Windsor Canadian 1.75L,4523,6,5.0,0.0,0.0,Phillips July Free Goods
+Blaine,1030818,080686500124,Windsor Canadian 1.75L,4523,6,6.0,0.0,0.0,Phillips July Free Goods
+Chanhassen,1030855,080686500124,Windsor Canadian 1.75L,4523,6,2.0,0.0,0.0,Phillips July Free Goods
+Cottage Grove,1030877,080686500124,Windsor Canadian 1.75L,4523,6,4.0,92.35,369.4,Phillips July Month End
+Minneapolis,1030908,080686500124,Windsor Canadian 1.75L,4523,6,1.0,0.0,0.0,Phillips July Free Goods
+Osseo,1030950,080686500124,Windsor Canadian 1.75L,4523,6,4.0,92.35,369.4,Phillips July Month End
+Plymouth,1030966,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,92.35,Phillips July Month End
+Rosemount,1030998,080686500124,Windsor Canadian 1.75L,4523,6,4.0,92.35,369.4,Phillips July Month End
+Roseville,1031018,080686500124,Windsor Canadian 1.75L,4523,6,2.0,0.0,0.0,Phillips July Free Goods
+St. Louis Park,1031038,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,92.35,Phillips July Month End
+Woodbury,1031093,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,92.35,Phillips July Month End
+Andover,1030790,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Blaine,1030819,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Cottage Grove,1030877,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Minneapolis,1030909,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Osseo,1030950,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Plymouth,1030966,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Woodbury,1031093,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Cottage Grove,1030878,080686500407,Windsor Canadian Liter,000004531,12,1.0,126.0,126.0,
+Blaine,1030818,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Chanhassen,1030855,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Cottage Grove,1030876,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Minneapolis,1030908,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Osseo,1030949,080686500438,Windsor Canadian Traveler,000004713,12,2.0,0.0,0.0,Phillips July Free Goods
+Ramsey,1030983,080686500438,Windsor Canadian Traveler,000004713,12,2.0,0.0,0.0,Phillips July Free Goods
+Roseville,1031018,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Stillwater,1031056,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Vadnais Heights,1031075,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Woodbury,1031092,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+St. Louis Park,1031039,080686500902,Windsor Canadian 50ml,000067553,120,1.0,80.0,80.0,
+Andover,1031115,080887490231,Bogle Phantom Red Blend 750ml,1303193,12,1.0,149.0,149.0,Month End
+Roseville,1031282,080887490231,Bogle Phantom Red Blend 750ml,1303193,12,1.0,149.0,149.0,Month End
+Blaine,1031126,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,0.0,0.0,Free Goods
+Ramsey,1031245,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,0.0,0.0,Free Goods
+Rosemount,1031257,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1031295,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,2.0,0.0,0.0,Free Goods
+Stillwater,1031315,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,0.0,0.0,Free Goods
+Woodbury,1031343,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,0.0,0.0,Free Goods
+Woodbury,1031351,080887551062,Bogle Juggernaut Chardonnay 750ml,1767226,12,1.0,132.5,132.5,Month End
+Rosemount,1031263,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,1656720,12,1.0,132.5,132.5,Month End
+St. Louis Park,1031304,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,1656720,12,2.0,132.5,265.0,Month End
+Woodbury,1031351,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,1656720,12,1.0,132.5,132.5,Month End
+St. Louis Park,1031304,080887551116,Bogle Juggernaut Red Blend 750ml,1503183,12,1.0,149.0,149.0,Month End
+Cottage Grove,1030878,082000743507,Captain Morgan RTS Long Island 1.75L,000016021,6,1.0,90.0,90.0,
+Andover,1030779,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+Blaine,1030806,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+Plymouth,1030959,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+Rosemount,1030993,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+Roseville,1031012,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+St. Louis Park,1031031,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+Stillwater,1031051,082000752974,Bulleit 95 Rye Whiskey Liter,18232,12,1.0,280.0,280.0,Diageo July Month End
+Andover,1030779,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Blaine,1030806,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Chanhassen,1030847,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Minnetonka,1030923,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Plymouth,1030959,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Rosemount,1030993,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+St. Louis Park,1031031,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,4.0,228.0,912.0,Diageo July Month End
+Stillwater,1031051,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Vadnais Heights,1031071,082000766070,Bulleit 95 Rye Whiskey 1.75L,000023315,6,1.0,228.0,228.0,Diageo July Month End
+Andover,1030779,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Blaine,1030806,082000771586,Crown Royal Regal Apple Liter,000024789,12,2.0,315.75,631.5,Diageo July Month End
+Cottage Grove,1030870,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Minneapolis,1030900,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Plymouth,1030959,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Ramsey,1030976,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Roseville,1031012,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Woodbury,1031087,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Andover,1030779,082000771593,Crown Royal Regal Apple 1.75L,24788,6,5.0,222.0,1110.0,Diageo July Month End
+Blaine,1030806,082000771593,Crown Royal Regal Apple 1.75L,24788,6,3.0,222.0,666.0,Diageo July Month End
+Cottage Grove,1030870,082000771593,Crown Royal Regal Apple 1.75L,24788,6,5.0,222.0,1110.0,Diageo July Month End
+Minneapolis,1030900,082000771593,Crown Royal Regal Apple 1.75L,24788,6,3.0,222.0,666.0,Diageo July Month End
+Plymouth,1030959,082000771593,Crown Royal Regal Apple 1.75L,24788,6,2.0,222.0,444.0,Diageo July Month End
+Ramsey,1030976,082000771593,Crown Royal Regal Apple 1.75L,24788,6,1.0,222.0,222.0,Diageo July Month End
+Roseville,1031012,082000771593,Crown Royal Regal Apple 1.75L,24788,6,2.0,222.0,444.0,Diageo July Month End
+Stillwater,1031051,082000771593,Crown Royal Regal Apple 1.75L,24788,6,1.0,222.0,222.0,Diageo July Month End
+Woodbury,1031087,082000771593,Crown Royal Regal Apple 1.75L,24788,6,2.0,222.0,444.0,Diageo July Month End
+Minneapolis,1030900,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo July Month End
+Minnetonka,1030923,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo July Month End
+Roseville,1031012,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo July Month End
+Andover,1030779,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
+Blaine,1030806,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
+Cottage Grove,1030870,082000795360,Crown Royal Peach 1.75L,1242857,6,2.0,222.0,444.0,Diageo July Month End
+Plymouth,1030959,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
+Ramsey,1030976,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
+Rosemount,1030993,082000795360,Crown Royal Peach 1.75L,1242857,6,2.0,222.0,444.0,Diageo July Month End
+Roseville,1031012,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
+Woodbury,1031087,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
+Andover,1030779,082000795377,Crown Royal Peach Liter,1248695,12,1.0,315.75,315.75,Diageo July Month End
+Blaine,1030806,082000795377,Crown Royal Peach Liter,1248695,12,1.0,315.75,315.75,Diageo July Month End
+Chanhassen,1030847,082000795377,Crown Royal Peach Liter,1248695,12,1.0,315.75,315.75,Diageo July Month End
+Cottage Grove,1030870,082000795377,Crown Royal Peach Liter,1248695,12,1.0,315.75,315.75,Diageo July Month End
+Vadnais Heights,1031071,082000795377,Crown Royal Peach Liter,1248695,12,1.0,315.75,315.75,Diageo July Month End
+Chanhassen,1030857,082000797319,Bulleit Old Fashioned 750ml,001871934,12,1.0,207.69,207.69,
+Plymouth,1030967,082000797319,Bulleit Old Fashioned 750ml,001871934,12,1.0,207.69,207.69,
+Stillwater,1031058,082000797319,Bulleit Old Fashioned 750ml,001871934,12,1.0,207.69,207.69,
+Chanhassen,1031160,082242010412,Bota Box Cabernet Sauvignon 500ml,1947239,12,1.0,0.0,0.0,Free Goods
+Minneapolis,1031193,082242010412,Bota Box Cabernet Sauvignon 500ml,1947239,12,1.0,0.0,0.0,Free Goods
+Blaine,1031133,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,2.0,44.0,88.0,Month End
+Chanhassen,1031168,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,Month End
+Minneapolis,1031200,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,Month End
+Rosemount,1031263,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,Month End
+Roseville,1031282,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,44.0,Month End
+Cottage Grove,1031184,082242010832,Bota Box Redvolution 500ml,001903792,12,1.0,40.0,40.0,Month End
+St. Louis Park,1031304,082242010832,Bota Box Redvolution 500ml,001903792,12,1.0,40.0,40.0,Month End
+Woodbury,1031351,082242011013,Bota Box Chardonnay 500ml,001601610,12,1.0,40.0,40.0,Month End
+Bloomington,1031153,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,Month End
+Chanhassen,1031168,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,Month End
+Roseville,1031282,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,44.0,Month End
+Andover,1031115,082242012362,Bota Box Pinot Noir 3L Box,001147004,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242012362,Bota Box Pinot Noir 3L Box,001147004,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,3.0,44.0,132.0,Month End
+Stillwater,1031321,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,2.0,44.0,88.0,Month End
+Vadnais Heights,1031336,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,1.0,44.0,44.0,Month End
+Andover,1031115,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,2.0,44.0,88.0,Month End
+Chanhassen,1031168,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,Month End
+Minneapolis,1031200,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,Month End
+Osseo,1031225,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,Month End
+Ramsey,1031250,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,Month End
+Roseville,1031282,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,2.0,44.0,88.0,Month End
+Woodbury,1031351,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,2.0,44.0,88.0,Month End
+Minneapolis,1031193,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,2.0,0.0,0.0,Free Goods
+Plymouth,1031231,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,2.0,0.0,0.0,Free Goods
+Ramsey,1031245,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,3.0,0.0,0.0,Free Goods
+Rosemount,1031263,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,2.0,44.0,88.0,Month End
+St. Louis Park,1031304,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,3.0,44.0,132.0,Month End
+Woodbury,1031351,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,1.0,44.0,44.0,Month End
+Chanhassen,1031160,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,0.0,0.0,Free Goods
+Cottage Grove,1031177,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,0.0,0.0,Free Goods
+Osseo,1031220,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,0.0,0.0,Free Goods
+Rosemount,1031257,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,0.0,0.0,Free Goods
+Stillwater,1031315,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,0.0,0.0,Free Goods
+Woodbury,1031343,082242013314,Bota Box Pinot Grigio 500ml,001136664,12,1.0,0.0,0.0,Free Goods
+Andover,1031115,082242013741,Bota Box NightHawk Red Blend 3L Box,001365636,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242013741,Bota Box NightHawk Red Blend 3L Box,001365636,3,1.0,44.0,44.0,Month End
+Rosemount,1031263,082242013741,Bota Box NightHawk Red Blend 3L Box,001365636,3,1.0,44.0,44.0,Month End
+Vadnais Heights,1031336,082242013741,Bota Box NightHawk Red Blend 3L Box,001365636,3,1.0,44.0,44.0,Month End
+Cottage Grove,1031184,082242013956,Bota Box Riesling 3L Box,001616492,3,1.0,44.0,44.0,Month End
+Roseville,1031282,082242014311,Bota Box Sauvignon Blanc 500ml,001559418,12,1.0,40.0,40.0,Month End
+St. Louis Park,1031304,082242014311,Bota Box Sauvignon Blanc 500ml,001559418,12,1.0,40.0,40.0,Month End
+Andover,1031115,082242014373,Bota Box Dry Rose 3L Box,001259514,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242014373,Bota Box Dry Rose 3L Box,001259514,3,1.0,44.0,44.0,Month End
+Andover,1031115,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+Chanhassen,1031168,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+Minneapolis,1031200,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+Osseo,1031225,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+Roseville,1031282,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242015691,Bota Box Nighthawk GD Chardonnay 3L Box,001712994,3,1.0,44.0,44.0,Month End
+Minneapolis,1031200,082242016049,Bota Box Nighthawk Gold Sauv Blanc 3L Box,001931902,3,1.0,44.0,44.0,Month End
+Rosemount,1031263,082242016049,Bota Box Nighthawk Gold Sauv Blanc 3L Box,001931902,3,1.0,44.0,44.0,Month End
+Bloomington,1031153,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,44.0,44.0,Month End
+Chanhassen,1031168,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,44.0,44.0,Month End
+Ramsey,1031250,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,44.0,44.0,Month End
+Andover,1031115,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,2.0,44.0,88.0,Month End
+Cottage Grove,1031184,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,2.0,44.0,88.0,Month End
+Minneapolis,1031200,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,1.0,44.0,44.0,Month End
+Osseo,1031225,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,1.0,44.0,44.0,Month End
+Woodbury,1031351,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,1.0,44.0,44.0,Month End
+Andover,1031115,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,2.0,44.0,88.0,Month End
+Bloomington,1031153,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,Month End
+Ramsey,1031250,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,Month End
+Cottage Grove,1031184,082242016780,Bota Box Breeze Pinot Grigio 3L Box,001887584,3,1.0,44.0,44.0,Month End
+Minneapolis,1031200,082242016780,Bota Box Breeze Pinot Grigio 3L Box,001887584,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242016780,Bota Box Breeze Pinot Grigio 3L Box,001887584,3,1.0,44.0,44.0,Month End
+Andover,1031115,082242016797,Bota Box Breeze Red Blend 3L Box,001312523,3,1.0,44.0,44.0,Month End
+Blaine,1031133,082242016797,Bota Box Breeze Red Blend 3L Box,001312523,3,1.0,44.0,44.0,Month End
+Osseo,1031225,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,001149765,3,1.0,44.0,44.0,Month End
+Plymouth,1031238,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,001149765,3,1.0,44.0,44.0,Month End
+Chanhassen,1031168,082242017558,Bota Box Merlot 3L Box,001999004,3,1.0,44.0,44.0,Month End
+Woodbury,1031351,082242017558,Bota Box Merlot 3L Box,001999004,3,1.0,44.0,44.0,Month End
+Woodbury,1031351,082242017633,Bota Box Breeze Chardonnay 3L Box,1503789,3,2.0,44.0,88.0,Month End
+Andover,1031115,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,1.0,44.0,44.0,Month End
+Plymouth,1031238,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,1.0,44.0,44.0,Month End
+St. Louis Park,1031304,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,1.0,44.0,44.0,Month End
+Stillwater,1031321,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,1.0,44.0,44.0,Month End
+Woodbury,1031351,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,1467290,3,1.0,44.0,44.0,Month End
+Rosemount,1031263,082242018692,Bota Box Brightside Sauv Blanc/PG 500ml,1208007,12,1.0,40.0,40.0,Month End
+Roseville,1031282,082242018692,Bota Box Brightside Sauv Blanc/PG 500ml,1208007,12,1.0,40.0,40.0,Month End
+Rosemount,1030999,08245805,Crown Royal Regal Apple 50ml,000024793,60,1.0,75.0,75.0,
+Roseville,1031020,08245805,Crown Royal Regal Apple 50ml,000024793,60,1.0,75.0,75.0,
+Blaine,1030819,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Chanhassen,1030856,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Cottage Grove,1030877,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Minneapolis,1030909,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Plymouth,1030966,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Ramsey,1030984,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Stillwater,1031057,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Blaine,1031133,084279978727,Starling Castle Gewurztraminer 750ml,000014674,12,1.0,64.0,64.0,Month End
+Woodbury,1031351,084279978727,Starling Castle Gewurztraminer 750ml,000014674,12,1.0,64.0,64.0,Month End
+Andover,1031115,08500229,Sutter Home Merlot 187ml,000016840,6,1.0,30.0,30.0,Month End
+Blaine,1031133,08500229,Sutter Home Merlot 187ml,000016840,6,1.0,30.0,30.0,Month End
+Vadnais Heights,1031336,08500229,Sutter Home Merlot 187ml,000016840,6,1.0,30.0,30.0,Month End
+Andover,1031115,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,Month End
+Minneapolis,1031200,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,Month End
+Rosemount,1031263,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,Month End
+St. Louis Park,1031304,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,Month End
+Andover,1031115,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,30.0,Month End
+Chanhassen,1031168,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,30.0,Month End
+St. Louis Park,1031304,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,30.0,Month End
+Andover,1031115,08500928,Sutter Home White Zinfandel 187ml,000055608,6,1.0,30.0,30.0,Month End
+Blaine,1031133,08500928,Sutter Home White Zinfandel 187ml,000055608,6,1.0,30.0,30.0,Month End
+Stillwater,1031321,08500928,Sutter Home White Zinfandel 187ml,000055608,6,1.0,30.0,30.0,Month End
+Woodbury,1031351,08500928,Sutter Home White Zinfandel 187ml,000055608,6,1.0,30.0,30.0,Month End
+Andover,1031115,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,Month End
+Blaine,1031133,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,Month End
+Roseville,1031282,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,Month End
+St. Louis Park,1031304,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,Month End
+Cottage Grove,1031184,08501626,Sutter Home Moscato 187ml,000010468,6,1.0,30.0,30.0,Month End
+Roseville,1031282,08501626,Sutter Home Moscato 187ml,000010468,6,1.0,30.0,30.0,Month End
+Cottage Grove,1031184,08509929,Sutter Home Pink Moscato 187ml,000019654,6,1.0,30.0,30.0,Month End
+Roseville,1031282,08509929,Sutter Home Pink Moscato 187ml,000019654,6,1.0,30.0,30.0,Month End
+Andover,1031115,08510129,Fre Chardonnay N/A 750ml,000059998,12,1.0,76.0,76.0,Month End
+Andover,1030779,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+Chanhassen,1030847,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+Minneapolis,1030916,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Store Request
+Ramsey,1030976,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+Rosemount,1030993,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+Roseville,1031012,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+St. Louis Park,1031031,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+Vadnais Heights,1031071,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
+Blaine,1031126,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,0.0,0.0,Free Goods
+Chanhassen,1031168,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,90.32,90.32,Month End
+Minneapolis,1031200,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,90.32,90.32,Month End
+Cottage Grove,1031184,085200005796,SeaGlass Pinot Gris 750ml,000020359,12,1.0,90.32,90.32,Month End
+Minneapolis,1031200,085200005796,SeaGlass Pinot Gris 750ml,000020359,12,1.0,90.32,90.32,Month End
+St. Louis Park,1031304,085200005796,SeaGlass Pinot Gris 750ml,000020359,12,1.0,90.32,90.32,Month End
+Blaine,1031133,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,Month End
+Rosemount,1031263,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,Month End
+Roseville,1031282,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,Month End
+Blaine,1031133,08572624,Fre Pinot Grigio N/A 750ml,1027755,12,1.0,76.0,76.0,Month End
+Roseville,1031020,086767210128,Bailey's Irish Cream 50ml,000050104,80,1.0,99.0,99.0,
+Andover,1030791,086767520227,Rumple Minze 50ml,001137806,120,1.0,88.5,88.5,
+Andover,1030779,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
+Blaine,1030806,087000004047,Bulleit Bourbon 1.75L,000011267,6,5.0,228.0,1140.0,Diageo July Month End
+Chanhassen,1030847,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
+Cottage Grove,1030870,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
+Minneapolis,1030900,087000004047,Bulleit Bourbon 1.75L,000011267,6,2.0,228.0,456.0,Diageo July Month End
+Plymouth,1030959,087000004047,Bulleit Bourbon 1.75L,000011267,6,2.0,228.0,456.0,Diageo July Month End
+Ramsey,1030976,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
+Rosemount,1030993,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
+St. Louis Park,1031031,087000004047,Bulleit Bourbon 1.75L,000011267,6,3.0,228.0,684.0,Diageo July Month End
+Vadnais Heights,1031071,087000004047,Bulleit Bourbon 1.75L,000011267,6,2.0,228.0,456.0,Diageo July Month End
+Woodbury,1031087,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
+Andover,1030779,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Cottage Grove,1030870,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Minneapolis,1030900,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Osseo,1030942,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Plymouth,1030959,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Rosemount,1030993,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Roseville,1031012,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,280.0,Diageo July Month End
+Andover,1030779,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Blaine,1030806,087000007246,Crown Royal Canadian Liter,000004382,12,2.0,315.75,631.5,Diageo July Month End
+Cottage Grove,1030870,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Minneapolis,1030900,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Plymouth,1030959,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Ramsey,1030976,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Roseville,1031012,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Vadnais Heights,1031071,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Andover,1030779,087000700604,Crown Royal Canadian 1.75L,69484,6,4.0,222.0,888.0,Diageo July Month End
+Blaine,1030806,087000700604,Crown Royal Canadian 1.75L,69484,6,10.0,222.0,2220.0,Diageo July Month End
+Chanhassen,1030845,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,0.0,0.0,Diageo July Free Goods
+Cottage Grove,1030870,087000700604,Crown Royal Canadian 1.75L,69484,6,8.0,222.0,1776.0,Diageo July Month End
+Minneapolis,1030900,087000700604,Crown Royal Canadian 1.75L,69484,6,3.0,222.0,666.0,Diageo July Month End
+Minnetonka,1030921,087000700604,Crown Royal Canadian 1.75L,69484,6,0.67,0.0,0.0,Diageo July Free Goods
+Osseo,1030942,087000700604,Crown Royal Canadian 1.75L,69484,6,4.0,222.0,888.0,Diageo July Month End
+Plymouth,1030959,087000700604,Crown Royal Canadian 1.75L,69484,6,6.0,222.0,1332.0,Diageo July Month End
+Ramsey,1030976,087000700604,Crown Royal Canadian 1.75L,69484,6,2.0,222.0,444.0,Diageo July Month End
+Rosemount,1030993,087000700604,Crown Royal Canadian 1.75L,69484,6,3.0,222.0,666.0,Diageo July Month End
+Roseville,1031012,087000700604,Crown Royal Canadian 1.75L,69484,6,3.0,222.0,666.0,Diageo July Month End
+Stillwater,1031051,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,222.0,222.0,Diageo July Month End
+Vadnais Heights,1031071,087000700604,Crown Royal Canadian 1.75L,69484,6,4.0,222.0,888.0,Diageo July Month End
+Woodbury,1031087,087000700604,Crown Royal Canadian 1.75L,69484,6,2.0,222.0,444.0,Diageo July Month End
+Andover,1030779,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Blaine,1030806,087000700703,Seagrams 7 Blended 1.75L,00001503,6,3.0,90.0,270.0,Diageo July Month End
+Chanhassen,1030847,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Cottage Grove,1030870,087000700703,Seagrams 7 Blended 1.75L,00001503,6,2.0,90.0,180.0,Diageo July Month End
+Minneapolis,1030900,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Ramsey,1030976,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Roseville,1031012,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+St. Louis Park,1031031,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Stillwater,1031051,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Woodbury,1031087,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Roseville,1031020,087116001992,Prairie Organic Gin 50ml,001225547,120,1.0,80.4,80.4,
+Rosemount,1030999,087116011267,Phillips Vodka Traveler,000033126,12,1.0,66.3,66.3,
+Roseville,1031020,087116011267,Phillips Vodka Traveler,000033126,12,1.0,66.3,66.3,
+Woodbury,1031094,087116011267,Phillips Vodka Traveler,000033126,12,1.0,66.3,66.3,
+Andover,1030791,087116013735,Phillips Vodka 375ml,001609371,24,1.0,95.0,95.0,
+Chanhassen,1030857,087116013735,Phillips Vodka 375ml,001609371,24,1.0,95.0,95.0,
+Minnetonka,1030930,087116014473,Phillips UV Blue Raspberry Liter,000016410,12,1.0,115.0,115.0,
+Andover,1030789,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,0.0,0.0,Phillips July Free Goods
+Blaine,1030818,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,0.0,0.0,Phillips July Free Goods
+Bloomington,1030836,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,0.0,0.0,Phillips July Free Goods
+Chanhassen,1030855,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,0.0,0.0,Phillips July Free Goods
+Cottage Grove,1030877,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,63.03,126.06,Phillips July Month End
+Minneapolis,1030909,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+Osseo,1030950,087116018099,Phillips Vodka 1.75L,000040311,6,3.0,63.03,189.09,Phillips July Month End
+Plymouth,1030966,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+Ramsey,1030984,087116018099,Phillips Vodka 1.75L,000040311,6,3.0,63.03,189.09,Phillips July Month End
+Rosemount,1030998,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+Roseville,1031019,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+St. Louis Park,1031038,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,63.03,126.06,Phillips July Month End
+Stillwater,1031057,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+Vadnais Heights,1031076,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+Woodbury,1031093,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,63.03,126.06,Phillips July Month End
+Blaine,1030820,087116048645,Phillips Peppermint 80pf Liter,000064766,12,1.0,119.98,119.98,
+Plymouth,1030967,087116048645,Phillips Peppermint 80pf Liter,000064766,12,1.0,119.98,119.98,
+Minneapolis,1030910,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,124.0,124.0,
+Cottage Grove,1030885,087236003432,Remy Martin 1738 Cognac 750ml,001681999,12,1.0,521.88,521.88,Store Request
+Andover,1030779,08727008,Captain Morgan Spiced Rum Liter,000005363,12,3.0,165.0,495.0,Diageo July Month End
+Blaine,1030806,08727008,Captain Morgan Spiced Rum Liter,000005363,12,5.0,165.0,825.0,Diageo July Month End
+Chanhassen,1030847,08727008,Captain Morgan Spiced Rum Liter,000005363,12,1.0,165.0,165.0,Diageo July Month End
+Cottage Grove,1030870,08727008,Captain Morgan Spiced Rum Liter,000005363,12,3.0,165.0,495.0,Diageo July Month End
+Minneapolis,1030900,08727008,Captain Morgan Spiced Rum Liter,000005363,12,5.0,165.0,825.0,Diageo July Month End
+Osseo,1030942,08727008,Captain Morgan Spiced Rum Liter,000005363,12,2.0,165.0,330.0,Diageo July Month End
+Roseville,1031012,08727008,Captain Morgan Spiced Rum Liter,000005363,12,1.0,165.0,165.0,Diageo July Month End
+St. Louis Park,1031031,08727008,Captain Morgan Spiced Rum Liter,000005363,12,1.0,165.0,165.0,Diageo July Month End
+Vadnais Heights,1031071,08727008,Captain Morgan Spiced Rum Liter,000005363,12,3.0,165.0,495.0,Diageo July Month End
+Woodbury,1031087,08727008,Captain Morgan Spiced Rum Liter,000005363,12,4.0,165.0,660.0,Diageo July Month End
+Andover,1031115,087752005644,Bartenura Moscato 750ml,27656,12,1.0,128.0,128.0,Month End
+Minneapolis,1031193,087752005644,Bartenura Moscato 750ml,27656,12,1.0,0.0,0.0,Free Goods
+Osseo,1031220,087752005644,Bartenura Moscato 750ml,27656,12,1.0,0.0,0.0,Free Goods
+Blaine,1031133,087752014875,Bartenura Brachetto 750ml,20405,12,1.0,128.0,128.0,Month End
+Woodbury,1031351,087752014875,Bartenura Brachetto 750ml,20405,12,1.0,128.0,128.0,Month End
+Andover,1030789,088004009373,Fireball Whisky 100ml,1403888,48,4.0,0.0,0.0,Phillips July Free Goods
+Blaine,1030818,088004009373,Fireball Whisky 100ml,1403888,48,5.0,0.0,0.0,Phillips July Free Goods
+Chanhassen,1030855,088004009373,Fireball Whisky 100ml,1403888,48,1.0,0.0,0.0,Phillips July Free Goods
+Cottage Grove,1030877,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips July Month End
+Minneapolis,1030909,088004009373,Fireball Whisky 100ml,1403888,48,6.0,65.0,390.01,Phillips July Month End
+Minnetonka,1030929,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips July Month End
+Osseo,1030950,088004009373,Fireball Whisky 100ml,1403888,48,2.0,65.0,130.0,Phillips July Month End
+Ramsey,1030984,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips July Month End
+Rosemount,1030998,088004009373,Fireball Whisky 100ml,1403888,48,2.0,65.0,130.0,Phillips July Month End
+Roseville,1031019,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips July Month End
+St. Louis Park,1031038,088004009373,Fireball Whisky 100ml,1403888,48,3.0,65.0,195.0,Phillips July Month End
+Vadnais Heights,1031076,088004009373,Fireball Whisky 100ml,1403888,48,2.0,65.0,130.0,Phillips July Month End
+Woodbury,1031093,088004009373,Fireball Whisky 100ml,1403888,48,3.0,65.0,195.0,Phillips July Month End
+Blaine,1030819,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips July Month End
+Minneapolis,1030909,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips July Month End
+Osseo,1030950,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips July Month End
+Rosemount,1030998,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips July Month End
+Vadnais Heights,1031076,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips July Month End
+Bloomington,1030838,088004076603,Buzzballz Biggie Pink Lemonsqueezy 1.75L,1894127,3,1.0,45.0,45.0,
+Andover,1030791,088076182448,Bailey's Minis 3 pks,001613230,32,1.0,249.0,249.0,
+Cottage Grove,1030878,088076182448,Bailey's Minis 3 pks,001613230,32,1.0,249.0,249.0,
+Minneapolis,1031200,099988071096,Menage a Trois Red 750ml,000010147,12,1.0,84.0,84.0,Month End
+Stillwater,1031315,099988071096,Menage a Trois Red 750ml,000010147,12,1.0,0.0,0.0,Free Goods
+Andover,1031115,099988071294,Menage a Trois Midnight 750ml,000024208,12,1.0,84.0,84.0,Month End
+Cottage Grove,1031184,099988071294,Menage a Trois Midnight 750ml,000024208,12,1.0,84.0,84.0,Month End
+Woodbury,1031351,099988071362,Menage A Trois Silk 750ml,000026617,12,1.0,84.0,84.0,Month End
+Osseo,1031225,099988071898,Menage A Trois Sweet Moscato 750ml,001600545,12,1.0,84.0,84.0,Month End
+Vadnais Heights,1031336,099988071898,Menage A Trois Sweet Moscato 750ml,001600545,12,1.0,84.0,84.0,Month End
+Minnetonka,1031212,188985000038,Joel Gott Chardonnay 750ml,000016455,12,1.0,107.5,107.5,Month End
+Blaine,1031133,188985000113,Joel Gott Sauv Blanc 750ml,000016453,12,1.0,107.5,107.5,Month End
+Plymouth,1031238,188985000113,Joel Gott Sauv Blanc 750ml,000016453,12,1.0,107.5,107.5,Month End
+Cottage Grove,1031177,188985000137,Joel Gott Cab Sauvignon 750ml,000016456,12,1.0,0.0,0.0,Free Goods
+Blaine,1031133,188985000281,Joel Gott Pinot Gris 750ml,000018824,12,1.0,107.5,107.5,Month End
+Minneapolis,1030909,616003112161,Zing Zang Sweet & Sour 32oz,001916165,6,1.0,22.04,22.04,Phillips July Month End
+Woodbury,1031093,616003112161,Zing Zang Sweet & Sour 32oz,001916165,6,1.0,22.04,22.04,Phillips July Month End
+Minnetonka,1030930,616003203135,Zing Zang RTD Bloody Mary 4pk 12oz can,001435635,6,1.0,58.5,58.5,
+Andover,1030790,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Blaine,1030819,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,2.0,40.12,80.24,Phillips July Month End
+Cottage Grove,1030877,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Minneapolis,1030909,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Osseo,1030950,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Rosemount,1030998,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Roseville,1031019,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Woodbury,1031093,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Andover,1030789,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,2.0,0.0,0.0,Phillips July Free Goods
+Blaine,1030818,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Phillips July Free Goods
+Bloomington,1030836,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Phillips July Free Goods
+Chanhassen,1030855,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Phillips July Free Goods
+Osseo,1030949,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Phillips July Free Goods
+Rosemount,1030998,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,2.0,40.12,80.24,Phillips July Month End
+Roseville,1031019,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,40.12,40.12,Phillips July Month End
+Stillwater,1031057,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,40.12,40.12,Phillips July Month End
+Vadnais Heights,1031076,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,40.12,40.12,Phillips July Month End
+Blaine,1030820,616003737555,Zing Zang Bloody Mary 6pk 8oz can,1646790,4,1.0,26.05,26.05,
+Chanhassen,1030856,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,44.07,44.07,Phillips July Month End
+Roseville,1031019,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,44.07,44.07,Phillips July Month End
+St. Louis Park,1031038,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,44.07,44.07,Phillips July Month End
+Woodbury,1031093,616003945219,Zing Zang Margarita Mix 32oz,001088970,12,1.0,44.07,44.07,Phillips July Month End
+Andover,1030798,628451773108,Empress 1908 Gin 750ml,001753921,6,1.0,162.0,162.0,Store Request
+Chanhassen,1030857,674545000414,Don Julio Reposado Tequila 750ml,69476,6,1.0,177.5,177.5,
+Chanhassen,1031168,717888510025,Hess Select Cab Sauv 750ml,000056473,12,1.0,109.0,109.0,Month End
+Chanhassen,1031168,717888520024,Hess Select Chardonnay 750ml,60137,12,1.0,82.5,82.5,Month End
+St. Louis Park,1031304,717888520024,Hess Select Chardonnay 750ml,60137,12,1.0,82.5,82.5,Month End
+Minnetonka,1030930,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
+Plymouth,1030967,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
+Rosemount,1030999,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
+Roseville,1031020,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
+St. Louis Park,1031039,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
+Woodbury,1031094,721094199707,Gosling's Ginger Beer 6pk 12oz can,1827689,4,1.0,16.77,16.77,
+St. Louis Park,1031039,721094199752,Gosling's Diet Ginger Beer 6pk 12oz can,1739707,4,1.0,16.77,16.77,
+Woodbury,1031094,721094199752,Gosling's Diet Ginger Beer 6pk 12oz can,1739707,4,1.0,16.77,16.77,
+Blaine,1031133,728028087161,Carlos Creek Hot Dish Red 750ml,1924531,12,1.0,144.0,144.0,Month End
+Blaine,1030820,810035510111,Shanky's Irish Whip 750ml,001953993,6,1.0,126.0,126.0,
+Vadnais Heights,1031077,810035510111,Shanky's Irish Whip 750ml,001953993,6,1.0,126.0,126.0,
+Blaine,1030820,813724025057,Watkins Orange Bitters 4oz,001263388,12,1.0,75.5,75.5,
+Blaine,1031133,839743001490,Yellow Tail Big Bold Red 1.5L,000859114,6,1.0,46.33,46.33,Month End
+Cottage Grove,1031184,839743001520,Yellow Tail Pink Moscato 1.5L,000859105,6,1.0,46.33,46.33,Month End
+Roseville,1031282,839743001582,Yellow Tail Sangria 1.5L,000859117,6,1.0,46.33,46.33,Month End
+Blaine,1030819,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
+Cottage Grove,1030877,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
+Osseo,1030950,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
+Ramsey,1030984,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
+Stillwater,1031057,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
+Woodbury,1031093,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
+Andover,1030789,850003574042,Two Chicks Citrus Margarita 4pk 12oz can,001515811,6,1.0,0.0,0.0,Phillips July Free Goods
+Rosemount,1030997,850003574042,Two Chicks Citrus Margarita 4pk 12oz can,001515811,6,1.0,0.0,0.0,Phillips July Free Goods
+Roseville,1031018,850003574042,Two Chicks Citrus Margarita 4pk 12oz can,001515811,6,1.0,0.0,0.0,Phillips July Free Goods
+Woodbury,1031092,850003574042,Two Chicks Citrus Margarita 4pk 12oz can,001515811,6,1.0,0.0,0.0,Phillips July Free Goods
+Rosemount,1030998,850003574066,Two Chicks Pear & Elderflower 4pk 12oz can,001991229,6,1.0,46.16,46.16,Phillips July Month End
+St. Louis Park,1031038,850003574066,Two Chicks Pear & Elderflower 4pk 12oz can,001991229,6,1.0,46.16,46.16,Phillips July Month End
+Cottage Grove,1030877,850003574103,Two Chicks New Fashioned 4pk 12oz can,001711623,6,1.0,46.16,46.16,Phillips July Month End
+Plymouth,1030966,850003574103,Two Chicks New Fashioned 4pk 12oz can,001711623,6,1.0,46.16,46.16,Phillips July Month End
+Rosemount,1030998,850003574103,Two Chicks New Fashioned 4pk 12oz can,001711623,6,1.0,46.16,46.16,Phillips July Month End
+Rosemount,1030998,850003574110,Two Chicks Vodka CuTea 4pk 12oz can,001936487,6,1.0,46.16,46.16,Phillips July Month End
+Andover,1030790,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,1.0,41.98,41.98,Phillips July Month End
+Cottage Grove,1030876,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,1.0,0.0,0.0,Phillips July Free Goods
+Rosemount,1030997,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,2.0,0.0,0.0,Phillips July Free Goods
+Roseville,1031019,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,1.0,41.98,41.98,Phillips July Month End
+St. Louis Park,1031038,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,1.0,41.98,41.98,Phillips July Month End
+Vadnais Heights,1031076,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,1.0,41.98,41.98,Phillips July Month End
+Woodbury,1031093,850003574172,Two Chicks Craft Cocktail Variety Pack 8pk 12oz can,1879821,3,2.0,41.98,83.96,Phillips July Month End
+Plymouth,1030966,850003574196,Two Chicks Lemon Strawberry Kiss 4pk 12oz can,001254413,6,1.0,46.16,46.16,Phillips July Month End
+Rosemount,1030998,850003574196,Two Chicks Lemon Strawberry Kiss 4pk 12oz can,001254413,6,1.0,46.16,46.16,Phillips July Month End
+Stillwater,1031057,850003574196,Two Chicks Lemon Strawberry Kiss 4pk 12oz can,001254413,6,1.0,46.16,46.16,Phillips July Month End
+Woodbury,1031093,850003574196,Two Chicks Lemon Strawberry Kiss 4pk 12oz can,001254413,6,1.0,46.16,46.16,Phillips July Month End
+Andover,1030789,850003574202,Two Chicks Cranberry Tartini 4pk 12oz can,001104060,6,1.0,0.0,0.0,Phillips July Free Goods
+Ramsey,1030983,850003574202,Two Chicks Cranberry Tartini 4pk 12oz can,001104060,6,1.0,0.0,0.0,Phillips July Free Goods
+Roseville,1031019,850003574202,Two Chicks Cranberry Tartini 4pk 12oz can,001104060,6,1.0,46.16,46.16,Phillips July Month End
+Vadnais Heights,1031076,850003574202,Two Chicks Cranberry Tartini 4pk 12oz can,001104060,6,1.0,46.16,46.16,Phillips July Month End
+Andover,1030790,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,1.0,41.98,41.98,Phillips July Month End
+Blaine,1030819,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,2.0,41.98,83.96,Phillips July Month End
+Chanhassen,1030856,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,2.0,41.98,83.96,Phillips July Month End
+Rosemount,1030998,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,2.0,41.98,83.96,Phillips July Month End
+Roseville,1031019,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,1.0,41.98,41.98,Phillips July Month End
+St. Louis Park,1031038,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,2.0,41.98,83.96,Phillips July Month End
+Woodbury,1031093,850003574233,Two Chicks Vodka Variety Pack 8pk 12oz can,1430762,3,1.0,41.98,41.98,Phillips July Month End
+Plymouth,1030966,850003574264,Two Chicks Watermelon Breeze 4pk 12oz can,1052595,6,1.0,46.16,46.16,Phillips July Month End
+Ramsey,1030984,850003574264,Two Chicks Watermelon Breeze 4pk 12oz can,1052595,6,1.0,46.16,46.16,Phillips July Month End
+Rosemount,1030998,850003574264,Two Chicks Watermelon Breeze 4pk 12oz can,1052595,6,1.0,46.16,46.16,Phillips July Month End
+Roseville,1031019,850003574288,Two Chicks Melon Drop 4pk 12oz can,1814242,6,1.0,46.16,46.16,Phillips July Month End
+Stillwater,1031057,850003574288,Two Chicks Melon Drop 4pk 12oz can,1814242,6,1.0,46.16,46.16,Phillips July Month End
+Blaine,1030819,850008153129,Campo Bravo Plata 50ml,1046867,72,3.0,50.0,149.99,Phillips July Month End
+Bloomington,1030837,850008153129,Campo Bravo Plata 50ml,1046867,72,3.0,50.0,149.99,Phillips July Month End
+Minneapolis,1030909,850008153129,Campo Bravo Plata 50ml,1046867,72,4.0,50.0,199.99,Phillips July Month End
+Osseo,1030949,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,0.0,0.0,Phillips July Free Goods
+Plymouth,1030966,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,Phillips July Month End
+Ramsey,1030984,850008153129,Campo Bravo Plata 50ml,1046867,72,2.0,50.0,99.99,Phillips July Month End
+Roseville,1031019,850008153129,Campo Bravo Plata 50ml,1046867,72,2.0,50.0,99.99,Phillips July Month End
+Woodbury,1031093,850008153129,Campo Bravo Plata 50ml,1046867,72,3.0,50.0,149.99,Phillips July Month End
+Blaine,1030820,850030494108,Keeper's Heart Irish/Bourbon 700ml,1198591,6,1.0,157.5,157.5,
+Vadnais Heights,1031077,850030494108,Keeper's Heart Irish/Bourbon 700ml,1198591,6,1.0,157.5,157.5,
+Andover,1030791,854125003039,Tres Agaves Margarita Mix Liter,000021508,12,1.0,70.4,70.4,
+Blaine,1030820,854125003039,Tres Agaves Margarita Mix Liter,000021508,12,1.0,70.4,70.4,
+Vadnais Heights,1031077,854125003039,Tres Agaves Margarita Mix Liter,000021508,12,1.0,70.4,70.4,
+St. Louis Park,1031304,856622001013,Bieler Pere Et Fils Rose 750ml,27516,12,1.0,112.0,112.0,Month End
+Andover,1030791,857566003019,2 Gingers 750ml,000019326,12,1.0,142.5,142.5,
+Blaine,1030820,857566003019,2 Gingers 750ml,000019326,12,1.0,142.5,142.5,
+Cottage Grove,1030878,857566003019,2 Gingers 750ml,000019326,12,1.0,142.5,142.5,
+Minneapolis,1030909,857641002104,Buzzballz Cranberry 187ml,1074426,24,1.0,51.45,51.45,Phillips July Month End
+Blaine,1030819,857641002210,BuzzBallz Sour Apple 187ml,1396946,24,1.0,51.45,51.45,Phillips July Month End
+Minneapolis,1030909,857641002210,BuzzBallz Sour Apple 187ml,1396946,24,1.0,51.45,51.45,Phillips July Month End
+Stillwater,1031057,857641002296,Buzzballz Pineapple Colada Chiller 187ml,1222490,24,1.0,51.45,51.45,Phillips July Month End
+Blaine,1030819,857674007886,Buzzballz Chili Mango Chiller 187ml,1644618,24,1.0,51.45,51.45,Phillips July Month End
+Chanhassen,1030856,857674007886,Buzzballz Chili Mango Chiller 187ml,1644618,24,1.0,51.45,51.45,Phillips July Month End
+Roseville,1031019,857674007886,Buzzballz Chili Mango Chiller 187ml,1644618,24,1.0,51.45,51.45,Phillips July Month End
+Stillwater,1031057,857674007886,Buzzballz Chili Mango Chiller 187ml,1644618,24,1.0,51.45,51.45,Phillips July Month End
+Andover,1030789,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,2.0,0.0,0.0,Phillips July Free Goods
+Blaine,1030818,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,2.0,0.0,0.0,Phillips July Free Goods
+Bloomington,1030836,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Chanhassen,1030855,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Cottage Grove,1030876,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,2.0,0.0,0.0,Phillips July Free Goods
+Minneapolis,1030908,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,8.0,0.0,0.0,Phillips July Free Goods
+Osseo,1030949,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Ramsey,1030983,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Roseville,1031018,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+St. Louis Park,1031037,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Stillwater,1031056,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Woodbury,1031092,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
+Blaine,1031133,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
+Cottage Grove,1031184,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
+Plymouth,1031238,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
+Ramsey,1031250,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
+Stillwater,1031321,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
+Vadnais Heights,1031336,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
+Andover,1031115,861518002654,Rancho La Gloria Strawberry Margarita RT 1.5L,001571239,6,1.0,64.0,64.0,Month End
+Cottage Grove,1031184,861518002654,Rancho La Gloria Strawberry Margarita RT 1.5L,001571239,6,1.0,64.0,64.0,Month End
+Plymouth,1031238,861518002654,Rancho La Gloria Strawberry Margarita RT 1.5L,001571239,6,1.0,64.0,64.0,Month End
+Ramsey,1031250,861518002654,Rancho La Gloria Strawberry Margarita RT 1.5L,001571239,6,1.0,64.0,64.0,Month End
+Osseo,1030950,899682002286,Filthy Olive Brine 8oz,001580732,12,1.0,46.2,46.2,Phillips July Month End
+Ramsey,1030984,899682002286,Filthy Olive Brine 8oz,001580732,12,1.0,46.2,46.2,Phillips July Month End
+Rosemount,1030997,899682002286,Filthy Olive Brine 8oz,001580732,12,1.0,0.0,0.0,Phillips July Free Goods
+Andover,1031115,9322214011537,Yellow Tail Sauvignon Blanc 1.5L,000859096,6,1.0,46.33,46.33,Month End
