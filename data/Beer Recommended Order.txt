@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $    499,037
   Coverable by transfer .......  $    219,296   (44%)
-  NET BUY from vendors ........  $    253,727   <- the order
+  NET BUY from vendors ........  $    253,605   <- the order
 
-  647 items   |   22,216 units to buy   |   19,290 units to rebalance
+  648 items   |   22,212 units to buy   |   19,290 units to rebalance
   Transfers: 1,762 moves  -  1482 urgent (604 stockouts, 878 under 2wk), 280 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 68 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
@@ -34,7 +34,7 @@
   18  Cutwater Grapefruit Tequila Paloma   48u/2cs            $0     60     0   OUT
   19  Michelob Golden Draft 24pk 12oz btl  2u/2cs             $0      2     0   OUT
   20  Fulton Brewing Chill City 6pk 12oz   3u/3cs            $16      3     0   OUT
-  ...and 627 more in the full list.
+  ...and 628 more in the full list.
 
   NEEDS REVIEW (68 items the system isn't fully sure about - check before ordering):
     Busch 24pk 12oz btl                       No cost data - verify price; Margin over 95% - check retail

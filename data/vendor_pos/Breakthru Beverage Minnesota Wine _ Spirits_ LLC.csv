@@ -1,223 +1,97 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
 St. Louis Park,1031300,012354001046,Penfold's Max's Shiraz/Cab 750ml,9237991,6,1.0,72.0,0.0,Month End
-Blaine,1031129,012354001855,Penfold's Max's Shiraz 750ml,9321054,6,1.0,72.0,0.0,Month End
-Bloomington,1031149,012354001855,Penfold's Max's Shiraz 750ml,9321054,6,1.0,72.0,72.0,Month End
 Minneapolis,1031196,012354001947,19 Crimes Hard Chardonnay 750ml,9261038,12,1.0,80.0,80.0,Month End
-Andover,1031111,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
-Blaine,1031129,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,0.0,Month End
 Minneapolis,1031196,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
+Minneapolis,1031408,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,370.26,61.71,July Allocations
+Bloomington,1031396,080244009236,Buffalo Trace 750ml,9031303,12,0.33,234.0,78.0,July Allocations
+Minneapolis,1031408,080244009236,Buffalo Trace 750ml,9031303,12,0.42,234.0,97.5,July Allocations
+Minnetonka,1031404,080244009236,Buffalo Trace 750ml,9031303,12,0.08,234.0,19.5,July Allocations
+Plymouth,1031403,080244009236,Buffalo Trace 750ml,9031303,12,0.17,234.0,39.0,July Allocations
+St. Louis Park,1031402,080244009236,Buffalo Trace 750ml,9031303,12,0.33,234.0,78.0,July Allocations
+Stillwater,1031401,080244009236,Buffalo Trace 750ml,9031303,12,0.17,234.0,39.0,July Allocations
+Woodbury,1031399,080244009236,Buffalo Trace 750ml,9031303,12,0.33,234.0,78.0,July Allocations
 Minneapolis,1030826,081128723347,Canadian Mist 50ml,30296,120,1.0,71.05,71.05,Breakthru July Month End
-Roseville,1030867,081128723347,Canadian Mist 50ml,30296,120,1.0,71.05,71.05,Breakthru July Month End
 St. Louis Park,1030895,081128723347,Canadian Mist 50ml,30296,120,1.0,71.05,71.05,Breakthru July Month End
 Woodbury,1030991,081128723347,Canadian Mist 50ml,30296,120,1.0,71.05,71.05,Breakthru July Month End
-Blaine,1031129,082491082024,Dry Creek Fume Blanc 750ml,9057986,12,1.0,136.0,0.0,Month End
-Roseville,1031278,082491082024,Dry Creek Fume Blanc 750ml,9057986,12,1.0,136.0,0.0,Month End
 St. Louis Park,1031300,082491082024,Dry Creek Fume Blanc 750ml,9057986,12,1.0,136.0,0.0,Month End
 Woodbury,1031347,082491082024,Dry Creek Fume Blanc 750ml,9057986,12,1.0,136.0,0.0,Month End
 St. Louis Park,1031300,082491091026,Dry Creek Dry Chenin Blanc 750ml,9205491,12,1.0,136.0,0.0,Month End
-Blaine,1031129,082491176020,Dry Creek Heritage Zin 750ml,9762512,12,1.0,200.0,0.0,Month End
-Roseville,1031278,082491176020,Dry Creek Heritage Zin 750ml,9762512,12,1.0,200.0,0.0,Month End
 St. Louis Park,1031300,082491176020,Dry Creek Heritage Zin 750ml,9762512,12,1.0,200.0,0.0,Month End
-Andover,1031111,082491182021,Dry Creek Sauv Blanc 750ml,9766706,12,1.0,176.0,176.0,Month End
 Plymouth,1031234,082491182021,Dry Creek Sauv Blanc 750ml,9766706,12,1.0,176.0,176.0,Month End
-Rosemount,1031259,082491182021,Dry Creek Sauv Blanc 750ml,9766706,12,1.0,176.0,176.0,Month End
-Roseville,1031278,082491182021,Dry Creek Sauv Blanc 750ml,9766706,12,1.0,176.0,0.0,Month End
-Blaine,1031129,082896003044,Bonterra Equinox Red 750ml,9755617,12,1.0,112.0,0.0,Month End
 Plymouth,1031234,082896003044,Bonterra Equinox Red 750ml,9755617,12,1.0,112.0,112.0,Month End
-Blaine,1031129,082896004157,Bonterra Pinot Gris 750ml,9712245,12,1.0,88.0,0.0,Month End
 Minneapolis,1031196,082896004157,Bonterra Pinot Gris 750ml,9712245,12,1.0,88.0,88.0,Month End
-Blaine,1031129,082896004171,1000 Stories High Alc Cabernet Sauvignon 750ml,9753518,12,1.0,120.0,0.0,Month End
-Rosemount,1031259,082896004171,1000 Stories High Alc Cabernet Sauvignon 750ml,9753518,12,1.0,120.0,120.0,Month End
-Andover,1031111,082896060412,Bonterra Rose 750ml,9761398,12,1.0,88.0,88.0,Month End
-Roseville,1031278,082896060412,Bonterra Rose 750ml,9761398,12,1.0,88.0,0.0,Month End
 Woodbury,1031347,082896060412,Bonterra Rose 750ml,9761398,12,1.0,88.0,0.0,Month End
-Blaine,1031129,082896062621,Bonterra Sauvignon Blanc 750ml,9709791,12,1.0,88.0,0.0,Month End
 Minneapolis,1031196,082896062621,Bonterra Sauvignon Blanc 750ml,9709791,12,1.0,88.0,88.0,Month End
 Plymouth,1031234,082896062621,Bonterra Sauvignon Blanc 750ml,9709791,12,1.0,88.0,88.0,Month End
 St. Louis Park,1031300,082896062621,Bonterra Sauvignon Blanc 750ml,9709791,12,1.0,88.0,0.0,Month End
-Blaine,1031129,082896780402,Bonterra Cabernet Sauvignon 750ml,9733071,12,1.0,104.0,0.0,Month End
 Stillwater,1031317,082896780402,Bonterra Cabernet Sauvignon 750ml,9733071,12,1.0,104.0,104.0,Month End
-Andover,1031111,082896780419,Bonterra Chardonnay 750ml,9700108,12,1.0,88.0,88.0,Month End
-Blaine,1031129,082896780419,Bonterra Chardonnay 750ml,9700108,12,1.0,88.0,0.0,Month End
-Chanhassen,1030842,083664112210,Balvenie 12 Yr Doublewood Scotch 750ml,9001629,12,1.0,668.0,0.0,
-Roseville,1031008,083664112210,Balvenie 12 Yr Doublewood Scotch 750ml,9001629,12,1.0,668.0,0.0,
-Cottage Grove,1030865,083664868735,Sailor Jerry Spiced Rum 1.75L,9001703,6,1.0,112.5,112.5,
-Chanhassen,1030842,083664868780,Hendrick's Gin Liter,9001723,6,1.0,189.0,0.0,
-Rosemount,1030990,083664868780,Hendrick's Gin Liter,9001723,6,1.0,189.0,189.0,
 St. Louis Park,1031029,083664868780,Hendrick's Gin Liter,9001723,6,1.0,189.0,189.0,
 Plymouth,1030956,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,105.5,105.5,
 Stillwater,1031048,083664869725,Reyka Vodka 1.75L,9019698,6,1.0,157.5,157.5,
-Andover,1030774,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Blaine,1030803,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Chanhassen,1030842,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,0.0,
 Minneapolis,1030893,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
 Plymouth,1030956,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Ramsey,1030973,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Rosemount,1030990,083664869756,Hendrick's Gin 1.75L,9070208,6,2.0,270.0,540.0,
-Roseville,1031008,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,0.0,
 St. Louis Park,1031029,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
 Stillwater,1031048,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Vadnais Heights,1031068,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
 Minneapolis,1030826,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,3.0,40.6,121.79,Breakthru July Month End
-Bloomington,1030796,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,2.0,40.6,81.19,Breakthru July Month End
 Minneapolis,1030826,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,3.0,40.6,121.79,Breakthru July Month End
 Stillwater,1031317,086785110738,Roscato Rosso Dolce 750ml,9736068,12,1.0,104.0,104.0,Month End
-Blaine,1031129,086785110790,Roscato Black Cherry 750ml,9735782,12,1.0,104.0,0.0,Month End
-Andover,1031111,086785110820,Roscato Blueberry 750ml,9735791,12,1.0,104.0,104.0,Month End
-Blaine,1031129,086785110820,Roscato Blueberry 750ml,9735791,12,1.0,104.0,0.0,Month End
 Woodbury,1031347,086785211626,Bottega Vinaia Pinot Grigio 750ml,9736227,12,1.0,168.0,0.0,Month End
-Andover,1031111,086785212401,Roscato Bianco Dolce 750ml,9735896,12,1.0,104.0,104.0,Month End
 St. Louis Park,1031300,086785750354,Callia Alta Malbec 750ml,9736195,12,1.0,112.0,0.0,Month End
-Cottage Grove,1031180,087872630139,Stella Rosa Rosso 750ml,9747142,12,1.0,104.0,104.0,Month End
 Minneapolis,1031196,087872630139,Stella Rosa Rosso 750ml,9747142,12,1.0,104.0,104.0,Month End
-Roseville,1031278,087872630931,Stella Rosa Blueberry 750ml,9746454,12,1.0,104.0,0.0,Month End
-Rosemount,1031259,087872632225,Stella Rosa Berry 750ml,9746336,12,1.0,104.0,104.0,Month End
-Rosemount,1031259,087872632232,Stella Rosa Pink 750ml,9747145,12,1.0,104.0,104.0,Month End
-Cottage Grove,1031180,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
 Minneapolis,1031196,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
-Vadnais Heights,1031332,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
 Woodbury,1031347,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,0.0,Month End
-Blaine,1031129,087872633635,Stella Rosa Golden Honey Peach 750ml,9746565,12,1.0,104.0,0.0,Month End
-Rosemount,1031259,087872637855,Stella Rosa Non-Alcoholic Rose 750ml,9746690,12,1.0,104.0,104.0,Month End
 Minneapolis,1030893,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 Plymouth,1030956,088004009281,Fireball Whisky 1.75L,9262916,6,1.0,68.0,68.0,
-Andover,1030774,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Bloomington,1030825,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Cottage Grove,1030865,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Ramsey,1030973,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
 Stillwater,1031048,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
 Minneapolis,1030893,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Osseo,1030939,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
 Plymouth,1030956,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Rosemount,1030990,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Roseville,1031008,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,0.0,
 Stillwater,1031048,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Vadnais Heights,1031068,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Andover,1030774,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Blaine,1030803,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Ramsey,1030973,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Rosemount,1030990,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
 Stillwater,1031048,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Vadnais Heights,1031068,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
+Minneapolis,1031408,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,July Allocations
 St. Louis Park,1031029,088004022754,Platinum Vodka Liter,9231167,12,1.0,99.0,99.0,
-Andover,1030776,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,Breakthru July Month End
-Blaine,1030786,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,Breakthru July Month End
-Bloomington,1030796,088004026141,Fris Vodka 1.75L,9612242,6,4.0,42.5,170.0,Breakthru July Month End
-Cottage Grove,1030804,088004026141,Fris Vodka 1.75L,9612242,6,3.0,42.5,127.5,Breakthru July Month End
 Minneapolis,1030826,088004026141,Fris Vodka 1.75L,9612242,6,4.0,42.5,170.0,Breakthru July Month End
-Rosemount,1030834,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,Breakthru July Month End
-Roseville,1030867,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,Breakthru July Month End
 St. Louis Park,1030895,088004026141,Fris Vodka 1.75L,9612242,6,3.0,42.5,127.5,Breakthru July Month End
 Stillwater,1030896,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,Breakthru July Month End
-Vadnais Heights,1030906,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,Breakthru July Month End
 Woodbury,1030991,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,Breakthru July Month End
-Chanhassen,1030843,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,Breakthru July Month End
-Cottage Grove,1030804,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,Breakthru July Month End
+Minneapolis,1031408,088004029029,Corazon Tequila Reposado Weller Finish Barrel 750ml,9799996,6,1.0,180.0,180.0,July Allocations
 Plymouth,1030957,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,Breakthru July Month End
-Roseville,1030867,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,Breakthru July Month End
 St. Louis Park,1030895,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,Breakthru July Month End
-Blaine,1030786,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,Breakthru July Month End
 Minneapolis,1030826,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,Breakthru July Month End
-Roseville,1030867,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,Breakthru July Month End
-Andover,1030776,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,Breakthru July Month End
 Minneapolis,1030826,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,Breakthru July Month End
-Rosemount,1030834,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,Breakthru July Month End
-Roseville,1030867,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,Breakthru July Month End
 St. Louis Park,1030895,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,Breakthru July Month End
-Osseo,1030940,088004035761,Goldschlager 50ml,9007996,120,1.0,81.2,81.2,Breakthru July Month End
-Andover,1030776,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
-Blaine,1030786,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
-Cottage Grove,1030804,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
 Minneapolis,1030826,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
-Ramsey,1030974,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
-Roseville,1030867,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
 St. Louis Park,1030895,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
 Woodbury,1030991,088004035785,Yukon Jack 50ml,9408478,120,1.0,71.05,71.05,Breakthru July Month End
-Roseville,1030867,088004069872,Traveller Whiskey 50ml,9748191,120,1.0,149.86,149.86,Breakthru July Month End
 St. Louis Park,1030895,088004069872,Traveller Whiskey 50ml,9748191,120,1.0,149.86,149.86,Breakthru July Month End
 Woodbury,1030991,088004069872,Traveller Whiskey 50ml,9748191,120,1.0,149.86,149.86,Breakthru July Month End
 Minneapolis,1030826,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
-Osseo,1030940,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
 Plymouth,1030957,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
-Ramsey,1030974,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
-Rosemount,1030834,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
-Roseville,1030867,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
 Stillwater,1030896,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
 Woodbury,1030991,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,Breakthru July Month End
-Cottage Grove,1030883,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,Store Request
-Blaine,1030786,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,Breakthru July Month End
 Plymouth,1030957,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,Breakthru July Month End
-Cottage Grove,1030804,088544000021,Southern Comfort 50ml,9013615,120,1.0,71.05,71.05,Breakthru July Month End
-Blaine,1030803,088544014318,Southern Comfort Traveler,9013616,12,1.0,118.49,118.49,
-Vadnais Heights,1031068,088544018910,Southern Comfort 1.75L,9007726,6,1.0,96.0,96.0,
 Minneapolis,1030826,089000582595,Hartley Brandy VSOP 50ml,9184681,120,1.0,45.85,45.85,Breakthru July Month End
 Minnetonka,1031208,089121068823,J Lohr Chardonnay 750ml,9087944,12,1.0,128.0,128.0,Month End
-Rosemount,1031259,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,1.0,160.0,160.0,Month End
 St. Louis Park,1031300,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,1.0,480.0,0.0,Month End
 Woodbury,1031347,089819043019,Stags' Leap Chardonnay 750ml,9742844,12,1.0,264.0,0.0,Month End
 Minnetonka,1031208,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,Month End
-Roseville,1031278,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,0.0,Month End
 St. Louis Park,1031300,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,0.0,Month End
-Chanhassen,1031164,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,160.0,0.0,Month End
-Andover,1031111,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,2.0,144.0,288.0,Month End
-Chanhassen,1031164,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,2.0,144.0,0.0,Month End
-Rosemount,1031259,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,144.0,144.0,Month End
-Roseville,1031278,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,2.0,144.0,0.0,Month End
 St. Louis Park,1031300,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,144.0,0.0,Month End
-Andover,1031111,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,160.0,160.0,Month End
-Chanhassen,1031164,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,160.0,0.0,Month End
-Rosemount,1031259,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,160.0,160.0,Month End
 St. Louis Park,1031300,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,160.0,0.0,Month End
 Stillwater,1031317,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,160.0,160.0,Month End
-Blaine,1031129,669576019238,Decoy Zinfandel 750ml,9752676,12,1.0,160.0,0.0,Month End
-Andover,1031111,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,Month End
-Chanhassen,1031164,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,2.0,144.0,0.0,Month End
 Minneapolis,1031196,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,Month End
-Rosemount,1031259,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,Month End
 Stillwater,1031317,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,Month End
 Woodbury,1031347,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,0.0,Month End
-Andover,1031111,669576019252,Decoy Merlot 750ml,9780625,12,1.0,160.0,160.0,Month End
-Andover,1031111,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,160.0,Month End
-Chanhassen,1031164,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,3.0,160.0,0.0,Month End
 Plymouth,1031234,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,2.0,160.0,320.0,Month End
-Rosemount,1031259,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,160.0,Month End
-Roseville,1031278,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,0.0,Month End
 St. Louis Park,1031300,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,0.0,Month End
-Vadnais Heights,1031332,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,160.0,Month End
-Rosemount,1031259,669576019344,Duckhorn Napa Cab Sauvignon 750ml,9769148,12,1.0,480.0,480.0,Month End
 St. Louis Park,1031300,669576020548,Duckhorn Napa Valley Chardonnay 750ml,9752076,12,1.0,280.0,0.0,Month End
-Andover,1031111,683318626249,Fit Vine Sauvigon Blanc 750ml,9326991,12,1.0,96.0,96.0,Month End
 St. Louis Park,1031300,683318626249,Fit Vine Sauvigon Blanc 750ml,9326991,12,1.0,96.0,0.0,Month End
-Ramsey,1031252,690300550291,Craggy Range Sauvignon Blanc 750ml,9792729,12,1.0,216.0,216.0,Store Request
-Vadnais Heights,1031068,720815988347,Seagrams Extra Smooth Vodka 1.75L,9100891,6,1.0,80.96,80.96,
-Vadnais Heights,1031068,766427003443,Twisted Shotz Sex On The Beach 4pk,9151699,18,1.0,70.1,70.1,
 Woodbury,1031085,812066021598,Macallan Double Cask 12yr 750ml,9234321,12,1.0,765.0,765.0,
-Chanhassen,1031164,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,0.0,Month End
-Andover,1031111,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Blaine,1031129,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,0.0,Month End
-Bloomington,1031149,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Chanhassen,1031164,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,0.0,Month End
-Cottage Grove,1031180,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
 Minneapolis,1031196,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
 Minnetonka,1031208,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Osseo,1031222,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
 Plymouth,1031234,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Ramsey,1031247,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Rosemount,1031259,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Roseville,1031278,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,0.0,Month End
 St. Louis Park,1031300,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,0.0,Month End
 Stillwater,1031317,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
-Vadnais Heights,1031332,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,Month End
 Woodbury,1031347,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,0.0,Month End
-Roseville,1031278,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12,1.0,96.0,0.0,Month End
-Vadnais Heights,1031332,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12,1.0,96.0,96.0,Month End
-Andover,1031111,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,96.0,96.0,Month End
 Minnetonka,1031208,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,Month End
-Roseville,1031278,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,0.0,Month End
-Blaine,1031129,890409002794,Daou Pessimist Red Blend 750ml,9754883,12,1.0,204.0,0.0,Month End
-Blaine,1030803,891278002380,Monaco Tequila Lime Crush 4pk 12oz can,9260969,6,1.0,45.46,45.46,
-Roseville,1031278,894910000102,Frank Family Chardonnay 750ml,9774631,12,1.0,288.0,0.0,Month End
-Blaine,1031129,894910000409,Frank Family Cabernet 750ml,9749121,12,1.0,456.0,0.0,Month End
 St. Louis Park,1031029,898563002506,Carpano Antica Formula 375ml,9158655,12,1.0,180.0,180.0,
 Woodbury,1031347,898756001040,Line 39 Sauvignon Blanc 750ml,9179020,12,1.0,80.0,0.0,Month End
-Cottage Grove,1031180,898756001057,Line 39 Cabernet 750ml,9179061,12,1.0,80.0,80.0,Month End

@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    145,932
   Coverable by transfer .......  $     69,319   (48%)
-  NET BUY from vendors ........  $    102,248   <- the order
+  NET BUY from vendors ........  $    101,937   <- the order
 
-  118 items   |   7,712 units to buy   |   8,518 units to rebalance
+  117 items   |   7,676 units to buy   |   8,518 units to rebalance
   Transfers: 875 moves  -  745 urgent (305 stockouts, 440 under 2wk), 130 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 51 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 49 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Gallo Merlot 1.5L                    18u/3cs          $122     18     0   1.2
   19  Washington Hills Late Riesling 750m  12u/1cs           $80      7     0   1.2
   20  Josh Cellars Pinot Grigio 750ml      204u/17cs      $1,818    199     0   1.4
-  ...and 98 more in the full list.
+  ...and 97 more in the full list.
 
-  NEEDS REVIEW (51 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (49 items the system isn't fully sure about - check before ordering):
     Atomic Boss POG Hard Punch 500ml          No cost data - verify price; Margin over 95% - check retail
     Belle Glos Pinot Noir Las Alturas 750ml   Off buy-month - confirm timing
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
@@ -52,7 +52,7 @@
     Black Box Rose 3L Box                     Buy-month stock-up ($1,076 to next deal) - confirm
     Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
     Yellow Tail Super Crisp Chard 1.5L        Margin looks off - check retail/cost
-    ...and 36 more (see Needs Review tab).
+    ...and 34 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (20 discontinued items still selling/low - run down stock):
     Bogle Cabernet Sauvignon 750ml              (would have bought 312u)
@@ -72,13 +72,12 @@
     Franzia Sunset Blush 5L Box                 (would have bought 68u)
     ...and 5 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (9 routine deal items out of their buy month - $4,492 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $4,392 cheaper to buy in-month):
     19 Crimes Cali Red 750ml                    Wait for buy-month (Mar, May, Jun, Sep, Nov, Dec)
     Daily's Hurricane RTD Frozen 10oz           Wait for buy-month (Sep, Oct, Nov, Dec)
     Daily's Strawberry RTD Frozen 10oz          Wait for buy-month (Sep, Oct, Nov, Dec)
-    J Lohr Cabernet Sauvignon 750ml             Wait for buy-month (Mar, Jun, Sep, Nov, Dec)
-    Meiomi Cabernet Sauvignon 750ml             Wait for buy-month (Mar, Jun, Sep, Dec)
     Pine Ridge Chen Blanc/Viognier 750ml        Wait for buy-month (Feb, May, Aug, Oct, Nov)
+    Santa Margherita Pinot Grigio 750ml         Wait for buy-month (Mar, May, Aug, Sep, Nov, Dec)
     Underwood Bubbles 355ml                     Wait for buy-month (Apr, Jun, Aug, Oct)
     Underwood Rose Bubbles 375ml                Wait for buy-month (Apr, Jun, Aug, Oct)
     Whitehaven Sauv Blanc 750ml                 Wait for buy-month (Feb, May, Aug, Nov)

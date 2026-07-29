@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $    372,122
   Coverable by transfer .......  $    117,034   (31%)
-  NET BUY from vendors ........  $    233,498   <- the order
+  NET BUY from vendors ........  $    233,594   <- the order
 
-  209 items   |   18,964 units to buy   |   21,534 units to rebalance
+  210 items   |   18,988 units to buy   |   21,534 units to rebalance
   Transfers: 1,178 moves  -  1004 urgent (488 stockouts, 516 under 2wk), 174 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 99 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
@@ -34,7 +34,7 @@
   18  Platinum Vodka 1.75L                 66u/11cs         $642     68     0   1.0
   19  Kinky Liqueur Party Bucket 50ml 20p  6u/1cs            $80      7     0   1.0
   20  Dapper Baron's Old Fashioned 750ml   6u/1cs             $0      5     0   1.1
-  ...and 189 more in the full list.
+  ...and 190 more in the full list.
 
   NEEDS REVIEW (99 items the system isn't fully sure about - check before ordering):
     Midleton Very Rare 750ml                  Off buy-month - confirm timing
@@ -72,7 +72,7 @@
     Grey Goose Strawberry & Lemongrass Vodka L  (would have bought 6u)
     ...and 32 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (17 routine deal items out of their buy month - $7,855 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (16 routine deal items out of their buy month - $7,709 cheaper to buy in-month):
     Beefeater Gin 1.75L                         Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     Bombay Sapphire Gin Liter                   Wait for buy-month (Feb, May, Jun, Aug, Nov, Dec)
     Bulleit Bourbon 750ml                       Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
@@ -81,11 +81,11 @@
     Deep Eddy Ruby Red Vodka 1.75L              Wait for buy-month (Mar, Jun, Aug, Oct, Dec)
     Evan Williams 100 Proof 1.75L               Wait for buy-month (Jan, Apr, Jun, Aug, Oct, Dec)
     High Noon Day Variety 8pk 12oz              Wait for buy-month (May, Aug)
-    Jim Beam Bourbon 1.75L                      Wait for buy-month (Mar, Jun, Sep, Dec)
     Jim Beam Bourbon Liter                      Wait for buy-month (Mar, Jun, Sep, Dec)
     Sauza Hornitos Plata 750ml                  Wait for buy-month (Feb, Apr, May, Aug, Oct, Nov)
     Sauza Hornitos Plata Tequila 1.75L          Wait for buy-month (Feb, Apr, May, Aug, Oct, Nov)
     Smirnoff Red White & Berry Liter            Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     Smirnoff Vodka Liter                        Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     Svedka Blue Raspberry Vodka 1.75L           Wait for buy-month (Feb, May, Aug, Nov)
-    ...and 2 more (see Buy-Month Wait tab).
+    Svedka Vodka 100pf 1.75L                    Wait for buy-month (Feb, May, Aug, Nov)
+    ...and 1 more (see Buy-Month Wait tab).
