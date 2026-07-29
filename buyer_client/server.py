@@ -1165,6 +1165,24 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(b)
             return
+        if u.path == "/api/master":
+            # the buyer's recommended order in their department's own Master format (built + pushed
+            # by build_master_thc_order.py). The Export to Excel button on the Today tab serves this.
+            dept = parse_qs(u.query).get("dept", [""])[0]
+            if dept not in ALL_DEPTS:
+                return self._send(404, b"unknown department", "text/plain")
+            b = get_bytes("Master %s Order.xlsx" % dept)
+            if not b:
+                return self._send(404, b"This order file has not been built yet.", "text/plain")
+            self.send_response(200)
+            self.send_header("Content-Type", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+            self.send_header("Content-Disposition", 'attachment; filename="Master %s Order.xlsx"' % dept)
+            self.send_header("Content-Length", str(len(b)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(b)
+            return
         if u.path == "/api/vendorpos":
             # list this week's per-vendor wine PO files (for the download page)
             idx = {"vendors": [], "generated": ""}

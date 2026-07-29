@@ -191,7 +191,7 @@
     <div class="sec" id="sec-glance"><h3><span id="lbl-glance">This week at a glance</span></h3><div class="subhint">How big this week's buy is, and what needs your attention.</div><div class="cards" id="cards"></div></div>
     <div class="sec" id="sec-trcards"><h3><span id="lbl-trcards">Transfers — move stock between stores first</span></h3><div class="subhint">Shift overstock between stores before buying — it's cheaper than ordering more.</div><div class="cards" id="trcards"></div></div>
     <div class="sec" id="sec-buy">
-      <h3><span id="lbl-buy">What to buy</span> <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportTbl('buyTbl', $('dept').value+' order')">Export to Excel</button></h3>
+      <h3><span id="lbl-buy">What to buy</span> <span class="hint" id="buyHint"></span> <button class="exp" onclick="exportMaster()">Export to Excel</button></h3>
       <div class="subhint">The system's suggested order for the week — leave it, or change/skip anything. <b style="color:#9a6700">Yellow rows need your review.</b></div>
       <div class="budgetbar" id="budgetBar">
         <label for="budgetIn">Weekly budget</label>
@@ -513,6 +513,18 @@ function exportXlsx(name, cols, rows){
   XLSX.writeFile(wb, name.replace(/[^\w .-]/g,'')+'.xlsx');
 }
 function exportTbl(id, name){ const t=TBL[id]; if(!t){ alert('Open this first.'); return; } exportXlsx(name, t.cols, t.rows); }
+// The recommended-order export hands the buyer their department's own Master format (built + pushed
+// by build_master_thc_order.py), not the on-screen table, so it matches how they actually order.
+async function exportMaster(){
+  const d=$('dept').value;
+  try{
+    const r=await fetch('/api/master?dept='+encodeURIComponent(d));
+    if(!r.ok){ alert('Your '+d+' order file is not built yet. It is created when the weekly order is run.'); return; }
+    const blob=await r.blob(), url=URL.createObjectURL(blob);
+    const a=document.createElement('a'); a.href=url; a.download='Master '+d+' Order.xlsx'; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url), 4000);
+  }catch(e){ alert('Could not download the order file: '+(e.message||e)); }
+}
 function exportVendor(){
   const store=$('storesel').value, perStore=store&&store!=='__all__';
   const name=$('dept').value+' - '+(perStore?store+' - ':'')+$('vsel').value+' order';
