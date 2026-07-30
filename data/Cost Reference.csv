@@ -1726,6 +1726,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 669576020449,Wine,16.1,,3|4|7|8|10|11
 669576020548,Wine,23.43,,
 669576020784,Wine,16.1,,3|4|7|8|10|11
+669576030042,Wine,12.1,Deep Pricing Chained In,
+669576040430,Wine,12.1,Deep Pricing Chained In,
+669576040447,Wine,12.1,Deep Pricing Chained In,
 669835222218,Wine,10.5,,
 669835222225,Wine,11.83,,
 669835222256,Wine,11.83,,
@@ -1864,6 +1867,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 689768871314,Spirits,18.0,,
 689768872311,Spirits,43.42,,
 689768873318,Spirits,24.0,,
+690300550291,Wine,18.1,,
 694060001628,Wine,7.46,,
 694060001802,Wine,7.46,,
 694406500013,Wine,15.21,,
@@ -2575,6 +2579,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 747736145697,Wine,9.46,,
 747736145703,Wine,9.46,,
 747736178930,Wine,46.79,,
+747736243591,Wine,48.12,,
 747736473356,Wine,24.12,,
 747736500700,Wine,15.46,,
 747736543257,Wine,10.12,,
@@ -3933,6 +3938,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 810095561795,THC,9.17,Direct Ship to Blaine 50cs mix,
 810108010197,Spirits,22.69,,
 810108010272,Spirits,36.33,,
+810156440021,Wine,225.12,bottle deal of $213 for 2 bottles,
 810178380039,Spirits,3.36,netted down case price,
 810178380046,Spirits,6.93,netted down case price,
 810178380060,Spirits,6.93,netted down case price,
@@ -4898,11 +4904,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82491070038,Wine,30.19,3cs purchase in a month,
 82491076023,Wine,26.86,3cs purchase in a month,
 82491077020,Wine,20.1,3cs purchase in a month,
-82491082024,Wine,11.43,3cs purchase in a month,
+82491082024,Wine,12.1,3cs purchase in a month,
 82491091026,Wine,11.43,3cs purchase in a month,
 82491176020,Wine,18.1,3cs purchase in a month,
 82491182014,Wine,10.1,Case 1,
-82491182021,Wine,14.76,3cs purchase in a month,
+82491182021,Wine,15.43,3cs purchase in a month,
 82496770605,Spirits,15.08,,
 82496770650,Spirits,15.17,,
 82496801019,Spirits,23.49,,
@@ -6101,6 +6107,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000042090,Spirits,7.67,Deep Net,2|3|5|8
 85000042113,Spirits,7.67,Deep Net,2|3|5|8
 85000042137,Spirits,7.67,Deep Net,2|3|5|8
+85000042403,Wine,20.27,,
+85000042410,Wine,20.27,,
+85000042427,Wine,20.27,,
 85000046647,Wine,6.18,,
 850000571006,Wine,12.92,,
 850001901116,Spirits,37.69,,
@@ -6357,6 +6366,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 850052711290,Wine,4.72,,6
 850052711306,Wine,4.72,,6
 850052711313,Wine,4.72,,6
+850052711993,Wine,24.27,,
 850054342003,Spirits,30.13,,
 850054342010,Spirits,33.88,,
 850054342027,Spirits,37.63,,
@@ -7686,6 +7696,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 860011555322,THC,8.0,Pallet Buys,
 860011622017,THC,9.67,,
 860011622031,THC,16.67,,
+860011941828,Wine,15.09,M/M 3 cases of solid Acolyte wine and receive 1 case NC,
+860011941835,Wine,15.09,M/M 3 cases of solid Acolyte wine and receive 1 case NC,
 860012187997,THC,11.33,,
 860012407118,Spirits,23.44,,
 860012559633,Spirits,187.68,Allocated,
