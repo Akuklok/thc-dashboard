@@ -2691,7 +2691,7 @@ Tapatio Blanco 110 Overproof Tequila,701192030154,Liquor,,750ml,12,Charbay,Maver
 Tapatio Blanco Tequila,701192030041,Liquor,Agave,750ml,12,Charbay,Maverick Wine Company,,ALL,31.125,373.5,408,43.99,,0.2924528301886793,372,,S-CD-TAP-TEQ-BL,47.99,39.96,0,,0.3,372,,,,
 Tapatio Reposado Tequila,701192010043,Liquor,Agave,750ml,12,Charbay,Maverick Wine Company,,ALL,35.125,421.5,470.04,50.99,,0.311139439105707,420,,S-CD-TAP-TEQ-REP,45.99,41.96,0,,0.4,420,,,,
 TLC Vodka,850332003534,Liquor,Vodka,50ml,72,TLC,Maverick Wine Company,1 on 3 solid 50ml TLC Vodka,ALL,0.6908333333333334,49.74,70,0.99,0.99,0.3021885521885521,48.24,64,S-TLC-VO-50ML,1.49,1.24,0,,0.5,48.24,,,,
-TLC Vodka,850332003398,Liquor,Vodka,1.75L,6,TLC,Maverick Wine Company,3 on 25 accumulated all stores one calendar month,ALL,14.393333333333333,86.36,116,24.99,18.96,0.24085794655414916,84.86,99,S-TLC-VO-1.75L,23.99,19.96,0,,0.3,84.86,,,,
+TLC Vodka,850332003398,Liquor,Vodka,1.75L,6,TLC,Maverick Wine Company,3 on 25 accumulated all stores one calendar month,ALL,14.393333333333333,86.36,116,24.99,19.96,0.27889111556446233,84.86,99,S-TLC-VO-1.75L,23.99,19.96,0,,0.3,84.86,,,,
 Adnams English Single Malt Whiskey,5016878600971,Liquor,American Whiskey,750ml,12,,New France Wine,,ALL,52.708333333333336,632.5,666,84.99,70.96,0.2572106350995865,630,630,AdnamsSingleMalt,84.99,70.96,0,,0.3,630,,,,
 Atxa Vermouth Blanco,664841021121,Liquor,Vermouth,750ml,6, ,New France Wine, ,ALL,16.083333333333332,96.5,102,21.99,,0.2686069425496438,94,94,AtxaBlanco,27.99,22.96,0,,0.3,94,,,,June 1 Update
 Atxa Vermouth Rojo,664841021114,Liquor,Vermouth,750ml,6, ,New France Wine, ,ALL,16.083333333333332,96.5,102,21.99,,0.2686069425496438,94,94,AtxaRojo,27.99,22.96,0,,0.3,94,,,,June 1 Update
@@ -5438,3 +5438,13 @@ Poli Sarpa di Poli Grappa (NV),801411500246,Liquor,,750ml,6,Winebow,Winebow (Gra
 Takamine 8yr Whiskey,736040003366,Liquor,Whisky/Whiskey,750ml,6,Honkaku Imports,Winebow (Grape Beginnings),,ALL,75.5,453,453,97.99,89.96,0.16073810582481096,453,,30280702,107.99,89.96,0,,0.3,453,,,,
 Ten to One Dark Rum,051497029661,Liquor,Rum,750ml,6,Ten to One,Winebow (Grape Beginnings), ,ALL,34,204,210,45.99,,0.2607088497499457,204,204,30375625,56.99,47.96,0,,0.3,204,,,,June 1 Update
 Wathen's KY Bourbon 750ml,083103303100,Liquor,Whisky/Whiskey,750ml,6,,Winebow (Grape Beginnings),,All,43.31,259.86,,-0.01,6.96,-5.222701149425288,259.86,,30131967,63.99,52.96,0,,0.3,259.86,,,,
+Lokal Vodka,852955008118,Spirits,,1000ml,12,"10,000 Drops",New France Wine,,All,,,151,,,,126,126,LokalVodka,,,,,,,,,,
+Lokal Vodka,852955008125,Spirits,,1750ml,6,"10,000 Drops",New France Wine,,All,,,135,,,,108,108,LokalVodka1.75,,,,,,,,,,
+Lokal Key Lime Vodka,852955008149,Spirits,,1000ml,12,"10,000 Drops",New France Wine,,All,,,151,,,,126,126,LokalKeyLimeVodka,,,,,,,,,,
+Lokal Meyer Lemon Vodka,852955008156,Spirits,,1000ml,12,"10,000 Drops",New France Wine,,All,,,151,,,,126,126,LokalMeyerLemonVodka,,,,,,,,,,
+Lokal Blood Orange Vodka,852955008132,Spirits,,1000ml,12,"10,000 Drops",New France Wine,,All,,,151,,,,126,126,LokalBloodOrangeVodka,,,,,,,,,,
+Lokal Cry Baby Craig's Vodka,852955008194,Spirits,,750ml,12,"10,000 Drops",New France Wine,,All,,,248,,,,217,217,LokalCBCVodka,,,,,,,,,,
+"10,000 Drops Spiced Rum",852955008026,Spirits,,750ml,6,"10,000 Drops",New France Wine,,All,,,156.75,,,,143,143,10KDropsSpiced Rum,,,,,,,,,,
+"10,000 Drops American Gin",852955008071,Spirits,,750ml,6,"10,000 Drops",New France Wine,,All,,,156.75,,,,143,143,10KDropsAmericanGin,,,,,,,,,,
+"10,000 Drops Barrel Aged Navy Gin",852955008095,Spirits,,750ml,6,"10,000 Drops",New France Wine,,All,,,202,,,,193.5,193.5,10KDropsBarreledGin,,,,,,,,,,
+"10,000 Drops Single Barrel Bourbon",852955008187,Spirits,,750ml,6,"10,000 Drops",New France Wine,,All,,,270,,,,256.5,256.5,10KDropsSingleBourbon,,,,,,,,,,
