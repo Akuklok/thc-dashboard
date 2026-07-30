@@ -1,4 +1,7 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1031016,3274510003791,Dolin Dry Vermouth 750ml,50120,12,1.0,152.0,152.0,
+Roseville,1031016,3274510003791,Dolin Dry Vermouth 750ml,50120,12,1.0,152.0,0.0,
 Andover,1031109,678113000165,Ercole Monferratto Rosso Liter,90500,12,1.0,136.0,136.0,
+Roseville,1031016,761371708420,Revive Carbon Negative Vodka 750ml,70400,6,1.0,154.0,0.0,
+Roseville,1031016,761371708437,Revive Carbon Negative Gin 750ml,70401,6,1.0,180.0,0.0,
+Roseville,1031016,8007117010108,Cocchi di Torino 750ml,50129,12,1.0,210.0,0.0,
 St. Louis Park,1031298,9421901116200,Walnut Block Sauvignon Blanc 750ml,655100,12,1.0,144.0,144.0,

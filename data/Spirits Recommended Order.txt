@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    302,793
   Coverable by transfer .......  $    112,689   (37%)
-  NET BUY from vendors ........  $    171,672   <- the order
+  NET BUY from vendors ........  $    171,682   <- the order
 
-  172 items   |   14,077 units to buy   |   20,416 units to rebalance
+  171 items   |   14,053 units to buy   |   20,416 units to rebalance
   Transfers: 1,116 moves  -  916 urgent (404 stockouts, 512 under 2wk), 200 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 87 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 86 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  BuzzBallz Biggie Berry Cherry Limea  39u/13cs         $585     43     5   1.4
   19  Jackson Morgan Banana Pudding Cream  6u/1cs           $100      5     0   1.4
   20  Bacardi Superior Light Rum 1.75L     522u/87cs      $6,676    547    26   1.5
-  ...and 152 more in the full list.
+  ...and 151 more in the full list.
 
-  NEEDS REVIEW (87 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (86 items the system isn't fully sure about - check before ordering):
     Midleton Very Rare 750ml                  Off buy-month - confirm timing
     Dapper Baron's Espresso Martini 750ml     No cost data - verify price; Margin over 95% - check retail
     Dapper Baron's Old Fashioned 750ml        No cost data - verify price; Margin over 95% - check retail
@@ -52,7 +52,7 @@
     Elijah Craig BBN Small Batch 94 1.75L     Buy-month stock-up ($2,720 to next deal) - confirm
     Chi-Chi's Margarita 1.75L                 Seasonal - last year ~11/wk vs 3 now, buy ahead?
     New Amsterdam Gin 1.75L                   Buy-month stock-up ($1,188 to next deal) - confirm
-    ...and 72 more (see Needs Review tab).
+    ...and 71 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (42 discontinued items still selling/low - run down stock):
     Absolut Raspberri Vodka Liter               (would have bought 12u)

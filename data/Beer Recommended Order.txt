@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    503,635
   Coverable by transfer .......  $    221,606   (44%)
-  NET BUY from vendors ........  $    253,206   <- the order
+  NET BUY from vendors ........  $    252,454   <- the order
 
-  626 items   |   21,908 units to buy   |   19,611 units to rebalance
+  622 items   |   21,804 units to buy   |   19,611 units to rebalance
   Transfers: 1,780 moves  -  1494 urgent (624 stockouts, 870 under 2wk), 286 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 66 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 65 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
   19  Cutwater Grapefruit Tequila Paloma   72u/3cs            $0     63     0   OUT
   20  Michelob Golden Draft 24pk 12oz btl  2u/2cs             $0      2     0   OUT
-  ...and 606 more in the full list.
+  ...and 602 more in the full list.
 
-  NEEDS REVIEW (66 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (65 items the system isn't fully sure about - check before ordering):
     Busch 24pk 12oz btl                       No cost data - verify price; Margin over 95% - check retail
     Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~21/wk vs 11 now, buy ahead?
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
@@ -52,7 +52,7 @@
     Cayman Jack Margarita                     No cost data - verify price; Margin over 95% - check retail
     Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Stilly Vibe Machine (Grapefruit) 6pk 12o  Seasonal - last year ~5/wk vs 3 now, buy ahead?
-    ...and 51 more (see Needs Review tab).
+    ...and 50 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (10 discontinued items still selling/low - run down stock):
     Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 40u)

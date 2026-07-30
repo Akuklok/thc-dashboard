@@ -1,99 +1,38 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Rosemount,1030988,014800513240,Clamato Tomato Cocktail 32oz,MIXMCL,12,1.0,47.25,47.25,
 Stillwater,1031046,014800513240,Clamato Tomato Cocktail 32oz,MIXMCL,12,1.0,47.25,47.25,
 Stillwater,1031046,014800516470,Clamato Tomato Cocktail 64oz,MIXMCHG,8,1.0,47.98,47.98,
-Andover,1030771,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,1.0,21.6,21.6,
-Andover,1030795,016600001040,Roses Grenadine 25oz,mixrg25,12,1.0,71.0,71.0,Store Request
-Blaine,1030800,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,0.0,
-Rosemount,1030988,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
-Ramsey,1030971,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
-Rosemount,1030988,071845098309,Coco Lopez Cream of Coconut 15oz,Mix101378,12,1.0,60.0,60.0,
-Rosemount,1030988,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
-Blaine,1030800,080432586174,Redbreast 12 Yr 750ml,8359514,6,1.0,295.0,0.0,
-Blaine,1030800,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,0.0,
-Blaine,1030800,080480230005,Dewar's White Label Scotch 1.75L,8065919,6,1.0,148.95,0.0,
-Andover,1031101,080960000074,Readers Chardonnay 750ml,1146014,12,1.0,102.0,102.0,
-Blaine,1030800,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,0.0,
-Blaine,1030800,08200501,Smirnoff Vodka Liter,8572725,12,1.0,153.0,0.0,
-Chanhassen,1030840,083664869213,Reyka Vodka 750ml,8511014,6,1.0,89.0,89.0,
-Chanhassen,1030840,083664869282,Reyka Vodka Liter,8511015,6,1.0,107.0,107.0,
+Blaine,1030800,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
+Blaine,1030800,080432586174,Redbreast 12 Yr 750ml,8359514,6,1.0,295.0,295.0,
+Blaine,1030800,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,66.0,
+Blaine,1030800,080480230005,Dewar's White Label Scotch 1.75L,8065919,6,1.0,148.95,148.95,
+Blaine,1030800,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,144.0,
+Blaine,1030800,08200501,Smirnoff Vodka Liter,8572725,12,1.0,153.0,153.0,
 Stillwater,1031062,084105307509,Fernet-Branca 750ml,7664704,6,1.0,172.85,172.85,Store Request
 Stillwater,1031046,08727707,Captain Morgan Spiced Rum 375ml,7868312,24,1.0,170.0,170.0,
-Andover,1030773,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy July Month End
-Blaine,1030802,088004069155,Fireball Blazin' Apple 50ml,8366118,120,2.0,78.95,157.9,Bellboy July Month End
-Chanhassen,1030841,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy July Month End
-Andover,1030772,088004144708,Fireball Whisky 50ml,8366108,120,3.0,0.0,0.0,Bellboy July Free Goods
+Blaine,1030802,088004069155,Fireball Blazin' Apple 50ml,8366118,120,2.0,78.95,0.0,Bellboy July Month End
 Blaine,1030801,088004144708,Fireball Whisky 50ml,8366108,120,3.0,0.0,0.0,Bellboy July Free Goods
-Rosemount,1030989,088004144708,Fireball Whisky 50ml,8366108,120,1.0,78.95,78.95,Bellboy July Month End
-Andover,1030775,088004148225,Dr McGillicuddys Cherry Traveler,7669754,12,1.0,147.0,147.0,Breakthru July Month End
-Andover,1030773,088076161863,Ciroc Vodka 750ml,8584224,12,1.0,250.0,250.0,Bellboy July Month End
 Stillwater,1031047,088076161863,Ciroc Vodka 750ml,8584224,12,1.0,250.0,250.0,Bellboy July Month End
-Blaine,1030802,088076177406,Ciroc Peach Vodka 750ml,8584354,12,1.0,250.0,250.0,Bellboy July Month End
+Blaine,1030802,088076177406,Ciroc Peach Vodka 750ml,8584354,12,1.0,250.0,0.0,Bellboy July Month End
 Blaine,1030802,088076179080,Ciroc Pineapple 750ml,8584404,12,1.0,250.0,250.0,Bellboy July Month End
 Stillwater,1031046,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,
-Blaine,1030800,096749002245,Henry McKenna Bourbon 750ml,8393314,12,1.0,97.5,0.0,
-Blaine,1030800,197644697847,Tonka Vodka 50ml,8563008,60,1.0,40.0,0.0,
-Rosemount,1031253,5600221678221,Casa Santos White 750ml,1670234,12,1.0,80.0,80.0,
-Rosemount,1031002,630328000392,Luksusowa Potato Vodka 1.75L,8571719,6,2.0,144.0,0.0,Store Request
-Andover,1030772,695521103011,Citadelle Gin 750ml,7268414,6,1.0,0.0,0.0,Bellboy July Free Goods
+Blaine,1030800,096749002245,Henry McKenna Bourbon 750ml,8393314,12,1.0,97.5,97.5,
+Blaine,1030800,197644697847,Tonka Vodka 50ml,8563008,60,1.0,40.0,40.0,
 Blaine,1030801,695521103011,Citadelle Gin 750ml,7268414,6,1.0,0.0,0.0,Bellboy July Free Goods
 Stillwater,1031047,695521103011,Citadelle Gin 750ml,7268414,6,1.0,124.0,124.0,Bellboy July Month End
-Andover,1030772,695521151586,Plantation 3 Stars Silver Liter,7872715,6,1.0,0.0,0.0,Bellboy July Free Goods
 Blaine,1030802,695521151586,Plantation 3 Stars Silver Liter,7872715,6,1.0,101.0,101.0,Bellboy July Month End
-Andover,1030773,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy July Month End
-Chanhassen,1030841,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy July Month End
-Rosemount,1030989,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy July Month End
-Andover,1030773,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,Bellboy July Month End
-Andover,1030772,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,0.0,0.0,Bellboy July Free Goods
-Ramsey,1030972,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,Bellboy July Month End
 Blaine,1030802,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy July Month End
 Stillwater,1031047,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy July Month End
-Chanhassen,1030840,721059957502,Russell's Reserve 10yr 750ml,8364514,6,1.0,195.0,195.0,
-Andover,1030713,810012698061,BLNCD Adaptogen Elixir Brain Boost 5mg THC 4pk 12oz can,9918062,6,1.0,70.6,70.6,
-Rosemount,1030724,810012698767,BLNCD Cucumber Mojito 10mg THC 4pk 12oz can,9918082,6,1.0,78.4,78.4,
 Blaine,1030714,811194034913,Smokiez Jamberry THC 10 pack,9921025,12,1.0,66.0,66.0,
-Bloomington,1030716,811194034920,Smokiez Sour Jamberry THC 10 pack,9921035,12,1.0,66.0,66.0,
-Chanhassen,1030717,811194034920,Smokiez Sour Jamberry THC 10 pack,9921035,12,1.0,66.0,66.0,
-Andover,1030713,811194039574,Smokiez Lemonade 4pk 12oz can,9922002,6,1.0,80.0,80.0,
-Rosemount,1030724,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
-Andover,1031391,839743003036,Morris Australian Single Malt Whisky 700ml,8165104,6,4.0,90.0,360.0,Morris
-Rosemount,1031394,839743003036,Morris Australian Single Malt Whisky 700ml,8165104,6,2.0,90.0,180.0,Morris
-Andover,1030713,840006313939,BLNCD Levitate 50mg THC 500ml,9918013,6,1.0,175.0,175.0,
-Ramsey,1030723,840006313939,BLNCD Levitate 50mg THC 500ml,9918013,6,1.0,175.0,175.0,
-Ramsey,1030723,840006313960,BLNCD FUSE 50mg THC 500ml,9918003,6,1.0,156.0,156.0,
-Andover,1030713,840006314424,BLNCD Prickly Pear Bee's Knees 10mg THC 4pk 12oz can,9918102,6,1.0,78.4,78.4,
 Blaine,1030714,840006315834,Two Scoops Variety Pack 12pk 12oz can,9917132,2,1.0,62.0,62.0,
-Chanhassen,1030717,840006315834,Two Scoops Variety Pack 12pk 12oz can,9917132,2,1.0,62.0,62.0,
-Chanhassen,1030717,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
-Chanhassen,1030717,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Blaine,1030800,852546003096,Tonka Vodka 1.75L,8563009,6,1.0,90.0,0.0,
-Chanhassen,1030840,852546003096,Tonka Vodka 1.75L,8563009,6,1.0,90.0,90.0,
-Andover,1030773,853826005007,Breckenridge Bourbon Whiskey 750ml,8396004,6,1.0,184.0,184.0,Bellboy July Month End
-Rosemount,1030989,853826005007,Breckenridge Bourbon Whiskey 750ml,8396004,6,1.0,184.0,184.0,Bellboy July Month End
-Rosemount,1030988,855400005151,Jackson Morgan Orange Cream 50ml,7177198,60,1.0,115.0,115.0,
-Blaine,1030800,855439000738,Rokz Bloody Mary Salt 4oz,7204,6,1.0,22.75,0.0,
-Rosemount,1030724,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
+Blaine,1030800,852546003096,Tonka Vodka 1.75L,8563009,6,1.0,90.0,90.0,
+Blaine,1030800,855439000738,Rokz Bloody Mary Salt 4oz,7204,6,1.0,22.75,22.75,
 Blaine,1030714,860006677671,Minny Grown BlueBeary 10 Pack,9912095,12,1.0,96.0,96.0,
-Chanhassen,1030717,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
-Bloomington,1030716,860009438002,Minny Grown Skol! 10 Pack,9912035,12,1.0,96.0,96.0,
 Blaine,1030714,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
-Ramsey,1030723,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
 Blaine,1030714,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
-Rosemount,1030724,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,2.0,96.0,192.0,
-Chanhassen,1030717,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Rosemount,1030724,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Stillwater,1030727,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,2.0,66.0,132.0,
 Stillwater,1030727,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Blaine,1030714,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
-Chanhassen,1030717,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
 Blaine,1030714,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Chanhassen,1030717,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Rosemount,1030724,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Andover,1030713,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,5.0,73.0,365.0,
-Blaine,1030714,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,10.0,73.0,730.0,
+Blaine,1030714,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,10.0,73.0,3650.01,
 Blaine2,1030715,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,50.0,73.0,3650.01,
-Bloomington,1030716,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,4.0,73.0,292.0,
-Chanhassen,1030717,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,3.0,73.0,219.0,
-Ramsey,1030723,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,3.0,73.0,219.0,
-Rosemount,1030724,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,4.0,73.0,292.0,
 Stillwater,1030727,860014148880,Brez Extra Black Cherry 10mg THC 4pk 12oz can,9919062,6,3.0,73.0,219.0,

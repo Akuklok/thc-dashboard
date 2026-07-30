@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    118,968
   Coverable by transfer .......  $     59,477   (50%)
-  NET BUY from vendors ........  $     79,422   <- the order
+  NET BUY from vendors ........  $     79,933   <- the order
 
-  98 items   |   6,216 units to buy   |   7,058 units to rebalance
+  99 items   |   6,272 units to buy   |   7,058 units to rebalance
   Transfers: 737 moves  -  606 urgent (234 stockouts, 372 under 2wk), 131 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 43 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 44 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -30,13 +30,13 @@
   14  Gallo White Zinfandel 1.5L           6u/1cs            $40      5     0   0.9
   15  90+ Cellars Prosecco Rose (single)   48u/2cs            $0     62    24   1.0
   16  Gallo Merlot 1.5L                    18u/3cs          $121     19     0   1.0
-  17  Yes Way Rose 750ml                   240u/20cs      $1,900    259    13   1.2
+  17  Yes Way Rose 750ml                   288u/24cs      $2,280    259    13   1.2
   18  Barefoot Pinot Noir 250ml            18u/3cs          $108     17     0   1.2
   19  Washington Hills Late Riesling 750m  12u/1cs           $80      7     0   1.2
   20  Josh Cellars Chardonnay 750ml        288u/24cs      $2,361    311    17   1.4
-  ...and 78 more in the full list.
+  ...and 79 more in the full list.
 
-  NEEDS REVIEW (43 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (44 items the system isn't fully sure about - check before ordering):
     Atomic Boss POG Hard Punch 500ml          No cost data - verify price; Margin over 95% - check retail
     Belle Glos Pinot Noir Las Alturas 750ml   Off buy-month - confirm timing
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
@@ -52,7 +52,7 @@
     Black Box Buttery Chardonnay 3L Box       Buy-month stock-up ($1,633 to next deal) - confirm
     Black Box Rose 3L Box                     Buy-month stock-up ($742 to next deal) - confirm
     Bonterra Sauvignon Blanc 750ml            Buy-month stock-up ($180 to next deal) - confirm
-    ...and 28 more (see Needs Review tab).
+    ...and 29 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (18 discontinued items still selling/low - run down stock):
     Bogle Cabernet Sauvignon 750ml              (would have bought 276u)
@@ -72,8 +72,8 @@
     Roscato Bianco Dolce 750ml                  (would have bought 12u)
     ...and 3 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (4 routine deal items out of their buy month - $3,780 cheaper to buy in-month):
-    19 Crimes Cali Red 750ml                    Wait for buy-month (Mar, May, Jun, Sep, Nov, Dec)
+  WAIT FOR BUY-MONTH (4 routine deal items out of their buy month - $3,773 cheaper to buy in-month):
+    Apothic Cabernet Sauv 750ml                 Wait for buy-month (Feb, May, Aug, Oct, Dec)
     Underwood Bubbles 355ml                     Wait for buy-month (Apr, Jun, Aug, Oct)
     Underwood Rose Bubbles 375ml                Wait for buy-month (Apr, Jun, Aug, Oct)
     Whitehaven Sauv Blanc 750ml                 Wait for buy-month (Feb, May, Aug, Nov)
