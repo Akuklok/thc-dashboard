@@ -1,34 +1,26 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Ramsey,1031250,074806184103,Daily's Margarita RTD Frozen 10oz,1626712,24,1.0,38.58,38.58,Month End
-Ramsey,1031250,074806918975,Daily's Blackberry Smash 10oz,1662164,24,1.0,38.58,38.58,Month End
-Ramsey,1030984,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
-Ramsey,1030983,080686500438,Windsor Canadian Traveler,000004713,12,2.0,0.0,0.0,Phillips July Free Goods
-Andover,1031427,080887496493,Bogle Phantom Chardonnay 750ml,1894646,12,1.0,0.0,0.0,Free Goods
-Cottage Grove,1031431,080887496493,Bogle Phantom Chardonnay 750ml,1894646,12,1.0,132.5,132.5,Distro
-Minneapolis,1031432,080887496493,Bogle Phantom Chardonnay 750ml,1894646,12,1.0,132.5,132.5,Distro
-Plymouth,1031433,080887496493,Bogle Phantom Chardonnay 750ml,1894646,12,1.0,132.5,132.5,Distro
-Vadnais Heights,1031437,080887496493,Bogle Phantom Chardonnay 750ml,1894646,12,1.0,132.5,132.5,Distro
-Ramsey,1031245,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,0.0,0.0,Free Goods
-Ramsey,1030976,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
-Ramsey,1030976,082000771593,Crown Royal Regal Apple 1.75L,24788,6,1.0,222.0,222.0,Diageo July Month End
-Ramsey,1030976,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo July Month End
-Ramsey,1031250,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,44.0,Month End
-Ramsey,1031245,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,3.0,0.0,0.0,Free Goods
-Ramsey,1031250,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,44.0,44.0,Month End
-Ramsey,1031250,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,Month End
-Ramsey,1030984,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
-Ramsey,1030976,085156610419,Ketel One Vodka Liter,13904,12,1.0,260.0,260.0,Diageo July Month End
-Ramsey,1030976,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,228.0,228.0,Diageo July Month End
-Ramsey,1030976,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
-Ramsey,1030976,087000700604,Crown Royal Canadian 1.75L,69484,6,2.0,222.0,444.0,Diageo July Month End
-Ramsey,1030976,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
-Ramsey,1030984,087116018099,Phillips Vodka 1.75L,000040311,6,3.0,63.03,189.09,Phillips July Month End
-Ramsey,1030984,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips July Month End
-Ramsey,1030984,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,46.16,46.16,Phillips July Month End
-Ramsey,1030983,850003574202,Two Chicks Cranberry Tartini 4pk 12oz can,001104060,6,1.0,0.0,0.0,Phillips July Free Goods
-Ramsey,1030984,850003574264,Two Chicks Watermelon Breeze 4pk 12oz can,1052595,6,1.0,46.16,46.16,Phillips July Month End
-Ramsey,1030984,850008153129,Campo Bravo Plata 50ml,1046867,72,2.0,50.0,0.0,Phillips July Month End
-Ramsey,1030983,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips July Free Goods
-Ramsey,1031250,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,001945801,6,1.0,64.0,64.0,Month End
-Ramsey,1031250,861518002654,Rancho La Gloria Strawberry Margarita RT 1.5L,001571239,6,1.0,64.0,64.0,Month End
-Ramsey,1030984,899682002286,Filthy Olive Brine 8oz,001580732,12,1.0,46.2,46.2,Phillips July Month End
+Minneapolis,1030909,080686294023,2 Gingers Liter,000019543,12,1.0,196.5,196.5,Phillips July Month End
+Minneapolis,1030910,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,0.0,
+Minneapolis,1030908,080686500124,Windsor Canadian 1.75L,4523,6,1.0,0.0,0.0,Phillips July Free Goods
+Minneapolis,1030909,080686500193,Windsor Black Cherry 1.75L,20476,6,1.0,92.35,92.35,Phillips July Month End
+Minneapolis,1030908,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips July Free Goods
+Minneapolis,1030900,082000771586,Crown Royal Regal Apple Liter,000024789,12,1.0,315.75,315.75,Diageo July Month End
+Minneapolis,1030900,082000771593,Crown Royal Regal Apple 1.75L,24788,6,3.0,222.0,666.0,Diageo July Month End
+Minneapolis,1030900,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo July Month End
+Minneapolis,1030909,084279007403,Windsor Apple 1.75L,1150527,6,1.0,92.35,92.35,Phillips July Month End
+Minneapolis,1030900,087000004047,Bulleit Bourbon 1.75L,000011267,6,2.0,228.0,456.0,Diageo July Month End
+Minneapolis,1030900,087000005549,Bulleit Bourbon Liter,000011268,12,1.0,280.0,0.0,Diageo July Month End
+Minneapolis,1030900,087000007246,Crown Royal Canadian Liter,000004382,12,1.0,315.75,315.75,Diageo July Month End
+Minneapolis,1030900,087000700604,Crown Royal Canadian 1.75L,69484,6,3.0,222.0,666.0,Diageo July Month End
+Minneapolis,1030900,087000700703,Seagrams 7 Blended 1.75L,00001503,6,1.0,90.0,90.0,Diageo July Month End
+Minneapolis,1030909,087116018099,Phillips Vodka 1.75L,000040311,6,1.0,63.03,63.03,Phillips July Month End
+Minneapolis,1030910,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,124.0,124.0,
+Minneapolis,1030900,08727008,Captain Morgan Spiced Rum Liter,000005363,12,5.0,165.0,825.0,Diageo July Month End
+Minneapolis,1030909,088004009373,Fireball Whisky 100ml,1403888,48,6.0,65.0,390.01,Phillips July Month End
+Minneapolis,1030909,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips July Month End
+Minneapolis,1030909,616003112161,Zing Zang Sweet & Sour 32oz,001916165,6,1.0,22.04,22.04,Phillips July Month End
+Minneapolis,1030909,616003615167,Zing Zang Margarita Mix 1.75L,001217007,6,1.0,40.12,40.12,Phillips July Month End
+Minneapolis,1030909,850008153129,Campo Bravo Plata 50ml,1046867,72,4.0,50.0,0.0,Phillips July Month End
+Minneapolis,1030909,857641002104,Buzzballz Cranberry 187ml,1074426,24,1.0,51.45,0.0,Phillips July Month End
+Minneapolis,1030909,857641002210,BuzzBallz Sour Apple 187ml,1396946,24,1.0,51.45,51.45,Phillips July Month End
+Minneapolis,1030908,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,8.0,0.0,0.0,Phillips July Free Goods

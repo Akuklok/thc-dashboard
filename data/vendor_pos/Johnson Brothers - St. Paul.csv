@@ -1,57 +1,159 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Ramsey,1031248,031259001456,Josh Cellars Pinot Grigio 750ml,001122193,12,1.0,106.94,0.0,Month End
-Ramsey,1031244,031259046952,Josh Cellars Pinot Noir 750ml,000859258,12,1.0,0.0,0.0,Free Goods
-Ramsey,1030979,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-Andover,1031411,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,3.0,290.5,871.5,Allocated
-Cottage Grove,1031415,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Allocated
-Plymouth,1031419,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Allocated
-Ramsey,1031420,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,1.0,290.5,0.0,Allocated
-Vadnais Heights,1031425,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Allocated
-Ramsey,1030979,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,
-Ramsey,1031244,081434000040,Black Box Chardonnay 3L Box,40022,6,1.0,0.0,0.0,Free Goods
-Ramsey,1031248,081434000224,Black Box Pinot Grigio 3L Box,12436,6,2.0,82.0,164.0,Month End
+Cottage Grove,1030873,040063400430,Four Roses Bourbon 1.75L,001215736,6,2.0,165.28,330.56,
+St. Louis Park,1030903,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
+Minneapolis,1030902,070491352070,Master of Mixes Simple Syrup 375ml,17149,12,1.0,32.0,32.0,
+Cottage Grove,1030873,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,
+St. Louis Park,1031423,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,5.0,290.5,1452.5,Allocated
+Cottage Grove,1030873,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,2.0,292.5,585.0,
+Minneapolis,1030902,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,
+Cottage Grove,1031373,081753842406,Belvedere Dirty Brew 750ml,1256372,6,0.5,144.0,0.0,Loader
 Minneapolis,1031374,081753842406,Belvedere Dirty Brew 750ml,1256372,6,0.5,144.0,0.0,Loader
-Ramsey,1030981,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,78.5,78.5,Johnson July Month End
-Ramsey,1030975,082000727606,Smirnoff Vodka 1.75L,000002550,6,4.0,88.0,352.0,Diageo July Month End
-Ramsey,1030981,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,Johnson July Month End
-Ramsey,1030980,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,1.0,0.0,0.0,Johnson July Free Goods
-Ramsey,1031248,082100738397,Black Box Sauvignon Blanc 3L Box,16008,6,1.0,82.0,82.0,Month End
-Ramsey,1030981,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,204.65,204.65,Johnson July Month End
-Ramsey,1030980,084279184241,Karkov Vodka Liter,000025916,12,0.5,0.0,0.0,Johnson July Free Goods
-Ramsey,1030980,084279901671,Rondiaz Spiced Rum 1.75L,000064386,6,4.0,0.0,0.0,Johnson July Free Goods
-Ramsey,1030981,084279902715,Rondiaz Silver Rum 1.75L,000036251,6,1.0,92.6,92.6,Johnson July Month End
-Andover,PO0000001653,084279908434,Petri Brandy 1.75L,77982,6,1.0,83.0,0.0,1030782
-Ramsey,1030981,084279912677,Karkov Vodka Traveler,000034975,12,1.0,64.5,64.5,Johnson July Month End
-Andover,PO0000001653,085000003824,E&J VSOP Brandy Liter,000039743,12,1.0,153.0,0.0,1030782
-Andover,PO0000001653,085000003930,E&J VSOP Brandy 1.75L,000055293,6,1.0,128.25,0.0,1030782
-Andover,PO0000001653,085000011126,E&J Brandy Traveler,000046557,12,1.0,108.0,0.0,1030782
-Ramsey,1030830,085000014301,New Amsterdam Gin 1.75L,000014484,6,1.0,108.0,0.0,Gallo July Month End
-Ramsey,1031248,085000018194,Alamos Malbec 750ml,000015916,12,1.0,104.0,104.0,Month End
-Andover,PO0000001653,085000019498,New Amsterdam Vodka 750ml,19067,12,1.0,108.0,0.0,1030782
-Ramsey,1030977,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo July Free Goods
-Andover,PO0000001654,085000019511,New Amsterdam Vodka 1.75L,000019065,6,7.0,90.0,0.0,1030781
-Ramsey,1030830,085000019511,New Amsterdam Vodka 1.75L,000019065,6,2.0,90.0,0.0,Gallo July Month End
-Ramsey,1030979,085000020333,New Amsterdam Peach Vodka 750ml,000020499,12,1.0,108.0,0.0,
-Andover,PO0000001654,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,7.0,47.5,0.0,1030781
-Ramsey,1030830,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,2.0,47.5,95.0,Gallo July Month End
-Andover,PO0000001653,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,1.0,49.5,0.0,1030782
-Andover,PO0000001653,085000031810,New Amsterdam Vodka 375ml,000019068,24,1.0,112.0,0.0,1030782
-Ramsey,1031248,085000033395,Black Box Sauvignon Blanc 500ml Tetra 500ml,001471286,12,1.0,40.0,40.0,Month End
-Ramsey,1031244,085000034552,Black Box Deep Dark Cabernet 3L Box,001597815,6,1.0,0.0,0.0,Free Goods
-Andover,PO0000001654,085000040768,Lucky One Lemonade Variety 8pk 12oz can,1462649,3,1.0,42.0,0.0,1030781
-Ramsey,1030830,085000040768,Lucky One Lemonade Variety 8pk 12oz can,1462649,3,1.0,42.0,0.0,Gallo July Month End
-Andover,PO0000001653,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,0.0,1030782
-Ramsey,1030975,088110021405,Johnnie Walker Red Liter,000003608,12,1.0,220.0,220.0,Diageo July Month End
-Ramsey,1030975,088110110505,Tanqueray Gin 1.75L,000005751,6,1.0,166.5,166.5,Diageo July Month End
-Ramsey,1031248,088474022407,Relax Riesling 750ml,1044335,12,1.0,96.0,0.0,Month End
-Ramsey,1030979,08911302,Johnnie Walker Red 50ml,000032011,120,1.0,107.0,107.0,
-Ramsey,1030979,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Ramsey,1030979,619947000037,Tito's Vodka 1.75L,22221,6,2.0,163.89,327.78,
-Ramsey,1030981,810178380121,Jose Cuervo Sparkling Cocktails Variety Pack 8pk 12oz can,1935616,3,1.0,40.45,40.45,Johnson July Month End
-Ramsey,1030980,811538010139,1800 Silver Tequila 750ml,000021783,12,1.0,0.0,0.0,Johnson July Free Goods
-Ramsey,1030981,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson July Month End
-Ramsey,1030980,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,1.0,0.0,0.0,Johnson July Free Goods
-Ramsey,1030980,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,0.0,0.0,Johnson July Free Goods
-Ramsey,1030981,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,1.0,125.95,125.95,Johnson July Month End
-Ramsey,1030975,856724006220,Casamigos Reposado 375ml,1674992,12,1.0,218.25,218.25,Diageo July Month End
-Ramsey,1030980,860199002618,Gray Duck 1.75L,001650657,6,1.0,0.0,0.0,Johnson July Free Goods
+Minneapolis,1030915,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,0.0,Store Request
+St. Louis Park,1030903,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,
+Minneapolis,1030915,082000724049,Smirnoff Vanilla Vodka 1.75L,000023028,6,1.0,88.0,88.0,Store Request
+Cottage Grove,1030869,082000727606,Smirnoff Vodka 1.75L,000002550,6,16.0,88.0,1408.0,Diageo July Month End
+Minneapolis,1030899,082000727606,Smirnoff Vodka 1.75L,000002550,6,17.0,88.0,1496.0,Diageo July Month End
+St. Louis Park,1031034,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,2.0,97.0,194.0,Johnson July Month End
+Cottage Grove,1030874,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,6.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,2.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031034,082000759454,George Dickel Rye 750ml,000021234,12,1.0,225.0,0.0,Johnson July Month End
+Minneapolis,1030902,082000788096,Smirnoff Red White & Berry Liter,001272119,12,1.0,121.0,0.0,
+Minneapolis,1030899,082000788102,Smirnoff Red White and Berry 1.75L,001339326,6,1.0,88.0,0.0,Diageo July Month End
+Cottage Grove,1030869,082000790815,Smirnoff Strawberry & Rose Zero Sugar 750ml,001515500,12,1.0,96.0,96.0,Diageo July Month End
+Minneapolis,1030899,082000790815,Smirnoff Strawberry & Rose Zero Sugar 750ml,001515500,12,1.0,96.0,96.0,Diageo July Month End
+Cottage Grove,1030869,082000797203,Smirnoff Pink Lemonade 750ml,001286665,12,1.0,96.0,96.0,Diageo July Month End
+St. Louis Park,1030903,082000812104,Casamigos Spicy Margarita 375ml,1415323,12,1.0,107.95,107.95,
+St. Louis Park,1030903,082000812128,Casamigos Margarita 750ml,1563154,12,1.0,204.0,204.0,
+Minneapolis,1030902,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,211.7,211.7,
+St. Louis Park,1030903,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,211.7,211.7,
+Cottage Grove,1030873,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,
+Cottage Grove,1030873,082184090527,Jack Daniels Whiskey 200ml,2444,48,1.0,263.99,263.99,
+Minneapolis,1030902,082184090527,Jack Daniels Whiskey 200ml,2444,48,1.0,263.99,263.99,
+St. Louis Park,1030903,08247201,Smirnoff Vodka 50ml,000045211,120,1.0,79.0,79.0,
+St. Louis Park,1030903,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,98.0,98.0,
+Minneapolis,1030902,08256209,Smirnoff 100 Pf Vodka 375ml,000002626,24,1.0,131.0,131.0,
+Cottage Grove,1030869,08295004,Smirnoff Vodka Traveler,000011759,12,8.0,96.0,768.0,Diageo July Month End
+Minneapolis,1030899,08295004,Smirnoff Vodka Traveler,000011759,12,9.0,96.0,864.0,Diageo July Month End
+Cottage Grove,1030869,083089450003,Casamigos Blanco 750ml,25862,6,2.0,189.5,379.0,Diageo July Month End
+Minneapolis,1030899,083089450003,Casamigos Blanco 750ml,25862,6,1.0,189.5,189.5,Diageo July Month End
+Cottage Grove,1030869,083089450102,Casamigos Blanco Tequila Liter,1999598,6,1.0,250.0,250.0,Diageo July Month End
+Minneapolis,1030899,083089450102,Casamigos Blanco Tequila Liter,1999598,6,1.0,250.0,250.0,Diageo July Month End
+Cottage Grove,1030874,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,1.0,0.0,0.0,Johnson July Free Goods
+Cottage Grove,1030874,084279901671,Rondiaz Spiced Rum 1.75L,000064386,6,3.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031034,084279902715,Rondiaz Silver Rum 1.75L,000036251,6,1.0,92.6,92.6,Johnson July Month End
+St. Louis Park,1031033,084279912677,Karkov Vodka Traveler,000034975,12,2.0,0.0,0.0,Johnson July Free Goods
+Cottage Grove,1030873,085000003824,E&J VSOP Brandy Liter,000039743,12,1.0,153.0,0.0,
+St. Louis Park,1030903,085000006818,New Amsterdam Tangerine 50ml,1944461,120,1.0,80.0,80.0,
+St. Louis Park,1030903,085000011126,E&J Brandy Traveler,000046557,12,1.0,108.0,108.0,
+Cottage Grove,1030810,085000014301,New Amsterdam Gin 1.75L,000014484,6,1.0,108.0,0.0,Gallo July Month End
+Minneapolis,1030811,085000014301,New Amsterdam Gin 1.75L,000014484,6,1.0,108.0,108.0,Gallo July Month End
+Cottage Grove,1030873,085000019498,New Amsterdam Vodka 750ml,19067,12,1.0,108.0,0.0,
+Minneapolis,1030902,085000019498,New Amsterdam Vodka 750ml,19067,12,1.0,108.0,108.0,
+Cottage Grove,1030810,085000019511,New Amsterdam Vodka 1.75L,000019065,6,11.0,90.0,0.0,Gallo July Month End
+Minneapolis,1030811,085000019511,New Amsterdam Vodka 1.75L,000019065,6,12.0,90.0,1080.0,Gallo July Month End
+St. Louis Park,1030848,085000019511,New Amsterdam Vodka 1.75L,000019065,6,6.0,90.0,540.0,Gallo July Month End
+Minneapolis,1030915,085000020326,New Amsterdam Red Berry Vodka 750ml,000020494,12,1.0,108.0,108.0,Store Request
+Minneapolis,1030811,085000021651,New Amsterdam Peach Vodka 1.75L,000023530,6,2.0,90.0,180.0,Gallo July Month End
+Minneapolis,1030811,085000021675,New Amsterdam Red Berry 1.75L,000023533,6,1.0,90.0,90.0,Gallo July Month End
+Minneapolis,1030811,085000022337,New Amsterdam Pineapple 1.75L,000023940,6,3.0,90.0,270.0,Gallo July Month End
+Minneapolis,1030915,085000023181,New Amsterdam Mango 750ml,000025345,12,1.0,108.0,108.0,Store Request
+Minneapolis,1030811,085000023204,New Amsterdam Mango Vodka 1.75L,000025343,6,4.0,90.0,360.0,Gallo July Month End
+Minneapolis,1030811,085000023761,New Amsterdam Grapefruit Vodka 1.75L,001822206,6,3.0,90.0,270.0,Gallo July Month End
+Cottage Grove,1030873,085000024041,E&J Apple Brandy 750ml,000026840,12,1.0,117.0,0.0,
+Minneapolis,1030902,085000024041,E&J Apple Brandy 750ml,000026840,12,1.0,117.0,117.0,
+Minneapolis,1030902,085000026151,New Amsterdam Raspberry vodka 750ml,001613622,12,1.0,108.0,108.0,
+Cottage Grove,1030810,085000026175,New Amsterdam Raspberry 1.75L,001246487,6,1.0,90.0,0.0,Gallo July Month End
+Minneapolis,1030811,085000026175,New Amsterdam Raspberry 1.75L,001246487,6,6.0,90.0,540.0,Gallo July Month End
+St. Louis Park,1030848,085000026175,New Amsterdam Raspberry 1.75L,001246487,6,1.0,90.0,90.0,Gallo July Month End
+Cottage Grove,1030810,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,15.0,47.5,712.5,Gallo July Month End
+Minneapolis,1030811,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,47.5,475.0,Gallo July Month End
+St. Louis Park,1030848,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,23.0,47.5,1092.5,Gallo July Month End
+Minneapolis,1030811,085000030943,New Amsterdam Watermelon 1.75L,001607608,6,1.0,90.0,90.0,Gallo July Month End
+Minneapolis,1030902,085000031360,New Amsterdam Pink Whitney 1.75L,1300577,6,1.0,104.0,104.0,
+Cottage Grove,1030873,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,2.0,49.5,99.0,
+Cottage Grove,1030873,085000031810,New Amsterdam Vodka 375ml,000019068,24,1.0,112.0,0.0,
+Minneapolis,1030902,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,49.5,99.0,
+St. Louis Park,1030903,085000036099,High Noon Tequila Variety Pack 8pk 12oz can,1077117,3,2.0,54.0,108.0,
+St. Louis Park,1030903,085000038963,High Noon Iced Tea Variety Pack 8pk 12oz can,1546753,3,1.0,49.5,49.5,
+Cottage Grove,1030810,085000040768,Lucky One Lemonade Variety 8pk 12oz can,1462649,3,1.0,42.0,0.0,Gallo July Month End
+Minneapolis,1030811,085000040768,Lucky One Lemonade Variety 8pk 12oz can,1462649,3,1.0,42.0,0.0,Gallo July Month End
+St. Louis Park,1030903,085000429266,High Noon Pineapple 4pk 12oz can,001761846,6,1.0,49.5,49.5,
+Minneapolis,1030902,085000431375,High Noon Peach 4pk 12oz can,001276032,6,1.0,49.5,49.5,
+St. Louis Park,1030903,085000431375,High Noon Peach 4pk 12oz can,001276032,6,1.0,49.5,49.5,
+St. Louis Park,1030903,085000432327,High Noon Mango 4pk 12oz can,001274468,6,1.0,49.5,49.5,
+Cottage Grove,1030873,08541509,E&J Brandy 1.75L,000006064,6,1.0,106.0,0.0,
+St. Louis Park,1030903,08541509,E&J Brandy 1.75L,000006064,6,1.0,106.0,106.0,
+Minneapolis,1030902,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
+St. Louis Park,1030903,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
+St. Louis Park,1030903,087236565107,Cointreau 750ml,6734,12,1.0,332.88,332.88,
+Cottage Grove,1030873,088004144739,Fireball Whisky 200ml,1748316,48,1.0,140.0,140.0,
+St. Louis Park,1031034,088076006232,George Dickel No 12 750ml,000002212,12,1.0,225.0,225.0,Johnson July Month End
+St. Louis Park,1030903,088076179028,Talisker Storm 750ml,22693,6,1.0,185.0,185.0,
+Cottage Grove,1030869,088110011406,Johnnie Walker Black Liter,000003665,12,1.0,375.0,375.0,Diageo July Month End
+Minneapolis,1030899,088110011406,Johnnie Walker Black Liter,000003665,12,1.0,375.0,375.0,Diageo July Month End
+Cottage Grove,1030869,088110021405,Johnnie Walker Red Liter,000003608,12,1.0,220.0,220.0,Diageo July Month End
+Minneapolis,1030899,088110021405,Johnnie Walker Red Liter,000003608,12,1.0,220.0,220.0,Diageo July Month End
+Cottage Grove,1030869,088110110505,Tanqueray Gin 1.75L,000005751,6,4.0,166.5,666.0,Diageo July Month End
+Minneapolis,1030899,088110110505,Tanqueray Gin 1.75L,000005751,6,1.0,166.5,166.5,Diageo July Month End
+Cottage Grove,1030869,088110150525,Hennessy VS Cognac 200ml,20584,24,1.0,243.0,243.0,Diageo July Month End
+Minneapolis,1030899,088110150525,Hennessy VS Cognac 200ml,20584,24,1.0,243.0,243.0,Diageo July Month End
+Cottage Grove,1030869,088110150563,Hennessy VS Cognac Liter,7948,12,1.0,483.0,483.0,Diageo July Month End
+Cottage Grove,1030869,088110150587,Hennessy VS Cognac 1.75L,41541,6,1.0,391.0,391.0,Diageo July Month End
+Cottage Grove,1030869,088110150624,Hennessy VS Cognac 375ml,20585,12,1.0,170.0,170.0,Diageo July Month End
+Minneapolis,1030899,088110955328,Buchanans 12 Yr Scotch 750ml,000071084,12,1.0,318.0,318.0,Diageo July Month End
+Minneapolis,1030902,619947000013,Tito's Vodka Liter,22149,12,2.0,218.0,436.0,
+St. Louis Park,1030903,619947000013,Tito's Vodka Liter,22149,12,2.0,218.0,436.0,
+Cottage Grove,1030873,619947000020,Tito's Vodka 750ml,1923946,12,2.0,174.0,348.0,
+Minneapolis,1030902,619947000020,Tito's Vodka 750ml,1923946,12,8.0,174.0,1392.0,
+St. Louis Park,1030903,619947000020,Tito's Vodka 750ml,1923946,12,2.0,174.0,348.0,
+Cottage Grove,1030873,619947000037,Tito's Vodka 1.75L,22221,6,9.0,163.89,1475.01,
+Minneapolis,1030902,619947000037,Tito's Vodka 1.75L,22221,6,9.0,163.89,1475.01,
+St. Louis Park,1030903,619947000037,Tito's Vodka 1.75L,22221,6,6.0,163.89,983.34,
+Minneapolis,1030902,619947000044,Tito's Vodka 200ml,1174140,24,1.0,124.23,124.23,
+Cottage Grove,1030873,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
+Minneapolis,1030902,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
+St. Louis Park,1030903,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
+Minneapolis,1030898,674545000629,Don Julio Blanco Tequila 1.75L,8491929,,,0.0,0.0,Diageo July Month End
+Cottage Grove,1030869,674545000636,Don Julio Reposado Tequila 1.75L,1076772,3,1.0,242.0,0.0,Diageo July Month End
+Minneapolis,1030899,674545000636,Don Julio Reposado Tequila 1.75L,1076772,3,3.0,242.0,726.0,Diageo July Month End
+Cottage Grove,1030873,721059001311,Aperol Aperitivo 750ml,20245,6,1.0,95.5,95.5,
+Minneapolis,1030902,721059001311,Aperol Aperitivo 750ml,20245,6,1.0,95.5,0.0,
+St. Louis Park,1030903,721059001311,Aperol Aperitivo 750ml,20245,6,4.0,95.5,382.0,
+St. Louis Park,1031034,810178380121,Jose Cuervo Sparkling Cocktails Variety Pack 8pk 12oz can,1935616,3,2.0,40.45,80.9,Johnson July Month End
+St. Louis Park,1030903,811041030013,Lalo Tequila Blanco 750ml,1890329,6,1.0,193.5,193.5,
+St. Louis Park,1031034,811538010153,1800 Silver Tequila 1.75L,000022247,6,2.0,189.0,378.0,Johnson July Month End
+St. Louis Park,1031034,811538010375,1800 Coconut Tequila 750ml,22264,12,1.0,218.49,218.49,Johnson July Month End
+Cottage Grove,1030874,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,3.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,1.0,0.0,0.0,Johnson July Free Goods
+Cottage Grove,1030874,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,2.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,1.0,0.0,0.0,Johnson July Free Goods
+Cottage Grove,1030874,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,2.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031034,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,1.0,163.4,163.4,Johnson July Month End
+St. Louis Park,1031034,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,1.0,163.4,163.4,Johnson July Month End
+Cottage Grove,1030874,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031034,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,1.0,37.0,37.0,Johnson July Month End
+St. Louis Park,1031034,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,1.0,37.0,37.0,Johnson July Month End
+St. Louis Park,1031033,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031034,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,Johnson July Month End
+St. Louis Park,1031034,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,1.0,125.95,125.95,Johnson July Month End
+St. Louis Park,1031034,811538016162,Bushmills Irish Whiskey 750ml,4903,12,1.0,216.0,216.0,Johnson July Month End
+St. Louis Park,1031034,811751020489,Stolichnaya Vanilla Vodka Liter,000075838,12,1.0,215.91,215.91,Johnson July Month End
+St. Louis Park,1031034,818844026335,400 Conejos Anejo 750ml,1789381,6,1.0,238.5,238.5,Johnson July Month End
+St. Louis Park,1031033,850003799179,Tip Top Margarita 100ml,1800859,24,2.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031034,850003799193,Tip Top Bees Knees 100ml,1802824,24,3.0,84.0,0.0,Johnson July Month End
+St. Louis Park,1031034,850003799445,Tip Top Espresso Martini 100ml,1537333,24,1.0,84.0,0.0,Johnson July Month End
+St. Louis Park,1031034,850003799865,Tip Top Cosmo 100ml,1188986,24,2.0,84.0,0.0,Johnson July Month End
+Minneapolis,1030899,856724006015,Casamigos Anejo 750ml,25863,6,1.0,252.0,0.0,Diageo July Month End
+Cottage Grove,1030869,856724006121,Casamigos Blanco Tequila 375ml,1816739,12,1.0,201.5,201.5,Diageo July Month End
+Minneapolis,1030899,856724006121,Casamigos Blanco Tequila 375ml,1816739,12,1.0,201.5,201.5,Diageo July Month End
+Minneapolis,1030899,856724006138,Casamigos Blanco 50ml,1424243,60,1.0,178.0,178.0,Diageo July Month End
+Minneapolis,1030899,856724006145,Casamigos Blanco 1.75L,1996056,3,1.0,216.0,216.0,Diageo July Month End
+Cottage Grove,1030869,856724006206,Casamigos Reposado Tequila Liter,1209141,6,1.0,275.0,275.0,Diageo July Month End
+Minneapolis,1030899,856724006206,Casamigos Reposado Tequila Liter,1209141,6,1.0,275.0,275.0,Diageo July Month End
+Minneapolis,1030899,856724006220,Casamigos Reposado 375ml,1674992,12,1.0,218.25,218.25,Diageo July Month End
+Cottage Grove,1030874,860199002618,Gray Duck 1.75L,001650657,6,2.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,860199002618,Gray Duck 1.75L,001650657,6,2.0,0.0,0.0,Johnson July Free Goods
+Cottage Grove,1030874,861602000412,Gray Whale Gin 750ml,001943038,6,1.0,0.0,0.0,Johnson July Free Goods
+St. Louis Park,1031033,861602000412,Gray Whale Gin 750ml,001943038,6,1.0,0.0,0.0,Johnson July Free Goods
