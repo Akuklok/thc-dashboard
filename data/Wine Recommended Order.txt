@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    109,822
   Coverable by transfer .......  $     52,007   (47%)
-  NET BUY from vendors ........  $    181,515   <- the order
+  NET BUY from vendors ........  $    181,929   <- the order
 
-  114 items   |   18,050 units to buy   |   6,294 units to rebalance
+  120 items   |   18,092 units to buy   |   6,294 units to rebalance
   Transfers: 674 moves  -  550 urgent (209 stockouts, 341 under 2wk), 124 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 70 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 75 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Primo Amore Moscato 750ml            12u/1cs          $112      7     0   1.6
   19  Yes Way Rose 750ml                   240u/20cs      $1,900    211    18   1.7
   20  90+ Cellars Prosecco Rose (single)   24u/1cs            $0     54    23   1.7
-  ...and 94 more in the full list.
+  ...and 100 more in the full list.
 
-  NEEDS REVIEW (70 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (75 items the system isn't fully sure about - check before ordering):
     Atomic Boss POG Hard Punch 500ml          No cost data - verify price; Margin over 95% - check retail
     LaMarca Prosecco 187ml                    Buy-month stock-up ($381 to next deal) - confirm
     Urogallo Fanferria Red                    No cost data - verify price; Margin over 95% - check retail
@@ -52,7 +52,7 @@
     Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
     Barefoot Pinot Grigio 750ml               Buy-month stock-up ($1,659 to next deal) - confirm
     Apothic Red 750ml                         Buy-month stock-up ($1,314 to next deal) - confirm
-    ...and 55 more (see Needs Review tab).
+    ...and 60 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (9 discontinued items still selling/low - run down stock):
     Cavit Riesling 1.5L                         (would have bought 6u)
