@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    279,835
   Coverable by transfer .......  $     92,975   (33%)
-  NET BUY from vendors ........  $    215,867   <- the order
+  NET BUY from vendors ........  $    216,345   <- the order
 
-  210 items   |   17,001 units to buy   |   19,464 units to rebalance
+  212 items   |   17,031 units to buy   |   19,464 units to rebalance
   Transfers: 972 moves  -  770 urgent (338 stockouts, 432 under 2wk), 202 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 131 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 133 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Campo Bravo Plata 50ml               936u/13cs        $650   1135   223   1.2
   19  Lunazul Reposado Tequila Liter       432u/36cs      $6,615    457    30   1.3
   20  Bacardi Limon Rum 1.75L              234u/39cs      $4,014    239     6   1.3
-  ...and 190 more in the full list.
+  ...and 192 more in the full list.
 
-  NEEDS REVIEW (131 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (133 items the system isn't fully sure about - check before ordering):
     Midleton Very Rare 750ml                  Buy-month stock-up ($1,029 to next deal) - confirm
     Dapper Baron's Espresso Martini 750ml     No cost data - verify price; Margin over 95% - check retail
     Blackheart Spiced Rum 750ml               Buy-month stock-up ($118 to next deal) - confirm
@@ -52,10 +52,11 @@
     Flying Dutchman Gin 750ml                 Off buy-month - confirm timing
     Il Tramonto Lemoncello 750ml              Seasonal - last year ~18/wk vs 12 now, buy ahead?
     Svedka Vodka 100pf 1.75L                  Buy-month stock-up ($3,422 to next deal) - confirm
-    ...and 116 more (see Needs Review tab).
+    ...and 118 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (59 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (60 discontinued items still selling/low - run down stock):
     Bacardi Limitada Rum 750ml                  (would have bought 6u)
+    Bailey's Irish Cream Liter                  (would have bought 12u)
     Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 12u)
     Buzzballz Biggies Tequila 'Rita 1.75L       (would have bought 15u)
     Captain Morgan Silver Rum 1.75L             (would have bought 6u)
@@ -69,8 +70,7 @@
     Fireball 50ml Trick or Treat Bags           (would have bought 10u)
     Grey Goose Strawberry & Lemongrass Vodka L  (would have bought 6u)
     Hendrick's Gin Liter                        (would have bought 12u)
-    Hennessy VS Cognac 750ml                    (would have bought 60u)
-    ...and 44 more (see Being Removed tab).
+    ...and 45 more (see Being Removed tab).
 
   WAIT FOR BUY-MONTH (5 routine deal items out of their buy month - $3,436 cheaper to buy in-month):
     Angel's Envy Bourbon 750ml                  Wait for buy-month (Feb, May, Jul, Sep, Nov)
