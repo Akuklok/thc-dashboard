@@ -1,54 +1,57 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Monday, Aug 03, 2026
+  RECOMMENDED OTHER ORDER          Tuesday, Aug 04, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     27,839
-  Coverable by transfer .......  $     11,938   (43%)
-  NET BUY from vendors ........  $     11,843   <- the order
+  Gross need (all stores) .....  $     26,298
+  Coverable by transfer .......  $     11,990   (46%)
+  NET BUY from vendors ........  $     10,413   <- the order
 
-  50 items   |   5,115 units to buy   |   3,065 units to rebalance
-  Transfers: 278 moves  -  234 urgent (89 stockouts, 145 under 2wk), 44 routine
+  50 items   |   4,512 units to buy   |   3,053 units to rebalance
+  Transfers: 275 moves  -  232 urgent (91 stockouts, 141 under 2wk), 43 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           10u/10cs           $0     10     0   OUT
-   2  Gatorlyte Zero Fruit Punch 20oz      12u/1cs           $22     14     0   OUT
-   3  Velo Peppermint 9mg                  35u/7cs          $294     35     0   OUT
-   4  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
-   5  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
-   6  Mr & Mrs T Pina Colada 1.75L         6u/1cs            $32      4     0   OUT
-   7  Black & Mild (1 Extra)               1u/1cs             $0      1     0   OUT
-   8  Kolder Can Cooler                    2u/2cs             $3      2     0   OUT
-   9  La Croix Lemon 8pk 12oz can          3u/3cs            $13      3     0   OUT
-  10  Black & Mild Royale B1G1             1u/1cs             $0      1     0   OUT
-  11  Bag Fee                              9u/9cs             $0      9     0   OUT
-  12  Plastic Cups 16oz                    1u/1cs             $4      1     0   OUT
-  13  Pepsi Diet 12oz can                  1u/1cs            $18      1     0   OUT
-  14  Tip Item                             240u/240cs         $0    240     0   OUT
-  15  MN Ice Shard                         44u/44cs         $250     44     0   0.3
-  16  Celsius Artic Vibe 12oz can          12u/1cs           $20     20     7   0.3
+   2  Black & Mild Wood Tip B1G1           3u/3cs             $0      3     0   OUT
+   3  Gatorlyte Zero Fruit Punch 20oz      12u/1cs           $22     13     0   OUT
+   4  Velo Peppermint 9mg                  35u/7cs          $294     35     0   OUT
+   5  MN Ice Shard                         42u/42cs         $239     42     0   OUT
+   6  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
+   7  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
+   8  Black & Mild (1 Extra)               1u/1cs             $0      1     0   OUT
+   9  Kolder Can Cooler                    2u/2cs             $3      2     0   OUT
+  10  La Croix Lemon 8pk 12oz can          3u/3cs            $13      3     0   OUT
+  11  Black & Mild Royale B1G1             1u/1cs             $0      1     0   OUT
+  12  Bag Fee                              8u/8cs             $0      8     0   OUT
+  13  Plastic Cups 16oz                    1u/1cs             $4      1     0   OUT
+  14  Pepsi Diet 12oz can                  1u/1cs            $18      1     0   OUT
+  15  Tip Item                             236u/236cs         $0    236     0   OUT
+  16  Celsius Artic Vibe 12oz can          12u/1cs           $20     18     7   0.2
   17  Syx Wintergreen 20mg                 10u/2cs           $71      9     0   0.4
-  18  MN Ice Big Bag                       1761u/1761cs   $6,114   1842    81   0.5
+  18  Velo Pouch 9mg Wintergreen           30u/6cs          $252     31     0   0.5
   19  Gatorade Gatorlyte Pineapple Mango   20u/20cs          $25     20     0   0.5
-  20  Velo Pouch 9mg Wintergreen           30u/6cs          $252     30     0   0.6
+  20  MN Ice Big Bag                       1462u/1462cs   $5,076   1556    94   0.6
   ...and 30 more in the full list.
 
-  NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~9/wk vs 2 now, buy ahead?
+    Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Black & Mild (1 Extra)                    No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~179/wk vs 2 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~182/wk vs 2 now, buy ahead?
     Pepsi Diet 12oz can                       Margin looks off - check retail/cost
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Big Bag                            Large buy ($6,114) - confirm
+    MN Ice Big Bag                            Large buy ($5,076) - confirm
     Swisher Sweets Cigarillo                  No cost data - verify price; Margin over 95% - check retail
-    Gosling's Diet Ginger Beer 6pk 12oz can   Seasonal - last year ~9/wk vs 6 now, buy ahead?
     Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
+    Gosling's Diet Ginger Beer 6pk 12oz can   Seasonal - last year ~9/wk vs 6 now, buy ahead?
+    Gosling's Ginger Beer 6pk 12oz can        Seasonal - last year ~15/wk vs 6 now, buy ahead?
 
-  BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
-    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 9u)
+  BEING REMOVED - DO NOT REORDER (3 discontinued items still selling/low - run down stock):
+    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 12u)
     Fever Tree Light Tonic Water 8pk 5oz can    (would have bought 42u)
+    Fever Tree Tonic Water 8pk 5oz can          (would have bought 18u)
