@@ -1,14 +1,14 @@
 upc,kind,target_wos,week,item
-860272001484,weekly,4.5,2026-08-06,The Finnish Long Drink Cranberry 6pk 12oz can
-860272001446,weekly,4.5,2026-08-06,The Finnish Long Drink Traditional 6pk 12oz can
-635985802464,weekly,4.5,2026-08-06,Mike's Hard Zero Variety 12pk 12oz can
+400000023526,weekly,4.5,2026-08-06,Blackstack Local 755 6 gallon Keg
 088067056963,weekly,4.5,2026-08-06,Schell's Star of the North 750ml
 080432000069,weekly,4.5,2026-08-06,Jameson & Cola 4pk 12oz can
 082000806554,weekly,4.5,2026-08-06,Smirnoff Smash Vodka Soda Variety Pack 8pk 12oz/ D 750ml
 01816820,weekly,4.5,2026-08-06,Budweiser
 018200089985,weekly,4.5,2026-08-06,Bud Light
 01843125,weekly,4.5,2026-08-06,Michelob Golden Light
-400000023526,weekly,4.5,2026-08-06,Blackstack Local 755 6 gallon Keg
+860272001484,weekly,4.5,2026-08-06,The Finnish Long Drink Cranberry 6pk 12oz can
+860272001446,weekly,4.5,2026-08-06,The Finnish Long Drink Traditional 6pk 12oz can
+635985802464,weekly,4.5,2026-08-06,Mike's Hard Zero Variety 12pk 12oz can
 025569195554,weekly,4.5,2026-08-06,Summit Lake Crusher/Winter 12pk 12oz can
 025569191150,weekly,4.5,2026-08-06,Summit Saga Variety 12pk 12oz can
 025569195578,weekly,4.5,2026-08-06,Summit Winter 12pk 12oz can
@@ -16,11 +16,12 @@ upc,kind,target_wos,week,item
 025569121256,weekly,4.5,2026-08-06,Summit Light Lager 4pk 12oz can
 025569142008,weekly,4.5,2026-08-06,Summit Nialas Ambler N/A 6pk 12oz can
 025569241619,weekly,4.5,2026-08-06,Summit Extra Pale Ale 6pk 12oz btl
-025569153561,weekly,4.5,2026-08-06,Summit Winter 4pk 16oz can
 025569120211,weekly,4.5,2026-08-06,Summit Lager 4pk 12oz can
+025569153561,weekly,4.5,2026-08-06,Summit Winter 4pk 16oz can
 025569149229,weekly,4.5,2026-08-06,Summit Nialas IPA 6pk 12oz can
 025569193550,weekly,4.5,2026-08-06,Summit Saga IPA 12pk 12oz can
 025569202436,weekly,4.5,2026-08-06,Summit Twins PILS 12pk 12oz can
+025569191235,weekly,4.5,2026-08-06,Summit Saga Imperial IPA 12pk 12oz can
 022569241663,weekly,4.5,2026-08-06,Summit Extra Pale Ale
 025569013551,weekly,4.5,2026-08-06,Summit Oatmeal Stout 12pk 12oz can
 025569015197,weekly,4.5,2026-08-06,Summit Oatmeal Stout 12oz btl
@@ -39,7 +40,6 @@ upc,kind,target_wos,week,item
 025569191136,weekly,4.5,2026-08-06,Summit Sampler Pack 12pk 12oz can
 025569191167,weekly,4.5,2026-08-06,Summit Goddess Variety 12pk 12oz can
 025569191174,weekly,4.5,2026-08-06,Summit Fireside Box Variety 12pk 12oz can
-025569191235,weekly,4.5,2026-08-06,Summit Saga Imperial IPA 12pk 12oz can
 025569191778,weekly,4.5,2026-08-06,Summit Saga IPA 6pk 12oz btl
 025569191839,weekly,4.5,2026-08-06,Summit Saga IPA 12pk 12oz btl
 025569191990,weekly,4.5,2026-08-06,Summit Saga Hazy IPA 4pk 16oz can
