@@ -1,65 +1,66 @@
 ==========================================================================
-  RECOMMENDED BEER ORDER          Wednesday, Aug 05, 2026
+  RECOMMENDED BEER ORDER          Thursday, Aug 06, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    415,510
-  Coverable by transfer .......  $    207,828   (50%)
-  NET BUY from vendors ........  $    182,897   <- the order
+  Gross need (all stores) .....  $    427,639
+  Coverable by transfer .......  $    208,297   (49%)
+  NET BUY from vendors ........  $    194,607   <- the order
 
-  540 items   |   16,591 units to buy   |   18,158 units to rebalance
-  Transfers: 1,680 moves  -  1397 urgent (573 stockouts, 824 under 2wk), 283 routine
+  530 items   |   17,087 units to buy   |   18,328 units to rebalance
+  Transfers: 1,678 moves  -  1407 urgent (582 stockouts, 825 under 2wk), 271 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 61 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 63 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Modelo Especial                      1u/1cs             $0      1     0   OUT
-   2  Firestone Walker Cali Squeeze Blood  1u/1cs             $2      1     0   OUT
-   3  Wooden Hill Pixie Catcher            1u/1cs            $10      1     0   OUT
-   4  Miller High Life 24pk 16oz can       7u/7cs           $107      7     0   OUT
-   5  Summit Lake Crusher/Winter 12pk 12o  20u/10cs         $240     14    11   OUT
-   6  Busch 24pk 12oz btl                  1u/1cs             $0      1     0   OUT
-   7  Founders All Day IPA Variety 12pk 1  4u/2cs            $57      4     0   OUT
-   8  Schilling Grapefruit and Chill 6pk   2u/2cs            $17      2     0   OUT
-   9  Bent Paddle Light Lager  12pk 12oz   59u/59cs         $690     59     0   OUT
-  10  Summit Saga Variety 12pk 12oz can    80u/40cs       $1,056     63     0   OUT
-  11  Miller High Life Light 24pk 16oz ca  2u/2cs            $17      2     0   OUT
-  12  Downeast Blackberry 6pk 12oz can     4u/1cs            $37      4     0   OUT
-  13  Wooden Hill Kold Shoulder            6u/6cs            $45      6     0   OUT
-  14  Summit Sampler Pack 12pk 12oz can    56u/28cs         $739     44    21   OUT
-  15  Cutwater Grapefruit Tequila Paloma   48u/2cs            $0     57     0   OUT
-  16  Fulton Brewing Chill City 6pk 12oz   3u/3cs            $16      3     0   OUT
-  17  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
-  18  Toppling Goliath Hazy Day Sue 6pk 1  28u/7cs          $280     29     0   OUT
-  19  Lagunitas Hazy IPA 12pk 12oz can     42u/21cs         $504     42     0   OUT
-  20  Downeast Blackberry 6 Gallon         1u/1cs            $90      1     0   OUT
-  ...and 520 more in the full list.
+   2  Miller High Life 24pk 16oz can       7u/7cs           $107      7     0   OUT
+   3  Firestone Walker Cali Squeeze Blood  1u/1cs             $2      1     0   OUT
+   4  Busch 24pk 12oz btl                  1u/1cs             $0      1     0   OUT
+   5  Summit Lake Crusher/Winter 12pk 12o  24u/12cs         $287     15    12   OUT
+   6  Founders All Day IPA Variety 12pk 1  4u/2cs            $57      4     0   OUT
+   7  Schilling Grapefruit and Chill 6pk   2u/2cs            $17      2     0   OUT
+   8  Bent Paddle Light Lager  12pk 12oz   60u/60cs         $702     60     0   OUT
+   9  Summit Saga Variety 12pk 12oz can    82u/41cs       $1,082     65     0   OUT
+  10  Miller High Life Light 24pk 16oz ca  2u/2cs            $17      2     0   OUT
+  11  Downeast Blackberry 6pk 12oz can     4u/1cs            $37      4     0   OUT
+  12  Wooden Hill Kold Shoulder            6u/6cs            $45      6     0   OUT
+  13  Summit Sampler Pack 12pk 12oz can    56u/28cs         $739     44    21   OUT
+  14  Wooden Hill Pixie Catcher            2u/2cs            $20      2     0   OUT
+  15  Cutwater Grapefruit Tequila Paloma   48u/2cs            $0     59     0   OUT
+  16  Lagunitas Hazy IPA 12pk 12oz can     40u/20cs         $480     41     0   OUT
+  17  Downeast Overboard Mix Pack 9pk 12o  2u/1cs            $29      2     0   OUT
+  18  Fulton Brewing Chill City 6pk 12oz   3u/3cs            $16      3     0   OUT
+  19  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
+  20  Toppling Goliath Hazy Day Sue 6pk 1  28u/7cs          $280     29     0   OUT
+  ...and 510 more in the full list.
 
-  NEEDS REVIEW (61 items the system isn't fully sure about - check before ordering):
-    Summit Lake Crusher/Winter 12pk 12oz can  Seasonal - last year ~32/wk vs 4 now, buy ahead?
+  NEEDS REVIEW (63 items the system isn't fully sure about - check before ordering):
     Busch 24pk 12oz btl                       No cost data - verify price; Margin over 95% - check retail
+    Summit Lake Crusher/Winter 12pk 12oz can  Seasonal - last year ~32/wk vs 5 now, buy ahead?
+    Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~19/wk vs 12 now, buy ahead?
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
-    Downeast Overboard Mix Pack 9pk 12oz can  Seasonal - last year ~9/wk vs 1 now, buy ahead?
+    Downeast Overboard Mix Pack 9pk 12oz can  Seasonal - last year ~9/wk vs 0 now, buy ahead?
     Earth Rider 6pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
     Tucher Helles Lager                       No cost data - verify price; Margin over 95% - check retail
     Modist Supra Deluxe Sea Salt Lime 16oz c  No cost data - verify price; Margin over 95% - check retail
     New Belgium Juicy Haze IPA 6pk 12oz can   Seasonal - last year ~3/wk vs 2 now, buy ahead?
-    Mystery Beer 24pk                         Seasonal - last year ~630/wk vs 102 now, buy ahead?
     Stilly Vibe Machine (Grapefruit) 6pk 12o  Seasonal - last year ~4/wk vs 2 now, buy ahead?
-    Guinness Extra Stout 6pk 11oz btl         Seasonal - last year ~24/wk vs 15 now, buy ahead?
     Bells Hazy Hearted 16 gal keg             No cost data - verify price; Margin over 95% - check retail
     Loon Juice Honeycrisp Haze 12pk 12oz can  No cost data - verify price; Margin over 95% - check retail
     Cayman Jack Margarita                     No cost data - verify price; Margin over 95% - check retail
-    Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
-    ...and 46 more (see Needs Review tab).
+    Guinness Extra Stout 6pk 11oz btl         Seasonal - last year ~24/wk vs 15 now, buy ahead?
+    Mystery Beer 24pk                         Seasonal - last year ~634/wk vs 104 now, buy ahead?
+    ...and 48 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (8 discontinued items still selling/low - run down stock):
-    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 24u)
-    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 8u)
-    Heineken 0.0 NA 12pk 12oz can               (would have bought 32u)
-    Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 3u)
+  BEING REMOVED - DO NOT REORDER (9 discontinued items still selling/low - run down stock):
+    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 32u)
+    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 16u)
+    Beatbox Fruit Punch  500ml                  (would have bought 12u)
+    Heineken 0.0 NA 12pk 12oz can               (would have bought 24u)
+    Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 5u)
     Liqs Whiskey Fireshot                       (would have bought 1u)
-    Monaco Tequila Lime Crush 12oz can          (would have bought 36u)
-    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 8u)
-    The Finnish Long Drink Traditional 6pk 12o  (would have bought 12u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 24u)
+    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 4u)
+    The Finnish Long Drink Traditional 6pk 12o  (would have bought 8u)
