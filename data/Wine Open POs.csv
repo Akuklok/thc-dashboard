@@ -3,7 +3,6 @@ Receiving,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,10316
 Receiving,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1031635,Receiving,7.0,,,Miscellaneous,Accessories,,,2026-08-03T00:00:00
 Receiving,842094182374,"True Party: 2.5 oz Jello Shot Cups with Lids, set of 25","True Brands, Inc.",Minneapolis,1031635,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-03T00:00:00
 Receiving,876718030420,"16 oz Red Party Cups, 24 pack by True","True Brands, Inc.",Minneapolis,1031635,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-03T00:00:00
-Receiving,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Cottage Grove,1031617,Receiving,1.0,,,Wine,Cabernet,,,2026-08-03T00:00:00
 Receiving,695235000019,Fat Bastard Chardonnay 750ml,"Grape Beginnings, Inc.",Roseville,1031684,Receiving,1.0,,,Wine,Chardonnay,,,2026-08-03T00:00:00
 Receiving,853936007984,Papi White Peach Sangria 750ml,Paustis Wine,Minneapolis,1031189-8.3.26,Receiving,1.0,,,Wine,Flavored,Buyer's Select,,2026-07-27T00:00:00
 Receiving,835603005493,Tozai Plum Blossom of the Peace 720ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1031728,Receiving,1.0,,,Wine,Fortified,,,2026-08-03T00:00:00
@@ -377,7 +376,7 @@ Discrepancy,086003904064,Robert Mondavi PS Heritage Red 750ml,Southern Glazer's 
 Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1031613,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,BO,2026-08-03T00:00:00
 Discrepancy,742651123102,Ferrari Carano Fume Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1031613,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,BO,2026-08-03T00:00:00
 Discrepancy,082242016056,Bota Box Redvolution 3L Box,Phillips Wine & Spirits - St. Paul,Cottage Grove,1031616,Inventory Received,2.0,0.0,-2.0,Wine,Red Blends,Free Goods,MI,2026-08-03T00:00:00
-Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Cottage Grove,1031617,Receiving,1.0,,,Wine,Cabernet,,,2026-08-03T00:00:00
+Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Cottage Grove,1031617,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-08-03T00:00:00
 Discrepancy,031259032863,Yellow Tail Moscato 1.5L,Phillips Wine & Spirits - St. Paul,Cottage Grove,1031620,Inventory Received,1.0,0.0,-1.0,Wine,Moscato,,BO,2026-08-03T00:00:00
 Discrepancy,083120100690,Franzia Chillable Red 5L Box,Southern Glazer's Wine & Spirits of MN,Cottage Grove,1031621,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,BO,2026-08-03T00:00:00
 Discrepancy,083120102090,Franzia Chardonnay 5L Box,Southern Glazer's Wine & Spirits of MN,Cottage Grove,1031621,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,BO,2026-08-03T00:00:00
