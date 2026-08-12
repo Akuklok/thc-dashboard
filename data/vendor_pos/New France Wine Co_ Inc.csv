@@ -1,7 +1,9 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1031687,400000025674,Kobal NV Sparkling Rose 750ml,KobalSparklingRose,12,1.0,168.0,168.0,
-Woodbury,1031739,400000025674,Kobal NV Sparkling Rose 750ml,KobalSparklingRose,12,1.0,168.0,168.0,
-Blaine,1031582,815102000526,Dom Daulny Sancerre,DaulnySancerre22,12,1.0,256.0,256.0,
-Roseville,1031687,815102000526,Dom Daulny Sancerre,DaulnySancerre22,12,1.0,256.0,256.0,
-Blaine,1031803,852955008132,Lokal Blood Orange Vodka Liter,LokalBloodOrangeVodka,12,1.0,126.0,126.0,Store Request
-Minnetonka,1031843,856146006365,Paladar Tequila Blanco 750ml,PaladarBlanco750,6,1.0,234.0,195.0,
+Roseville,1032275,3113946203781,Billecart-Salmon 2018 Independence Anniversary Cuvee 750ml,BillecartAnniversary18,12,0.5,1022.4,511.2,Allocation
+Roseville,1032280,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,1.0,144.0,144.0,
+Osseo,1032087,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Vadnais Heights,1032147,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
+Woodbury,1032155,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
+Roseville,1032120,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
+Blaine,1032034,852955008125,Lokal Vodka 1.75L,LokalVodka1.75,6,1.0,108.0,108.0,
+Blaine,1032034,860013231330,Revel Avila Cuernavaca 12oz can,RevelCuernavaca,24,1.0,112.0,112.0,

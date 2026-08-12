@@ -1,48 +1,5 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Woodbury,1031350,052392122075,Winehaven Cranberry Wine,12124,12,1.0,128.0,128.0,Month End
-Woodbury,1031350,052392122082,Winehaven Strawberry Rhubarb,12854,12,1.0,128.0,128.0,Month End
-St. Louis Park,1031303,052392122761,Winehaven Raspberry Wine,11627,12,1.0,128.0,128.0,Month End
-Woodbury,1031350,052392122877,Winehaven Deer Garden Red,12114,12,1.0,183.0,183.0,Month End
-St. Louis Park,1031303,089475501014,Cantina Zaccagnini Montepulciano d'Abruz,11969,12,1.0,160.0,160.0,Month End
-St. Louis Park,1031303,637411000819,Giesen Zero Sauv Blanc N/A 750ml,2927,12,1.0,112.0,112.0,Month End
-St. Louis Park,1031303,652935100333,MD Freakshow Cab Sauv 750ml,14261,12,1.0,144.0,144.0,Month End
-St. Louis Park,1031303,730429950012,True Myth Chardonnay 750ml,1753,12,1.0,120.0,120.0,Month End
-St. Louis Park,1031303,739949010404,Gazela Vinho Verde,10259,12,1.0,64.0,64.0,Month End
-Woodbury,1031350,739949010404,Gazela Vinho Verde,10259,12,1.0,64.0,64.0,Month End
-St. Louis Park,1031303,739949050486,Silk & Spice Silk Route 750ml,2441,12,1.0,103.0,103.0,Month End
-Vadnais Heights,1031335,739949050486,Silk & Spice Silk Route 750ml,2441,12,1.0,103.0,103.0,Month End
-Vadnais Heights,1031335,763955010004,XXL Blackberry 750ml,2756,12,1.0,80.0,80.0,Month End
-Woodbury,1031350,763955013005,XXL Mango 750ml,2753,12,1.0,80.0,80.0,Month End
-St. Louis Park,1031303,810022274200,Kris Pinot Grigio 750ml,2541,12,1.0,111.0,111.0,Month End
-Vadnais Heights,1031327,818051020744,Bread & Butter Cab Sauv 750ml,1241,12,1.0,0.0,0.0,Free Goods
-Vadnais Heights,1031335,818051021956,Bread & Butter Sauvignon Blanc 750ml,1642,12,1.0,112.0,112.0,Month End
-St. Louis Park,1031303,848375002775,Provisions Pinot Grigio 3L Box,2083,4,1.0,52.0,52.0,Month End
-St. Louis Park,1031303,848375005745,Provisions Sauv Blanc Box,2167,4,1.0,52.0,52.0,Month End
-Vadnais Heights,1031324,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
-Woodbury,1031340,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
-Vadnais Heights,1031324,850061597045,Papi Mango 750ml,2817,12,1.0,52.84,52.84,Buyer's Select
-Vadnais Heights,1031324,850061597069,Papi Peach 750ml,2816,12,1.0,52.84,52.84,Buyer's Select
-Vadnais Heights,1031324,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
-Woodbury,1031340,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
-St. Louis Park,1031292,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
-Vadnais Heights,1031324,850061597120,Papi Sweet Red 750ml,2814,12,3.0,52.84,158.52,Buyer's Select
-Woodbury,1031340,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
-Vadnais Heights,1031327,850832004277,Bread & Butter Pinot Noir 750ml,15569,12,1.0,0.0,0.0,Free Goods
-St. Louis Park,1031292,853936007687,Papi Chardonnay 750ml,2798,12,1.0,52.84,52.84,Buyer's Select
-St. Louis Park,1031292,853936007700,Papi Red Blend 750ml,2805,12,3.0,52.84,158.52,Buyer's Select
-Vadnais Heights,1031324,853936007700,Papi Red Blend 750ml,2805,12,1.0,52.84,52.84,Buyer's Select
-Woodbury,1031340,853936007700,Papi Red Blend 750ml,2805,12,2.0,52.84,105.68,Buyer's Select
-Woodbury,1031340,853936007984,Papi White Peach Sangria 750ml,2812,12,1.0,45.84,45.84,Buyer's Select
-Vadnais Heights,1031335,858822006409,Pandora's Box Malbec 3L Box,2582,4,1.0,53.0,53.0,Month End
-St. Louis Park,1031292,858962004099,Papi Pinot Grigio 750ml,2803,12,7.0,52.84,369.88,Buyer's Select
-Vadnais Heights,1031324,858962004099,Papi Pinot Grigio 750ml,2803,12,1.0,52.84,52.84,Buyer's Select
-Woodbury,1031340,858962004099,Papi Pinot Grigio 750ml,2803,12,4.0,52.84,211.36,Buyer's Select
-St. Louis Park,1031292,858962004136,Papi Pinot Noir 750ml,2804,12,5.0,52.84,264.2,Buyer's Select
-Woodbury,1031340,858962004136,Papi Pinot Noir 750ml,2804,12,1.0,52.84,52.84,Buyer's Select
-St. Louis Park,1031292,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
-Vadnais Heights,1031324,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,2.0,52.84,105.68,Buyer's Select
-Woodbury,1031340,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,3.0,52.84,158.52,Buyer's Select
-St. Louis Park,1031292,893828001010,Papi Sauvignon Blanc 750ml,2807,12,7.0,52.84,369.88,Buyer's Select
-Vadnais Heights,1031324,893828001010,Papi Sauvignon Blanc 750ml,2807,12,1.0,52.84,52.84,Buyer's Select
-Woodbury,1031340,893828001010,Papi Sauvignon Blanc 750ml,2807,12,3.0,52.84,158.52,Buyer's Select
-Vadnais Heights,1031324,893828001867,Papi Red Original Sangria 750ml,2810,12,1.0,45.84,45.84,Buyer's Select
+Cottage Grove,1032219,083837006261,Castle Rock Cuvee Pinot Noir 750ml,13396,12,1.0,79.0,79.0,
+Chanhassen,1032209,400000014296,Libretto Pinot Gris 750ml,3010,12,1.0,54.84,54.84,
+Vadnais Heights,1032317,730429950012,True Myth Chardonnay 750ml,1753,12,1.0,120.0,120.0,
+Bloomington,1032200,763955016006,XXL Strawberry 750ml,2749,12,1.0,80.0,80.0,
