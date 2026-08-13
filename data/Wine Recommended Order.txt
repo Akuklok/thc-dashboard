@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    114,075
   Coverable by transfer .......  $     52,530   (46%)
-  NET BUY from vendors ........  $    166,843   <- the order
+  NET BUY from vendors ........  $    167,676   <- the order
 
-  118 items   |   17,100 units to buy   |   6,472 units to rebalance
+  118 items   |   17,208 units to buy   |   6,472 units to rebalance
   Transfers: 705 moves  -  565 urgent (191 stockouts, 374 under 2wk), 140 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 77 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 76 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -36,7 +36,7 @@
   20  Quilt Reserve Cabernet Sauvignon 75  18u/3cs        $1,295      1     0   2.1
   ...and 98 more in the full list.
 
-  NEEDS REVIEW (77 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (76 items the system isn't fully sure about - check before ordering):
     LaMarca Prosecco 187ml                    Buy-month stock-up ($476 to next deal) - confirm
     90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
     Atomic Boss POG Hard Punch 500ml          Margin looks off - check retail/cost
@@ -52,11 +52,12 @@
     LaMarca Prosecco 750ml                    Large buy ($38,444) - confirm; Buy-month stock-up ($38,444 to next deal) - confirm
     Apothic Red 750ml                         Buy-month stock-up ($1,318 to next deal) - confirm
     LaMarca Prosecco 3 Pack 187ml             Large buy ($5,385) - confirm; Buy-month stock-up ($5,385 to next deal) - confirm
-    ...and 62 more (see Needs Review tab).
+    ...and 61 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (10 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (11 discontinued items still selling/low - run down stock):
     Cavit Riesling 1.5L                         (would have bought 6u)
     Craggy Range Sauvignon Blanc 750ml          (would have bought 12u)
+    Daou Cabernet Sauvignon 750ml               (would have bought 12u)
     Franzia Chardonnay 5L Box                   (would have bought 48u)
     Franzia Crisp White 5L Box                  (would have bought 24u)
     Franzia Pinot Grigio 5L Box                 (would have bought 40u)
