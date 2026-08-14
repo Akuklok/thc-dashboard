@@ -1,80 +1,75 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Thursday, Aug 13, 2026
+  RECOMMENDED WINE ORDER          Friday, Aug 14, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    114,075
-  Coverable by transfer .......  $     52,530   (46%)
-  NET BUY from vendors ........  $    167,676   <- the order
+  Gross need (all stores) .....  $    103,373
+  Coverable by transfer .......  $     48,366   (47%)
+  NET BUY from vendors ........  $    167,843   <- the order
 
-  118 items   |   17,208 units to buy   |   6,472 units to rebalance
-  Transfers: 705 moves  -  565 urgent (191 stockouts, 374 under 2wk), 140 routine
+  113 items   |   17,136 units to buy   |   6,047 units to rebalance
+  Transfers: 656 moves  -  501 urgent (137 stockouts, 364 under 2wk), 155 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 76 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 74 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Amami Shochu Kokuto Shochu Selephan  1u/1cs            $43      1     0   OUT
-   2  90+ Cellars DOC Prosecco Lot 50 (si  240u/10cs        $648    251     0   OUT
-   3  LaMarca Prosecco 187ml               120u/5cs         $476     17     0   OUT
-   4  Cooks Brut 187ml                     6u/1cs            $47      7     0   OUT
+   2  90+ Cellars DOC Prosecco Lot 50 (si  240u/10cs        $648    246     0   OUT
+   3  90+ Cellars Prosecco Rose (single)   72u/3cs          $222     80     0   OUT
+   4  LaMarca Prosecco 187ml               120u/5cs         $476     18     0   OUT
    5  Ch Belle-Vue La Rennaissance         1u/1cs            $28      1     0   OUT
    6  CYT Marques de Casa Cab Sauv 750ml   1u/1cs             $8      1     0   OUT
    7  Statera WV "Est" Pinot Noir 750ml    1u/1cs            $22      1     0   OUT
    8  Yes I Can Sparkling Riesling 375ml   2u/2cs             $4      2     0   OUT
    9  Fowler Wine Meritage Red Blend/ D    1u/1cs            $16      1     0   OUT
   10  Penfolds Club Port                   1u/1cs            $10      1     0   OUT
-  11  90+ Cellars Prosecco Rose (single)   48u/2cs            $0     78    24   0.2
+  11  Da Vinci Pinot Grigio 750ml          12u/1cs          $112      8     0   0.4
   12  Sutter Home Sweet Red 187ml          6u/1cs            $30      4     0   0.9
-  13  Gallo Merlot 1.5L                    18u/3cs          $121     20     0   1.0
-  14  Barefoot Pinot Noir 250ml            24u/4cs          $144     21     0   1.0
-  15  Atomic Boss POG Hard Punch 500ml     36u/3cs           $96     36     0   1.0
-  16  Bota Box Pinot Noir 500ml            12u/1cs           $40      8     0   1.3
-  17  Sutter Home Pinot Grigio 187ml       90u/15cs         $448     95     4   1.9
-  18  Bota Box Sauvignon Blanc 3L Box      141u/47cs      $2,068    141     0   2.1
-  19  Bota Box Pinot Grigio 3L Box         123u/41cs      $2,215    123     0   2.1
-  20  Quilt Reserve Cabernet Sauvignon 75  18u/3cs        $1,295      1     0   2.1
-  ...and 98 more in the full list.
+  13  Barefoot Pinot Noir 250ml            24u/4cs          $144     21     0   1.0
+  14  Atomic Boss POG Hard Punch 500ml     36u/3cs           $96     36     0   1.0
+  15  Soon Hari Strawberry Soju 375ml      20u/1cs           $93     13     0   1.7
+  16  Gallo Merlot 1.5L                    12u/2cs           $83     14     0   2.1
+  17  Quilt Reserve Cabernet Sauvignon 75  18u/3cs        $1,295      1     0   2.1
+  18  Sutter Home Pinot Grigio 187ml       72u/12cs         $359     78     4   2.3
+  19  Shania White 3L Box                  6u/2cs            $77     11     4   2.4
+  20  Kim Crawford Sauvignon Blanc 750ml   5172u/431cs   $55,340    704     0   2.6
+  ...and 93 more in the full list.
 
-  NEEDS REVIEW (76 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (74 items the system isn't fully sure about - check before ordering):
     LaMarca Prosecco 187ml                    Buy-month stock-up ($476 to next deal) - confirm
-    90+ Cellars Prosecco Rose (single) 187ml  No cost data - verify price; Margin over 95% - check retail
     Atomic Boss POG Hard Punch 500ml          Margin looks off - check retail/cost
-    Bota Box Pinot Noir 500ml                 Seasonal - last year ~4/wk vs 2 now, buy ahead?
+    Soon Hari Strawberry Soju 375ml           Off buy-month - confirm timing
     Quilt Reserve Cabernet Sauvignon 750ml    Buy-month stock-up ($1,295 to next deal) - confirm
-    Kim Crawford Sauvignon Blanc 750ml        Large buy ($55,084) - confirm; Buy-month stock-up ($55,084 to next deal) - confirm
-    Whitehaven Sauv Blanc 750ml               Large buy ($22,329) - confirm; Buy-month stock-up ($22,329 to next deal) - confirm
-    Underwood Bubbles 355ml                   Buy-month stock-up ($1,486 to next deal) - confirm
-    Pine Ridge Chen Blanc/Viognier 750ml      Buy-month stock-up ($1,550 to next deal) - confirm
+    Kim Crawford Sauvignon Blanc 750ml        Large buy ($55,340) - confirm; Buy-month stock-up ($55,340 to next deal) - confirm
+    Underwood Bubbles 355ml                   Buy-month stock-up ($1,540 to next deal) - confirm
     Josh Cellars Cabernet Sauvignon 750ml     Margin looks off - check retail/cost
-    Underwood Rose Bubbles 375ml              Buy-month stock-up ($415 to next deal) - confirm
-    Barefoot Pinot Grigio 750ml               Buy-month stock-up ($1,763 to next deal) - confirm
-    LaMarca Prosecco 750ml                    Large buy ($38,444) - confirm; Buy-month stock-up ($38,444 to next deal) - confirm
-    Apothic Red 750ml                         Buy-month stock-up ($1,318 to next deal) - confirm
-    LaMarca Prosecco 3 Pack 187ml             Large buy ($5,385) - confirm; Buy-month stock-up ($5,385 to next deal) - confirm
-    ...and 61 more (see Needs Review tab).
+    Pine Ridge Chen Blanc/Viognier 750ml      Buy-month stock-up ($1,567 to next deal) - confirm
+    Whitehaven Sauv Blanc 750ml               Large buy ($22,106) - confirm; Buy-month stock-up ($22,106 to next deal) - confirm
+    Underwood Rose Bubbles 375ml              Buy-month stock-up ($414 to next deal) - confirm
+    Apothic Red 750ml                         Buy-month stock-up ($1,576 to next deal) - confirm
+    LaMarca Prosecco 750ml                    Large buy ($39,193) - confirm; Buy-month stock-up ($39,193 to next deal) - confirm
+    Barefoot Pinot Grigio 750ml               Buy-month stock-up ($1,711 to next deal) - confirm
+    LaMarca Prosecco 3 Pack 187ml             Large buy ($5,482) - confirm; Buy-month stock-up ($5,482 to next deal) - confirm
+    Frank Family Cabernet 750ml               Buy-month stock-up ($449 to next deal) - confirm
+    ...and 59 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (11 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (9 discontinued items still selling/low - run down stock):
     Cavit Riesling 1.5L                         (would have bought 6u)
     Craggy Range Sauvignon Blanc 750ml          (would have bought 12u)
     Daou Cabernet Sauvignon 750ml               (would have bought 12u)
-    Franzia Chardonnay 5L Box                   (would have bought 48u)
-    Franzia Crisp White 5L Box                  (would have bought 24u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 40u)
+    Franzia Chardonnay 5L Box                   (would have bought 32u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 32u)
     Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 8u)
     Franzia Sunset Blush 5L Box                 (would have bought 40u)
     Ganbei Baljiu 750ML/ D                      (would have bought 1u)
     Imagery Cabernet Sauvignon 750ml            (would have bought 12u)
-    Moss Roxx Ancient Vine Zinfandel 750ml      (would have bought 2u)
 
-  WAIT FOR BUY-MONTH (10 routine deal items out of their buy month - $12,901 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (7 routine deal items out of their buy month - $10,396 cheaper to buy in-month):
     Black Box Cab Sauv 3L Box                   Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Chardonnay 3L Box                 Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Deep Dark Cabernet 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Pinot Grigio 3L Box               Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Rose 3L Box                       Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Sauvignon Blanc 3L Box            Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
-    Black Box Tart Tangy Sauvignon Blanc 3L Bo  Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     K J Vintner's Chardonnay 750ml              Wait for buy-month (Mar, Jun, Sep, Dec)
     Matua Valley Sauv Blanc 750ml               Wait for buy-month (Mar, May, Jun, Sep, Nov, Dec)
-    Soon Hari Strawberry Soju 375ml             Wait for buy-month (Jun)
