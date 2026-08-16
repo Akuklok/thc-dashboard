@@ -19,8 +19,6 @@ Receiving,089419000160,La Vieille Ferme Rose 3L Box,The Wine Company,Stillwater,
 Receiving,089419000177,La Vieille Ferme Rose 750ml,The Wine Company,Stillwater,1032311,Receiving,1.0,,,Wine,Rose,,,2026-08-10T00:00:00
 Receiving,082100738397,Black Box Sauvignon Blanc 3L Box,Johnson Brothers - St. Paul,Ramsey,1032261,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-08-10T00:00:00
 Receiving,082242012935,Bota Box Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Ramsey,1032263,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-08-10T00:00:00
-Receiving,763955409105,Les Allies Blanc de Blanc 750ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032315,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
-Receiving,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032315,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
 Receiving,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Woodbury,1032329,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
 Receiving,763955409600,Les Allies Brut Rose 187ml 2pk,"Maverick Beverage Co., LLC - MN",Woodbury,1032329,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
 Receiving,813497007809,Luc Belaire Bleu 750ml,Phillips Wine & Spirits - St. Paul,Ramsey,1032263,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-08-10T00:00:00
@@ -462,8 +460,8 @@ Discrepancy,085000020609,Barefoot Pink Moscato 1.5L,Johnson Brothers - St. Paul,
 Discrepancy,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Stillwater,1032307,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
 Discrepancy,089419000160,La Vieille Ferme Rose 3L Box,The Wine Company,Stillwater,1032311,Receiving,1.0,,,Wine,Rose,,,2026-08-10T00:00:00
 Discrepancy,089419000177,La Vieille Ferme Rose 750ml,The Wine Company,Stillwater,1032311,Receiving,1.0,,,Wine,Rose,,,2026-08-10T00:00:00
-Discrepancy,763955409105,Les Allies Blanc de Blanc 750ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032315,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
-Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032315,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
+Discrepancy,763955409105,Les Allies Blanc de Blanc 750ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032315,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-10T00:00:00
+Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032315,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-10T00:00:00
 Discrepancy,032085296559,NBA Can Cooler,Bellboy Corporation,Woodbury,1032322,Inventory Received,2.0,0.0,-2.0,Miscellaneous,Accessories,,MI,2026-08-10T00:00:00
 Discrepancy,081434000316,Black Box Merlot 500ml,Johnson Brothers - St. Paul,Woodbury,1032327,Inventory Received,1.0,0.0,-1.0,Wine,Merlot,,MI,2026-08-10T00:00:00
 Discrepancy,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Woodbury,1032328,Receiving,1.0,,,Wine,Sparkling,,,2026-08-10T00:00:00
