@@ -1,9 +1,7 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1032275,3113946203781,Billecart-Salmon 2018 Independence Anniversary Cuvee 750ml,BillecartAnniversary18,12,0.5,1022.4,511.2,Allocation
-Roseville,1032280,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,1.0,144.0,144.0,
-Osseo,1032087,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
-Vadnais Heights,1032147,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
-Woodbury,1032155,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
-Roseville,1032120,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
-Blaine,1032034,852955008125,Lokal Vodka 1.75L,LokalVodka1.75,6,1.0,108.0,108.0,
-Blaine,1032034,860013231330,Revel Avila Cuernavaca 12oz can,RevelCuernavaca,24,1.0,112.0,112.0,
+Bloomington,PO0000001756,664841102509,BCN Gin Liter,BCNGin,12,1.0,396.0,0.0,
+Bloomington,PO0000001756,7501479700703,Diega Green Gin 750ml,DiegaGreenGin,12,1.0,276.0,0.0,
+Bloomington,PO0000001756,810005380113,Kyro Pink Gin 750ml,KyroPinkGin,6,2.0,162.0,0.0,
+Bloomington,PO0000001756,816136028203,Song Cai Floral Gin 750ml,SongCaiFloral,6,2.0,180.0,0.0,
+Bloomington,PO0000001756,819588015647,"Matsui ""The Hakuto"" Gin 700ml",MatsuiHakutoGin,12,1.0,326.0,0.0,
+Bloomington,PO0000001756,9352487000273,Applewood Gin 750ml,ApplewoodGin,6,2.0,172.0,0.0,
