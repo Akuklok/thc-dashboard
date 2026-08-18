@@ -1,7 +1,14 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Bloomington,PO0000001756,664841102509,BCN Gin Liter,BCNGin,12,1.0,396.0,0.0,
-Bloomington,PO0000001756,7501479700703,Diega Green Gin 750ml,DiegaGreenGin,12,1.0,276.0,0.0,
-Bloomington,PO0000001756,810005380113,Kyro Pink Gin 750ml,KyroPinkGin,6,2.0,162.0,0.0,
-Bloomington,PO0000001756,816136028203,Song Cai Floral Gin 750ml,SongCaiFloral,6,2.0,180.0,0.0,
-Bloomington,PO0000001756,819588015647,"Matsui ""The Hakuto"" Gin 700ml",MatsuiHakutoGin,12,1.0,326.0,0.0,
-Bloomington,PO0000001756,9352487000273,Applewood Gin 750ml,ApplewoodGin,6,2.0,172.0,0.0,
+St. Louis Park,1032712,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Woodbury,1032745,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Plymouth,1032493,198168596999,Revel 88 Avila Reposado Tequila 750ml,RevelReposado,6,1.0,198.0,198.0,
+Roseville,1032703,400000025630,Martin Woods Jessie James Pinot Noir 750ml,MartinWoodsPNJessieJames,12,1.0,528.0,528.0,Store Request
+St. Louis Park,1032712,695798115328,G. D. Vajra Langhe Rosso,VajraRosso23,12,1.0,144.0,144.0,
+Vadnais Heights,1032568,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+St. Louis Park,1032712,815102000526,Dom Daulny Sancerre,DaulnySancerre22,12,1.0,256.0,256.0,
+Ramsey,1032506,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
+Vadnais Heights,1032568,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
+Blaine,1032425,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
+Roseville,1032523,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
+St. Louis Park,1032540,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
+Woodbury,1032572,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
