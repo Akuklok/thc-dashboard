@@ -247,11 +247,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 18341151053,Wine,7.56,,1|3|6|9
 18341151060,Wine,7.56,,1|3|6|9
 18341151107,Wine,7.56,,1|3|6|9
-18341751017,Wine,4.41,,1|4|6|8
-18341751024,Wine,4.41,,1|4|6|8
-18341751055,Wine,4.41,,1|4|6|8
-18341751062,Wine,4.41,,1|4|6|8
-18341751109,Wine,4.41,,1|4|6|8
+18341751017,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+18341751024,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+18341751055,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+18341751062,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+18341751109,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 18341751253,Wine,7.42,,
 18341751260,Wine,7.42,,
 183491000046,Wine,8.67,,
@@ -617,7 +617,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 3536650801003,Wine,24.79,,
 3554875110700,Spirits,63.08,,
 3557862030005,Wine,48.79,,
-3559621710333,Spirits,22.0,,
+3559621710333,Spirits,22.17,,
 3559631710319,Spirits,33.0,,
 358329052027,Wine,17.88,,
 3591440002039,Wine,28.29,,
@@ -751,7 +751,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 400000001326,Wine,235.18,,
 400000001388,Wine,27.12,,
 400000001999,Spirits,70.96,,
-400000002187,Wine,5.77,,
+400000002187,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
 400000002590,Wine,15.21,,
 400000002705,Wine,9.5,,
 400000002835,Spirits,9.83,8.77 as of 1st purchase,
@@ -1085,9 +1085,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 50200003486,Spirits,13.33,1 on 5 solid Variety 8pk,
 50200003578,Spirits,6.95,1 on 5 solid 4pk,
 50200006050,Spirits,13.33,1 on 5 solid Variety 8pk,
-5021692117833,Spirits,22.25,Case 1,
+5021692117833,Spirits,19.92,Case 1,
 5021692500949,Spirits,23.96,,
-5021692650316,Spirits,22.25,Case 1,
+5021692650316,Spirits,19.58,Case 1,
 503018755004,Spirits,45.18,,
 5060152093300,Wine,7.62,,
 5060152096998,Wine,7.67,,
@@ -1550,7 +1550,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 643459380004,THC,9.75,,
 643459380028,THC,9.75,,
 643459380035,THC,9.75,,
-643485994503,Wine,4.72,,6
+643485994503,Wine,4.72,DEEP NET,6
 643770221314,Wine,15.12,,
 643770258327,Wine,15.12,,
 643770297371,Wine,15.12,,
@@ -1679,6 +1679,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 664841100956,Wine,13.54,,
 664841101236,Wine,19.21,,
 664841101427,Wine,34.21,,
+664841102509,Spirits,33.21,,
 665203200307,Spirits,,1 free on 5 mix and match sizes.  750 original free goods,
 665203200352,Spirits,,1 free on 5 mix and match sizes.  750 original free goods,
 665203200604,Spirits,,1 free on 5 mix and match sizes.  750 original free goods,
@@ -1745,14 +1746,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 669835225295,Wine,11.83,,
 669835225349,Wine,10.5,,
 670541779309,Wine,10.15,,
-670580001171,Wine,0.08,,
-670580002178,Wine,0.08,,
-670580003175,Wine,0.08,,
-670580004172,Wine,0.08,,
-670580006176,Wine,0.08,,
-670580008170,Wine,0.08,,
-670580009177,Wine,0.08,,
-670580067177,Wine,0.08,,
 671839988106,Spirits,11.54,Case 1,
 672321000122,Wine,23.5,,
 672321000283,Wine,13.83,,
@@ -1774,7 +1767,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 674545000605,Spirits,22.59,Case 1,
 674545000612,Spirits,23.75,case 1,
 674545000629,Spirits,62.0,Buy 4cs get 1cs free across chain same week,
-674545000636,Spirits,81.03,Case 1,
+674545000636,Spirits,67.22,Buy 4cs get 1cs free across chain same week,
 674545000643,Spirits,289.1,Case 1,
 674545000827,Spirits,51.61,Case 1,
 674545001005,Spirits,3.07,case 1,
@@ -2168,7 +2161,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 720815910133,Spirits,24.88,Case 1,
 720815910539,Spirits,26.38,Case 1,
 720815910737,Spirits,30.17,Case 1,
-720815920101,Spirits,22.69,10cs net down pricing,
+720815920101,Spirits,31.67,10cs net down pricing,
 720815920149,Spirits,26.69,10cs net down pricing,
 720815920231,Spirits,27.94,10cs net down pricing,
 720815922006,Spirits,30.19,10cs net down pricing,
@@ -2178,17 +2171,17 @@ upc,Department,Buyer Cost,Deal,Buy Months
 720815930513,Spirits,41.44,10cs purchase in a month,
 720815930636,Spirits,21.18,10cs purchase in a month,
 720815950139,Spirits,22.67,,
-720815980235,Spirits,5.65,net down pricing,
-720815980402,Spirits,0.69,,
-720815984530,Spirits,5.65,net down pricing,
-720815985308,Spirits,0.69,,
-720815985735,Spirits,5.65,net down pricing,
-720815985834,Spirits,5.65,net down pricing,
-720815985964,Spirits,7.42,net down pricing,
-720815987340,Spirits,13.7,,
-720815988347,Spirits,13.69,net down pricing,
-720815988729,Spirits,4.28,,
-720815988835,Spirits,5.65,net down pricing,
+720815980235,Spirits,6.84,10cs Mix and Match,
+720815980402,Spirits,0.6,10cs Mix and Match,
+720815984530,Spirits,7.59,10cs Mix and Match,
+720815985308,Spirits,0.6,10cs Mix and Match,
+720815985735,Spirits,6.84,10cs Mix and Match,
+720815985834,Spirits,6.84,10cs Mix and Match,
+720815985964,Spirits,8.34,10cs Mix and Match,
+720815987340,Spirits,13.7,10cs Mix and Match,
+720815988347,Spirits,12.19,10cs Mix and Match,
+720815988729,Spirits,3.59,10cs Mix and Match,
+720815988835,Spirits,6.84,10cs Mix and Match,
 721059000000,Spirits,52.63,,
 721059000505,Spirits,1.54,,
 721059000550,Spirits,26.38,,
@@ -2672,6 +2665,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 7501398100332,Spirits,40.63,,
 7501398100349,Spirits,57.8,Case 1,
 7501398100592,Spirits,42.13,,
+7501479700703,Spirits,21.71,,
 7501801001157,Wine,16.21,,
 7503005292003,Spirits,22.17,,
 7503010756125,Spirits,49.0,,
@@ -2913,7 +2907,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 781682114017,Wine,12.76,,
 781682800354,Wine,9.53,,
 781753059049,Wine,42.12,,
-783495580515,Wine,4.72,,6
+783495580515,Wine,4.72,DEEP NET,6
 783757201332,Wine,11.54,,
 784196719242,THC,9.0,,
 784196719259,THC,9.0,,
@@ -2924,8 +2918,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 784585008834,Wine,6.67,,
 784585010479,Wine,6.67,,
 784585019113,Wine,16.79,,
-785214190753,Wine,53.42,,3|5|6|10|11|12
-785214290750,Wine,113.42,,3|5|6|10|11|12
+785214190753,Wine,53.42,3 case Buy within the chain - no support if not full cases,3|5|6|10|11|12
+785214290750,Wine,113.42,3 case Buy within the chain - no support if not full cases,3|5|6|10|11|12
 785214490754,Wine,37.59,,
 785214590751,Wine,20.73,,
 785214690758,Wine,37.59,,
@@ -3333,7 +3327,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 80480220006,Spirits,33.18,,2|6|8|10|12
 80480230005,Spirits,24.99,,2|3|6|8|9|12
 80480230012,Spirits,21.0,,2|3|6|8|9|12
-80480230029,Spirits,16.15,,2|3|6|8|9|12
+80480230029,Spirits,12.94,,2|3|6|8|9|12
 80480230036,Spirits,8.85,,2|3|6|8|9|12
 80480230074,Spirits,0.68,,
 80480231019,Spirits,22.8,,2|3|6|8|9|12
@@ -3421,7 +3415,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 804879130109,Spirits,15.1,,
 804879598022,Wine,9.54,,
 8048840,Spirits,1.21,,
-805000022337,Spirits,14.47,1 free on 20 NAV 1.75 May/June.  Deep $90 invoice All months,5|7
+805000022337,Spirits,14.47,1 free on 20 NAV 1.75 May/June.  Deep $90 invoice All months,
 805109187016,Wine,10.0,,
 805109340015,Wine,10.0,,
 805109340022,Wine,13.65,,
@@ -3898,6 +3892,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 80960100682,Wine,7.75,,
 80960330027,Wine,7.75,,
 810000120239,Spirits,22.88,,
+810005380113,Spirits,25.92,,
 810012693882,THC,18.02,,
 810012696852,THC,9.67,Free Good for 4pk Giveaway,
 810012696890,THC,9.67,Free Good for 4pk Giveaway,
@@ -4239,8 +4234,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 811559028946,Spirits,14.51,,
 811644011075,Wine,17.83,,
 811644013390,Wine,40.83,,
-811751020021,Spirits,15.94,1 free 750 on 7 cases,
-811751020489,Spirits,15.94,1 free 750 on 7 cases,
+811751020021,Spirits,20.41,1 free 750 on 7 cases,
+811751020489,Spirits,20.93,1 free 750 on 7 cases,
 811751020595,Spirits,80.37,Case 1 Pricing,
 811751020991,Spirits,1.88,,
 811751021103,Wine,11.09,,
@@ -4485,6 +4480,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 816136025370,Wine,12.64,,
 816136027893,Spirits,22.63,,
 816136027909,Spirits,0.13,,
+816136028203,Spirits,30.42,,
 816253010044,Wine,18.12,,
 816253010587,Wine,7.4,,
 816253012192,Wine,0.03,,
@@ -4534,7 +4530,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 81753833435,Wine,165.18,,
 81753833657,Spirits,27.74,Case 1,
 81753833909,Wine,11.76,,
-81753833916,Wine,13.83,,
+81753833916,Wine,13.83,5 free cases of Whispering Angel Rose free and 5 free cases of Risata Moscato on 30 Whispering Angel,
 81753834395,Spirits,24.18,Case 1,
 81753837624,Wine,90.18,,
 81753837808,Spirits,44.43,Case 1,
@@ -4583,13 +4579,14 @@ upc,Department,Buyer Cost,Deal,Buy Months
 819283010008,Spirits,33.94,,
 819283013467,Spirits,52.69,,
 81932049534,Spirits,18.67,,
-819451000053,Wine,11.42,,
-819451005003,Wine,11.42,,
+819451000053,Wine,11.42,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
+819451005003,Wine,11.42,M/M 4 cases of Juan Gil or Honoro and receive 1 case of ShaniaBox Wine NC,
 819451006000,Wine,97.78,,
 819451006505,Wine,33.52,,
 819451007007,Wine,9.46,,
 819588011786,Spirits,36.42,Rewards sale pricing,
 819588013179,Spirits,15.21,Rewards sale pricing,
+819588015647,Spirits,27.38,,
 82000000099,Spirits,14.52,Case 1,
 82000000105,Spirits,11.76,Case 1,
 820000006435,Spirits,1.13,Case 1,
@@ -4619,7 +4616,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82000723943,Spirits,14.07,Case 1 Must hit 25 cs within month,1|3|5|7|9|11
 82000723998,Spirits,14.46,Case 1 Must hit 25 cs within month,1|3|5|7|9|11
 82000724049,Spirits,14.46,Case 1 Must hit 25 cs within month,1|3|5|7|9|11
-82000727606,Spirits,13.79,Case 1 Must hit 25 cs within month,1|3|5|7|9|11
+82000727606,Spirits,15.14,25cs across  chain - MONTHLY ACCUM,1|3|5|7|9|11
 82000729358,Spirits,10.17,Case 1 Must hit 8 cs within month,2|4|6|8|10|12
 82000730361,Spirits,14.33,1 free on 7,
 82000731528,Spirits,10.17,Case 1 Must hit 8 cs within month,2|4|6|8|10|12
@@ -4669,13 +4666,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82000776611,Spirits,36.7,Case 1 Must hit 6 cs within month,1|3|5|7|9|11
 82000778639,Spirits,8.09,Case 1 Must hit 24 cs within month,1|3|5|7|9|11
 82000782919,Spirits,19.75,"8cs m/m (Reg, Apple, Peach,Vanilla)across chain-same week",2|4|6|8|10|12
-82000783978,Spirits,19.51,Case 1,
+82000783978,Spirits,22.58,Case 1,
 82000788096,Spirits,10.17,Case 1 Must hit 8 cs within month,2|4|6|8|10|12
 82000788102,Spirits,14.46,Case 1 Must hit 25 cs within month,1|3|5|7|9|11
 82000788508,Spirits,8.09,Case 1,
 82000788515,Spirits,8.09,Case 1 Must hit 24 cs within month,1|3|5|7|9|11
 82000788522,Spirits,8.09,Case 1 Must hit 24 cs within month,1|3|5|7|9|11
-82000789550,Spirits,19.51,Case 1 Must hit 12 cs within month,2|4|6|8|10|12
+82000789550,Spirits,23.01,Case 1,2|4|6|8|10|12
 82000790808,Spirits,8.09,Case 1 Must hit 24 cs within month,1|3|5|7|9|11
 82000790815,Spirits,8.09,Case 1 Must hit 24 cs within month,1|3|5|7|9|11
 82000790822,Spirits,8.09,Case 1 Must hit 24 cs within month,1|3|5|7|9|11
@@ -5261,7 +5258,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83664107315,Spirits,32.44,6cs purchase in a month,
 83664107360,Spirits,35.75,"9 case deal mix with glenfiddich 12, 14, 15, and Monkey Shoulder 750/1.75",6
 83664107476,Spirits,17.16,,
-83664112210,Spirits,52.01,"25 case purchase in a montn (Mixes with Balvenie 12, 14, and Glenfiddich 12, 14, 15)",
+83664112210,Spirits,55.0,"25 case purchase in a montn (Mixes with Balvenie 12, 14, and Glenfiddich 12, 14, 15)",
 83664112234,Spirits,46.25,,
 83664120260,Spirits,16.69,,
 83664120420,Spirits,10.6,,
@@ -5271,7 +5268,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83664866298,Wine,14.77,,
 83664868377,Spirits,14.67,"25 cs mix & match Sailor Jerry 750s, Liters, 1.75s - across chain one week",
 83664868735,Spirits,18.83,"25 cs mix & match Sailor Jerry 750s, Liters, 1.75s - across chain one week",
-83664868780,Spirits,31.69,6cs purchase in a month,1|2|3|4|5|6|7|8|9
+83664868780,Spirits,30.5,"Mix & match Hendrick's 750s, liters, 1.75s - across chain same week",1|2|3|4|5|6|7|8|9
 83664868902,Spirits,35.86,5cs purchase in a month,
 83664868919,Spirits,16.17,5cs purchase in a month ($101.25 April-June),
 83664868940,Spirits,17.83,5cs purchase in a month ($105.50/cs Apil - June),
@@ -5282,22 +5279,22 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83664869282,Spirits,18.0,"5 cs mix & match Reyka 750s, Liters, 1.75s - across chain one week",
 83664869619,Spirits,1.01,,
 83664869718,Spirits,12.25,"25 cs mix & match Sailor Jerry 750s, Liters, 1.75s - across chain one week",
-83664869725,Spirits,26.44,Net Down Pricing,
-83664869756,Spirits,45.19,6cs purchase in a month,1|2|3|4|5|6|7|8|9
+83664869725,Spirits,26.83,"5 cs mix & match Reyka 750s, Liters, 1.75s - across chain one week",
+83664869756,Spirits,45.0,"Mix & match Hendrick's 750s, liters, 1.75s - across chain same week",1|2|3|4|5|6|7|8|9
 83664869787,Spirits,24.83,,
 83664869800,Spirits,12.42,,
 83664870202,Spirits,31.69,,
 83664870660,Spirits,30.18,Case 1 Pricing,
 83664871681,Spirits,69.42,"25 case purchase in a montn (Mixes with Balvenie 12, 14, and Glenfiddich 12, 14, 15)",
-83664871742,Spirits,22.4,Buy 25cs get 3cs Free,
+83664871742,Spirits,24.67,3cs m/m across chain same week,
 83664871766,Spirits,13.21,1 free 750 on 7 cases,
-83664871810,Spirits,15.94,1 free 750 on 7 cases,
-83664871964,Spirits,15.94,1 free 750 on 7 cases,
+83664871810,Spirits,20.93,1 free 750 on 7 cases,
+83664871964,Spirits,20.93,1 free 750 on 7 cases,
 83664872459,Spirits,1.5,,
 83664872480,Spirits,21.19,9cs purchase in a month,3
 83664872497,Spirits,33.47,9cs purchase in a month,3
 83664872510,Spirits,39.94,,
-83664872541,Spirits,22.69,3cs purchase in a month,
+83664872541,Spirits,22.17,2 case deal weekly,
 83664872558,Spirits,17.35,1 case,
 83664872565,Spirits,160.33,,
 83664872589,Wine,14.77,,
@@ -5316,13 +5313,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83664874071,Spirits,11.33,5cs purchase in a month,
 83664874125,Spirits,32.44,Case 1--Mixes into regular hendricks deals for quantity,
 83664874132,Spirits,66.19,Case 1,
-83664874224,Spirits,42.94,3cs purchase in a month,
+83664874224,Spirits,38.5,3cs purchase in a month,
 83664874484,Spirits,36.19,5cs purchase in a month ($105.50/cs Apil - June),
 83664874965,Spirits,32.44,Case 1--Mixes into regular hendricks deals for quantity,
 83664875443,Spirits,34.88,5cs Deal,
 83664990405,Spirits,54.85,"9 case deal mix with glenfiddich 12, 14, 15, and Monkey Shoulder 750/1.75",10|11|12
 83664990412,Spirits,103.5,,
-83664990436,Spirits,24.94,6cs purchase in a month,1|2|3|4|5|6|7|8|9
+83664990436,Spirits,24.33,"Mix & match Hendrick's 750s, liters, 1.75s - across chain same week",1|2|3|4|5|6|7|8|9
 836957000097,Wine,14.15,,
 837042000503,Wine,47.0,,
 837042001302,Wine,30.25,,
@@ -5505,7 +5502,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 84279991528,Spirits,0.51,1 free on 3. Kinky Pink 50ml as Free Good,
 84279991535,Spirits,10.42,1 free case on 4,
 84279992105,Spirits,6.76,Kinky Liqueur Blue,
-84279992464,Wine,5.86,,8|11|12
+84279992464,Wine,5.86,40 Risata on 100 Risata,8|11|12
 84279993577,Spirits,7.78,Case 1 Pricing,
 84279993584,Spirits,10.92,7 free Spiced 1.75 on 16 mix all 1.75,
 84279993997,Wine,8.36,,
@@ -5773,7 +5770,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000011430,Wine,3.76,,
 85000011638,Wine,12.09,,5|7|10
 85000011645,Wine,36.76,,
-85000012017,Wine,12.09,,2|5|8|11
+85000012017,Wine,12.09,2 on 24 off $160,2|5|8|11
 85000012161,Wine,4.09,,
 85000012178,Wine,9.42,,
 85000012277,Wine,8.09,,
@@ -5788,12 +5785,12 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000014325,Spirits,5.38,,
 85000014332,Spirits,4.05,,
 85000014431,Wine,7.56,,1|3|6|9
-85000014448,Wine,4.41,,1|4|6|8
+85000014448,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000014486,Wine,17.02,,
 85000015209,Wine,7.52,,
 85000015216,Wine,4.76,,
 85000015261,Wine,12.76,,
-85000015810,Wine,4.41,,1|4|6|8
+85000015810,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000015827,Wine,13.42,,
 85000015865,Wine,7.52,,
 85000015889,Wine,7.52,,
@@ -5808,24 +5805,24 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000016602,Wine,8.09,,
 85000016633,Wine,8.09,,
 85000016671,Wine,7.56,,1|3|6|9
-85000016688,Wine,4.41,,1|4|6|8
+85000016688,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000016800,Spirits,36.35,,
 85000016817,Spirits,21.93,,
-85000016824,Spirits,17.34,,
-85000017074,Wine,4.41,,1|4|6|8
+85000016824,Spirits,15.04,,
+85000017074,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000017166,Wine,7.52,,
 85000017203,Wine,10.63,,
 85000017272,Spirits,10.05,,
 85000017289,Spirits,2.69,,
 85000017302,Spirits,37.68,Case 1,
 85000017319,Spirits,24.18,,
-85000017326,Spirits,18.09,,
+85000017326,Spirits,15.04,,
 85000017333,Spirits,10.38,,
 85000017340,Spirits,2.86,,
 85000017364,Wine,7.56,,1|3|6|9
 85000017562,Wine,16.85,,
 85000017593,Wine,7.42,,
-85000017739,Wine,11.82,,2|5|8
+85000017739,Wine,11.82,Prosecco/Rose 750s 2 free on 25 $148 invoice,2|5|8
 85000017746,Wine,6.76,,2|5|8|10|12
 85000018026,Wine,8.18,,
 85000018033,Wine,8.18,,
@@ -5837,17 +5834,17 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000018385,Wine,8.18,,
 85000018392,Wine,8.18,,
 85000018415,Wine,8.85,,
-85000018491,Wine,4.41,,1|4|6|8
+85000018491,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000018682,Wine,7.56,,1|3|6|9
 85000018828,Spirits,22.68,,
 85000019450,Wine,8.76,,
 85000019474,Spirits,4.05,,
 85000019498,Spirits,9.09,,
 85000019504,Spirits,10.59,,
-85000019511,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000019511,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000019658,Wine,7.42,,
 85000019733,Wine,7.42,,2|5|8|10|12
-85000019894,Wine,4.41,,1|4|6|8
+85000019894,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000019900,Wine,4.76,,
 85000019917,Wine,7.52,,
 85000020289,Wine,7.56,,1|3|6|9
@@ -5859,7 +5856,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000020395,Spirits,4.71,,
 85000020401,Spirits,4.05,,
 85000020425,Wine,8.76,,
-85000020456,Wine,4.41,,1|4|6|8
+85000020456,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000020463,Wine,4.76,,
 85000020470,Wine,7.52,,
 85000020562,Wine,17.76,,
@@ -5867,7 +5864,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000020746,Wine,5.43,,1|3|5|7|9|11
 85000021026,Wine,7.52,,
 85000021040,Wine,15.46,,
-85000021088,Wine,4.41,,1|4|6|8
+85000021088,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000021132,Wine,7.56,,1|3|6|9
 85000021354,Spirits,9.42,,
 85000021507,Wine,8.18,,
@@ -5877,9 +5874,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000021590,Wine,10.76,,
 85000021606,Wine,12.09,,
 85000021644,Spirits,10.59,,
-85000021651,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000021651,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000021668,Spirits,10.59,,
-85000021675,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000021675,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000021682,Spirits,10.59,,
 85000021699,Spirits,14.47,2 free cases of NAM 1.75 80 Proof free on 25 cases Flavors/Pink Whitney,
 85000021811,Wine,2.76,,
@@ -5890,9 +5887,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000022306,Spirits,9.42,,
 85000022313,Spirits,9.09,,
 85000022320,Spirits,10.59,,
-85000022337,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000022337,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000022399,Spirits,8.74,,
-85000022436,Wine,4.05,,2|5|8
+85000022436,Wine,4.05,Deep Net $96 Feb 2026,2|5|8
 85000022573,Wine,4.76,,
 85000022641,Wine,10.76,,
 85000022719,Wine,2.76,,
@@ -5913,14 +5910,14 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000023174,Spirits,4.71,,
 85000023181,Spirits,9.09,,
 85000023198,Spirits,10.59,,
-85000023204,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000023204,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000023334,Spirits,0.68,,
 85000023358,Spirits,20.18,,
 85000023488,Wine,7.42,,2|5|8|10|12
 85000023501,Wine,12.09,,
 85000023563,Spirits,9.09,,
 85000023570,Spirits,10.59,,
-85000023761,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000023761,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000023792,Wine,5.43,,1|3|5|7|9|11
 85000024003,Spirits,1.01,,
 85000024027,Spirits,4.05,,
@@ -5935,15 +5932,15 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000024300,Spirits,6.05,,
 85000024317,Spirits,12.84,,
 85000024492,Wine,7.42,,
-85000024560,Spirits,21.93,,
+85000024560,Spirits,21.18,,
 85000024690,Spirits,14.16,,
 85000024874,Spirits,9.09,,
-85000024881,Spirits,14.47,1 free on 20 NAV 1.75 May/June.  Deep $90 invoice All months,5|7
+85000024881,Spirits,14.47,1 free on 20 NAV 1.75 May/June.  Deep $90 invoice All months,
 85000024904,Wine,8.98,,2|5|8|10|12
 85000024973,Wine,8.76,,
 85000025017,Wine,3.43,,
 85000025024,Wine,3.43,,
-85000025055,Wine,4.41,,1|4|6|8
+85000025055,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000025062,Wine,7.56,,1|3|6|9
 85000025246,Wine,5.42,,
 85000025284,Wine,5.43,,1|3|5|7|9|11
@@ -5959,7 +5956,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000025727,Spirits,1.01,,
 85000025741,Spirits,5.38,,
 85000025758,Spirits,9.84,Deep Net,
-85000025871,Wine,4.41,,1|4|6|8
+85000025871,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000026083,Wine,14.18,,
 85000026090,Wine,14.18,,
 85000026106,Wine,5.43,,1|3|5|7|9|11
@@ -5967,11 +5964,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000026144,Spirits,4.71,,
 85000026151,Spirits,9.09,,
 85000026168,Spirits,10.59,,
-85000026175,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000026175,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000026472,Wine,7.56,,1|3|6|9
 85000026526,Spirits,9.09,,
 85000026533,Spirits,10.59,,
-85000026540,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000026540,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000026700,Wine,33.43,,
 85000026731,Wine,7.42,,
 85000026915,Spirits,25.02,,
@@ -5983,7 +5980,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000027141,Wine,3.76,,
 85000027240,Wine,16.76,,
 85000028285,Spirits,12.09,,
-85000028308,Spirits,19.23,1 free Strat Gin 1.75's on 15,5|7|9|11
+85000028308,Spirits,19.23,1 free Strat Gin 1.75's on 15,
 85000028346,Wine,10.76,,
 85000028407,Wine,3.09,,
 85000028414,Wine,3.09,,
@@ -5996,8 +5993,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000028698,Wine,8.09,,
 85000028728,Wine,3.76,,
 85000028735,Wine,3.76,,
-85000029008,Wine,4.41,,1|4|6|8
-85000029015,Wine,4.41,,1|4|6|8
+85000029008,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+85000029015,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000029022,Wine,4.41,,1|4|6|8
 85000029039,Wine,3.76,,
 85000029046,Wine,3.76,,
@@ -6009,13 +6006,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000029893,Wine,7.56,,1|3|6|9
 85000029909,Wine,7.56,,1|3|6|9
 85000029916,Wine,7.56,,1|3|6|9
-85000029923,Wine,4.41,,1|4|6|8
+85000029923,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000029947,Wine,3.09,,
 85000029954,Wine,3.09,,
 85000029961,Wine,3.09,,
 85000029978,Wine,3.09,,
 85000030929,Spirits,9.09,,
-85000030943,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000030943,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000030967,Wine,7.42,,2|5|8|10|12
 85000031001,Wine,14.18,,
 85000031018,Wine,14.18,,
@@ -6023,32 +6020,32 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000031223,Wine,5.43,,1|3|5|7|9|11
 85000031346,Wine,14.18,,
 85000031353,Spirits,10.59,,
-85000031360,Spirits,15.87,2 free cases of NAM 1.75 80 Proof free on 25 cases Flavors/Pink Whitney,
+85000031360,Spirits,16.77,2 free cases of NAM 1.75 80 Proof free on 25 cases Flavors/Pink Whitney,
 85000031513,Spirits,16.87,Deep Net,5|8|11
 85000031643,Wine,7.42,,
 85000031711,Wine,14.18,,
-85000031780,Wine,4.41,,1|4|6|8
+85000031780,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000031797,Wine,7.56,,1|3|6|9
 85000031810,Spirits,4.71,,
-85000031926,Wine,4.41,,1|4|6|8
+85000031926,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000031933,Wine,7.56,,1|3|6|9
 85000032145,Wine,7.42,,2|5|8|10|12
-85000032176,Wine,4.41,,1|4|6|8
+85000032176,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000032183,Wine,7.56,,1|3|6|9
 85000032336,Wine,7.42,,2|5|8|10|12
-85000032442,Wine,11.82,,2|5|8
+85000032442,Wine,11.82,Prosecco/Rose 750s 2 free on 25 $148 invoice,2|5|8
 85000032534,Spirits,4.05,,
 85000032541,Spirits,4.71,,
 85000032558,Spirits,16.87,Deep Net,5|8|11
-85000032879,Wine,4.41,,1|4|6|8
-85000033319,Wine,4.41,,1|4|6|8
+85000032879,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
+85000033319,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000033326,Wine,7.56,,1|3|6|9
 85000033371,Wine,12.84,,1|3|5|7|9|11
 85000033388,Wine,3.43,,
 85000033395,Wine,3.43,,
 85000033661,Wine,8.09,,
-85000034149,Wine,6.76,,1|4|7|10
-85000034200,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
+85000034149,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
+85000034200,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
 85000034323,Wine,5.42,,
 85000034330,Wine,5.42,,
 85000034484,Spirits,4.59,,
@@ -6059,12 +6056,12 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000034545,Wine,13.15,,1|3|5|7|9|11
 85000034552,Wine,12.84,,1|3|5|7|9|11
 85000034569,Wine,12.84,,1|3|5|7|9|11
-85000034705,Wine,4.05,,2|5|8
+85000034705,Wine,4.05,Deep Net $96 Feb 2026,2|5|8
 85000034804,Spirits,4.05,,
 85000034811,Spirits,9.42,,
 85000034828,Spirits,9.09,,
-85000034835,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,5|7|9|11
-85000034927,Wine,4.41,,1|4|6|8
+85000034835,Spirits,14.47,1 free on 20 NAV 1.75 May/July.  Deep $90 invoice All months,
+85000034927,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000035405,Wine,6.76,,2|5|8|10|12
 85000035764,Spirits,17.76,DEEP NET,
 85000035795,Wine,2.09,,
@@ -6080,13 +6077,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000036976,Wine,5.42,,
 85000036990,Wine,5.42,,
 85000037003,Wine,13.42,,
-85000037126,Wine,7.42,,
+85000037126,Wine,7.42,1 Free on 11cs,
 85000037393,Spirits,18.37,Deep Net,6
 85000037522,Wine,6.09,,
 85000037539,Wine,6.09,,
 85000037584,Wine,2.09,,
 85000037591,Wine,2.09,,
-85000037607,Wine,4.41,,1|4|6|8
+85000037607,Wine,4.41,ON Month Deep Net $51.85 ( Off Month Deep Net $56),1|4|6|8
 85000037614,Wine,7.56,,1|3|6|9
 85000037621,Wine,13.52,,
 85000037652,Spirits,17.76,DEEP NET,
@@ -6104,7 +6101,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000040119,Wine,8.09,,1|3|4|7|9|12
 85000040195,Spirits,16.87,Deep Net,6
 85000040201,Spirits,4.59,Deep Net,
-85000040669,Wine,11.82,,2|5|8
+85000040669,Wine,11.82,Prosecco/Rose/Demi Sec 750s 2 free on 25 $148 invoice,2|5|8
 85000040768,Spirits,14.37,Deep Net,6|7|8
 85000041697,Spirits,21.3,Deep Net,
 85000041758,Wine,2.09,,
@@ -6137,7 +6134,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 850001901963,Spirits,75.13,,
 85000206751,Spirits,13.52,12 Sleeves of 10,
 85000229125,Wine,20.76,,
-85000322437,Wine,12.14,,2|5|8
+85000322437,Wine,12.14,Deep Net $96 Feb 2026,2|5|8
 850003574028,Spirits,6.87,3 free on 20,
 850003574042,Spirits,6.87,3 free on 20,
 850003574066,Spirits,6.87,3 free on 20,
@@ -6278,7 +6275,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 850024846807,THC,7.5,,
 850026120011,Wine,12.85,,
 850026120134,Wine,12.18,,
-850026120196,Wine,12.18,,
+850026120196,Wine,12.18,NEW DEEP NETS,
 850029102045,Spirits,10.19,Case 1 Pricing,
 850029102069,Spirits,10.19,Case 1 Pricing,
 850030365019,Spirits,83.63,,
@@ -6374,11 +6371,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 850052364342,Wine,9.54,,
 850052364359,Wine,10.17,,
 850052711030,Wine,4.72,,6
-850052711276,Wine,4.72,,6
-850052711283,Wine,4.72,,6
-850052711290,Wine,4.72,,6
-850052711306,Wine,4.72,,6
-850052711313,Wine,4.72,,6
+850052711276,Wine,4.72,DEEP NET,6
+850052711283,Wine,4.72,DEEP NET,6
+850052711290,Wine,4.72,DEEP NET,6
+850052711306,Wine,4.72,DEEP NET,6
+850052711313,Wine,4.72,DEEP NET,6
 850052711993,Wine,24.27,,
 850054342003,Spirits,30.13,,
 850054342010,Spirits,33.88,,
@@ -6570,21 +6567,19 @@ upc,Department,Buyer Cost,Deal,Buy Months
 851091006217,Spirits,11.74,2cs of Vikings 187ml on 25cs,
 851091006224,Spirits,11.74,2cs of Vikings 187ml on 25cs,
 851091006231,Spirits,11.74,Case 1,
-851091006330,Spirits,11.74,2cs of Vikings 187ml on 25cs,
 851091006347,Spirits,11.74,2cs of Vikings 187ml on 25cs,
-851091006774,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
-851115002188,Wine,24.68,,
-851115002218,Wine,5.77,,
-851115002256,Wine,5.77,,
+851115002188,Wine,24.68,M/M 4 cases of Juan Gil or Honoro and receive 1 case of ShaniaBox Wine NC,
+851115002218,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
+851115002256,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
 851115002287,Wine,11.42,,
 851115002324,Wine,12.79,,
 851115002447,Wine,12.79,,
-851115002461,Wine,5.77,,
-851115002539,Wine,5.77,,
-851115002621,Wine,5.77,,
-851115002706,Wine,11.42,,
+851115002461,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
+851115002539,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
+851115002621,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
+851115002706,Wine,11.42,M/M 4 cases of Juan Gil or Honoro and receive 1 case of ShaniaBox Wine NC,
 851115002768,Wine,12.79,,
-851115002775,Wine,5.77,,
+851115002775,Wine,5.77,M/M 4 cases of Honoro or Juan Gil and receive 1 cs of Shania box wine NC,
 851115002874,Wine,12.79,,
 8511623,Wine,3.78,,
 8511827,Wine,7.56,,
@@ -6675,7 +6670,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 851702005219,Spirits,31.25,,
 851702005240,Spirits,26.25,,
 851702005356,Spirits,46.25,,
-851718000338,Wine,7.42,,
+851718000338,Wine,7.42,1 Free on 11cs,
 851718000536,Wine,13.02,,
 851718000604,Wine,18.18,,
 851718000628,Wine,10.09,,
@@ -7025,7 +7020,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 855165005779,Wine,9.86,,3|6|9|12
 855200005283,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 855200005528,Spirits,0.67,5cs Per Store Min,
-855200005542,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 855200005702,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 855226003126,Wine,24.79,,
 8553106,Wine,6.18,,
@@ -7351,7 +7345,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 857641002210,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 857641002296,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 857641002517,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
-857641002651,Spirits,2.4,Used As Free Good,
 857641002654,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 857641002890,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 857674005004,Wine,8.08,,
@@ -7381,7 +7374,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 857744001318,Wine,8.32,,
 857744001325,Wine,6.43,,
 857744011157,Wine,8.32,,
-8577674007947,Spirits,1.8,1 Case 48 pack Chiller free on 25 Chiller 187,
 8578309,Wine,4.76,,
 857846002107,Wine,12.67,,
 857846100964,Wine,11.39,,
@@ -7433,8 +7425,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 858202003974,Spirits,4.04,Case 1 Pricing,
 858202003981,Spirits,10.19,Case 1 Pricing,
 858232007041,Spirits,48.93,,
-858311003001,Spirits,27.92,Case 1,
-858311003018,Spirits,25.58,Case 1,
+858311003001,Spirits,26.17,Case 1,
+858311003018,Spirits,26.17,Case 1,
 858311003025,Spirits,26.17,Case 1,
 858349004100,Spirits,32.34,Case 1,
 858349004124,Spirits,34.59,Case 1,
@@ -8012,7 +8004,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 867813000104,Wine,16.81,,
 86785000039,Wine,10.19,,2|4|6|8|10|12
 86785000084,Wine,7.43,,2|4|6|8|10|12
-86785012346,Spirits,31.08,Net Down Pricing,
+86785012346,Spirits,26.5,Net Down Pricing,
 86785091105,Spirits,31.08,Net Down Pricing,
 86785101088,Wine,28.58,,
 86785101095,Wine,16.12,,
@@ -8076,7 +8068,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 86891022871,Wine,20.34,,3|5|8|9|11|12
 86891023601,Wine,18.09,,
 86891023670,Wine,65.09,,
-86891026237,Spirits,31.08,No Current Deals,
+86891026237,Spirits,29.33,No Current Deals,
 86891028910,Wine,36.07,,
 86891028927,Wine,22.4,,
 86891030586,Wine,26.76,,
@@ -8144,7 +8136,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 87000102705,Wine,8.07,,
 87000102903,Wine,0.07,,
 87000103702,Wine,0.07,,
-87000201156,Spirits,20.29,M/M 175's PET/Glass/lsilver-20cs across chain same week,2|4|6|8|10|12
+87000201156,Spirits,20.17,M/M 175's PET/Glass/lsilver-20cs across chain same week,2|4|6|8|10|12
 87000201484,Spirits,20.29,M/M 175's PET/Glass/lsilver-20cs across chain same week,2|4|6|8|10|12
 87000201781,Spirits,20.25,Case 1,4|6
 87000202078,Spirits,24.0,Case 1,
@@ -8310,7 +8302,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 87116063846,Spirits,18.52,Case 1,
 87116069732,Spirits,43.17,Case 1,
 87116080027,Spirits,,Case 1,
-8712200,Spirits,0.1,,
+8712200,Spirits,0.1,5cs Mix and match with VO,
 871234000179,Wine,13.9,,
 871752000019,Wine,11.33,,
 871752001016,Wine,9.46,,
@@ -8369,15 +8361,15 @@ upc,Department,Buyer Cost,Deal,Buy Months
 8727707,Spirits,7.12,case 1,
 8731409,Spirits,0.65,Case 1,
 8733805,Spirits,10.75,Case 1,
-87356405123,Wine,6.76,,1|4|7|10
+87356405123,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
 87356405420,Wine,16.09,,
-87356421123,Wine,6.76,,1|4|7|10
-87356442128,Wine,6.76,,1|4|7|10
-87356510124,Wine,6.76,,1|4|7|10
+87356421123,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
+87356442128,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
+87356510124,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
 87356510131,Wine,12.3,,
 87356510421,Wine,12.76,,
-87356510445,Wine,6.76,,1|4|7|10
-87356535127,Wine,6.76,,1|4|7|10
+87356510445,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
+87356535127,Wine,6.76,1 free Chardonnay on 10,1|4|7|10
 8735706,Spirits,9.09,Case 1,
 873964000023,Wine,19.02,,
 873964000054,Wine,10.18,,
@@ -8653,16 +8645,16 @@ upc,Department,Buyer Cost,Deal,Buy Months
 88004035761,Spirits,0.6,"150cs 50ml purchase in a month (Buffalo Trace Cream, Canadian Mist, Dr Mcgil, Fireball, Goldschlager, Hartley Brandy, Margaritaville, Parrot Bay, Platinum 7x, R&R, Scoresby, Sheep Dog, SoCo, Taaka, Traveller, Wheately, Yukon Jack)",
 88004035785,Spirits,0.6,"150cs 50ml purchase in a month (Buffalo Trace Cream, Canadian Mist, Dr Mcgil, Fireball, Goldschlager, Hartley Brandy, Margaritaville, Parrot Bay, Platinum 7x, R&R, Scoresby, Sheep Dog, SoCo, Taaka, Traveller, Wheately, Yukon Jack)",
 88004035877,Spirits,4.79,,
-88004036157,Spirits,16.03,20cs purchase in a month,
-88004036164,Spirits,13.5,,
+88004036157,Spirits,22.75,5cs Mix and match with VO,
+88004036164,Spirits,13.5,5cs Mix and match with VO,
 88004036737,Spirits,18.6,,
 88004036744,Spirits,16.6,,
 88004036898,Spirits,12.85,,
 88004036904,Spirits,10.59,,
 88004036911,Spirits,5.76,,
 88004037086,Spirits,10.68,,
-88004037345,Spirits,13.6,"5cs, one store",
-88004037352,Spirits,24.19,,
+88004037345,Spirits,14.35,5cs Mix and match with VO,
+88004037352,Spirits,24.19,5cs Mix and match with VO,
 88004037475,Spirits,18.89,,
 88004037987,Spirits,7.9,,
 88004038557,Spirits,0.61,,
@@ -8724,19 +8716,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 88004076702,Spirits,0.61,,
 8800407777,Spirits,22.12,,
 8800407840,Spirits,22.12,,
-8800408039,Spirits,12.66,,
-880040806,Spirits,15.37,22 on 100,
 88004080976,Spirits,10.84,1 ON 10,
-8800408176,Spirits,2.19,22 on 100,
-8800408183,Spirits,2.19,22 on 100,
-8800408185,Spirits,2.19,22 on 100,
-8800408187,Spirits,2.19,22 on 100,
-8800408188,Spirits,2.19,22 on 100,
-8800408189,Spirits,2.19,22 on 100,
-8800408192,Spirits,2.19,22 on 100,
 880040820,Spirits,12.66,,
-8800408229,Spirits,2.19,22 on 100,
-8800408249,Spirits,2.19,22 on 100,
 88004139940,Spirits,30.0,"3cs, one store",
 88004140045,Spirits,120.27,,
 88004143541,Spirits,16.48,Case 1,
@@ -8756,7 +8737,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 88004144913,Spirits,0.6,"150cs 50ml purchase in a month (Buffalo Trace Cream, Canadian Mist, Dr Mcgil, Fireball, Goldschlager, Hartley Brandy, Margaritaville, Parrot Bay, Platinum 7x, R&R, Scoresby, Sheep Dog, SoCo, Taaka, Traveller, Wheately, Yukon Jack)",
 88004146689,Spirits,9.1,25cs purchase equity sizes in a month,
 88004148201,Spirits,19.69,15cs purchase in a month,
-88004148218,Spirits,12.85,15cs purchase in a month,
+88004148218,Spirits,14.92,15cs purchase in a month,
 88004148225,Spirits,12.33,,
 88004148232,Spirits,9.85,15cs purchase in a month,
 88004148249,Spirits,5.91,,
@@ -9314,7 +9295,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 891178001063,Wine,12.12,,
 891178001360,Wine,9.46,,
 89121018521,Wine,8.76,,3|6|9|11|12
-89121068823,Wine,10.1,,3|6|9|11|12
+89121068823,Wine,10.1,5 case at one store,3|6|9|11|12
 89121078525,Wine,13.43,,3|6|9|11|12
 89121108529,Wine,8.76,,3|6|9|11|12
 89121118528,Wine,9.1,,
@@ -9322,8 +9303,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 89121178522,Wine,14.19,,
 89121188521,Wine,13.43,,3|6|9|11|12
 89121268520,Wine,23.53,,
-89121288122,Wine,13.43,,3|6|9|11|12
-89121298527,Wine,9.43,,3|6|9|11|12
+89121288122,Wine,13.43,5 case at one store,3|6|9|11|12
+89121298527,Wine,9.43,5 case at one store,3|6|9|11|12
 89121328521,Wine,42.19,,
 89121348529,Wine,22.19,,3|6|9|11|12
 89121398524,Wine,67.05,,
@@ -9614,12 +9595,12 @@ upc,Department,Buyer Cost,Deal,Buy Months
 89540540108,Spirits,12.06,,2|5|8|11
 89540540115,Spirits,13.56,,2|5|8|11
 89541100912,Wine,0.0,,
-895412001000,Spirits,24.25,Net Down Pricing,
-895412001024,Spirits,20.79,Case 1,
+895412001000,Spirits,27.17,Case 1,
+895412001024,Spirits,16.25,Case 1,
 895412001031,Spirits,21.29,No Current Deals,
 895412001047,Spirits,28.75,,
 895412001054,Spirits,28.75,,
-895412001055,Spirits,21.62,Case 1,
+895412001055,Spirits,19.08,Case 1,
 895412001062,Spirits,22.5,Case 1,
 895412001079,Spirits,35.92,Net Down Pricing,
 895412001086,Spirits,22.17,Case 1,
@@ -9855,7 +9836,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 9016019624,Spirits,15.08,,
 9024153031675,Spirits,26.75,,
 9024153040479,Spirits,17.42,,
-9024153040875,Spirits,18.92,Case 1,
+9024153040875,Spirits,17.42,Case 1,
 9024153090856,Spirits,22.25,,
 9024153090863,Spirits,21.75,Case 1,
 9024153100432,Spirits,23.08,,
@@ -9873,6 +9854,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 9336975000037,Wine,22.5,,
 9336975110118,Wine,22.5,,
 9342160000133,Wine,16.83,,
+9352487000273,Spirits,27.08,,
 93532000020,Wine,10.46,,
 93532000051,Wine,10.79,,
 93532000068,Wine,10.79,,
