@@ -1,13 +1,13 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Tuesday, Aug 18, 2026
+  RECOMMENDED OTHER ORDER          Wednesday, Aug 19, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     25,457
-  Coverable by transfer .......  $     12,930   (51%)
-  NET BUY from vendors ........  $      8,807   <- the order
+  Gross need (all stores) .....  $     26,475
+  Coverable by transfer .......  $     14,102   (53%)
+  NET BUY from vendors ........  $      8,805   <- the order
 
-  52 items   |   3,437 units to buy   |   3,169 units to rebalance
-  Transfers: 288 moves  -  244 urgent (88 stockouts, 156 under 2wk), 44 routine
+  54 items   |   3,436 units to buy   |   3,321 units to rebalance
+  Transfers: 304 moves  -  253 urgent (88 stockouts, 165 under 2wk), 51 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 10 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -15,10 +15,10 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           5u/5cs             $0      5     0   OUT
-   2  Acid Blondie                         4u/4cs            $18      4     0   OUT
+   2  Acid Blondie                         5u/5cs            $23      5     0   OUT
    3  Velo Pouch 9mg Wintergreen           20u/4cs          $168     21     0   OUT
-   4  Velo Pouch 9mg Wild Berry            30u/6cs          $252     28     0   OUT
-   5  Velo Peppermint 9mg                  25u/5cs          $210     24     0   OUT
+   4  Velo Pouch 9mg Wild Berry            30u/6cs          $252     30     0   OUT
+   5  Velo Peppermint 9mg                  25u/5cs          $210     23     0   OUT
    6  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
    7  On Nicotine Pouch 8mg Original       5u/1cs            $33      5     0   OUT
    8  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
@@ -30,20 +30,20 @@
   14  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
   15  Bag Fee                              7u/7cs             $0      7     0   OUT
   16  Plastic Cups 16oz                    1u/1cs             $4      1     0   OUT
-  17  Tip Item                             226u/226cs         $0    226     0   OUT
+  17  Tip Item                             225u/225cs         $0    225     0   OUT
   18  Velo Pouch 9mg Mint                  25u/5cs          $210     23     0   0.2
   19  Syx Spearmint 20mg                   10u/2cs           $71     10     0   0.4
   20  Master of Mixes Pina Colada Liter    12u/1cs           $44      9     0   0.4
-  ...and 32 more in the full list.
+  ...and 34 more in the full list.
 
   NEEDS REVIEW (10 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~8/wk vs 1 now, buy ahead?
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~295/wk vs 2 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~297/wk vs 2 now, buy ahead?
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~13/wk vs 5 now, buy ahead?
-    Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
+    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~12/wk vs 5 now, buy ahead?
     Middletons Black & Mild Single            Margin looks off - check retail/cost
+    Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
     Ocean Spray Orange Juice 32oz             Seasonal - last year ~12/wk vs 7 now, buy ahead?
