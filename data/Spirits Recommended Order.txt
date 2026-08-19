@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    325,517
   Coverable by transfer .......  $    111,429   (34%)
-  NET BUY from vendors ........  $    280,483   <- the order
+  NET BUY from vendors ........  $    279,920   <- the order
 
-  234 items   |   28,911 units to buy   |   21,741 units to rebalance
+  234 items   |   28,071 units to buy   |   21,741 units to rebalance
   Transfers: 1,081 moves  -  901 urgent (306 stockouts, 595 under 2wk), 180 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 154 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 153 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -36,10 +36,9 @@
   20  Phillips Vodka 1.75L                 216u/36cs      $1,904    222     5   1.4
   ...and 214 more in the full list.
 
-  NEEDS REVIEW (154 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (153 items the system isn't fully sure about - check before ordering):
     New Amsterdam Mango 750ml                 Seasonal - last year ~7/wk vs 3 now, buy ahead?
     BuzzBallz Biggie Berry Cherry Limeade 1.  Seasonal - last year ~22/wk vs 6 now, buy ahead?
-    New Amsterdam Passionfruit 1.75L          Off buy-month - confirm timing
     Windsor Canadian 1.75L                    Margin over 95% - check retail; Buy-month stock-up ($299 to next deal) - confirm
     Captain Morgan RTS Long Island 1.75L      Seasonal - last year ~5/wk vs 3 now, buy ahead?
     Fleischmanns Blended Whiskey 1.75L        Seasonal - last year ~2/wk vs 1 now, buy ahead?
@@ -52,7 +51,8 @@
     Bacardi Superior Light Rum 1.75L          Large buy ($5,149) - confirm
     Christian Brothers Brandy 1.75L           Buy-month stock-up ($2,394 to next deal) - confirm
     2 Gingers 50ml                            Seasonal - last year ~350/wk vs 157 now, buy ahead?
-    ...and 139 more (see Needs Review tab).
+    Lunazul Reposado Tequila Liter            Large buy ($6,799) - confirm
+    ...and 138 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (54 discontinued items still selling/low - run down stock):
     Bailey's Irish Cream Liter                  (would have bought 12u)
