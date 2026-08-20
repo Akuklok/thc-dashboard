@@ -1,72 +1,30 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Woodbury,1032741,012354001930,19 Crimes The Uprising 750ml,9258871,12,1.0,80.0,80.0,
-Roseville,1032693,012354001947,19 Crimes Hard Chardonnay 750ml,9261038,12,1.0,80.0,80.0,
-Woodbury,1032574,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
-Roseville,1032525,083664868780,Hendrick's Gin Liter,9001723,6,1.0,189.0,189.0,
-St. Louis Park,1032543,083664868780,Hendrick's Gin Liter,9001723,6,1.0,189.0,189.0,
-Plymouth,1032489,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
-Woodbury,1032574,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
-Plymouth,1032489,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Roseville,1032525,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Roseville,1032534,083664990436,Hendrick's Gin 750ml,9018599,6,2.0,148.5,297.0,Store Request
-St. Louis Park,1032543,083664990436,Hendrick's Gin 750ml,9018599,6,1.0,148.5,148.5,
-St. Louis Park,1032708,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,1207349,12,1.0,184.0,184.0,
-Woodbury,1032574,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,40.6,40.6,
-Minneapolis,1032637,087872630122,Stella Rosa Moscato D'Asti 750ml,9746655,12,1.0,104.0,104.0,
-Woodbury,1032741,087872632218,Stella Rosa Peach 750ml,9746737,12,1.0,104.0,104.0,
-Minneapolis,1032637,087872632225,Stella Rosa Berry 750ml,9746336,12,1.0,104.0,104.0,
-Minneapolis,1032637,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,
-Roseville,1032525,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
-Plymouth,1032489,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
-St. Louis Park,1032543,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
-Stillwater,1032555,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,0.0,
-Woodbury,1032574,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
-Ramsey,1032503,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Minneapolis,1032468,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Ramsey,1032503,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Roseville,1032525,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Minneapolis,1032468,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Ramsey,1032503,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Roseville,1032525,088004020323,Dr Mcgillicuddy Butterscotch 50ml,9219489,120,1.0,71.05,71.05,
-Minneapolis,1032468,088004026141,Fris Vodka 1.75L,9612242,6,10.0,42.5,425.0,
-Roseville,1032525,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,
-Stillwater,1032555,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,0.0,
-Minneapolis,1032468,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Woodbury,1032574,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Minneapolis,1032468,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Roseville,1032525,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-St. Louis Park,1032543,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Woodbury,1032574,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Stillwater,1032555,088004144081,Dr McGillicuddys Mentholmint 50ml,9031417,120,1.0,71.05,0.0,
-Woodbury,1032574,088004144081,Dr McGillicuddys Mentholmint 50ml,9031417,120,1.0,71.05,71.05,
-Minneapolis,1032468,088004144692,Fireball Whisky 750ml,9213627,12,2.0,108.0,216.0,
-Woodbury,1032574,088004144692,Fireball Whisky 750ml,9213627,12,1.0,108.0,108.0,
-Minneapolis,1032468,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
-Plymouth,1032489,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
-Ramsey,1032503,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
-Roseville,1032525,088004144708,Fireball Whisky 50ml,9220188,120,3.0,71.05,213.16,
-St. Louis Park,1032543,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
-Stillwater,1032555,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,0.0,
-Woodbury,1032574,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
-Stillwater,1032555,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,0.0,
-St. Louis Park,1032543,088004700256,Canadian Hunter 1.75L,9031311,6,0.5,76.5,38.25,
-Woodbury,1032574,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,
-Roseville,1032693,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,1.0,160.0,160.0,
-Stillwater,1032724,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,
-St. Louis Park,1032543,400000011837,Carpano Antica Formula 750ml,9416731,6,0.5,180.0,90.0,
-St. Louis Park,1032708,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,
-Stillwater,1032724,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,
-Woodbury,1032741,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,
-Stillwater,1032555,720815988347,Seagrams Extra Smooth Vodka 1.75L,9100891,6,1.0,80.96,0.0,
-Minneapolis,1032468,766427003443,Twisted Shotz Sex On The Beach 4pk,9151699,18,1.0,70.1,70.1,
-Stillwater,1032724,847159001812,Harken Chardonnay 750ml,9194024,12,1.0,104.0,104.0,
-Plymouth,1032661,847159002024,Creamery Chardonnay 750ml,9295405,12,2.0,91.0,182.0,
-Roseville,1032693,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-St. Louis Park,1032708,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
+Andover,1000082001,088004144678,Fireball Whisky Liter,9772518,12,100.0,60.0,6000.0,Fireball Closeout
+Blaine,1000082002,088004144678,Fireball Whisky Liter,9772518,12,100.0,60.0,6000.0,Fireball Closeout
+Bloomington,1000082003,088004144678,Fireball Whisky Liter,9772518,12,25.0,60.0,1500.0,Fireball Closeout
+Chanhassen,1000082004,088004144678,Fireball Whisky Liter,9772518,12,25.0,60.0,1500.0,Fireball Closeout
+Cottage Grove,1000082005,088004144678,Fireball Whisky Liter,9772518,12,60.0,60.0,3600.0,Fireball Closeout
+Minnetonka,1000082007,088004144678,Fireball Whisky Liter,9772518,12,20.0,60.0,1200.0,Fireball Closeout
+Osseo,1000082008,088004144678,Fireball Whisky Liter,9772518,12,40.0,60.0,2400.0,Fireball Closeout
+Plymouth,1000082009,088004144678,Fireball Whisky Liter,9772518,12,40.0,60.0,2400.0,Fireball Closeout
+Ramsey,1000082010,088004144678,Fireball Whisky Liter,9772518,12,30.0,60.0,1800.0,Fireball Closeout
+Rosemount,1000082011,088004144678,Fireball Whisky Liter,9772518,12,60.0,60.0,3600.0,Fireball Closeout
+Roseville,1000082012,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
+St. Louis Park,1000082013,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
+Vadnais Heights,1000082015,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
+Woodbury,1000082016,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
+Andover,1000082001,088004144708,Fireball Whisky 50ml,9772517,120,30.0,5.0,150.12,Fireball Closeout
+Blaine,1000082002,088004144708,Fireball Whisky 50ml,9772517,120,55.0,5.0,275.22,Fireball Closeout
+Bloomington,1000082003,088004144708,Fireball Whisky 50ml,9772517,120,10.0,5.0,50.04,Fireball Closeout
+Chanhassen,1000082004,088004144708,Fireball Whisky 50ml,9772517,120,5.0,5.0,25.02,Fireball Closeout
+Cottage Grove,1000082005,088004144708,Fireball Whisky 50ml,9772517,120,22.0,5.0,110.09,Fireball Closeout
+Minnetonka,1000082007,088004144708,Fireball Whisky 50ml,9772517,120,3.0,5.0,15.01,Fireball Closeout
+Osseo,1000082008,088004144708,Fireball Whisky 50ml,9772517,120,21.0,5.0,105.08,Fireball Closeout
+Plymouth,1000082009,088004144708,Fireball Whisky 50ml,9772517,120,12.0,5.0,60.05,Fireball Closeout
+Ramsey,1000082010,088004144708,Fireball Whisky 50ml,9772517,120,19.0,5.0,95.08,Fireball Closeout
+Rosemount,1000082011,088004144708,Fireball Whisky 50ml,9772517,120,5.0,5.0,25.02,Fireball Closeout
+Roseville,1000082012,088004144708,Fireball Whisky 50ml,9772517,120,24.0,5.0,120.1,Fireball Closeout
+St. Louis Park,1000082013,088004144708,Fireball Whisky 50ml,9772517,120,22.0,5.0,110.09,Fireball Closeout
+Vadnais Heights,1000082015,088004144708,Fireball Whisky 50ml,9772517,120,24.0,5.0,120.1,Fireball Closeout
+Woodbury,1000082016,088004144708,Fireball Whisky 50ml,9772517,120,13.0,5.0,65.05,Fireball Closeout
 Minnetonka,1032647,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,
-Plymouth,1032661,847159003588,Creamery Cabernet Sauvignon 750ml,9708964,12,1.0,91.0,91.0,
-Woodbury,1032741,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,120.0,
-Roseville,1032525,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,216.0,216.0,
-St. Louis Park,1032543,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,216.0,216.0,
-Roseville,1032693,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,
-St. Louis Park,1032708,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,3.0,208.0,624.0,
