@@ -1,25 +1,25 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Thursday, Aug 20, 2026
+  RECOMMENDED OTHER ORDER          Friday, Aug 21, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     26,614
-  Coverable by transfer .......  $     14,562   (55%)
-  NET BUY from vendors ........  $      8,766   <- the order
+  Gross need (all stores) .....  $     25,174
+  Coverable by transfer .......  $     13,188   (52%)
+  NET BUY from vendors ........  $      8,659   <- the order
 
-  58 items   |   3,492 units to buy   |   3,397 units to rebalance
-  Transfers: 313 moves  -  258 urgent (88 stockouts, 170 under 2wk), 55 routine
+  54 items   |   3,571 units to buy   |   3,166 units to rebalance
+  Transfers: 283 moves  -  236 urgent (80 stockouts, 156 under 2wk), 47 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 10 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           6u/6cs             $0      6     0   OUT
+   1  Non-Refundable Transaction           91u/91cs           $0     91     0   OUT
    2  Acid Blondie                         5u/5cs            $23      5     0   OUT
    3  Velo Pouch 9mg Wintergreen           20u/4cs          $168     21     0   OUT
    4  Velo Pouch 9mg Wild Berry            30u/6cs          $252     30     0   OUT
    5  Velo Peppermint 9mg                  25u/5cs          $210     23     0   OUT
-   6  Velo Pouch 9mg Mint                  25u/5cs          $210     25     0   OUT
+   6  Velo Pouch 9mg Mint                  25u/5cs          $210     27     0   OUT
    7  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
    8  On Nicotine Pouch 8mg Original       5u/1cs            $33      5     0   OUT
    9  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
@@ -29,21 +29,23 @@
   13  Velo Cappuccino 3mg                  5u/1cs            $42      4     0   OUT
   14  Black & Mild Wood Tip B1G1           3u/3cs             $0      3     0   OUT
   15  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
-  16  Bag Fee                              7u/7cs             $0      7     0   OUT
-  17  Plastic Cups 16oz                    1u/1cs             $4      1     0   OUT
-  18  Tip Item                             227u/227cs         $0    227     0   OUT
-  19  Syx Spearmint 20mg                   10u/2cs           $71     10     0   0.4
-  20  Master of Mixes Pina Colada Liter    12u/1cs           $44      9     0   0.4
-  ...and 38 more in the full list.
+  16  Bag Fee                              8u/8cs             $0      8     0   OUT
+  17  Tip Item                             236u/236cs         $0    236     0   OUT
+  18  Minute Maid Fruit Punch 2L           16u/2cs           $46     17     0   0.4
+  19  MN Ice Shard                         34u/34cs         $193     43     9   0.6
+  20  Velo Pouch 9mg Spearmint             25u/5cs          $210     23     0   0.6
+  ...and 34 more in the full list.
 
-  NEEDS REVIEW (10 items the system isn't fully sure about - check before ordering):
-    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~8/wk vs 1 now, buy ahead?
+  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~298/wk vs 2 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~300/wk vs 2 now, buy ahead?
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Zyn Pouch 6mg Spearmint                   Seasonal - last year ~12/wk vs 5 now, buy ahead?
     Middletons Black & Mild Single            Margin looks off - check retail/cost
     Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
+    Mr Pure Orange Juice 64oz                 Seasonal - last year ~5/wk vs 3 now, buy ahead?
+    Kodiak Wintergreen Long Cut               Seasonal - last year ~11/wk vs 7 now, buy ahead?
     Mr & Mrs T Bold & Spicy 1.75L             Seasonal - last year ~6/wk vs 4 now, buy ahead?
