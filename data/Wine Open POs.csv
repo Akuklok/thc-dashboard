@@ -1,34 +1,15 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
-Receiving,842094113408,True Party Colorful Straws (Set of 100),"True Brands, Inc.",Minneapolis,1032645,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Receiving,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1032645,Receiving,6.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Receiving,842094171897,Truetap: Double-Hinged Corkscrew in Red,"True Brands, Inc.",Minneapolis,1032645,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Receiving,876718002298,Elegant Black and White Wine Bag,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Receiving,876718028816,Bash Basic Muddler,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Receiving,876718030420,"16 oz Red Party Cups, 24 pack by True","True Brands, Inc.",Minneapolis,1032645,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Receiving,876718036620,Filled with Thanks Wine Bag,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
 Receiving,657891700207,Liberty School Cab Sauv 750ml,"Grape Beginnings, Inc.",Roseville,1032695,Receiving,1.0,,,Wine,Cabernet,,,2026-08-17T00:00:00
 Receiving,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Cottage Grove,1032626,Receiving,1.0,,,Wine,Cabernet,,,2026-08-17T00:00:00
-Receiving,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1032649,Receiving,1.0,,,Wine,Cabernet,,,2026-08-17T00:00:00
 Receiving,747846030029,Hakutsuru Plum Wine 750ml,The Wine Company,Cottage Grove,1032634,Receiving,1.0,,,Wine,Fortified,,,2026-08-17T00:00:00
 Receiving,098709099159,Catena Appellation Paraje Altamira Malbec 750ml,"Grape Beginnings, Inc.",Chanhassen,1032616,Receiving,1.0,,,Wine,Malbec,,,2026-08-17T00:00:00
-Receiving,842094118670,Dehydrated Blood Orange by Collins 1.3 oz,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Misc Other,,,2026-08-17T00:00:00
-Receiving,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1032586,Receiving,1.0,,,Wine,Other Reds,,,2026-08-17T00:00:00
-Receiving,750625653012,Clean Slate Riesling 750ml,"Grape Beginnings, Inc.",Plymouth,1032662,Receiving,1.0,,,Wine,Other Whites,,,2026-08-17T00:00:00
-Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
-Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Andover,1032590,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
 Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Cottage Grove,1032632,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
-Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Rosemount,1032687,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Vadnais Heights,1032737,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Andover,1032590,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
+Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-08-17T00:00:00
 Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Cottage Grove,1032632,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Minnetonka,1032652,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
+Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Vadnais Heights,1032737,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
+Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,0.0,-1.0,Wine,Rose,,MI,2026-08-17T00:00:00
 Receiving,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Chanhassen,1032618,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
-Receiving,8052740494580,Terre Dei Buth Frizzante Rosato 750ml,Libation Project,Rosemount,1032683,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
-Receiving,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Stillwater,1032726,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
-Receiving,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Woodbury,1032743,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
-Receiving,856036001098,Underwood Bubbles 355ml,Oxford Street Merchants,Minnetonka,1032650,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
-Receiving,851115002447,Shania White 3L Box,Oxford Street Merchants,Minnetonka,1032650,Receiving,2.0,,,Wine,White Blends,,,2026-08-17T00:00:00
+Receiving,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Woodbury,1032743,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
 Discrepancy,739958075005,Coppola Diamond Pinot Grigio 750ml,Johnson Brothers - St. Paul,Andover,1031566,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-08-03T00:00:00
 Discrepancy,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1031567,Inventory Received,1.0,0.0,-1.0,Wine,Other Reds,,MI ,2026-08-03T00:00:00
 Discrepancy,082242018692,Bota Box Brightside Sauv Blanc/PG 500ml,Phillips Wine & Spirits - St. Paul,Andover,1031570,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,WI,2026-08-03T00:00:00
@@ -225,9 +206,9 @@ Discrepancy,763955409600,Les Allies Brut Rose 187ml 2pk,"Maverick Beverage Co., 
 Discrepancy,082242011051,Bota Box Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Woodbury,1032332,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,MI,2026-08-10T00:00:00
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Woodbury,1032332,Inventory Received,2.0,1.0,-1.0,Wine,Pinot Grigio/Gris,,1 MI,2026-08-10T00:00:00
 Discrepancy,082242016773,Bota Box Breeze Dry Rose 3L Box,Phillips Wine & Spirits - St. Paul,Woodbury,1032332,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-08-10T00:00:00
-Discrepancy,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1032586,Receiving,1.0,,,Wine,Other Reds,,,2026-08-17T00:00:00
-Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Andover,1032590,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
-Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Andover,1032590,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
+Discrepancy,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1032586,Inventory Received,1.0,0.0,-1.0,Wine,Other Reds,,MI ,2026-08-17T00:00:00
+Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Andover,1032590,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI ,2026-08-17T00:00:00
+Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Andover,1032590,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI ,2026-08-17T00:00:00
 Discrepancy,086003780217,Robert Mondavi PS Cab Sauv BB 750ml,Southern Glazer's Wine & Spirits of MN,Andover,1032591,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI ,2026-08-17T00:00:00
 Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Andover,1032591,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI ,2026-08-17T00:00:00
 Discrepancy,087000102705,B&G Vouvray,Southern Glazer's Wine & Spirits of MN,Andover,1032591,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,MI ,2026-08-17T00:00:00
@@ -254,25 +235,17 @@ Discrepancy,083804047198,Cooks Spumante 750ml,Southern Glazer's Wine & Spirits o
 Discrepancy,747846030029,Hakutsuru Plum Wine 750ml,The Wine Company,Cottage Grove,1032634,Receiving,1.0,,,Wine,Fortified,,,2026-08-17T00:00:00
 Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Minneapolis,1032640,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,BO,2026-08-17T00:00:00
 Discrepancy,086003861862,Woodbridge Sauv Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Minneapolis,1032644,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,bo,2026-08-17T00:00:00
-Discrepancy,842094113408,True Party Colorful Straws (Set of 100),"True Brands, Inc.",Minneapolis,1032645,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Discrepancy,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1032645,Receiving,6.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Discrepancy,842094171897,Truetap: Double-Hinged Corkscrew in Red,"True Brands, Inc.",Minneapolis,1032645,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Discrepancy,876718030420,"16 oz Red Party Cups, 24 pack by True","True Brands, Inc.",Minneapolis,1032645,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
 Discrepancy,8801100130510,Good Day Peach Soju 375ml,"Vinocopia, Inc",Minneapolis,1032646,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-08-17T00:00:00
 Discrepancy,8801100130534,Good Day Pineapple Soju 375ml,"Vinocopia, Inc",Minneapolis,1032646,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-08-17T00:00:00
 Discrepancy,085000012017,Whitehaven Sauv Blanc 750ml,Johnson Brothers - St. Paul,Minnetonka,1032648,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,MI,2026-08-17T00:00:00
-Discrepancy,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1032649,Receiving,1.0,,,Wine,Cabernet,,,2026-08-17T00:00:00
-Discrepancy,851115002447,Shania White 3L Box,Oxford Street Merchants,Minnetonka,1032650,Receiving,2.0,,,Wine,White Blends,,,2026-08-17T00:00:00
-Discrepancy,856036001098,Underwood Bubbles 355ml,Oxford Street Merchants,Minnetonka,1032650,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
-Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Minnetonka,1032652,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
-Discrepancy,750625653012,Clean Slate Riesling 750ml,"Grape Beginnings, Inc.",Plymouth,1032662,Receiving,1.0,,,Wine,Other Whites,,,2026-08-17T00:00:00
+Discrepancy,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1032649,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-08-17T00:00:00
+Discrepancy,851115002447,Shania White 3L Box,Oxford Street Merchants,Minnetonka,1032650,Inventory Received,2.0,0.0,-2.0,Wine,White Blends,,MI,2026-08-17T00:00:00
+Discrepancy,856036001098,Underwood Bubbles 355ml,Oxford Street Merchants,Minnetonka,1032650,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
+Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Minnetonka,1032652,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-08-17T00:00:00
+Discrepancy,750625653012,Clean Slate Riesling 750ml,"Grape Beginnings, Inc.",Plymouth,1032662,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,no delivery,2026-08-17T00:00:00
 Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Plymouth,1032664,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-08-17T00:00:00
 Discrepancy,856036001098,Underwood Bubbles 355ml,Oxford Street Merchants,Plymouth,1032665,Inventory Received,2.0,1.0,-1.0,Wine,Sparkling,,1 bo,2026-08-17T00:00:00
 Discrepancy,879716002000,Natural Origins Malbec 3L Box,Paustis Wine,Plymouth,1032666,Inventory Received,1.0,0.0,-1.0,Wine,Malbec,,bo,2026-08-17T00:00:00
-Discrepancy,842094118670,Dehydrated Blood Orange by Collins 1.3 oz,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Misc Other,,,2026-08-17T00:00:00
-Discrepancy,876718002298,Elegant Black and White Wine Bag,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Discrepancy,876718028816,Bash Basic Muddler,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
-Discrepancy,876718036620,Filled with Thanks Wine Bag,"True Brands, Inc.",Plymouth,1032670,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-08-17T00:00:00
 Discrepancy,081434710147,Black Box Rose 3L Box,Johnson Brothers - St. Paul,Ramsey,1032673,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-08-17T00:00:00
 Discrepancy,086891028910,Rutherford Hill Napa Cab 750ml,Johnson Brothers - St. Paul,Ramsey,1032673,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,,MI,2026-08-17T00:00:00
 Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Ramsey,1032674,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
@@ -282,9 +255,9 @@ Discrepancy,087000102705,B&G Vouvray,Southern Glazer's Wine & Spirits of MN,Rams
 Discrepancy,089819158027,Matua Valley Sauv Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Rosemount,1032679,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,Bo,2026-08-17T00:00:00
 Discrepancy,847159002024,Creamery Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Rosemount,1032679,Inventory Received,2.0,0.0,-2.0,Wine,Chardonnay,,Mi,2026-08-17T00:00:00
 Discrepancy,853086008008,Fit Vine Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Rosemount,1032679,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,BO,2026-08-17T00:00:00
-Discrepancy,8052740494580,Terre Dei Buth Frizzante Rosato 750ml,Libation Project,Rosemount,1032683,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
+Discrepancy,8052740494580,Terre Dei Buth Frizzante Rosato 750ml,Libation Project,Rosemount,1032683,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,ND,2026-08-17T00:00:00
 Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Rosemount,1032686,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,Broken on truck ,2026-08-17T00:00:00
-Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Rosemount,1032687,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
+Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Rosemount,1032687,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,ND,2026-08-17T00:00:00
 Discrepancy,011699019150,Bouchard VDF Pinot Noir Rose 750ml,"Vinocopia, Inc",Rosemount,1032690,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,Not on Truck ,2026-08-17T00:00:00
 Discrepancy,890409002398,Daou Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Roseville,1032693,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi ,2026-08-17T00:00:00
 Discrepancy,657891700207,Liberty School Cab Sauv 750ml,"Grape Beginnings, Inc.",Roseville,1032695,Receiving,1.0,,,Wine,Cabernet,,,2026-08-17T00:00:00
@@ -304,15 +277,15 @@ Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,St. Lo
 Discrepancy,698743907504,Roth Cabernet Sauvignon 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1032718,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-08-17T00:00:00
 Discrepancy,011699019150,Bouchard VDF Pinot Noir Rose 750ml,"Vinocopia, Inc",St. Louis Park,1032722,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-08-17T00:00:00
 Discrepancy,698565012875,J Moreau & Fils Chablis 750ml,"Vinocopia, Inc",St. Louis Park,1032722,Inventory Received,0.5,0.0,-0.5,Wine,Chardonnay,,MI,2026-08-17T00:00:00
-Discrepancy,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Stillwater,1032726,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
+Discrepancy,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Stillwater,1032726,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,dnr,2026-08-17T00:00:00
 Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032733,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
 Discrepancy,763955409600,Les Allies Brut Rose 187ml 2pk,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1032733,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
 Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Vadnais Heights,1032737,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
 Discrepancy,011699019150,Bouchard VDF Pinot Noir Rose 750ml,"Vinocopia, Inc",Vadnais Heights,1032739,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,mi,2026-08-17T00:00:00
-Discrepancy,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Woodbury,1032743,Receiving,1.0,,,Wine,Sparkling,,,2026-08-17T00:00:00
+Discrepancy,854657002937,Piazza Grande Lambrusco Spuman 750ml,Libation Project,Woodbury,1032743,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
 Discrepancy,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Woodbury,1032744,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
 Discrepancy,763955409600,Les Allies Brut Rose 187ml 2pk,"Maverick Beverage Co., LLC - MN",Woodbury,1032744,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-08-17T00:00:00
-Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-08-17T00:00:00
-Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,,,Wine,Rose,,,2026-08-17T00:00:00
+Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-08-17T00:00:00
+Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1032749,Receiving,1.0,0.0,-1.0,Wine,Rose,,MI,2026-08-17T00:00:00
 Discrepancy,086003780217,Robert Mondavi PS Cab Sauv BB 750ml,Southern Glazer's Wine & Spirits of MN,Woodbury,1032750,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,BO,2026-08-17T00:00:00
 Discrepancy,086003861862,Woodbridge Sauv Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Woodbury,1032750,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,BO,2026-08-17T00:00:00
