@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    351,305
   Coverable by transfer .......  $    105,748   (30%)
-  NET BUY from vendors ........  $    369,726   <- the order
+  NET BUY from vendors ........  $    368,783   <- the order
 
-  222 items   |   27,805 units to buy   |   20,466 units to rebalance
+  220 items   |   26,881 units to buy   |   20,466 units to rebalance
   Transfers: 1,059 moves  -  866 urgent (263 stockouts, 603 under 2wk), 193 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 150 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 149 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Lalo Tequila Blanco 750ml            24u/4cs          $774     27     0   1.5
   19  On The Rocks Watermelon Margarita 4  12u/2cs           $99     11     0   1.5
   20  Bacardi Superior Light Rum 1.75L     450u/75cs      $7,720    448     0   1.6
-  ...and 202 more in the full list.
+  ...and 200 more in the full list.
 
-  NEEDS REVIEW (150 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (149 items the system isn't fully sure about - check before ordering):
     Tanqueray Sevilla Orange Gin Liter        Buy-month stock-up ($121 to next deal) - confirm
     BuzzBallz Biggie Berry Cherry Limeade 1.  Seasonal - last year ~25/wk vs 7 now, buy ahead?
     Jameson Select Res Black Barre Liter      Off buy-month - confirm timing
@@ -52,7 +52,7 @@
     2 Gingers 50ml                            Seasonal - last year ~362/wk vs 138 now, buy ahead?
     Patron Silver Tequila 750ml               Margin looks off - check retail/cost; Large buy ($18,413) - confirm
     High Noon Variety Pack 12pk 12oz can      Large buy ($26,410) - confirm; Buy-month stock-up ($26,410 to next deal) - confirm
-    ...and 135 more (see Needs Review tab).
+    ...and 134 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (58 discontinued items still selling/low - run down stock):
     Bailey's Irish Cream Liter                  (would have bought 12u)
@@ -72,7 +72,8 @@
     Jack Daniels Tennessee Honey 1.75L          (would have bought 6u)
     ...and 43 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (9 routine deal items out of their buy month - $10,081 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (10 routine deal items out of their buy month - $10,264 cheaper to buy in-month):
+    Absolut Citron Vodka 1.75L                  Wait for buy-month (Jan, Apr, Jul, Oct)
     E&J Brandy 1.75L                            Wait for buy-month (Feb, May, Sep, Dec)
     Elijah Craig BBN Small Batch 94 1.75L       Wait for buy-month (Mar, Jun, Jul, Sep, Dec)
     Elijah Craig BBN Small Batch 94 750ml       Wait for buy-month (Mar, Jun, Jul, Sep, Dec)
