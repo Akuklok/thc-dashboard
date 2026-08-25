@@ -1,17 +1,149 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Andover,1000082001,088004144678,Fireball Whisky Liter,9772518,12,100.0,60.0,6000.0,Fireball Closeout
-Chanhassen,1000082004,088004144678,Fireball Whisky Liter,9772518,12,25.0,60.0,1500.0,Fireball Closeout
-Osseo,1000082008,088004144678,Fireball Whisky Liter,9772518,12,40.0,60.0,2400.0,Fireball Closeout
-Plymouth,1000082009,088004144678,Fireball Whisky Liter,9772518,12,40.0,60.0,2400.0,Fireball Closeout
-Roseville,1000082012,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
-St. Louis Park,1000082013,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
-Vadnais Heights,1000082015,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
-Woodbury,1000082016,088004144678,Fireball Whisky Liter,9772518,12,50.0,60.0,3000.0,Fireball Closeout
-Andover,1000082001,088004144708,Fireball Whisky 50ml,9772517,120,30.0,5.0,150.12,Fireball Closeout
-Chanhassen,1000082004,088004144708,Fireball Whisky 50ml,9772517,120,5.0,5.0,25.02,Fireball Closeout
-Osseo,1000082008,088004144708,Fireball Whisky 50ml,9772517,120,21.0,5.0,105.08,Fireball Closeout
-Plymouth,1000082009,088004144708,Fireball Whisky 50ml,9772517,120,12.0,5.0,60.05,Fireball Closeout
-Roseville,1000082012,088004144708,Fireball Whisky 50ml,9772517,120,24.0,5.0,120.1,Fireball Closeout
-St. Louis Park,1000082013,088004144708,Fireball Whisky 50ml,9772517,120,22.0,5.0,110.09,Fireball Closeout
-Vadnais Heights,1000082015,088004144708,Fireball Whisky 50ml,9772517,120,24.0,5.0,120.1,Fireball Closeout
-Woodbury,1000082016,088004144708,Fireball Whisky 50ml,9772517,120,13.0,5.0,65.05,Fireball Closeout
+Woodbury,1033403,012354001688,19 Crimes Banished Dark Red 750ml,9240897,12,1.0,80.0,80.0,Month End
+Blaine,1033208,012354001855,Penfold's Max's Shiraz 750ml,9786853,12,1.0,144.0,144.0,Month End
+Andover,1033193,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
+Blaine,1033208,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
+Cottage Grove,1033248,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
+Roseville,1033338,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
+St. Louis Park,1033354,012354071209,Penfold's Cab/Shiraz Bin 389 750ml,9745857,6,0.5,336.0,168.0,Month End
+Minneapolis,1032959,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
+Minnetonka,1032984,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
+Andover,1033193,080516135144,Riunite Lambrusco 750ml,1827344,12,1.0,64.0,64.0,Month End
+Woodbury,1033403,080516135144,Riunite Lambrusco 750ml,1827344,12,1.0,64.0,64.0,Month End
+Roseville,1033098,083664868377,Sailor Jerry Spiced Rum Liter,9001739,12,1.0,171.0,171.0,Store Request
+Blaine,1032868,083664868735,Sailor Jerry Spiced Rum 1.75L,9001703,6,1.0,112.5,112.5,
+Woodbury,1033167,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
+Roseville,1033098,083664869718,Sailor Jerry Spiced Rum Traveler,9019342,12,1.0,144.0,144.0,Store Request
+Blaine,1032868,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
+Cottage Grove,1032952,083664990436,Hendrick's Gin 750ml,9018599,6,1.0,148.5,148.5,Store Request
+Blaine,1033208,084692479047,Cakebread Cellars Sauv Blanc 750ml,9735739,12,0.5,280.0,140.0,Month End
+Minneapolis,1033262,084692691661,Mr Soju Pink Pineapple 375ml,9805557,20,1.0,82.75,82.75,Month End
+Minneapolis,1033262,084692691685,Mr Soju Strawberry Matcha 375ml,9805558,20,1.0,82.75,82.75,Month End
+Minneapolis,1033262,084692691708,Mr Soju Peach 375ml,9805375,20,1.0,82.75,82.75,Month End
+St. Louis Park,1033354,085798400720,Alexander Valley Vineyards Rose of Sangiovese 750ml,9770729,12,1.0,144.0,144.0,Month End
+Minneapolis,1032959,086767500069,Goldschlager 750ml,9000447,12,1.0,198.0,198.0,
+Andover,1033193,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,Month End
+Woodbury,1033403,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,Month End
+Minneapolis,1033262,086785000084,Cavit Pinot Grigio 750ml,9735727,12,1.0,88.0,88.0,Month End
+Chanhassen,1033233,086785211626,Bottega Vinaia Pinot Grigio 750ml,9736227,12,1.0,168.0,168.0,Month End
+Blaine,1033208,086785212081,Cavit Riesling 1.5L,9735468,6,1.0,60.0,60.0,Month End
+Bloomington,1033220,087872630122,Stella Rosa Moscato D'Asti 750ml,9746655,12,1.0,104.0,104.0,Month End
+Plymouth,1033293,087872630122,Stella Rosa Moscato D'Asti 750ml,9746655,12,1.0,104.0,104.0,Month End
+Woodbury,1033403,087872630122,Stella Rosa Moscato D'Asti 750ml,9746655,12,1.0,104.0,104.0,Month End
+Minneapolis,1033262,087872630139,Stella Rosa Rosso 750ml,9747142,12,1.0,104.0,104.0,Month End
+Roseville,1033338,087872632225,Stella Rosa Berry 750ml,9746336,12,1.0,104.0,104.0,Month End
+Roseville,1033338,087872632232,Stella Rosa Pink 750ml,9747145,12,1.0,104.0,104.0,Month End
+Blaine,1033208,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
+Cottage Grove,1033248,087872633406,Stella Rosa Red 750ml,9746834,12,1.0,104.0,104.0,Month End
+Rosemount,1033320,087872633635,Stella Rosa Golden Honey Peach 750ml,9746565,12,1.0,104.0,104.0,Month End
+Bloomington,1032892,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
+Minneapolis,1032959,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
+Osseo,1033003,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
+Blaine,1032868,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
+Plymouth,1033027,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
+Minneapolis,1032959,088004009588,Dr.McGillicuddy's Wild Grape 50ml,9219498,120,1.0,71.05,71.05,
+Minneapolis,1032959,088004009755,Dr McGillicuddys Apple Pie 50ml,9219465,120,1.0,71.05,71.05,
+Minneapolis,1032959,088004009786,Dr. McGillicuddy's Peach 750ml,9219508,12,1.0,117.0,117.0,
+Andover,1032843,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
+Minneapolis,1032959,088004010126,Taaka Vodka 1.75L,9031608,6,2.0,52.71,105.42,
+Minneapolis,1032959,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
+Blaine,1032868,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Minneapolis,1032959,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Roseville,1033080,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+St. Louis Park,1033104,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Vadnais Heights,1033142,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Blaine,1032868,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
+Roseville,1033080,088004020323,Dr Mcgillicuddy Butterscotch 50ml,9219489,120,1.0,71.05,71.05,
+Osseo,1033003,088004035761,Goldschlager 50ml,9007996,120,3.0,71.05,213.16,
+Vadnais Heights,1033142,088004060060,Traveller Whiskey 750ml,9706276,12,1.0,315.0,315.0,
+Andover,1032848,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,4.0,139.5,558.0,Fireball Torch'd Presell
+Blaine,1032874,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,5.0,139.5,697.5,Fireball Torch'd Presell
+Bloomington,1032897,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,1.0,139.5,139.5,Fireball Torch'd Presell
+Cottage Grove,1032939,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,3.0,139.5,418.5,Fireball Torch'd Presell
+Minneapolis,1032964,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,5.0,139.5,697.5,Fireball Torch'd Presell
+Plymouth,1033031,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
+Ramsey,1033047,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,1.0,139.5,139.5,Fireball Torch'd Presell
+Rosemount,1033065,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
+Roseville,1033084,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
+St. Louis Park,1033108,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
+Stillwater,1033127,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,1.0,139.5,139.5,Fireball Torch'd Presell
+Vadnais Heights,1033146,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
+Woodbury,1033172,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
+Andover,1032848,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,4.0,99.0,396.0,Fireball Torch'd Presell
+Blaine,1032874,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,7.0,99.0,693.0,Fireball Torch'd Presell
+Bloomington,1032897,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
+Chanhassen,1032915,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Fireball Torch'd Presell
+Cottage Grove,1032939,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
+Minneapolis,1032964,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,18.0,99.0,1782.0,Fireball Torch'd Presell
+Minnetonka,1032989,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Fireball Torch'd Presell
+Osseo,1033008,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
+Plymouth,1033031,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Fireball Torch'd Presell
+Ramsey,1033047,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Fireball Torch'd Presell
+Rosemount,1033065,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
+Roseville,1033084,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,3.0,99.0,297.0,Fireball Torch'd Presell
+St. Louis Park,1033108,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
+Stillwater,1033127,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Fireball Torch'd Presell
+Vadnais Heights,1033146,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Fireball Torch'd Presell
+Woodbury,1033172,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
+Andover,1032848,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,10.0,71.05,710.52,Fireball Torch'd Presell
+Blaine,1032874,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,12.0,71.05,852.62,Fireball Torch'd Presell
+Bloomington,1032897,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,5.0,71.05,355.26,Fireball Torch'd Presell
+Chanhassen,1032915,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,3.0,71.05,213.16,Fireball Torch'd Presell
+Cottage Grove,1032939,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,5.0,71.05,355.26,Fireball Torch'd Presell
+Minneapolis,1032964,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,30.0,71.05,2131.56,Fireball Torch'd Presell
+Minnetonka,1032989,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,1.0,71.05,71.05,Fireball Torch'd Presell
+Osseo,1033008,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,5.0,71.05,355.26,Fireball Torch'd Presell
+Plymouth,1033031,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,3.0,71.05,213.16,Fireball Torch'd Presell
+Ramsey,1033047,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,6.0,71.05,426.31,Fireball Torch'd Presell
+Rosemount,1033065,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,2.0,71.05,142.1,Fireball Torch'd Presell
+Roseville,1033084,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,2.0,71.05,142.1,Fireball Torch'd Presell
+St. Louis Park,1033108,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,3.0,71.05,213.16,Fireball Torch'd Presell
+Stillwater,1033127,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,2.0,71.05,142.1,Fireball Torch'd Presell
+Vadnais Heights,1033146,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,5.0,71.05,355.26,Fireball Torch'd Presell
+Woodbury,1033172,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,6.0,71.05,426.31,Fireball Torch'd Presell
+Andover,1032843,088004144081,Dr McGillicuddys Mentholmint 50ml,9031417,120,1.0,71.05,71.05,
+Minneapolis,1032959,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,
+Andover,1032862,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,Store Request
+Minneapolis,1032959,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
+Minneapolis,1032959,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
+Minneapolis,1032959,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
+Cottage Grove,1032932,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,
+Minneapolis,1032959,089000582595,Hartley Brandy VSOP 50ml,9184681,120,1.0,45.85,45.85,
+Roseville,1033338,089016000853,Capriccio Bubbly Sangria 375ml 4pk,9700665,6,1.0,64.0,64.0,Month End
+St. Louis Park,1033354,089121068823,J Lohr Chardonnay 750ml,9087944,12,5.0,104.0,520.0,Month End
+Blaine,1033208,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,1.0,160.0,160.0,Month End
+Plymouth,1033293,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,5.0,144.0,720.0,Month End
+Woodbury,1033403,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,1.0,160.0,160.0,Month End
+Blaine,1033208,089744765505,Riunite Lambrusco 1.5L,1827328,6,1.0,44.0,44.0,Month End
+Vadnais Heights,1033385,089744765505,Riunite Lambrusco 1.5L,1827328,6,1.0,44.0,44.0,Month End
+Minneapolis,1033262,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,Month End
+Minnetonka,1033275,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,Month End
+Rosemount,1033320,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,Month End
+Roseville,1033338,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,Month End
+St. Louis Park,1033354,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,2.0,104.0,208.0,Month End
+Osseo,1033285,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,168.0,168.0,Month End
+Cottage Grove,1033248,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,Month End
+Osseo,1033285,669576019252,Decoy Merlot 750ml,9780625,12,1.0,168.0,168.0,Month End
+St. Louis Park,1033354,720815042537,Routestock Pinot Noir 750ml,9749114,12,1.0,180.0,180.0,Month End
+Minneapolis,1032959,766427005294,"Twisted Shotz Suck it up, Buttercup 4pk",9751659,18,1.0,70.1,70.1,
+Minnetonka,1033275,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,Month End
+Rosemount,1033320,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,Month End
+Osseo,1033285,847159001812,Harken Chardonnay 750ml,9194024,12,1.0,120.0,120.0,Month End
+Blaine,1033208,847159002024,Creamery Chardonnay 750ml,9295405,12,2.0,91.0,182.0,Month End
+Chanhassen,1033233,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,Month End
+Plymouth,1033293,847159002024,Creamery Chardonnay 750ml,9295405,12,2.0,91.0,182.0,Month End
+Ramsey,1033306,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,Month End
+Rosemount,1033320,847159002024,Creamery Chardonnay 750ml,9295405,12,3.0,91.0,273.0,Month End
+Roseville,1033338,847159002024,Creamery Chardonnay 750ml,9295405,12,2.0,91.0,182.0,Month End
+Rosemount,1033320,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12,1.0,120.0,120.0,Month End
+Vadnais Heights,1033385,860002633039,Une Femme The Betty Sparkling 250ml,9643921,24,1.0,72.0,72.0,Month End
+Cottage Grove,1032952,88004144647,Dr McGillicuddys Vanilla Traveler,9220634,12,2.0,117.0,234.0,Store Request
+Andover,1033193,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,Month End
+Chanhassen,1033233,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,Month End
+Osseo,1033285,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,102.0,102.0,Month End
+Plymouth,1033293,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,102.0,102.0,Month End
+Roseville,1033338,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,Month End
+Vadnais Heights,1033161,898563002506,Carpano Antica Formula 375ml,9158655,12,1.0,180.0,180.0,Store Request
+Andover,1033193,899552102276,Pacific Rim Sweet Riesling 750ml,9069009,12,1.0,80.0,80.0,Month End
+Blaine,1033208,899552102276,Pacific Rim Sweet Riesling 750ml,9069009,12,2.0,80.0,160.0,Month End
+Rosemount,1033320,899552102276,Pacific Rim Sweet Riesling 750ml,9069009,12,1.0,80.0,80.0,Month End

@@ -1,13 +1,147 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
+Cottage Grove,1032930,014800516470,Clamato Tomato Cocktail 64oz,MIXMCHG,8,1.0,47.98,47.98,
+Minneapolis,1032957,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,1.0,23.76,23.76,
+Minneapolis,1032957,014800582178,ReaLemon 5oz,MIX00005,24,2.0,23.76,47.52,
+Minneapolis,1032957,016600000760,Roses Grenadine Liter,MIXRGL,12,1.0,69.5,69.5,
+Minneapolis,1032957,01667135,Roses Sweetened Lime Juice 12oz,MIXRLJ12,6,1.0,22.4,22.4,
+Minneapolis,1032957,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
+Minneapolis,1032957,023604231076,Twang Lime Beer Salt 1.4oz,mix23107,24,1.0,38.39,38.39,
+Minneapolis,1032957,031200007360,Ocean Spray Orange Juice 32oz,JUIOJ32,12,1.0,42.32,42.32,
+Woodbury,1033166,031200007360,Ocean Spray Orange Juice 32oz,JUIOJ32,12,1.0,42.32,42.32,
+Minneapolis,1032957,038900008086,Dole Pineapple Juice 46oz,JUIDP46,12,1.0,55.8,55.8,
+Minneapolis,1032957,041409000062,ReaLime 5oz,MIX00006,24,2.0,23.76,47.52,
+Minneapolis,1032957,050037014501,Disaronno Amaretto 750ml,6264514,12,1.0,252.0,252.0,
+Minneapolis,1032957,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
+Vadnais Heights,1033141,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
+Andover,1032861,076381123454,Jose Cuervo  Margarita Salt 6oz,mix12345,12,1.0,26.73,26.73,Store Request
+Minneapolis,1032957,076381123454,Jose Cuervo  Margarita Salt 6oz,mix12345,12,1.0,26.73,26.73,
+Plymouth,1033026,076381123454,Jose Cuervo  Margarita Salt 6oz,mix12345,12,1.0,26.73,26.73,
+Woodbury,1033166,076381123454,Jose Cuervo  Margarita Salt 6oz,mix12345,12,1.0,26.73,26.73,
+Minneapolis,1032957,080244003715,Buffalo Trace Bourbon Cream 750ml,8368214,12,1.0,198.0,198.0,
+Minnetonka,1033270,080960100644,Readers Cabernet Sauvignon 750ml,1146004,12,1.0,137.0,137.0,
+Chanhassen,1032909,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,Bellboy August Month End
+Cottage Grove,1032929,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,Bellboy August Month End
+Minneapolis,1032956,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,Bellboy August Month End
+Plymouth,1033025,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,Bellboy August Month End
+Woodbury,1033165,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,Bellboy August Month End
+Andover,1032861,082000766834,Captain Morgan White Liter,7868215,12,1.0,153.95,153.95,Store Request
+Minneapolis,1032957,082000766834,Captain Morgan White Liter,7868215,12,1.0,153.95,153.95,
+Woodbury,1033166,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
+Blaine,1032866,08256801,Jose Cuervo Gold Tequila 50ml,8468568,120,1.0,153.0,153.0,
+Minneapolis,1032957,083664869213,Reyka Vodka 750ml,8511014,6,2.0,89.0,178.0,
+St. Louis Park,1033103,083664869282,Reyka Vodka Liter,8511015,6,1.0,107.0,107.0,
+Cottage Grove,1032931,084105307509,Fernet-Branca 750ml,7664704,6,0.5,0.0,0.0,Bellboy Free Goods
+Andover,1032840,085156803682,Ketel One Vodka 1.75L,8595619,6,3.0,152.75,458.25,Bellboy August Month End
+Blaine,1032865,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,Bellboy August Month End
+Cottage Grove,1032929,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,Bellboy August Month End
+Minneapolis,1032956,085156803682,Ketel One Vodka 1.75L,8595619,6,3.0,152.75,458.25,Bellboy August Month End
+Minnetonka,1032983,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,Bellboy August Month End
+Plymouth,1033025,085156803682,Ketel One Vodka 1.75L,8595619,6,2.0,152.75,305.5,Bellboy August Month End
+Ramsey,1033043,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,Bellboy August Month End
+Rosemount,1033060,085156803682,Ketel One Vodka 1.75L,8595619,6,7.0,152.75,1069.25,Bellboy August Month End
+St. Louis Park,1033102,085156803682,Ketel One Vodka 1.75L,8595619,6,12.0,152.75,1833.0,Bellboy August Month End
+Stillwater,1033123,085156803682,Ketel One Vodka 1.75L,8595619,6,4.0,152.75,611.0,Bellboy August Month End
+Vadnais Heights,1033140,085156803682,Ketel One Vodka 1.75L,8595619,6,4.0,152.75,611.0,Bellboy August Month End
+Andover,1032840,086767210067,Bailey's Irish Cream 750ml,7177014,12,1.0,221.5,221.5,Bellboy August Month End
+Blaine,1032865,086767210067,Bailey's Irish Cream 750ml,7177014,12,2.0,221.5,443.0,Bellboy August Month End
+Minneapolis,1032956,086767210067,Bailey's Irish Cream 750ml,7177014,12,2.0,221.5,443.0,Bellboy August Month End
+Osseo,1033002,086767210067,Bailey's Irish Cream 750ml,7177014,12,1.0,221.5,221.5,Bellboy August Month End
+Minneapolis,1032957,086767705433,Rumple Minze 375ml,7693612,12,1.0,85.0,85.0,
+Minneapolis,1032956,087000005525,Bulleit Bourbon 750ml,8373004,12,4.0,230.0,920.0,Bellboy August Month End
+St. Louis Park,1033102,087000005525,Bulleit Bourbon 750ml,8373004,12,1.0,230.0,230.0,Bellboy August Month End
+Minneapolis,1032957,087000007604,Crown Royal Canadian 375ml,6863112,24,1.0,295.95,295.95,
+Andover,1032861,087000201781,Captain Morgan Private Stock 750ml,7868334,12,1.0,242.0,242.0,Store Request
+Vadnais Heights,1033160,087236700362,The Botanist Islay Gin 750ml,7295104,6,1.0,160.0,160.0,Store Request
+Andover,1032841,08727707,Captain Morgan Spiced Rum 375ml,7868312,24,1.0,170.0,170.0,
+Cottage Grove,1032930,08727707,Captain Morgan Spiced Rum 375ml,7868312,24,1.0,170.0,170.0,
+Minneapolis,1032957,08727707,Captain Morgan Spiced Rum 375ml,7868312,24,1.0,170.0,170.0,
+Woodbury,1033166,08727707,Captain Morgan Spiced Rum 375ml,7868312,24,1.0,170.0,170.0,
+Roseville,1033097,08771300,Myers's Dark Rum 750ml,7897514,12,11.0,181.75,1999.25,Store Request
+Andover,1032840,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy August Month End
+Blaine,1032867,088004069155,Fireball Blazin' Apple 50ml,8366118,120,3.0,0.0,0.0,Bellboy Free Goods
+Cottage Grove,1032929,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy August Month End
+Osseo,1033002,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy August Month End
+St. Louis Park,1033102,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy August Month End
+Stillwater,1033123,088004069155,Fireball Blazin' Apple 50ml,8366118,120,1.0,78.95,78.95,Bellboy August Month End
+Blaine,1032887,088004139940,Sazerac Rye 750ml,8360914,6,1.0,179.0,179.0,Store Request
+Blaine,1032865,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+Chanhassen,1032909,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+Rosemount,1033060,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+Roseville,1033078,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+St. Louis Park,1033102,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+Vadnais Heights,1033140,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+Woodbury,1033165,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,Bellboy August Month End
+Minneapolis,1032957,096749002245,Henry McKenna Bourbon 750ml,8393314,12,1.0,97.5,97.5,
+Blaine,1032887,096749002429,Heaven Hill Bottled-in-Bond 7yr 750ml,6863004,6,1.0,220.0,220.0,Store Request
+Blaine,1032887,096749200566,Henry Mckenna 10 Yr Single 750ml,8393324,6,1.0,268.0,268.0,Store Request
+Chanhassen,1032910,197644697847,Tonka Vodka 50ml,8563008,60,1.0,40.0,40.0,
 Blaine,1032763,400000025117,Foundry Nation Two Scoops Cherry 10mg THC 4pk 12oz can,9917072,6,2.0,78.4,156.8,
-Roseville,1032773,810012698078,BLNCD Adaptogen Elixir Zen Blend 5mg THC 4pk 12oz can,9918072,6,1.0,70.6,70.6,
+Minneapolis,1032957,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,1.0,742.0,742.0,
+Andover,1032841,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
+Minneapolis,1032957,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
+Plymouth,1033026,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
+Rosemount,1033061,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
+Roseville,1033079,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
+Andover,1032840,674545000001,Don Julio Blanco Tequila 750ml,8491924,6,1.0,175.0,175.0,Bellboy August Month End
+Blaine,1032865,674545000001,Don Julio Blanco Tequila 750ml,8491924,6,2.0,175.0,350.0,Bellboy August Month End
+Bloomington,1032890,674545000001,Don Julio Blanco Tequila 750ml,8491924,6,2.0,175.0,350.0,Bellboy August Month End
+Minneapolis,1032956,674545000001,Don Julio Blanco Tequila 750ml,8491924,6,2.0,175.0,350.0,Bellboy August Month End
+Andover,1032840,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,2.0,185.0,370.0,Bellboy August Month End
+Blaine,1032865,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,7.0,185.0,1295.0,Bellboy August Month End
+Chanhassen,1032909,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,2.0,185.0,370.0,Bellboy August Month End
+Cottage Grove,1032929,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,12.0,185.0,2220.0,Bellboy August Month End
+Minneapolis,1032956,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,30.0,185.0,5549.99,Bellboy August Month End
+Minnetonka,1032983,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,1.0,185.0,185.0,Bellboy August Month End
+Osseo,1033002,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,9.0,185.0,1665.0,Bellboy August Month End
+Plymouth,1033025,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,5.0,185.0,925.0,Bellboy August Month End
+Ramsey,1033043,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,4.0,185.0,740.0,Bellboy August Month End
+Rosemount,1033060,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,7.0,185.0,1295.0,Bellboy August Month End
+St. Louis Park,1033102,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,3.0,185.0,555.0,Bellboy August Month End
+Vadnais Heights,1033140,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,1.0,185.0,185.0,Bellboy August Month End
+Woodbury,1033165,674545000414,Don Julio Reposado Tequila 750ml,8491944,6,14.0,185.0,2590.0,Bellboy August Month End
+Chanhassen,1032911,695521103011,Citadelle Gin 750ml,7268414,6,1.0,0.0,0.0,Bellboy Free Goods
+Minneapolis,1032958,695521103011,Citadelle Gin 750ml,7268414,6,1.0,0.0,0.0,Bellboy Free Goods
+Rosemount,1033060,695521103011,Citadelle Gin 750ml,7268414,6,1.0,124.0,124.0,Bellboy August Month End
+Vadnais Heights,1033140,695521103011,Citadelle Gin 750ml,7268414,6,1.0,124.0,124.0,Bellboy August Month End
+Andover,1032842,695521151586,Plantation 3 Stars Silver Liter,7872715,6,2.0,0.0,0.0,Bellboy Free Goods
+Chanhassen,1032909,695521151586,Plantation 3 Stars Silver Liter,7872715,6,1.0,101.0,101.0,Bellboy August Month End
+Cottage Grove,1032929,695521151586,Plantation 3 Stars Silver Liter,7872715,6,1.0,101.0,101.0,Bellboy August Month End
+Minneapolis,1032956,695521151586,Plantation 3 Stars Silver Liter,7872715,6,1.0,101.0,101.0,Bellboy August Month End
+Roseville,1033078,695521151586,Plantation 3 Stars Silver Liter,7872715,6,1.0,101.0,101.0,Bellboy August Month End
+Minneapolis,1032956,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy August Month End
+Plymouth,1033025,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy August Month End
+Rosemount,1033060,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy August Month End
+Stillwater,1033123,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Bellboy August Month End
+Blaine,1032865,695521154822,Planteray Original Dark Rum Liter,7872705,6,2.0,101.0,202.0,Bellboy August Month End
+Cottage Grove,1032929,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,Bellboy August Month End
+Plymouth,1033025,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,Bellboy August Month End
+Roseville,1033078,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,Bellboy August Month End
+Blaine,1032865,695521154860,Planteray 5yr Rum 750ml,7872724,6,1.0,135.5,135.5,Bellboy August Month End
+Andover,1032842,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,0.0,0.0,Bellboy Free Goods
+Chanhassen,1032911,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,0.0,0.0,Bellboy Free Goods
+Cottage Grove,1032931,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,0.0,0.0,Bellboy Free Goods
+Minneapolis,1032956,721059707503,Espolon Blanco Tequila 750ml,8440174,12,4.0,255.0,1020.0,Bellboy August Month End
+Plymouth,1033025,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,Bellboy August Month End
+St. Louis Park,1033102,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,Bellboy August Month End
+Vadnais Heights,1033140,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,Bellboy August Month End
+Woodbury,1033165,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,Bellboy August Month End
+Minneapolis,1032956,721059707510,Espolon Reposado Tequila 750ml,8440184,12,3.0,270.0,810.0,Bellboy August Month End
+Plymouth,1033025,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy August Month End
+St. Louis Park,1033102,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy August Month End
+Stillwater,1033123,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy August Month End
+Vadnais Heights,1033140,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy August Month End
+Woodbury,1033165,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,Bellboy August Month End
+Roseville,1033097,721094199059,Gosling's Black Seal 750ml,7878354,12,0.5,188.0,94.0,Store Request
+Minneapolis,1032957,721733000944,Patron Silver Tequila 375ml,8497322,12,1.0,185.0,185.0,
+Blaine,1033202,761919300024,Three Lakes Black Cab 750ml,3230184,12,1.0,104.0,104.0,
+Roseville,1032773,810012698078,BLNCD Adaptogen Elixir Zen Blend 5mg THC 4pk 12oz can,9918072,6,1.0,70.6,0.0,
 St. Louis Park,1032774,810012698481,BLNCD Brain Boost Adaptogen 50mg THC Gummies 10pk,9918025,6,1.0,72.0,72.0,
 Bloomington,1032764,810012698535,BLNCD Zen Blend Adaptogen 50mg THC Gummies 10pk,9918035,6,1.0,72.0,72.0,
 Chanhassen,1032765,810012698702,BLNCD Adaptogen Elixir Variety Pack 5mg THC 6pk 12oz can,9918142,4,1.0,62.2,62.2,
 Ramsey,1032771,810012698702,BLNCD Adaptogen Elixir Variety Pack 5mg THC 6pk 12oz can,9918142,4,1.0,62.2,62.2,
 Osseo,1032769,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
 Plymouth,1032770,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
-Roseville,1032773,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
+Roseville,1032773,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,0.0,
 Vadnais Heights,1032776,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
 Woodbury,1032777,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
 Andover,1032762,810012699761,Foundry Nation Soda Variety Pack 5mg THC 6pk 12oz can,MNGODFNSVP60,4,1.0,53.8,53.8,
@@ -27,21 +161,87 @@ Minneapolis,1032767,840006314424,BLNCD Prickly Pear Bee's Knees 10mg THC 4pk 12o
 Rosemount,1032772,840006314448,BLNCD Cranberry Pomegrante Mule 10mg THC 4pk 12oz can,9918112,6,1.0,78.4,78.4,
 Chanhassen,1032765,840006315834,Two Scoops Variety Pack 12pk 12oz can,9917132,2,1.0,62.0,62.0,
 Cottage Grove,1032766,840006315841,BLNCD Mocktail Variety Pack 10mg 12pk 12oz can,9918172,2,1.0,63.0,63.0,
+Andover,1032844,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,4.0,140.6,562.4,Buyers Select
+Blaine,1032869,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,6.0,140.6,843.6,Buyers Select
+Bloomington,1032893,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,3.0,140.6,421.8,Buyers Select
+Chanhassen,1032912,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,3.0,140.6,421.8,Buyers Select
+Cottage Grove,1032933,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,4.0,140.6,562.4,Buyers Select
+Minneapolis,1032960,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,3.0,140.6,421.8,Buyers Select
+Minnetonka,1032985,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,2.0,140.6,281.2,Buyers Select
+Osseo,1033004,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,2.0,140.6,281.2,Buyers Select
+Plymouth,1033028,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,3.0,140.6,421.8,Buyers Select
+Ramsey,1033044,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,2.0,140.6,281.2,Buyers Select
+Rosemount,1033062,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,4.0,140.6,0.0,Buyers Select
+Roseville,1033081,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,5.0,140.6,703.0,Buyers Select
+St. Louis Park,1033105,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,5.0,140.6,703.0,Buyers Select
+Stillwater,1033124,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,2.0,140.6,281.2,Buyers Select
+Vadnais Heights,1033143,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,3.0,140.6,421.8,Buyers Select
+Woodbury,1033168,850024202573,Don Cosme Tequila Blanco 750ml,8499904,6,5.0,140.6,0.0,Buyers Select
+Andover,1032844,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,3.0,150.55,451.65,Buyers Select
+Blaine,1032869,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,5.0,150.55,752.75,Buyers Select
+Bloomington,1032893,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,2.0,150.55,301.1,Buyers Select
+Chanhassen,1032912,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,2.0,150.55,301.1,Buyers Select
+Cottage Grove,1032933,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,4.0,150.55,602.2,Buyers Select
+Minneapolis,1032960,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,3.0,150.55,451.65,Buyers Select
+Minnetonka,1032985,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,1.0,150.55,150.55,Buyers Select
+Osseo,1033004,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,1.0,150.55,150.55,Buyers Select
+Plymouth,1033028,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,2.0,150.55,301.1,Buyers Select
+Ramsey,1033044,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,1.0,150.55,150.55,Buyers Select
+Rosemount,1033062,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,2.0,150.55,0.0,Buyers Select
+Roseville,1033081,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,4.0,150.55,602.2,Buyers Select
+St. Louis Park,1033105,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,5.0,150.55,752.75,Buyers Select
+Stillwater,1033124,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,2.0,150.55,301.1,Buyers Select
+Vadnais Heights,1033143,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,2.0,150.55,301.1,Buyers Select
+Woodbury,1033168,850024202580,Don Cosme Tequila Reposado 750ml,8499914,6,3.0,150.55,0.0,Buyers Select
+Andover,1032844,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Blaine,1032869,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,2.0,183.55,367.1,Buyers Select
+Bloomington,1032893,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Chanhassen,1032912,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Cottage Grove,1032933,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Minneapolis,1032960,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Minnetonka,1032985,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Plymouth,1033028,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+Rosemount,1033062,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,0.0,Buyers Select
+Roseville,1033081,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,183.55,Buyers Select
+St. Louis Park,1033105,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,2.0,183.55,367.1,Buyers Select
+Woodbury,1033168,850024202597,Don Cosme Tequila Anejo 750ml,8499924,6,1.0,183.55,0.0,Buyers Select
 Blaine,1032763,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,1.0,72.0,72.0,
+Roseville,1032773,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,2.0,72.0,0.0,
 Blaine,1032763,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
 Bloomington,1032764,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
+Roseville,1032773,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,0.0,
+Roseville,1032773,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,649696068620,6,2.0,72.0,0.0,
 Blaine,1032763,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,2.0,72.0,144.0,
 Osseo,1032769,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,1.0,72.0,72.0,
 Plymouth,1032770,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,1.0,72.0,72.0,
-Roseville,1032773,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,96.0,
+Roseville,1032773,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,0.0,
 Plymouth,1032770,850063284134,Minny Grown CBG Pink Lemonade 10 Pack,9912205,12,1.0,96.0,96.0,
 St. Louis Park,1032774,850063284141,Minny Grown CBC Watermelon Kiwi 10 Pack,9912195,12,1.0,96.0,96.0,
 Blaine,1032763,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
 Ramsey,1032771,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
 Rosemount,1032772,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Roseville,1032773,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
+Roseville,1032773,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,0.0,
 Chanhassen,1032765,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
 Plymouth,1032770,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
+Minneapolis,1032957,852546003096,Tonka Vodka 1.75L,8563009,6,2.0,90.0,180.0,
+Minneapolis,1032956,855400005014,Jackson Morgan Brown Sugar & Cinnamon 750ml,7177144,6,1.0,111.0,111.0,Bellboy August Month End
+Blaine,1032867,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,0.0,0.0,Bellboy Free Goods
+Bloomington,1032891,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,0.0,0.0,Bellboy Free Goods
+Cottage Grove,1032929,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,111.0,111.0,Bellboy August Month End
+Minneapolis,1032956,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,111.0,111.0,Bellboy August Month End
+Rosemount,1033060,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,111.0,111.0,Bellboy August Month End
+Roseville,1033078,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,111.0,111.0,Bellboy August Month End
+Woodbury,1033165,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,111.0,111.0,Bellboy August Month End
+Minneapolis,1032956,855400005045,Jackson Morgan Peaches & Cream 750ml,7177174,6,1.0,111.0,111.0,Bellboy August Month End
+Minneapolis,1032956,855400005083,Jackson Morgan Lemon Ice Box 750ml,7177254,6,1.0,111.0,111.0,Bellboy August Month End
+Roseville,1033078,855400005083,Jackson Morgan Lemon Ice Box 750ml,7177254,6,1.0,111.0,111.0,Bellboy August Month End
+Cottage Grove,1032929,855400005168,Jackson Morgan Salted Caramel Cream 50ml,7177118,60,1.0,115.0,115.0,Bellboy August Month End
+Minneapolis,1032956,855400005168,Jackson Morgan Salted Caramel Cream 50ml,7177118,60,1.0,115.0,115.0,Bellboy August Month End
+Woodbury,1033165,855400005168,Jackson Morgan Salted Caramel Cream 50ml,7177118,60,1.0,115.0,115.0,Bellboy August Month End
+Minneapolis,1032956,855400005267,Jackson Morgan Banana Pudding Cream 750ml,7177104,6,1.0,111.0,111.0,Bellboy August Month End
+Minneapolis,1032957,855439000691,Rokz Lime Margarita Salt 4oz,7203,6,1.0,22.75,22.75,
+Minneapolis,1032957,855439000738,Rokz Bloody Mary Salt 4oz,7204,6,1.0,22.75,22.75,
+Plymouth,1033026,855439000738,Rokz Bloody Mary Salt 4oz,7204,6,1.0,22.75,22.75,
 Cottage Grove,1032766,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
 Plymouth,1032770,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,2.0,96.0,192.0,
 Rosemount,1032772,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
@@ -50,7 +250,7 @@ Plymouth,1032770,860006677671,Minny Grown BlueBeary 10 Pack,9912095,12,1.0,96.0,
 Chanhassen,1032765,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
 Plymouth,1032770,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
 Rosemount,1032772,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
-Roseville,1032773,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
+Roseville,1032773,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,0.0,
 St. Louis Park,1032774,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
 Bloomington,1032764,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
 Plymouth,1032770,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
@@ -68,7 +268,7 @@ Osseo,1032769,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,9
 Andover,1032762,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Blaine,1032763,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,3.0,66.0,198.0,
 Plymouth,1032770,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,2.0,66.0,132.0,
-Roseville,1032773,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,2.0,66.0,132.0,
+Roseville,1032773,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,2.0,66.0,0.0,
 Stillwater,1032775,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Woodbury,1032777,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Blaine,1032763,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
@@ -78,22 +278,22 @@ Minnetonka,1032768,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,991103
 Osseo,1032769,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Plymouth,1032770,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Rosemount,1032772,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Roseville,1032773,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
+Roseville,1032773,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,0.0,
 Blaine,1032763,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
 Plymouth,1032770,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,3.0,96.0,288.0,
 Rosemount,1032772,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,3.0,96.0,288.0,
-Roseville,1032773,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
+Roseville,1032773,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,0.0,
 Woodbury,1032777,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
-Roseville,1032773,860009899384,Minny Grown CBD Chillbeary 10 Pack,9912175,12,1.0,96.0,96.0,
+Roseville,1032773,860009899384,Minny Grown CBD Chillbeary 10 Pack,9912175,12,1.0,96.0,0.0,
 Minneapolis,1032767,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
 Plymouth,1032770,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Roseville,1032773,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
+Roseville,1032773,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,0.0,
 Vadnais Heights,1032776,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
 Chanhassen,1032765,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
 Plymouth,1032770,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,3.0,96.0,288.0,
 Ramsey,1032771,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
 Rosemount,1032772,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Roseville,1032773,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Roseville,1032773,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,0.0,
 Rosemount,1032772,860012187997,Brez Double 5mg THC 4pk 12oz can,9919012,6,1.0,68.0,68.0,
 Rosemount,1032772,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
 St. Louis Park,1032774,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,

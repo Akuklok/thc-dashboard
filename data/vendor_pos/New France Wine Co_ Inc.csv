@@ -1,9 +1,14 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Woodbury,1032745,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
-Roseville,1032703,400000025630,Martin Woods Jessie James Pinot Noir 750ml,MartinWoodsPNJessieJames,12,1.0,528.0,528.0,Store Request
-Vadnais Heights,1032568,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
-Ramsey,1032506,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
-Vadnais Heights,1032568,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
-Blaine,1032425,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
-Roseville,1032523,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
-Woodbury,1032572,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,Allocated
+Bloomington,1033225,019962700514,Three Wine Co Escapade White Blend 750ml,ThreeEscapade,12,1.0,128.0,128.0,
+Bloomington,1033225,019962700712,Three Wine Co Gather Red Blend 750ml,ThreeGatherRed21,12,1.0,128.0,128.0,
+Bloomington,1033225,019962700910,Three Wine Co Faux Pas Refridgerator Red 750ml,ThreeFauxPas,12,1.0,136.0,136.0,
+Bloomington,1033225,094922115034,Three Wine Co. Red Blend 750ml,ThreeOldVineRed19,12,1.0,160.0,160.0,
+Bloomington,1033225,094922197344,Three Wine Co Established 1885 Red Blend 750ml,ThreeEstablished,12,1.0,376.0,376.0,
+Bloomington,1033225,094922299239,Three Wine Co Contra Zinfandel 750ml,ThreeZinfandelLodi/CC,12,1.0,128.0,128.0,
+St. Louis Park,1033360,3760072420072,J Laurens La Rose N7 750ml,LaurensRose,12,1.0,196.0,196.0,
+Blaine,1032870,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,Buyers Select
+Cottage Grove,1032934,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,Buyers Select
+Minnetonka,1032986,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,Buyers Select
+Woodbury,1033169,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,Buyers Select
+Cottage Grove,1032934,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,Buyers Select
+Minneapolis,1032975,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
