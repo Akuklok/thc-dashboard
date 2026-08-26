@@ -1,15 +1,15 @@
 ==========================================================================
-  RECOMMENDED BEER ORDER          Tuesday, Aug 25, 2026
+  RECOMMENDED BEER ORDER          Wednesday, Aug 26, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    384,599
-  Coverable by transfer .......  $    197,509   (51%)
-  NET BUY from vendors ........  $    160,373   <- the order
+  Gross need (all stores) .....  $    385,157
+  Coverable by transfer .......  $    191,484   (50%)
+  NET BUY from vendors ........  $    167,152   <- the order
 
-  481 items   |   14,551 units to buy   |   17,073 units to rebalance
-  Transfers: 1,661 moves  -  1375 urgent (575 stockouts, 800 under 2wk), 286 routine
+  470 items   |   15,123 units to buy   |   16,755 units to rebalance
+  Transfers: 1,639 moves  -  1356 urgent (566 stockouts, 790 under 2wk), 283 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 54 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 50 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -22,43 +22,42 @@
    6  Bent Paddle Light Lager  12pk 12oz   53u/53cs         $620     53     0   OUT
    7  Cutwater Grapefruit Tequila Paloma   48u/2cs            $0     39     0   OUT
    8  Fulton Brewing Chill City 6pk 12oz   2u/2cs            $10      2     0   OUT
-   9  Toppling Goliath Hazy Day Sue 6pk 1  24u/6cs          $240     23     0   OUT
-  10  Firestone Walker Cali Squeeze Blood  2u/2cs             $4      2     0   OUT
-  11  Lagunitas Hazy IPA 12pk 12oz can     34u/17cs         $408     34     0   OUT
-  12  Summit Sampler Pack 12pk 12oz can    26u/13cs         $343     47    21   OUT
-  13  Summit Saga Variety 12pk 12oz can    60u/30cs         $792     73    12   OUT
+   9  Firestone Walker Cali Squeeze Blood  2u/2cs             $4      2     0   OUT
+  10  Toppling Goliath Hazy Day Sue 6pk 1  24u/6cs          $240     24     0   OUT
+  11  Lagunitas Hazy IPA 12pk 12oz can     32u/16cs         $384     33     0   OUT
+  12  Summit Sampler Pack 12pk 12oz can    32u/16cs         $422     48    16   OUT
+  13  Summit Saga Variety 12pk 12oz can    64u/32cs         $845     74     9   OUT
   14  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
   15  Wooden Hill Kold Shoulder            7u/7cs            $52      7     0   OUT
   16  Schilling Grapefruit and Chill 6pk   4u/4cs            $35      4     0   OUT
   17  Modelo Especial                      6u/6cs             $1      6     0   OUT
-  18  Dogfish Head Raison D Extra          1u/1cs            $31      1     0   OUT
-  19  Stilly Vibe Machine (Grapefruit) 6p  4u/1cs            $46      3     0   OUT
-  20  Budweiser 40oz btl                   1u/1cs             $3      5     4   OUT
-  ...and 461 more in the full list.
+  18  Miller High Life Light 24pk 16oz ca  4u/4cs            $33      4     0   OUT
+  19  Dogfish Head Raison D Extra          1u/1cs            $31      1     0   OUT
+  20  Budweiser 40oz btl                   3u/3cs             $9      3     0   OUT
+  ...and 450 more in the full list.
 
-  NEEDS REVIEW (54 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (50 items the system isn't fully sure about - check before ordering):
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
-    Stilly Vibe Machine (Grapefruit) 6pk 12o  Seasonal - last year ~4/wk vs 1 now, buy ahead?
-    Budweiser 40oz btl                        Seasonal - last year ~10/wk vs 6 now, buy ahead?
+    Budweiser 40oz btl                        Seasonal - last year ~10/wk vs 5 now, buy ahead?
+    Stilly Vibe Machine (Grapefruit) 6pk 12o  Seasonal - last year ~5/wk vs 1 now, buy ahead?
     Earth Rider 6pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
     Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Modist Supra Deluxe Sea Salt Lime 16oz c  No cost data - verify price; Margin over 95% - check retail
     Toppling Goliath Oktoberfest 6pk 12oz ca  No cost data - verify price; Margin over 95% - check retail
-    Summit Lake Crusher/Winter 12pk 12oz can  Seasonal - last year ~59/wk vs 33 now, buy ahead?
+    Summit Lake Crusher/Winter 12pk 12oz can  Seasonal - last year ~60/wk vs 34 now, buy ahead?
     Wild State Rotating 4pk 12oz can          Seasonal - last year ~7/wk vs 2 now, buy ahead?
     Goose Island IPA 15pk 12oz can            Seasonal - last year ~4/wk vs 1 now, buy ahead?
-    Mystery Beer 24pk                         Seasonal - last year ~817/wk vs 85 now, buy ahead?
+    Modelo Oro 24pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
+    Mystery Beer 24pk                         Seasonal - last year ~801/wk vs 86 now, buy ahead?
     Toppling Goliath Psuedo Sue               No cost data - verify price; Margin over 95% - check retail
     Loon Juice Honeycrisp Haze 12pk 12oz can  No cost data - verify price; Margin over 95% - check retail
-    Paulaner Oktoberfest                      No cost data - verify price; Margin over 95% - check retail
     Surly One Man Mosh Pit Imperial 6pk 12oz  No cost data - verify price; Margin over 95% - check retail
-    ...and 39 more (see Needs Review tab).
+    ...and 35 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (6 discontinued items still selling/low - run down stock):
     Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 20u)
-    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 16u)
     Athletic Lite N/A 6pk 12oz can              (would have bought 8u)
     Dogfish Head Blood Orange Mango Crush 4pk   (would have bought 1u)
-    Heineken 0.0 NA 12pk 12oz can               (would have bought 16u)
+    Heineken 0.0 NA 12pk 12oz can               (would have bought 14u)
     Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 6u)
     The Finnish Long Drink Traditional 6pk 12o  (would have bought 36u)
