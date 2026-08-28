@@ -1,2 +1,5 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Plymouth,1033300,669835225349,St Croix Vineyards Raspberry Infusion 375ml,RaspbeNV,12,1.0,126.0,126.0,
+Bloomington,PO0000001810,669835222263,St Croix Vineyards Frontenac Gris 750ml,FronGr21,12,1.0,145.0,0.0,
+Bloomington,PO0000001810,669835222416,St Croix Vineyards Itasca,scvitasc20,12,1.0,160.0,0.0,
+Bloomington,PO0000001810,669835224144,St Croix Vineyards Marquette,Marque20,12,1.0,174.0,0.0,
+Bloomington,PO0000001810,669835225219,St Croix Vineyards Sunset Red 750ml,SummerNV,12,1.0,132.0,0.0,

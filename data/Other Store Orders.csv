@@ -4,13 +4,15 @@ Andover,Bellboy Corporation,SBOC Pitted Green Olives 4oz,089156801082,0,0.0,1,6,
 Andover,Bellboy Corporation,Clamato Tomato Cocktail 64oz,014800516470,0,0.0,1,8,6.0,48.0
 Andover,Bellboy Corporation,Fee Brothers Bitters 4oz,791863140506,0,0.0,1,12,5.38,65.0
 Andover,Bellboy Corporation,Fee Brothers Orange Bitters 5oz,791863140513,0,0.0,1,12,7.76,93.0
-Andover,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,4,1.6,1,12,13.57,163.0
+Andover,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,4,1.6,1,12,13.58,163.0
+Andover,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,5,3.1,1,12,1.84,22.0
 Andover,Bellboy Corporation,Roses Grenadine 25oz,016600001040,5,3.1,1,12,5.83,70.0
+Andover,Bellboy Corporation,ReaLime 5oz,041409000062,17,3.8,1,24,0.99,24.0
 Andover,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Kickled Mary Bloody Mary Mix 32oz,682131860038,0,0.0,1,12,7.36,88.0
-Andover,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water w/Lime Liter,071537020670,6,0.6,3,36,0.7,25.0
-Andover,"Capitol Beverage Sales, L.P.",Mr Pure Pineapple Juice 32oz,072718100631,2,1.0,1,12,2.59,31.0
-Andover,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,7,1.4,2,24,0.86,21.0
-Andover,"Chas A. Bernick, Inc.",Mr Pure Cranberry Juice 16oz,072718100709,3,1.6,1,12,1.02,12.0
+Andover,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water w/Lime Liter,071537020670,0,0.0,4,48,0.7,34.0
+Andover,"Capitol Beverage Sales, L.P.",Mr Pure Pineapple Juice 32oz,072718100631,2,1.0,1,12,2.6,31.0
+Andover,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,7,1.5,1,12,0.86,10.0
+Andover,"Chas A. Bernick, Inc.",Mr Pure Cranberry Juice 16oz,072718100709,3,1.6,1,12,1.0,12.0
 Andover,Great Lakes Coca-Cola Distribution,Sprite Diet Zero 2L,049000050172,0,0.0,2,16,3.21,51.0
 Andover,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,0,0.0,3,24,3.21,77.0
 Andover,Great Lakes Coca-Cola Distribution,Coke Diet 20oz,049000000450,0,0.0,1,24,2.07,50.0
@@ -22,34 +24,29 @@ Andover,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,2,1.1,1,8,3.21
 Andover,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,3,1.3,1,8,3.21,26.0
 Andover,Great Lakes Coca-Cola Distribution,Monster Ultra Punk Punch 16oz can,070847899617,7,1.3,1,24,2.05,49.0
 Andover,Great Lakes Coca-Cola Distribution,Monster Absolutely Zero 16oz can,070847000037,1,2.1,1,24,2.04,49.0
-Andover,Great Lakes Coca-Cola Distribution,Coke 20oz,04904403,17,2.2,1,24,2.08,50.0
+Andover,Great Lakes Coca-Cola Distribution,Coke 20oz,04904403,17,2.3,1,24,2.08,50.0
 Andover,Great Lakes Coca-Cola Distribution,Coke Zero 2L,049000050141,5,3.6,1,8,3.21,26.0
 Andover,Johnson Brothers - St. Paul,Jose Cuervo Light Marg. Mix 1.75L,811538011181,0,0.0,1,6,6.17,37.0
 Andover,Johnson Brothers - St. Paul,Finest Call Sweet & Sour Liter,070491801950,0,0.0,1,12,4.0,48.0
-Andover,Johnson Brothers - St. Paul,Master of Mixes Old Fashioned Liter,070491213326,0,0.0,1,12,3.67,44.0
-Andover,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,2,0.9,2,12,5.84,70.0
 Andover,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,4,1.4,1,12,2.67,32.0
 Andover,Johnson Brothers - St. Paul,Master of Mixes Bloody Mary Liter,070491212251,1,2.1,1,12,0.0,0.0
+Andover,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,8,3.4,1,6,5.87,35.0
 Andover,Joseph Zimmerley,Bootleg Cocktail Mix,860000597500,11,3.6,2,2,17.25,34.0
 Andover,"M Amundson, LLP",Swisher Sweet Grape,025900207489,1,2.1,1,15,3.36,50.0
+Andover,Pepsi-Cola,Pepsi Diet 2L,012000171765,2,0.7,2,16,2.56,41.0
 Andover,Pepsi-Cola,Diet Dr Pepper 2L,078000083460,2,0.9,1,8,2.55,20.0
-Andover,Pepsi-Cola,Pepsi Diet 2L,012000171765,3,1.1,2,16,2.56,41.0
 Andover,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,2,1.1,1,12,1.83,22.0
-Andover,Pepsi-Cola,Gatorade Glacier Cherry 28oz,052000102413,3,1.1,1,15,1.88,28.0
+Andover,Pepsi-Cola,Gatorade Glacier Cherry 28oz,052000102413,3,1.2,1,15,1.88,28.0
+Andover,Pepsi-Cola,Gatorade Cool Blue 20oz,052000324815,6,2.6,1,24,1.78,43.0
 Andover,Pepsi-Cola,Schweppes Ginger Ale 12pk 12oz can,078000206166,2,2.9,1,2,5.72,11.0
 Andover,Pepsi-Cola,Orange Crush 2L,078000013368,4,2.9,1,8,2.57,21.0
-Andover,Pepsi-Cola,Gatorade Cool Blue 20oz,052000324815,7,3.0,1,24,1.79,43.0
 Andover,Pepsi-Cola,Gatorade Lemon Lime 28oz,052000135152,8,3.8,1,15,2.05,31.0
 Andover,Phillips Wine & Spirits - St. Paul,Cock n Bull Light Ginger Beer 4pk 12oz btl,072924112046,0,0.0,1,6,4.17,25.0
-Andover,Phillips Wine & Spirits - St. Paul,Filthy Red Cherry 8oz,899682002842,0,0.0,1,12,4.05,49.0
-Andover,Phillips Wine & Spirits - St. Paul,Zing Zang Margarita Mix 1.75L,616003615167,1,0.9,1,6,6.69,40.0
-Andover,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,1,0.9,1,12,3.56,43.0
 Andover,Phillips Wine & Spirits - St. Paul,Gosling's Diet Ginger Beer 6pk 12oz can,721094199752,1,1.4,1,4,4.36,17.0
 Andover,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,2,1.7,1,6,4.17,25.0
-Andover,Phillips Wine & Spirits - St. Paul,Zing Zang Sweet & Sour 32oz,616003112161,3,1.8,1,6,3.67,22.0
 Andover,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary Dill Pickles 32oz,616003616232,3,2.1,1,6,3.67,22.0
 Andover,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,3,2.6,1,4,4.28,17.0
-Andover,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary Mix 32oz,616003814225,10,3.6,1,12,3.67,44.0
+Andover,Phillips Wine & Spirits - St. Paul,Tres Agaves Margarita Mix Liter,854125003039,5,3.1,1,12,5.87,70.0
 Andover,Summer Lakes Beverage LLC,Lake Storm Lemonade Cocktail Mix,860000597548,8,2.1,7,7,17.25,121.0
 Andover,"True Brands, Inc.",Gunmetal Heavyweight Bottle Stopper,842094181681,0,0.0,1,4,4.93,20.0
 Andover,"True Brands, Inc.",Party Trio Assorted Wine Bags,876718031526,0,0.0,1,10,1.9,19.0
@@ -57,44 +54,46 @@ Andover,"True Brands, Inc.",2 oz plastic shot glasses,842094181766,2,1.7,1,12,4.
 Andover,"True Brands, Inc.",For You Botanical Single Bottle Wine Bag by Cakewalk,842094109418,2,2.9,1,10,1.47,15.0
 Andover,"True Brands, Inc.",Elegant Black and White Wine Bag,876718002298,2,2.9,1,10,1.94,19.0
 Andover,,Non-Refundable Transaction,NON-REFUNDABLE,-164,-54.1,13,13,0.0,0.0
-Andover,,Tip Item,TIP,0,0.0,20,20,0.0,0.0
-Andover,,MN Ice Big Bag,865839000245,41,1.1,109,109,3.5,381.0
-Andover,,MN Ice Small Bag,865839000252,55,1.1,142,142,1.25,178.0
+Andover,,Tip Item,TIP,0,0.0,21,21,0.0,0.0
+Andover,,MN Ice Small Bag,865839000252,50,1.0,147,147,1.25,184.0
+Andover,,MN Ice Big Bag,865839000245,41,1.1,108,108,3.5,378.0
 Andover,,Curts Spicy Bloody Mary Mix 1 Quart,688677627890,3,2.1,3,3,5.42,16.0
-Andover,,Monster Rehab 16oz can,070847003229,8,2.6,5,5,2.03,10.0
 Andover,,Marlboro Medium Red Label,02836823,7,2.7,4,4,12.55,50.0
+Andover,,Monster Rehab 16oz can,070847003229,8,3.1,3,3,2.03,6.0
 Blaine,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,0,0.0,1,6,5.21,31.0
 Blaine,Bellboy Corporation,SBOC Jalapeno Olives 5oz,089156801112,0,0.0,1,6,3.75,22.0
 Blaine,Bellboy Corporation,Twang Lime Beer Salt 1.4oz,023604231076,0,0.0,1,24,1.6,38.0
 Blaine,Bellboy Corporation,Mr & Mrs T Bold & Spicy Liter,070655902301,1,0.9,1,6,4.59,28.0
+Blaine,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,2,0.9,1,12,13.58,163.0
 Blaine,Bellboy Corporation,Ocean Spray Orange Juice 32oz,031200007360,1,1.1,1,12,3.53,42.0
-Blaine,Bellboy Corporation,The Royal Cherry 10oz,071943117131,2,1.4,1,6,3.14,19.0
+Blaine,Bellboy Corporation,The Royal Cherry 10oz,071943117131,2,1.4,1,6,3.21,19.0
 Blaine,Bellboy Corporation,Rokz Bloody Mary Salt 4oz,855439000738,2,1.4,1,6,3.79,23.0
-Blaine,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,3,1.4,1,12,13.57,163.0
 Blaine,Bellboy Corporation,Traverse City Cherries 21oz,859122005246,2,1.7,1,6,12.56,75.0
 Blaine,Bellboy Corporation,Clamato Tomato Cocktail 32oz,014800513240,2,2.1,1,12,3.73,45.0
+Blaine,Bellboy Corporation,Roses Sweetened Lime Juice 12oz,01667135,4,3.4,1,6,3.73,22.0
 Blaine,"Breakthru Beverage Minnesota Beer, LLC",1919 Root Beer 8 Gallon,400000023312,0,0.0,1,1,59.0,59.0
-Blaine,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Kickled Mary Extra Spicy 32oz,682131859995,0,0.0,1,12,7.22,87.0
+Blaine,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Kickled Mary Extra Spicy 32oz,682131859995,0,0.0,1,12,7.23,87.0
 Blaine,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Mr & Mrs T Bold & Spicy 1.75L,070655910030,1,0.9,1,6,7.5,45.0
 Blaine,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,13,1.6,2,24,0.86,21.0
-Blaine,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water w/Lime Liter,071537020670,10,2.5,1,12,0.7,8.0
+Blaine,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water w/Lime Liter,071537020670,10,2.7,1,12,0.7,8.0
 Blaine,"Capitol Beverage Sales, L.P.",Curts Bloody Mary Mix 1 Quart,688677626787,3,3.2,1,12,5.42,65.0
 Blaine,"Chas A. Bernick, Inc.",Mr Pure Orange Juice 16oz,072718100266,1,0.5,1,12,1.62,19.0
-Blaine,Dahlheimer Beverage Monticello,1919 Zero Sugar Root Beer 12pk 16oz can,850045698263,1,1.4,1,2,15.28,31.0
+Blaine,Dahlheimer Beverage Monticello,1919 Zero Sugar Root Beer 12pk 16oz can,850045698263,0,0.0,2,4,15.22,61.0
+Blaine,Dahlheimer Beverage Monticello,Fever Tree Ginger Ale 8pk 5oz can,812136030208,3,2.6,1,3,5.75,17.0
 Blaine,Great Lakes Coca-Cola Distribution,Sprite Diet Zero 12pk 12oz can,049000037111,3,2.6,1,2,9.65,19.0
 Blaine,Great Lakes Coca-Cola Distribution,Coke Diet 20oz,049000000450,11,2.6,1,24,2.07,50.0
-Blaine,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,10,3.1,1,8,3.21,26.0
+Blaine,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,10,3.6,1,8,3.21,26.0
 Blaine,Johnson Brothers - St. Paul,Master of Mixes Old Fashioned Liter,070491213326,0,0.0,1,12,3.67,44.0
 Blaine,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,7,1.2,2,24,2.67,64.0
 Blaine,Johnson Brothers - St. Paul,Master of Mixes Strawberry Daq/Marg Liter,070491213227,5,1.8,1,12,3.67,44.0
 Blaine,Johnson Brothers - St. Paul,Master of Mixes Margarita 1.75L,070491212770,2,2.1,1,6,6.33,38.0
-Blaine,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,4,2.1,1,6,5.84,35.0
+Blaine,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,4,2.4,1,6,5.87,35.0
 Blaine,Joseph Zimmerley,Perfect Press Margarita Cocktail Mix,860000597524,3,2.6,2,2,17.23,34.0
 Blaine,"M Amundson, LLP",Camel Menthol Crush Green,01238838,1,0.6,1,10,12.87,129.0
-Blaine,Pepsi-Cola,Gatorade Gatorlyte Watermelon 20oz,052000050622,-1,-0.5,1,12,1.84,22.0
-Blaine,Pepsi-Cola,Pepsi Diet Original 12pk 12oz can,012000171864,0,0.0,1,2,9.57,19.0
+Blaine,Pepsi-Cola,Gatorade Gatorlyte Watermelon 20oz,052000050622,-1,-1.1,1,12,1.84,22.0
+Blaine,Pepsi-Cola,Pepsi Diet Original 12pk 12oz can,012000171864,0,0.0,1,2,9.42,19.0
 Blaine,Pepsi-Cola,Schweppes Ginger Ale 12pk 12oz can,078000206166,0,0.0,4,8,5.72,46.0
-Blaine,Pepsi-Cola,Schweppes Tonic 6pk 8oz can,078000032413,0,0.0,1,4,3.8,15.0
+Blaine,Pepsi-Cola,Schweppes Tonic 6pk 8oz can,078000032413,0,0.0,1,4,3.79,15.0
 Blaine,Pepsi-Cola,Dr Pepper 20oz,078000082401,3,0.7,1,24,1.72,41.0
 Blaine,Pepsi-Cola,Pepsi 12pk 12oz can,012000809941,1,2.1,1,2,8.83,18.0
 Blaine,Phillips Wine & Spirits - St. Paul,Tres Agaves Spicy Margarita Mix Liter,196383008648,0,0.0,1,12,5.87,70.0
@@ -103,213 +102,214 @@ Blaine,Phillips Wine & Spirits - St. Paul,Cock n Bull Light Ginger Beer 4pk 12oz
 Blaine,Phillips Wine & Spirits - St. Paul,Tres Agaves Margarita Mix Liter,854125003039,9,1.2,2,24,5.87,141.0
 Blaine,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 6pk 8oz can,616003737555,1,1.4,1,4,6.52,26.0
 Blaine,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,9,2.6,1,6,4.17,25.0
-Blaine,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 1.75L,616003708777,7,2.7,1,6,5.05,30.0
+Blaine,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 1.75L,616003708777,7,2.7,1,6,4.35,26.0
 Blaine,Red Bull Distribution Company,Red Bull Energy Drink 16oz can,611269546019,-2,-2.1,1,12,3.01,36.0
-Blaine,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,4,0.4,2,48,1.73,83.0
-Blaine,Red Bull Distribution Company,Red Bull Sugar Free 8oz can,611269101713,13,2.7,1,24,1.78,43.0
+Blaine,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,0,0.0,2,48,1.76,84.0
+Blaine,Red Bull Distribution Company,Red Bull Sugar Free 8oz can,611269101713,13,2.8,1,24,1.78,43.0
 Blaine,Southern Glazer's Wine & Spirits of MN,Angostura Orange Bitters 4oz,075496331143,2,1.4,1,12,9.0,108.0
 Blaine,Summer Lakes Beverage LLC,Lake Storm Lemonade Cocktail Mix,860000597548,6,3.7,1,1,17.25,17.0
 Blaine,"True Brands, Inc.",Floral Chic Wine Bag by Cakewalk,876718024122,4,2.4,1,10,1.38,14.0
-Blaine,"True Brands, Inc.",Soft Touch Black Double Hinged Corkscrew,876718043512,2,2.9,1,12,3.31,40.0
 Blaine,,Non-Refundable Transaction,NON-REFUNDABLE,-294,-24.2,49,49,0.0,0.0
-Blaine,,MN Ice Sphere,865839000283,-1,-0.5,9,9,6.21,56.0
+Blaine,,MN Ice Sphere,865839000283,-1,-0.6,7,7,6.21,43.0
+Blaine,,MN Ice Rock,865839000238,-1,-0.4,10,10,5.49,55.0
+Blaine,,MN Ice Small Bag,865839000252,-4,-0.1,271,271,1.25,339.0
 Blaine,,Tip Item,TIP,0,0.0,42,42,0.0,0.0
 Blaine,,La Croix Lime 8pk 12oz can,012993221256,0,0.0,2,2,4.17,8.0
 Blaine,,Curts Spicy Bloody Mary Mix 1 Quart,688677627890,0,0.0,3,3,5.42,16.0
-Blaine,,MN Ice Rock,865839000238,0,0.0,9,9,5.49,49.0
-Blaine,,MN Ice Small Bag,865839000252,4,0.1,264,264,1.25,330.0
-Blaine,,MN Ice Big Bag,865839000245,18,0.3,202,202,3.5,706.0
+Blaine,,MN Ice Big Bag,865839000245,18,0.3,199,199,3.5,696.0
 Blaine,,MN Ice Shard,865839000276,4,1.7,6,6,5.6,34.0
 Bloomington,Bellboy Corporation,Spooky Green Olive Bloody Mary,859579004557,1,0.7,1,12,4.42,53.0
 Bloomington,Bellboy Corporation,Brez Elevate Functional Beverage 4pk 12oz can,860013612757,1,1.4,1,6,9.98,60.0
 Bloomington,Bellboy Corporation,Rokz Lime Margarita Salt 4oz,855439000691,1,2.1,1,6,3.79,23.0
 Bloomington,Bellboy Corporation,ReaLime 5oz,041409000062,11,3.4,1,24,0.99,24.0
-Bloomington,"Breakthru Beverage Minnesota Beer, LLC",Fever Tree Espresso Martini 500ml,812136032349,0,0.0,1,8,5.03,40.0
+Bloomington,"Breakthru Beverage Minnesota Beer, LLC",Fever Tree Espresso Martini 500ml,812136032349,0,0.0,1,8,5.08,41.0
 Bloomington,"Breakthru Beverage Minnesota Wine & Spirits, LLC",ReaLemon 3oz,014800582154,0,0.0,1,24,0.0,0.0
-Bloomington,"Capitol Beverage Sales, L.P.",Mr Pure Pineapple Juice 32oz,072718100631,2,1.4,1,12,2.59,31.0
+Bloomington,"Capitol Beverage Sales, L.P.",Mr Pure Pineapple Juice 32oz,072718100631,2,1.4,1,12,2.6,31.0
 Bloomington,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,4,1.7,1,8,3.21,26.0
 Bloomington,Great Lakes Coca-Cola Distribution,Coke Zero 2L,049000050141,3,1.8,1,8,3.21,26.0
-Bloomington,Great Lakes Coca-Cola Distribution,Coke 12pk 12oz can,049000028904,4,3.4,1,2,9.65,19.0
-Bloomington,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,10,3.6,1,8,3.21,26.0
+Bloomington,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,9,3.0,1,8,3.21,26.0
 Bloomington,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,0,0.0,1,12,2.67,32.0
-Bloomington,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,0,0.0,1,4,4.05,16.0
+Bloomington,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,0,0.0,1,4,4.06,16.0
+Bloomington,Pepsi-Cola,Schweppes Ginger Ale 2L,078000206463,2,2.9,1,8,2.54,20.0
+Bloomington,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,0,0.0,1,4,4.28,17.0
 Bloomington,"True Brands, Inc.",For You Botanical Single Bottle Wine Bag by Cakewalk,842094109418,0,0.0,1,10,1.47,15.0
-Bloomington,,Non-Refundable Transaction,NON-REFUNDABLE,-28,-30.0,4,4,0.0,0.0
-Bloomington,,Mr Pure Cranberry Juice 16oz,072718100709,11,3.9,1,1,1.02,1.0
+Bloomington,,Non-Refundable Transaction,NON-REFUNDABLE,-29,-24.9,5,5,0.0,0.0
+Bloomington,,Mr Pure Cranberry Juice 16oz,072718100709,11,3.9,1,1,1.0,1.0
 Chanhassen,Am Craft Spirits,Liber & Co Passionfruit  500ml,700697229769,0,0.0,1,12,10.97,132.0
 Chanhassen,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,0,0.0,1,6,5.21,31.0
 Chanhassen,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,5,0.6,3,36,0.86,31.0
 Chanhassen,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,4,0.9,1,24,2.09,50.0
+Chanhassen,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,2,1.7,1,12,2.67,32.0
 Chanhassen,Johnson Brothers - St. Paul,Jose Cuervo Strawberry Margarita Mix 1.75L,811538011143,2,2.9,1,6,5.05,30.0
-Chanhassen,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,3,3.2,1,12,2.67,32.0
 Chanhassen,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,2,0.9,1,12,1.83,22.0
-Chanhassen,Pepsi-Cola,Schweppes Tonic 6pk 8oz can,078000032413,1,1.4,1,4,3.8,15.0
+Chanhassen,Pepsi-Cola,Schweppes Tonic 6pk 8oz can,078000032413,1,1.4,1,4,3.79,15.0
+Chanhassen,Pepsi-Cola,Pepsi Diet Original 20oz,012000171741,5,1.5,1,24,1.71,41.0
 Chanhassen,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,3,1.8,1,12,1.84,22.0
-Chanhassen,Pepsi-Cola,Pepsi Diet Original 20oz,012000171741,6,2.0,1,24,1.71,41.0
 Chanhassen,Pepsi-Cola,Starbucks Frappucino Mocha 14oz,01245200,1,2.1,1,12,1.73,21.0
 Chanhassen,Pepsi-Cola,Starbucks Frappucino Vanilla 14oz,012000813313,4,2.4,1,12,1.26,15.0
 Chanhassen,Pepsi-Cola,Gatorade Glacier Cherry 28oz,052000102413,7,3.3,1,15,1.88,28.0
-Chanhassen,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,1,0.5,1,12,3.56,43.0
-Chanhassen,Red Bull Distribution Company,Red Bull Energy Drink 12oz can,611269818994,9,3.0,1,24,2.3,55.0
+Chanhassen,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,1,0.5,1,12,3.61,43.0
+Chanhassen,Red Bull Distribution Company,Red Bull Energy Drink 12oz can,611269818994,9,3.0,1,24,2.31,56.0
 Chanhassen,,Non-Refundable Transaction,NON-REFUNDABLE,-79,-28.2,12,12,0.0,0.0
-Chanhassen,,Tip Item,TIP,0,0.0,14,14,0.0,0.0
+Chanhassen,,MN Ice Shard,865839000276,-1,-0.5,8,8,5.6,45.0
+Chanhassen,,Tip Item,TIP,0,0.0,16,16,0.0,0.0
 Chanhassen,,Charm Social Tonic Lemon Ginger 12oz can,400000025568,0,0.0,1,1,2.42,2.0
 Chanhassen,,MN Ice Sphere,865839000283,0,0.0,5,5,6.21,31.0
-Chanhassen,,MN Ice Shard,865839000276,0,0.0,7,7,5.6,39.0
 Chanhassen,,MN Ice Rock,865839000238,3,1.2,8,8,5.49,44.0
-Chanhassen,,MN Ice Small Bag,865839000252,46,1.5,77,77,1.25,96.0
-Chanhassen,,Newport  100,02657318,4,1.9,5,5,13.45,67.0
-Chanhassen,,Marlboro Gold,02838423,38,2.5,24,24,12.62,303.0
-Chanhassen,,MN Ice Big Bag,865839000245,45,2.5,28,28,3.5,98.0
-Chanhassen,,American Spirit Yellow,047995855093,10,3.3,3,3,14.08,42.0
+Chanhassen,,Newport  100,02657318,3,1.3,7,7,13.47,94.0
+Chanhassen,,MN Ice Small Bag,865839000252,44,1.5,78,78,1.25,98.0
+Chanhassen,,Marlboro Gold,02838423,36,2.3,26,26,12.62,328.0
+Chanhassen,,MN Ice Big Bag,865839000245,43,2.3,31,31,3.5,108.0
+Chanhassen,,American Spirit Yellow,047995855093,10,3.6,2,2,14.08,28.0
 Cottage Grove,Bellboy Corporation,Traverse City Cherries 21oz,859122005246,0,0.0,1,6,12.56,75.0
-Cottage Grove,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,0,0.0,1,12,13.57,163.0
-Cottage Grove,Bellboy Corporation,Ocean Spray Cranberry Juice,031200200006,1,0.3,2,24,2.98,72.0
-Cottage Grove,Bellboy Corporation,Clamato Tomato Cocktail 64oz,014800516470,1,0.6,1,8,6.0,48.0
+Cottage Grove,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,0,0.0,1,12,13.58,163.0
+Cottage Grove,Bellboy Corporation,Ocean Spray Cranberry Juice,031200200006,1,0.3,1,12,2.98,36.0
 Cottage Grove,Bellboy Corporation,Roses Grenadine 12oz,01667436,7,2.7,1,6,3.73,22.0
-Cottage Grove,Bellboy Corporation,Twang Lime Beer Salt 1.4oz,023604231076,17,3.2,1,24,1.6,38.0
-Cottage Grove,Bellboy Corporation,ReaLime 5oz,041409000062,12,3.4,1,24,0.99,24.0
+Cottage Grove,Bellboy Corporation,ReaLime 5oz,041409000062,11,2.9,1,24,0.99,24.0
+Cottage Grove,Bellboy Corporation,Twang Lime Beer Salt 1.4oz,023604231076,16,2.9,1,24,1.6,38.0
 Cottage Grove,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Mr & Mrs T Bloody Mary 1.75L,070655910016,0,0.0,1,6,7.5,45.0
 Cottage Grove,"Capitol Beverage Sales, L.P.",Mr Pure Lime 32oz,072718100556,4,3.4,1,12,2.58,31.0
 Cottage Grove,Great Lakes Coca-Cola Distribution,Minute Maid Cranberry Grape 12oz btl,025000052002,0,0.0,1,24,1.62,39.0
-Cottage Grove,Great Lakes Coca-Cola Distribution,Sprite Diet Zero 2L,049000050172,3,1.2,1,8,3.21,26.0
-Cottage Grove,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,9,1.7,2,16,3.21,51.0
-Cottage Grove,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,19,3.3,1,24,2.07,50.0
-Cottage Grove,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,8,3.8,1,8,3.21,26.0
+Cottage Grove,Great Lakes Coca-Cola Distribution,Sprite Diet Zero 2L,049000050172,3,1.4,1,8,3.21,26.0
+Cottage Grove,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,8,1.4,2,16,3.21,51.0
+Cottage Grove,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,7,3.0,1,8,3.21,26.0
+Cottage Grove,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,18,3.0,1,24,2.07,50.0
+Cottage Grove,Great Lakes Coca-Cola Distribution,Coke Diet 12pk 12oz can,049000028911,10,3.9,1,2,9.65,19.0
 Cottage Grove,Johnson Brothers - St. Paul,Master of Mixes Old Fashioned Liter,070491213326,0,0.0,1,12,3.67,44.0
-Cottage Grove,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,5,3.1,1,6,5.84,35.0
+Cottage Grove,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,5,3.1,1,6,5.87,35.0
 Cottage Grove,Joseph Zimmerley,Perfect Press Jalapeno Margarita Cocktail Mix,860000597531,5,2.4,4,4,17.2,69.0
 Cottage Grove,"M Amundson, LLP",Camel Menthol Crush Silver,01239439,10,3.6,1,10,12.93,129.0
-Cottage Grove,Pepsi-Cola,Pepsi Diet Original 12pk 12oz can,012000171864,0,0.0,1,2,9.57,19.0
+Cottage Grove,Pepsi-Cola,Pepsi Diet Original 12pk 12oz can,012000171864,0,0.0,1,2,9.42,19.0
 Cottage Grove,Pepsi-Cola,Pepsi 12pk 12oz can,012000809941,0,0.0,1,2,8.83,18.0
-Cottage Grove,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,0,0.0,1,4,4.05,16.0
+Cottage Grove,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,0,0.0,1,4,4.06,16.0
 Cottage Grove,Pepsi-Cola,Schweppes Ginger Ale 2L,078000206463,0,0.0,1,8,2.54,20.0
 Cottage Grove,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,0,0.0,1,8,2.62,21.0
 Cottage Grove,Pepsi-Cola,Gatorade Gatorlyte Cherry Lime 20oz,052000049008,0,0.0,1,12,1.84,22.0
 Cottage Grove,Pepsi-Cola,Gatorade Gatorlyte Watermelon 20oz,052000050622,0,0.0,1,12,1.84,22.0
 Cottage Grove,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,0,0.0,1,12,1.83,22.0
-Cottage Grove,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,2,0.3,2,30,1.21,36.0
-Cottage Grove,Pepsi-Cola,Dr Pepper 20oz,078000082401,2,0.4,1,24,1.72,41.0
-Cottage Grove,Pepsi-Cola,Gatorade Glacier Freeze 20oz,052000324860,2,0.5,1,24,1.81,43.0
-Cottage Grove,Pepsi-Cola,Gatorade Orange 20oz,052000328677,3,0.6,1,24,1.81,43.0
+Cottage Grove,Pepsi-Cola,Dr Pepper 20oz,078000082401,0,0.0,1,24,1.72,41.0
+Cottage Grove,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,2,0.3,2,30,1.2,36.0
+Cottage Grove,Pepsi-Cola,Mountain Dew Kickstart Orange 16oz can,012000110443,1,0.5,1,12,0.54,7.0
+Cottage Grove,Pepsi-Cola,Gatorade Glacier Freeze 20oz,052000324860,2,0.5,1,24,1.83,44.0
+Cottage Grove,Pepsi-Cola,Gatorade Orange 20oz,052000328677,3,0.6,1,24,1.82,44.0
 Cottage Grove,Pepsi-Cola,Celsius Peach Vibe 12oz can,889392010190,1,1.1,1,12,1.74,21.0
-Cottage Grove,Pepsi-Cola,Mountain Dew Kickstart Orange 16oz can,012000110443,2,1.1,1,12,0.55,7.0
 Cottage Grove,Pepsi-Cola,Pepsi 20oz btl,012000001291,1,1.1,1,24,1.72,41.0
 Cottage Grove,Pepsi-Cola,MTN Dew 20oz btl,012000001314,9,1.3,1,24,1.71,41.0
 Cottage Grove,Pepsi-Cola,MTN Dew 2L,012000002335,7,2.5,1,8,2.44,20.0
-Cottage Grove,Pepsi-Cola,MTN Dew Diet 2L,01274600,3,3.2,1,8,2.55,20.0
-Cottage Grove,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,7,3.3,1,12,1.84,22.0
-Cottage Grove,Pepsi-Cola,Gatorade Cool Blue 20oz,052000324815,4,3.4,1,24,1.79,43.0
-Cottage Grove,Pepsi-Cola,Pepsi Diet Original 20oz,012000171741,19,3.9,1,24,1.71,41.0
-Cottage Grove,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,2,1.7,1,12,3.56,43.0
+Cottage Grove,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,6,2.6,1,12,1.84,22.0
+Cottage Grove,Pepsi-Cola,Gatorade Cool Blue 20oz,052000324815,4,3.4,1,24,1.78,43.0
+Cottage Grove,Pepsi-Cola,Pepsi Diet Original 20oz,012000171741,18,3.5,1,24,1.71,41.0
+Cottage Grove,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 1.75L,616003708777,1,0.9,1,6,4.35,26.0
+Cottage Grove,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,2,1.7,1,12,3.61,43.0
 Cottage Grove,Phillips Wine & Spirits - St. Paul,Zing Zang Sweet & Sour 32oz,616003112161,2,2.1,1,6,3.67,22.0
-Cottage Grove,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 1.75L,616003708777,2,2.1,1,6,5.05,30.0
+Cottage Grove,Phillips Wine & Spirits - St. Paul,Tres Agaves Mango Chili Margarita Mix Liter,854125003299,1,2.1,1,12,5.87,70.0
+Cottage Grove,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary Dill Pickles 32oz,616003616232,3,2.6,1,6,3.67,22.0
 Cottage Grove,Southern Glazer's Wine & Spirits of MN,Angostura Orange Bitters 4oz,075496331143,0,0.0,1,12,9.0,108.0
 Cottage Grove,Southern Glazer's Wine & Spirits of MN,Angostura Aromatic Bitters 4oz,075496000407,3,2.6,1,48,8.8,422.0
 Cottage Grove,Walmart,Dasani 16.9oz,049000027624,0,0.0,1,32,0.22,7.0
 Cottage Grove,,Non-Refundable Transaction,NON-REFUNDABLE,-97,-23.1,17,17,0.0,0.0
-Cottage Grove,,MN Ice Big Bag,865839000245,-21,-0.5,180,180,3.5,629.0
+Cottage Grove,,MN Ice Big Bag,865839000245,-24,-0.5,181,181,3.5,633.0
 Cottage Grove,,Wedding Return Fee,400000024592,0,0.0,1,1,0.0,0.0
-Cottage Grove,,Tip Item,TIP,0,0.0,12,12,0.0,0.0
+Cottage Grove,,Tip Item,TIP,0,0.0,13,13,0.0,0.0
 Cottage Grove,,Ashton Classic Churchill,819577011780,0,0.0,2,2,9.4,19.0
 Cottage Grove,,Acid Blondie,876742001137,0,0.0,5,5,4.61,23.0
-Cottage Grove,,MN Ice Small Bag,865839000252,9,0.1,323,323,1.25,404.0
+Cottage Grove,,MN Ice Small Bag,865839000252,4,0.0,327,327,1.25,409.0
 Cottage Grove,,Fresca 12pk 12oz can,049000031058,2,1.4,4,4,9.65,39.0
-Cottage Grove,,Marlboro Gold,02838423,35,1.5,61,61,12.62,770.0
-Cottage Grove,,Grizzly Wintergreen Long Cut,04287115,11,2.1,10,10,9.62,96.0
-Cottage Grove,,Kodiak Wintergreen Long Cut,04229412,8,2.3,6,6,11.8,71.0
+Cottage Grove,,Marlboro Gold,02838423,33,1.4,63,63,12.62,795.0
+Cottage Grove,,Grizzly Wintergreen Long Cut,04287115,10,1.9,12,12,9.62,115.0
+Cottage Grove,,Kodiak Wintergreen Long Cut,04229412,8,2.9,4,4,11.8,47.0
 Cottage Grove,,MN Ice Rock,865839000238,12,3.4,2,2,5.49,11.0
-Minneapolis,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,0,0.0,1,12,1.81,22.0
-Minneapolis,Bellboy Corporation,ReaLemon 8oz,014800582215,1,0.5,1,12,2.2,26.0
-Minneapolis,Bellboy Corporation,ReaLime 5oz,041409000062,7,0.6,2,48,0.99,48.0
-Minneapolis,Bellboy Corporation,ReaLemon 5oz,014800582178,5,1.0,1,24,0.97,23.0
-Minneapolis,Bellboy Corporation,Dole Pineapple Juice 46oz,038900008086,3,1.4,1,12,4.49,54.0
-Minneapolis,Bellboy Corporation,Roses Grenadine 12oz,01667436,4,2.1,1,6,3.73,22.0
+Minneapolis,Bellboy Corporation,ReaLemon 8oz,014800582215,0,0.0,1,12,1.76,21.0
+Minneapolis,Bellboy Corporation,Roses Grenadine 12oz,01667436,8,3.4,1,6,3.73,22.0
 Minneapolis,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,12,1.5,2,24,0.86,21.0
+Minneapolis,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,13,2.5,1,12,2.58,31.0
 Minneapolis,"Capitol Beverage Sales, L.P.",Polar Lemon Sour Liter,071537020069,9,2.8,1,12,0.74,9.0
-Minneapolis,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,14,2.9,1,12,2.57,31.0
 Minneapolis,"Capitol Beverage Sales, L.P.",Mr Pure Apple Cranberry 32oz,072718101898,8,3.4,1,12,2.5,30.0
-Minneapolis,"Chas A. Bernick, Inc.",Mr Pure Cranberry Juice 16oz,072718100709,8,1.1,2,24,1.02,25.0
+Minneapolis,"Chas A. Bernick, Inc.",Mr Pure Cranberry Juice 16oz,072718100709,8,1.1,2,24,1.0,24.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Monster Energy Juice Bad Apple 16oz can,070847899563,0,0.0,1,24,2.04,49.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Fanta Orange 20oz,049000019162,6,1.0,1,24,2.02,49.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Fanta Orange 20oz,049000019162,5,0.8,1,24,2.02,49.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Minute Maid Fruit Punch 2L,025000053924,4,0.9,2,16,2.99,48.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Seagrams Ginger Ale 12pk 12oz can,072979004167,1,1.1,2,4,9.56,38.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Minute Maid Fruit Punch 2L,025000053924,5,1.1,2,16,3.02,48.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,22,1.4,6,48,3.21,154.0
-Minneapolis,Great Lakes Coca-Cola Distribution,"Monster Ultra Red, White & Blue 16oz can",070847900269,8,1.7,1,24,1.84,44.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Coke Zero 12pk 12oz can,049000042559,4,1.9,3,6,9.65,58.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,21,1.9,1,24,2.09,50.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,20,1.2,6,48,3.21,154.0
+Minneapolis,Great Lakes Coca-Cola Distribution,"Monster Ultra Red, White & Blue 16oz can",070847900269,7,1.6,1,24,1.83,44.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,20,1.9,1,24,2.09,50.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Sprite Tea 12pk 12oz can,049000558968,1,2.1,1,2,9.65,19.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Coke Diet 12pk 12oz can,049000028911,9,2.8,3,6,9.65,58.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Coke Zero 12pk 12oz can,049000042559,4,2.1,2,4,9.65,39.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Coke Diet 12pk 12oz can,049000028911,8,2.3,3,6,9.65,58.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,30,2.7,1,24,2.07,50.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Coke Cherry 2L,049000050165,10,2.9,1,8,3.19,26.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,32,3.0,1,24,2.07,50.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,59,3.2,2,16,3.21,51.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Coke Zero Cherry 20oz,049000047547,17,3.2,1,24,2.04,49.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Coke 2L,049000050103,28,2.9,2,16,3.21,51.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,57,3.1,3,24,3.21,77.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Seagrams Ginger Ale 2L,072979004181,13,3.3,1,8,3.2,26.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Coke Zero Cherry 20oz,049000047547,17,3.3,1,24,2.04,49.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Coke 20oz,04904403,40,3.3,1,24,2.08,50.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Coke Cherry Zero 12pk 12oz can,049000047516,4,3.4,1,2,9.65,19.0
 Minneapolis,Great Lakes Coca-Cola Distribution,Sprite Tropical Mix 12pk 12oz can,049000559071,1,3.5,1,2,9.65,19.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Coke 20oz,04904403,43,3.5,1,24,2.08,50.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Monster Ultra Wild Passion Zero Sugar 16oz can,070847899488,10,3.6,1,24,2.05,49.0
-Minneapolis,Great Lakes Coca-Cola Distribution,Coke 2L,049000050103,32,3.7,1,8,3.21,26.0
-Minneapolis,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,0,0.0,1,6,5.84,35.0
+Minneapolis,Great Lakes Coca-Cola Distribution,Monster Ultra Wild Passion Zero Sugar 16oz can,070847899488,10,3.9,1,24,2.05,49.0
+Minneapolis,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,0,0.0,1,6,5.87,35.0
 Minneapolis,Johnson Brothers - St. Paul,Jose Cuervo Light Marg. Mix 1.75L,811538011181,2,2.1,1,6,6.17,37.0
-Minneapolis,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,9,2.6,1,12,2.67,32.0
+Minneapolis,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,8,2.1,1,12,2.67,32.0
 Minneapolis,"M Amundson, LLP",Middletons Black & Mild Single,070137100188,-4,-0.3,3,75,1.48,111.0
 Minneapolis,"M Amundson, LLP",Velo Cappuccino 3mg,840170618960,0,0.0,1,5,8.41,42.0
 Minneapolis,"M Amundson, LLP",Syx Wintergreen 20mg,850064816044,0,0.0,2,10,7.09,71.0
 Minneapolis,"M Amundson, LLP",On Nicotine Pouch 8mg Original,855022005393,0,0.0,1,5,6.56,33.0
-Minneapolis,"M Amundson, LLP",Velo Pouch 9mg Wintergreen,840170618052,6,1.0,4,20,8.41,168.0
+Minneapolis,"M Amundson, LLP",Velo Pouch 9mg Wintergreen,840170618052,4,0.6,5,25,8.41,210.0
 Minneapolis,"M Amundson, LLP",Loon Arctic Grape 14mg,767461991659,2,1.1,2,10,6.0,60.0
 Minneapolis,"M Amundson, LLP",Zyn Pouch 6mg Spearmint,609249902023,11,2.6,2,10,8.41,84.0
-Minneapolis,"M Amundson, LLP",Zyn Peppermint 6mg,609249901033,13,3.1,1,5,8.41,42.0
-Minneapolis,"M Amundson, LLP",Marlboro 100s,02836328,17,3.8,1,10,12.58,126.0
-Minneapolis,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,0,0.0,2,16,2.62,42.0
+Minneapolis,"M Amundson, LLP",Marlboro 100s,02836328,16,3.6,1,10,12.58,126.0
+Minneapolis,"M Amundson, LLP",Zyn Peppermint 6mg,609249901033,13,3.7,1,5,8.41,42.0
+Minneapolis,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,-2,-4.3,1,12,1.84,22.0
+Minneapolis,Pepsi-Cola,Gatorade Gatorlyte Mixed Berry 20oz btl,052000050820,-1,-4.3,1,12,1.83,22.0
+Minneapolis,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,-1,-0.4,2,16,2.62,42.0
 Minneapolis,Pepsi-Cola,Dole Strawberry Lemonade 2L,012000064531,0,0.0,2,16,2.45,39.0
 Minneapolis,Pepsi-Cola,Celsius Kiwi Strawberry 12oz can,889392001549,0,0.0,1,12,1.79,21.0
 Minneapolis,Pepsi-Cola,Celsius Tropical Vibe 12oz can,889392021394,0,0.0,1,12,1.71,21.0
 Minneapolis,Pepsi-Cola,Celsius Artic Vibe 12oz can,889392021417,0,0.0,1,12,1.77,21.0
 Minneapolis,Pepsi-Cola,Aquafina Water 20oz,01215908,0,0.0,1,24,1.27,31.0
 Minneapolis,Pepsi-Cola,Celsius Grape Rush 12oz can,889392000917,1,0.3,2,24,1.78,43.0
+Minneapolis,Pepsi-Cola,Dr. Pepper 2L,078000082463,2,0.4,3,24,2.52,60.0
 Minneapolis,Pepsi-Cola,Dole Lemonade 2L,012000064524,1,0.6,1,8,1.8,14.0
 Minneapolis,Pepsi-Cola,Pepsi Diet 2L,012000171765,1,0.6,1,8,2.56,20.0
-Minneapolis,Pepsi-Cola,Dr. Pepper 2L,078000082463,3,0.6,3,24,2.51,60.0
 Minneapolis,Pepsi-Cola,Celsius Orange 12oz can,889392000313,2,0.9,1,12,1.77,21.0
 Minneapolis,Pepsi-Cola,Gatorade Gatorlyte Cherry Lime 20oz,052000049008,6,0.9,2,24,1.84,44.0
+Minneapolis,Pepsi-Cola,Gatorlyte Lime Cucumber 20oz,052000052879,7,1.0,2,24,1.64,39.0
 Minneapolis,Pepsi-Cola,Gatorlyte Zero Fruit Punch 20oz,052000055009,8,1.2,2,24,1.84,44.0
-Minneapolis,Pepsi-Cola,Gatorlyte Lime Cucumber 20oz,052000052879,8,1.2,2,24,1.66,40.0
 Minneapolis,Pepsi-Cola,Dr. Pepper 12pk 12oz can,078000082166,1,1.4,1,2,9.82,20.0
-Minneapolis,Pepsi-Cola,Celsius Wild Berry 12oz can,889392000320,8,2.0,1,12,1.74,21.0
+Minneapolis,Pepsi-Cola,MTN Dew Baja Blast 2L,012000240140,2,1.4,1,8,1.8,14.0
+Minneapolis,Pepsi-Cola,Gatorade Gatorlyte Orange 20oz,052000047905,14,1.8,2,24,1.84,44.0
 Minneapolis,Pepsi-Cola,Alani Nu Purple Cotton Candy 12oz,810175042244,4,2.1,1,12,1.79,21.0
-Minneapolis,Pepsi-Cola,Gatorade Gatorlyte Orange 20oz,052000047905,16,2.2,2,24,1.84,44.0
+Minneapolis,Pepsi-Cola,Celsius Wild Berry 12oz can,889392000320,8,2.1,1,12,1.74,21.0
 Minneapolis,Pepsi-Cola,Alani Nu Cherry Slush 12oz can,810030512257,4,2.4,1,12,1.79,21.0
-Minneapolis,Pepsi-Cola,MTN Dew Baja Blast 2L,012000240140,3,2.6,1,8,1.8,14.0
 Minneapolis,Pepsi-Cola,MTN Dew Diet 2L,01274600,4,2.9,1,8,2.55,20.0
+Minneapolis,Pepsi-Cola,Alani Nu Cosmic Stardust 12oz can,810030510024,5,3.1,1,12,1.79,21.0
 Minneapolis,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,0,0.0,1,4,4.28,17.0
-Minneapolis,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 1.75L,616003708777,3,2.1,1,6,5.05,30.0
-Minneapolis,Phillips Wine & Spirits - St. Paul,Zing Zang Sweet & Sour 32oz,616003112161,7,3.8,1,6,3.67,22.0
+Minneapolis,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 1.75L,616003708777,3,2.1,1,6,4.35,26.0
+Minneapolis,Phillips Wine & Spirits - St. Paul,Zing Zang Sweet & Sour 32oz,616003112161,6,2.9,1,6,3.67,22.0
 Minneapolis,Red Bull Distribution Company,Red Bull Sugar Free 16oz can,611269546026,2,0.4,2,24,3.03,73.0
 Minneapolis,Red Bull Distribution Company,Red Bull Amber 12oz can,611269001303,8,1.1,1,24,2.25,54.0
-Minneapolis,Red Bull Distribution Company,Red Bull Sugar Free 8oz can,611269101713,8,1.1,1,24,1.78,43.0
+Minneapolis,Red Bull Distribution Company,Red Bull Sugar Free 8oz can,611269101713,8,1.2,1,24,1.78,43.0
 Minneapolis,Red Bull Distribution Company,Red Bull White Peach 12oz can,611269002706,9,1.3,1,24,2.28,55.0
-Minneapolis,Red Bull Distribution Company,Red Bull Energy Drink 4pk 8oz can,611269108026,2,1.4,1,6,7.08,42.0
+Minneapolis,Red Bull Distribution Company,Red Bull Energy Drink 4pk 8oz can,611269108026,2,2.1,1,6,7.08,42.0
 Minneapolis,Red Bull Distribution Company,Pink Edition Red Bull Wild Berries 12oz can,611269003123,17,3.3,1,24,2.28,55.0
+Minneapolis,Southern Glazer's Wine & Spirits of MN,Angostura Aromatic Bitters 4oz,075496000407,-1,-4.3,1,48,8.8,422.0
 Minneapolis,"Vinocopia, Inc",Gosling's Ginger Beer 12pk,721094199844,0,0.0,1,2,12.0,24.0
 Minneapolis,,Non-Refundable Transaction,NON-REFUNDABLE,-94,-134.3,3,3,0.0,0.0
-Minneapolis,,Bag Fee,400000024660,0,0.0,10,10,0.0,0.0
-Minneapolis,,Tip Item,TIP,0,0.0,30,30,0.0,0.0
-Minneapolis,,Zing Zang Margarita Mix 6pk 8oz can,616003558570,0,0.0,1,1,1.81,2.0
+Minneapolis,,Bag Fee,400000024660,0,0.0,11,11,0.0,0.0
+Minneapolis,,Tip Item,TIP,0,0.0,32,32,0.0,0.0
 Minneapolis,,Black & Mild Wood Tip B1G1,070137122258,0,0.0,3,3,0.0,0.0
 Minneapolis,,Black & Mild Royale B1G1,070137800828,0,0.0,2,2,0.0,0.0
 Minneapolis,,Charm Social Tonic Lemon Ginger 12oz can,400000025568,0,0.0,2,2,2.42,5.0
-Minneapolis,,Mr Pure Island Punch 16oz btl,072718600339,2,0.4,21,21,1.62,34.0
-Minneapolis,,Gatorade Gatorlyte Pineapple Mango 20oz,052000063547,2,1.2,5,5,1.23,6.0
+Minneapolis,,Mr Pure Island Punch 16oz btl,072718600339,2,0.4,19,19,1.62,31.0
 Minneapolis,,Marlboro Gold,02838423,13,1.9,15,15,12.62,189.0
-Minneapolis,,MN Ice Big Bag,865839000245,20,2.4,14,14,3.5,49.0
-Minneapolis,,American Spirits Full Flavor Blue,047995855086,13,2.9,5,5,14.06,70.0
-Minneapolis,,Mr Pure Fruit Punch  16oz,072718100334,15,3.2,4,4,1.57,6.0
+Minneapolis,,MN Ice Big Bag,865839000245,19,2.3,14,14,3.5,49.0
+Minneapolis,,American Spirits Full Flavor Blue,047995855086,11,2.4,8,8,14.06,112.0
+Minneapolis,,Gatorade Gatorlyte Pineapple Mango 20oz,052000063547,2,2.9,1,1,1.23,1.0
 Minneapolis,,Mr Pure Lime 16oz,072718101379,13,3.3,3,3,1.62,5.0
+Minneapolis,,Mr Pure Fruit Punch  16oz,072718100334,15,3.4,3,3,1.57,5.0
 Minnetonka,Bellboy Corporation,Mr & Mrs T Bloody Mary Liter,070655901304,0,0.0,1,6,4.58,27.0
 Minnetonka,Bellboy Corporation,ReaLime 5oz,041409000062,2,1.4,1,24,0.99,24.0
-Minnetonka,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,3,3.2,1,12,2.57,31.0
+Minnetonka,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,3,3.2,1,12,2.58,31.0
+Minnetonka,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,9,3.9,1,12,0.86,10.0
 Minnetonka,Dahlheimer Beverage Monticello,Fever Tree Blood Orange Ginger Beer 4pk 6.7oz btl,812136031816,1,2.1,1,6,3.79,23.0
 Minnetonka,Great Lakes Coca-Cola Distribution,Sprite 12pk 12oz can,049000028928,0,0.0,1,2,9.65,19.0
 Minnetonka,Great Lakes Coca-Cola Distribution,Coke 12pk 12oz can,049000028904,0,0.0,2,4,9.65,39.0
@@ -317,9 +317,9 @@ Minnetonka,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,0,0.0,1,
 Minnetonka,Great Lakes Coca-Cola Distribution,Glaceau SmartWater 20oz,786162200433,3,2.1,1,24,1.43,34.0
 Minnetonka,Johnson Brothers - St. Paul,Master of Mixes Marg Mix Liter,070491212725,1,1.1,1,12,1.01,12.0
 Minnetonka,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,1,1.1,1,12,2.67,32.0
-Minnetonka,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,2,0.5,2,30,1.21,36.0
-Minnetonka,Pepsi-Cola,Pepsi Diet Original 20oz,012000171741,1,1.1,1,24,1.71,41.0
-Minnetonka,Pepsi-Cola,MTN Dew Diet 20oz btl,012000001345,3,1.4,1,24,1.71,41.0
+Minnetonka,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,2,0.5,2,30,1.2,36.0
+Minnetonka,Pepsi-Cola,MTN Dew Diet 20oz btl,012000001345,2,0.9,1,24,1.71,41.0
+Minnetonka,Pepsi-Cola,Pepsi Diet Original 20oz,012000171741,1,1.4,1,24,1.71,41.0
 Minnetonka,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,2,2.9,1,12,1.84,22.0
 Minnetonka,Pepsi-Cola,Gatorade Gatorlyte Watermelon 20oz,052000050622,4,3.4,1,12,1.84,22.0
 Minnetonka,Phillips Wine & Spirits - St. Paul,Owen's Mint Cucumber & Lime 750ml,860148002201,0,0.0,1,12,4.67,56.0
@@ -330,7 +330,7 @@ Minnetonka,"True Brands, Inc.",Truly Tiki Assorted Wine Bag Cakewalk,87671803933
 Minnetonka,,Non-Refundable Transaction,NON-REFUNDABLE,-62,-66.4,4,4,0.0,0.0
 Minnetonka,,Tip Item,TIP,0,0.0,4,4,0.0,0.0
 Minnetonka,,Wine Glass - Wine A Little Laugh A Lot,633538004709,0,0.0,2,2,1.0,2.0
-Minnetonka,,MN Ice Small Bag,865839000252,34,3.1,10,10,1.25,13.0
+Minnetonka,,MN Ice Small Bag,865839000252,34,3.2,9,9,1.25,11.0
 Osseo,Bellboy Corporation,Roses Grenadine 12oz,01667436,0,0.0,1,6,3.73,22.0
 Osseo,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,0,0.0,1,6,5.21,31.0
 Osseo,Bellboy Corporation,SBOC Pimento Stuffed 5oz,089156001130,0,0.0,1,6,3.6,22.0
@@ -348,127 +348,123 @@ Osseo,Great Lakes Coca-Cola Distribution,Coke Zero 20oz,049000040869,0,0.0,1,24,
 Osseo,Great Lakes Coca-Cola Distribution,Mello Yello 20oz,049000016796,5,3.1,1,24,1.96,47.0
 Osseo,"M Amundson, LLP",American Spirit Ultra Light - Orange,047995855239,4,1.6,1,10,13.94,139.0
 Osseo,"M Amundson, LLP",Marlboro Silver 100s,02847829,3,1.8,1,10,12.57,126.0
-Osseo,"M Amundson, LLP",Camel Blue Box,01230739,13,1.9,2,20,12.97,259.0
+Osseo,"M Amundson, LLP",Marlboro Gold Pack 100s,02846529,5,1.8,1,10,12.57,126.0
+Osseo,"M Amundson, LLP",Camel Blue Box,01230739,12,1.8,2,20,12.97,259.0
 Osseo,"M Amundson, LLP",Camel Menthol Crush Silver,01239439,4,2.1,1,10,12.93,129.0
-Osseo,"M Amundson, LLP",Marlboro Gold Pack 100s,02846529,6,2.3,1,10,12.57,126.0
 Osseo,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,1,0.4,2,16,2.62,42.0
 Osseo,Pepsi-Cola,Schweppes Ginger Ale 2L,078000206463,2,1.0,1,8,2.54,20.0
-Osseo,Pepsi-Cola,Schweppes Diet Tonic Liter,078000219456,6,1.4,1,15,1.2,18.0
-Osseo,Pepsi-Cola,Pepsi 2L,012000002304,5,2.1,1,8,2.52,20.0
+Osseo,Pepsi-Cola,Schweppes Diet Tonic Liter,078000219456,5,1.2,1,15,1.2,18.0
+Osseo,Pepsi-Cola,Pepsi 2L,012000002304,5,2.1,1,8,2.53,20.0
 Osseo,Pepsi-Cola,Pepsi Diet 2L,012000171765,5,2.7,1,8,2.56,20.0
 Osseo,Pepsi-Cola,Dole Orange Juice 15oz,012000071744,2,2.9,1,12,1.84,22.0
 Osseo,Pepsi-Cola,Dole Apple Juice 15oz,012000071751,6,3.2,1,12,1.74,21.0
-Osseo,Pepsi-Cola,Dr. Pepper 2L,078000082463,8,3.4,1,8,2.51,20.0
+Osseo,Pepsi-Cola,Dr. Pepper 2L,078000082463,8,3.4,1,8,2.52,20.0
 Osseo,Phillips Wine & Spirits - St. Paul,Tres Agaves Strawberry Mix Liter,854125003220,2,1.7,1,12,5.87,70.0
 Osseo,"Vinocopia, Inc",Gosling's Ginger Beer 12pk,721094199844,1,2.1,1,2,12.0,24.0
 Osseo,,Non-Refundable Transaction,NON-REFUNDABLE,-30,-32.1,4,4,0.0,0.0
 Osseo,,Dr Pepper,07832309,-1,-4.3,1,1,0.0,0.0
 Osseo,,Tip Item,TIP,0,0.0,1,1,0.0,0.0
 Osseo,,Marlboro Medium Red Label,02836823,0,0.0,2,2,12.55,25.0
-Osseo,,Newport,02657512,1,0.5,8,8,13.35,107.0
-Osseo,,American Spirit Yellow,047995855093,2,1.4,4,4,14.08,56.0
+Osseo,,Newport,02657512,1,0.5,8,8,13.37,107.0
+Osseo,,Marlboro Gold,02838423,18,1.4,33,33,12.62,417.0
+Osseo,,American Spirit Yellow,047995855093,2,1.7,3,3,14.08,42.0
 Osseo,,Kodiak Wintergreen Long Cut,04229412,6,1.8,8,8,11.8,94.0
-Osseo,,Marlboro Gold,02838423,21,1.8,27,27,12.62,341.0
-Osseo,,MN Ice Small Bag,865839000252,65,2.1,60,60,1.25,75.0
-Osseo,,Camel Crush Blue,012300197410,12,2.6,7,7,12.92,90.0
-Osseo,,Newport  100,02657318,4,2.9,2,2,13.45,27.0
-Osseo,,MN Ice Big Bag,865839000245,72,3.0,25,25,3.5,87.0
-Osseo,,Marlboro Menthol Gold 100s,02847120,3,3.2,1,1,13.04,13.0
-Osseo,,American Spirit Organic-Turquoise,047995855246,22,3.5,4,4,14.52,58.0
+Osseo,,MN Ice Small Bag,865839000252,63,2.0,63,63,1.25,79.0
+Osseo,,Camel Crush Blue,012300197410,11,2.4,8,8,12.92,103.0
+Osseo,,Newport  100,02657318,4,2.9,2,2,13.47,27.0
+Osseo,,American Spirit Organic-Turquoise,047995855246,20,3.0,8,8,14.51,116.0
+Osseo,,MN Ice Big Bag,865839000245,71,3.0,26,26,3.5,91.0
 Plymouth,Bellboy Corporation,Roses Sweetened Lime Juice 12oz,01667135,0,0.0,1,6,3.73,22.0
 Plymouth,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,0,0.0,1,6,5.21,31.0
 Plymouth,Bellboy Corporation,SBOC Pitted Green Olives 4oz,089156801082,0,0.0,1,6,3.17,19.0
 Plymouth,Bellboy Corporation,Ever American Tonic 8oz,818490014359,0,0.0,1,6,2.09,13.0
 Plymouth,Bellboy Corporation,Rokz Jalapeno Salt 4oz,855439000653,0,0.0,1,6,3.79,23.0
-Plymouth,Bellboy Corporation,Rokz Bloody Mary Salt 4oz,855439000738,0,0.0,1,6,3.79,23.0
-Plymouth,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,10,3.9,1,12,1.81,22.0
+Plymouth,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,10,3.9,1,12,1.84,22.0
 Plymouth,Bellboy Corporation,ReaLime 5oz,041409000062,9,3.9,1,24,0.99,24.0
 Plymouth,Charm LLC,Charm Social Tonic Lemon Ginger 4pk 12oz can,400000025575,0,0.0,1,6,9.67,58.0
 Plymouth,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,0,0.0,1,8,3.21,26.0
 Plymouth,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,0,0.0,2,16,3.21,51.0
 Plymouth,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,1,0.4,2,16,3.21,51.0
-Plymouth,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,6,1.7,1,24,2.09,50.0
-Plymouth,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,1,2.1,1,8,3.21,26.0
 Plymouth,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,9,2.6,1,12,2.67,32.0
 Plymouth,Pepsi-Cola,Celsius Artic Vibe 12oz can,889392021417,0,0.0,1,12,1.77,21.0
 Plymouth,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,3,1.6,1,12,1.83,22.0
 Plymouth,Pepsi-Cola,Schweppes Diet Tonic 6pk 8oz,078000032635,10,2.5,2,8,3.81,30.0
-Plymouth,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,6,2.9,1,8,2.62,21.0
+Plymouth,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,6,3.2,1,8,2.62,21.0
 Plymouth,Pepsi-Cola,Schweppes Tonic Liter,078000218459,42,3.3,1,15,1.26,19.0
 Plymouth,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,0,0.0,1,6,4.17,25.0
-Plymouth,Phillips Wine & Spirits - St. Paul,Filthy Red Cherry 8oz,899682002842,1,0.7,1,12,4.05,49.0
 Plymouth,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary 6pk 8oz can,616003737555,1,1.4,1,4,6.52,26.0
 Plymouth,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,3,2.6,1,4,4.28,17.0
-Plymouth,Phillips Wine & Spirits - St. Paul,Tres Agaves Margarita Mix Liter,854125003039,6,3.7,1,12,5.87,70.0
+Plymouth,Phillips Wine & Spirits - St. Paul,Tres Agaves Margarita Mix Liter,854125003039,5,2.7,1,12,5.87,70.0
 Plymouth,Red Bull Distribution Company,Red Bull Amber 12oz can,611269001303,0,0.0,1,24,2.25,54.0
-Plymouth,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,6,3.7,1,24,1.73,41.0
+Plymouth,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,6,3.7,1,24,1.76,42.0
 Plymouth,,Non-Refundable Transaction,NON-REFUNDABLE,-111,-26.4,17,17,0.0,0.0
 Plymouth,,Swisher Sweets Cigarillos 2pk,025900207465,-2,-4.3,2,2,1.2,2.0
 Plymouth,,Tip Item,TIP,0,0.0,14,14,0.0,0.0
 Plymouth,,Charm Social Tonic Lemon Ginger 12oz can,400000025568,0,0.0,1,1,2.42,2.0
 Plymouth,,MN Ice Shard,865839000276,1,1.4,2,2,5.6,11.0
-Plymouth,,MN Ice Big Bag,865839000245,26,2.4,17,17,3.5,59.0
+Plymouth,,MN Ice Big Bag,865839000245,25,2.3,18,18,3.5,63.0
 Ramsey,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Roses Sweetened Lime Liter,016600000739,0,0.0,1,12,6.07,73.0
 Ramsey,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,0,0.0,1,12,0.86,10.0
 Ramsey,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water Liter,071537020694,1,0.7,1,12,0.79,9.0
 Ramsey,"Capitol Beverage Sales, L.P.",Polar Tonic Water Liter,071537020120,3,1.8,1,12,0.78,9.0
-Ramsey,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,4,1.3,2,16,3.21,51.0
+Ramsey,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,3,0.9,2,16,3.21,51.0
 Ramsey,Great Lakes Coca-Cola Distribution,Coke 2L,049000050103,6,2.0,1,8,3.21,26.0
+Ramsey,Great Lakes Coca-Cola Distribution,Sprite 12pk 12oz can,049000028928,3,2.6,1,2,9.65,19.0
 Ramsey,Great Lakes Coca-Cola Distribution,Monster Ultra Vice Guava 16oz can,070847898146,2,2.9,1,24,2.05,49.0
-Ramsey,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,7,3.3,1,8,3.21,26.0
+Ramsey,Great Lakes Coca-Cola Distribution,Fresca 20oz,049000018066,6,2.9,1,24,2.03,49.0
 Ramsey,Great Lakes Coca-Cola Distribution,Coke 12pk 12oz can,049000028904,5,3.6,1,2,9.65,19.0
+Ramsey,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,7,3.8,1,8,3.21,26.0
 Ramsey,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,8,3.8,1,8,3.21,26.0
-Ramsey,Great Lakes Coca-Cola Distribution,Fresca 20oz,049000018066,7,3.8,1,24,2.03,49.0
-Ramsey,"M Amundson, LLP",Marlboro,02835727,4,1.7,1,10,12.58,126.0
+Ramsey,"M Amundson, LLP",Marlboro,02835727,4,1.7,1,10,12.59,126.0
+Ramsey,"M Amundson, LLP",Marlboro Gold Pack 100s,02846529,14,3.5,1,10,12.57,126.0
 Ramsey,Pepsi-Cola,Dr. Pepper 12pk 12oz can,078000082166,0,0.0,1,2,9.82,20.0
-Ramsey,Pepsi-Cola,Schweppes Tonic 6pk 8oz can,078000032413,0,0.0,1,4,3.8,15.0
+Ramsey,Pepsi-Cola,Schweppes Tonic 6pk 8oz can,078000032413,0,0.0,1,4,3.79,15.0
 Ramsey,Pepsi-Cola,Schweppes Watermelon Mint Tonic Liter,078000038460,0,0.0,1,15,1.05,16.0
-Ramsey,Pepsi-Cola,Pepsi Diet Original 12pk 12oz can,012000171864,1,2.1,1,2,9.57,19.0
+Ramsey,Pepsi-Cola,Pepsi Diet Original 12pk 12oz can,012000171864,1,2.1,1,2,9.42,19.0
+Ramsey,Pepsi-Cola,Mountain Dew 12pk 12oz can,012000809965,2,2.1,1,2,9.6,19.0
 Ramsey,Pepsi-Cola,Pepsi Diet 2L,012000171765,1,2.1,1,8,2.56,20.0
+Ramsey,Pepsi-Cola,Dr. Pepper 2L,078000082463,3,2.6,1,8,2.52,20.0
 Ramsey,Phillips Wine & Spirits - St. Paul,Filthy Black Cherries 11oz,899682002873,0,0.0,1,12,11.87,142.0
 Ramsey,Summer Lakes Beverage LLC,Lake Storm Lemonade Cocktail Mix,860000597548,6,3.7,1,1,17.25,17.0
 Ramsey,"True Brands, Inc.",Bailey's Liqueur Chocolate Tube,756774024895,0,0.0,1,6,7.5,45.0
 Ramsey,"True Brands, Inc.",Shotski Classic Shot Glass by True,876718048074,0,0.0,1,12,1.37,16.0
 Ramsey,"Vinocopia, Inc",Gosling's Ginger Beer 12pk,721094199844,1,2.1,1,2,12.0,24.0
 Ramsey,,Non-Refundable Transaction,NON-REFUNDABLE,-53,-25.2,9,9,0.0,0.0
-Ramsey,,MN Ice Small Bag,865839000252,-2,-0.1,121,121,1.25,151.0
-Ramsey,,Tip Item,TIP,0,0.0,17,17,0.0,0.0
-Ramsey,,Parliament Light 100's,02879129,0,0.0,2,2,13.98,28.0
+Ramsey,,MN Ice Small Bag,865839000252,-3,-0.1,118,118,1.25,148.0
+Ramsey,,Tip Item,TIP,0,0.0,16,16,0.0,0.0
+Ramsey,,Parliament Light 100's,02879129,0,0.0,2,2,13.95,28.0
 Ramsey,,Fresca 12pk 12oz can,049000031058,0,0.0,5,5,9.65,48.0
 Ramsey,,Marlboro Gold,02838423,1,0.5,7,7,12.62,88.0
-Ramsey,,MN Ice Big Bag,865839000245,18,1.7,24,24,3.5,84.0
-Ramsey,,Newport,02657512,10,3.1,4,4,13.35,53.0
+Ramsey,,MN Ice Big Bag,865839000245,18,1.9,20,20,3.5,70.0
+Ramsey,,Newport,02657512,9,2.6,5,5,13.37,67.0
 Rosemount,Bellboy Corporation,Rokz Jalapeno Salt 4oz,855439000653,0,0.0,1,6,3.79,23.0
 Rosemount,Bellboy Corporation,Jose Cuervo  Margarita Salt 6oz,076381123454,0,0.0,1,12,2.23,27.0
 Rosemount,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,1,1.4,1,6,5.21,31.0
 Rosemount,Bellboy Corporation,Clamato Tomato Cocktail 64oz,014800516470,2,1.4,1,8,6.0,48.0
 Rosemount,Bellboy Corporation,Roses Grenadine 25oz,016600001040,5,3.1,1,12,5.83,70.0
 Rosemount,"Breakthru Beverage Minnesota Beer, LLC",Fever Tree Ginger Ale 8pk 5oz can,812136030208,1,2.1,1,3,5.75,17.0
-Rosemount,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water Liter,071537020694,7,1.6,1,12,0.79,9.0
-Rosemount,"Capitol Beverage Sales, L.P.",Lift Bridge Root Beer 4pk 16oz can,685165383054,2,2.1,1,6,4.49,27.0
-Rosemount,"Capitol Beverage Sales, L.P.",Mr Pure Orange Juice 32oz,072718100037,4,2.9,1,12,2.74,33.0
+Rosemount,"Capitol Beverage Sales, L.P.",Lift Bridge Root Beer 4pk 16oz can,685165383054,1,0.9,1,6,4.49,27.0
+Rosemount,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water Liter,071537020694,7,1.9,1,12,0.79,9.0
+Rosemount,"Capitol Beverage Sales, L.P.",Mr Pure Orange Juice 32oz,072718100037,4,3.4,1,12,2.74,33.0
+Rosemount,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,-2,-0.4,3,24,3.21,77.0
 Rosemount,Great Lakes Coca-Cola Distribution,Coke Zero 12pk 12oz can,049000042559,0,0.0,1,2,9.65,19.0
 Rosemount,Great Lakes Coca-Cola Distribution,Sprite 12pk 12oz can,049000028928,0,0.0,3,6,9.65,58.0
-Rosemount,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,0,0.0,3,24,3.21,77.0
 Rosemount,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,0,0.0,1,24,2.07,50.0
-Rosemount,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,1,0.2,3,24,3.21,77.0
+Rosemount,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,1,0.3,2,16,3.21,51.0
 Rosemount,Great Lakes Coca-Cola Distribution,Coke 20oz,04904403,3,0.6,1,24,2.08,50.0
 Rosemount,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,4,1.1,2,16,3.21,51.0
+Rosemount,Great Lakes Coca-Cola Distribution,Seagrams Ginger Ale 2L,072979004181,2,1.7,1,8,3.2,26.0
+Rosemount,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,7,1.8,1,24,2.09,50.0
 Rosemount,Great Lakes Coca-Cola Distribution,Sprite Diet Zero 2L,049000050172,5,1.9,1,8,3.21,26.0
-Rosemount,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,8,2.1,1,24,2.09,50.0
-Rosemount,Great Lakes Coca-Cola Distribution,Seagrams Ginger Ale 2L,072979004181,3,3.2,1,8,3.2,26.0
 Rosemount,Johnson Brothers - St. Paul,Master of Mixes Marg Mix Liter,070491212725,0,0.0,1,12,1.01,12.0
-Rosemount,Johnson Brothers - St. Paul,Master of Mixes Bloody Mary Liter,070491212251,1,2.1,1,12,0.0,0.0
+Rosemount,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,6,2.6,1,12,2.67,32.0
 Rosemount,Johnson Brothers - St. Paul,Jose Cuervo Light Marg. Mix 1.75L,811538011181,2,2.9,1,6,6.17,37.0
-Rosemount,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,7,3.0,1,12,2.67,32.0
 Rosemount,"M Amundson, LLP",Marlboro Silver,02847722,0,0.0,1,10,12.56,126.0
 Rosemount,Mindy Gray,Coves Mocktails Juicy Pineapple & Lime 4pk 12oz can,860011007029,1,1.1,1,6,6.01,36.0
-Rosemount,Pepsi-Cola,Pepsi Diet 2L,012000171765,9,3.5,1,8,2.56,20.0
-Rosemount,Phillips Wine & Spirits - St. Paul,Filthy Red Cherry 8oz,899682002842,0,0.0,1,12,4.05,49.0
+Rosemount,Phillips Wine & Spirits - St. Paul,Filthy Red Cherry 8oz,899682002842,0,0.0,1,12,4.11,49.0
 Rosemount,Phillips Wine & Spirits - St. Paul,Zing Zang Bloody Mary Dill Pickles 32oz,616003616232,1,0.9,1,6,3.67,22.0
 Rosemount,Phillips Wine & Spirits - St. Paul,Gosling's Diet Ginger Beer 6pk 12oz can,721094199752,2,1.0,2,8,4.36,35.0
-Rosemount,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,3,1.4,1,12,3.56,43.0
-Rosemount,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,2,2.9,1,6,4.17,25.0
+Rosemount,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,3,1.4,1,12,3.61,43.0
 Rosemount,Phillips Wine & Spirits - St. Paul,Tres Agaves Strawberry Mix Liter,854125003220,2,2.9,1,12,5.87,70.0
 Rosemount,Phillips Wine & Spirits - St. Paul,Watkins Orange Bitters 4oz,813724025057,4,3.4,1,12,6.29,75.0
 Rosemount,Red Bull Distribution Company,Red Bull Energy Drink 12pk 8oz can,611269426724,0,0.0,1,2,20.67,41.0
@@ -478,103 +474,107 @@ Rosemount,,Charm Social Tonic Lemon Ginger 12oz can,400000025568,0,0.0,1,1,2.42,
 Rosemount,,MN Ice Sphere,865839000283,0,0.0,5,5,6.21,31.0
 Rosemount,,MN Ice Shard,865839000276,0,0.0,14,14,5.6,78.0
 Rosemount,,MN Ice Cylinder,865839000221,1,0.5,8,8,5.49,44.0
-Rosemount,,MN Ice Big Bag,865839000245,25,1.4,46,46,3.5,161.0
-Rosemount,,MN Ice Small Bag,865839000252,136,3.5,18,18,1.25,23.0
+Rosemount,,MN Ice Big Bag,865839000245,22,1.2,50,50,3.5,175.0
+Rosemount,,MN Ice Small Bag,865839000252,133,3.4,22,22,1.25,28.0
 Roseville,Bellboy Corporation,Mr & Mrs T Margarita Liter,070655935309,0,0.0,1,6,3.9,23.0
-Roseville,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,0,0.0,1,12,1.81,22.0
+Roseville,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,0,0.0,1,12,1.84,22.0
 Roseville,Bellboy Corporation,Roses Grenadine 25oz,016600001040,1,2.1,1,12,5.83,70.0
-Roseville,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,6,2.9,1,12,13.57,163.0
+Roseville,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,6,2.9,1,12,13.58,163.0
 Roseville,Bellboy Corporation,Twang Beer Salt 1.4oz,023604231014,4,2.9,1,24,1.6,38.0
 Roseville,"Breakthru Beverage Minnesota Beer, LLC",1919 Zero Sugar Root Beer 10pk 7.5oz can,850045698294,4,3.4,1,3,9.0,27.0
 Roseville,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Kickled Mary Wasabi 32oz,682131859971,0,0.0,1,12,7.35,88.0
 Roseville,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,1,0.1,4,48,0.86,41.0
 Roseville,"Chas A. Bernick, Inc.",Mr Pure Orange Juice 64oz,072718101522,3,2.6,1,6,2.67,16.0
-Roseville,Great Lakes Coca-Cola Distribution,Coke Zero 20oz,049000040869,1,0.5,1,24,2.09,50.0
-Roseville,Great Lakes Coca-Cola Distribution,Fanta Orange 20oz,049000019162,5,2.4,1,24,2.02,49.0
+Roseville,Great Lakes Coca-Cola Distribution,Coke Zero 20oz,049000040869,1,0.7,1,24,2.09,50.0
+Roseville,Great Lakes Coca-Cola Distribution,Fanta Orange 20oz,049000019162,5,2.7,1,24,2.02,49.0
+Roseville,Great Lakes Coca-Cola Distribution,Coke Cherry 20oz,049000018011,4,3.4,1,24,2.09,50.0
 Roseville,Huxley Beverages Inc.,"Huxley Energy Drink Strawberry 12oz can
 ",198168560549,4,1.9,1,12,1.8,22.0
-Roseville,Johnson Brothers - St. Paul,Master of Mixes Old Fashioned Liter,070491213326,2,1.2,1,12,3.67,44.0
+Roseville,Johnson Brothers - St. Paul,Master of Mixes Old Fashioned Liter,070491213326,2,1.4,1,12,3.67,44.0
+Roseville,Johnson Brothers - St. Paul,Master of Mixes Simple Syrup 375ml,070491352070,8,3.8,1,12,2.67,32.0
 Roseville,Joseph Zimmerley,Bootleg Cocktail Mix,860000597500,11,3.6,2,2,17.25,34.0
-Roseville,"M Amundson, LLP",Marlboro Silver 100s,02847829,3,0.6,2,20,12.57,251.0
+Roseville,"M Amundson, LLP",Marlboro Silver 100s,02847829,1,0.2,2,20,12.57,251.0
 Roseville,"M Amundson, LLP",Marlboro 100s,02836328,12,2.7,1,10,12.58,126.0
 Roseville,Pepsi-Cola,Pepsi Cherry 20oz,012000170751,-1,-4.3,1,24,1.71,41.0
-Roseville,Pepsi-Cola,Starry Caffeine Free Lemon Lime 12pk 12oz can,012000221606,0,0.0,1,2,9.38,19.0
+Roseville,Pepsi-Cola,Starry Caffeine Free Lemon Lime 12pk 12oz can,012000221606,0,0.0,1,2,9.36,19.0
 Roseville,Pepsi-Cola,Gatorade Gatorlyte Mixed Berry 20oz btl,052000050820,3,1.4,1,12,1.83,22.0
 Roseville,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,2,1.7,1,8,2.62,21.0
 Roseville,Pepsi-Cola,Gatorade Gatorlyte Cherry Lime 20oz,052000049008,4,2.1,1,12,1.84,22.0
-Roseville,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,32,3.3,1,15,1.21,18.0
+Roseville,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,32,3.3,1,15,1.2,18.0
 Roseville,Pepsi-Cola,Gatorade Gatorlyte Watermelon 20oz,052000050622,16,3.8,1,12,1.84,22.0
-Roseville,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,11,2.4,1,24,1.73,41.0
-Roseville,"True Brands, Inc.","16 oz Red Party Cups, 50 pack by True",842094171217,0,0.0,2,2,3.97,8.0
+Roseville,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,10,2.1,1,24,1.76,42.0
+Roseville,"True Brands, Inc.","16 oz Red Party Cups, 50 pack by True",842094171217,0,0.0,2,2,3.91,8.0
 Roseville,,Non-Refundable Transaction,NON-REFUNDABLE,-195,-32.1,25,25,0.0,0.0
-Roseville,,Tip Item,TIP,0,0.0,13,13,0.0,0.0
+Roseville,,Tip Item,TIP,0,0.0,12,12,0.0,0.0
 Roseville,,Charm Social Tonic Lemon Ginger 12oz can,400000025568,0,0.0,2,2,2.42,5.0
 Roseville,,MN Ice Cylinder,865839000221,0,0.0,2,2,5.49,11.0
-Roseville,,Marlboro Gold,02838423,0,0.0,17,17,12.62,215.0
-Roseville,,Pepsi 12oz can,01201303,4,1.9,5,5,0.0,0.0
+Roseville,,Marlboro Gold,02838423,0,0.0,16,16,12.62,202.0
+Roseville,,Pepsi 12oz can,01201303,4,2.1,4,4,0.0,0.0
 Roseville,,Parliament Lights,02878421,6,3.2,2,2,14.16,28.0
 St. Louis Park,Bellboy Corporation,Brez Dream Functional Beverage 4pk 12oz can,860013707101,0,0.0,1,6,9.98,60.0
 St. Louis Park,Bellboy Corporation,Traverse City Cherries 21oz,859122005246,0,0.0,1,6,12.56,75.0
 St. Louis Park,Bellboy Corporation,Roses Sweetened Lime Juice 12oz,01667135,1,1.1,1,6,3.73,22.0
 St. Louis Park,Bellboy Corporation,ReaLime 5oz,041409000062,10,1.3,1,24,0.99,24.0
-St. Louis Park,Bellboy Corporation,Dole Pineapple Juice 46oz,038900008086,1,1.4,1,12,4.49,54.0
+St. Louis Park,Bellboy Corporation,Dole Pineapple Juice 46oz,038900008086,1,1.4,1,12,4.52,54.0
 St. Louis Park,Bellboy Corporation,Twang Beer Salt 1.4oz,023604231014,2,1.7,1,24,1.6,38.0
-St. Louis Park,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,6,2.1,1,12,13.57,163.0
-St. Louis Park,Bellboy Corporation,Ocean Spray Cranberry Juice,031200200006,11,2.9,1,12,2.98,36.0
+St. Louis Park,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,6,2.3,1,12,13.58,163.0
+St. Louis Park,Bellboy Corporation,Ocean Spray Cranberry Juice,031200200006,10,2.5,1,12,2.98,36.0
 St. Louis Park,"Breakthru Beverage Minnesota Beer, LLC",Fever Tree Ginger Ale 8pk 5oz can,812136030208,2,1.4,2,6,5.75,34.0
 St. Louis Park,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Kickled Mary Bloody Mary Mix 32oz,682131860038,0,0.0,1,12,7.36,88.0
 St. Louis Park,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Mr & Mrs T Bloody Mary 1.75L,070655910016,1,2.1,1,6,7.5,45.0
 St. Louis Park,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Mr & Mrs T Bold & Spicy 1.75L,070655910030,2,2.1,1,6,7.5,45.0
 St. Louis Park,"Capitol Beverage Sales, L.P.",Mr Pure Orange Juice 32oz,072718100037,6,2.0,1,12,2.74,33.0
 St. Louis Park,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water w/Lime Liter,071537020670,12,2.4,1,12,0.7,8.0
-St. Louis Park,"Capitol Beverage Sales, L.P.",Mr Pure Pineapple Juice 32oz,072718100631,10,3.3,1,12,2.59,31.0
-St. Louis Park,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,39,3.6,1,12,0.86,10.0
+St. Louis Park,"Capitol Beverage Sales, L.P.",Mr Pure Pineapple Juice 32oz,072718100631,10,3.3,1,12,2.6,31.0
+St. Louis Park,"Capitol Beverage Sales, L.P.",Polar Club Soda Liter,071537020045,37,3.4,1,12,0.86,10.0
 St. Louis Park,Great Lakes Coca-Cola Distribution,Coke Zero 12pk 12oz can,049000042559,-1,-0.6,4,8,9.65,77.0
-St. Louis Park,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,22,2.0,1,24,2.07,50.0
-St. Louis Park,Great Lakes Coca-Cola Distribution,Coke Diet 20oz,049000000450,20,3.0,1,24,2.07,50.0
+St. Louis Park,Great Lakes Coca-Cola Distribution,Sprite 20oz,04976400,20,1.9,1,24,2.07,50.0
 St. Louis Park,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,10,3.1,1,8,3.21,26.0
-St. Louis Park,Johnson Brothers - St. Paul,Master of Mixes Agave Nectar 375ml,070491353077,1,2.1,1,12,5.33,64.0
+St. Louis Park,Great Lakes Coca-Cola Distribution,Coke Diet 20oz,049000000450,20,3.2,1,24,2.07,50.0
+St. Louis Park,Johnson Brothers - St. Paul,Master of Mixes Agave Nectar 375ml,070491353077,0,0.0,1,12,5.09,61.0
 St. Louis Park,"M Amundson, LLP",Marlboro 100s,02836328,1,0.2,3,30,12.58,377.0
-St. Louis Park,"M Amundson, LLP",Marlboro Silver,02847722,9,3.5,1,10,12.56,126.0
+St. Louis Park,"M Amundson, LLP",Marlboro Silver,02847722,9,3.9,1,10,12.56,126.0
+St. Louis Park,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,-1,-1.4,1,8,2.62,21.0
 St. Louis Park,Pepsi-Cola,Celsius Peach Vibe 12oz can,889392010190,-1,-0.7,1,12,1.74,21.0
 St. Louis Park,Pepsi-Cola,Dr Pepper 10pk 8oz can,078000026658,0,0.0,1,3,6.17,19.0
 St. Louis Park,Pepsi-Cola,Pepsi Diet 2L,012000171765,0,0.0,1,8,2.56,20.0
-St. Louis Park,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,0,0.0,1,8,2.62,21.0
-St. Louis Park,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,4,0.7,2,24,1.84,44.0
+St. Louis Park,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,4,0.8,2,24,1.84,44.0
 St. Louis Park,Pepsi-Cola,Celsius Kiwi Guava 12oz can,889392010145,2,1.4,1,12,1.76,21.0
 St. Louis Park,Pepsi-Cola,MTN Dew Diet 20oz btl,012000001345,11,1.6,1,24,1.71,41.0
-St. Louis Park,Pepsi-Cola,Celsius Orange 12oz can,889392000313,3,1.8,1,12,1.77,21.0
+St. Louis Park,Pepsi-Cola,Celsius Orange 12oz can,889392000313,3,2.1,1,12,1.77,21.0
 St. Louis Park,Pepsi-Cola,Celsius Tropical Vibe 12oz can,889392021394,6,2.9,1,12,1.71,21.0
 St. Louis Park,Pepsi-Cola,Schweppes Diet Tonic 6pk 8oz,078000032635,10,3.6,1,4,3.81,15.0
-St. Louis Park,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,1,0.9,1,4,4.28,17.0
+St. Louis Park,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,0,0.0,1,4,4.28,17.0
 St. Louis Park,Phillips Wine & Spirits - St. Paul,Gosling's Diet Ginger Beer 6pk 12oz can,721094199752,2,1.2,2,8,4.36,35.0
 St. Louis Park,Phillips Wine & Spirits - St. Paul,Tres Agaves Strawberry Mix Liter,854125003220,1,2.1,1,12,5.87,70.0
 St. Louis Park,Phillips Wine & Spirits - St. Paul,Watkins Orange Bitters 4oz,813724025057,2,2.1,1,12,6.29,75.0
-St. Louis Park,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,24,2.1,1,24,1.73,41.0
-St. Louis Park,Red Bull Distribution Company,Red Bull Yellow Edition 8oz can,611269163452,11,3.4,1,24,1.76,42.0
+St. Louis Park,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,8,2.4,1,12,3.61,43.0
+St. Louis Park,Red Bull Distribution Company,Red Bull Energy Drink 8oz can,611269991000,23,2.0,1,24,1.76,42.0
+St. Louis Park,Red Bull Distribution Company,Red Bull Yellow Edition 8oz can,611269163452,10,2.9,1,24,1.75,42.0
 St. Louis Park,"True Brands, Inc.",Dehydrated Orange by Collins 1.3 oz,842094117536,1,1.4,1,12,4.71,56.0
 St. Louis Park,"True Brands, Inc.",No-Mess Glitter Bow Assorted Wine Bag by Cakewalk,842094109456,6,2.3,1,20,1.91,38.0
 St. Louis Park,"True Brands, Inc.",Wine Stain Gift Bag,876718025310,6,2.6,1,10,0.82,8.0
 St. Louis Park,"True Brands, Inc.",Fizz: Chrome Champagne Stopper,876718005329,2,2.9,1,12,2.64,32.0
 St. Louis Park,Walmart,Mountain Dew 16.9oz,012000182372,0,0.0,1,12,0.52,6.0
-St. Louis Park,,Non-Refundable Transaction,NON-REFUNDABLE,-217,-42.3,21,21,0.0,0.0
-St. Louis Park,,MN Ice Small Bag,865839000252,-6,-0.1,245,245,1.25,306.0
-St. Louis Park,,Tip Item,TIP,0,0.0,22,22,0.0,0.0
+St. Louis Park,,Non-Refundable Transaction,NON-REFUNDABLE,-223,-34.1,27,27,0.0,0.0
+St. Louis Park,,MN Ice Small Bag,865839000252,-10,-0.2,238,238,1.25,298.0
+St. Louis Park,,Tip Item,TIP,0,0.0,23,23,0.0,0.0
 St. Louis Park,,MN Ice Shard,865839000276,0,0.0,6,6,5.6,34.0
 St. Louis Park,,American Spirits Full Flavor Blue,047995855086,0,0.0,13,13,14.06,183.0
-St. Louis Park,,MN Ice Big Bag,865839000245,6,0.3,76,76,3.5,266.0
-St. Louis Park,,MN Ice Sphere,865839000283,2,0.8,9,9,6.21,56.0
+St. Louis Park,,MN Ice Big Bag,865839000245,2,0.1,82,82,3.5,287.0
+St. Louis Park,,MN Ice Sphere,865839000283,1,0.4,11,11,6.21,68.0
 St. Louis Park,,Fever Tree Spkarling Pink Grapefruit 8pk 5oz can,812136031229,6,1.5,10,10,5.73,57.0
+St. Louis Park,,Camel Crush Blue,012300197410,8,3.1,3,3,12.92,39.0
 St. Louis Park,,MN Ice Rock,865839000238,10,3.6,2,2,5.49,11.0
-St. Louis Park,,Camel Crush Blue,012300197410,9,3.9,1,1,12.92,13.0
 Stillwater,Bellboy Corporation,SBOC Pimento Stuffed 5oz,089156001130,-1,-4.3,1,6,3.6,22.0
-Stillwater,Bellboy Corporation,The Royal Cherry 10oz,071943117131,0,0.0,1,6,3.14,19.0
+Stillwater,Bellboy Corporation,The Royal Cherry 10oz,071943117131,0,0.0,1,6,3.21,19.0
 Stillwater,Bellboy Corporation,Brez Elevate Functional Beverage 4pk 12oz can,860013612757,0,0.0,1,6,9.98,60.0
 Stillwater,Bellboy Corporation,SBOC Dirty Martini Mix 375ml,089156001314,0,0.0,1,12,3.1,37.0
 Stillwater,Bellboy Corporation,Roses Grenadine 12oz,01667436,1,2.1,1,6,3.73,22.0
 Stillwater,Bellboy Corporation,Ocean Spray Orange Juice 32oz,031200007360,4,2.1,1,12,3.53,42.0
 Stillwater,"Capitol Beverage Sales, L.P.",Mr Pure Ruby Red Grapefruit Juice 32oz,072718100075,0,0.0,1,12,2.6,31.0
 Stillwater,"Capitol Beverage Sales, L.P.",Mr Pure Punch 32oz,072718100464,1,2.1,1,12,2.65,32.0
+Stillwater,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,8,3.8,1,12,2.58,31.0
 Stillwater,Great Lakes Coca-Cola Distribution,Coke 12pk 12oz can,049000028904,0,0.0,2,4,9.65,39.0
 Stillwater,Great Lakes Coca-Cola Distribution,Coke Diet 12pk 12oz can,049000028911,1,0.7,3,6,9.65,58.0
 Stillwater,Great Lakes Coca-Cola Distribution,Sprite 12pk 12oz can,049000028928,1,1.1,2,4,9.65,39.0
@@ -585,85 +585,82 @@ Stillwater,Johnson Brothers - St. Paul,Jose Cuervo Strawberry Margarita Mix 1.75
 Stillwater,"M Amundson, LLP",Can Cooler,047878450001,0,0.0,1,24,1.25,30.0
 Stillwater,"M Amundson, LLP",Bic Colored Lighter,070330600065,5,3.1,1,50,1.16,58.0
 Stillwater,Pepsi-Cola,Dr. Pepper 12pk 12oz can,078000082166,0,0.0,1,2,9.82,20.0
-Stillwater,Pepsi-Cola,Gatorlyte Lime Cucumber 20oz,052000052879,0,0.0,1,12,1.66,20.0
+Stillwater,Pepsi-Cola,Gatorlyte Lime Cucumber 20oz,052000052879,0,0.0,1,12,1.64,20.0
 Stillwater,Pepsi-Cola,Gatorade Galcier Freeze 28oz,052000135190,0,0.0,1,15,0.36,5.0
-Stillwater,Pepsi-Cola,Starry Caffeine Free Lemon Lime 12pk 12oz can,012000221606,1,1.4,1,2,9.38,19.0
-Stillwater,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,3,1.4,2,8,4.05,32.0
+Stillwater,Pepsi-Cola,Schweppes Ginger Ale 6pk 8oz,078000002133,1,0.9,1,4,4.2,17.0
+Stillwater,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,2,0.9,2,8,4.06,32.0
+Stillwater,Pepsi-Cola,Starry Caffeine Free Lemon Lime 12pk 12oz can,012000221606,1,1.4,1,2,9.36,19.0
+Stillwater,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,17,1.8,2,30,1.2,36.0
 Stillwater,Pepsi-Cola,Dr Pepper Diet 20oz,078000083408,4,1.9,1,24,1.69,41.0
-Stillwater,Pepsi-Cola,Schweppes Ginger Ale 6pk 8oz,078000002133,2,2.1,1,4,4.2,17.0
-Stillwater,Pepsi-Cola,Schweppes Diet Tonic 6pk 8oz,078000032635,4,2.1,1,4,3.81,15.0
-Stillwater,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,20,2.2,2,30,1.21,36.0
+Stillwater,Pepsi-Cola,Schweppes Diet Tonic 6pk 8oz,078000032635,4,2.4,1,4,3.81,15.0
 Stillwater,Pepsi-Cola,Aquafina Water 20oz,01215908,8,2.4,1,24,1.27,31.0
-Stillwater,Pepsi-Cola,Dr Pepper 20oz,078000082401,4,2.9,1,24,1.72,41.0
+Stillwater,Pepsi-Cola,Dr Pepper 20oz,078000082401,4,3.4,1,24,1.72,41.0
 Stillwater,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,0,0.0,1,6,4.17,25.0
 Stillwater,Phillips Wine & Spirits - St. Paul,Cock n Bull Light Ginger Beer 4pk 12oz btl,072924112046,5,3.6,1,6,4.17,25.0
 Stillwater,Red Bull Distribution Company,Red Bull Energy Drink 4pk 8oz can,611269108026,2,2.1,1,6,7.08,42.0
 Stillwater,Southern Glazer's Wine & Spirits of MN,Angostura Orange Bitters 4oz,075496331143,0,0.0,1,12,9.0,108.0
 Stillwater,"True Brands, Inc.",Truetap: Double-Hinged Waiters Corkscrew,876718022258,1,1.4,1,12,1.95,23.0
 Stillwater,,Non-Refundable Transaction,NON-REFUNDABLE,-54,-28.9,8,8,0.0,0.0
-Stillwater,,Tip Item,TIP,0,0.0,6,6,0.0,0.0
+Stillwater,,Tip Item,TIP,0,0.0,5,5,0.0,0.0
 Stillwater,,American Spirit Yellow,047995855093,0,0.0,4,4,14.08,56.0
 Stillwater,,MN Ice Big Bag,865839000245,14,1.1,39,39,3.5,136.0
-Stillwater,,MN Ice Small Bag,865839000252,43,1.4,83,83,1.25,104.0
-Stillwater,,Marlboro Gold,02838423,13,3.1,4,4,12.62,50.0
+Stillwater,,MN Ice Small Bag,865839000252,42,1.4,80,80,1.25,100.0
+Stillwater,,Marlboro Gold,02838423,13,3.3,3,3,12.62,38.0
 Vadnais Heights,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,0,0.0,1,6,5.21,31.0
-Vadnais Heights,Bellboy Corporation,The Royal Cherry 10oz,071943117131,0,0.0,1,6,3.14,19.0
 Vadnais Heights,Bellboy Corporation,Ocean Spray Orange Juice 32oz,031200007360,0,0.0,1,12,3.53,42.0
-Vadnais Heights,Bellboy Corporation,Tajin clasico seasoning rimmer,633148599305,0,0.0,1,12,4.83,58.0
-Vadnais Heights,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,3,1.8,1,12,13.57,163.0
+Vadnais Heights,Bellboy Corporation,Tajin clasico seasoning rimmer,633148599305,0,0.0,1,12,4.85,58.0
+Vadnais Heights,Bellboy Corporation,Luxardo Maraschino Cherries 12oz,187229127289,3,1.8,1,12,13.58,163.0
 Vadnais Heights,Bellboy Corporation,ReaLime 5oz,041409000062,7,2.1,1,24,0.99,24.0
 Vadnais Heights,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water w/Lime Liter,071537020670,0,0.0,1,12,0.7,8.0
 Vadnais Heights,"Capitol Beverage Sales, L.P.",Polar Diet Tonic Water Liter,071537020694,6,2.6,1,12,0.79,9.0
 Vadnais Heights,"Capitol Beverage Sales, L.P.",Polar Lime Tonic Water Liter,071537020366,2,2.9,1,12,0.77,9.0
-Vadnais Heights,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,3,3.2,1,12,2.57,31.0
+Vadnais Heights,"Capitol Beverage Sales, L.P.",Mr Pure Cranberry Juice 32oz,072718100358,3,3.2,1,12,2.58,31.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Minute Maid Cranberry Grape 12oz btl,025000052002,0,0.0,1,24,1.62,39.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,1,0.3,2,16,3.21,51.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Sprite Diet Zero 2L,049000050172,1,0.6,1,8,3.21,26.0
-Vadnais Heights,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,5,1.2,2,16,3.21,51.0
+Vadnais Heights,Great Lakes Coca-Cola Distribution,Sprite 2L,049000050158,4,0.9,2,16,3.21,51.0
+Vadnais Heights,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,2,1.2,1,8,3.21,26.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Monster Zero Ultra 16oz can,070847012474,3,1.8,1,24,2.05,49.0
-Vadnais Heights,Great Lakes Coca-Cola Distribution,Fresca 2L,049000050288,3,2.1,1,8,3.21,26.0
-Vadnais Heights,Great Lakes Coca-Cola Distribution,Coke 2L,049000050103,7,2.5,1,8,3.21,26.0
+Vadnais Heights,Great Lakes Coca-Cola Distribution,Coke 2L,049000050103,6,2.0,1,8,3.21,26.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Coke Zero 2L,049000050141,5,2.7,1,8,3.21,26.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Sprite Zero 20oz,049000037197,13,3.1,1,24,1.95,47.0
 Vadnais Heights,Great Lakes Coca-Cola Distribution,Coke Diet 12pk 12oz can,049000028911,5,3.6,1,2,9.65,19.0
-Vadnais Heights,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,0,0.0,1,6,5.84,35.0
+Vadnais Heights,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,0,0.0,1,6,5.87,35.0
 Vadnais Heights,Johnson Brothers - St. Paul,Jose Cuervo Strawberry Margarita Mix 1.75L,811538011143,1,2.1,1,6,5.05,30.0
 Vadnais Heights,"M Amundson, LLP",Newport (Red Box) Non-Menthol 100's,02665715,6,2.1,1,10,12.42,124.0
 Vadnais Heights,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,0,0.0,1,8,2.62,21.0
 Vadnais Heights,Pepsi-Cola,Pepsi Diet 2L,012000171765,0,0.0,1,8,2.56,20.0
+Vadnais Heights,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,0,0.0,1,12,1.83,22.0
+Vadnais Heights,Pepsi-Cola,Gatorade Glacier Freeze 20oz,052000324860,0,0.0,1,24,1.83,44.0
 Vadnais Heights,Pepsi-Cola,Gatorlyte Lemon Lime 20oz,052000052862,2,0.9,1,12,1.84,22.0
-Vadnais Heights,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,2,1.2,1,12,1.83,22.0
 Vadnais Heights,Pepsi-Cola,Gatorade Gatorlyte Watermelon 20oz,052000050622,1,2.1,1,12,1.84,22.0
-Vadnais Heights,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,7,3.3,1,4,4.05,16.0
+Vadnais Heights,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,7,3.3,1,4,4.06,16.0
+Vadnais Heights,Pepsi-Cola,Gatorade Fruit Punch 20oz,052000328660,6,3.7,1,24,1.7,41.0
 Vadnais Heights,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,0,0.0,1,4,4.28,17.0
-Vadnais Heights,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,1,0.4,1,12,3.56,43.0
-Vadnais Heights,Phillips Wine & Spirits - St. Paul,Filthy Black Cherries 11oz,899682002873,1,1.4,1,12,11.87,142.0
+Vadnais Heights,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,1,0.5,2,12,4.17,50.0
 Vadnais Heights,Red Bull Distribution Company,Red Bull Yellow Edition 12oz can,611269113570,2,1.4,1,24,2.28,55.0
 Vadnais Heights,Red Bull Distribution Company,Red Bull Energy Drink 16oz can,611269546019,4,1.9,1,12,3.01,36.0
-Vadnais Heights,,Non-Refundable Transaction,NON-REFUNDABLE,-79,-30.8,11,11,0.0,0.0
+Vadnais Heights,,Non-Refundable Transaction,NON-REFUNDABLE,-82,-25.1,14,14,0.0,0.0
 Vadnais Heights,,MN Ice Big Bag,865839000245,-9,-0.4,98,98,3.5,343.0
-Vadnais Heights,,Tip Item,TIP,0,0.0,16,16,0.0,0.0
-Vadnais Heights,,MN Ice Small Bag,865839000252,51,1.4,92,92,1.25,115.0
-Woodbury,Bellboy Corporation,SBOC Garlic Olives 5oz,089156801280,0,0.0,1,6,4.27,26.0
+Vadnais Heights,,Tip Item,TIP,0,0.0,17,17,0.0,0.0
+Vadnais Heights,,MN Ice Small Bag,865839000252,48,1.4,94,94,1.25,118.0
 Woodbury,Bellboy Corporation,SBOC Pimento Martini Olives 10oz,089156001123,0,0.0,1,6,5.21,31.0
 Woodbury,Bellboy Corporation,Aluminum Bottle Opener,24409949814,0,0.0,1,100,0.27,27.0
-Woodbury,Bellboy Corporation,Ocean Spray Orange Juice 32oz,031200007360,1,0.4,1,12,3.53,42.0
-Woodbury,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,3,1.1,1,12,1.81,22.0
+Woodbury,Bellboy Corporation,ReaLime Lime Juice 8oz,014800582048,2,0.7,1,12,1.84,22.0
 Woodbury,Bellboy Corporation,Roses Grenadine 12oz,01667436,3,1.4,1,6,3.73,22.0
-Woodbury,Bellboy Corporation,Jose Cuervo  Margarita Salt 6oz,076381123454,1,2.1,1,12,2.23,27.0
 Woodbury,Bellboy Corporation,ReaLime 5oz,041409000062,10,2.7,1,24,0.99,24.0
 Woodbury,"Breakthru Beverage Minnesota Beer, LLC",Fever Tree Classic Mojito 750ml ,812136032356,6,2.1,1,6,5.74,34.0
 Woodbury,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Mr & Mrs T Bold & Spicy 1.75L,070655910030,0,0.0,1,6,7.5,45.0
 Woodbury,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Mr & Mrs T Bloody Mary 1.75L,070655910016,0,0.0,1,6,7.5,45.0
 Woodbury,"Capitol Beverage Sales, L.P.",Polar Lime Tonic Water Liter,071537020366,0,0.0,1,12,0.77,9.0
 Woodbury,"College City Beverage, Inc.",Liquid Death Sparkling Water 19.2oz can,850031700185,3,1.4,1,24,1.33,32.0
-Woodbury,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,8,1.5,2,16,3.21,51.0
+Woodbury,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 2L,025000053818,7,1.3,2,16,3.21,51.0
 Woodbury,Great Lakes Coca-Cola Distribution,Coke 2L,049000050103,7,1.8,2,16,3.21,51.0
 Woodbury,Great Lakes Coca-Cola Distribution,Coke Zero 12pk 12oz can,049000042559,4,2.9,1,2,9.65,19.0
 Woodbury,Great Lakes Coca-Cola Distribution,Minute Maid Lemonade 20oz,025000058011,13,3.1,1,24,2.09,50.0
-Woodbury,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,33,3.7,1,8,3.21,26.0
-Woodbury,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,0,0.0,1,6,5.84,35.0
-Woodbury,Johnson Brothers - St. Paul,Master of Mixes Agave Nectar 375ml,070491353077,0,0.0,1,12,5.33,64.0
+Woodbury,Great Lakes Coca-Cola Distribution,Coke Diet 2L,049000050110,32,3.5,1,8,3.21,26.0
+Woodbury,Johnson Brothers - St. Paul,Jose Cuervo Margarita Mix 1.75L,811538011150,0,0.0,1,6,5.87,35.0
+Woodbury,Johnson Brothers - St. Paul,Master of Mixes Agave Nectar 375ml,070491353077,0,0.0,1,12,5.09,61.0
 Woodbury,Johnson Brothers - St. Paul,Master of Mixes Bloody Mary Liter,070491212251,1,0.9,1,12,0.0,0.0
 Woodbury,Johnson Brothers - St. Paul,Jose Cuervo Light Marg. Mix 1.75L,811538011181,4,2.9,1,6,6.17,37.0
 Woodbury,"M Amundson, LLP",Zyn Peppermint 6mg,609249901033,0,0.0,1,5,8.41,42.0
@@ -672,34 +669,33 @@ Woodbury,Pepsi-Cola,Gatorade Gatorlyte Orange 20oz,052000047905,0,0.0,1,12,1.84,
 Woodbury,Pepsi-Cola,Schweppes Diet Tonic Liter,078000219456,0,0.0,3,45,1.2,54.0
 Woodbury,Pepsi-Cola,MTN Dew Diet 20oz btl,012000001345,0,0.0,1,24,1.71,41.0
 Woodbury,Pepsi-Cola,Gatorade Gatorlyte Strawberry Kiwi 20oz,052000047912,1,0.4,1,12,1.83,22.0
-Woodbury,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,2,1.4,1,4,4.05,16.0
+Woodbury,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,10,1.2,2,30,1.2,36.0
+Woodbury,Pepsi-Cola,Schweppes Club Soda 6pk 8oz,078000032420,2,1.4,1,4,4.06,16.0
 Woodbury,Pepsi-Cola,Gatorade Gatorlyte Mixed Berry 20oz btl,052000050820,2,1.4,1,12,1.83,22.0
-Woodbury,Pepsi-Cola,Schweppes Club Soda Liter,078000203455,13,1.6,2,30,1.21,36.0
-Woodbury,Pepsi-Cola,Schweppes Tonic Liter,078000218459,21,2.6,1,15,1.26,19.0
+Woodbury,Pepsi-Cola,Schweppes Tonic Liter,078000218459,20,2.4,1,15,1.26,19.0
 Woodbury,Pepsi-Cola,Starry Caffeine Free Lemon Lime 2L,012000221477,4,3.4,1,8,2.62,21.0
-Woodbury,Phillips Wine & Spirits - St. Paul,Cock n Bull Light Ginger Beer 4pk 12oz btl,072924112046,0,0.0,1,6,4.17,25.0
 Woodbury,Phillips Wine & Spirits - St. Paul,Cock n Bull Ginger Beer 4pk 12oz btl,072924012131,0,0.0,1,6,4.17,25.0
 Woodbury,Phillips Wine & Spirits - St. Paul,Filthy Black Cherries 11oz,899682002873,0,0.0,1,12,11.87,142.0
-Woodbury,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,7,1.8,1,12,3.56,43.0
+Woodbury,Phillips Wine & Spirits - St. Paul,Filthy Olive Brine 8oz,899682002286,7,2.0,1,12,3.61,43.0
 Woodbury,Phillips Wine & Spirits - St. Paul,Gosling's Ginger Beer 6pk 12oz can,721094199707,4,2.1,1,4,4.28,17.0
 Woodbury,Phillips Wine & Spirits - St. Paul,Zing Zang Sweet & Sour 32oz,616003112161,4,2.4,1,6,3.67,22.0
 Woodbury,Red Bull Distribution Company,Red Bull Energy Drink 4pk 8oz can,611269108026,-1,-4.3,1,6,7.08,42.0
+Woodbury,Red Bull Distribution Company,Red Bull Sugar Free 8oz can,611269101713,0,0.0,1,24,1.78,43.0
 Woodbury,Red Bull Distribution Company,Pink Edition Red Bull Wild Berries 12oz can,611269003123,2,0.5,1,24,2.28,55.0
-Woodbury,Red Bull Distribution Company,Red Bull Sugar Free 8oz can,611269101713,3,0.7,1,24,1.78,43.0
-Woodbury,Red Bull Distribution Company,Red Bull Sugar Free 12oz can,611269716467,23,2.5,1,24,2.29,55.0
+Woodbury,Red Bull Distribution Company,Red Bull Sugar Free 12oz can,611269716467,23,2.5,1,24,2.31,55.0
 Woodbury,Southern Glazer's Wine & Spirits of MN,Angostura Aromatic Bitters 6.7oz,075496002005,1,1.4,1,12,14.16,170.0
 Woodbury,"True Brands, Inc.",Elegant White and Black Wine Bag,876718002274,0,0.0,1,10,1.76,18.0
 Woodbury,"True Brands, Inc.",Bamboo: Appetizer Picks,876718006395,0,0.0,1,12,1.23,15.0
-Woodbury,"True Brands, Inc.",Neon Bomber Cups (20),842094182381,2,2.1,1,25,2.32,58.0
+Woodbury,"True Brands, Inc.",Neon Bomber Cups (20),842094182381,2,2.1,1,25,2.33,58.0
 Woodbury,,Non-Refundable Transaction,NON-REFUNDABLE,-151,-25.9,24,24,0.0,0.0
 Woodbury,,Tip Item,TIP,0,0.0,13,13,0.0,0.0
 Woodbury,,1919 Root Beer 8 Gallon,400000023312,0,0.0,1,1,59.0,59.0
 Woodbury,,Romeo y Julieta Reserva Real Toro,076452351687,0,0.0,2,2,5.67,11.0
 Woodbury,,Oliva Serie G Churchill,814539011686,0,0.0,3,3,4.82,14.0
 Woodbury,,Camel Platinum,012300200158,0,0.0,5,5,14.05,70.0
-Woodbury,,Marlboro Gold,02838423,1,0.2,20,20,12.62,252.0
-Woodbury,,American Spirits Full Flavor Blue,047995855086,2,0.7,11,11,14.06,155.0
-Woodbury,,MN Ice Small Bag,865839000252,26,0.7,122,122,1.25,153.0
-Woodbury,,MN Ice Big Bag,865839000245,21,0.8,81,81,3.5,283.0
-Woodbury,,Newport  100,02657318,9,3.5,2,2,13.45,27.0
+Woodbury,,Marlboro Gold,02838423,1,0.2,19,19,12.62,240.0
+Woodbury,,American Spirits Full Flavor Blue,047995855086,1,0.3,13,13,14.06,183.0
+Woodbury,,MN Ice Big Bag,865839000245,19,0.7,84,84,3.5,294.0
+Woodbury,,MN Ice Small Bag,865839000252,25,0.7,123,123,1.25,154.0
+Woodbury,,Newport  100,02657318,9,3.5,2,2,13.47,27.0
 Woodbury,,MN Ice Rock,865839000238,5,3.6,1,1,5.49,5.0

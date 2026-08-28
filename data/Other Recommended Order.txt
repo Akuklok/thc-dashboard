@@ -1,23 +1,25 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Wednesday, Aug 26, 2026
+  RECOMMENDED OTHER ORDER          Friday, Aug 28, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     21,354
-  Coverable by transfer .......  $     11,946   (56%)
-  NET BUY from vendors ........  $      6,210   <- the order
+  (data is 1 day(s) old, from Aug 27 - refreshes automatically)
 
-  49 items   |   3,163 units to buy   |   2,920 units to rebalance
-  Transfers: 288 moves  -  236 urgent (75 stockouts, 161 under 2wk), 52 routine
+  Gross need (all stores) .....  $     21,763
+  Coverable by transfer .......  $     12,217   (56%)
+  NET BUY from vendors ........  $      6,263   <- the order
+
+  46 items   |   3,200 units to buy   |   2,917 units to rebalance
+  Transfers: 280 moves  -  231 urgent (78 stockouts, 153 under 2wk), 49 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 10 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 9 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           223u/223cs         $0    223     0   OUT
+   1  Non-Refundable Transaction           232u/232cs         $0    232     0   OUT
    2  Swisher Sweets Cigarillos 2pk        2u/2cs             $2      2     0   OUT
    3  Dr Pepper                            1u/1cs             $0      1     0   OUT
-   4  Middletons Black & Mild Single       50u/2cs           $74     56     0   OUT
+   4  Middletons Black & Mild Single       50u/2cs           $74     50     0   OUT
    5  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
    6  Acid Blondie                         5u/5cs            $23      5     0   OUT
    7  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
@@ -27,23 +29,22 @@
   11  Charm Social Tonic Lemon Ginger 12o  7u/7cs            $17      7     0   OUT
   12  Mountain Dew 16.9oz                  12u/1cs            $6      7     0   OUT
   13  Velo Cappuccino 3mg                  5u/1cs            $42      4     0   OUT
-  14  Black & Mild Wood Tip B1G1           3u/3cs             $0      3     0   OUT
-  15  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
-  16  La Croix Lime 8pk 12oz can           2u/2cs             $8      2     0   OUT
-  17  Bag Fee                              9u/9cs             $0      9     0   OUT
-  18  Tip Item                             232u/232cs         $0    232     0   OUT
-  19  Dole Lemonade 2L                     8u/1cs            $14      6     0   0.6
-  20  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      4     0   0.9
-  ...and 29 more in the full list.
+  14  ReaLemon 8oz                         12u/1cs           $21      8     0   OUT
+  15  Black & Mild Wood Tip B1G1           3u/3cs             $0      3     0   OUT
+  16  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
+  17  La Croix Lime 8pk 12oz can           2u/2cs             $8      2     0   OUT
+  18  Bag Fee                              10u/10cs           $0     10     0   OUT
+  19  Tip Item                             236u/236cs         $0    236     0   OUT
+  20  Velo Pouch 9mg Wintergreen           20u/4cs          $168     22     0   0.6
+  ...and 26 more in the full list.
 
-  NEEDS REVIEW (10 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (9 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~276/wk vs 2 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~259/wk vs 3 now, buy ahead?
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Pepsi 12oz can                            No cost data - verify price; Margin over 95% - check retail
-    Zyn Peppermint 6mg                        Seasonal - last year ~14/wk vs 5 now, buy ahead?
-    Ocean Spray Orange Juice 32oz             Seasonal - last year ~12/wk vs 7 now, buy ahead?
+    Zyn Peppermint 6mg                        Seasonal - last year ~14/wk vs 4 now, buy ahead?
