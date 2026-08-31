@@ -1,62 +1,204 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Cottage Grove,1032942,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-Cottage Grove,1032941,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson August Month End
-Cottage Grove,1032935,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo August Month End
-Ramsey,1033045,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,0.0,Diageo August Month End
-Ramsey,1033045,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo August Month End
-Ramsey,1033052,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,0.0,0.0,Johnson Free Goods
-Ramsey,1033051,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,
-Ramsey,1033045,082000731528,Smirnoff Cherry Vodka Liter,000010908,12,1.0,121.0,121.0,Diageo August Month End
-Cottage Grove,1032935,082000788096,Smirnoff Red White & Berry Liter,001272119,12,1.0,121.0,0.0,Diageo August Month End
-Ramsey,1033045,082000788096,Smirnoff Red White & Berry Liter,001272119,12,1.0,121.0,0.0,Diageo August Month End
-Cottage Grove,1032935,08200501,Smirnoff Vodka Liter,000002568,12,3.0,121.0,363.0,Diageo August Month End
-Cottage Grove,1032941,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson August Month End
-Cottage Grove,1032941,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson August Month End
-Ramsey,1033051,08247201,Smirnoff Vodka 50ml,000045211,120,1.0,79.0,79.0,
-Ramsey,1033051,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,98.0,98.0,
-Cottage Grove,1032942,08267807,Smirnoff Pink Lemonade 50ml,001631637,120,1.0,79.0,0.0,
-Cottage Grove,1032935,083089450003,Casamigos Blanco 750ml,25862,6,1.0,189.5,189.5,Diageo August Month End
-Ramsey,1033045,083089450003,Casamigos Blanco 750ml,25862,6,1.0,189.5,189.5,Diageo August Month End
-Cottage Grove,1032941,083664871742,Stolichnaya Vodka 1.75L,000058644,6,1.0,149.96,149.96,Johnson August Month End
-Ramsey,1033052,084279008561,Kinky Grape 50ml,1225438,120,1.0,0.0,0.0,Johnson Free Goods
-Cottage Grove,1032943,084279184227,Karkov Vodka 1.75L,000002782,6,13.0,0.0,0.0,Johnson Free Goods
-Ramsey,1033050,084279184227,Karkov Vodka 1.75L,000002782,6,3.0,56.4,169.2,Johnson August Month End
-Cottage Grove,1032941,084279184241,Karkov Vodka Liter,000025916,12,1.0,76.36,76.36,Johnson August Month End
-Ramsey,1033052,084279184241,Karkov Vodka Liter,000025916,12,0.5,0.0,0.0,Johnson Free Goods
-Ramsey,1033050,084279901671,Rondiaz Spiced Rum 1.75L,000064386,6,1.0,92.6,92.6,Johnson August Month End
-Cottage Grove,1032941,084279902715,Rondiaz Silver Rum 1.75L,000036251,6,2.0,92.6,185.2,Johnson August Month End
-Cottage Grove,1032953,084279979472,Il Tramonto Lemoncello 750ml,000015946,6,1.0,71.25,71.25,Store Request
-Cottage Grove,1032941,084279991528,Kinky Blue 50ml,1298254,120,1.0,80.0,80.0,Johnson August Month End
-Ramsey,1033049,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Free Goods
-Ramsey,1033051,085000020333,New Amsterdam Peach Vodka 750ml,000020499,12,1.0,108.0,108.0,
-Cottage Grove,1032940,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,1.0,47.5,47.5,Gallo August Month End
-Ramsey,1033048,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,1.0,47.5,47.5,Gallo August Month End
-Cottage Grove,1032940,085000040768,Lucky One Lemonade Variety 8pk 12oz can,1462649,3,1.0,42.0,42.0,Gallo August Month End
-Ramsey,1033048,085000040768,Lucky One Lemonade Variety 8pk 12oz can,1462649,3,1.0,42.0,42.0,Gallo August Month End
-Cottage Grove,1032942,085000429266,High Noon Pineapple 4pk 12oz can,001761846,6,1.0,49.5,49.5,
-Cottage Grove,1032942,08564607,New Amsterdam Vodka 100 50ml,1107964,120,1.0,160.0,160.0,
-Ramsey,1033051,08567206,New Amsterdam London Dry Gin 50ml,001338704,120,1.0,120.0,120.0,
-Cottage Grove,1032942,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
-Ramsey,1033051,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
-Cottage Grove,1032942,08588005,New Amsterdam Vodka 50ml,1748651,120,1.0,80.0,80.0,
-Cottage Grove,1032935,088076163171,Johnnie Walker Black 1.75L,3657,6,1.0,292.0,0.0,Diageo August Month End
-Cottage Grove,1032935,088110011307,Johnnie Walker Black 750ml,000003673,12,1.0,300.0,300.0,Diageo August Month End
-Cottage Grove,1032935,088110150525,Hennessy VS Cognac 200ml,20584,24,1.0,243.0,243.0,Diageo August Month End
-Ramsey,1033045,088110150525,Hennessy VS Cognac 200ml,20584,24,1.0,243.0,243.0,Diageo August Month End
-Cottage Grove,1032937,088110150556,Hennessy VS Cognac 750ml,7955,12,1.0,0.0,0.0,Diageo Free Goods
-Cottage Grove,1032935,088110150563,Hennessy VS Cognac Liter,7948,12,1.0,483.0,483.0,Diageo August Month End
-Cottage Grove,1032935,088110150587,Hennessy VS Cognac 1.75L,41541,6,1.0,391.0,391.0,Diageo August Month End
-Cottage Grove,1032935,088110150624,Hennessy VS Cognac 375ml,20585,12,1.0,170.0,170.0,Diageo August Month End
-Cottage Grove,1032942,619947000013,Tito's Vodka Liter,22149,12,1.0,218.0,218.0,
-Cottage Grove,1032942,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Ramsey,1033051,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Cottage Grove,1032942,619947000037,Tito's Vodka 1.75L,22221,6,7.0,163.89,1147.23,
-Ramsey,1033051,619947000037,Tito's Vodka 1.75L,22221,6,7.0,163.89,1147.23,
-Cottage Grove,1032942,619947000044,Tito's Vodka 200ml,1174140,24,1.0,124.23,124.23,
-Cottage Grove,1032942,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
-Cottage Grove,1032943,811538010139,1800 Silver Tequila 750ml,000021783,12,1.0,0.0,0.0,Johnson Free Goods
-Cottage Grove,1032941,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson August Month End
-Ramsey,1033051,850035927281,Western Son Strawberry 50ml,1806205,60,1.0,40.8,40.8,
-Cottage Grove,1032935,856724006206,Casamigos Reposado Tequila Liter,1209141,6,1.0,275.0,275.0,Diageo August Month End
-Cottage Grove,1032937,856724006213,Casamigos Reposado 750ml,25864,6,1.0,0.0,0.0,Diageo Free Goods
-Cottage Grove,1032942,860199002618,Gray Duck 1.75L,001650657,6,1.0,96.0,96.0,
+Andover,1033458,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,Johnson Brothers August Bill and Hold
+Rosemount,1033512,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,Johnson Brothers August Bill and Hold
+Blaine,1033464,081128000707,Old Forester 1870 750ml,1591256,6,1.0,175.18,175.18,Johnson Brothers August Bill and Hold
+Andover,1033458,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
+Chanhassen,1033477,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
+Roseville,1033518,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
+Andover,1033458,081128001094,Old Forester Bourbon 1910 750ml,1079793,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
+Rosemount,1033512,081128001094,Old Forester Bourbon 1910 750ml,1079793,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128001094,Old Forester Bourbon 1910 750ml,1079793,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
+Plymouth,1033502,081128001155,Old Forester 1920 Prohibition 750ml,1525027,6,1.0,260.18,260.18,Johnson Brothers August Bill and Hold
+Rosemount,1033512,081128001155,Old Forester 1920 Prohibition 750ml,1525027,6,1.0,260.18,260.18,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128001155,Old Forester 1920 Prohibition 750ml,1525027,6,1.0,260.18,260.18,Johnson Brothers August Bill and Hold
+Andover,1033458,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,2.0,261.5,523.0,Johnson Brothers August Bill and Hold
+Blaine,1033464,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,2.0,261.5,523.0,Johnson Brothers August Bill and Hold
+Bloomington,1033471,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Chanhassen,1033477,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Minnetonka,1033490,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Osseo,1033495,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Plymouth,1033502,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Rosemount,1033512,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Roseville,1033518,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Stillwater,1033530,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Vadnais Heights,1033536,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
+Andover,1033458,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Blaine,1033464,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Bloomington,1033471,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Osseo,1033495,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Plymouth,1033502,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Ramsey,1033507,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Rosemount,1033512,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
+Blaine,1033463,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Chanhassen,1033476,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Cottage Grove,1033481,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Plymouth,1033500,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Roseville,1033518,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,309.35,309.35,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,309.35,309.35,Johnson Brothers August Bill and Hold
+Roseville,1033518,081128001735,Old Forester Statesman 750ml,1167160,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
+Blaine,1033464,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Johnson Brothers August Bill and Hold
+Roseville,1033518,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,1.0,290.5,290.5,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Johnson Brothers August Bill and Hold
+Andover,1033458,081128005085,Old Forester Bourbon 750ml,17721,12,1.0,206.66,206.66,Johnson Brothers August Bill and Hold
+Ramsey,1033507,081128005085,Old Forester Bourbon 750ml,17721,12,1.0,206.66,206.66,Johnson Brothers August Bill and Hold
+Stillwater,1033530,081128005085,Old Forester Bourbon 750ml,17721,12,1.0,206.66,206.66,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128005085,Old Forester Bourbon 750ml,17721,12,1.0,206.66,206.66,Johnson Brothers August Bill and Hold
+Blaine,1033464,081128011680,Woodford Reserve Bourbon 375ml,1596935,12,1.0,167.5,167.5,Johnson Brothers August Bill and Hold
+Andover,1033458,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,4.0,292.5,1170.0,Johnson Brothers August Bill and Hold
+Blaine,1033464,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,6.0,292.5,1755.0,Johnson Brothers August Bill and Hold
+Chanhassen,1033477,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,3.0,292.5,877.5,Johnson Brothers August Bill and Hold
+Minnetonka,1033490,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
+Osseo,1033495,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,2.0,292.5,585.0,Johnson Brothers August Bill and Hold
+Plymouth,1033502,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
+Rosemount,1033512,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,3.0,292.5,877.5,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
+Stillwater,1033530,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
+Woodbury,1033540,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184000052,Jack Daniels Whiskey 50ml,2394,120,1.0,181.49,181.49,Johnson Brothers August Bill and Hold
+Vadnais Heights,1033536,082184000052,Jack Daniels Whiskey 50ml,2394,120,1.0,181.49,181.49,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Ramsey,1033507,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Vadnais Heights,1033536,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Woodbury,1033540,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184000335,Jack Daniels Tennessee Honey 750ml,18640,12,2.0,218.25,436.5,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184000335,Jack Daniels Tennessee Honey 750ml,18640,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Osseo,1033495,082184000335,Jack Daniels Tennessee Honey 750ml,18640,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Roseville,1033518,082184000342,Jack Daniels Tennessee Honey 375ml,1527241,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
+Andover,1033458,082184000618,Jack Daniels Tennessee Honey 1.75L,1483371,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184000618,Jack Daniels Tennessee Honey 1.75L,1483371,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
+Ramsey,1033507,082184000618,Jack Daniels Tennessee Honey 1.75L,1483371,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184001172,Jack Daniels Fire 750ml,1282157,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Chanhassen,1033477,082184001172,Jack Daniels Fire 750ml,1282157,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Woodbury,1033540,082184001172,Jack Daniels Fire 750ml,1282157,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184001219,Jack Daniels Fire 1.75L,1613169,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
+Osseo,1033495,082184001219,Jack Daniels Fire 1.75L,1613169,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184004371,Jack Daniels Tennessee Apple 750ml,1371606,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Osseo,1033495,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Plymouth,1033502,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Andover,1033458,082184038727,Gentleman Jack 750ml,43406,12,1.0,251.99,251.99,Johnson Brothers August Bill and Hold
+Plymouth,1033502,082184038727,Gentleman Jack 750ml,43406,12,1.0,251.99,251.99,Johnson Brothers August Bill and Hold
+Ramsey,1033507,082184038727,Gentleman Jack 750ml,43406,12,1.0,251.99,251.99,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,082184038727,Gentleman Jack 750ml,43406,12,1.0,251.99,251.99,Johnson Brothers August Bill and Hold
+Andover,1033458,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+Chanhassen,1033477,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+Osseo,1033495,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+Roseville,1033518,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+Woodbury,1033540,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
+Andover,1033457,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Blaine,1033464,082184090428,Jack Daniels Whiskey 1.75L,2402,6,5.0,211.7,1058.5,Johnson Brothers August Bill and Hold
+Chanhassen,1033476,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Cottage Grove,1033482,082184090428,Jack Daniels Whiskey 1.75L,2402,6,5.0,211.7,1058.5,Johnson Brothers August Bill and Hold
+Plymouth,1033500,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Rosemount,1033512,082184090428,Jack Daniels Whiskey 1.75L,2402,6,4.0,211.7,846.8,Johnson Brothers August Bill and Hold
+Roseville,1033518,082184090428,Jack Daniels Whiskey 1.75L,2402,6,2.0,211.7,423.4,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
+Stillwater,1033530,082184090428,Jack Daniels Whiskey 1.75L,2402,6,2.0,211.7,423.4,Johnson Brothers August Bill and Hold
+Woodbury,1033540,082184090428,Jack Daniels Whiskey 1.75L,2402,6,3.0,211.7,635.1,Johnson Brothers August Bill and Hold
+Andover,1033458,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184090442,Jack Daniels Whiskey Liter,2410,12,2.0,264.05,528.1,Johnson Brothers August Bill and Hold
+Chanhassen,1033477,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184090442,Jack Daniels Whiskey Liter,2410,12,2.0,264.05,528.1,Johnson Brothers August Bill and Hold
+Minnetonka,1033490,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Plymouth,1033502,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Rosemount,1033512,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Roseville,1033518,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
+Andover,1033458,082184090466,Jack Daniels Whiskey 750ml,2428,12,2.0,218.25,436.5,Johnson Brothers August Bill and Hold
+Blaine,1033464,082184090466,Jack Daniels Whiskey 750ml,2428,12,2.0,218.25,436.5,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Osseo,1033495,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Woodbury,1033540,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
+Cottage Grove,1033482,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
+Osseo,1033495,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
+Roseville,1033518,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
+Stillwater,1033530,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
+Woodbury,1033540,082184090527,Jack Daniels Whiskey 200ml,2444,48,1.0,263.99,263.99,Johnson Brothers August Bill and Hold
+Andover,1033458,083300001403,Chambord Liqueur Royale 700ml,1022711,12,1.0,273.5,273.5,Johnson Brothers August Bill and Hold
+Stillwater,1033530,083300001403,Chambord Liqueur Royale 700ml,1022711,12,1.0,273.5,273.5,Johnson Brothers August Bill and Hold
+Andover,1033457,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Bloomington,1033470,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Minneapolis,1033485,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Andover,1033457,084279184227,Karkov Vodka 1.75L,000002782,6,7.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Blaine,1033463,084279184227,Karkov Vodka 1.75L,000002782,6,6.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Chanhassen,1033476,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Cottage Grove,1033481,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Minneapolis,1033485,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Minnetonka,1033489,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Osseo,1033494,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Plymouth,1033500,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Ramsey,1033506,084279184227,Karkov Vodka 1.75L,000002782,6,3.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Rosemount,1033511,084279184227,Karkov Vodka 1.75L,000002782,6,5.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Roseville,1033517,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+St. Louis Park,1033523,084279184227,Karkov Vodka 1.75L,000002782,6,5.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Stillwater,1033529,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Vadnais Heights,1033535,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
+Andover,1033455,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,15.0,0.0,0.0,Gallo August Bill and Hold Free Goods
+Blaine,1033462,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,35.0,47.5,1662.5,Gallo August Bill and Hold
+Bloomington,1033468,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,8.0,0.0,0.0,Gallo August Bill and Hold Free Goods
+Chanhassen,1033474,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,0.0,0.0,Gallo August Bill and Hold Free Goods
+Cottage Grove,1033480,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,43.0,47.5,2042.5,Gallo August Bill and Hold
+Minnetonka,1033487,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,9.0,0.0,0.0,Gallo August Bill and Hold Free Goods
+Osseo,1033493,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,15.0,47.5,712.5,Gallo August Bill and Hold
+Plymouth,1033499,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,19.0,47.5,902.5,Gallo August Bill and Hold
+Ramsey,1033505,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,7.0,47.5,332.5,Gallo August Bill and Hold
+Rosemount,1033510,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,12.0,47.5,570.0,Gallo August Bill and Hold
+Roseville,1033516,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,25.0,47.5,1187.5,Gallo August Bill and Hold
+St. Louis Park,1033522,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,35.0,47.5,1662.5,Gallo August Bill and Hold
+Stillwater,1033528,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,15.0,47.5,712.5,Gallo August Bill and Hold
+Vadnais Heights,1033534,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,18.0,47.5,855.0,Gallo August Bill and Hold
+Woodbury,1033539,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,27.0,47.5,1282.5,Gallo August Bill and Hold
+Andover,1033456,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,15.0,49.5,742.5,Gallo August Bill and Hold
+Blaine,1033462,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,18.0,49.5,891.0,Gallo August Bill and Hold
+Bloomington,1033469,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,2.0,49.5,99.0,Gallo August Bill and Hold
+Chanhassen,1033475,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,25.0,49.5,1237.5,Gallo August Bill and Hold
+Cottage Grove,1033480,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,11.0,49.5,544.5,Gallo August Bill and Hold
+Minnetonka,1033488,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,1.0,49.5,49.5,Gallo August Bill and Hold
+Osseo,1033493,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,5.0,49.5,247.5,Gallo August Bill and Hold
+Plymouth,1033499,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,8.0,49.5,396.0,Gallo August Bill and Hold
+Ramsey,1033505,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,5.0,49.5,247.5,Gallo August Bill and Hold
+Rosemount,1033510,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,9.0,49.5,445.5,Gallo August Bill and Hold
+Roseville,1033516,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,12.0,49.5,594.0,Gallo August Bill and Hold
+St. Louis Park,1033522,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,21.0,49.5,1039.5,Gallo August Bill and Hold
+Stillwater,1033528,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,11.0,49.5,544.5,Gallo August Bill and Hold
+Vadnais Heights,1033534,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,4.0,49.5,198.0,Gallo August Bill and Hold
+Woodbury,1033539,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,22.0,49.5,1089.0,Gallo August Bill and Hold
+Andover,1033456,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,23.0,49.5,1138.5,Gallo August Bill and Hold
+Blaine,1033462,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,8.0,49.5,396.0,Gallo August Bill and Hold
+Chanhassen,1033475,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,5.0,49.5,247.5,Gallo August Bill and Hold
+Minnetonka,1033488,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,1.0,49.5,49.5,Gallo August Bill and Hold
+Osseo,1033493,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,49.5,99.0,Gallo August Bill and Hold
+Plymouth,1033499,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,8.0,49.5,396.0,Gallo August Bill and Hold
+Ramsey,1033505,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,1.0,49.5,49.5,Gallo August Bill and Hold
+Rosemount,1033510,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,4.0,49.5,198.0,Gallo August Bill and Hold
+Roseville,1033516,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,9.0,49.5,445.5,Gallo August Bill and Hold
+Stillwater,1033528,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,3.0,49.5,148.5,Gallo August Bill and Hold
+Vadnais Heights,1033534,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,3.0,49.5,148.5,Gallo August Bill and Hold
+Woodbury,1033539,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,14.0,49.5,693.0,Gallo August Bill and Hold
+Roseville,1033516,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,3.0,49.5,148.5,Gallo August Bill and Hold
+St. Louis Park,1033522,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,5.0,49.5,247.5,Gallo August Bill and Hold
+Vadnais Heights,1033534,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,2.0,49.5,99.0,Gallo August Bill and Hold
+Woodbury,1033539,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,1.0,49.5,49.5,Gallo August Bill and Hold
+Andover,1033456,085000043073,High Noon Peach 8pk 12oz can,1467100,3,1.0,49.5,49.5,Gallo August Bill and Hold
+Plymouth,1033499,085000043073,High Noon Peach 8pk 12oz can,1467100,3,5.0,49.5,247.5,Gallo August Bill and Hold
+Roseville,1033516,085000043073,High Noon Peach 8pk 12oz can,1467100,3,2.0,49.5,99.0,Gallo August Bill and Hold
+St. Louis Park,1033522,085000043073,High Noon Peach 8pk 12oz can,1467100,3,5.0,49.5,247.5,Gallo August Bill and Hold
+Woodbury,1033539,085000043073,High Noon Peach 8pk 12oz can,1467100,3,4.0,49.5,198.0,Gallo August Bill and Hold
+Rosemount,1033512,744607068208,El Jimador Blanco Tequila 750ml,1107185,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold
+Blaine,1033464,744607111317,Herradura Silver Tequila 750ml,54445,6,1.0,184.6,184.6,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,744607111317,Herradura Silver Tequila 750ml,54445,6,1.0,184.6,184.6,Johnson Brothers August Bill and Hold
+Woodbury,1033540,744607111317,Herradura Silver Tequila 750ml,54445,6,1.0,184.6,184.6,Johnson Brothers August Bill and Hold
+Blaine,1033464,744607111324,Herradura Reposado Tequila 750ml,51540,6,1.0,216.0,216.0,Johnson Brothers August Bill and Hold
+St. Louis Park,1033524,744607111324,Herradura Reposado Tequila 750ml,51540,6,1.0,216.0,216.0,Johnson Brothers August Bill and Hold
+Woodbury,1033540,744607111324,Herradura Reposado Tequila 750ml,51540,6,1.0,216.0,216.0,Johnson Brothers August Bill and Hold

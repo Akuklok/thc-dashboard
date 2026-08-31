@@ -1,161 +1,142 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Minneapolis,1032981,011034410079,Martini & Rossi Sweet Vermouth 375ml,028819,24,1.0,117.32,117.32,
-Minneapolis,1032981,011034420078,Martini & Rossi Dry Vermouth 375ml,028815,24,1.0,117.32,117.32,
-Minneapolis,1032981,075496000407,Angostura Aromatic Bitters 4oz,995474,48,1.0,425.0,425.0,
-Minneapolis,1032981,080432400630,Glenlivet Scotch 12 Yr 750ml,15502,12,1.0,410.54,410.54,
-Minneapolis,1032981,080432401224,Seagrams Extra Dry Gin 375ml,624869,24,1.0,97.13,97.13,
-Minneapolis,1032981,080432401255,Seagrams Extra Dry Gin Liter,373541,12,1.0,112.44,112.44,
-Minneapolis,1032981,080432401620,Seagrams Lime Gin Liter,78815,12,1.0,112.44,0.0,
-Minneapolis,1032981,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,
-Minneapolis,1032981,080432500149,Jameson Irish Whiskey 375ml,617504,24,1.0,273.24,273.24,
-Minneapolis,1032981,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,
-Minneapolis,1032981,080432500187,Jameson Irish Whiskey 1.75L,24600,6,2.0,247.5,495.0,
-Minneapolis,1032981,080480001094,Bacardi Limon Rum Traveler,290344,12,1.0,125.37,125.37,
-Minneapolis,1032981,080480001513,Bacardi Spiced Rum Liter,960685,12,1.0,143.37,143.37,
-Minneapolis,1032981,080480002923,D'usse Cognac VSOP 750ml,330138,6,1.0,202.46,202.46,
-Minneapolis,1032981,080480002930,D'usse Cognac VSOP 375ml,347548,12,1.0,208.67,208.67,
-Minneapolis,1032981,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,1.0,131.14,131.14,
-Minneapolis,1032981,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,5.0,102.93,514.65,
-Plymouth,1033042,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,1.0,102.93,102.93,
-Minneapolis,1032981,080480015305,Bacardi Superior Light Rum Liter,28728,12,2.0,143.37,286.74,
-Minneapolis,1032981,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
-Minneapolis,1032981,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,0.0,
-Minneapolis,1032981,080480025205,Bacardi Gold 1.75L,299707,6,1.0,102.93,102.93,
-Minneapolis,1032981,080480025304,Bacardi Gold Rum Liter,28715,12,1.0,143.37,143.37,
-Minneapolis,1032981,080480065300,Castillo Silver Rum Liter,28768,12,1.0,92.0,92.0,
-Minneapolis,1032981,080480170028,Cazadores Reposado Tequila 750ml,535797,12,1.0,192.77,192.77,
-Minneapolis,1032981,080480172022,Cazadores Blanco Tequila 750ml,535798,12,1.0,192.77,192.77,
-Minneapolis,1032981,080480217075,Noilly Prat Sweet Vermouth 750ml,959618,12,1.0,109.29,109.29,
-Minneapolis,1032981,080480280000,Grey Goose Vodka 1.75L,79019,6,1.0,215.96,215.96,
-Minneapolis,1032981,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
-Minneapolis,1032981,080480280024,Grey Goose Vodka 750ml,79026,12,1.0,224.92,224.92,
-Minneapolis,1032981,080480280031,Grey Goose Vodka 375ml,38168,12,1.0,138.05,138.05,
-Minneapolis,1032981,080480300012,Bombay Gin Liter,11286,12,1.0,176.69,176.69,
-Plymouth,1033042,080480300012,Bombay Gin Liter,11286,12,1.0,176.69,176.69,
-Minneapolis,1032981,080480301002,Bombay Sapphire Gin 1.75L,11290,6,1.0,172.5,172.5,
-Plymouth,1033042,080480301002,Bombay Sapphire Gin 1.75L,11290,6,3.0,172.5,517.5,
-Minneapolis,1032981,080480301019,Bombay Sapphire Gin Liter,11291,12,1.0,250.5,250.5,
-Minneapolis,1032981,080480301026,Bombay Sapphire Gin 750ml,11292,12,1.0,211.0,211.0,
-Minneapolis,1032981,080480355203,Bacardi Limon Rum 1.75L,28735,6,6.0,102.93,617.58,
-Plymouth,1033042,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-Minneapolis,1032981,080480355302,Bacardi Limon Rum Liter,28736,12,1.0,143.37,143.37,
-Minneapolis,1032981,080480356200,Bacardi Limon Rum 50ml,511051,120,1.0,100.19,100.19,
-Minneapolis,1032981,080480400620,Bacardi Coconut Rum Liter,73965,12,1.0,143.37,143.37,
-Minneapolis,1032981,080480983666,Bacardi Lime Rum 1.75L,923429,6,1.0,102.93,102.93,
-Minneapolis,1032981,080480987176,Bacardi Tropical Rum Liter,987890,12,1.0,143.37,143.37,
-Minneapolis,1032981,080480988258,Bacardi Mango Chile Rum Liter,554462,12,1.0,143.37,143.37,
-Minneapolis,1032981,080660000428,Chi-Chi's Pina Colada 750ml,356636,12,1.0,45.0,45.0,
-Minneapolis,1032981,080660472072,Barton Vodka 375ml,3996,24,1.0,59.6,59.6,
-Plymouth,1033042,080660472072,Barton Vodka 375ml,3996,24,1.0,59.6,59.6,
-Minneapolis,1032981,080660472089,Barton Vodka 200ml,7363,48,1.0,67.98,67.98,
-Minneapolis,1032981,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
-Minneapolis,1032981,080686001201,Jim Beam Bourbon Liter,975690,12,1.0,190.27,190.27,
-Minneapolis,1032981,080686001430,Jim Beam Bourbon Traveler,2801,12,1.0,149.92,149.92,
-Minneapolis,1032981,080686006060,Jim Beam Honey 750ml,948374,12,1.0,149.92,149.92,
-Minneapolis,1032981,080686006558,Jim Beam Apple 750ml,948543,12,1.0,149.92,149.92,
-Minneapolis,1032981,080686006855,Jim Beam Vanilla 750ml,948471,12,1.0,149.92,149.92,
-Minneapolis,1032981,080686007777,Jim Beam Black 7yr 1.75L,618252,6,1.0,180.0,180.0,
-Minneapolis,1032981,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,10.0,45.0,450.0,
-Minneapolis,1032981,080686009290,Suntory -196 Vodka Lemon 4pk 12oz can,648932,6,2.0,45.0,90.0,
-Minneapolis,1032981,080686010357,Suntory -196 Variety Pack 3 8pk 12oz can,656131,3,10.0,44.9,449.0,
-Minneapolis,1032981,080686011651,Suntory -196 Vodka Lemon 24oz can,678504,12,3.0,44.9,134.7,
-Minneapolis,1032981,080686012511,On The Rocks Watermelon Margarita 4pk 12oz can,689832,6,1.0,49.45,49.45,
-Minneapolis,1032981,080686014096,Suntory -196 Green tea Variety Pack 8pk 12oz can,701071,3,5.0,45.0,225.0,
-Minneapolis,1032981,080686016762,Knob Creek Bourbon 750ml,986040,6,1.0,152.98,152.98,
-Minneapolis,1032981,080686310013,Dekuyper Amaretto Liter,229684,12,1.0,98.0,98.0,
-Minneapolis,1032981,080686310037,Dekuyper Amaretto 750ml,229686,12,1.0,84.5,84.5,
-Minneapolis,1032981,080686316015,Dekuyper Blue Curacao Liter,157604,12,1.0,100.75,100.75,
-Minneapolis,1032981,080686319207,Dekuyper Buttershots Liter,32387,12,1.0,80.0,80.0,
-Minneapolis,1032981,080686395430,Dekuyper Sour Apple Pucker 750ml,55550,12,1.0,79.9,79.9,
-Minneapolis,1032981,080686835028,Sauza Hornitos Reposado 750ml,946337,12,1.0,196.73,196.73,
-Minneapolis,1032981,080686835325,Sauza Hornitos Plata 750ml,949391,12,1.0,187.4,187.4,
-Minneapolis,1032981,080686835349,Sauza Hornitos Plata Tequila 1.75L,948669,6,1.0,174.38,174.38,
-Minneapolis,1032981,080686897156,On the Rocks Old Fashioned 750ml,557125,6,1.0,90.42,90.42,
-Plymouth,1033042,080686897170,On the Rocks Margarita 750ml,557126,6,1.0,90.42,90.42,
-Minneapolis,1032981,080686929437,Pinnacle Vodka 375ml,984754,24,1.0,72.95,0.0,
-Minneapolis,1032981,080686929444,Pinnacle Vodka 50ml,000984752,120,1.0,64.2,0.0,
-Minneapolis,1032981,080686958031,Suntory Roku Gin 750ml,923376,6,1.0,119.55,119.55,
-Minneapolis,1032981,083089660174,Jagermeister 1.75L,40495,6,1.0,180.0,180.0,
-Minneapolis,1032981,083120957270,Tribuno Sweet Vermouth 750ml,422226,12,1.0,63.96,63.96,
-Minneapolis,1032981,085246139417,Maker's Mark Bourbon 1.75L,9997,6,2.0,242.68,485.36,
-Plymouth,1033042,085246139417,Maker's Mark Bourbon 1.75L,9997,6,1.0,242.68,242.68,
-Minneapolis,1032981,085246139431,Maker's Mark Bourbon 750ml,9999,12,1.0,251.67,251.67,
-Minneapolis,1032981,086003272019,Mi Campo Reposado 750ml,921560,12,3.0,252.0,756.0,
-Minneapolis,1032981,086003272026,Mi Campo Tequila Blanco Liter,921561,6,1.0,108.0,108.0,
-Minneapolis,1032981,086003272064,Mi Campo Tequila Blanco 375ml,586935,12,1.0,112.0,0.0,
-Minneapolis,1032981,086003272071,Mi Campo Tequila Reposado 375ml,586933,12,1.0,120.0,120.0,
-Minneapolis,1032981,086003272118,Mi Campo Blanco Tequila 1.75L,623537,3,1.0,95.01,95.01,
-Minneapolis,1032981,086036100198,Christian Brothers Brandy 50ml,958647,120,1.0,113.4,0.0,
-Minneapolis,1032981,086036862775,Christian Bros Honey Liqueur 750ml,578612,12,1.0,90.0,90.0,
-Plymouth,1033042,088004023850,99 Root Beer 50ml,442556,120,1.0,72.1,72.1,
-Minneapolis,1032981,088004024086,99 Peppermint 50ml,347256,120,1.0,72.1,72.1,
-Minneapolis,1032981,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
-Minneapolis,1032980,088004071240,Svedka Citron Vodka 1.75L,531159,6,10.0,87.74,877.4,Southern August Month End
-Plymouth,1033040,088004071240,Svedka Citron Vodka 1.75L,531159,6,1.0,87.74,87.74,Southern August Month End
-Minneapolis,1032980,088004071370,Svedka Vodka 100pf 1.75L,659137,6,5.0,87.74,438.7,Southern August Month End
-Minneapolis,1032980,088004071851,Svedka Blackberry Vodka 1.75L,666382,6,10.0,87.74,877.4,Southern August Month End
-Minneapolis,1032980,088004071929,Svedka Vanilla Vodka 1.75L,666597,6,7.0,87.74,614.18,Southern August Month End
-Minneapolis,1032980,088004072063,Svedka Strawberry Vodka 1.75L,666352,6,10.0,87.74,877.4,Southern August Month End
-Minneapolis,1032980,088004072179,Svedka Banana Vodka 1.75L,666602,6,2.0,87.74,175.48,Southern August Month End
-Minneapolis,1032981,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
-Minneapolis,1032981,088100134535,Black Velvet Canadian Liter,984395,12,1.0,86.74,86.74,
-Minneapolis,1032981,089000118311,99 Apples 100ml,394870,48,1.0,47.75,0.0,
-Minneapolis,1032981,089000990610,99 Peaches 50ml,175096,120,1.0,72.1,72.1,
-Minneapolis,1032981,089540333472,Beefeater Gin 1.75L,600817,6,1.0,134.61,134.61,
-Minneapolis,1032981,089540333489,Beefeater Gin Liter,600814,12,1.0,184.23,184.23,
-Minneapolis,1032981,089540448978,Malibu Rum Liter,33451,12,5.0,183.48,917.4,
-Minneapolis,1032981,089540449036,Malibu Rum 375ml,67449,24,1.0,168.48,168.48,
-Minneapolis,1032981,089540449326,Malibu Rum 1.75L,136168,6,6.0,93.3,559.8,
-Minneapolis,1032981,089540463124,Malibu Pineapple Rum Liter,68331,12,2.0,183.48,366.96,
-Minneapolis,1032981,089540466446,Malibu Rum Traveler,33452,12,2.0,165.4,330.8,
-Minneapolis,1032981,089540520155,Malibu Black Rum 1.75L,910775,6,1.0,93.3,93.3,
-Minneapolis,1032981,089540536538,Malibu Pink Rum 1.75L,683792,6,2.0,93.3,186.6,
-Minneapolis,1032981,089540540115,Malibu Rum Strawberry Liter,958175,12,1.0,183.48,183.48,
-Minneapolis,1032981,096749000067,Elijah Craig BBN Small Batch 94 750ml,409268,12,1.0,222.75,222.75,
-Minneapolis,1032981,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,0.0,
-Minneapolis,1032981,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Minneapolis,1032981,096749021178,Evan Williams 100 Proof 1.75L,29860,6,1.0,131.22,131.22,
-Minneapolis,1032981,096749021246,Evan Williams Bourbon Liter,1014,12,1.0,134.96,134.96,
-Minneapolis,1032981,096749021772,Evan Williams Bourbon Traveler,3540,12,1.0,114.29,114.29,
-Minneapolis,1032981,096749086269,Admiral Nelson's Spiced Rum 1.75L,12732,6,1.0,72.0,72.0,
-Minneapolis,1032981,096749908011,Lunazul Reposado Tequila Liter,186639,12,20.0,183.75,3675.0,
-Minneapolis,1032981,096749908028,Lunazul Blanco Tequila Liter,186580,12,3.0,183.75,551.25,
-Minneapolis,1032972,096749908547,Lunazul Tequila Blanco 1.75L,239670,6,0.5,0.0,0.0,Load In Free Goods
-Plymouth,1033035,096749908547,Lunazul Tequila Blanco 1.75L,239670,6,0.5,0.0,0.0,Load In Free Goods
-Minneapolis,1032973,096749908554,Lunazul Tequila Reposado 1.75L,239671,6,0.5,152.96,76.48,Load In
-Plymouth,1033036,096749908554,Lunazul Tequila Reposado 1.75L,239671,6,0.5,152.96,76.48,Load In
-Minneapolis,1032981,096749908585,Lunazul Anejo 750ml,166401,6,1.0,80.96,80.96,
-Minneapolis,1032981,617768111109,Svedka Vodka Liter,656186,12,12.0,116.93,1403.16,
-Minneapolis,1032980,617768111178,Svedka Vodka 1.75L,656185,6,150.0,87.74,13160.97,Southern August Month End
-Plymouth,1033040,617768111178,Svedka Vodka 1.75L,656185,6,3.0,87.74,263.22,Southern August Month End
-Minneapolis,1032980,617768112007,Svedka Vodka 200ml,000690828,48,2.0,80.0,160.0,Southern August Month End
-Plymouth,1033040,617768112007,Svedka Vodka 200ml,000690828,48,1.0,80.0,80.0,Southern August Month End
-Plymouth,1033041,617768113752,Svedka Vodka 375ml,649729,24,1.0,0.0,0.0,Southern Free Goods
-Minneapolis,1032980,617768121757,Svedka Vodka Traveler,683121,12,1.0,99.0,99.0,Southern August Month End
-Plymouth,1033041,617768121757,Svedka Vodka Traveler,683121,12,1.0,0.0,0.0,Southern Free Goods
-Minneapolis,1032980,617768122174,Svedka Clementine Vodka 1.75L,666600,6,4.0,87.74,350.96,Southern August Month End
-Minneapolis,1032980,617768124178,Svedka Raspberry Vodka 1.75L,669447,6,8.0,87.74,701.92,Southern August Month End
-Minneapolis,1032980,617768141175,Svedka Strawberry Lemonade Vod 1.75L,532607,6,35.0,87.74,3070.89,Southern August Month End
-Minneapolis,1032981,617768151105,Svedka Mango Pineapple Vodka Liter,532608,12,1.0,116.93,116.93,
-Minneapolis,1032980,617768151174,Svedka Mango Pineapple Vodka 1.75L,354692,6,20.0,87.74,1754.8,Southern August Month End
-Plymouth,1033040,617768151174,Svedka Mango Pineapple Vodka 1.75L,354692,6,2.0,87.74,175.48,Southern August Month End
-Minneapolis,1032980,617768171172,Svedka Peach Vodka 1.75L,666598,6,5.0,87.74,438.7,Southern August Month End
-Minneapolis,1032980,617768201176,Svedka Blue Raspberry Vodka 1.75L,528766,6,10.0,87.74,877.4,Southern August Month End
-Plymouth,1033040,617768201176,Svedka Blue Raspberry Vodka 1.75L,528766,6,1.0,87.74,87.74,Southern August Month End
-Minneapolis,1032980,617768291177,Svedka Cherry Limeade 1.75L,991564,6,8.0,87.74,701.92,Southern August Month End
-Minneapolis,1032981,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
-Minneapolis,1032981,721059897518,Wild Turkey 101 750ml,512412,12,1.0,215.91,215.91,
-Minneapolis,1032981,721733000029,Patron Silver Tequila 750ml,328,12,3.0,370.05,740.1,
-Plymouth,1033042,721733000029,Patron Silver Tequila 750ml,328,12,1.0,370.05,370.05,
-Minneapolis,1032981,813497006109,Bumbu Rum 750ml,405590,6,2.0,146.94,293.88,
-Minneapolis,1032981,850015640025,Teremana Tequila Blanco 750ml,965145,6,1.0,139.5,139.5,
-Plymouth,1033042,850015640025,Teremana Tequila Blanco 750ml,965145,6,1.0,139.5,139.5,
-Minneapolis,1032981,855880008024,On the Rocks Old Fashioned 375ml,918254,12,1.0,103.19,103.19,
-Minneapolis,1032981,855880008086,On the Rocks Pineapple Margarita 375ml,919716,12,1.0,103.19,103.19,
-Minneapolis,1032981,855880008116,On the Rocks Margarita 375ml,918485,12,1.0,103.19,103.19,
-Minneapolis,1032981,856065002059,Deep Eddy Vodka 1.75L,319330,6,1.0,106.04,0.0,
-Minneapolis,1032981,856065002097,Deep Eddy Ruby Red Vodka Liter,336236,12,1.0,173.49,173.49,
-Minneapolis,1032981,856065002264,Deep Eddy Lime Liter,988457,12,1.0,173.49,173.49,
-Minneapolis,1032981,856065002424,Deep Eddy Lemon Liter,376952,12,1.0,173.49,173.49,
-Minneapolis,1032981,856065002431,Deep Eddy Lemon Vodka 1.75L,376951,6,1.0,106.04,0.0,
-Minneapolis,1032981,860265002405,Skrewball Peanut Butter Whiskey 750ml,561798,12,1.0,225.25,225.25,
+Andover,1033460,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
+Blaine,1033466,080432500118,Jameson Irish Whiskey Liter,24601,12,1.0,330.12,330.12,Southern August Bill and Hold
+Bloomington,1033473,080432500118,Jameson Irish Whiskey Liter,24601,12,1.0,330.12,330.12,Southern August Bill and Hold
+Cottage Grove,1033484,080432500118,Jameson Irish Whiskey Liter,24601,12,3.0,330.12,990.36,Southern August Bill and Hold
+Minneapolis,1033486,080432500118,Jameson Irish Whiskey Liter,24601,12,7.0,330.12,2310.84,Southern August Bill and Hold
+Plymouth,1033503,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
+Rosemount,1033514,080432500118,Jameson Irish Whiskey Liter,24601,12,3.0,330.12,990.36,Southern August Bill and Hold
+Roseville,1033520,080432500118,Jameson Irish Whiskey Liter,24601,12,3.0,330.12,990.36,Southern August Bill and Hold
+St. Louis Park,1033526,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
+Vadnais Heights,1033537,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
+Woodbury,1033541,080432500118,Jameson Irish Whiskey Liter,24601,12,3.0,330.12,990.36,Southern August Bill and Hold
+Andover,1033460,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Blaine,1033466,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Bloomington,1033473,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Cottage Grove,1033484,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Minneapolis,1033486,080432500170,Jameson Irish Whiskey 750ml,24602,12,2.0,276.1,552.2,Southern August Bill and Hold
+Plymouth,1033503,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Rosemount,1033514,080432500170,Jameson Irish Whiskey 750ml,24602,12,2.0,276.1,552.2,Southern August Bill and Hold
+Roseville,1033520,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+St. Louis Park,1033526,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Vadnais Heights,1033537,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+Cottage Grove,1033483,080432500187,Jameson Irish Whiskey 1.75L,24600,6,8.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Minneapolis,1033486,080432500187,Jameson Irish Whiskey 1.75L,24600,6,4.0,247.5,990.0,Southern August Bill and Hold
+Osseo,1033496,080432500187,Jameson Irish Whiskey 1.75L,24600,6,11.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Plymouth,1033503,080432500187,Jameson Irish Whiskey 1.75L,24600,6,8.0,247.5,1980.0,Southern August Bill and Hold
+Ramsey,1033508,080432500187,Jameson Irish Whiskey 1.75L,24600,6,2.0,247.5,495.0,Southern August Bill and Hold
+Roseville,1033519,080432500187,Jameson Irish Whiskey 1.75L,24600,6,5.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Stillwater,1033532,080432500187,Jameson Irish Whiskey 1.75L,24600,6,3.0,247.5,742.5,Southern August Bill and Hold
+Andover,1033460,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
+Blaine,1033466,086003267107,High West Old Fashioned 750ml,979485,6,2.0,128.0,256.0,Southern August Bill and Hold
+Chanhassen,1033478,086003267107,High West Old Fashioned 750ml,979485,6,2.0,128.0,256.0,Southern August Bill and Hold
+Cottage Grove,1033484,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
+Minneapolis,1033486,086003267107,High West Old Fashioned 750ml,979485,6,2.0,128.0,256.0,Southern August Bill and Hold
+Plymouth,1033503,086003267107,High West Old Fashioned 750ml,979485,6,3.0,128.0,384.0,Southern August Bill and Hold
+Ramsey,1033508,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
+Rosemount,1033514,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
+Roseville,1033520,086003267107,High West Old Fashioned 750ml,979485,6,2.0,128.0,256.0,Southern August Bill and Hold
+St. Louis Park,1033526,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
+Stillwater,1033532,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
+Woodbury,1033541,086003267107,High West Old Fashioned 750ml,979485,6,4.0,128.0,512.0,Southern August Bill and Hold
+Andover,1033460,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+Minneapolis,1033486,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+Plymouth,1033503,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+Rosemount,1033514,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+St. Louis Park,1033526,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+Woodbury,1033541,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+Andover,1033460,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Blaine,1033466,086003267190,High West Bourbon 1.75L,534415,6,3.0,251.94,755.82,Southern August Bill and Hold
+Cottage Grove,1033484,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Minneapolis,1033486,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Minnetonka,1033491,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Osseo,1033497,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Ramsey,1033508,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Rosemount,1033514,086003267190,High West Bourbon 1.75L,534415,6,2.0,251.94,503.88,Southern August Bill and Hold
+Roseville,1033520,086003267190,High West Bourbon 1.75L,534415,6,2.0,251.94,503.88,Southern August Bill and Hold
+St. Louis Park,1033526,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Stillwater,1033532,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Woodbury,1033541,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
+Andover,1033459,089540448978,Malibu Rum Liter,33451,12,1.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Blaine,1033465,089540448978,Malibu Rum Liter,33451,12,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Bloomington,1033472,089540448978,Malibu Rum Liter,33451,12,1.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Cottage Grove,1033483,089540448978,Malibu Rum Liter,33451,12,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Minneapolis,1033486,089540448978,Malibu Rum Liter,33451,12,7.0,183.48,1284.36,Southern August Bill and Hold
+Osseo,1033497,089540448978,Malibu Rum Liter,33451,12,1.0,183.48,183.48,Southern August Bill and Hold
+St. Louis Park,1033526,089540448978,Malibu Rum Liter,33451,12,1.0,183.48,183.48,Southern August Bill and Hold
+Stillwater,1033532,089540448978,Malibu Rum Liter,33451,12,1.0,183.48,183.48,Southern August Bill and Hold
+Andover,1033460,089540449326,Malibu Rum 1.75L,136168,6,4.0,93.3,373.2,Southern August Bill and Hold
+Blaine,1033466,089540449326,Malibu Rum 1.75L,136168,6,4.0,93.3,373.2,Southern August Bill and Hold
+Cottage Grove,1033484,089540449326,Malibu Rum 1.75L,136168,6,4.0,93.3,373.2,Southern August Bill and Hold
+Minneapolis,1033486,089540449326,Malibu Rum 1.75L,136168,6,3.0,93.3,279.9,Southern August Bill and Hold
+Minnetonka,1033491,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Osseo,1033497,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Ramsey,1033508,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Rosemount,1033514,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Roseville,1033520,089540449326,Malibu Rum 1.75L,136168,6,3.0,93.3,279.9,Southern August Bill and Hold
+St. Louis Park,1033526,089540449326,Malibu Rum 1.75L,136168,6,2.0,93.3,186.6,Southern August Bill and Hold
+Stillwater,1033532,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Vadnais Heights,1033537,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Woodbury,1033541,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
+Andover,1033460,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
+Blaine,1033466,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
+Minneapolis,1033486,089540466446,Malibu Rum Traveler,33452,12,2.0,165.4,330.8,Southern August Bill and Hold
+Plymouth,1033503,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
+Roseville,1033520,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
+St. Louis Park,1033526,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
+Andover,1033460,089540536521,Malibu Pink Rum 750ml,683372,12,1.0,165.4,165.4,Southern August Bill and Hold
+Minneapolis,1033486,089540536521,Malibu Pink Rum 750ml,683372,12,3.0,165.4,496.2,Southern August Bill and Hold
+Osseo,1033497,089540536521,Malibu Pink Rum 750ml,683372,12,1.0,165.4,165.4,Southern August Bill and Hold
+Rosemount,1033514,089540536521,Malibu Pink Rum 750ml,683372,12,1.0,165.4,165.4,Southern August Bill and Hold
+Woodbury,1033541,089540536521,Malibu Pink Rum 750ml,683372,12,1.0,165.4,165.4,Southern August Bill and Hold
+Cottage Grove,1033484,089540536538,Malibu Pink Rum 1.75L,683792,6,2.0,93.3,186.6,Southern August Bill and Hold
+Minneapolis,1033486,089540536538,Malibu Pink Rum 1.75L,683792,6,1.0,93.3,93.3,Southern August Bill and Hold
+Rosemount,1033514,089540536538,Malibu Pink Rum 1.75L,683792,6,1.0,93.3,93.3,Southern August Bill and Hold
+St. Louis Park,1033526,089540536538,Malibu Pink Rum 1.75L,683792,6,1.0,93.3,93.3,Southern August Bill and Hold
+Osseo,1033497,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
+Rosemount,1033514,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
+Roseville,1033520,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
+St. Louis Park,1033526,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
+Vadnais Heights,1033537,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
+Andover,1033460,617768111178,Svedka Vodka 1.75L,656185,6,71.0,87.74,6229.53,Southern August Bill and Hold
+Blaine,1033466,617768111178,Svedka Vodka 1.75L,656185,6,132.0,87.74,11581.65,Southern August Bill and Hold
+Bloomington,1033473,617768111178,Svedka Vodka 1.75L,656185,6,17.0,87.74,1491.58,Southern August Bill and Hold
+Chanhassen,1033478,617768111178,Svedka Vodka 1.75L,656185,6,40.0,87.74,3509.59,Southern August Bill and Hold
+Cottage Grove,1033484,617768111178,Svedka Vodka 1.75L,656185,6,51.0,87.74,4474.73,Southern August Bill and Hold
+Minneapolis,1033486,617768111178,Svedka Vodka 1.75L,656185,6,100.0,87.74,8773.98,Southern August Bill and Hold
+Minnetonka,1033491,617768111178,Svedka Vodka 1.75L,656185,6,7.0,87.74,614.18,Southern August Bill and Hold
+Osseo,1033497,617768111178,Svedka Vodka 1.75L,656185,6,34.0,87.74,2983.15,Southern August Bill and Hold
+Plymouth,1033503,617768111178,Svedka Vodka 1.75L,656185,6,30.0,87.74,2632.19,Southern August Bill and Hold
+Ramsey,1033508,617768111178,Svedka Vodka 1.75L,656185,6,20.0,87.74,1754.8,Southern August Bill and Hold
+Rosemount,1033514,617768111178,Svedka Vodka 1.75L,656185,6,34.0,87.74,2983.15,Southern August Bill and Hold
+Roseville,1033520,617768111178,Svedka Vodka 1.75L,656185,6,30.0,87.74,2632.19,Southern August Bill and Hold
+St. Louis Park,1033526,617768111178,Svedka Vodka 1.75L,656185,6,46.0,87.74,4036.03,Southern August Bill and Hold
+Stillwater,1033532,617768111178,Svedka Vodka 1.75L,656185,6,31.0,87.74,2719.93,Southern August Bill and Hold
+Vadnais Heights,1033537,617768111178,Svedka Vodka 1.75L,656185,6,31.0,87.74,2719.93,Southern August Bill and Hold
+Woodbury,1033541,617768111178,Svedka Vodka 1.75L,656185,6,23.0,87.74,2018.02,Southern August Bill and Hold
+Andover,1033460,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Blaine,1033466,854396005008,High West Double Rye 750ml,443185,6,3.0,128.0,384.0,Southern August Bill and Hold
+Chanhassen,1033478,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Cottage Grove,1033484,854396005008,High West Double Rye 750ml,443185,6,2.0,128.0,256.0,Southern August Bill and Hold
+Minneapolis,1033486,854396005008,High West Double Rye 750ml,443185,6,2.0,128.0,256.0,Southern August Bill and Hold
+Minnetonka,1033491,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Osseo,1033497,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Plymouth,1033503,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Rosemount,1033514,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Roseville,1033520,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+St. Louis Park,1033526,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Stillwater,1033532,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Vadnais Heights,1033537,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Woodbury,1033541,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
+Andover,1033459,854396005220,High West Bourbon 750ml,548278,6,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Blaine,1033465,854396005220,High West Bourbon 750ml,548278,6,10.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Cottage Grove,1033484,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
+Minneapolis,1033486,854396005220,High West Bourbon 750ml,548278,6,2.0,128.0,256.0,Southern August Bill and Hold
+Minnetonka,1033491,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
+Plymouth,1033503,854396005220,High West Bourbon 750ml,548278,6,2.0,128.0,256.0,Southern August Bill and Hold
+Ramsey,1033508,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
+Rosemount,1033513,854396005220,High West Bourbon 750ml,548278,6,1.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Roseville,1033519,854396005220,High West Bourbon 750ml,548278,6,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
+St. Louis Park,1033525,854396005220,High West Bourbon 750ml,548278,6,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Stillwater,1033531,854396005220,High West Bourbon 750ml,548278,6,7.0,0.0,0.0,Southern August Bill and Hold Free Goods
+Vadnais Heights,1033537,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
