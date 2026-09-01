@@ -1,50 +1,48 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Monday, Aug 31, 2026
+  RECOMMENDED OTHER ORDER          Tuesday, Sep 01, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     22,342
-  Coverable by transfer .......  $     13,271   (59%)
-  NET BUY from vendors ........  $      5,682   <- the order
+  Gross need (all stores) .....  $     20,992
+  Coverable by transfer .......  $     12,764   (61%)
+  NET BUY from vendors ........  $      5,282   <- the order
 
-  49 items   |   2,766 units to buy   |   3,247 units to rebalance
-  Transfers: 304 moves  -  240 urgent (80 stockouts, 160 under 2wk), 64 routine
+  49 items   |   2,562 units to buy   |   3,035 units to rebalance
+  Transfers: 288 moves  -  228 urgent (73 stockouts, 155 under 2wk), 60 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 9 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           233u/233cs         $0    233     0   OUT
-   2  Smashd Party All Day Variety Pack 8  3u/1cs             $0      2     0   OUT
-   3  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
-   4  Dr Pepper                            1u/1cs             $0      1     0   OUT
-   5  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21     11     0   OUT
-   6  Middletons Black & Mild Single       50u/2cs           $74     49     0   OUT
-   7  Velo Pouch 9mg Wintergreen           30u/6cs          $252     31     0   OUT
-   8  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
-   9  Acid Blondie                         5u/5cs            $23      5     0   OUT
-  10  On Nicotine Pouch 8mg Original       5u/1cs            $33      4     0   OUT
-  11  Charm Social Tonic Lemon Ginger 12o  9u/9cs            $22      9     0   OUT
-  12  Camel Platinum                       5u/5cs            $70      5     0   OUT
-  13  Velo Cappuccino 3mg                  5u/1cs            $42      4     0   OUT
-  14  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
-  15  ReaLemon 8oz                         12u/1cs           $21      7     0   OUT
+   1  Non-Refundable Transaction           232u/232cs         $0    232     0   OUT
+   2  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
+   3  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21     10     0   OUT
+   4  Middletons Black & Mild Single       50u/2cs           $74     44     0   OUT
+   5  Velo Pouch 9mg Wintergreen           30u/6cs          $252     28     0   OUT
+   6  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
+   7  Acid Blondie                         5u/5cs            $23      5     0   OUT
+   8  Loon Arctic Grape 14mg               10u/2cs           $60      9     0   OUT
+   9  On Nicotine Pouch 8mg Original       5u/1cs            $33      4     0   OUT
+  10  Charm Social Tonic Lemon Ginger 12o  9u/9cs            $22      9     0   OUT
+  11  Camel Platinum                       5u/5cs            $70      5     0   OUT
+  12  Velo Cappuccino 3mg                  5u/1cs            $42      4     0   OUT
+  13  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
+  14  ReaLemon 8oz                         12u/1cs           $21      7     0   OUT
+  15  Dr Pepper 10pk 8oz can               3u/1cs            $13      4     0   OUT
   16  Black & Mild Wood Tip B1G1           3u/3cs             $0      3     0   OUT
   17  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
   18  La Croix Lime 8pk 12oz can           2u/2cs             $8      2     0   OUT
-  19  Bag Fee                              17u/17cs           $0     17     0   OUT
-  20  Tip Item                             233u/233cs         $0    233     0   OUT
+  19  Bag Fee                              18u/18cs           $0     18     0   OUT
+  20  Dr Pepper                            1u/1cs             $0      1     0   OUT
   ...and 29 more in the full list.
 
-  NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (9 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
-    Smashd Party All Day Variety Pack 8pk 12  No cost data - verify price; Margin over 95% - check retail
-    Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~198/wk vs 4 now, buy ahead?
+    Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Zyn Peppermint 6mg                        Seasonal - last year ~12/wk vs 4 now, buy ahead?
-    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~13/wk vs 5 now, buy ahead?
-    16 oz Red Party Cups, 50 pack by True     Seasonal - last year ~10/wk vs 6 now, buy ahead?
+    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~12/wk vs 5 now, buy ahead?
