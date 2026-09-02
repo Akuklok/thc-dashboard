@@ -1,91 +1,13 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Andover,1033188,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,0.0,0.0,Free Goods
-Blaine,1033204,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,0.0,0.0,Free Goods
-Plymouth,1033295,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,Month End
-Ramsey,1033308,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,Month End
-Rosemount,1033322,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,Month End
-Roseville,1033340,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,5.0,109.71,548.55,Month End
-St. Louis Park,1033356,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,3.0,109.71,329.13,Month End
-Chanhassen,1033228,017224710202,Bonanza Cabernet 750ml,1400056,12,2.5,0.0,0.0,Free Goods
-Plymouth,1033295,017224713104,Caymus California Cabernet 750ml,1102512,12,1.0,420.0,420.0,Month End
-Stillwater,1033375,017224760122,Conundrum Red 750ml,27199,12,1.0,188.0,188.0,Month End
-St. Louis Park,1033356,081587119958,Chappellet Mountain Cuvee 750ml,000010349,12,0.5,400.0,200.0,Month End
-Woodbury,1033405,081753802479,Veuve Clicquot Rose 750ml,12861,12,0.5,716.0,358.0,Month End
-St. Louis Park,1033356,081753811020,Dom Perignon 750ml,001840816,6,0.5,1392.0,696.0,Month End
-Chanhassen,1033228,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,0.0,0.0,Free Goods
-Minnetonka,1033272,081753833916,Whispering Angel Rose 750ml,1486651,12,2.0,0.0,0.0,Free Goods
-Plymouth,1033295,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,215.0,215.0,Month End
-St. Louis Park,1033356,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,215.0,215.0,Month End
-Stillwater,1033370,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,0.0,0.0,Free Goods
-Vadnais Heights,1033381,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,0.0,0.0,Free Goods
-Woodbury,1033405,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,215.0,215.0,Month End
-Blaine,1033210,082544009046,OZV Old Vine Zinfandel 750ml,1623024,12,2.0,112.0,224.0,Month End
-Rosemount,1033322,082544009046,OZV Old Vine Zinfandel 750ml,1623024,12,2.0,112.0,224.0,Month End
-Vadnais Heights,1033387,082544009046,OZV Old Vine Zinfandel 750ml,1623024,12,1.0,112.0,112.0,Month End
-Roseville,1033331,082544990528,Old Soul Cabernet Sauvignon 750ml,1861047,12,1.0,0.0,0.0,Free Goods
-Stillwater,1033370,084279002507,Risata Moscato d'Asti 187ml,001604465,24,1.0,0.0,0.0,Free Goods
-Plymouth,1033295,084279007175,Risata Prosecco 187ml,1528430,24,1.0,96.0,96.0,Month End
-Andover,1033188,084279977638,Risata Moscato d'Asti 750ml,1785945,12,2.0,0.0,0.0,Free Goods
-Ramsey,1033304,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,0.0,0.0,Free Goods
-Roseville,1033331,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,0.0,0.0,Free Goods
-Vadnais Heights,1033381,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,0.0,0.0,Free Goods
-Minneapolis,1033264,084279992464,Risata Prosecco 750ml,1924595,12,1.0,107.5,107.5,Month End
-St. Louis Park,1033356,084279992464,Risata Prosecco 750ml,1924595,12,1.0,107.5,107.5,Month End
-Cottage Grove,1033250,084279999951,Risata Red Moscato 750ml,1670416,12,1.0,132.3,132.3,Month End
-Plymouth,1033295,084279999951,Risata Red Moscato 750ml,1670416,12,1.0,132.3,132.3,Month End
-Minneapolis,1033264,085155000013,Chandon Brut Cuvee 750ml,40907,12,1.0,224.0,224.0,Month End
-St. Louis Park,1033349,085155000013,Chandon Brut Cuvee 750ml,40907,12,2.0,0.0,0.0,Free Goods
-Minneapolis,1033264,085155000402,Chandon Rose 750ml,12795,12,1.0,224.0,224.0,Month End
-Chanhassen,1033235,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,2.0,243.0,486.0,Month End
-Minneapolis,1033264,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,1.0,243.0,243.0,Month End
-Plymouth,1033295,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,2.0,243.0,486.0,Month End
-Rosemount,1033322,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,3.0,243.0,729.0,Month End
-Roseville,1033340,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,2.0,243.0,486.0,Month End
-St. Louis Park,1033356,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,1.0,243.0,243.0,Month End
-Woodbury,1033405,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,2.0,243.0,486.0,Month End
-Plymouth,1033295,086891077666,Santa Margherita Chianti Clas,14207,12,1.0,243.0,243.0,Month End
-St. Louis Park,1033356,086891077666,Santa Margherita Chianti Clas,14207,12,1.0,243.0,243.0,Month End
-Cottage Grove,1033243,088254758724,Seghesio Zinfandel 750ml,18752,12,1.0,0.0,0.0,Free Goods
-Roseville,1033340,097921176105,Rombauer Pinot Noir 750ml,1630555,12,1.0,248.0,248.0,Month End
-Roseville,1033331,097921877101,Rombauer Sauvignon Blanc 750ml,27503,12,1.0,0.0,0.0,Free Goods
-Andover,1033195,097921970109,Rombauer Chardonnay 750ml,1752747,12,1.0,384.0,384.0,Month End
-Blaine,1033210,097921970109,Rombauer Chardonnay 750ml,1752747,12,1.0,384.0,384.0,Month End
-Woodbury,1033405,097921970109,Rombauer Chardonnay 750ml,1752747,12,1.0,384.0,384.0,Month End
-Plymouth,1033295,097921978105,Rombauer Zinfandel 750ml,41327,12,0.5,344.0,172.0,Month End
-Stillwater,1033375,097921978105,Rombauer Zinfandel 750ml,41327,12,0.5,344.0,172.0,Month End
-Woodbury,1033405,185554000000,Pizzolato Muse Prosecco 187ml,1751626,24,1.0,81.1,81.1,Month End
-Minneapolis,1033264,185554000062,Pizzolato Muse Rose 750ml,1901454,12,1.0,114.43,114.43,Month End
-Andover,1033188,185554000352,Pizzolato Cabernet 750ml,22481,12,1.0,0.0,0.0,Free Goods
-Blaine,1033204,185554000352,Pizzolato Cabernet 750ml,22481,12,1.0,0.0,0.0,Free Goods
-Stillwater,1033375,185554000352,Pizzolato Cabernet 750ml,22481,12,1.0,120.0,120.0,Month End
-Plymouth,1033295,185554000529,Pizzolato Rosso 750ml,22479,12,1.0,120.0,120.0,Month End
-Minneapolis,1033264,185554000727,Pizzolato Muse Rose 187ml,1843920,24,1.0,81.1,81.1,Month End
-Vadnais Heights,1033381,632987120251,Torresella Pinot Grigio Veneto 750ml,000073643,12,1.0,0.0,0.0,Free Goods
-Blaine,1033210,710909720106,Mer Soleil Unoaked Chardonnay 750ml,26596,12,1.0,134.0,134.0,Month End
-Plymouth,1033295,710909720106,Mer Soleil Unoaked Chardonnay 750ml,26596,12,1.0,134.0,134.0,Month End
-Blaine,1033210,812949023053,Folly of the Beast Pinot Noir 750ml,001575156,12,1.0,112.0,112.0,Month End
-Blaine,1033204,851115002324,Shania Monastrell 3L Box,001577621,3,1.0,0.0,0.0,Free Goods
-Minnetonka,1033277,851115002447,Shania White 3L Box,001611577,3,6.0,41.0,246.0,Month End
-St. Louis Park,1033356,851115002447,Shania White 3L Box,001611577,3,1.0,41.0,41.0,Month End
-St. Louis Park,1033356,851115002768,Shania Rose 3L Box,001126303,3,1.0,41.0,41.0,Month End
-Rosemount,1033322,855622000996,Belle Glos 25th Anniversary Pinot Noir 750ml,1588328,12,1.0,400.0,400.0,Month End
-St. Louis Park,1033356,855622000996,Belle Glos 25th Anniversary Pinot Noir 750ml,1588328,12,1.0,400.0,400.0,Month End
-St. Louis Park,1033356,856036001074,Underwood Rose 375ml,1175398,12,1.0,56.0,56.0,Month End
-Bloomington,1033222,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,Month End
-Cottage Grove,1033250,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,Month End
-Minnetonka,1033277,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,Month End
-Plymouth,1033295,856036001098,Underwood Bubbles 355ml,1930068,12,3.0,56.0,168.0,Month End
-Roseville,1033340,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,Month End
-St. Louis Park,1033356,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,Month End
-Bloomington,1033218,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,0.0,0.0,Free Goods
-Cottage Grove,1033243,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,0.0,0.0,Free Goods
-Rosemount,1033314,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,0.0,0.0,Free Goods
-Roseville,1033331,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,0.0,0.0,Free Goods
-St. Louis Park,1033349,856036001197,Underwood Rose Bubbles 375ml,1405265,12,2.0,0.0,0.0,Free Goods
-Vadnais Heights,1033381,856036001197,Underwood Rose Bubbles 375ml,1405265,12,2.0,0.0,0.0,Free Goods
-Blaine,1033204,856184006112,Boen Tri Appellation Pinot Noir 750ml,1541103,12,1.0,0.0,0.0,Free Goods
-Vadnais Heights,1033381,856184006112,Boen Tri Appellation Pinot Noir 750ml,1541103,12,1.0,0.0,0.0,Free Goods
-Roseville,1033340,856184006310,Boen Tri Appellation Chardonnay 750ml,001010214,12,1.0,152.0,152.0,Month End
-Blaine,1033210,859889006005,Quilt Napa Cabernet Sauvignon 750ml,001534012,12,1.0,400.0,400.0,Month End
-Blaine,1033210,860009046009,Quilt Threadcount Red Blend 750ml,1233133,12,1.0,160.0,160.0,Month End
-Andover,1033188,860011941828,Acolytes Pinot Noir 750ml,1530195,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1033734,085155000013,Chandon Brut Cuvee 750ml,40907,12,1.0,224.0,224.0,
+St. Louis Park,1033734,085155000402,Chandon Rose 750ml,12795,12,1.0,224.0,224.0,
+St. Louis Park,1033741,088076161658,Moet & Chandon Rose Imperial 750ml,12486,6,0.5,2028.0,1014.0,Store Request
+Minneapolis,1033671,185554000000,Pizzolato Muse Prosecco 187ml,1751626,24,1.0,81.1,81.1,
+Rosemount,1033712,185554000987,Pizzolato Muse Prosecco 750ml,1479875,12,1.0,114.43,114.43,
+Blaine,1033636,729722700127,Angeline Pinot Noir 750ml,23771,12,1.0,96.0,96.0,
+Minneapolis,1033671,729722700127,Angeline Pinot Noir 750ml,23771,12,1.0,96.0,96.0,
+St. Louis Park,1033734,729722700127,Angeline Pinot Noir 750ml,23771,12,1.0,96.0,96.0,
+Woodbury,1033769,729722700127,Angeline Pinot Noir 750ml,23771,12,2.0,96.0,192.0,
+St. Louis Park,1033734,855622000996,Belle Glos 25th Anniversary Pinot Noir 750ml,1588328,12,1.0,400.0,400.0,
+Roseville,1033723,856036001067,Underwood Pinot Gris 375ml,1448609,12,1.0,56.0,56.0,
+St. Louis Park,1033734,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,

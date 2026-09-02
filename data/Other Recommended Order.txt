@@ -1,24 +1,24 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Tuesday, Sep 01, 2026
+  RECOMMENDED OTHER ORDER          Wednesday, Sep 02, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     20,992
-  Coverable by transfer .......  $     12,764   (61%)
-  NET BUY from vendors ........  $      5,282   <- the order
+  Gross need (all stores) .....  $     22,002
+  Coverable by transfer .......  $     13,503   (61%)
+  NET BUY from vendors ........  $      5,518   <- the order
 
-  49 items   |   2,562 units to buy   |   3,035 units to rebalance
-  Transfers: 288 moves  -  228 urgent (73 stockouts, 155 under 2wk), 60 routine
+  53 items   |   2,617 units to buy   |   3,135 units to rebalance
+  Transfers: 299 moves  -  237 urgent (76 stockouts, 161 under 2wk), 62 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 9 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           232u/232cs         $0    232     0   OUT
+   1  Non-Refundable Transaction           233u/233cs         $0    233     0   OUT
    2  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
    3  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21     10     0   OUT
    4  Middletons Black & Mild Single       50u/2cs           $74     44     0   OUT
-   5  Velo Pouch 9mg Wintergreen           30u/6cs          $252     28     0   OUT
+   5  Velo Pouch 9mg Wintergreen           30u/6cs          $252     29     0   OUT
    6  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
    7  Acid Blondie                         5u/5cs            $23      5     0   OUT
    8  Loon Arctic Grape 14mg               10u/2cs           $60      9     0   OUT
@@ -32,17 +32,17 @@
   16  Black & Mild Wood Tip B1G1           3u/3cs             $0      3     0   OUT
   17  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
   18  La Croix Lime 8pk 12oz can           2u/2cs             $8      2     0   OUT
-  19  Bag Fee                              18u/18cs           $0     18     0   OUT
+  19  Bag Fee                              20u/20cs           $0     20     0   OUT
   20  Dr Pepper                            1u/1cs             $0      1     0   OUT
-  ...and 29 more in the full list.
+  ...and 33 more in the full list.
 
   NEEDS REVIEW (9 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~198/wk vs 4 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~196/wk vs 5 now, buy ahead?
     Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Zyn Peppermint 6mg                        Seasonal - last year ~12/wk vs 4 now, buy ahead?
-    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~12/wk vs 5 now, buy ahead?
+    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~11/wk vs 5 now, buy ahead?
+    16 oz Red Party Cups, 50 pack by True     Seasonal - last year ~10/wk vs 5 now, buy ahead?

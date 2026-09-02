@@ -1,29 +1,50 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Minneapolis,1032959,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,0.0,
-Cottage Grove,1032952,083664990436,Hendrick's Gin 750ml,9018599,6,1.0,148.5,148.5,Store Request
-Minneapolis,1032959,086767500069,Goldschlager 750ml,9000447,12,1.0,198.0,0.0,
-Minneapolis,1032959,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
-Minneapolis,1032959,088004009588,Dr.McGillicuddy's Wild Grape 50ml,9219498,120,1.0,71.05,71.05,
-Minneapolis,1032959,088004009755,Dr McGillicuddys Apple Pie 50ml,9219465,120,1.0,71.05,0.0,
-Minneapolis,1032959,088004009786,Dr. McGillicuddy's Peach 750ml,9219508,12,1.0,117.0,117.0,
-Minneapolis,1032959,088004010126,Taaka Vodka 1.75L,9031608,6,2.0,52.71,105.42,
-Minneapolis,1032959,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Minneapolis,1032959,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-St. Louis Park,1033104,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Cottage Grove,1032939,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,3.0,139.5,0.0,Fireball Torch'd Presell
-Minneapolis,1032964,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,5.0,139.5,0.0,Fireball Torch'd Presell
-St. Louis Park,1033108,088004086862,Fireball Torch'd Vanilla Liter,9802224,12,2.0,139.5,279.0,Fireball Torch'd Presell
-Cottage Grove,1032939,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
-Minneapolis,1032964,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,18.0,99.0,1782.0,Fireball Torch'd Presell
-St. Louis Park,1033108,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Fireball Torch'd Presell
-Cottage Grove,1032939,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,5.0,71.05,355.26,Fireball Torch'd Presell
-Minneapolis,1032964,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,30.0,71.05,2131.56,Fireball Torch'd Presell
-St. Louis Park,1033108,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,3.0,71.05,213.16,Fireball Torch'd Presell
-Minneapolis,1032959,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,
-Minneapolis,1032959,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Minneapolis,1032959,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
-Minneapolis,1032959,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,0.0,
-Cottage Grove,1032932,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,
-Minneapolis,1032959,089000582595,Hartley Brandy VSOP 50ml,9184681,120,1.0,45.85,45.85,
-Minneapolis,1032959,766427005294,"Twisted Shotz Suck it up, Buttercup 4pk",9751659,18,1.0,70.1,70.1,
-Cottage Grove,1032952,88004144647,Dr McGillicuddys Vanilla Traveler,9220634,12,2.0,117.0,234.0,Store Request
+Plymouth,1033693,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,
+Minneapolis,1033821,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
+Minneapolis,1033818,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,383.82,63.97,Allocated
+Minneapolis,1033818,080244009236,Buffalo Trace 750ml,9031303,12,0.33,250.68,83.56,Allocated
+Plymouth,1033853,080244009236,Buffalo Trace 750ml,9031303,12,0.17,250.68,41.78,Allocated
+St. Louis Park,1033892,080244009236,Buffalo Trace 750ml,9031303,12,0.33,250.68,83.56,Allocated
+Woodbury,1033919,080244009236,Buffalo Trace 750ml,9031303,12,0.33,250.68,83.56,Allocated
+Minneapolis,1033818,080244009397,Blanton's Gold 750ml,9437217,6,0.17,693.06,115.51,Allocated
+Plymouth,1033856,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
+St. Louis Park,1033895,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
+St. Louis Park,1033895,084105341008,Carpano Antica Formula Liter,9009620,6,1.0,207.0,207.0,
+Plymouth,1033856,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,1.0,40.6,40.6,
+Minneapolis,1033821,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
+Minneapolis,1033821,088004009281,Fireball Whisky 1.75L,9148530,6,2.0,108.0,216.0,
+Plymouth,1033856,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
+Minneapolis,1033821,088004009755,Dr McGillicuddys Apple Pie 50ml,9219465,120,1.0,71.05,71.05,
+Woodbury,1033922,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
+Plymouth,1033856,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Woodbury,1033922,088004020323,Dr Mcgillicuddy Butterscotch 50ml,9219489,120,1.0,71.05,71.05,
+Minneapolis,1033818,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,211.08,35.18,Allocated
+Minneapolis,1033821,088004026141,Fris Vodka 1.75L,9612242,6,7.0,42.5,297.5,
+St. Louis Park,1033895,088004026141,Fris Vodka 1.75L,9612242,6,3.0,42.5,127.5,
+Woodbury,1033922,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
+Minneapolis,1033818,088004027742,W.L. Weller 12 Yr Bourbon 750ml,9031681,12,0.08,466.44,38.87,Allocated
+Minneapolis,1033821,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
+Woodbury,1033922,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
+Plymouth,1033856,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,
+Minneapolis,1033818,088004039646,Weller Single Barrel Bourbon 750ml,9445780,6,0.17,279.06,46.51,Allocated
+Minneapolis,1033821,088004069155,Fireball Blazin' Apple 50ml,9768707,120,6.0,71.05,426.31,
+Woodbury,1033922,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
+Minneapolis,1033821,088004074562,Fireball Blazin' Apple Liter,9771463,12,1.0,153.0,153.0,
+Minneapolis,1033821,088004144692,Fireball Whisky 750ml,9213627,12,2.0,108.0,216.0,
+Plymouth,1033856,088004144692,Fireball Whisky 750ml,9213627,12,1.0,108.0,108.0,
+St. Louis Park,1033895,088004144692,Fireball Whisky 750ml,9213627,12,1.0,108.0,108.0,
+Woodbury,1033922,088004144692,Fireball Whisky 750ml,9213627,12,1.0,108.0,108.0,
+St. Louis Park,1033895,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
+Plymouth,1033693,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,
+St. Louis Park,1033730,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,3.0,104.0,312.0,
+Woodbury,1033765,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,104.0,104.0,
+Plymouth,1033693,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,
+St. Louis Park,1033739,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,Store Request
+Woodbury,1033765,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,
+Minneapolis,1033821,812459010222,Bird Dog Blackberry Whiskey 750ml,9120702,6,2.0,80.95,161.9,
+Minneapolis,1033821,812459010659,Bird Dog Peach Whiskey 750ml,9245911,6,2.0,80.95,161.9,
+Minneapolis,1033667,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
+Woodbury,1033765,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
+Plymouth,1033693,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12,1.0,120.0,120.0,
+St. Louis Park,1033895,857552008394,Bardstown KY Straight Bourbon 750ml,9731827,6,1.0,175.5,175.5,
+St. Louis Park,1033730,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,
