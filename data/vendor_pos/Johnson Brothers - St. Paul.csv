@@ -1,393 +1,70 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1033634,018341151060,Barefoot White Zin 1.5L,10774,6,1.0,48.27,48.27,
-Chanhassen,1033654,018341151107,Barefoot Merlot 1.5L,10770,6,1.0,48.27,48.27,
-Blaine,1033634,031259001456,Josh Cellars Pinot Grigio 750ml,001122193,12,1.0,106.94,106.94,
-Roseville,1033721,031259046952,Josh Cellars Pinot Noir 750ml,000859258,12,1.0,123.49,123.49,
-Blaine,1033634,031259046976,Josh Cellars Sauvignon Blanc 750ml,000859264,12,1.0,106.94,106.94,
 St. Louis Park,1033732,031259046976,Josh Cellars Sauvignon Blanc 750ml,000859264,12,1.0,106.94,106.94,
-Blaine,1033787,040063400317,Four Roses Small Batch 750ml,001276086,6,1.0,142.78,142.78,
 St. Louis Park,1033897,040063400317,Four Roses Small Batch 750ml,001276086,6,1.0,142.78,142.78,
-Woodbury,1033923,040063400317,Four Roses Small Batch 750ml,001276086,6,1.0,142.78,142.78,
-Woodbury,1033923,040063400409,Four Roses Bourbon 750ml,001343132,12,1.0,198.0,198.0,
-Blaine,1033787,040063400430,Four Roses Bourbon 1.75L,001215736,6,4.0,165.28,661.12,
-Chanhassen,1033801,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-Osseo,1033846,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
 Ramsey,1033868,040063400430,Four Roses Bourbon 1.75L,001215736,6,2.0,165.28,330.56,
-Rosemount,1033876,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-Roseville,1033884,040063400430,Four Roses Bourbon 1.75L,001215736,6,2.0,165.28,330.56,
 St. Louis Park,1033897,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-Woodbury,1033923,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-Roseville,1033889,070491212824,Master of Mixes Pina Colada Liter,14998,12,1.0,44.0,44.0,Store Request
-Blaine,1033787,070491213326,Master of Mixes Old Fashioned Liter,15904,12,1.0,44.0,44.0,
-Chanhassen,1033801,070491352070,Master of Mixes Simple Syrup 375ml,17149,12,1.0,32.0,32.0,
-Rosemount,1033876,070491352070,Master of Mixes Simple Syrup 375ml,17149,12,1.0,32.0,32.0,
 St. Louis Park,1033897,070491353077,Master of Mixes Agave Nectar 375ml,18175,12,1.0,64.0,64.0,
-Osseo,1033687,080887493928,Bogle Chardonnay 750ml,1276061,12,3.0,74.75,224.25,
-Rosemount,1033711,080887493966,Bogle Cabernet Sauvignon 750ml,1600172,12,1.0,74.75,74.75,
-Woodbury,1033767,080887496318,Bogle Pinot Noir 750ml,1207405,12,1.0,74.75,74.75,
-Blaine,1033787,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,
-Rosemount,1033512,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128000646,Woodford Reserve Rye Whiskey 750ml,1234118,6,1.0,154.68,154.68,Johnson Brothers August Bill and Hold
-Blaine,1033464,081128000707,Old Forester 1870 750ml,1591256,6,1.0,175.18,175.18,Johnson Brothers August Bill and Hold
-Chanhassen,1033477,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
-Roseville,1033518,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,Johnson Brothers August Bill and Hold
-Rosemount,1033512,081128001094,Old Forester Bourbon 1910 750ml,1079793,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128001094,Old Forester Bourbon 1910 750ml,1079793,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
-Rosemount,1033512,081128001155,Old Forester 1920 Prohibition 750ml,1525027,6,1.0,260.18,260.18,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128001155,Old Forester 1920 Prohibition 750ml,1525027,6,1.0,260.18,260.18,Johnson Brothers August Bill and Hold
-Blaine,1033464,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,2.0,261.5,523.0,Johnson Brothers August Bill and Hold
-Bloomington,1033471,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
-Chanhassen,1033477,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
-Osseo,1033495,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
-Rosemount,1033512,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
-Roseville,1033518,081128001209,Woodford Reserve Double Oaked 750ml,1186040,6,1.0,261.5,261.5,Johnson Brothers August Bill and Hold
-Blaine,1033464,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
-Bloomington,1033471,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
-Osseo,1033495,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
 Ramsey,1033507,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
-Rosemount,1033512,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,Johnson Brothers August Bill and Hold
-Blaine,1033463,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Chanhassen,1033476,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Roseville,1033518,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,309.35,309.35,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128001506,Woodford Reserve Bourbon 750ml,1461856,12,1.0,309.35,309.35,Johnson Brothers August Bill and Hold
-Roseville,1033518,081128001735,Old Forester Statesman 750ml,1167160,6,1.0,220.18,220.18,Johnson Brothers August Bill and Hold
-Blaine,1033464,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Johnson Brothers August Bill and Hold
-Roseville,1033518,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,1.0,290.5,290.5,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128004361,Old Forester Top Ten Single Barrel 100pf 750ml,1323036,6,2.0,290.5,581.0,Johnson Brothers August Bill and Hold
 Ramsey,1033507,081128005085,Old Forester Bourbon 750ml,17721,12,1.0,206.66,206.66,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128005085,Old Forester Bourbon 750ml,17721,12,1.0,206.66,206.66,Johnson Brothers August Bill and Hold
-Blaine,1033464,081128011680,Woodford Reserve Bourbon 375ml,1596935,12,1.0,167.5,167.5,Johnson Brothers August Bill and Hold
-Woodbury,1033927,081128011680,Woodford Reserve Bourbon 375ml,1596935,12,1.0,167.5,167.5,Store Request
-Blaine,1033464,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,6.0,292.5,1755.0,Johnson Brothers August Bill and Hold
-Chanhassen,1033477,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
-Osseo,1033495,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,2.0,292.5,585.0,Johnson Brothers August Bill and Hold
-Rosemount,1033512,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,3.0,292.5,877.5,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
-Woodbury,1033540,081128013165,Woodford Reserve Bourbon 1.75L,1967440,6,1.0,292.5,292.5,Johnson Brothers August Bill and Hold
 Ramsey,1033706,081434000026,Black Box Merlot 3L Box,11173,6,1.0,82.0,82.0,
-Bloomington,1033648,081434000033,Black Box Cab Sauv 3L Box,28860,6,1.0,82.0,82.0,
-Chanhassen,1033654,081434000033,Black Box Cab Sauv 3L Box,28860,6,1.0,82.0,82.0,
-Roseville,1033721,081434000033,Black Box Cab Sauv 3L Box,28860,6,1.0,82.0,82.0,
 St. Louis Park,1033732,081434000033,Black Box Cab Sauv 3L Box,28860,6,2.0,82.0,164.0,
-Blaine,1033634,081434000040,Black Box Chardonnay 3L Box,40022,6,1.0,82.0,82.0,
-Bloomington,1033648,081434000040,Black Box Chardonnay 3L Box,40022,6,2.0,82.0,164.0,
-Osseo,1033687,081434000040,Black Box Chardonnay 3L Box,40022,6,1.0,82.0,82.0,
-Rosemount,1033711,081434000040,Black Box Chardonnay 3L Box,40022,6,2.0,82.0,164.0,
 St. Louis Park,1033732,081434000040,Black Box Chardonnay 3L Box,40022,6,2.0,82.0,164.0,
-Woodbury,1033767,081434000040,Black Box Chardonnay 3L Box,40022,6,1.0,82.0,82.0,
-Blaine,1033634,081434000224,Black Box Pinot Grigio 3L Box,12436,6,2.0,82.0,164.0,
-Bloomington,1033648,081434000224,Black Box Pinot Grigio 3L Box,12436,6,1.0,82.0,82.0,
-Chanhassen,1033654,081434000224,Black Box Pinot Grigio 3L Box,12436,6,1.0,82.0,82.0,
-Osseo,1033687,081434000224,Black Box Pinot Grigio 3L Box,12436,6,1.0,82.0,82.0,
-Rosemount,1033711,081434000224,Black Box Pinot Grigio 3L Box,12436,6,1.0,82.0,82.0,
 St. Louis Park,1033732,081434000224,Black Box Pinot Grigio 3L Box,12436,6,2.0,82.0,164.0,
-Woodbury,1033767,081434000224,Black Box Pinot Grigio 3L Box,12436,6,1.0,82.0,82.0,
-Blaine,1033634,081434000293,Black Box Cab Sauv 500ml,000019013,12,1.0,40.0,40.0,
 St. Louis Park,1033732,081434000293,Black Box Cab Sauv 500ml,000019013,12,1.0,40.0,0.0,
-Roseville,1033721,081434000309,Black Box Chardonnay 500ml,000019011,12,1.0,40.0,40.0,
 St. Louis Park,1033732,081434000309,Black Box Chardonnay 500ml,000019011,12,1.0,40.0,40.0,
-Rosemount,1033711,081434315304,Nobilo Sauv Blanc 750ml,58073,12,1.0,96.0,96.0,
-Roseville,1033721,081434700209,Black Box Pinot Grigio 500ml,000019680,12,1.0,40.0,40.0,
 St. Louis Park,1033732,081434700209,Black Box Pinot Grigio 500ml,000019680,12,1.0,40.0,40.0,
-Chanhassen,1033654,081434710017,Black Box Pinot Noir 3L Box,23642,6,2.0,82.0,164.0,
-Osseo,1033687,081434710017,Black Box Pinot Noir 3L Box,23642,6,1.0,82.0,82.0,
-Rosemount,1033711,081434710017,Black Box Pinot Noir 3L Box,23642,6,1.0,82.0,82.0,
-Roseville,1033721,081434710017,Black Box Pinot Noir 3L Box,23642,6,1.0,82.0,82.0,
-Woodbury,1033767,081434710017,Black Box Pinot Noir 3L Box,23642,6,1.0,82.0,82.0,
-Blaine,1033787,082000105749,Smirnoff 100 Pf Vodka 1.75L,000057141,6,1.0,121.5,121.5,
-Blaine,1033787,082000724049,Smirnoff Vanilla Vodka 1.75L,000023028,6,1.0,88.0,88.0,
-Minneapolis,1033822,082000724049,Smirnoff Vanilla Vodka 1.75L,000023028,6,1.0,88.0,88.0,
-Blaine,1033787,082000727606,Smirnoff Vodka 1.75L,000002550,6,6.0,84.0,504.0,
-Chanhassen,1033801,082000727606,Smirnoff Vodka 1.75L,000002550,6,2.0,84.0,168.0,
-Minneapolis,1033822,082000727606,Smirnoff Vodka 1.75L,000002550,6,5.0,84.0,420.0,
-Osseo,1033846,082000727606,Smirnoff Vodka 1.75L,000002550,6,1.0,84.0,84.0,
-Rosemount,1033876,082000727606,Smirnoff Vodka 1.75L,000002550,6,2.0,84.0,168.0,
-Roseville,1033884,082000727606,Smirnoff Vodka 1.75L,000002550,6,1.0,84.0,84.0,
 St. Louis Park,1033897,082000727606,Smirnoff Vodka 1.75L,000002550,6,2.0,84.0,168.0,
-Woodbury,1033923,082000727606,Smirnoff Vodka 1.75L,000002550,6,4.0,84.0,336.0,
-Chanhassen,1033801,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,
-Woodbury,1033923,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,
-Minneapolis,1033822,082000788102,Smirnoff Red White and Berry 1.75L,001339326,6,1.0,88.0,88.0,
-Minneapolis,1033822,082000790815,Smirnoff Strawberry & Rose Zero Sugar 750ml,001515500,12,1.0,96.0,96.0,
-Minneapolis,1033822,082000797203,Smirnoff Pink Lemonade 750ml,001286665,12,2.0,96.0,0.0,
 St. Louis Park,1033897,082000812098,Casamigos Margarita 375ml,1705040,12,1.0,107.95,107.95,
-Roseville,1033884,08201209,Smirnoff 100 Pf Vodka 200ml,000002634,48,1.0,127.0,127.0,
-Osseo,1033687,082100738359,Black Box Riesling 3L Box,16007,6,1.0,82.0,82.0,
-Woodbury,1033767,082100738359,Black Box Riesling 3L Box,16007,6,1.0,82.0,82.0,
-Chanhassen,1033654,082100738397,Black Box Sauvignon Blanc 3L Box,16008,6,3.0,82.0,246.0,
-Roseville,1033721,082100738397,Black Box Sauvignon Blanc 3L Box,16008,6,1.0,82.0,82.0,
-Blaine,1033464,082184000052,Jack Daniels Whiskey 50ml,2394,120,1.0,181.49,181.49,Johnson Brothers August Bill and Hold
 Ramsey,1033507,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
-Woodbury,1033540,082184000328,Jack Daniels Tennessee Honey Liter,1479407,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184000335,Jack Daniels Tennessee Honey 750ml,18640,12,2.0,218.25,436.5,Johnson Brothers August Bill and Hold
-Osseo,1033495,082184000335,Jack Daniels Tennessee Honey 750ml,18640,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Roseville,1033518,082184000342,Jack Daniels Tennessee Honey 375ml,1527241,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184000618,Jack Daniels Tennessee Honey 1.75L,1483371,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
 Ramsey,1033507,082184000618,Jack Daniels Tennessee Honey 1.75L,1483371,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184001172,Jack Daniels Fire 750ml,1282157,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Chanhassen,1033477,082184001172,Jack Daniels Fire 750ml,1282157,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Woodbury,1033540,082184001172,Jack Daniels Fire 750ml,1282157,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184001219,Jack Daniels Fire 1.75L,1613169,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
-Osseo,1033495,082184001219,Jack Daniels Fire 1.75L,1613169,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
-Blaine,1033787,082184006887,Jack & Coke Zero 4pk 12oz can,1048510,6,1.0,51.0,51.0,
-Blaine,1033464,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Osseo,1033495,082184008737,Jack Daniels Blackberry 750ml,1021079,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
 Ramsey,1033507,082184038727,Gentleman Jack 750ml,43406,12,1.0,251.99,251.99,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,082184038727,Gentleman Jack 750ml,43406,12,1.0,251.99,251.99,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
-Chanhassen,1033477,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
-Osseo,1033495,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
-Roseville,1033518,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,0.0,Johnson Brothers August Bill and Hold
-Woodbury,1033540,082184038741,Gentleman Jack 1.75L,1882572,6,1.0,225.0,225.0,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184090428,Jack Daniels Whiskey 1.75L,2402,6,5.0,211.7,1058.5,Johnson Brothers August Bill and Hold
-Chanhassen,1033476,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Rosemount,1033512,082184090428,Jack Daniels Whiskey 1.75L,2402,6,4.0,211.7,846.8,Johnson Brothers August Bill and Hold
-Roseville,1033518,082184090428,Jack Daniels Whiskey 1.75L,2402,6,2.0,211.7,423.4,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,082184090428,Jack Daniels Whiskey 1.75L,2402,6,1.0,211.7,211.7,Johnson Brothers August Bill and Hold
-Woodbury,1033540,082184090428,Jack Daniels Whiskey 1.75L,2402,6,3.0,211.7,635.1,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184090442,Jack Daniels Whiskey Liter,2410,12,2.0,264.05,528.1,Johnson Brothers August Bill and Hold
-Chanhassen,1033477,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
-Rosemount,1033512,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
-Roseville,1033518,082184090442,Jack Daniels Whiskey Liter,2410,12,1.0,264.05,264.05,Johnson Brothers August Bill and Hold
-Blaine,1033464,082184090466,Jack Daniels Whiskey 750ml,2428,12,2.0,218.25,436.5,Johnson Brothers August Bill and Hold
-Osseo,1033495,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Woodbury,1033540,082184090466,Jack Daniels Whiskey 750ml,2428,12,1.0,218.25,218.25,Johnson Brothers August Bill and Hold
-Osseo,1033495,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
 Ramsey,1033868,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,
-Roseville,1033518,082184090510,Jack Daniels Whiskey 375ml,52787,24,1.0,233.5,233.5,Johnson Brothers August Bill and Hold
-Woodbury,1033540,082184090527,Jack Daniels Whiskey 200ml,2444,48,1.0,263.99,263.99,Johnson Brothers August Bill and Hold
-Minneapolis,1033822,08247201,Smirnoff Vodka 50ml,000045211,120,1.0,79.0,79.0,
-Osseo,1033846,08247201,Smirnoff Vodka 50ml,000045211,120,1.0,79.0,79.0,
-Roseville,1033884,08247201,Smirnoff Vodka 50ml,000045211,120,1.0,79.0,79.0,
-Bloomington,1033795,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,98.0,98.0,
-Osseo,1033846,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,98.0,98.0,
-Roseville,1033884,08256102,Smirnoff Vodka 375ml,000002584,24,2.0,98.0,196.0,
-Minneapolis,1033822,08256209,Smirnoff 100 Pf Vodka 375ml,000002626,24,1.0,131.0,131.0,
-Chanhassen,1033801,08269504,Smirnoff Blue Raspberry Lemonade 50ml,1955772,120,1.0,79.0,79.0,
-Minneapolis,1033822,08295004,Smirnoff Vodka Traveler,000011759,12,1.0,96.0,96.0,
-Woodbury,1033923,08295004,Smirnoff Vodka Traveler,000011759,12,1.0,96.0,96.0,
-Bloomington,1033470,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Minneapolis,1033822,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,204.65,204.65,
-Minneapolis,1033485,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Woodbury,1033767,084279002156,Yes Way Rose 750ml,001987455,12,1.0,121.0,121.0,
-Blaine,1033463,084279184227,Karkov Vodka 1.75L,000002782,6,6.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Chanhassen,1033476,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Minneapolis,1033485,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Osseo,1033494,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
 Ramsey,1033506,084279184227,Karkov Vodka 1.75L,000002782,6,3.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Rosemount,1033511,084279184227,Karkov Vodka 1.75L,000002782,6,5.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Roseville,1033517,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
 St. Louis Park,1033523,084279184227,Karkov Vodka 1.75L,000002782,6,5.0,0.0,0.0,Johnson Brothers August Bill and Hold Free Goods
-Blaine,1033787,084279901671,Rondiaz Spiced Rum 1.75L,000064386,6,1.0,92.6,92.6,
-Blaine,1033787,084279902715,Rondiaz Silver Rum 1.75L,000036251,6,2.0,92.6,185.2,
-Woodbury,1033923,084279902715,Rondiaz Silver Rum 1.75L,000036251,6,1.0,92.6,92.6,
-Blaine,1033787,084279979472,Il Tramonto Lemoncello 750ml,000015946,6,1.0,71.25,71.25,
-Rosemount,1033876,084279979472,Il Tramonto Lemoncello 750ml,000015946,6,1.0,71.25,71.25,
-Roseville,1033884,084279979472,Il Tramonto Lemoncello 750ml,000015946,6,1.0,71.25,71.25,
 St. Louis Park,1033897,084279979472,Il Tramonto Lemoncello 750ml,000015946,6,1.0,71.25,71.25,
-Osseo,1033846,085000003824,E&J VSOP Brandy Liter,000039743,12,1.0,153.0,153.0,
-Roseville,1033884,085000003831,E&J VSOP Brandy 375ml,000040014,24,1.0,128.0,128.0,
-Osseo,1033846,085000003930,E&J VSOP Brandy 1.75L,000055293,6,1.0,128.25,128.25,
-Osseo,1033846,085000006818,New Amsterdam Tangerine 50ml,1944461,120,1.0,80.0,80.0,
-Blaine,1033634,085000008430,Ecco Domani Pinot Grigio 750ml,000072835,12,1.0,96.0,96.0,
-Chanhassen,1033654,085000008430,Ecco Domani Pinot Grigio 750ml,000072835,12,1.0,96.0,96.0,
-Blaine,1033787,085000011126,E&J Brandy Traveler,000046557,12,1.0,108.0,108.0,
-Minneapolis,1033670,085000014431,Barefoot Pinot Grigio 1.5L,11877,6,1.0,48.27,48.27,
-Rosemount,1033711,085000014431,Barefoot Pinot Grigio 1.5L,11877,6,1.0,48.27,48.27,
-Minneapolis,1033670,085000016671,Barefoot Moscato 1.5L,14339,6,1.0,48.27,48.27,
-Woodbury,1033767,085000016671,Barefoot Moscato 1.5L,14339,6,1.0,48.27,48.27,
-Osseo,1033850,085000018828,E&J XO Brandy 1.75L,000017963,6,1.0,135.0,135.0,Store Request
-Blaine,1033787,085000019498,New Amsterdam Vodka 750ml,19067,12,1.0,108.0,108.0,
-Minneapolis,1033822,085000019498,New Amsterdam Vodka 750ml,19067,12,1.0,108.0,108.0,
-Chanhassen,1033801,085000019511,New Amsterdam Vodka 1.75L,000019065,6,1.0,90.0,90.0,
-Woodbury,1033923,085000019511,New Amsterdam Vodka 1.75L,000019065,6,1.0,90.0,90.0,
-Minneapolis,1033670,085000020609,Barefoot Pink Moscato 1.5L,20595,6,8.0,48.27,386.16,
-Osseo,1033687,085000020609,Barefoot Pink Moscato 1.5L,20595,6,1.0,48.27,48.27,
-Minneapolis,1033822,085000022313,New Amsterdam Pineapple 750ml,000023938,12,1.0,108.0,108.0,
-Minneapolis,1033822,085000024041,E&J Apple Brandy 750ml,000026840,12,1.0,117.0,117.0,
-Roseville,1033884,085000024041,E&J Apple Brandy 750ml,000026840,12,1.0,117.0,117.0,
 St. Louis Park,1033732,085000025284,Dark Horse Pinot Grigio 750ml,001723539,12,3.0,66.67,200.01,
-Minneapolis,1033822,085000026151,New Amsterdam Raspberry vodka 750ml,001613622,12,2.0,108.0,216.0,
-Roseville,1033884,085000029626,New Amsterdam Pink Whitney 750ml,001529847,12,1.0,108.0,108.0,
-Blaine,1033462,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,35.0,47.5,1662.5,Gallo August Bill and Hold
-Bloomington,1033468,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,8.0,0.0,0.0,Gallo August Bill and Hold Free Goods
-Chanhassen,1033474,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,0.0,0.0,Gallo August Bill and Hold Free Goods
-Osseo,1033493,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,15.0,47.5,712.5,Gallo August Bill and Hold
 Ramsey,1033505,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,7.0,47.5,332.5,Gallo August Bill and Hold
-Rosemount,1033510,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,12.0,47.5,570.0,Gallo August Bill and Hold
-Roseville,1033516,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,25.0,47.5,1187.5,Gallo August Bill and Hold
 St. Louis Park,1033522,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,35.0,47.5,1472.5,Gallo August Bill and Hold
-Woodbury,1033539,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,27.0,47.5,1282.5,Gallo August Bill and Hold
-Minneapolis,1033670,085000029886,Barefoot Apple Moscato 1.5L,001375572,6,2.0,48.27,96.54,
-Minneapolis,1033670,085000029893,Barefoot Peach Moscato 1.5L,1439636,6,3.0,48.27,144.81,
-Minneapolis,1033670,085000029909,Barefoot Strawberry Moscato 1.5L,1453245,6,2.0,48.27,96.54,
-Blaine,1033462,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,18.0,49.5,891.0,Gallo August Bill and Hold
-Bloomington,1033469,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,2.0,49.5,99.0,Gallo August Bill and Hold
-Chanhassen,1033475,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,25.0,49.5,1237.5,Gallo August Bill and Hold
-Osseo,1033493,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,5.0,49.5,247.5,Gallo August Bill and Hold
 Ramsey,1033505,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,5.0,49.5,247.5,Gallo August Bill and Hold
-Rosemount,1033510,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,9.0,49.5,445.5,Gallo August Bill and Hold
-Roseville,1033516,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,12.0,49.5,594.0,Gallo August Bill and Hold
 St. Louis Park,1033522,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,21.0,49.5,1039.5,Gallo August Bill and Hold
-Woodbury,1033539,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,22.0,49.5,1089.0,Gallo August Bill and Hold
-Roseville,1033884,085000031810,New Amsterdam Vodka 375ml,000019068,24,1.0,96.0,96.0,
-Woodbury,1033923,085000031810,New Amsterdam Vodka 375ml,000019068,24,1.0,96.0,96.0,
-Blaine,1033462,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,8.0,49.5,396.0,Gallo August Bill and Hold
-Chanhassen,1033475,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,5.0,49.5,247.5,Gallo August Bill and Hold
-Osseo,1033493,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,49.5,99.0,Gallo August Bill and Hold
 Ramsey,1033505,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,1.0,49.5,49.5,Gallo August Bill and Hold
-Rosemount,1033510,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,4.0,49.5,198.0,Gallo August Bill and Hold
-Roseville,1033516,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,9.0,49.5,445.5,Gallo August Bill and Hold
-Woodbury,1033539,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,14.0,49.5,693.0,Gallo August Bill and Hold
-Blaine,1033634,085000033371,Black Box Buttery Chardonnay 3L Box,1302242,6,2.0,82.0,164.0,
 St. Louis Park,1033732,085000033388,Black Box Buttery Chard 500ml Tetra 500ml,001363416,12,1.0,40.0,40.0,
 St. Louis Park,1033732,085000033395,Black Box Sauvignon Blanc 500ml Tetra 500ml,001471286,12,1.0,40.0,40.0,
-Minneapolis,1033822,085000034484,High Noon Pineapple 24oz can,001801799,12,1.0,54.0,54.0,
-Minneapolis,1033822,085000034491,High Noon Peach 24oz can,001416567,12,1.0,54.0,54.0,
-Blaine,1033634,085000034552,Black Box Deep Dark Cabernet 3L Box,001597815,6,2.0,82.0,164.0,
-Osseo,1033687,085000034552,Black Box Deep Dark Cabernet 3L Box,001597815,6,1.0,82.0,82.0,
-Rosemount,1033711,085000034552,Black Box Deep Dark Cabernet 3L Box,001597815,6,1.0,82.0,82.0,
-Roseville,1033721,085000034569,Black Box Tart Tangy Sauvignon Blanc 3L Box,1105713,6,1.0,82.0,82.0,
-Woodbury,1033767,085000034569,Black Box Tart Tangy Sauvignon Blanc 3L Box,1105713,6,1.0,82.0,82.0,
-Blaine,1033642,085000035405,Apothic Chardonnay 750ml,1697176,12,1.0,96.0,96.0,Store Request
-Minneapolis,1033822,085000036099,High Noon Tequila Variety Pack 8pk 12oz can,1077117,3,3.0,54.0,162.0,
 St. Louis Park,1033897,085000036099,High Noon Tequila Variety Pack 8pk 12oz can,1077117,3,2.0,54.0,108.0,
-Blaine,1033787,085000037393,High Noon Tequila Fiesta Pack 8pk 12oz can,1874927,3,1.0,54.0,54.0,
-Minneapolis,1033822,085000037393,High Noon Tequila Fiesta Pack 8pk 12oz can,1874927,3,1.0,54.0,54.0,
-Rosemount,1033876,085000037393,High Noon Tequila Fiesta Pack 8pk 12oz can,1874927,3,1.0,54.0,54.0,
-Woodbury,1033923,085000037393,High Noon Tequila Fiesta Pack 8pk 12oz can,1874927,3,2.0,54.0,108.0,
-Blaine,1033787,085000038963,High Noon Iced Tea Variety Pack 8pk 12oz can,1546753,3,1.0,49.5,49.5,
-Bloomington,1033795,085000038963,High Noon Iced Tea Variety Pack 8pk 12oz can,1546753,3,1.0,49.5,49.5,
-Osseo,1033846,085000038963,High Noon Iced Tea Variety Pack 8pk 12oz can,1546753,3,1.0,49.5,49.5,
-Woodbury,1033923,085000038963,High Noon Iced Tea Variety Pack 8pk 12oz can,1546753,3,1.0,49.5,49.5,
-Osseo,1033687,085000040119,Ecco Domani 90 Calorie Pinot Grigio 750ml,1675311,12,2.0,96.0,192.0,
-Roseville,1033516,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,3.0,49.5,148.5,Gallo August Bill and Hold
 St. Louis Park,1033522,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,5.0,49.5,247.5,Gallo August Bill and Hold
-Woodbury,1033539,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,1.0,49.5,49.5,Gallo August Bill and Hold
-Roseville,1033516,085000043073,High Noon Peach 8pk 12oz can,1467100,3,2.0,49.5,99.0,Gallo August Bill and Hold
 St. Louis Park,1033522,085000043073,High Noon Peach 8pk 12oz can,1467100,3,5.0,49.5,198.0,Gallo August Bill and Hold
-Woodbury,1033539,085000043073,High Noon Peach 8pk 12oz can,1467100,3,4.0,49.5,198.0,Gallo August Bill and Hold
-Minneapolis,1033822,085000426272,High Noon Grapefruit 4pk 12oz can,001551178,6,1.0,49.5,49.5,
-Rosemount,1033876,085000426272,High Noon Grapefruit 4pk 12oz can,001551178,6,1.0,49.5,49.5,
 St. Louis Park,1033897,085000426272,High Noon Grapefruit 4pk 12oz can,001551178,6,1.0,49.5,49.5,
-Chanhassen,1033801,085000429259,High Noon Watermelon 4pk 12oz can,001069422,6,1.0,49.5,49.5,
-Minneapolis,1033822,085000429259,High Noon Watermelon 4pk 12oz can,001069422,6,1.0,49.5,49.5,
-Blaine,1033787,085000429266,High Noon Pineapple 4pk 12oz can,001761846,6,1.0,49.5,49.5,
-Minneapolis,1033822,085000429266,High Noon Pineapple 4pk 12oz can,001761846,6,2.0,49.5,99.0,
 St. Louis Park,1033897,085000429266,High Noon Pineapple 4pk 12oz can,001761846,6,1.0,49.5,49.5,
-Blaine,1033787,085000429273,High Noon Black Cherry 4pk 12oz can,001920942,6,1.0,49.5,49.5,
-Rosemount,1033876,085000429273,High Noon Black Cherry 4pk 12oz can,001920942,6,2.0,49.5,99.0,
-Woodbury,1033923,085000429273,High Noon Black Cherry 4pk 12oz can,001920942,6,1.0,49.5,49.5,
-Minneapolis,1033822,085000430958,High Noon Lime 4pk 12oz can,001631908,6,2.0,49.5,99.0,
 St. Louis Park,1033897,085000430958,High Noon Lime 4pk 12oz can,001631908,6,1.0,49.5,49.5,
-Minneapolis,1033822,085000431375,High Noon Peach 4pk 12oz can,001276032,6,1.0,49.5,49.5,
-Rosemount,1033876,085000431375,High Noon Peach 4pk 12oz can,001276032,6,1.0,49.5,49.5,
-Minneapolis,1033822,085000432327,High Noon Mango 4pk 12oz can,001274468,6,3.0,49.5,148.5,
-Minneapolis,1033822,085000434260,High Noon Lemon 4pk 12oz can,001022787,6,1.0,49.5,49.5,
-Rosemount,1033876,085000434260,High Noon Lemon 4pk 12oz can,001022787,6,1.0,49.5,49.5,
-Blaine,1033787,08541509,E&J Brandy 1.75L,000006064,6,4.0,106.0,424.0,
-Osseo,1033846,08541509,E&J Brandy 1.75L,000006064,6,1.0,106.0,106.0,
 Ramsey,1033868,08541509,E&J Brandy 1.75L,000006064,6,1.0,106.0,106.0,
-Rosemount,1033876,08541509,E&J Brandy 1.75L,000006064,6,1.0,106.0,106.0,
-Blaine,1033787,08563802,New Amsterdam Grapefruit Vodka 50ml,001319251,120,1.0,80.0,80.0,
 Ramsey,1033868,08563802,New Amsterdam Grapefruit Vodka 50ml,001319251,120,1.0,80.0,80.0,
-Blaine,1033787,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
-Osseo,1033846,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
-Roseville,1033884,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
 St. Louis Park,1033897,08567507,New Amsterdam Pink Whitney 50ml,001503050,120,1.0,80.0,80.0,
-Chanhassen,1033801,08588005,New Amsterdam Vodka 50ml,1748651,120,1.0,80.0,80.0,
-Osseo,1033846,08588005,New Amsterdam Vodka 50ml,1748651,120,1.0,80.0,80.0,
-Rosemount,1033876,08588005,New Amsterdam Vodka 50ml,1748651,120,1.0,80.0,80.0,
 St. Louis Park,1033897,08588005,New Amsterdam Vodka 50ml,1748651,120,1.0,80.0,80.0,
-Woodbury,1033923,087236565107,Cointreau 750ml,6734,12,1.0,332.88,332.88,
-Minneapolis,1033822,088004144722,Fireball Whisky 375ml,24767,24,1.0,122.5,122.5,
-Osseo,1033846,088004144722,Fireball Whisky 375ml,24767,24,1.0,122.5,122.5,
-Rosemount,1033876,088004144722,Fireball Whisky 375ml,24767,24,1.0,122.5,122.5,
-Woodbury,1033923,088004144722,Fireball Whisky 375ml,24767,24,1.0,122.5,122.5,
-Chanhassen,1033801,088004144739,Fireball Whisky 200ml,1748316,48,1.0,140.0,140.0,
 Ramsey,1033868,088004144739,Fireball Whisky 200ml,1748316,48,1.0,140.0,140.0,
 St. Louis Park,1033897,088004144739,Fireball Whisky 200ml,1748316,48,1.0,140.0,140.0,
 St. Louis Park,1033897,088076163171,Johnnie Walker Black 1.75L,3657,6,1.0,292.0,0.0,
-Woodbury,1033927,088110011192,Johnnie Walker Black 375ml,000003681,24,2.0,346.0,692.0,Store Request
-Roseville,1033884,088110021405,Johnnie Walker Red Liter,000003608,12,1.0,220.0,220.0,
-Minneapolis,1033822,088110110307,Tanqueray Gin 750ml,000005777,12,1.0,192.0,192.0,
 St. Louis Park,1033897,088110110307,Tanqueray Gin 750ml,000005777,12,1.0,192.0,192.0,
-Blaine,1033787,088110110505,Tanqueray Gin 1.75L,000005751,6,3.0,166.5,499.5,
-Chanhassen,1033801,088110110505,Tanqueray Gin 1.75L,000005751,6,2.0,166.5,333.0,
-Osseo,1033846,088110110505,Tanqueray Gin 1.75L,000005751,6,2.0,166.5,333.0,
-Rosemount,1033876,088110110505,Tanqueray Gin 1.75L,000005751,6,1.0,166.5,166.5,
-Roseville,1033884,088110110505,Tanqueray Gin 1.75L,000005751,6,1.0,166.5,166.5,
 St. Louis Park,1033897,088110110505,Tanqueray Gin 1.75L,000005751,6,4.0,166.5,666.0,
-Bloomington,1033795,088110150525,Hennessy VS Cognac 200ml,20584,24,1.0,243.0,243.0,
 St. Louis Park,1033897,08950000,Tanqueray Gin 50ml,000003640,120,1.0,118.0,118.0,
-Blaine,1033634,605779976084,Jinro Green Grape 375ml,001760926,20,1.0,96.0,96.0,
-Blaine,1033787,619947000013,Tito's Vodka Liter,22149,12,2.0,218.0,436.0,
-Chanhassen,1033801,619947000013,Tito's Vodka Liter,22149,12,1.0,218.0,218.0,
-Osseo,1033846,619947000013,Tito's Vodka Liter,22149,12,1.0,218.0,218.0,
 Ramsey,1033868,619947000013,Tito's Vodka Liter,22149,12,1.0,218.0,218.0,
-Rosemount,1033876,619947000013,Tito's Vodka Liter,22149,12,1.0,218.0,218.0,
-Roseville,1033884,619947000013,Tito's Vodka Liter,22149,12,2.0,218.0,436.0,
-Woodbury,1033923,619947000013,Tito's Vodka Liter,22149,12,2.0,218.0,436.0,
-Blaine,1033787,619947000020,Tito's Vodka 750ml,1923946,12,2.0,174.0,348.0,
-Bloomington,1033795,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Chanhassen,1033801,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Minneapolis,1033822,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Osseo,1033846,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
 Ramsey,1033868,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Roseville,1033884,619947000020,Tito's Vodka 750ml,1923946,12,2.0,174.0,348.0,
 St. Louis Park,1033897,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-Blaine,1033787,619947000037,Tito's Vodka 1.75L,22221,6,4.0,163.89,655.56,
-Chanhassen,1033801,619947000037,Tito's Vodka 1.75L,22221,6,3.0,163.89,491.67,
 St. Louis Park,1033897,619947000037,Tito's Vodka 1.75L,22221,6,4.0,163.89,655.56,
-Osseo,1033846,619947000044,Tito's Vodka 200ml,1174140,24,1.0,124.23,124.23,
-Woodbury,1033923,619947000044,Tito's Vodka 200ml,1174140,24,1.0,124.23,124.23,
-Chanhassen,1033801,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
-Minneapolis,1033822,619947000051,Tito's Vodka 375ml,1182218,12,2.0,99.0,198.0,
-Roseville,1033884,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
 St. Louis Park,1033897,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
-Woodbury,1033923,619947000051,Tito's Vodka 375ml,1182218,12,1.0,99.0,99.0,
-Minneapolis,1033822,721059047500,Campari Aperitivo 750ml,6635,12,1.0,302.5,302.5,
 St. Louis Park,1033897,721059047500,Campari Aperitivo 750ml,6635,12,1.0,302.5,302.5,
-Rosemount,1033512,744607068208,El Jimador Blanco Tequila 750ml,1107185,12,1.0,0.0,0.0,Johnson Brothers August Bill and Hold
-Blaine,1033464,744607111317,Herradura Silver Tequila 750ml,54445,6,1.0,184.6,184.6,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,744607111317,Herradura Silver Tequila 750ml,54445,6,1.0,184.6,184.6,Johnson Brothers August Bill and Hold
-Woodbury,1033540,744607111317,Herradura Silver Tequila 750ml,54445,6,1.0,184.6,184.6,Johnson Brothers August Bill and Hold
-Blaine,1033464,744607111324,Herradura Reposado Tequila 750ml,51540,6,1.0,216.0,216.0,Johnson Brothers August Bill and Hold
 St. Louis Park,1033524,744607111324,Herradura Reposado Tequila 750ml,51540,6,1.0,216.0,216.0,Johnson Brothers August Bill and Hold
-Woodbury,1033540,744607111324,Herradura Reposado Tequila 750ml,51540,6,1.0,216.0,216.0,Johnson Brothers August Bill and Hold
-Blaine,1033787,811041030013,Lalo Tequila Blanco 750ml,1890329,6,1.0,193.5,193.5,
 St. Louis Park,1033897,811041030013,Lalo Tequila Blanco 750ml,1890329,6,1.0,193.5,0.0,
-Bloomington,1033795,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,189.0,
-Minneapolis,1033822,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,0.0,
-Osseo,1033846,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,1.0,198.0,198.0,
-Osseo,1033846,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,198.0,198.0,
 Ramsey,1033868,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,198.0,198.0,
-Osseo,1033850,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,1.0,163.4,163.4,Store Request
-Minneapolis,1033822,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,1.0,163.4,163.4,
 St. Louis Park,1033897,811538010955,Jose Cuervo Silver Tequila 50ml,15781,120,1.0,138.9,138.9,
-Woodbury,1033923,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,1.0,37.0,37.0,
-Minneapolis,1033822,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,
-Minneapolis,1033822,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,1.0,125.95,125.95,
-Minneapolis,1033670,850052711276,Soon Hari Peach Soju 375ml,1502132,20,1.0,87.0,87.0,
-Minneapolis,1033670,850052711313,Soon Hari Apple-Mango Soju 375ml,1501827,20,1.0,87.0,87.0,
-Blaine,1033787,855939007701,Western Son Lemon 50ml,1041528,60,1.0,40.8,40.8,
-Roseville,1033884,856724006206,Casamigos Reposado Tequila Liter,1209141,6,1.0,275.0,275.0,
-Minneapolis,1033822,856724006213,Casamigos Reposado 750ml,25864,6,1.0,225.09,225.09,
 St. Louis Park,1033897,856724006220,Casamigos Reposado 375ml,1674992,12,1.0,218.25,218.25,
 Ramsey,1033706,857744011157,Josh Cellars Merlot 750ml,000859255,12,1.0,123.49,123.49,
 Ramsey,1033868,859685005837,Western Son Watermelon 50ml,1914871,60,1.0,40.8,40.8,
-Chanhassen,1033801,860199002601,Gray Duck Liter,1119854,12,1.0,153.0,153.0,
-Minneapolis,1033822,860199002601,Gray Duck Liter,1119854,12,1.0,153.0,153.0,
-Blaine,1033787,860199002618,Gray Duck 1.75L,001650657,6,5.0,96.0,480.0,
-Chanhassen,1033801,860199002618,Gray Duck 1.75L,001650657,6,1.0,96.0,96.0,
-Minneapolis,1033822,860199002618,Gray Duck 1.75L,001650657,6,1.0,96.0,96.0,
-Rosemount,1033876,860199002618,Gray Duck 1.75L,001650657,6,2.0,96.0,192.0,
-Roseville,1033884,860199002618,Gray Duck 1.75L,001650657,6,1.0,96.0,96.0,
 St. Louis Park,1033897,860199002618,Gray Duck 1.75L,001650657,6,1.0,96.0,96.0,
-Roseville,1033884,890355001049,Rum Chata 50ml,000026733,120,1.0,160.0,160.0,

@@ -1,275 +1,52 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
 St. Louis Park,1033901,011034410079,Martini & Rossi Sweet Vermouth 375ml,028819,24,1.0,117.32,117.32,
 St. Louis Park,1033901,080432107263,Jameson Select Reserve Black Barrel 750ml,145700,12,1.0,377.54,377.54,
-Andover,1033782,080432401262,Seagrams Extra Dry Gin 1.75L,10300,6,1.0,89.85,89.85,
 St. Louis Park,1033901,080432401262,Seagrams Extra Dry Gin 1.75L,10300,6,1.0,89.85,89.85,
-Minneapolis,1033826,080432401620,Seagrams Lime Gin Liter,78815,12,1.0,112.44,112.44,
-St. Louis Park,1033901,080432401620,Seagrams Lime Gin Liter,78815,12,1.0,112.44,112.44,
-Vadnais Heights,1033915,080432401620,Seagrams Lime Gin Liter,78815,12,1.0,112.44,112.44,
-Andover,1033460,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
-Bloomington,1033473,080432500118,Jameson Irish Whiskey Liter,24601,12,1.0,330.12,330.12,Southern August Bill and Hold
-Minneapolis,1033486,080432500118,Jameson Irish Whiskey Liter,24601,12,7.0,330.12,2310.84,Southern August Bill and Hold
-Plymouth,1033503,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
-St. Louis Park,1033526,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
-Vadnais Heights,1033537,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,660.24,Southern August Bill and Hold
-Andover,1033460,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
-Bloomington,1033473,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
-Minneapolis,1033486,080432500170,Jameson Irish Whiskey 750ml,24602,12,2.0,276.1,552.2,Southern August Bill and Hold
-Plymouth,1033503,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
+St. Louis Park,1033901,080432401620,Seagrams Lime Gin Liter,78815,12,1.0,112.44,0.0,
+St. Louis Park,1033526,080432500118,Jameson Irish Whiskey Liter,24601,12,2.0,330.12,0.0,Southern August Bill and Hold
 St. Louis Park,1033526,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
-Vadnais Heights,1033537,080432500170,Jameson Irish Whiskey 750ml,24602,12,1.0,276.1,276.1,Southern August Bill and Hold
-Minneapolis,1033486,080432500187,Jameson Irish Whiskey 1.75L,24600,6,4.0,247.5,990.0,Southern August Bill and Hold
-Plymouth,1033503,080432500187,Jameson Irish Whiskey 1.75L,24600,6,8.0,247.5,1980.0,Southern August Bill and Hold
-Ramsey,1033508,080432500187,Jameson Irish Whiskey 1.75L,24600,6,2.0,247.5,495.0,Southern August Bill and Hold
-Minneapolis,1033826,080480000264,Bacardi Dragon Berry Rum Liter,240792,12,1.0,143.37,143.37,
-Bloomington,1033797,080480002923,D'usse Cognac VSOP 750ml,330138,6,1.0,202.46,202.46,
-Minneapolis,1033826,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,1.0,146.0,146.0,
-Minneapolis,PO0000001838,080480007379,St Germain Elderflower Liqueur 750ml,175921,6,5.0,131.14,0.0,
-Andover,1033782,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,5.0,102.93,514.65,
-Chanhassen,1033805,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,4.0,102.93,411.72,
-Ramsey,1033870,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,3.0,102.93,308.79,
 St. Louis Park,1033901,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
-Vadnais Heights,1033915,080480015206,Bacardi Superior Light Rum 1.75L,298845,6,2.0,102.93,205.86,
-Minneapolis,1033826,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
-Ramsey,1033870,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
-Vadnais Heights,1033915,080480015305,Bacardi Superior Light Rum Liter,28728,12,1.0,143.37,143.37,
-Minnetonka,1033835,080480015459,Bacardi Superior Light Rum Traveler,91846,12,1.0,125.37,125.37,
-Minneapolis,1033826,080480015602,Bacardi Superior Light Rum 375ml,28730,24,1.0,110.0,110.0,
-Andover,1033782,080480025205,Bacardi Gold 1.75L,299707,6,1.0,102.93,102.93,
-Plymouth,1033860,080480170028,Cazadores Reposado Tequila 750ml,535797,12,1.0,192.77,192.77,
-Plymouth,1033860,080480172022,Cazadores Blanco Tequila 750ml,535798,12,1.0,192.77,192.77,
 St. Louis Park,1033901,080480230005,Dewar's White Label Scotch 1.75L,20172,6,1.0,141.0,141.0,
-Andover,1033782,080480280000,Grey Goose Vodka 1.75L,79019,6,1.0,215.96,215.96,
 St. Louis Park,1033901,080480280000,Grey Goose Vodka 1.75L,79019,6,1.0,215.96,215.96,
-Vadnais Heights,1033915,080480280000,Grey Goose Vodka 1.75L,79019,6,1.0,215.96,215.96,
 St. Louis Park,1033901,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
-Plymouth,1033864,080480300012,Bombay Gin Liter,11286,12,1.0,176.69,176.69,Store Request
-Vadnais Heights,1033915,080480301002,Bombay Sapphire Gin 1.75L,11290,6,1.0,172.5,172.5,
-Minneapolis,1033826,080480301026,Bombay Sapphire Gin 750ml,11292,12,1.0,211.0,211.0,
-Plymouth,1033860,080480301026,Bombay Sapphire Gin 750ml,11292,12,1.0,211.0,211.0,
-Andover,1033782,080480355203,Bacardi Limon Rum 1.75L,28735,6,2.0,102.93,205.86,
-Chanhassen,1033805,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-Ramsey,1033870,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-Vadnais Heights,1033915,080480355203,Bacardi Limon Rum 1.75L,28735,6,1.0,102.93,102.93,
-Ramsey,1033870,080660010113,99 Butterscotch 50ml,381071,120,1.0,72.1,72.1,
-Minneapolis,1033827,080660010663,99 Pineapple 750ml,395098,12,1.0,119.75,119.75,Store Request
-Andover,1033782,080660010700,99 Pineapples 50ml,395103,120,1.0,72.1,72.1,
-Bloomington,1033797,080660010700,99 Pineapples 50ml,395103,120,1.0,72.1,72.1,
-Vadnais Heights,1033915,080660010700,99 Pineapples 50ml,395103,120,1.0,72.1,72.1,
-Minneapolis,1033827,080660620053,99 Bananas 750ml,183,12,1.0,119.75,119.75,Store Request
-Minneapolis,1033826,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
-Plymouth,1033860,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
-Minneapolis,1033826,080686000839,Pinnacle Whipped Vodka Liter,606163,12,1.0,104.7,104.7,
-Plymouth,1033860,080686001201,Jim Beam Bourbon Liter,975690,12,1.0,190.27,190.27,
-Plymouth,1033860,080686004424,Knob Creek Rye Whiskey 750ml,581362,6,1.0,152.98,152.98,
-Bloomington,1033797,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,1.0,45.0,45.0,
-Vadnais Heights,1033915,080686009269,Suntory -196 Vodka Cocktail Variety Pack 8pk 12oz can,000648939,3,1.0,45.0,45.0,
-Minneapolis,1033826,080686009481,On The Rocks Mule 4pk 12oz can,653119,6,1.0,49.45,49.45,
 St. Louis Park,1033901,080686012405,Basil Hayden Bourbon 750ml,524892,12,1.0,348.83,348.83,
-Vadnais Heights,1033915,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,1.0,49.45,49.45,
 St. Louis Park,1033901,080686016762,Knob Creek Bourbon 750ml,986040,6,1.0,152.98,152.98,
-Andover,1033782,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
-St. Louis Park,1033901,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,80.4,
-Chanhassen,1033805,080686310143,Dekuyper Triple Sec Liter,905299,12,1.0,65.75,65.75,
-Plymouth,1033860,080686310143,Dekuyper Triple Sec Liter,905299,12,1.0,65.75,65.75,
-Minnetonka,1033835,080686363620,Dekuyper Triple Sec 375ml,407361,24,1.0,80.8,80.8,
-Andover,1033782,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
-Ramsey,1033870,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
-Vadnais Heights,1033915,080686821120,Canadian Club 1.75L,970031,6,1.0,96.51,96.51,
-Minneapolis,1033826,080686835325,Sauza Hornitos Plata 750ml,949391,12,2.0,187.4,374.8,
-Plymouth,1033860,080686835349,Sauza Hornitos Plata Tequila 1.75L,948669,6,1.0,174.38,174.38,
-St. Louis Park,1033901,080686835585,Sauza Hornitos Black Barrel 750ml,352601,12,1.0,315.0,315.0,
-Minneapolis,1033826,080686929437,Pinnacle Vodka 375ml,984754,24,1.0,72.95,72.95,
-Minneapolis,1033826,080686929444,Pinnacle Vodka 50ml,000984752,120,1.0,64.2,64.2,
-Minnetonka,1033835,080686958024,Suntory Haku Vodka 750ml,543379,6,1.0,119.55,119.55,
+St. Louis Park,1033901,080686036012,Twisted Tea Whiskey 50ml,623351,120,1.0,80.4,0.0,
+St. Louis Park,1033901,080686835585,Sauza Hornitos Black Barrel 750ml,352601,12,1.0,315.0,0.0,
 St. Louis Park,1033901,080686958024,Suntory Haku Vodka 750ml,543379,6,1.0,119.55,119.55,
-Minneapolis,1033826,080686961048,Courvoisier VS Cognac 750ml,894185,12,1.0,269.91,269.91,
-Minneapolis,1033826,080686961109,Courvoisier VS Cognac 200ml,960959,24,1.0,128.48,128.48,
-Chanhassen,1033805,082928214318,Fleischmanns Vodka 1.75L,11132,6,1.0,54.0,54.0,
-Minneapolis,1033826,082928214356,Fleischmanns Vodka Traveler,21918,12,1.0,54.0,54.0,
 St. Louis Park,1033621,083085904081,Ruffino Prosecco 750ml,603438,12,1.0,120.0,120.0,Month End
-Plymouth,1033860,083089524001,Jagermeister 750ml,35253,12,1.0,180.0,180.0,
-Minneapolis,1033826,083089660150,Jagermeister Liter,31393,12,2.0,216.0,432.0,
-Minneapolis,1033826,083089660402,Jagermeister 200ml,961032,48,1.0,232.45,232.45,
-Minneapolis,1033674,083120003021,Franzia Moscato 5L Box,664292,4,1.0,56.0,56.0,
-Minneapolis,1033674,083120003540,Franzia Pink Moscato 5L Box,664299,4,2.0,56.0,112.0,
-Andover,1033630,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,
-Minneapolis,1033674,083120100393,Franzia Pinot Grigio 5L Box,664272,4,2.0,56.0,112.0,
-Vadnais Heights,1033763,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,
-Andover,1033630,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,
-Minneapolis,1033674,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,
-Andover,1033630,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,
-Minneapolis,1033674,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,
-Ramsey,1033708,083120103691,Franzia Sunset Blush 5L Box,664304,4,1.0,47.27,47.27,
-Andover,1033782,083120957270,Tribuno Sweet Vermouth 750ml,422226,12,1.0,63.96,63.96,
-Vadnais Heights,1033763,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,
 St. Louis Park,1033901,084704000290,Korbel Brandy PET 1.75L,423531,6,1.0,116.95,116.95,
-Andover,1033630,084704091328,Korbel Brut 750ml,938679,12,1.0,127.97,127.97,
-Ramsey,1033870,085246139424,Maker's Mark Bourbon Liter,9998,12,1.0,305.62,305.62,
-Plymouth,1033860,085246139431,Maker's Mark Bourbon 750ml,9999,12,1.0,251.67,251.67,
-Andover,1033460,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
-Chanhassen,1033478,086003267107,High West Old Fashioned 750ml,979485,6,2.0,128.0,256.0,Southern August Bill and Hold
-Minneapolis,1033486,086003267107,High West Old Fashioned 750ml,979485,6,2.0,128.0,256.0,Southern August Bill and Hold
-Plymouth,1033503,086003267107,High West Old Fashioned 750ml,979485,6,3.0,128.0,384.0,Southern August Bill and Hold
-Ramsey,1033508,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
-St. Louis Park,1033526,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,128.0,Southern August Bill and Hold
-Andover,1033460,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
-Minneapolis,1033486,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
-Plymouth,1033503,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
+St. Louis Park,1033526,086003267107,High West Old Fashioned 750ml,979485,6,1.0,128.0,0.0,Southern August Bill and Hold
 St. Louis Park,1033526,086003267121,High West Manhattan 750ml,979489,6,1.0,128.0,128.0,Southern August Bill and Hold
-Andover,1033460,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
-Minneapolis,1033486,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
-Minnetonka,1033491,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
-Ramsey,1033508,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
 St. Louis Park,1033526,086003267190,High West Bourbon 1.75L,534415,6,1.0,251.94,251.94,Southern August Bill and Hold
-Plymouth,1033860,086003272033,Mi Campo Blanco 750ml,921563,12,1.0,234.0,234.0,
-Minneapolis,1033826,086003272064,Mi Campo Tequila Blanco 375ml,586935,12,1.0,112.0,112.0,
-Chanhassen,1033657,086003873889,Woodbridge Chardonnay 1.5L,97438,6,4.0,56.0,224.0,
-Plymouth,1033701,086003873889,Woodbridge Chardonnay 1.5L,97438,6,1.0,56.0,56.0,
 St. Louis Park,1033738,086003873889,Woodbridge Chardonnay 1.5L,97438,6,2.0,56.0,112.0,
-Plymouth,1033860,086024015435,Ryan's Cream Liqueur 750ml,403857,12,1.0,89.99,89.99,
-Minneapolis,1033826,086036100198,Christian Brothers Brandy 50ml,958647,120,1.0,113.4,113.4,
-Chanhassen,1033805,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
-Ramsey,1033870,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
-Ramsey,1033708,087000102705,B&G Vouvray,680249,12,1.0,96.0,96.0,
-Ramsey,1033870,088004023850,99 Root Beer 50ml,442556,120,1.0,72.1,72.1,
-Andover,1033782,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
-Minneapolis,1033826,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
-Minnetonka,1033835,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
-Ramsey,1033870,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
 St. Louis Park,1033901,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
-Andover,1033782,088004039677,99 Lemon Lime Schnapps 50ml,969878,120,1.0,72.1,72.1,
-Ramsey,1033870,088004039677,99 Lemon Lime Schnapps 50ml,969878,120,1.0,72.1,72.1,
-Andover,1033782,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
-Vadnais Heights,1033915,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
 St. Louis Park,1033738,088586659935,CSM Indian Wells Chardonnay 750ml,000683280,12,1.0,136.0,136.0,
-Minneapolis,1033826,088734100708,Campari Aperitivo 375ml,948645,12,1.0,144.64,144.64,
-Minneapolis,1033826,089000118311,99 Apples 100ml,394870,48,1.0,47.75,47.75,
-Minneapolis,1033827,089000118359,99 Apples 750ml,000093644,12,1.0,119.75,119.75,Store Request
-Andover,1033782,089000118397,99 Apples 50ml,93645,120,1.0,72.1,72.1,
 St. Louis Park,1033901,089000118397,99 Apples 50ml,93645,120,1.0,72.1,72.1,
-Minnetonka,1033835,089000620104,99 Bananas 100ml,976369,48,1.0,47.75,47.75,
-Andover,1033782,089000990610,99 Peaches 50ml,175096,120,1.0,72.1,72.1,
-Plymouth,1033860,089000990610,99 Peaches 50ml,175096,120,1.0,72.1,72.1,
-Minneapolis,1033827,089000990641,99 Peaches 750ml,000175092,12,1.0,119.75,119.75,Store Request
-Bloomington,1033797,089000990764,99 Grapes 50ml,271165,120,1.0,72.1,72.1,
-Vadnais Heights,1033915,089540122717,Kahlua 750ml,93175,12,1.0,267.06,267.06,
-Plymouth,1033864,089540333472,Beefeater Gin 1.75L,600817,6,1.0,134.61,134.61,Store Request
 St. Louis Park,1033901,089540333472,Beefeater Gin 1.75L,600817,6,1.0,134.61,134.61,
-Andover,1033459,089540448978,Malibu Rum Liter,33451,12,1.0,0.0,0.0,Southern August Bill and Hold Free Goods
-Bloomington,1033472,089540448978,Malibu Rum Liter,33451,12,1.0,0.0,0.0,Southern August Bill and Hold Free Goods
-Minneapolis,1033486,089540448978,Malibu Rum Liter,33451,12,7.0,183.48,1284.36,Southern August Bill and Hold
 St. Louis Park,1033526,089540448978,Malibu Rum Liter,33451,12,1.0,183.48,183.48,Southern August Bill and Hold
-Andover,1033460,089540449326,Malibu Rum 1.75L,136168,6,4.0,93.3,373.2,Southern August Bill and Hold
-Minneapolis,1033486,089540449326,Malibu Rum 1.75L,136168,6,3.0,93.3,279.9,Southern August Bill and Hold
-Minnetonka,1033491,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
-Ramsey,1033508,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
 St. Louis Park,1033526,089540449326,Malibu Rum 1.75L,136168,6,2.0,93.3,186.6,Southern August Bill and Hold
-Vadnais Heights,1033537,089540449326,Malibu Rum 1.75L,136168,6,1.0,93.3,93.3,Southern August Bill and Hold
-Andover,1033460,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
-Minneapolis,1033486,089540466446,Malibu Rum Traveler,33452,12,2.0,165.4,330.8,Southern August Bill and Hold
-Plymouth,1033503,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
 St. Louis Park,1033526,089540466446,Malibu Rum Traveler,33452,12,1.0,165.4,165.4,Southern August Bill and Hold
-Andover,1033460,089540536521,Malibu Pink Rum 750ml,683372,12,1.0,165.4,165.4,Southern August Bill and Hold
-Minneapolis,1033486,089540536521,Malibu Pink Rum 750ml,683372,12,3.0,165.4,496.2,Southern August Bill and Hold
-Minneapolis,1033486,089540536538,Malibu Pink Rum 1.75L,683792,6,1.0,93.3,93.3,Southern August Bill and Hold
 St. Louis Park,1033526,089540536538,Malibu Pink Rum 1.75L,683792,6,1.0,93.3,93.3,Southern August Bill and Hold
 St. Louis Park,1033526,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
-Vadnais Heights,1033537,094922381736,High West Campfire Whiskey 750ml,443188,6,1.0,300.0,300.0,Southern August Bill and Hold
-Chanhassen,1033805,096749000067,Elijah Craig BBN Small Batch 94 750ml,409268,12,1.0,222.75,222.75,
-Andover,1033782,096749000074,Elijah Craig BBN Small Batch 94 1.75L,409269,6,1.0,209.25,209.25,
-Vadnais Heights,1033915,096749000074,Elijah Craig BBN Small Batch 94 1.75L,409269,6,1.0,209.25,209.25,
-Minneapolis,1033826,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,79.5,
-Ramsey,1033870,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,79.5,
-Chanhassen,1033805,096749011650,Blackheart Spiced Rum 1.75L,296870,6,1.0,89.28,89.28,
-Plymouth,1033864,096749011650,Blackheart Spiced Rum 1.75L,296870,6,1.0,89.28,89.28,Store Request
-Andover,1033782,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Plymouth,1033860,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Ramsey,1033870,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
 St. Louis Park,1033901,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
-Vadnais Heights,1033915,096749021147,Evan Williams Bourbon 1.75L,25099,6,1.0,104.36,104.36,
 St. Louis Park,1033901,096749021178,Evan Williams 100 Proof 1.75L,29860,6,1.0,131.22,131.22,
 St. Louis Park,1033901,096749021277,Evan Williams 100 Proof Liter,64973,12,1.0,194.92,194.92,
 St. Louis Park,1033901,096749031559,Larceny Bourbon 750ml,565174,12,1.0,208.73,208.73,
-Andover,1033782,096749086269,Admiral Nelson's Spiced Rum 1.75L,12732,6,1.0,72.0,72.0,
-Minneapolis,1033826,096749086269,Admiral Nelson's Spiced Rum 1.75L,12732,6,1.0,72.0,72.0,
-Minneapolis,1033826,096749200313,Burnett's Vodka 1.75L,13625,6,2.0,60.9,121.8,
-Plymouth,1033860,096749908011,Lunazul Reposado Tequila Liter,186639,12,2.0,183.75,367.5,
-Ramsey,1033870,096749908011,Lunazul Reposado Tequila Liter,186639,12,1.0,183.75,183.75,
 St. Louis Park,1033901,096749908011,Lunazul Reposado Tequila Liter,186639,12,2.0,183.75,367.5,
-Vadnais Heights,1033915,096749908011,Lunazul Reposado Tequila Liter,186639,12,1.0,183.75,183.75,
-Plymouth,1033860,096749908028,Lunazul Blanco Tequila Liter,186580,12,1.0,183.75,183.75,
-Minneapolis,1033826,096749908547,Lunazul Tequila Blanco 1.75L,239670,6,1.0,152.96,152.96,
-Minneapolis,1033826,096749908554,Lunazul Tequila Reposado 1.75L,239671,6,1.0,152.96,152.96,
-Vadnais Heights,1033915,096749908585,Lunazul Anejo 750ml,166401,6,1.0,80.96,80.96,
-Minneapolis,1033826,195893687015,818 Tequila Blanco 750ml,511786,6,1.0,112.5,112.5,
 St. Louis Park,1033901,195893687015,818 Tequila Blanco 750ml,511786,6,1.0,112.5,112.5,
-Chanhassen,1033805,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,
-Minneapolis,1033826,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,
-Vadnais Heights,1033915,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,
-Andover,1033460,617768111178,Svedka Vodka 1.75L,656185,6,71.0,87.74,6229.53,Southern August Bill and Hold
-Bloomington,1033473,617768111178,Svedka Vodka 1.75L,656185,6,17.0,87.74,1491.58,Southern August Bill and Hold
-Chanhassen,1033478,617768111178,Svedka Vodka 1.75L,656185,6,40.0,87.74,3509.59,Southern August Bill and Hold
-Minneapolis,1033486,617768111178,Svedka Vodka 1.75L,656185,6,100.0,87.74,8773.98,Southern August Bill and Hold
-Minnetonka,1033491,617768111178,Svedka Vodka 1.75L,656185,6,7.0,87.74,614.18,Southern August Bill and Hold
-Plymouth,1033503,617768111178,Svedka Vodka 1.75L,656185,6,30.0,87.74,2632.19,Southern August Bill and Hold
-Ramsey,1033508,617768111178,Svedka Vodka 1.75L,656185,6,20.0,87.74,1754.8,Southern August Bill and Hold
 St. Louis Park,1033526,617768111178,Svedka Vodka 1.75L,656185,6,46.0,87.74,4036.03,Southern August Bill and Hold
-Vadnais Heights,1033537,617768111178,Svedka Vodka 1.75L,656185,6,31.0,87.74,2719.93,Southern August Bill and Hold
-Ramsey,1033870,617768113752,Svedka Vodka 375ml,649729,24,1.0,96.35,96.35,
-Minneapolis,1033826,617768201107,Svedka Blue Raspberry Vodka Liter,531161,12,1.0,116.93,116.93,
-Andover,1033630,682417072001,Three Rivers Cabernet Sauvignon 750ml,991671,12,1.0,82.88,82.88,
-Andover,1033782,721059010009,Skyy Vodka Liter,992254,12,1.0,134.91,134.91,
-Minneapolis,1033826,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
-Ramsey,1033870,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
-Andover,1033782,721059897518,Wild Turkey 101 750ml,512412,12,1.0,215.91,215.91,
 St. Louis Park,1033901,736040532774,Casa Dragones Blanco Tequila 750ml,386384,6,1.0,329.0,329.0,
-Minneapolis,1033826,791126147266,Chica Chida Peanut Butter Tequila 750ml,627977,6,1.0,103.5,103.5,
-Plymouth,1033860,791126147266,Chica Chida Peanut Butter Tequila 750ml,627977,6,1.0,103.5,103.5,
-Minneapolis,1033826,791126147327,Chica Chida Peanut Butter Tequila 50ml,655632,120,1.0,119.2,119.2,
-Minnetonka,1033842,803433000032,Broker's Gin Liter,536310,6,0.5,93.3,46.65,Store Request
-Vadnais Heights,1033915,813497006109,Bumbu Rum 750ml,405590,6,1.0,146.94,146.94,
 St. Louis Park,1033738,816136025349,Avaline Rose 750ml,665428,12,1.0,176.0,176.0,
-Minneapolis,1033826,835229000605,Absolut Vodka 1.75L,13146,6,3.0,184.5,553.5,
 St. Louis Park,1033901,850001901116,WhistlePig PiggyBack Rye 750ml,959080,6,1.0,202.5,202.5,
-Chanhassen,1033805,850047003003,Angel's Envy Bourbon 750ml,404725,6,1.0,208.58,208.58,
-Plymouth,1033860,850047003003,Angel's Envy Bourbon 750ml,404725,6,1.0,208.58,208.58,
-Minneapolis,1033826,850056545044,Sprinter Vodka Soda Variety Pack 1 8pk 12oz can,850056545044,3,1.0,40.98,40.98,
-Bloomington,1033650,852832000174,Mumm Napa Brut Rose 750ml,606007,12,1.0,160.0,160.0,
 St. Louis Park,1033901,852935001153,Chopin Vodka 750ml,482219,6,1.0,135.0,135.0,
-Andover,1033460,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
-Chanhassen,1033478,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
-Minneapolis,1033486,854396005008,High West Double Rye 750ml,443185,6,2.0,128.0,256.0,Southern August Bill and Hold
-Minnetonka,1033491,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
-Plymouth,1033503,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
 St. Louis Park,1033526,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
-Vadnais Heights,1033537,854396005008,High West Double Rye 750ml,443185,6,1.0,128.0,128.0,Southern August Bill and Hold
-Andover,1033459,854396005220,High West Bourbon 750ml,548278,6,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
-Minneapolis,1033486,854396005220,High West Bourbon 750ml,548278,6,2.0,128.0,256.0,Southern August Bill and Hold
-Minnetonka,1033491,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
-Plymouth,1033503,854396005220,High West Bourbon 750ml,548278,6,2.0,128.0,256.0,Southern August Bill and Hold
-Ramsey,1033508,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
 St. Louis Park,1033525,854396005220,High West Bourbon 750ml,548278,6,2.0,0.0,0.0,Southern August Bill and Hold Free Goods
-Vadnais Heights,1033537,854396005220,High West Bourbon 750ml,548278,6,1.0,128.0,128.0,Southern August Bill and Hold
 St. Louis Park,1033901,855880008000,On the Rocks Old Fashioned 100ml,598584,30,1.0,109.41,109.41,
 St. Louis Park,1033901,855880008024,On the Rocks Old Fashioned 375ml,918254,12,1.0,103.19,103.19,
-Minnetonka,1033835,855880008116,On the Rocks Margarita 375ml,918485,12,1.0,103.19,103.19,
-Minneapolis,1033826,855880008123,On The Rocks Mai Tai 100ml,000918503,60,1.0,109.41,109.41,
-Plymouth,1033860,855880008147,On the Rocks Mai Tai Cruzan 375ml,918500,12,1.0,103.19,103.19,
-St. Louis Park,1033901,855880008147,On the Rocks Mai Tai Cruzan 375ml,918500,12,1.0,103.19,103.19,
+St. Louis Park,1033901,855880008147,On the Rocks Mai Tai Cruzan 375ml,918500,12,1.0,103.19,0.0,
 St. Louis Park,1033901,856065002103,Deep Eddy Ruby Red Vodka 1.75L,336235,6,1.0,106.04,106.04,
-Minneapolis,1033826,856065002431,Deep Eddy Lemon Vodka 1.75L,376951,6,1.0,106.04,106.04,
 St. Louis Park,1033742,859369001605,Flowers Sonoma Chardonnay 750ml,631508,12,1.0,440.0,440.0,Store Request
 St. Louis Park,1033901,860265002405,Skrewball Peanut Butter Whiskey 750ml,561798,12,1.0,225.25,225.25,
-Plymouth,1033860,860265002443,Skrewball Peanut Butter Whiskey Liter,529073,6,1.0,123.48,123.48,
-Plymouth,1033701,870661008024,Oyster Bay Sauvignon Blanc 750ml,127630,12,1.0,120.0,120.0,
 St. Louis Park,1033901,887341340060,Aperol Aperitivo 375ml,996122,12,1.0,120.5,120.5,
-Bloomington,1033797,887341340138,Sarti Aperitivo Rosa 700ml,701527,6,1.0,112.48,112.48,
-Minneapolis,1033826,887341340138,Sarti Aperitivo Rosa 700ml,701527,6,3.0,112.48,337.44,
-Minnetonka,1033835,887341340138,Sarti Aperitivo Rosa 700ml,701527,6,1.0,112.48,112.48,
-Plymouth,1033860,887341340138,Sarti Aperitivo Rosa 700ml,701527,6,1.0,112.48,112.48,
 St. Louis Park,1033901,887341340138,Sarti Aperitivo Rosa 700ml,701527,6,1.0,112.48,112.48,
-Vadnais Heights,1033915,887341340138,Sarti Aperitivo Rosa 700ml,701527,6,1.0,112.48,112.48,
-Chanhassen,1033657,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,
-Minnetonka,1033684,892931000347,A to Z Pinot Noir 750ml,641899,12,1.0,136.0,136.0,
-Vadnais Heights,1033918,898804009004,Hochstadter's Rock and Rye Slow & Low 750ml,340086,6,1.0,94.5,94.5,Store Request

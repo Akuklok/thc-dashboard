@@ -1,76 +1,79 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Wednesday, Sep 02, 2026
+  RECOMMENDED WINE ORDER          Thursday, Sep 03, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    130,776
-  Coverable by transfer .......  $     66,258   (51%)
-  NET BUY from vendors ........  $    122,854   <- the order
+  Gross need (all stores) .....  $    122,891
+  Coverable by transfer .......  $     63,179   (51%)
+  NET BUY from vendors ........  $    122,372   <- the order
 
-  137 items   |   11,693 units to buy   |   8,292 units to rebalance
-  Transfers: 861 moves  -  723 urgent (277 stockouts, 446 under 2wk), 138 routine
+  145 items   |   11,778 units to buy   |   7,860 units to rebalance
+  Transfers: 825 moves  -  690 urgent (278 stockouts, 412 under 2wk), 135 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 83 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 87 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  90+ Cellars DOC Prosecco Lot 50 (si  120u/5cs         $322    109     0   OUT
-   2  90+ Cellars Prosecco Rose (single)   96u/4cs          $293    104     0   OUT
-   3  LaMarca Prosecco 187ml               24u/1cs           $95     31     0   OUT
-   4  Yellow Tail Moscato 750ml            12u/1cs           $50      7     0   OUT
-   5  King Estates Pinot Gris              3u/3cs            $37      3     0   OUT
-   6  Amami Shochu Kokuto Shochu Selephan  1u/1cs            $43      1     0   OUT
-   7  CYT Marques de Casa Cab Sauv 750ml   1u/1cs             $8      1     0   OUT
-   8  K J Vintner's Riesling 750ml         12u/1cs          $106      2     0   OUT
-   9  Fowler Wine Meritage Red Blend/ D    1u/1cs            $16      1     0   OUT
-  10  Gruvi Dry Secco 275ml                2u/2cs             $0      2     0   OUT
-  11  La Chaussynette 750ml                1u/1cs             $9      1     0   OUT
-  12  Benvolio Pinot Grigio                1u/1cs             $8      1     0   OUT
-  13  Pierpaolo Pecorari Sauvignon Blanc   12u/1cs          $144      8     0   0.4
-  14  Barefoot Rose 1.5L                   36u/6cs          $290      6     0   0.5
-  15  Barefoot Pinot Noir 250ml            18u/3cs          $108     17     0   1.0
-  16  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $93     16     0   1.2
-  17  Sutter Home Pinot Grigio 187ml       114u/19cs        $569    119     4   1.3
-  18  La Vieille Ferme Rouge 3L Box        6u/1cs           $112      5     0   1.4
-  19  Bota Box Sauvignon Blanc 3L Box      186u/62cs      $2,728    192     5   1.5
-  20  Sutter Home Sauvignon Blanc 187ml    78u/13cs         $387     88     9   1.5
-  ...and 117 more in the full list.
+   1  90+ Cellars DOC Prosecco Lot 50 (si  120u/5cs         $326    129     0   OUT
+   2  90+ Cellars Prosecco Rose (single)   96u/4cs          $287    104     0   OUT
+   3  LaMarca Prosecco 187ml               48u/2cs          $190     30     0   OUT
+   4  King Estates Pinot Gris              3u/3cs            $37      3     0   OUT
+   5  Amami Shochu Kokuto Shochu Selephan  1u/1cs            $43      1     0   OUT
+   6  CYT Marques de Casa Cab Sauv 750ml   1u/1cs             $8      1     0   OUT
+   7  K J Vintner's Riesling 750ml         12u/1cs          $106      2     0   OUT
+   8  Fowler Wine Meritage Red Blend/ D    1u/1cs            $16      1     0   OUT
+   9  Gruvi Dry Secco 275ml                2u/2cs             $0      2     0   OUT
+  10  La Chaussynette 750ml                1u/1cs             $9      1     0   OUT
+  11  Benvolio Pinot Grigio                1u/1cs             $8      1     0   OUT
+  12  Pierpaolo Pecorari Sauvignon Blanc   12u/1cs          $144      8     0   0.4
+  13  Barefoot Rose 1.5L                   30u/5cs          $241      6     0   0.6
+  14  Barefoot Pinot Noir 250ml            24u/4cs          $144     23     0   0.8
+  15  Soon Hari Apple-Mango Soju 375ml     20u/1cs           $93     18     0   1.0
+  16  Sutter Home Pinot Grigio 187ml       114u/19cs        $568    117     4   1.4
+  17  La Vieille Ferme Rouge 3L Box        6u/1cs           $112      5     0   1.4
+  18  Bota Box Pinot Grigio 3L Box         165u/55cs      $3,787    172     8   1.4
+  19  Sutter Home Sauvignon Blanc 187ml    78u/13cs         $388     87     9   1.5
+  20  Barefoot Blueberry Moscato 1.5L      198u/33cs      $1,595     37     4   1.5
+  ...and 125 more in the full list.
 
-  NEEDS REVIEW (83 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (87 items the system isn't fully sure about - check before ordering):
     LaMarca Prosecco 187ml                    Off buy-month - confirm timing
     K J Vintner's Riesling 750ml              Buy-month stock-up ($106 to next deal) - confirm
     Gruvi Dry Secco 275ml                     No cost data - verify price; Margin over 95% - check retail
-    Barefoot Rose 1.5L                        Buy-month stock-up ($290 to next deal) - confirm
+    Barefoot Rose 1.5L                        Buy-month stock-up ($241 to next deal) - confirm
     Soon Hari Apple-Mango Soju 375ml          Off buy-month - confirm timing; Seasonal - last year ~10/wk vs 6 now, buy ahead?
     Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost
-    Black Box Chardonnay 3L Box               Large buy ($7,001) - confirm; Buy-month stock-up ($7,001 to next deal) - confirm
+    Barefoot Blueberry Moscato 1.5L           Buy-month stock-up ($1,595 to next deal) - confirm
+    Barefoot Pink Moscato 1.5L                Large buy ($4,764) - confirm; Buy-month stock-up ($4,764 to next deal) - confirm
+    Black Box Chardonnay 3L Box               Large buy ($6,614) - confirm; Buy-month stock-up ($6,614 to next deal) - confirm
     Barefoot Butter Chard 1.5L                Buy-month stock-up ($146 to next deal) - confirm
-    Barefoot Pink Moscato 1.5L                Large buy ($4,227) - confirm; Buy-month stock-up ($4,227 to next deal) - confirm
-    Barefoot Blueberry Moscato 1.5L           Buy-month stock-up ($1,427 to next deal) - confirm
-    Black Box Pinot Grigio 3L Box             Margin looks off - check retail/cost; Large buy ($12,465) - confirm; Buy-month stock-up ($12,465 to next deal) - confirm
-    Matua Valley Sauv Blanc 750ml             Buy-month stock-up ($3,559 to next deal) - confirm
-    Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost; Large buy ($11,296) - confirm; Buy-month stock-up ($11,296 to next deal) - confirm
-    Black Box Cab Sauv 3L Box                 Large buy ($5,683) - confirm; Buy-month stock-up ($5,683 to next deal) - confirm
-    Barefoot Peach Moscato 1.5L               Buy-month stock-up ($3,427 to next deal) - confirm
-    ...and 68 more (see Needs Review tab).
+    Barefoot Peach Moscato 1.5L               Buy-month stock-up ($3,964 to next deal) - confirm
+    Black Box Pinot Grigio 3L Box             Margin looks off - check retail/cost; Large buy ($12,603) - confirm; Buy-month stock-up ($12,603 to next deal) - confirm
+    Matua Valley Sauv Blanc 750ml             Buy-month stock-up ($3,467 to next deal) - confirm
+    Barefoot Apple Moscato 1.5L               Buy-month stock-up ($2,104 to next deal) - confirm
+    Black Box Sauvignon Blanc 3L Box          Margin looks off - check retail/cost; Large buy ($10,166) - confirm; Buy-month stock-up ($10,166 to next deal) - confirm
+    ...and 72 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (15 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (16 discontinued items still selling/low - run down stock):
     Cupcake Lighthearted Sauvignon Blanc 750ml  (would have bought 12u)
-    Franzia Cab Sauv 5L Box                     (would have bought 28u)
-    Franzia Chardonnay 5L Box                   (would have bought 32u)
-    Franzia Chillable Red 5L Box                (would have bought 16u)
-    Franzia Crisp White 5L Box                  (would have bought 28u)
-    Franzia Moscato 5L Box                      (would have bought 24u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 76u)
-    Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 12u)
+    Franzia Cab Sauv 5L Box                     (would have bought 20u)
+    Franzia Chardonnay 5L Box                   (would have bought 28u)
+    Franzia Chillable Red 5L Box                (would have bought 24u)
+    Franzia Crisp White 5L Box                  (would have bought 32u)
+    Franzia Moscato 5L Box                      (would have bought 28u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 72u)
+    Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 8u)
     Franzia Sauvignon Blanc 5L Box              (would have bought 16u)
-    Franzia Sunset Blush 5L Box                 (would have bought 40u)
+    Franzia Sunset Blush 5L Box                 (would have bought 44u)
     Ganbei Baljiu 750ML/ D                      (would have bought 1u)
     Louis Jadot Beaujolais Village 750ml        (would have bought 12u)
     Louis Jadot Macon Village 750ml             (would have bought 12u)
+    Louis Jadot Pouilly Fuisse 750ml            (would have bought 12u)
     Roscato Black Cherry 750ml                  (would have bought 12u)
-    St. Francis Cab 750ml                       (would have bought 12u)
+    ...and 1 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (2 routine deal items out of their buy month - $1,853 cheaper to buy in-month):
-    Kim Crawford Sauvignon Blanc 750ml          Wait for buy-month (Feb, May, Aug, Nov)
+  WAIT FOR BUY-MONTH (4 routine deal items out of their buy month - $683 cheaper to buy in-month):
+    Pine Ridge Chen Blanc/Viognier 750ml        Wait for buy-month (Feb, May, Aug, Oct, Nov)
+    Prati by Louis Martini Cabernet Sauvignon   Wait for buy-month (May, Jul, Oct)
     Underwood Bubbles 355ml                     Wait for buy-month (Apr, Jun, Aug, Oct)
+    Underwood Rose Bubbles 375ml                Wait for buy-month (Apr, Jun, Aug, Oct)

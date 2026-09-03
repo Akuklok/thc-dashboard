@@ -1,86 +1,84 @@
 ==========================================================================
-  RECOMMENDED SPIRITS ORDER          Wednesday, Sep 02, 2026
+  RECOMMENDED SPIRITS ORDER          Thursday, Sep 03, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    318,379
-  Coverable by transfer .......  $    118,594   (37%)
-  NET BUY from vendors ........  $    234,853   <- the order
+  Gross need (all stores) .....  $    290,269
+  Coverable by transfer .......  $    116,515   (40%)
+  NET BUY from vendors ........  $    232,514   <- the order
 
-  152 items   |   15,584 units to buy   |   20,108 units to rebalance
-  Transfers: 1,035 moves  -  838 urgent (323 stockouts, 515 under 2wk), 197 routine
+  145 items   |   14,745 units to buy   |   19,338 units to rebalance
+  Transfers: 967 moves  -  754 urgent (270 stockouts, 484 under 2wk), 213 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 96 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 97 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Fireball Birdie Shot 50ml 10pk       168u/14cs        $148    172     0   OUT
-   2  Buzzballz Grape Gone Wild Vikings 2  63u/63cs         $327     63     0   OUT
-   3  McMasters Canadian Whiskey 1.75L     12u/2cs          $160     10     0   OUT
-   4  Svedka Water Variety Pack 8pk 12oz   9u/3cs           $122      9     0   OUT
-   5  Dapper Barons Ammaretto Sour Zero S  6u/1cs           $120      4     0   OUT
-   6  Infuse Peach 750ml                   1u/1cs            $14      1     0   OUT
-   7  Bols Blue Curacao Liter              1u/1cs             $9      1     0   OUT
-   8  Sarti Aperitivo Rosa 700ml           60u/10cs       $1,052     61     0   0.2
-   9  99 Grapes 50ml                       120u/1cs          $72    111     0   0.4
-  10  Canadian Club 1.75L                  108u/18cs      $1,737    110     5   0.7
-  11  Cruzan Single Barrel Rum 750ml       6u/1cs           $135      5     0   0.7
-  12  Evan Williams Bourbon 1.75L          192u/32cs      $3,340    216    24   1.0
-  13  Eagle Rare Single Barrel 750ml       168u/28cs      $8,214    192    24   1.1
-  14  Buffalo Trace 750ml                  588u/49cs     $14,907    671    84   1.1
-  15  New Riff Bottled-in-Bond Staight Bo  6u/1cs           $195      4     0   1.1
-  16  High Noon Day Variety 8pk 12oz       3u/1cs            $50      3     0   1.1
-  17  Lunazul Reposado Tequila Liter       624u/52cs      $9,555    637     8   1.2
-  18  Smirnoff Vodka 1.75L                 1212u/202cs   $18,237    470    15   1.2
-  19  Fireball Whisky 750ml                1404u/117cs   $12,621    379    44   1.2
-  20  New Amsterdam Pineapple 750ml        12u/1cs          $106     10     0   1.2
-  ...and 132 more in the full list.
+   1  Fireball Birdie Shot 50ml 10pk       168u/14cs        $133    168     0   OUT
+   2  Buzzballz Grape Gone Wild Vikings 2  64u/64cs         $339     64     0   OUT
+   3  Svedka Water Variety Pack 8pk 12oz   9u/3cs           $122      9     0   OUT
+   4  Infuse Peach 750ml                   1u/1cs            $14      1     0   OUT
+   5  Bols Blue Curacao Liter              1u/1cs             $9      1     0   OUT
+   6  Sarti Aperitivo Rosa 700ml           60u/10cs       $1,052     61     0   0.2
+   7  99 Grapes 50ml                       120u/1cs          $72    115     0   0.2
+   8  New Amsterdam Pineapple 750ml        12u/1cs          $105     12     0   0.9
+   9  Eagle Rare Single Barrel 750ml       168u/28cs      $8,609    190    24   1.1
+  10  New Riff Bottled-in-Bond Staight Bo  6u/1cs           $195      4     0   1.1
+  11  Buzzballz Chli Mango 1.75L           3u/1cs            $45      3     0   1.1
+  12  High Noon Day Variety 8pk 12oz       3u/1cs            $50      3     0   1.1
+  13  Buffalo Trace 750ml                  564u/47cs     $20,246    651    92   1.2
+  14  Lunazul Reposado Tequila Liter       612u/51cs      $9,371    616     8   1.4
+  15  Smirnoff Vodka 1.75L                 1200u/200cs   $17,704    446    16   1.4
+  16  Canadian Club 1.75L                  84u/14cs       $1,351     88     5   1.4
+  17  Fireball Whisky 750ml                1332u/111cs   $11,988    321    45   1.6
+  18  Lalo Tequila Blanco 750ml            24u/4cs          $774     27     5   1.6
+  19  New Amsterdam Raspberry vodka 750ml  48u/4cs          $432     61    14   1.6
+  20  High Noon Lime Tequila Tall Boy 24o  12u/1cs           $54      9     0   1.6
+  ...and 125 more in the full list.
 
-  NEEDS REVIEW (96 items the system isn't fully sure about - check before ordering):
-    Canadian Club 1.75L                       Off buy-month - confirm timing
-    Evan Williams Bourbon 1.75L               Off buy-month - confirm timing
-    Eagle Rare Single Barrel 750ml            Margin over 95% - check retail; Large buy ($8,214) - confirm
-    Buffalo Trace 750ml                       Large buy ($14,907) - confirm
+  NEEDS REVIEW (97 items the system isn't fully sure about - check before ordering):
+    New Amsterdam Pineapple 750ml             Seasonal - last year ~9/wk vs 4 now, buy ahead?
+    Eagle Rare Single Barrel 750ml            Margin over 95% - check retail; Large buy ($8,609) - confirm
     High Noon Day Variety 8pk 12oz            Off buy-month - confirm timing; Seasonal - last year ~14/wk vs 1 now, buy ahead?
-    Lunazul Reposado Tequila Liter            Large buy ($9,555) - confirm
-    Smirnoff Vodka 1.75L                      Large buy ($18,237) - confirm; Buy-month stock-up ($18,237 to next deal) - confirm
-    Fireball Whisky 750ml                     Large buy ($12,621) - confirm; Buy-month stock-up ($12,621 to next deal) - confirm
-    New Amsterdam Pineapple 750ml             Seasonal - last year ~9/wk vs 3 now, buy ahead?
-    Bacardi Superior Light Rum 1.75L          Large buy ($5,782) - confirm
-    Svedka Vodka Traveler                     Off buy-month - confirm timing
+    Buffalo Trace 750ml                       Large buy ($20,246) - confirm
+    Lunazul Reposado Tequila Liter            Large buy ($9,371) - confirm
+    Smirnoff Vodka 1.75L                      Large buy ($17,704) - confirm; Buy-month stock-up ($17,704 to next deal) - confirm
+    Canadian Club 1.75L                       Off buy-month - confirm timing
+    Fireball Whisky 750ml                     Large buy ($11,988) - confirm; Buy-month stock-up ($11,988 to next deal) - confirm
+    New Amsterdam Raspberry vodka 750ml       Seasonal - last year ~32/wk vs 18 now, buy ahead?
+    Bacardi Superior Light Rum 1.75L          Large buy ($5,426) - confirm
+    Evan Williams Bourbon 1.75L               Off buy-month - confirm timing
+    E&J Brandy 1.75L                          Large buy ($8,904) - confirm; Buy-month stock-up ($8,904 to next deal) - confirm
     Christian Brothers Brandy 1.75L           Off buy-month - confirm timing
-    E&J Brandy 1.75L                          Large buy ($8,798) - confirm; Buy-month stock-up ($8,798 to next deal) - confirm
-    New Amsterdam Raspberry vodka 750ml       Seasonal - last year ~32/wk vs 17 now, buy ahead?
-    Fireball Whisky 1.75L                     Large buy ($9,687) - confirm; Buy-month stock-up ($9,687 to next deal) - confirm
-    ...and 81 more (see Needs Review tab).
+    Svedka Vodka Traveler                     Off buy-month - confirm timing
+    Smirnoff Red White and Berry 1.75L        Buy-month stock-up ($132 to next deal) - confirm
+    ...and 82 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (42 discontinued items still selling/low - run down stock):
-    Crown Royal Canadian 1.75L                  (would have bought 108u)
+  BEING REMOVED - DO NOT REORDER (37 discontinued items still selling/low - run down stock):
+    Crown Royal Canadian 1.75L                  (would have bought 96u)
     Dashfire Bourbon Cold Brew 200ml            (would have bought 1u)
-    Fris Vodka 1.75L                            (would have bought 60u)
-    Hendrick's Gin Liter                        (would have bought 108u)
-    Hiram Walker Apricot Brandy Liter           (would have bought 12u)
+    Hendrick's Gin Liter                        (would have bought 102u)
     Jack Daniels Single Barrel 750ml            (would have bought 6u)
     Jack Daniels Tennessee Honey Liter          (would have bought 12u)
     Jack Daniels Whiskey 50ml                   (would have bought 120u)
-    Jack Daniels Whiskey Liter                  (would have bought 264u)
+    Jack Daniels Whiskey Liter                  (would have bought 216u)
     Johnnie Walker Black Liter                  (would have bought 12u)
-    Kahlua 750ml                                (would have bought 24u)
+    Kahlua 750ml                                (would have bought 12u)
     Ketel One Vodka Liter                       (would have bought 12u)
-    Korbel Brandy PET 1.75L                     (would have bought 6u)
     Lunazul Tequila Reposado 1.75L              (would have bought 6u)
     Mamitas Tequila Seltzer 4pk 12oz can/ D     (would have bought 1u)
-    ...and 27 more (see Being Removed tab).
+    Old Forester 1870 750ml                     (would have bought 6u)
+    Old Forester Bourbon 1910 750ml             (would have bought 6u)
+    Old Forester Bourbon 750ml                  (would have bought 12u)
+    ...and 22 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (11 routine deal items out of their buy month - $14,091 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (9 routine deal items out of their buy month - $7,222 cheaper to buy in-month):
     Captain Morgan Spiced Rum 1.75L             Wait for buy-month (Feb, Apr, Jun, Aug, Oct, Dec)
     High Noon Black Cherry 4pk 12oz can         Wait for buy-month (May, Aug)
     High Noon Grapefruit 4pk 12oz can           Wait for buy-month (May, Aug)
     High Noon Lime 4pk 12oz can                 Wait for buy-month (May, Aug)
+    High Noon Peach 4pk 12oz can                Wait for buy-month (May, Aug)
     High Noon Pineapple 4pk 12oz can            Wait for buy-month (May, Aug)
-    High Noon Variety Pack 12pk 12oz can        Wait for buy-month (May, Aug, Dec)
-    High Noon Variety Pack 8pk 12oz can         Wait for buy-month (May, Aug)
     Sauza Hornitos Plata 750ml                  Wait for buy-month (Feb, Apr, May, Aug, Oct, Nov)
-    Sauza Hornitos Plata Tequila 1.75L          Wait for buy-month (Feb, Apr, May, Aug, Oct, Nov)
     Seagrams Extra Dry Gin 1.75L                Wait for buy-month (Jan, Apr, Jul, Oct)
     Windsor Canadian 1.75L                      Wait for buy-month (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Dec)
