@@ -1,15 +1,15 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Thursday, Sep 03, 2026
+  RECOMMENDED OTHER ORDER          Friday, Sep 04, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     22,824
-  Coverable by transfer .......  $     14,157   (62%)
-  NET BUY from vendors ........  $      5,716   <- the order
+  Gross need (all stores) .....  $     22,424
+  Coverable by transfer .......  $     13,123   (59%)
+  NET BUY from vendors ........  $      6,326   <- the order
 
-  50 items   |   2,657 units to buy   |   3,245 units to rebalance
-  Transfers: 293 moves  -  230 urgent (77 stockouts, 153 under 2wk), 63 routine
+  53 items   |   2,894 units to buy   |   3,210 units to rebalance
+  Transfers: 284 moves  -  218 urgent (70 stockouts, 148 under 2wk), 66 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 7 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -18,30 +18,29 @@
    2  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
    3  Sprite 6pk 7.5oz can                 4u/1cs            $16      3     0   OUT
    4  Black & Mild Royale B1G1             3u/3cs             $0      3     0   OUT
-   5  Velo Pouch 9mg Wintergreen           30u/6cs          $252     31     0   OUT
+   5  Velo Pouch 9mg Wintergreen           35u/7cs          $294     35     0   OUT
    6  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
    7  Acid Blondie                         5u/5cs            $23      5     0   OUT
-   8  Loon Pouch Arctic Lemon 7mg          10u/2cs           $60      9     0   OUT
+   8  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
    9  Charm Social Tonic Lemon Ginger 12o  11u/11cs          $27     11     0   OUT
-  10  On Nicotine Pouch 8mg Original       5u/1cs            $33      4     0   OUT
+  10  Coke Cherry Zero 12pk 12oz can       8u/4cs            $77      7     0   OUT
   11  Loon Arctic Grape 14mg               10u/2cs           $60      8     0   OUT
   12  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      9     0   OUT
   13  Camel Platinum                       5u/5cs            $70      5     0   OUT
-  14  Middletons Black & Mild Single       50u/2cs           $74     42     0   OUT
-  15  Velo Cappuccino 3mg                  5u/1cs            $42      4     0   OUT
-  16  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
-  17  ReaLemon 8oz                         12u/1cs           $21      7     0   OUT
-  18  Dr Pepper 10pk 8oz can               3u/1cs            $13      3     0   OUT
-  19  La Croix Lime 8pk 12oz can           2u/2cs             $8      2     0   OUT
-  20  Bag Fee                              22u/22cs           $0     22     0   OUT
-  ...and 30 more in the full list.
+  14  Velo Cappuccino 3mg                  5u/1cs            $42      4     0   OUT
+  15  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
+  16  ReaLemon 8oz                         12u/1cs           $21      7     0   OUT
+  17  Dr Pepper 10pk 8oz can               3u/1cs            $13      3     0   OUT
+  18  Bag Fee                              26u/26cs           $0     26     0   OUT
+  19  Dr Pepper                            1u/1cs             $0      1     0   OUT
+  20  Tip Item                             247u/247cs         $0    247     0   OUT
+  ...and 33 more in the full list.
 
-  NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (7 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~190/wk vs 6 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~188/wk vs 7 now, buy ahead?
     Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~11/wk vs 5 now, buy ahead?
     16 oz Red Party Cups, 50 pack by True     Seasonal - last year ~10/wk vs 6 now, buy ahead?
