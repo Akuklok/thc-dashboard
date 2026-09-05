@@ -1,31 +1,23 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
 Receiving,627987198782,Andrew Paso Robles Organic Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1033758,Receiving,1.0,,,Wine,Cabernet,,,2026-09-01T00:00:00
-Receiving,628176930077,Stel + Mar Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Chanhassen,1033652,Receiving,1.0,,,Wine,Cabernet,Free Goods,,2026-09-01T00:00:00
 Receiving,0316201610514,Vincent Dampt Petite Chablis 750ml,"New France Wine Co, Inc",St. Louis Park,1033740,Receiving,1.0,,,Wine,Chardonnay,Store Request,,2026-09-01T00:00:00
-Receiving,086003873889,Woodbridge Chardonnay 1.5L,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033738,Receiving,2.0,2.0,0.0,Wine,Chardonnay,,,2026-09-01T00:00:00
 Receiving,086003873889,Woodbridge Chardonnay 1.5L,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033351-9.1.26,Receiving,3.0,3.0,0.0,Wine,Chardonnay,Free Goods,,2026-08-24T00:00:00
+Receiving,086003873889,Woodbridge Chardonnay 1.5L,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033738,Receiving,2.0,2.0,0.0,Wine,Chardonnay,,,2026-09-01T00:00:00
 Receiving,088586659935,CSM Indian Wells Chardonnay 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033738,Receiving,1.0,1.0,0.0,Wine,Chardonnay,,,2026-09-01T00:00:00
 Receiving,695235000019,Fat Bastard Chardonnay 750ml,"Grape Beginnings, Inc.",Roseville,1033720,Receiving,1.0,,,Wine,Chardonnay,,,2026-09-01T00:00:00
-Receiving,730429950012,True Myth Chardonnay 750ml,Paustis Wine,Stillwater,1033751,Receiving,1.0,,,Wine,Chardonnay,,,2026-09-01T00:00:00
 Receiving,859369001605,Flowers Sonoma Chardonnay 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033742,Receiving,1.0,1.0,0.0,Wine,Chardonnay,Store Request,,2026-09-01T00:00:00
-Receiving,181856000052,Colle Corviano Sangiovese,Small Lot MN,Blaine,1033639,Receiving,1.0,,,Wine,Other Reds,,,2026-09-01T00:00:00
 Receiving,181856000052,Colle Corviano Sangiovese,Small Lot MN,Vadnais Heights,1033762,Receiving,1.0,,,Wine,Other Reds,,,2026-09-01T00:00:00
+Receiving,181856000052,Colle Corviano Sangiovese,Small Lot MN,Blaine,1033639,Receiving,1.0,,,Wine,Other Reds,,,2026-09-01T00:00:00
 Receiving,086003001657,Woodbridge Pinot Grigio 1.5L,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033351-9.1.26,Receiving,1.0,1.0,0.0,Wine,Pinot Grigio/Gris,Free Goods,,2026-08-24T00:00:00
 Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Blaine,1033639,Receiving,2.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
-Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Osseo,1033690,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
-Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1033773,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
-Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Cottage Grove,1033664,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
 Receiving,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Roseville,1033726,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Roseville,1033726,Receiving,2.0,,,Wine,Rose,,,2026-09-01T00:00:00
 Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Vadnais Heights,1033762,Receiving,1.0,,,Wine,Rose,,,2026-09-01T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1033773,Receiving,1.0,,,Wine,Rose,,,2026-09-01T00:00:00
-Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Cottage Grove,1033664,Receiving,1.0,,,Wine,Rose,,,2026-09-01T00:00:00
+Receiving,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Roseville,1033726,Receiving,2.0,,,Wine,Rose,,,2026-09-01T00:00:00
 Receiving,816136025349,Avaline Rose 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033738,Receiving,1.0,1.0,0.0,Wine,Rose,,,2026-09-01T00:00:00
 Receiving,689352009611,Kim Crawford Sauvignon Blanc 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033445,Receiving,27.0,27.0,0.0,Wine,Sauvignon Blanc,Bill and Hold,,2026-08-28T00:00:00
 Receiving,083085904081,Ruffino Prosecco 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033621,Receiving,1.0,1.0,0.0,Wine,Sparkling,Month End,,2026-08-31T00:00:00
 Receiving,716898964415,Acinum Prosecco 750ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1033758,Receiving,1.0,,,Wine,Sparkling,,,2026-09-01T00:00:00
 Receiving,727760501638,Mionetto Prosecco Brut 750ml,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1033351-9.1.26,Receiving,2.0,2.0,0.0,Wine,Sparkling,Free Goods,,2026-08-24T00:00:00
-Receiving,763955409204,Les Allies Brut 750ml,"Maverick Beverage Co., LLC - MN",Woodbury,1033768,Receiving,1.0,,,Wine,Sparkling,,,2026-09-01T00:00:00
 Discrepancy,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1032586,Inventory Received,1.0,0.0,-1.0,Wine,Other Reds,,MI ,2026-08-17T00:00:00
 Discrepancy,082242018692,Bota Box Brightside Sauv Blanc/PG 500ml,Phillips Wine & Spirits - St. Paul,Andover,1032589,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,WI,2026-08-17T00:00:00
 Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Andover,1032590,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI ,2026-08-17T00:00:00
@@ -269,14 +261,14 @@ Discrepancy,181856000052,Colle Corviano Sangiovese,Small Lot MN,Blaine,1033639,R
 Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Blaine,1033639,Receiving,2.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
 Discrepancy,814829022729,Masumi Mirror of Truth Junmai Sake 720ml,The Wine Company,Blaine,1033645,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,Store Request,OOS,2026-09-01T00:00:00
 Discrepancy,852832000174,Mumm Napa Brut Rose 750ml,Southern Glazer's Wine & Spirits of MN,Bloomington,1033650,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,mispick,2026-09-01T00:00:00
-Discrepancy,628176930077,Stel + Mar Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Chanhassen,1033652,Receiving,1.0,,,Wine,Cabernet,Free Goods,,2026-09-01T00:00:00
+Discrepancy,628176930077,Stel + Mar Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Chanhassen,1033652,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Free Goods,MI,2026-09-01T00:00:00
 Discrepancy,082242011013,Bota Box Chardonnay 500ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1033655,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,BO,2026-09-01T00:00:00
 Discrepancy,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1033655,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,BO,2026-09-01T00:00:00
 Discrepancy,085000018132,Barefoot Riesling 1.5L,Johnson Brothers - St. Paul,Cottage Grove,1033661,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,BO,2026-09-01T00:00:00
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Cottage Grove,1033662,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,BO,2026-09-01T00:00:00
 Discrepancy,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Cottage Grove,1033662,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,BO,2026-09-01T00:00:00
-Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Cottage Grove,1033664,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
-Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Cottage Grove,1033664,Receiving,1.0,,,Wine,Rose,,,2026-09-01T00:00:00
+Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Cottage Grove,1033664,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,not delivered ,2026-09-01T00:00:00
+Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Cottage Grove,1033664,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,not delivered ,2026-09-01T00:00:00
 Discrepancy,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Minneapolis,1033672,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,MI,2026-09-01T00:00:00
 Discrepancy,083120103691,Franzia Sunset Blush 5L Box,Southern Glazer's Wine & Spirits of MN,Minneapolis,1033674,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-09-01T00:00:00
 Discrepancy,080960100644,Readers Cabernet Sauvignon 750ml,Bellboy Corporation,Minnetonka,1033677,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-09-01T00:00:00
@@ -286,7 +278,7 @@ Discrepancy,082242016056,Bota Box Redvolution 3L Box,Phillips Wine & Spirits - S
 Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Minnetonka,1033683,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-09-01T00:00:00
 Discrepancy,031259009469,Yellow Tail Cab Sauvignon 1.5L,Phillips Wine & Spirits - St. Paul,Osseo,1033688,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,not on truck ,2026-09-01T00:00:00
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Osseo,1033688,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,not on truck ,2026-09-01T00:00:00
-Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Osseo,1033690,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
+Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Osseo,1033690,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,no delivery ,2026-09-01T00:00:00
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Plymouth,1033695,Inventory Received,3.0,2.0,-1.0,Wine,Pinot Grigio/Gris,Free Goods,only rec 2cases,2026-09-01T00:00:00
 Discrepancy,605779976251,Jinro Strawberry 375ml,Johnson Brothers - St. Paul,Plymouth,1033696,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,BO,2026-09-01T00:00:00
 Discrepancy,763955412280,Les Allies Chardonnay 750ml,"Maverick Beverage Co., LLC - MN",Plymouth,1033697,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,not on truck,2026-09-01T00:00:00
@@ -311,7 +303,6 @@ Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,St. Lo
 Discrepancy,0316201610514,Vincent Dampt Petite Chablis 750ml,"New France Wine Co, Inc",St. Louis Park,1033740,Receiving,1.0,,,Wine,Chardonnay,Store Request,,2026-09-01T00:00:00
 Discrepancy,627987198782,Andrew Paso Robles Organic Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Stillwater,1033749,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,dnr,2026-09-01T00:00:00
 Discrepancy,716898964415,Acinum Prosecco 750ml,"Maverick Beverage Co., LLC - MN",Stillwater,1033749,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,dnr,2026-09-01T00:00:00
-Discrepancy,730429950012,True Myth Chardonnay 750ml,Paustis Wine,Stillwater,1033751,Receiving,1.0,,,Wine,Chardonnay,,,2026-09-01T00:00:00
 Discrepancy,605779976084,Jinro Green Grape 375ml,Johnson Brothers - St. Paul,Vadnais Heights,1033757,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-09-01T00:00:00
 Discrepancy,605779976251,Jinro Strawberry 375ml,Johnson Brothers - St. Paul,Vadnais Heights,1033757,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-09-01T00:00:00
 Discrepancy,627987198782,Andrew Paso Robles Organic Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Vadnais Heights,1033758,Receiving,1.0,,,Wine,Cabernet,,,2026-09-01T00:00:00
@@ -320,8 +311,8 @@ Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - 
 Discrepancy,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Vadnais Heights,1033760,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,MI,2026-09-01T00:00:00
 Discrepancy,181856000052,Colle Corviano Sangiovese,Small Lot MN,Vadnais Heights,1033762,Receiving,1.0,,,Wine,Other Reds,,,2026-09-01T00:00:00
 Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Vadnais Heights,1033762,Receiving,1.0,,,Wine,Rose,,,2026-09-01T00:00:00
-Discrepancy,763955409204,Les Allies Brut 750ml,"Maverick Beverage Co., LLC - MN",Woodbury,1033768,Receiving,1.0,,,Wine,Sparkling,,,2026-09-01T00:00:00
+Discrepancy,763955409204,Les Allies Brut 750ml,"Maverick Beverage Co., LLC - MN",Woodbury,1033768,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-09-01T00:00:00
 Discrepancy,082242017633,Bota Box Breeze Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Woodbury,1033771,Inventory Received,2.0,1.0,-1.0,Wine,Chardonnay,,1 MI,2026-09-01T00:00:00
-Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1033773,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-09-01T00:00:00
-Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1033773,Receiving,1.0,,,Wine,Rose,,,2026-09-01T00:00:00
+Discrepancy,181856000250,Colle Corviano Pinot Grigio 750ml,Small Lot MN,Woodbury,1033773,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-09-01T00:00:00
+Discrepancy,181856000892,Colle Corviano Cerasuolo Rose 750ml,Small Lot MN,Woodbury,1033773,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,MI,2026-09-01T00:00:00
 Discrepancy,876718002274,Elegant White and Black Wine Bag,"True Brands, Inc.",Woodbury,1033775,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,MI,2026-09-01T00:00:00
