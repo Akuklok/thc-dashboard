@@ -1,15 +1,15 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Saturday, Sep 05, 2026
+  RECOMMENDED OTHER ORDER          Sunday, Sep 06, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     23,792
-  Coverable by transfer .......  $     13,794   (58%)
-  NET BUY from vendors ........  $      6,905   <- the order
+  Gross need (all stores) .....  $     25,486
+  Coverable by transfer .......  $     14,004   (55%)
+  NET BUY from vendors ........  $      7,968   <- the order
 
-  59 items   |   3,107 units to buy   |   3,455 units to rebalance
-  Transfers: 298 moves  -  244 urgent (78 stockouts, 166 under 2wk), 54 routine
+  60 items   |   3,534 units to buy   |   3,355 units to rebalance
+  Transfers: 301 moves  -  252 urgent (89 stockouts, 163 under 2wk), 49 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 8 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 7 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -22,9 +22,9 @@
    6  Velo Pouch 9mg Wintergreen           35u/7cs          $294     35     0   OUT
    7  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
    8  Acid Blondie                         5u/5cs            $23      5     0   OUT
-   9  Dole Strawberry Lemonade 2L          16u/2cs           $39     14     0   OUT
+   9  Dole Lemonade 2L                     16u/2cs           $31     12     0   OUT
   10  Charm Social Tonic Lemon Ginger 12o  11u/11cs          $27     11     0   OUT
-  11  Coke Cherry Zero 12pk 12oz can       8u/4cs            $77      7     0   OUT
+  11  Dole Strawberry Lemonade 2L          16u/2cs           $39     13     0   OUT
   12  Loon Arctic Grape 14mg               10u/2cs           $60      8     0   OUT
   13  Camel Platinum                       5u/5cs            $70      5     0   OUT
   14  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
@@ -32,16 +32,15 @@
   16  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
   17  ReaLemon 8oz                         12u/1cs           $21      7     0   OUT
   18  Dr Pepper 10pk 8oz can               3u/1cs            $13      3     0   OUT
-  19  Bag Fee                              77u/77cs           $0     77     0   OUT
+  19  Bag Fee                              79u/79cs           $0     79     0   OUT
   20  Dr Pepper                            1u/1cs             $0      1     0   OUT
-  ...and 39 more in the full list.
+  ...and 40 more in the full list.
 
-  NEEDS REVIEW (8 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (7 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Marlboro Light                            No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~198/wk vs 19 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~157/wk vs 20 now, buy ahead?
     Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Fanta Pinnapple 2 Ltr                     Seasonal - last year ~3/wk vs 2 now, buy ahead?
