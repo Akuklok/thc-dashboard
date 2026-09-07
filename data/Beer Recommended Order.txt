@@ -1,68 +1,68 @@
 ==========================================================================
-  RECOMMENDED BEER ORDER          Sunday, Sep 06, 2026
+  RECOMMENDED BEER ORDER          Monday, Sep 07, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    429,714
-  Coverable by transfer .......  $    196,217   (46%)
-  NET BUY from vendors ........  $    204,982   <- the order
+  Gross need (all stores) .....  $    400,822
+  Coverable by transfer .......  $    192,959   (48%)
+  NET BUY from vendors ........  $    180,142   <- the order
 
-  488 items   |   19,453 units to buy   |   17,519 units to rebalance
-  Transfers: 1,611 moves  -  1308 urgent (580 stockouts, 728 under 2wk), 303 routine
+  472 items   |   17,518 units to buy   |   17,131 units to rebalance
+  Transfers: 1,589 moves  -  1290 urgent (537 stockouts, 753 under 2wk), 299 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 45 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 42 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Tucher Festbier 4pk 16oz can         5u/5cs            $46      5     0   OUT
-   2  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     32     0   OUT
-   3  Toppling Goliath Hazy Day Sue 6pk 1  16u/4cs          $160     18     0   OUT
-   4  Miller High Life 24pk 16oz can       9u/9cs           $137      9     0   OUT
-   5  Bent Paddle Light Lager  12pk 12oz   52u/52cs         $608     52     0   OUT
-   6  Wooden Hill Kold Shoulder            6u/6cs            $45      6     0   OUT
-   7  Summit Sampler Pack 12pk 12oz can    28u/14cs         $370     44    16   OUT
-   8  Lagunitas Hazy IPA 12pk 12oz can     36u/18cs         $432     35     0   OUT
-   9  Excelsior Oktoberfest                4u/4cs             $0      4     0   OUT
-  10  Firestone Walker Cali Squeeze Blood  2u/2cs             $4      2     0   OUT
-  11  Summit Saga Variety 12pk 12oz can    56u/28cs         $739     65     8   OUT
-  12  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
-  13  Grain Belt Premium Light Lime 24pk   2u/2cs            $44      2     0   OUT
-  14  Tucher Brau Dunkles Hefe Weizen      2u/2cs            $16      2     0   OUT
-  15  Miller High Life Light 24pk 16oz ca  3u/3cs            $25      3     0   OUT
-  16  Coors Light 16oz can                 3u/3cs             $3      3     0   OUT
-  17  Toppling Goliath DDH King Sue 4pk 1  6u/1cs            $97      4     0   OUT
-  18  Downeast Blackberry 6pk 12oz can     8u/2cs            $74      7     0   OUT
-  19  Modelo Especial                      6u/6cs             $1      6     0   OUT
-  20  Budweiser 40oz btl                   4u/4cs            $12      4     0   OUT
-  ...and 468 more in the full list.
+   1  Wooden Hill Kold Shoulder            4u/4cs            $30      4     0   OUT
+   2  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     31     0   OUT
+   3  Tucher Festbier 4pk 16oz can         5u/5cs            $46      5     0   OUT
+   4  Toppling Goliath Hazy Day Sue 6pk 1  16u/4cs          $160     16     0   OUT
+   5  Bent Paddle Light Lager  12pk 12oz   48u/48cs         $562     48     0   OUT
+   6  Miller High Life 24pk 16oz can       10u/10cs         $152     10     0   OUT
+   7  Summit Sampler Pack 12pk 12oz can    22u/11cs         $290     38    16   OUT
+   8  Summit Saga Variety 12pk 12oz can    52u/26cs         $686     59     8   OUT
+   9  Lagunitas Hazy IPA 12pk 12oz can     34u/17cs         $408     34     0   OUT
+  10  Excelsior Oktoberfest                4u/4cs             $0      4     0   OUT
+  11  Firestone Walker Cali Squeeze Blood  3u/3cs             $6      2     0   OUT
+  12  Grain Belt Premium Light Lime 24pk   2u/2cs            $44      2     0   OUT
+  13  Tucher Brau Dunkles Hefe Weizen      2u/2cs            $16      2     0   OUT
+  14  Miller High Life Light 24pk 16oz ca  3u/3cs            $25      3     0   OUT
+  15  Toppling Goliath DDH King Sue 4pk 1  6u/1cs            $97      4     0   OUT
+  16  Downeast Blackberry 6pk 12oz can     8u/2cs            $74      7     0   OUT
+  17  Modelo Especial                      6u/6cs             $1      6     0   OUT
+  18  Coors Light 16oz can                 4u/4cs             $3      4     0   OUT
+  19  Budweiser 40oz btl                   2u/2cs             $6      2     0   OUT
+  20  Schilling Grapefruit and Chill 6pk   6u/6cs            $52      6     0   OUT
+  ...and 452 more in the full list.
 
-  NEEDS REVIEW (45 items the system isn't fully sure about - check before ordering):
-    Tucher Festbier 4pk 16oz can              Seasonal - last year ~4/wk vs 1 now, buy ahead?
+  NEEDS REVIEW (42 items the system isn't fully sure about - check before ordering):
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
+    Tucher Festbier 4pk 16oz can              Seasonal - last year ~4/wk vs 1 now, buy ahead?
     Excelsior Oktoberfest                     No cost data - verify price; Margin over 95% - check retail
-    Budweiser 40oz btl                        Seasonal - last year ~11/wk vs 5 now, buy ahead?
-    Drekker Prrrt Series 4pk 16oz can         Seasonal - last year ~5/wk vs 3 now, buy ahead?
+    Budweiser 40oz btl                        Seasonal - last year ~10/wk vs 5 now, buy ahead?
+    Drekker Prrrt Series 4pk 16oz can         Seasonal - last year ~4/wk vs 3 now, buy ahead?
     Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Loon Juice Honeycrisp Haze 12pk 12oz can  No cost data - verify price; Margin over 95% - check retail
     Modist Supra Deluxe Sea Salt Lime 16oz c  No cost data - verify price; Margin over 95% - check retail
     Toppling Goliath Oktoberfest 6pk 12oz ca  No cost data - verify price; Margin over 95% - check retail
-    Minneapolis Cider Co. Orchard Blend 6pk   Seasonal - last year ~2/wk vs 1 now, buy ahead?
-    Wild State Rotating 4pk 12oz can          Seasonal - last year ~10/wk vs 5 now, buy ahead?
     Luce Line New Zealand Joyride 4pk 16oz c  Seasonal - last year ~3/wk vs 1 now, buy ahead?
+    Wild State Rotating 4pk 12oz can          Seasonal - last year ~10/wk vs 6 now, buy ahead?
     Modelo Oro 24pk 12oz can                  No cost data - verify price; Margin over 95% - check retail
-    Mystery Beer 24pk                         Seasonal - last year ~605/wk vs 109 now, buy ahead?
+    Mystery Beer 24pk                         Seasonal - last year ~558/wk vs 98 now, buy ahead?
     Surly One Man Mosh Pit Imperial 6pk 12oz  No cost data - verify price; Margin over 95% - check retail
-    ...and 30 more (see Needs Review tab).
+    Tucher Helles Hefe Weizen                 No cost data - verify price; Margin over 95% - check retail
+    ...and 27 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (11 discontinued items still selling/low - run down stock):
-    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 40u)
-    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 12u)
+    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 36u)
+    Athletic Brew Upside Dawn Golden 6pk 12oz   (would have bought 16u)
     Athletic Lite N/A 6pk 12oz can              (would have bought 8u)
-    Beatbox Tropical Punch  500ml               (would have bought 36u)
     Dogfish Head Blood Orange Mango Crush 4pk   (would have bought 1u)
-    Heineken 0.0 NA 12pk 12oz can               (would have bought 26u)
+    Heineken 0.0 NA 12pk 12oz can               (would have bought 24u)
     Ketel One Spritz Cucumber & Mint 4pk 12oz   (would have bought 2u)
-    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 92u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 12u)
+    The Finnish Long Drink Cranberry 6pk 12oz   (would have bought 80u)
     The Finnish Long Drink Strong 6pk 12oz can  (would have bought 20u)
-    The Finnish Long Drink Traditional 6pk 12o  (would have bought 144u)
-    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 100u)
+    The Finnish Long Drink Traditional 6pk 12o  (would have bought 132u)
+    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 92u)
