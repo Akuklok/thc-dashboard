@@ -1,2 +1,36 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1033740,0316201610514,Vincent Dampt Petite Chablis 750ml,DamptPetit,12,1.0,216.0,216.0,Store Request
+Roseville,1034278,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,Store Request
+Andover,1034160,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,1.0,144.0,144.0,
+Roseville,1034278,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,3.0,144.0,432.0,Store Request
+Roseville,1034278,3830049281088,Kobal Pinot Grigio 750ml,KOBALPG22,12,1.0,160.0,160.0,Store Request
+Cottage Grove,1034047,610854005016,Campbelltown Loch 700ml,CampbelltownLochBlended,6,0.5,300.0,150.0,Allocated
+Minneapolis,1034057,610854005016,Campbelltown Loch 700ml,CampbelltownLochBlended,6,0.17,300.0,50.0,Allocated
+Plymouth,1034078,610854005016,Campbelltown Loch 700ml,CampbelltownLochBlended,6,0.33,300.0,100.0,Allocated
+Rosemount,1034094,610854005016,Campbelltown Loch 700ml,CampbelltownLochBlended,6,0.33,300.0,100.0,Allocated
+Stillwater,1034124,610854005016,Campbelltown Loch 700ml,CampbelltownLochBlended,6,0.17,300.0,50.0,Allocated
+Vadnais Heights,1034134,610854005016,Campbelltown Loch 700ml,CampbelltownLochBlended,6,0.33,300.0,100.0,Allocated
+Blaine,1034021,610854005870,Springbank 10 Year Scotch 750ml,Springbank10Yr,6,0.33,470.0,156.67,Allocated
+Roseville,1034103,610854005870,Springbank 10 Year Scotch 750ml,Springbank10Yr,6,0.33,470.0,156.67,Allocated
+St. Louis Park,1034109,610854005870,Springbank 10 Year Scotch 750ml,Springbank10Yr,6,0.33,470.0,156.67,Allocated
+Blaine,1034021,610854005887,Springbank 15 Year Scotch 700ml,Springbank15Yr,6,0.17,856.0,142.67,Allocated
+Roseville,1034103,610854005887,Springbank 15 Year Scotch 700ml,Springbank15Yr,6,0.17,856.0,142.67,Allocated
+St. Louis Park,1034109,610854005887,Springbank 15 Year Scotch 700ml,Springbank15Yr,6,0.17,856.0,142.67,Allocated
+Blaine,1034021,610854007102,Springbank 12 Year Cask Strength,Springbank12YrCask,6,0.17,676.0,112.67,Allocated
+Roseville,1034103,610854007102,Springbank 12 Year Cask Strength,Springbank12YrCask,6,0.17,676.0,112.67,Allocated
+St. Louis Park,1034109,610854007102,Springbank 12 Year Cask Strength,Springbank12YrCask,6,0.17,676.0,112.67,Allocated
+Blaine,1034021,610854010959,Springbank 5 Year Single Malt 700ml,Springbank5Yr,6,0.17,372.0,62.0,Allocated
+Roseville,1034103,610854010959,Springbank 5 Year Single Malt 700ml,Springbank5Yr,6,0.17,372.0,62.0,Allocated
+St. Louis Park,1034109,610854010959,Springbank 5 Year Single Malt 700ml,Springbank5Yr,6,0.17,372.0,62.0,Allocated
+Blaine,1034021,610854011116,Hazelburn 7 Year Oloroso Scotch 700ml,Hazelburn7yrSherry,6,0.17,812.0,135.33,Allocated
+Roseville,1034103,610854011116,Hazelburn 7 Year Oloroso Scotch 700ml,Hazelburn7yrSherry,6,0.17,812.0,135.33,Allocated
+St. Louis Park,1034109,610854011116,Hazelburn 7 Year Oloroso Scotch 700ml,Hazelburn7yrSherry,6,0.17,812.0,135.33,Allocated
+Blaine,1034021,610854011789,Longrow Peated Cask Strength 700ml,LongrowCask,6,0.17,469.98,78.35,Allocated
+Roseville,1034103,610854011789,Longrow Peated Cask Strength 700ml,LongrowCask,6,0.17,469.98,78.35,Allocated
+St. Louis Park,1034109,610854011789,Longrow Peated Cask Strength 700ml,LongrowCask,6,0.17,469.98,78.35,Allocated
+Rosemount,1034100,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Vadnais Heights,1034138,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,2.0,229.74,459.48,
+Woodbury,1034145,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Blaine,1034027,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
+St. Louis Park,1034117,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
+Minnetonka,1034224,700083319661,"Two Dogs, A Peacock & A Horse Sauvignon Blanc 750ml",BlackElephantSB,12,1.0,168.0,168.0,
+Roseville,1034278,8437012218772,Gulp Hablo Orange Liter,GulpHabloOrangeL22,12,1.0,160.0,160.0,Store Request

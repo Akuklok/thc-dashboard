@@ -1,148 +1,173 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Minneapolis,1033820,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,1.0,23.76,23.76,
-Blaine,1033785,014800582178,ReaLemon 5oz,MIX00005,24,1.0,23.76,23.76,
-Stillwater,1033904,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
-Blaine,1033785,023604231076,Twang Lime Beer Salt 1.4oz,mix23107,24,1.0,38.39,38.39,
-Blaine,1033785,031200007360,Ocean Spray Orange Juice 32oz,JUIOJ32,12,1.0,42.32,42.32,
-Minneapolis,1033820,041409000062,ReaLime 5oz,MIX00006,24,2.0,23.76,23.76,
-Rosemount,1033873,076381123454,Jose Cuervo  Margarita Salt 6oz,mix12345,12,1.0,26.73,26.73,
-Blaine,1033785,080686001607,Jim Beam Bourbon 375ml,8363812,24,1.0,185.0,185.0,
-Blaine,1033631,080960100682,Readers Riesling 750ml,1146054,12,1.0,92.0,92.0,
-Blaine,1033785,082000766834,Captain Morgan White Liter,7868215,12,1.0,153.95,153.95,
-Minneapolis,1033820,082000766834,Captain Morgan White Liter,7868215,12,2.0,153.95,153.95,
-Minneapolis,1033820,082000771555,Crown Royal Regal Apple 375ml,6163202,24,1.0,295.95,295.95,
-Minneapolis,1033820,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
-Rosemount,1033873,08256801,Jose Cuervo Gold Tequila 50ml,8468568,120,1.0,153.0,153.0,
-Rosemount,1033873,083664107360,Glenfiddich 12 Yr 750ml,8170814,12,1.0,428.0,428.0,
-Blaine,1033785,083664869213,Reyka Vodka 750ml,8511014,6,1.0,89.0,89.0,
-Rosemount,1033873,083664872497,Tullamore Dew Irish Whiskey 1.75L,083664872497,6,1.0,199.8,199.8,
-Blaine,1033785,086767705433,Rumple Minze 375ml,7693612,12,1.0,85.0,85.0,
-Andover,1033778,087000007604,Crown Royal Canadian 375ml,6863112,24,1.0,295.95,295.95,
-Minneapolis,1033820,087000007604,Crown Royal Canadian 375ml,6863112,24,1.0,295.95,295.95,
-Minneapolis,1033820,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,3.0,79.0,236.99,
-Andover,1033778,088352123080,Everclear Liter,8590515,12,1.0,169.5,169.5,
-Minneapolis,1033820,088352123080,Everclear Liter,8590515,12,1.0,169.5,169.5,
-Blaine,1033785,089156001123,SBOC Pimento Martini Olives 10oz,CON80112-6,6,1.0,31.28,31.28,
-Andover,1033778,187229127289,Luxardo Maraschino Cherries 12oz,7274050,12,1.0,175.0,175.0,
-Blaine,1033785,187229127289,Luxardo Maraschino Cherries 12oz,7274050,12,1.0,175.0,175.0,
-Blaine,1033785,630328000392,Luksusowa Potato Vodka 1.75L,8571719,6,1.0,144.0,144.0,
-Minneapolis,1033820,674545000605,Don Julio Reposado 375ml,8491912,12,1.0,225.0,225.0,
-Blaine,1033785,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
-Rosemount,1033873,721059987509,Frangelico Liqueur 750ml,7196414,12,1.0,284.0,284.0,
-Bloomington,1033793,721733000944,Patron Silver Tequila 375ml,8497322,12,1.0,185.0,185.0,
-Blaine,1033543,810012693882,Foundry Nation Two Scoops Variety Pack 10mg THC 6pk 12oz can,9917102,4,1.0,80.0,80.0,
-Andover,1033623,810204640885,90+ Cellars Willamette Valley Pinot Gris Lot 237 750ml,2990634,12,2.0,82.0,164.0,Buyer's Select
-Blaine,1033632,810204640885,90+ Cellars Willamette Valley Pinot Gris Lot 237 750ml,2990634,12,3.0,82.0,246.0,Buyer's Select
-Stillwater,1033747,810204640885,90+ Cellars Willamette Valley Pinot Gris Lot 237 750ml,2990634,12,1.0,82.0,82.0,Buyer's Select
-Andover,1033623,810879020135,Ironside Cabernet 750ml,2990264,12,3.0,72.0,216.0,Buyer's Select
-Blaine,1033632,810879020135,Ironside Cabernet 750ml,2990264,12,2.0,72.0,144.0,Buyer's Select
-Ramsey,1033703,810879020135,Ironside Cabernet 750ml,2990264,12,1.0,72.0,72.0,Buyer's Select
-Blaine,1033632,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,2.0,78.0,156.0,Buyer's Select
-Rosemount,1033709,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,1.0,78.0,78.0,Buyer's Select
-Andover,1033623,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,2.0,79.37,158.74,Buyer's Select
-Blaine,1033632,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,2.0,79.37,158.74,Buyer's Select
-Rosemount,1033709,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,1.0,79.37,79.37,Buyer's Select
-Bloomington,1033647,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,1.0,117.0,117.0,Buyer's Select
-Blaine,1033632,810879020357,90+ Cellars Lot 126 Sancerre 750ml,2993314,12,1.0,239.84,239.84,Buyer's Select
-Blaine,1033632,810879020586,90+ Cellars Zinfandel Lot 180 750ml,2990384,12,7.0,79.5,556.5,Buyer's Select
-Andover,1033623,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,7.0,65.16,456.12,Buyer's Select
-Blaine,1033632,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,15.0,65.16,977.4,Buyer's Select
-Bloomington,1033647,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,2.0,65.16,130.32,Buyer's Select
-Ramsey,1033703,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,3.0,65.16,195.48,Buyer's Select
-Rosemount,1033709,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,7.0,65.16,456.12,Buyer's Select
-Stillwater,1033747,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,6.0,65.16,390.96,Buyer's Select
-Andover,1033623,810879020708,90+ Cellars Lot 50 Prosecco 1.5L,2991726,6,1.0,85.32,85.32,Buyer's Select
-Ramsey,1033703,810879020708,90+ Cellars Lot 50 Prosecco 1.5L,2991726,6,1.0,85.32,85.32,Buyer's Select
-Andover,1033623,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,2.0,112.0,224.0,Buyer's Select
-Blaine,1033632,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,6.0,112.0,672.0,Buyer's Select
-Rosemount,1033709,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,2.0,112.0,224.0,Buyer's Select
-Rosemount,1033709,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,1.0,101.84,101.84,Buyer's Select
-Blaine,1033632,810879020876,Ironside Reserve Pinot Noir 750ml,2990624,12,1.0,91.84,91.84,Buyer's Select
-Stillwater,1033747,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,3.0,78.0,234.0,Buyer's Select
-Blaine,1033632,810879021439,90+ Cellars Pouilly-Fume Lot 171 750ml,2990434,12,2.0,184.0,368.0,Buyer's Select
-Blaine,1033632,810879021477,90+ Cellars Lambrusco 750ml,2990144,12,3.0,77.84,233.52,Buyer's Select
-Andover,1033623,810879021514,90+ Cellars Albarino Lot 174 750ml,2990394,12,1.0,126.0,126.0,Buyer's Select
-Bloomington,1033647,810879021514,90+ Cellars Albarino Lot 174 750ml,2990394,12,1.0,126.0,126.0,Buyer's Select
-Andover,1033623,810879021538,90+ Cellars Lot 175 Rioja,2990324,12,1.0,79.37,79.37,Buyer's Select
-Blaine,1033632,810879021538,90+ Cellars Lot 175 Rioja,2990324,12,2.0,79.37,158.74,Buyer's Select
-Andover,1033623,810879021903,90+ Cellars Montepulciano d'Abruzzo Lot 188 750ml,2990404,12,2.0,78.0,156.0,Buyer's Select
-Blaine,1033632,810879021903,90+ Cellars Montepulciano d'Abruzzo Lot 188 750ml,2990404,12,1.0,78.0,78.0,Buyer's Select
-Blaine,1033632,810879021958,"90+ Cellars Lot 193 Pinot Noir, Eola-Amity 750ml",2990644,12,1.0,122.0,122.0,Buyer's Select
-Andover,1033623,810879022108,90+ Cellars Sancerre Rose Lot 196 750ml,2994064,12,1.0,176.0,176.0,Buyer's Select
-Blaine,1033632,810879022108,90+ Cellars Sancerre Rose Lot 196 750ml,2994064,12,2.0,176.0,352.0,Buyer's Select
-Rosemount,1033709,810879022108,90+ Cellars Sancerre Rose Lot 196 750ml,2994064,12,1.0,176.0,176.0,Buyer's Select
-Andover,1033623,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,4.0,64.0,256.0,Buyer's Select
-Blaine,1033632,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,2.0,64.0,128.0,Buyer's Select
-Ramsey,1033703,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,1.0,64.0,64.0,Buyer's Select
-Andover,1033623,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,1.0,71.18,71.18,Buyer's Select
-Blaine,1033632,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,1.0,71.18,71.18,Buyer's Select
-Bloomington,1033647,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,1.0,71.18,71.18,Buyer's Select
-Stillwater,1033747,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,1.0,71.18,71.18,Buyer's Select
-Andover,1033623,810879024911,Ironside Chardonnay 750ml,2991854,12,1.0,71.84,71.84,Buyer's Select
-Blaine,1033632,810879024911,Ironside Chardonnay 750ml,2991854,12,1.0,71.84,71.84,Buyer's Select
-Blaine,1033632,810879025734,90+ Cellars 2022 Lot 217 Chablis 750ml,2994024,12,1.0,192.0,192.0,Buyer's Select
-Minneapolis,1033547,811194034111,Smokiez Watermelon THC 10 pack,9921005,12,1.0,66.0,0.0,
-Andover,1033542,811194034128,Smokiez Sour Watermelon THC 10 pack,9921015,12,1.0,66.0,66.0,
-Blaine,1033543,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
-Minneapolis,1033547,840006314448,BLNCD Cranberry Pomegrante Mule 10mg THC 4pk 12oz can,9918112,6,1.0,78.4,78.4,
-Minneapolis,1033547,840006314868,Two Scoops Cream Soda10mg THC 4pk 12oz can,9917092,6,1.0,78.4,78.4,
-Ramsey,1033551,840006316206,Foundry Nation Granddaddy 85mg 750ml,9918053,6,1.0,117.0,117.0,
-Rosemount,1033552,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,96.0,
-Blaine,1033543,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Ramsey,1033551,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Rosemount,1033552,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Andover,1033542,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
-Blaine,1033543,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
-Bloomington,1033544,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
-Blaine,1033785,855439000738,Rokz Bloody Mary Salt 4oz,7204,6,1.0,22.75,22.75,
-Blaine,1033785,859122005246,Traverse City Cherries 21oz,7274090,6,1.0,80.5,80.5,
-Andover,1033542,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
-Bloomington,1033544,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
-Minneapolis,1033547,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
-Blaine,1033543,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
-Blaine,1033543,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
-Ramsey,1033551,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
-Rosemount,1033552,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
-Rosemount,1033552,860009438057,Minny Grown Mango 10 Pack,9912055,12,1.0,96.0,96.0,
-Rosemount,1033552,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
-Ramsey,1033551,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Stillwater,1033555,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,2.0,66.0,132.0,
-Blaine,1033543,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Rosemount,1033552,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Rosemount,1033552,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
-Rosemount,1033552,860010316467,Minny Grown Highbernate Yummy Gummy Bar 50mg THC,9912285,12,1.0,72.0,72.0,
-Minneapolis,1033547,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,2.0,72.0,0.0,
-Blaine,1033543,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Bloomington,1033544,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Rosemount,1033552,860012637768,Brez 5mg THC Shots 2oz,BSHT060425,48,3.0,120.0,360.0,
-Minneapolis,1033547,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Blaine,1033785,863411000317,Flying Dutchman Gin 750ml,8201024,6,1.0,108.0,108.0,
-Andover,1033623,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,3.0,77.84,233.52,Buyer's Select
-Blaine,1033632,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,5.0,77.84,389.2,Buyer's Select
-Andover,1033623,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,3.0,78.0,234.0,Buyer's Select
-Blaine,1033632,894655001228,90+ Cellars Lot 92 Merlot 750ml,2990544,12,1.0,77.84,77.84,Buyer's Select
-Andover,1033623,894655001396,90+ Cellars French Fusion 750ml,2990134,12,1.0,79.37,79.37,Buyer's Select
-Blaine,1033632,894655001396,90+ Cellars French Fusion 750ml,2990134,12,1.0,79.37,79.37,Buyer's Select
-Blaine,1033632,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,1.0,79.37,79.37,Buyer's Select
-Stillwater,1033747,894655001488,90+ Cellars Lot 162 Cotes Du Rhone 750ml,2990574,12,1.0,79.5,79.5,Buyer's Select
-Andover,1033623,894655001518,90+ Cellars Rose 750ml,2993304,12,2.0,79.37,158.74,Buyer's Select
-Blaine,1033632,894655001518,90+ Cellars Rose 750ml,2993304,12,7.0,79.37,555.59,Buyer's Select
-Rosemount,1033709,894655001518,90+ Cellars Rose 750ml,2993304,12,1.0,79.37,79.37,Buyer's Select
-Stillwater,1033747,894655001518,90+ Cellars Rose 750ml,2993304,12,3.0,79.37,238.11,Buyer's Select
-Andover,1033623,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,1.0,78.0,78.0,Buyer's Select
-Blaine,1033632,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,2.0,78.0,156.0,Buyer's Select
-Rosemount,1033709,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,1.0,78.0,78.0,Buyer's Select
-Ramsey,1033703,894655001679,90+ Cellars Sparkling Rose 750ml,2993374,12,1.0,81.32,81.32,Buyer's Select
-Rosemount,1033709,894655001679,90+ Cellars Sparkling Rose 750ml,2993374,12,1.0,81.32,81.32,Buyer's Select
-Blaine,1033632,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,18.0,81.32,1463.77,Buyer's Select
-Ramsey,1033703,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,3.0,81.32,243.96,Buyer's Select
-Rosemount,1033709,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,15.0,81.32,1219.81,Buyer's Select
-Stillwater,1033747,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,10.0,81.32,813.2,Buyer's Select
-Rosemount,1033709,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,3.0,79.37,238.11,Buyer's Select
-Blaine,1033632,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,1.0,78.0,78.0,Buyer's Select
-Bloomington,1033647,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,1.0,78.0,78.0,Buyer's Select
-Stillwater,1033747,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,2.0,78.0,156.0,Buyer's Select
-Andover,1033623,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,2.0,78.0,156.0,Buyer's Select
-Blaine,1033632,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,2.0,78.0,156.0,Buyer's Select
-Ramsey,1033703,894655001976,90+ Cellars Moscato d'Asti 750ml,2991704,12,1.0,81.32,81.32,Buyer's Select
-Rosemount,1033709,894655001976,90+ Cellars Moscato d'Asti 750ml,2991704,12,4.0,81.32,325.28,Buyer's Select
+Minneapolis,1034058,014800513240,Clamato Tomato Cocktail 32oz,MIXMCL,12,1.0,47.25,47.25,
+Blaine,1034023,014800516470,Clamato Tomato Cocktail 64oz,MIXMCHG,8,1.0,47.98,47.98,
+Minneapolis,1034058,014800516470,Clamato Tomato Cocktail 64oz,MIXMCHG,8,1.0,47.98,47.98,
+Andover,1034016,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,1.0,23.76,23.76,
+Minneapolis,1034058,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,1.0,23.76,23.76,
+Plymouth,1034079,014800582178,ReaLemon 5oz,MIX00005,24,1.0,23.76,23.76,
+Woodbury,1034143,014800582178,ReaLemon 5oz,MIX00005,24,1.0,23.76,23.76,
+Minneapolis,1034058,016600001040,Roses Grenadine 25oz,mixrg25,12,1.0,70.5,70.5,
+Minneapolis,1034058,01667135,Roses Sweetened Lime Juice 12oz,MIXRLJ12,6,1.0,22.4,22.4,
+St. Louis Park,1034111,01667135,Roses Sweetened Lime Juice 12oz,MIXRLJ12,6,1.0,22.4,22.4,
+Blaine,1034023,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
+Minneapolis,1034058,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
+Rosemount,1034095,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
+Woodbury,1034143,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
+Vadnais Heights,1034141,023604231014,Twang Beer Salt 1.4oz,mix23101,24,1.0,38.39,38.39,Store Request
+Minneapolis,1034058,031200007360,Ocean Spray Orange Juice 32oz,JUIOJ32,12,1.0,42.32,42.32,
+Bloomington,1034031,031200200006,Ocean Spray Cranberry Juice,JUIOCC32,12,1.0,36.4,36.4,
+St. Louis Park,1034111,031200200006,Ocean Spray Cranberry Juice,JUIOCC32,12,1.0,36.4,36.4,
+Cottage Grove,1034201,032085229724,Vikings Zipper Bottle Cooler,BW2217,1,2.0,5.45,10.9,
+St. Louis Park,1034111,038900008086,Dole Pineapple Juice 46oz,JUIDP46,12,1.0,55.8,55.8,
+Andover,1034016,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+Bloomington,1034031,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+Vadnais Heights,1034135,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+Cottage Grove,1034048,050037014501,Disaronno Amaretto 750ml,6264514,12,1.0,252.0,252.0,
+Ramsey,1034090,050037014501,Disaronno Amaretto 750ml,6264514,12,1.0,252.0,252.0,Store Request
+St. Louis Park,1034111,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
+Woodbury,1034143,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
+Vadnais Heights,1034135,080244003715,Buffalo Trace Bourbon Cream 750ml,8368214,12,1.0,198.0,198.0,
+Bloomington,1034031,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,66.0,
+Chanhassen,1034039,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,66.0,
+Minneapolis,1034058,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,66.0,
+Minnetonka,1034065,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,66.0,
+Minneapolis,1034058,080686813019,Laphroaig 10 Yr Scotch 750ml,8195814,12,1.0,485.0,485.0,
+Woodbury,1034148,080686813019,Laphroaig 10 Yr Scotch 750ml,8195814,12,2.0,485.0,970.0,Store Request
+Blaine,1034023,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,144.0,
+Minneapolis,1034058,081753837822,Belvedere Vodka Organic 750ml,8581624,6,0.5,144.0,72.0,
+Roseville,1034105,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,144.0,
+St. Louis Park,1034111,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,
+Chanhassen,1034039,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
+St. Louis Park,1034111,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
+Minneapolis,1034058,083664872541,Monkey Shoulder Scotch 750ml,8063704,6,1.0,132.0,132.0,
+Cottage Grove,1034048,08727707,Captain Morgan Spiced Rum 375ml,7868312,24,1.0,170.0,170.0,
+Cottage Grove,1034048,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,79.0,
+Stillwater,1034125,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,79.0,
+Blaine,1034023,08733805,Seagrams 7 Blended Traveler,6664224,12,1.0,127.95,127.95,
+Stillwater,1034130,08771300,Myers's Dark Rum 750ml,7897514,12,1.0,181.75,181.75,Store Request
+Blaine,1034023,088110150525,Hennessy VS Cognac 200ml,6961501,24,1.0,203.0,203.0,
+Ramsey,1034085,088110150556,Hennessy VS Cognac 750ml,6961414,12,1.0,323.0,323.0,
+Blaine,1034023,089156001314,SBOC Dirty Martini Mix 375ml,con00131,12,1.0,37.35,37.35,
+Minneapolis,1034058,089156801082,SBOC Pitted Green Olives 4oz,CON801086,6,1.0,19.04,19.04,
+Stillwater,1034130,096749002429,Heaven Hill Bottled-in-Bond 7yr 750ml,6863004,6,1.0,220.0,220.0,Store Request
+Cottage Grove,1034053,187229127289,Luxardo Maraschino Cherries 12oz,7274050,12,1.0,175.0,175.0,Store Request
+Woodbury,1034148,630328000392,Luksusowa Potato Vodka 1.75L,8571719,6,1.0,144.0,144.0,Store Request
+Blaine,1033930,649696417503,Forbidden Fruit Strawberry Lemonade 10mg THC 4pk 12oz can,FFSL093025,6,1.0,60.0,60.0,
+Roseville,1033939,649696417503,Forbidden Fruit Strawberry Lemonade 10mg THC 4pk 12oz can,FFSL093025,6,1.0,60.0,60.0,
+Roseville,1034105,674545000001,Don Julio Blanco Tequila 750ml,8491924,6,1.0,175.0,175.0,
+Blaine,1034023,674545000599,Don Julio Blanco 375ml,8491922,12,0.5,170.0,85.0,
+St. Louis Park,1034120,695521103011,Citadelle Gin 750ml,7268414,6,1.0,124.0,124.0,Store Request
+Woodbury,1034148,695521117308,Mathilde Cassis Liqueur 375ml,7564922,12,2.0,136.4,272.8,Store Request
+St. Louis Park,1034120,695521152989,Citadelle Jardin D'Ete Gin 750ml,7268464,6,1.0,124.0,124.0,Store Request
+Stillwater,1034130,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,Store Request
+Minneapolis,1034058,721059487504,Tullamore Dew Irish Whiskey 750ml,7459314,12,1.0,210.0,210.0,
+Blaine,1034023,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+Bloomington,1034031,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+Minneapolis,1034058,721059707503,Espolon Blanco Tequila 750ml,8440174,12,2.0,255.0,510.0,
+Roseville,1034105,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+St. Louis Park,1034111,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+Stillwater,1034125,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+Cottage Grove,1034048,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,
+Rosemount,1034095,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,
+Blaine,1034023,721059957502,Russell's Reserve 10yr 750ml,8364514,6,1.0,195.0,195.0,
+Roseville,1033939,810012698061,BLNCD Adaptogen Elixir Brain Boost 5mg THC 4pk 12oz can,9918062,6,1.0,70.6,70.6,
+Ramsey,1033937,810012698078,BLNCD Adaptogen Elixir Zen Blend 5mg THC 4pk 12oz can,9918072,6,1.0,70.6,70.6,
+St. Louis Park,1033940,810012698078,BLNCD Adaptogen Elixir Zen Blend 5mg THC 4pk 12oz can,9918072,6,1.0,70.6,70.6,
+Woodbury,1033943,810012698078,BLNCD Adaptogen Elixir Zen Blend 5mg THC 4pk 12oz can,9918072,6,1.0,70.6,70.6,
+Rosemount,1033938,810012698535,BLNCD Zen Blend Adaptogen 50mg THC Gummies 10pk,9918035,6,1.0,72.0,72.0,
+St. Louis Park,1033940,810012698535,BLNCD Zen Blend Adaptogen 50mg THC Gummies 10pk,9918035,6,1.0,72.0,72.0,
+Andover,1033929,810012698702,BLNCD Adaptogen Elixir Variety Pack 5mg THC 6pk 12oz can,9918142,4,1.0,62.2,62.2,
+Blaine,1033930,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
+Woodbury,1033943,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
+Minneapolis,1033933,810012698767,BLNCD Cucumber Mojito 10mg THC 4pk 12oz can,9918082,6,1.0,78.4,78.4,
+Minneapolis,1033933,811194034111,Smokiez Watermelon THC 10 pack,9921005,12,1.0,66.0,66.0,
+Osseo,1033935,811194034111,Smokiez Watermelon THC 10 pack,9921005,12,2.0,66.0,132.0,
+Andover,1033929,811194034128,Smokiez Sour Watermelon THC 10 pack,9921015,12,1.0,66.0,66.0,
+Bloomington,1033931,811194034128,Smokiez Sour Watermelon THC 10 pack,9921015,12,1.0,66.0,66.0,
+Osseo,1033935,811194034128,Smokiez Sour Watermelon THC 10 pack,9921015,12,2.0,66.0,132.0,
+Roseville,1033939,811194034128,Smokiez Sour Watermelon THC 10 pack,9921015,12,1.0,66.0,66.0,
+Woodbury,1033943,811194034128,Smokiez Sour Watermelon THC 10 pack,9921015,12,1.0,66.0,66.0,
+Osseo,1033935,811194034913,Smokiez Jamberry THC 10 pack,9921025,12,1.0,66.0,66.0,
+Vadnais Heights,1033942,811194034913,Smokiez Jamberry THC 10 pack,9921025,12,1.0,66.0,66.0,
+Woodbury,1033943,811194034913,Smokiez Jamberry THC 10 pack,9921025,12,1.0,66.0,66.0,
+Andover,1033929,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
+Ramsey,1033937,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
+Woodbury,1033943,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
+Minneapolis,1033933,840006314424,BLNCD Prickly Pear Bee's Knees 10mg THC 4pk 12oz can,9918102,6,1.0,78.4,78.4,
+Rosemount,1033938,840006314424,BLNCD Prickly Pear Bee's Knees 10mg THC 4pk 12oz can,9918102,6,1.0,78.4,78.4,
+Rosemount,1033938,840006314868,Two Scoops Cream Soda10mg THC 4pk 12oz can,9917092,6,1.0,78.4,78.4,
+Minnetonka,1033934,840006315841,BLNCD Mocktail Variety Pack 10mg 12pk 12oz can,9918172,2,1.0,63.0,63.0,
+Plymouth,1033936,840006316169,Foundry Nation Lemon Haze 85mg 750ml,9918043,6,1.0,117.0,117.0,
+Minneapolis,1033933,840006316572,BLNCD Levitate 85mg THC 750ml,9918033,6,1.0,127.0,127.0,
+Blaine,1033930,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,2.0,72.0,144.0,
+Blaine,1033930,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,2.0,72.0,144.0,
+Bloomington,1033931,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
+Plymouth,1033936,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
+St. Louis Park,1033940,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,2.0,72.0,144.0,
+Blaine,1033930,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,3.0,72.0,216.0,
+Osseo,1033935,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,1.0,72.0,72.0,
+Rosemount,1033938,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,1.0,72.0,72.0,
+Plymouth,1033936,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,96.0,
+Rosemount,1033938,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,96.0,
+St. Louis Park,1033940,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,96.0,
+Chanhassen,1033932,850063284134,Minny Grown CBG Pink Lemonade 10 Pack,9912205,12,1.0,96.0,96.0,
+Ramsey,1033937,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
+Woodbury,1033943,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
+Bloomington,1033931,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
+Minneapolis,1033933,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
+Plymouth,1033936,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
+Roseville,1033939,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
+Woodbury,1033943,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
+Blaine,1034023,852546003096,Tonka Vodka 1.75L,8563009,6,1.0,90.0,90.0,
+Chanhassen,1034039,852546003096,Tonka Vodka 1.75L,8563009,6,1.0,90.0,90.0,
+Cottage Grove,1034053,859122005246,Traverse City Cherries 21oz,7274090,6,1.0,80.5,80.5,Store Request
+Bloomington,1034031,859579004557,Spooky Green Olive Bloody Mary,900480,12,1.0,53.0,53.0,
+Plymouth,1033936,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
+Roseville,1033939,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
+Vadnais Heights,1033942,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
+Minneapolis,1033933,860006677671,Minny Grown BlueBeary 10 Pack,9912095,12,2.0,96.0,192.0,
+Blaine,1033930,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
+Roseville,1033939,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
+St. Louis Park,1033940,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
+Blaine,1033930,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
+Plymouth,1033936,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
+Roseville,1033939,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
+Woodbury,1033943,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
+Blaine,1033930,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,2.0,96.0,192.0,
+Chanhassen,1033932,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
+Plymouth,1033936,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
+Ramsey,1033937,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,2.0,96.0,192.0,
+Roseville,1033939,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
+St. Louis Park,1033940,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
+Woodbury,1033943,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
+Osseo,1033935,860009438057,Minny Grown Mango 10 Pack,9912055,12,1.0,96.0,96.0,
+Minneapolis,1033933,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
+St. Louis Park,1033940,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
+Woodbury,1033943,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
+Osseo,1033935,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
+Roseville,1033939,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
+Blaine,1033930,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
+Roseville,1033939,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
+St. Louis Park,1033940,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
+Roseville,1033939,860009899384,Minny Grown CBD Chillbeary 10 Pack,9912175,12,1.0,96.0,96.0,
+Minneapolis,1033933,860010316467,Minny Grown Highbernate Yummy Gummy Bar 50mg THC,9912285,12,1.0,72.0,72.0,
+Minneapolis,1033933,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,2.0,72.0,144.0,
+Osseo,1033935,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
+Rosemount,1033938,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
+Roseville,1033939,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,2.0,72.0,144.0,
+Vadnais Heights,1033942,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
+Andover,1033929,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Blaine,1033930,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Chanhassen,1033932,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Plymouth,1033936,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,2.0,96.0,192.0,
+Ramsey,1033937,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Rosemount,1033938,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+St. Louis Park,1033940,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,2.0,96.0,192.0,
+Vadnais Heights,1033942,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Woodbury,1033943,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
+Minneapolis,1033933,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,2.0,73.0,146.0,
+Rosemount,1033938,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
+Roseville,1033939,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
+St. Louis Park,1033940,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,2.0,73.0,146.0,
+Woodbury,1033943,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,3.0,73.0,219.0,
+Stillwater,1033941,860013612733,Brez Amplify 5mg THC 4pk 12oz can,BAMP060425,6,1.0,68.0,68.0,
