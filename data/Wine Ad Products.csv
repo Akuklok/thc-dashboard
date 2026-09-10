@@ -1,31 +1,48 @@
 upc,kind,target_wos,week,item
-689352010327,weekly,4.5,2026-09-10,Kim Crawford Sauvignon Blanc Non Alc 750ml
-850061597007,weekly,4.5,2026-09-10,Papi Black 750ml
-850061597021,weekly,4.5,2026-09-10,Papi Blueberry 750ml
-893828001003,weekly,4.5,2026-09-10,Papi Cabernet
-853936007687,weekly,4.5,2026-09-10,Papi Chardonnay 750ml
-853936007441,weekly,4.5,2026-09-10,Papi Malbec 750ml
-850061597045,weekly,4.5,2026-09-10,Papi Mango 750ml
-895469002425,weekly,4.5,2026-09-10,Papi Merlot 750ml
-858962004242,weekly,4.5,2026-09-10,Papi Moscato 750ml
-850061597069,weekly,4.5,2026-09-10,Papi Peach 750ml
-850061597083,weekly,4.5,2026-09-10,Papi Pineapple 750ml
-858962004860,weekly,4.5,2026-09-10,Papi Pink Moscato 750ml
-858962004099,weekly,4.5,2026-09-10,Papi Pinot Grigio 750ml
-858962004136,weekly,4.5,2026-09-10,Papi Pinot Noir 750ml
-853936007793,weekly,4.5,2026-09-10,Papi Prosecco 750ml
-853936007700,weekly,4.5,2026-09-10,Papi Red Blend 750ml
-893828001867,weekly,4.5,2026-09-10,Papi Red Original Sangria 750ml
-853936007427,weekly,4.5,2026-09-10,Papi Rose 750ml
-893828001010,weekly,4.5,2026-09-10,Papi Sauv Blanc
-850061597106,weekly,4.5,2026-09-10,Papi Sweet Apple 750ml
-850061597120,weekly,4.5,2026-09-10,Papi Sweet Red 750ml
-853936007984,weekly,4.5,2026-09-10,Papi White Peach Sangria 750ml
-8052049651592,weekly,4.5,2026-09-10,Terre Di Mario Bianco 750ml
-857680001533,weekly,4.5,2026-09-10,High Valley Cabernet Sauvignon
-085000022436,weekly,4.5,2026-09-10,LaMarca Prosecco 187ml
-894655001686,weekly,4.5,2026-09-10,90+ Cellars DOC Prosecco Lot 50
-085000011638,weekly,4.5,2026-09-10,Prati by Louis Martini Cabernet Sauvignon 750ml
-810879020135,weekly,4.5,2026-09-10,Ironside Cabernet 2016
-400000025631,weekly,4.5,2026-09-10,Martin Woods The Rocks Syrah 750ml
+088586001864,weekly,4.5,2026-09-17,CHT STE MICH CAB SAUV INDIAN WELLS
+894655001440,weekly,4.5,2026-09-17,90+ Cellars 2019 Lot 26 Barolo
+894655001457,weekly,4.5,2026-09-17,90+ Cellars 2021 Lot 27 Barbera d'Alba
+810879021163,weekly,4.5,2026-09-17,90+ Cellars 2022 Lot 160 Bourgogne Pinot Noir
+810879024898,weekly,4.5,2026-09-17,"90+ Cellars 2022 Lot 215 Orange, Abruzzo, Italy"
+810879025734,weekly,4.5,2026-09-17,90+ Cellars 2022 Lot 217 Chablis
+810879021514,weekly,4.5,2026-09-17,90+ Cellars Albariño Lot 174 750ml
+810879020104,weekly,4.5,2026-09-17,90+ Cellars Big Red Blend Lot 113
+894655001716,weekly,4.5,2026-09-17,90+ Cellars Cab Sauv Mendoza
+894655001259,weekly,4.5,2026-09-17,90+ Cellars Cab Sauv Rutherford/Napa
+810879020302,weekly,4.5,2026-09-17,90+ Cellars Chardonnay
+810879020883,weekly,4.5,2026-09-17,90+ Cellars Chianti Riserva Classic
+810879027851,weekly,4.5,2026-09-17,90+ Cellars Cremant d'Alsace Lot 228 750ml
+894655001686,weekly,4.5,2026-09-17,90+ Cellars DOC Prosecco Lot 50
+810879020647,weekly,4.5,2026-09-17,90+ Cellars DOC Prosecco Lot 50 (3 pk)
+894655001396,weekly,4.5,2026-09-17,90+ Cellars French Fusion
+810879021477,weekly,4.5,2026-09-17,90+ Cellars Lambrusco
+810879020357,weekly,4.5,2026-09-17,90+ Cellars Lot 126 Sancerre
+810879020340,weekly,4.5,2026-09-17,"90+ Cellars Lot 132 Reserve Rosé, Provence"
+894655001488,weekly,4.5,2026-09-17,90+ Cellars Lot 162 Cotes du Rhone 750ml
+810879021330,weekly,4.5,2026-09-17,90+ Cellars Lot 167 Bourgogne Aligote 750ml
+810879021538,weekly,4.5,2026-09-17,90+ Cellars Lot 175 Rioja
+810879021934,weekly,4.5,2026-09-17,90+ Cellars Lot 191 Cafayate Malbec 750ml
+810879023945,weekly,4.5,2026-09-17,90+ Cellars Lot 209 Bourgueil Cabernet Franc 750ml
+810879020838,weekly,4.5,2026-09-17,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon
+810879026250,weekly,4.5,2026-09-17,90+ Cellars Lot 219 Picpoul de Pinet 750ml
+810879026311,weekly,4.5,2026-09-17,90+ Cellars Lot 221 Sancerre Pinot Noir 750ml
+810879026748,weekly,4.5,2026-09-17,90+ Cellars Lot 223 Stags Leap District Cabernet Sauvignon 750ml
+810879026779,weekly,4.5,2026-09-17,"90+ Cellars Lot 224 Cab Sauv, Napa Valley 750ml"
+810879027509,weekly,4.5,2026-09-17,90+ Cellars Lot 226 Chinon 750ml
+810879020708,weekly,4.5,2026-09-17,90+ Cellars Lot 50 Prosecco
+894655001785,weekly,4.5,2026-09-17,90+ Cellars Lot 60 Langhe Rosso 750ml
+894655001228,weekly,4.5,2026-09-17,90+ Cellars Lot 92 Merlot
+810879021903,weekly,4.5,2026-09-17,90+ Cellars Montepulciano d'Abruzzo Lot 188 750ml
+894655001976,weekly,4.5,2026-09-17,90+ Cellars Moscato d'Asti
+810879021422,weekly,4.5,2026-09-17,90+ Cellars Muscadet Sèvre et Maine Sur Lie
+810879020203,weekly,4.5,2026-09-17,90+ Cellars New Zealand Sauv Blanc
+894655001426,weekly,4.5,2026-09-17,90+ Cellars Old Vine Malbec
+894655001600,weekly,4.5,2026-09-17,90+ Cellars Pinot Grigio Trentino
+894655001099,weekly,4.5,2026-09-17,90+ Cellars Pinot Noir California
+810879021439,weekly,4.5,2026-09-17,90+ Cellars Pouilly-Fume Lot 171 750ml
+763955408108,weekly,4.5,2026-09-17,Les Allies Brut Sparkling Rose
+085000012017,weekly,4.5,2026-09-17,Whitehaven Sauv Blanc
+5060152093300,weekly,4.5,2026-09-17,The Horologist Sauvignon Blanc NZ
+017224760122,weekly,4.5,2026-09-17,Conundrum Red
+869382000219,weekly,4.5,2026-09-17,One Flock Red Blend
 088586007279,sunday,4.5,2026-09-13,14 HANDS BRUT
