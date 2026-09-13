@@ -1,48 +1,49 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Saturday, Sep 12, 2026
+  RECOMMENDED OTHER ORDER          Sunday, Sep 13, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     28,114
-  Coverable by transfer .......  $     15,601   (55%)
-  NET BUY from vendors ........  $      8,691   <- the order
+  Gross need (all stores) .....  $     30,404
+  Coverable by transfer .......  $     16,972   (56%)
+  NET BUY from vendors ........  $      9,707   <- the order
 
-  67 items   |   3,554 units to buy   |   3,745 units to rebalance
-  Transfers: 324 moves  -  264 urgent (96 stockouts, 168 under 2wk), 60 routine
+  69 items   |   4,165 units to buy   |   3,968 units to rebalance
+  Transfers: 343 moves  -  284 urgent (114 stockouts, 170 under 2wk), 59 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 9 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 10 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           233u/233cs         $0    233     0   OUT
-   2  Syx Peppermint 6mg                   10u/2cs           $71      9     0   OUT
-   3  Syx Freeze 20mg                      15u/3cs          $106     17     0   OUT
-   4  Marlboro Light                       1u/1cs             $0      1     0   OUT
-   5  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-   6  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
-   7  Kick Ass Bloody Mary Mix Classic 32  12u/1cs           $45      9     0   OUT
-   8  Loon Pouches Bad Bull 14mg 20pk      10u/2cs           $60      8     0   OUT
-   9  MTN Dew Baja Blast 2L                16u/2cs           $29     13     0   OUT
-  10  Charm Social Tonic Lemon Ginger 12o  10u/10cs          $24     10     0   OUT
-  11  Loon Arctic Grape 14mg               10u/2cs           $60      8     0   OUT
-  12  Sprite 6pk 7.5oz can                 4u/1cs            $16      3     0   OUT
-  13  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
-  14  Acid Blondie                         2u/2cs             $9      2     0   OUT
-  15  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
-  16  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
-  17  Bag Fee                              179u/179cs         $0    179     0   OUT
-  18  Velo Cappuccino 3mg                  5u/1cs            $42      3     0   OUT
-  19  Camel Platinum                       3u/3cs            $42      3     0   OUT
-  20  Black & Mild Royale B1G1             1u/1cs             $0      1     0   OUT
-  ...and 47 more in the full list.
+   1  Non-Refundable Transaction           234u/234cs         $0    234     0   OUT
+   2  *NEW AMSTERDAM GLASSWARE             2u/2cs             $0      2     0   OUT
+   3  Travel Corkscrew/Bottle opener       2u/2cs             $1      2     0   OUT
+   4  Syx Peppermint 6mg                   10u/2cs           $71      9     0   OUT
+   5  Velo Pouch 9mg Wintergreen           60u/12cs         $504     60     0   OUT
+   6  Marlboro Light                       1u/1cs             $0      1     0   OUT
+   7  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   8  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+   9  Loon Pouch Arctic Lemon 7mg          20u/4cs          $120     22     0   OUT
+  10  Kick Ass Bloody Mary Mix Classic 32  12u/1cs           $45      9     0   OUT
+  11  True Party Colorful Straws (Set of   12u/1cs           $24     11     0   OUT
+  12  Loon Pouches Bad Bull 14mg 20pk      10u/2cs           $60      8     0   OUT
+  13  MTN Dew Baja Blast 2L                16u/2cs           $29     13     0   OUT
+  14  Charm Social Tonic Lemon Ginger 12o  11u/11cs          $27     11     0   OUT
+  15  1919 Zero Sugar Root Beer 10pk 7.5o  6u/2cs            $54      7     0   OUT
+  16  Loon Arctic Grape 14mg               10u/2cs           $60      8     0   OUT
+  17  Sprite 6pk 7.5oz can                 4u/1cs            $16      3     0   OUT
+  18  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
+  19  Minute Maid Fruit Punch 2L           24u/3cs           $65     21     0   OUT
+  20  Acid Blondie                         2u/2cs             $9      2     0   OUT
+  ...and 49 more in the full list.
 
-  NEEDS REVIEW (9 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (10 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
+    *NEW AMSTERDAM GLASSWARE                  No cost data - verify price; Margin over 95% - check retail
     Marlboro Light                            No cost data - verify price; Margin over 95% - check retail
     Wedding Delivery Fee                      No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
-    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~130/wk vs 45 now, buy ahead?
+    Bag Fee                                   No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~108/wk vs 52 now, buy ahead?
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Dr Pepper                                 No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    MN Ice Cylinder                           Seasonal - last year ~5/wk vs 2 now, buy ahead?
+    MN Ice Cylinder                           Seasonal - last year ~4/wk vs 2 now, buy ahead?
