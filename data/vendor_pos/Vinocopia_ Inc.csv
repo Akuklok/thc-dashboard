@@ -1,2 +1,21 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1034184,083417000368,Dolly Chardonnay 750ml,30922,12,1.0,120.0,120.0,Store Request
+Roseville,1034574,011699014933,Bouchard VDP Pinot Noir 750ml,67602,12,1.0,104.0,104.0,
+St. Louis Park,1034702,040232526626,El Nivel Reposado 750ml,54782,6,1.0,266.25,266.25,
+Rosemount,1034653,088352136103,Brady's Irish Cream 1.75L,50126,6,2.0,110.6,221.2,Store Request
+Minneapolis,1034715,721094199844,Gosling's Ginger Beer 12pk,50474,2,1.0,24.0,24.0,
+Cottage Grove,1034747,858173008015,Post Meridiem Old Fashioned 100ml RTD,54699,24,1.0,72.0,72.0,
+Chanhassen,1034746,858173008114,Post Meridiem Margarita 100ml RTD,54709,24,1.0,72.0,72.0,
+Andover,1034455,860115002401,Lapis Luna Sauvignon Blanc 750ml,84512,12,1.0,96.0,96.0,
+Blaine,1034475,860115002401,Lapis Luna Sauvignon Blanc 750ml,84512,12,1.0,96.0,96.0,
+Roseville,1034574,860115002401,Lapis Luna Sauvignon Blanc 750ml,84512,12,1.0,96.0,96.0,
+St. Louis Park,1034590,860115002401,Lapis Luna Sauvignon Blanc 750ml,84512,12,1.0,96.0,96.0,
+Andover,1034455,860115002463,Lapis Luna Pinot Noir 750ml,84532,12,1.0,96.0,96.0,
+Blaine,1034475,860115002463,Lapis Luna Pinot Noir 750ml,84532,12,1.0,96.0,96.0,
+Roseville,1034574,860115002463,Lapis Luna Pinot Noir 750ml,84532,12,1.0,96.0,96.0,
+St. Louis Park,1034590,860115002463,Lapis Luna Pinot Noir 750ml,84532,12,1.0,96.0,96.0,
+Blaine,1034475,871752001016,Kono Sauvignon Blanc 750ml,84402,12,1.0,120.0,120.0,
+Chanhassen,1034491,871752001016,Kono Sauvignon Blanc 750ml,84402,12,1.0,120.0,120.0,
+Stillwater,1034600,871752001016,Kono Sauvignon Blanc 750ml,84402,12,1.0,120.0,120.0,
+St. Louis Park,1034590,875752000390,"Piattelli Reserve Malbec, Mendoza 750ml",45312,12,1.0,112.0,112.0,
+Minneapolis,1034513,8801100130978,Good Day Lychee Soju 375ml,51084,20,1.0,97.0,97.0,
+Minneapolis,1034513,8809018211796,Han Jan Strawberry 375ml,17754,20,1.0,86.5,86.5,

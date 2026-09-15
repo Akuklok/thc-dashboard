@@ -1,9 +1,140 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
+Plymouth,1034670,014800516470,Clamato Tomato Cocktail 64oz,MIXMCHG,8,1.0,47.98,47.98,
+Rosemount,1034679,014800516470,Clamato Tomato Cocktail 64oz,MIXMCHG,8,1.0,47.98,47.98,
+Minneapolis,1034668,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,2.0,23.76,47.52,
+Roseville,1034681,016600000760,Roses Grenadine Liter,MIXRGL,12,1.0,69.5,69.5,
+Roseville,1034681,016600001040,Roses Grenadine 25oz,mixrg25,12,1.0,70.5,70.5,
+Blaine,1034656,01667135,Roses Sweetened Lime Juice 12oz,MIXRLJ12,6,1.0,22.4,0.0,
+Minneapolis,1034668,01667436,Roses Grenadine 12oz,mixrg12,6,3.0,22.4,67.2,
+Cottage Grove,1034667,023604231076,Twang Lime Beer Salt 1.4oz,mix23107,24,1.0,38.39,38.39,
+Minneapolis,1034668,023604231076,Twang Lime Beer Salt 1.4oz,mix23107,24,1.0,38.39,38.39,
+Ramsey,1034742,029929115411,Licor 43 750ml,8289314,12,1.0,255.0,255.0,Store Request
+Minnetonka,1034737,031200007360,Ocean Spray Orange Juice 32oz,JUIOJ32,12,1.0,42.32,42.32,
+Blaine,1034656,031200200006,Ocean Spray Cranberry Juice,JUIOCC32,12,1.0,36.4,0.0,
+Blaine,1034456,032085229724,Vikings Zipper Bottle Cooler,BW2217,1,1.0,5.45,5.45,
+Cottage Grove,1034667,038900008086,Dole Pineapple Juice 46oz,JUIDP46,12,1.0,55.8,55.8,
+Roseville,1034681,038900008086,Dole Pineapple Juice 46oz,JUIDP46,12,1.0,55.8,55.8,
+Cottage Grove,1034645,041409000062,ReaLime 5oz,MIX00006,24,2.0,23.76,47.52,Store Request
+Ramsey,1034749,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+Rosemount,1034679,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+Roseville,1034681,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+St. Louis Park,1034649,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
+Chanhassen,1034651,050037014501,Disaronno Amaretto 750ml,6264514,12,1.0,252.0,252.0,
+Blaine,1034656,070655901304,Mr & Mrs T Bloody Mary Liter,MIXMMTBMLTR-6,6,1.0,27.5,0.0,
+St. Louis Park,1034649,070655901304,Mr & Mrs T Bloody Mary Liter,MIXMMTBMLTR-6,6,1.0,27.5,27.5,
+Blaine,1034656,070655902301,Mr & Mrs T Bold & Spicy Liter,MIXMMTRSLTR-6,6,1.0,27.5,0.0,
+Blaine,1034656,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,0.0,
+Minneapolis,1034668,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
+Plymouth,1034670,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
+Andover,1034703,080686001607,Jim Beam Bourbon 375ml,8363812,24,1.0,185.0,185.0,
+Plymouth,1034531,080960100644,Readers Cabernet Sauvignon 750ml,1146004,12,1.0,137.0,137.0,
+Stillwater,1034591,080960100644,Readers Cabernet Sauvignon 750ml,1146004,12,1.0,137.0,137.0,
+Cottage Grove,1034492,080960330027,Notebook Red Blend 750ml,1145014,12,1.0,92.0,92.0,
+Minneapolis,1034668,081240049516,Clase Azul Reposado Tequila 750ml,8493304,6,1.0,760.0,760.0,
+Chanhassen,1034651,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,144.0,
+Woodbury,1034652,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,0.0,
+Cottage Grove,1034667,082000741992,Captain Morgan 100 Proof Liter,7868325,12,1.0,231.5,231.5,
+Minneapolis,1034668,082000741992,Captain Morgan 100 Proof Liter,7868325,12,1.0,231.5,231.5,
+Cottage Grove,1034645,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,Store Request
+Woodbury,1034652,082000766834,Captain Morgan White Liter,7868215,12,1.0,150.96,0.0,
+Cottage Grove,1034667,082000771562,Crown Royal Regal Apple 750ml,6163204,12,1.0,245.0,245.0,
+Minneapolis,1034668,082000771562,Crown Royal Regal Apple 750ml,6163204,12,3.0,245.0,735.0,
+Roseville,1034681,082000771562,Crown Royal Regal Apple 750ml,6163204,12,1.0,245.0,245.0,
+Rosemount,1034682,082000783978,Crown Royal Salted Caramel 750ml,6163404,12,1.0,269.95,269.95,Store Request
+Minneapolis,1034668,08200501,Smirnoff Vodka Liter,8572725,12,2.0,153.0,306.0,
+Osseo,1034752,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
+Rosemount,1034679,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
+Cottage Grove,1034645,082496801019,Asbach Uralt German Bra 750ml,6480544,6,1.0,139.95,139.95,Store Request
+Roseville,1034681,08256801,Jose Cuervo Gold Tequila 50ml,8468568,120,1.0,153.0,153.0,
+Woodbury,1034652,083664869282,Reyka Vodka Liter,8511015,6,1.0,107.0,0.0,
+St. Louis Park,1034649,083664871681,Balvenie 14 Year Caribbean 750ml,8177404,6,1.0,415.5,415.5,
+Minneapolis,1034668,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,185.0,185.0,
+Blaine,1034656,087000005525,Bulleit Bourbon 750ml,8373004,12,1.0,230.0,0.0,
+Vadnais Heights,1034680,087000007604,Crown Royal Canadian 375ml,6863112,24,1.0,295.95,295.95,
+Andover,1034719,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,2.0,110.0,220.0,Allocated
+Blaine,1034720,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,3.0,110.0,330.0,Allocated
+Bloomington,1034721,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Chanhassen,1034722,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Cottage Grove,1034723,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Minneapolis,1034724,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Minnetonka,1034725,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Osseo,1034726,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Plymouth,1034727,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Ramsey,1034728,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Rosemount,1034729,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Roseville,1034730,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,3.0,110.0,330.0,Allocated
+St. Louis Park,1034731,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,3.0,110.0,330.0,Allocated
+Stillwater,1034732,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Vadnais Heights,1034733,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,1.0,110.0,110.0,Allocated
+Woodbury,1034734,087229150334,Hirsch Single Barrel White Label 750ml,6896934,6,2.0,110.0,220.0,Allocated
+St. Louis Park,1034649,087236700362,The Botanist Islay Gin 750ml,7295104,6,1.0,160.0,160.0,
+Blaine,1034656,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,0.0,
+Plymouth,1034670,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,79.0,
+Blaine,1034656,088076161863,Ciroc Vodka 750ml,8584224,12,1.0,250.0,0.0,
+Blaine,1034656,088076162624,Johnnie Walker Green 750ml,8063554,6,1.0,280.0,0.0,
+Blaine,1034656,088076175051,Ciroc Red Berry Vodka 750ml,8584334,12,1.0,250.0,0.0,
+Minneapolis,1034678,088076175051,Ciroc Red Berry Vodka 750ml,8584334,12,1.0,250.0,250.0,Store Request
+St. Louis Park,1034649,088076177406,Ciroc Peach Vodka 750ml,8584354,12,1.0,250.0,250.0,
+Blaine,1034656,088076178243,Johnnie Walker Gold Reserve 750ml,8063614,6,1.0,260.0,0.0,
+Blaine,1034656,088110150556,Hennessy VS Cognac 750ml,6961414,12,1.0,323.0,0.0,
+Minneapolis,1034668,088110150556,Hennessy VS Cognac 750ml,6961414,12,1.0,323.0,323.0,
+Roseville,1034681,088110150556,Hennessy VS Cognac 750ml,6961414,12,1.0,323.0,323.0,
+Minneapolis,1034668,088110151058,Hennessy VSOP Cognac 750ml,6961424,12,1.0,488.0,488.0,
+Vadnais Heights,1034680,088110151058,Hennessy VSOP Cognac 750ml,6961424,12,1.0,488.0,488.0,
+Chanhassen,1034651,089016008194,Sobieski Vodka 1.75L,8575809,6,1.0,92.5,92.5,
+Woodbury,1034652,089016008194,Sobieski Vodka 1.75L,8575809,6,1.0,92.5,0.0,
+Roseville,1034751,089156001123,SBOC Pimento Martini Olives 10oz,CON80112-6,6,1.0,31.28,31.28,Store Request
+Minneapolis,1034668,089156001130,SBOC Pimento Stuffed 5oz,con00113,6,1.0,21.6,21.6,
+Roseville,1034681,089156001130,SBOC Pimento Stuffed 5oz,con00113,6,1.0,21.6,21.6,
+Andover,1034719,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Blaine,1034720,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,2.0,240.0,480.0,Allocated
+Bloomington,1034721,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Chanhassen,1034722,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Cottage Grove,1034723,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Minneapolis,1034724,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Minnetonka,1034725,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Osseo,1034726,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Plymouth,1034727,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Ramsey,1034728,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Rosemount,1034729,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Roseville,1034730,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,2.0,240.0,480.0,Allocated
+St. Louis Park,1034731,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,2.0,240.0,480.0,Allocated
+Stillwater,1034732,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Vadnais Heights,1034733,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,1.0,240.0,240.0,Allocated
+Woodbury,1034734,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,8362384,6,2.0,240.0,480.0,Allocated
+Stillwater,1034756,197644697847,Tonka Vodka 50ml,8563008,60,1.0,40.0,40.0,
 Blaine,1034352,400000025117,Foundry Nation Two Scoops Cherry 10mg THC 4pk 12oz can,9917072,6,1.0,78.4,78.4,
 Vadnais Heights,1034365,400000025117,Foundry Nation Two Scoops Cherry 10mg THC 4pk 12oz can,9917072,6,1.0,78.4,78.4,
 Vadnais Heights,1034365,400000025155,Foundry Nation Two Scoops Root Beer 10mg THC 4pk 12oz can,9917062,6,1.0,78.4,78.4,
+Blaine,1034656,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,1.0,854.0,0.0,
+Bloomington,1034689,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,1.0,854.0,854.0,
+Cottage Grove,1034667,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,0.5,854.0,427.0,
+Minneapolis,1034668,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,1.0,854.0,854.0,
+St. Louis Park,1034649,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,1.0,854.0,854.0,
+Woodbury,1034652,400000025209,Don Julio 1942 Anejo Tequila 750ml,8491954,6,1.0,854.0,0.0,
+Osseo,1034753,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,Store Request
+St. Louis Park,1034649,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
+Vadnais Heights,1034680,633148599305,Tajin clasico seasoning rimmer,MIXTAJIN,12,1.0,58.59,58.59,
 Blaine,1034352,649696417503,Forbidden Fruit Strawberry Lemonade 10mg THC 4pk 12oz can,FFSL093025,6,1.0,60.0,60.0,
+Minnetonka,1034743,650270730468,Lost Superior Whiskey Northern Cocktail 750ml,8342004,6,1.0,156.0,156.0,Store Request
+Blaine,1034656,674545000599,Don Julio Blanco 375ml,8491922,12,1.0,200.0,0.0,
+Minneapolis,1034668,674545000599,Don Julio Blanco 375ml,8491922,12,1.0,200.0,200.0,
+Roseville,1034681,674545000599,Don Julio Blanco 375ml,8491922,12,1.0,200.0,200.0,
+Minneapolis,1034668,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,
+Roseville,1034751,721059487504,Tullamore Dew Irish Whiskey 750ml,7459314,12,3.0,210.0,630.0,Store Request
+Blaine,1034656,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,0.0,
+Cottage Grove,1034667,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+Minneapolis,1034668,721059707503,Espolon Blanco Tequila 750ml,8440174,12,3.0,255.0,765.0,
+St. Louis Park,1034649,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
+Andover,1034703,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,270.0,
+Blaine,1034656,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,0.0,
+Minneapolis,1034668,721059707510,Espolon Reposado Tequila 750ml,8440184,12,3.0,270.0,810.0,
+Woodbury,1034652,721059707510,Espolon Reposado Tequila 750ml,8440184,12,1.0,270.0,0.0,
+Blaine,1034656,721059987509,Frangelico Liqueur 750ml,7196414,12,1.0,284.0,0.0,
+Bloomington,1034711,721059987509,Frangelico Liqueur 750ml,7196414,12,1.0,284.0,284.0,Store Request
+Woodbury,1034652,721733000944,Patron Silver Tequila 375ml,8497322,12,1.0,185.0,0.0,
 Chanhassen,1034354,764333647812,Forbidden Fruit Variety Pack 10mg THC 12pk 12oz can,9919232,2,1.0,50.0,50.0,
+Minneapolis,1034668,791863140506,Fee Brothers Bitters 4oz,mixfb,12,1.0,105.36,105.36,
 Minneapolis,1034356,810012698061,BLNCD Adaptogen Elixir Brain Boost 5mg THC 4pk 12oz can,9918062,6,1.0,70.6,70.6,
 Vadnais Heights,1034365,810012698078,BLNCD Adaptogen Elixir Zen Blend 5mg THC 4pk 12oz can,9918072,6,1.0,70.6,70.6,
 Minnetonka,1034357,810012698474,BLNCD Watermelon Margarita 10mg THC 4pk 12oz can,MNGODBMWM10,6,1.0,78.4,78.4,
@@ -73,6 +204,10 @@ Woodbury,1034366,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gu
 Blaine,1034352,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
 Bloomington,1034353,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
 Plymouth,1034359,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,2.0,96.0,192.0,
+Bloomington,1034689,855400005038,Jackson Morgan Salted Caramel Cream 750ml,7177114,6,1.0,111.0,111.0,
+Blaine,1034656,855400005267,Jackson Morgan Banana Pudding Cream 750ml,7177104,6,1.0,111.0,0.0,
+Minnetonka,1034737,855400005281,Jackson Morgan Banana Pudding Cream 50ml,7177108,60,1.0,115.0,115.0,
+Vadnais Heights,1034680,855439000691,Rokz Lime Margarita Salt 4oz,7203,6,1.0,22.75,22.75,
 Blaine2,PO0000001879,860002139647,Artet Grapefruit Rosemary Spritz 10mg THC 4pk 12oz can,860002139647,6,40.0,58.0,0.0,
 Blaine2,PO0000001879,860002139661,Artet 37.5mg THC Apertif 750ml,860002139661,6,20.0,105.0,0.0,
 Blaine2,PO0000001879,860005527038,Artet Strawberry Basil Spritz 10mg THC 4pk 12oz can,860005527038,6,40.0,58.0,0.0,
