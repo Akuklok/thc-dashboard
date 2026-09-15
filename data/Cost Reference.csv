@@ -8,7 +8,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 10272017501,Wine,36.81,,
 102920145125,Wine,28.76,,
 1072972200183,Wine,62.76,,
-10872291503341,Spirits,18.5,One Time Buy,
 10986000024,Wine,19.47,,
 10986002226,Wine,8.73,,
 10986002509,Wine,8.73,,
@@ -5321,6 +5320,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83664874484,Spirits,36.19,5cs purchase in a month ($105.50/cs Apil - June),
 83664874965,Spirits,32.44,Case 1--Mixes into regular hendricks deals for quantity,
 83664875443,Spirits,34.88,5cs Deal,
+83664875481,Spirits,24.94,6cs purchase in a month,1|2|3|4|5|6|7|8|9
 83664990405,Spirits,54.85,25cs mix with Balvenie 12yr and 14yr and Glenfiddich 12yr and 14yr,
 83664990412,Spirits,103.5,,
 83664990436,Spirits,24.33,"Mix & match Hendrick's 750s, liters, 1.75s - across chain same week",1|2|3|4|5|6|7|8|9
@@ -8335,6 +8335,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 87229020033,Spirits,28.1,,
 87229127817,Spirits,22.69,No Current Deals,
 87229131036,Spirits,13.63,Case 1,
+87229150334,Spirits,18.5,One Time Buy,
 87229174019,Spirits,27.17,,
 87229174033,Spirits,109.0,,
 87229176020,Spirits,41.44,,
@@ -9818,7 +9819,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 898756001576,Wine,6.76,,9|10
 898756001873,Wine,6.76,,9|10
 898804005037,Spirits,13.88,,
-898804009004,Spirits,15.88,,
+898804009004,Spirits,18.88,,
 898804009066,Spirits,3.55,,
 898804009097,Spirits,13.88,,
 899166002115,Wine,36.45,,
