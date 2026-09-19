@@ -4,12 +4,6 @@ Receiving,842094153343,"Long Bamboo Appetizer Picks 7""","True Brands, Inc.",Ros
 Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
 Receiving,876718047664,Colorful Cheers Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
 Receiving,876718048074,Shotski Classic Shot Glass by True,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Receiving,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1034521,Receiving,1.0,,,Wine,Cabernet,Store Request,,2026-09-14T00:00:00
-Receiving,857744001318,Josh Cellars Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,Minnetonka,1034516,Receiving,1.0,1.0,0.0,Wine,Cabernet,,,2026-09-14T00:00:00
-Receiving,081434000040,Black Box Chardonnay 3L Box,Johnson Brothers - St. Paul,Minnetonka,1034516,Receiving,1.0,1.0,0.0,Wine,Chardonnay,,,2026-09-14T00:00:00
-Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.14.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
-Receiving,3760010532744,Mirabeau Forever Summer Rose 750ml,"Grape Beginnings, Inc.",Minnetonka,1034515,Receiving,1.0,,,Wine,Rose,,,2026-09-14T00:00:00
-Receiving,085000034569,Black Box Tart Tangy Sauvignon Blanc 3L Box,Johnson Brothers - St. Paul,Minnetonka,1034516,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-09-14T00:00:00
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1033628,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-09-01T00:00:00
 Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1033628,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,MI,2026-09-01T00:00:00
 Discrepancy,081434000293,Black Box Cab Sauv 500ml,Johnson Brothers - St. Paul,Blaine,1033634,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-09-01T00:00:00
@@ -142,7 +136,7 @@ Discrepancy,605779976251,Jinro Strawberry 375ml,Johnson Brothers - St. Paul,Plym
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Plymouth,1034241,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,not on truck,2026-09-07T00:00:00
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Plymouth,1034241,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,not on truck,2026-09-07T00:00:00
 Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,notdelivered,2026-09-07T00:00:00
-Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.14.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
+Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.14.26,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,no del,2026-09-07T00:00:00
 Discrepancy,089419000160,La Vieille Ferme Rose 3L Box,The Wine Company,Plymouth,1034244,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,no delivery,2026-09-07T00:00:00
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Ramsey,1034248,Inventory Received,2.0,0.0,-2.0,Wine,Pinot Grigio/Gris,,,2026-09-07T00:00:00
 Discrepancy,082242016780,Bota Box Breeze Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Ramsey,1034248,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,,2026-09-07T00:00:00
@@ -220,9 +214,9 @@ Discrepancy,795652200518,Jinro Chamisul Classico Soju 20.1% 750ml,Johnson Brothe
 Discrepancy,074806184202,Daily's Strawberry RTD Frozen 10oz,Phillips Wine & Spirits - St. Paul,Minneapolis,1034510,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,BO,2026-09-14T00:00:00
 Discrepancy,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,Phillips Wine & Spirits - St. Paul,Minneapolis,1034510,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,BO,2026-09-14T00:00:00
 Discrepancy,876153004093,Castello del Poggio Prosecco 750ml,Phillips Wine & Spirits - St. Paul,Minneapolis,1034510,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,,2026-09-14T00:00:00
-Discrepancy,3760010532744,Mirabeau Forever Summer Rose 750ml,"Grape Beginnings, Inc.",Minnetonka,1034515,Receiving,1.0,,,Wine,Rose,,,2026-09-14T00:00:00
+Discrepancy,3760010532744,Mirabeau Forever Summer Rose 750ml,"Grape Beginnings, Inc.",Minnetonka,1034515,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,mi,2026-09-14T00:00:00
 Discrepancy,086003255067,The Prisoner Wine Co Prisoner Red Blend 750ml,Southern Glazer's Wine & Spirits of MN,Minnetonka,1034520,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,MI,2026-09-14T00:00:00
-Discrepancy,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1034521,Receiving,1.0,,,Wine,Cabernet,Store Request,,2026-09-14T00:00:00
+Discrepancy,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1034521,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Store Request,mi,2026-09-14T00:00:00
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Osseo,1034528,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,not on truck ,2026-09-14T00:00:00
 Discrepancy,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,Phillips Wine & Spirits - St. Paul,Osseo,1034528,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,not on truck ,2026-09-14T00:00:00
 Discrepancy,605779976084,Jinro Green Grape 375ml,Johnson Brothers - St. Paul,Plymouth,1034534,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,not on truck,2026-09-14T00:00:00
