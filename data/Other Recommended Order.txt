@@ -1,40 +1,40 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Saturday, Sep 19, 2026
+  RECOMMENDED OTHER ORDER          Sunday, Sep 20, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     22,882
-  Coverable by transfer .......  $     12,387   (54%)
-  NET BUY from vendors ........  $      7,043   <- the order
+  Gross need (all stores) .....  $     25,637
+  Coverable by transfer .......  $     13,608   (53%)
+  NET BUY from vendors ........  $      8,274   <- the order
 
-  54 items   |   3,285 units to buy   |   3,064 units to rebalance
-  Transfers: 280 moves  -  226 urgent (77 stockouts, 149 under 2wk), 54 routine
+  56 items   |   3,636 units to buy   |   3,285 units to rebalance
+  Transfers: 295 moves  -  244 urgent (87 stockouts, 157 under 2wk), 51 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           234u/234cs         $0    234     0   OUT
+   1  Non-Refundable Transaction           151u/151cs         $0    151     0   OUT
    2  Red Bull Sugar Free 8oz              2u/2cs             $1      2     0   OUT
    3  *NEW AMSTERDAM GLASSWARE             2u/2cs             $0      2     0   OUT
    4  Travel Corkscrew/Bottle opener       2u/2cs             $1      2     0   OUT
    5  Minute Maid Fruit Punch 2L           16u/2cs           $43     18     0   OUT
    6  Marlboro Light                       1u/1cs             $0      1     0   OUT
    7  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-   8  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
-   9  Loon Pouch Arctic Lemon 7mg          20u/4cs          $120     22     0   OUT
+   8  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
+   9  Loon Pouch Arctic Lemon 7mg          20u/4cs          $120     21     0   OUT
   10  Syx Peppermint 6mg                   10u/2cs           $71      9     0   OUT
-  11  Loon Green Apple 14mg                10u/2cs           $60      9     0   OUT
-  12  Loon Pouches Bad Bull 14mg 20pk      5u/1cs            $30      7     0   OUT
-  13  Charm Social Tonic Lemon Ginger 12o  11u/11cs          $27     11     0   OUT
-  14  MTN Dew Baja Blast 2L                8u/1cs            $14     11     0   OUT
+  11  Loon Green Apple 14mg                10u/2cs           $60      8     0   OUT
+  12  Charm Social Tonic Lemon Ginger 12o  12u/12cs          $29     12     0   OUT
+  13  Loon Pouches Bad Bull 14mg 20pk      5u/1cs            $30      7     0   OUT
+  14  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
   15  Loon Strawberry 14mg                 5u/1cs            $30      6     0   OUT
-  16  Bag Fee                              309u/309cs         $0    309     0   OUT
+  16  Bag Fee                              310u/310cs         $0    310     0   OUT
   17  Loon Arctic Grape 14mg               5u/1cs            $30      7     0   OUT
-  18  Sprite 6pk 7.5oz can                 4u/1cs            $16      3     0   OUT
-  19  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
-  20  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
-  ...and 34 more in the full list.
+  18  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
+  19  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
+  20  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
+  ...and 36 more in the full list.
 
   NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
