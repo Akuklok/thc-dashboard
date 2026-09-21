@@ -1,9 +1,4 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
-Receiving,842094109418,For You Botanical Single Bottle Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Receiving,842094153343,"Long Bamboo Appetizer Picks 7""","True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Receiving,876718047664,Colorful Cheers Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Receiving,876718048074,Shotski Classic Shot Glass by True,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1033628,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-09-01T00:00:00
 Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1033628,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,MI,2026-09-01T00:00:00
 Discrepancy,081434000293,Black Box Cab Sauv 500ml,Johnson Brothers - St. Paul,Blaine,1033634,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-09-01T00:00:00
@@ -233,11 +228,6 @@ Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine 
 Discrepancy,082242017558,Bota Box Merlot 3L Box,Phillips Wine & Spirits - St. Paul,Ramsey,1034546,Inventory Received,1.0,0.0,-1.0,Wine,Merlot,,MI ,2026-09-14T00:00:00
 Discrepancy,086003255067,The Prisoner Wine Co Prisoner Red Blend 750ml,Southern Glazer's Wine & Spirits of MN,Ramsey,1034547,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,Mi,2026-09-14T00:00:00
 Discrepancy,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,Phillips Wine & Spirits - St. Paul,Rosemount,1034556,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,BO,2026-09-14T00:00:00
-Discrepancy,842094109418,For You Botanical Single Bottle Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Discrepancy,842094153343,"Long Bamboo Appetizer Picks 7""","True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Discrepancy,876718047664,Colorful Cheers Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
-Discrepancy,876718048074,Shotski Classic Shot Glass by True,"True Brands, Inc.",Rosemount,1034559,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-14T00:00:00
 Discrepancy,082242010450,Bota Box Cabernet Sauvignon 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1034564,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Free Goods,mi,2026-09-14T00:00:00
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1034569,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-09-14T00:00:00
 Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1034572,Inventory Received,2.0,0.0,-2.0,Wine,Fortified,,mi,2026-09-14T00:00:00
