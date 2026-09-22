@@ -1,4 +1,6 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Andover,1034452,181856000052,Colle Corviano Sangiovese,ITCCSANG22,12,1.0,88.0,88.0,
-Roseville,1034571,181856000250,Colle Corviano Pinot Grigio 750ml,5158,12,1.0,88.0,88.0,
-Blaine,1034467,181856000892,Colle Corviano Cerasuolo Rose 750ml,ITCCRSE24,12,1.0,88.0,88.0,
+Roseville,1035126,181856000052,Colle Corviano Sangiovese,ITCCSANG22,12,1.0,88.0,88.0,
+St. Louis Park,1035139,181856000229,Colle Corviano Montepulciano d'Abruzzo,2605,12,1.0,80.0,80.0,
+Blaine,1035030,181856000250,Colle Corviano Pinot Grigio 750ml,5158,12,2.0,88.0,176.0,
+Minnetonka,1035085,857098003013,Ranga Ranga Sauvignon Blanc 750ml,5065,12,1.0,120.0,120.0,Store Request
+St. Louis Park,1035139,857098003020,Three Brooms Sauvignon Blanc 750ml,3895,12,1.0,160.0,160.0,
