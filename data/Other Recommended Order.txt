@@ -1,43 +1,43 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Wednesday, Sep 23, 2026
+  RECOMMENDED OTHER ORDER          Thursday, Sep 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     24,403
-  Coverable by transfer .......  $     13,697   (56%)
-  NET BUY from vendors ........  $      7,343   <- the order
+  Gross need (all stores) .....  $     22,759
+  Coverable by transfer .......  $     12,354   (54%)
+  NET BUY from vendors ........  $      6,937   <- the order
 
-  54 items   |   3,046 units to buy   |   3,289 units to rebalance
-  Transfers: 297 moves  -  251 urgent (96 stockouts, 155 under 2wk), 46 routine
+  50 items   |   2,889 units to buy   |   3,224 units to rebalance
+  Transfers: 287 moves  -  239 urgent (96 stockouts, 143 under 2wk), 48 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           23u/23cs           $0     23     0   OUT
+   1  Non-Refundable Transaction           19u/19cs           $0     19     0   OUT
    2  Middletons Black & Mild Single       50u/2cs           $74     49     0   OUT
-   3  Marlboro Light                       1u/1cs             $0      1     0   OUT
-   4  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-   5  Loon Pouch Arctic Lemon 7mg          20u/4cs          $120     21     0   OUT
-   6  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
-   7  Syx Peppermint 6mg                   10u/2cs           $71      9     0   OUT
-   8  Loon Spearmint 7mg                   10u/2cs           $60      9     0   OUT
-   9  Loon Green Apple 14mg                10u/2cs           $60      8     0   OUT
+   3  Dole Strawberry Lemonade 2L          8u/1cs            $20      8     0   OUT
+   4  Marlboro Light                       1u/1cs             $0      1     0   OUT
+   5  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   6  Loon Pouch Arctic Lemon 7mg          20u/4cs          $120     21     0   OUT
+   7  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
+   8  Syx Peppermint 6mg                   10u/2cs           $71      9     0   OUT
+   9  Loon Spearmint 7mg                   10u/2cs           $60      9     0   OUT
   10  Coke Diet Lime 12pk 12oz can         8u/4cs            $77      8     0   OUT
-  11  Loon Pouches Bad Bull 14mg 20pk      5u/1cs            $30      7     0   OUT
-  12  Bag Fee                              363u/363cs         $0    363     0   OUT
-  13  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
-  14  Loon Strawberry 14mg                 5u/1cs            $30      6     0   OUT
-  15  Charm Social Tonic Lemon Ginger 12o  8u/8cs            $19      8     0   OUT
-  16  Loon Arctic Grape 14mg               5u/1cs            $30      7     0   OUT
+  11  Loon Green Apple 14mg                5u/1cs            $30      7     0   OUT
+  12  Loon Pouches Bad Bull 14mg 20pk      5u/1cs            $30      7     0   OUT
+  13  Bag Fee                              371u/371cs         $0    371     0   OUT
+  14  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
+  15  Loon Strawberry 14mg                 5u/1cs            $30      6     0   OUT
+  16  Charm Social Tonic Lemon Ginger 12o  8u/8cs            $19      8     0   OUT
   17  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
-  18  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
-  19  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
-  20  Minute Maid Fruit Punch 2L           16u/2cs           $43     15     0   OUT
-  ...and 34 more in the full list.
+  18  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
+  19  Minute Maid Fruit Punch 2L           16u/2cs           $43     14     0   OUT
+  20  Camel Platinum                       1u/1cs            $14      1     0   OUT
+  ...and 30 more in the full list.
 
-  NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
-    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~9/wk vs 6 now, buy ahead?
+  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~9/wk vs 5 now, buy ahead?
     Marlboro Light                            No cost data - verify price; Margin over 95% - check retail
     Wedding Delivery Fee                      No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
@@ -48,3 +48,4 @@
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Loon Pouches Bad Bull 28mg 20pk           Seasonal - last year ~4/wk vs 1 now, buy ahead?
+    Fresh Limes                               Margin looks off - check retail/cost; Seasonal - last year ~2/wk vs 0 now, buy ahead?
