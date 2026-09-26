@@ -1,22 +1,22 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Friday, Sep 25, 2026
+  RECOMMENDED OTHER ORDER          Saturday, Sep 26, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     23,107
-  Coverable by transfer .......  $     12,084   (52%)
-  NET BUY from vendors ........  $      7,607   <- the order
+  Gross need (all stores) .....  $     23,323
+  Coverable by transfer .......  $     12,720   (55%)
+  NET BUY from vendors ........  $      7,291   <- the order
 
-  55 items   |   3,076 units to buy   |   3,207 units to rebalance
-  Transfers: 278 moves  -  236 urgent (92 stockouts, 144 under 2wk), 42 routine
+  53 items   |   2,790 units to buy   |   3,025 units to rebalance
+  Transfers: 260 moves  -  215 urgent (75 stockouts, 140 under 2wk), 45 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           16u/16cs           $0     16     0   OUT
-   2  Middletons Black & Mild Single       50u/2cs           $74     45     0   OUT
-   3  Dole Strawberry Lemonade 2L          8u/1cs            $20      8     0   OUT
+   1  Non-Refundable Transaction           6u/6cs             $0      6     0   OUT
+   2  *NEW AMSTERDAM GLASSWARE             7u/7cs             $0      7     0   OUT
+   3  Middletons Black & Mild Single       50u/2cs           $74     47     0   OUT
    4  Marlboro Light                       1u/1cs             $0      1     0   OUT
    5  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
    6  Loon Pouch Arctic Lemon 7mg          20u/4cs          $120     21     0   OUT
@@ -27,17 +27,18 @@
   11  Loon Green Apple 14mg                5u/1cs            $30      7     0   OUT
   12  Loon Pouches Bad Bull 14mg 20pk      5u/1cs            $30      7     0   OUT
   13  Loon Pouches Bad Bull 28mg 20pk      5u/1cs            $30      7     0   OUT
-  14  On Nicotine Pouch 8mg Original       5u/1cs            $37      5     0   OUT
-  15  Bag Fee                              371u/371cs         $0    371     0   OUT
-  16  MTN Dew Baja Blast 2L                8u/1cs            $14     10     0   OUT
+  14  Charm Social Tonic Lemon Ginger 12o  10u/10cs          $24     10     0   OUT
+  15  On Nicotine Pouch 8mg Original       5u/1cs            $37      5     0   OUT
+  16  Bag Fee                              370u/370cs         $0    370     0   OUT
   17  Loon Strawberry 14mg                 5u/1cs            $30      6     0   OUT
-  18  Charm Social Tonic Lemon Ginger 12o  8u/8cs            $19      8     0   OUT
-  19  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
+  18  Alani Nu Purple Cotton Candy 12oz    12u/1cs           $21      7     0   OUT
+  19  Loon Cinnamon OG 14mg                5u/1cs            $30      4     0   OUT
   20  Spiegelau 19.1 oz Craft IPA Glass S  1u/1cs            $12      1     0   OUT
-  ...and 35 more in the full list.
+  ...and 33 more in the full list.
 
   NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
-    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~9/wk vs 4 now, buy ahead?
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~9/wk vs 1 now, buy ahead?
+    *NEW AMSTERDAM GLASSWARE                  No cost data - verify price; Margin over 95% - check retail
     Marlboro Light                            No cost data - verify price; Margin over 95% - check retail
     Wedding Delivery Fee                      No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
@@ -45,7 +46,6 @@
     Loon Pouches Bad Bull 28mg 20pk           Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Loon Strawberry 14mg                      Seasonal - last year ~2/wk vs 1 now, buy ahead?
-    *NEW AMSTERDAM GLASSWARE                  No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Fresh Limes                               Margin looks off - check retail/cost; Seasonal - last year ~2/wk vs 0 now, buy ahead?
+    Fresh Limes                               Margin looks off - check retail/cost; Seasonal - last year ~3/wk vs 0 now, buy ahead?

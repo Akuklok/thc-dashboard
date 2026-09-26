@@ -1,25 +1,15 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
-Receiving,842094109418,For You Botanical Single Bottle Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Receiving,842094153343,"Long Bamboo Appetizer Picks 7""","True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Receiving,876718047664,Colorful Cheers Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Receiving,876718048074,Shotski Classic Shot Glass by True,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
 Receiving,657891720205,Liberty School Reserve Cab Sauv 750ml,"Grape Beginnings, Inc.",Andover,1035014,Receiving,1.0,,,Wine,Cabernet,,,2026-09-21T00:00:00
-Receiving,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Woodbury,1035166,Receiving,1.0,,,Wine,Cabernet,,,2026-09-21T00:00:00
 Receiving,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1034521-9.21.26,Receiving,1.0,,,Wine,Cabernet,Store Request,,2026-09-14T00:00:00
-Receiving,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Blaine,1034184-9.21.26,Receiving,1.0,,,Wine,Chardonnay,Store Request,,2026-09-07T00:00:00
-Receiving,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,notdelivered,2026-09-23T00:00:00
 Receiving,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Andover,1035173,Receiving,0.08,,,Wine,Chardonnay,Free Goods,,2026-09-23T00:00:00
-Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
+Receiving,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,notdelivered,2026-09-23T00:00:00
 Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
+Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
 Receiving,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1035016,Receiving,1.0,,,Wine,Other Reds,,,2026-09-21T00:00:00
 Receiving,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Plymouth,1035176,Receiving,0.25,0.0,-0.25,Wine,Pinot Noir,Distro,not delivered,2026-09-23T00:00:00
 Receiving,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Andover,1035172,Receiving,0.25,,,Wine,Pinot Noir,Distro,,2026-09-23T00:00:00
-Receiving,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Andover,1035173,Receiving,0.08,,,Wine,Sauvignon Blanc,Free Goods,,2026-09-23T00:00:00
 Receiving,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Sauvignon Blanc,Free Goods,not delivered,2026-09-23T00:00:00
-Receiving,837571004454,Prisma Sauvignon Blanc 750ml,Libation Project,Blaine,1035036,Receiving,1.0,,,Wine,Sauvignon Blanc,Store Request,,2026-09-21T00:00:00
-Receiving,087113112950,Albert Bichot Cremant de Bourgogne Brut Rose 750ml,"Grape Beginnings, Inc.",Blaine,1035034,Receiving,1.0,,,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
-Receiving,087113112998,Albert Bichot Cremant de Bourgogne Brut 750ml,"Grape Beginnings, Inc.",Blaine,1035034,Receiving,1.0,,,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
+Receiving,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Andover,1035173,Receiving,0.08,,,Wine,Sauvignon Blanc,Free Goods,,2026-09-23T00:00:00
 Discrepancy,857680001960,Clay Shannon Napa Cabernet Sauvignon 750ml,Paustis Wine,Rosemount,1028709-7.20.26-Version 3,Inventory Received,1.0,0.67,-0.33,Wine,Cabernet,"Month End
 PO Created per JM to correct product cost reporting",,2026-09-25T14:00:28.3095677
 Discrepancy,049331021094,La Crema Mont Chardonnay 750ml,Johnson Brothers - St. Paul,Andover,1034158,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,MI,2026-09-07T00:00:00
@@ -41,7 +31,7 @@ Discrepancy,082242016780,Bota Box Breeze Pinot Grigio 3L Box,Phillips Wine & Spi
 Discrepancy,082242016780,Bota Box Breeze Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1034182-9.14.26,Inventory Received,5.0,1.0,-4.0,Wine,Pinot Grigio/Gris,Store Request,partially received ,2026-09-07T00:00:00
 Discrepancy,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Blaine,1034184,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Store Request,not delivered yet ,2026-09-07T00:00:00
 Discrepancy,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Blaine,1034184-9.14.26,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Store Request,OOS,2026-09-07T00:00:00
-Discrepancy,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Blaine,1034184-9.21.26,Receiving,1.0,,,Wine,Chardonnay,Store Request,,2026-09-07T00:00:00
+Discrepancy,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Blaine,1034184-9.21.26,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Store Request,not delivered yet ,2026-09-07T00:00:00
 Discrepancy,089419000160,La Vieille Ferme Rose 3L Box,The Wine Company,Blaine,1034185,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,not delivered yet ,2026-09-07T00:00:00
 Discrepancy,089819158027,Matua Valley Sauv Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Bloomington,1034186,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,MI,2026-09-07T00:00:00
 Discrepancy,082242011013,Bota Box Chardonnay 500ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1034197,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,BO,2026-09-07T00:00:00
@@ -238,9 +228,9 @@ Discrepancy,082242016797,Bota Box Breeze Red Blend 3L Box,Phillips Wine & Spirit
 Discrepancy,082242017558,Bota Box Merlot 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1035029,Inventory Received,1.0,0.0,-1.0,Wine,Merlot,,mi,2026-09-21T00:00:00
 Discrepancy,088586603846,Chateau Ste Michelle Chardonnay 750ml,Southern Glazer's Wine & Spirits of MN,Blaine,1035031,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,Misspick ,2026-09-21T00:00:00
 Discrepancy,763955703722,Vina Palaciega Cava Brut Rose 750ml,Bellboy Corporation,Blaine,1035032,Inventory Received,2.0,0.0,-2.0,Wine,Sparkling,Store Request,not on truck ,2026-09-21T00:00:00
-Discrepancy,087113112950,Albert Bichot Cremant de Bourgogne Brut Rose 750ml,"Grape Beginnings, Inc.",Blaine,1035034,Receiving,1.0,,,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
-Discrepancy,087113112998,Albert Bichot Cremant de Bourgogne Brut 750ml,"Grape Beginnings, Inc.",Blaine,1035034,Receiving,1.0,,,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
-Discrepancy,837571004454,Prisma Sauvignon Blanc 750ml,Libation Project,Blaine,1035036,Receiving,1.0,,,Wine,Sauvignon Blanc,Store Request,,2026-09-21T00:00:00
+Discrepancy,087113112950,Albert Bichot Cremant de Bourgogne Brut Rose 750ml,"Grape Beginnings, Inc.",Blaine,1035034,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,Store Request,not delivered yet ,2026-09-21T00:00:00
+Discrepancy,087113112998,Albert Bichot Cremant de Bourgogne Brut 750ml,"Grape Beginnings, Inc.",Blaine,1035034,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,Store Request,not delivered yet ,2026-09-21T00:00:00
+Discrepancy,837571004454,Prisma Sauvignon Blanc 750ml,Libation Project,Blaine,1035036,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,Store Request,not delivered yet ,2026-09-21T00:00:00
 Discrepancy,842094171057,Bubbles Single Bottle Bag,"True Brands, Inc.",Blaine,1035041,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,out of stock ,2026-09-21T00:00:00
 Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Blaine,1035041,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,out of stock ,2026-09-21T00:00:00
 Discrepancy,795652200518,Jinro Chamisul Classico Soju 20.1% 750ml,Johnson Brothers - St. Paul,Bloomington,1035042,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-09-21T00:00:00
@@ -282,11 +272,7 @@ Discrepancy,086003255067,The Prisoner Wine Co Prisoner Red Blend 750ml,Southern 
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Rosemount,1035114,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,Bo,2026-09-21T00:00:00
 Discrepancy,082242017633,Bota Box Breeze Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Rosemount,1035114,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,Bo,2026-09-21T00:00:00
 Discrepancy,682417072001,Three Rivers Cabernet Sauvignon 750ml,Southern Glazer's Wine & Spirits of MN,Rosemount,1035116,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,Mi,2026-09-21T00:00:00
-Discrepancy,842094109418,For You Botanical Single Bottle Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Discrepancy,842094153343,"Long Bamboo Appetizer Picks 7""","True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Discrepancy,876718047664,Colorful Cheers Wine Bag by Cakewalk,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
-Discrepancy,876718048074,Shotski Classic Shot Glass by True,"True Brands, Inc.",Rosemount,1035117,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-09-21T00:00:00
+Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Rosemount,1035117,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,ND,2026-09-21T00:00:00
 Discrepancy,012354001121,Penfold's Max's Cabernet 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Roseville,1035119,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mispick mi,2026-09-21T00:00:00
 Discrepancy,605779976206,Jinro Plum 375ml,Johnson Brothers - St. Paul,Roseville,1035121,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,mi,2026-09-21T00:00:00
 Discrepancy,8414219019807,Nave Sur Verdejo Rueda,Oxford Street Merchants,Roseville,1035123,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,mi,2026-09-21T00:00:00
@@ -318,7 +304,7 @@ Discrepancy,031259009469,Yellow Tail Cab Sauvignon 1.5L,Phillips Wine & Spirits 
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Vadnais Heights,1035159,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-09-21T00:00:00
 Discrepancy,082242017633,Bota Box Breeze Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Vadnais Heights,1035159,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,MI,2026-09-21T00:00:00
 Discrepancy,8801100130978,Good Day Lychee Soju 375ml,"Vinocopia, Inc",Vadnais Heights,1035162,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-09-21T00:00:00
-Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Woodbury,1035166,Receiving,1.0,,,Wine,Cabernet,,,2026-09-21T00:00:00
+Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Woodbury,1035166,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-09-21T00:00:00
 Discrepancy,085000007488,Andre Extra Dry 750ml,Johnson Brothers - St. Paul,Woodbury,1035167,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,BO,2026-09-21T00:00:00
 Discrepancy,605779976206,Jinro Plum 375ml,Johnson Brothers - St. Paul,Woodbury,1035167,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-09-21T00:00:00
 Discrepancy,031259009469,Yellow Tail Cab Sauvignon 1.5L,Phillips Wine & Spirits - St. Paul,Woodbury,1035169,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,BO,2026-09-21T00:00:00
