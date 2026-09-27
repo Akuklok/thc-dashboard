@@ -2,13 +2,8 @@
 Receiving,657891720205,Liberty School Reserve Cab Sauv 750ml,"Grape Beginnings, Inc.",Andover,1035014,Receiving,1.0,,,Wine,Cabernet,,,2026-09-21T00:00:00
 Receiving,853868006703,Pavette Cabernet Sauvignon 750ml,Libation Project,Minnetonka,1034521-9.21.26,Receiving,1.0,,,Wine,Cabernet,Store Request,,2026-09-14T00:00:00
 Receiving,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Andover,1035173,Receiving,0.08,,,Wine,Chardonnay,Free Goods,,2026-09-23T00:00:00
-Receiving,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,notdelivered,2026-09-23T00:00:00
-Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
-Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
 Receiving,678113000165,Ercole Monferratto Rosso Liter,Libation Project,Andover,1035016,Receiving,1.0,,,Wine,Other Reds,,,2026-09-21T00:00:00
-Receiving,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Plymouth,1035176,Receiving,0.25,0.0,-0.25,Wine,Pinot Noir,Distro,not delivered,2026-09-23T00:00:00
 Receiving,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Andover,1035172,Receiving,0.25,,,Wine,Pinot Noir,Distro,,2026-09-23T00:00:00
-Receiving,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Sauvignon Blanc,Free Goods,not delivered,2026-09-23T00:00:00
 Receiving,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Andover,1035173,Receiving,0.08,,,Wine,Sauvignon Blanc,Free Goods,,2026-09-23T00:00:00
 Discrepancy,857680001960,Clay Shannon Napa Cabernet Sauvignon 750ml,Paustis Wine,Rosemount,1028709-7.20.26-Version 3,Inventory Received,1.0,0.67,-0.33,Wine,Cabernet,"Month End
 PO Created per JM to correct product cost reporting",,2026-09-25T14:00:28.3095677
@@ -78,7 +73,7 @@ Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - 
 Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Plymouth,1034241,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,not on truck,2026-09-07T00:00:00
 Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,notdelivered,2026-09-07T00:00:00
 Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.14.26,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,no del,2026-09-07T00:00:00
-Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
+Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-9.21.26,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,not delivered,2026-09-07T00:00:00
 Discrepancy,089419000160,La Vieille Ferme Rose 3L Box,The Wine Company,Plymouth,1034244,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,no delivery,2026-09-07T00:00:00
 Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Ramsey,1034248,Inventory Received,2.0,0.0,-2.0,Wine,Pinot Grigio/Gris,,,2026-09-07T00:00:00
 Discrepancy,082242016780,Bota Box Breeze Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Ramsey,1034248,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,,2026-09-07T00:00:00
@@ -95,7 +90,7 @@ Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine 
 Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1034273,Inventory Received,2.0,0.0,-2.0,Wine,Fortified,,mi,2026-09-07T00:00:00
 Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,MI,2026-09-07T00:00:00
 Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-9.14.26,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,mi,2026-09-07T00:00:00
-Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-9.21.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
+Discrepancy,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-9.21.26,Inventory Received,0.5,0.0,-0.5,Wine,Fortified,Store Request,MI,2026-09-07T00:00:00
 Discrepancy,3830000654395,Pullus Pinot Grigio 750ml,"New France Wine Co, Inc",Roseville,1034278,Inventory Received,3.0,0.0,-3.0,Wine,Pinot Grigio/Gris,Store Request,mi,2026-09-07T00:00:00
 Discrepancy,3830000654395,Pullus Pinot Grigio 750ml,"New France Wine Co, Inc",Roseville,1034278-9.14.26,Inventory Received,3.0,1.0,-2.0,Wine,Pinot Grigio/Gris,Store Request,mi ,2026-09-07T00:00:00
 Discrepancy,3830000654395,Pullus Pinot Grigio 750ml,"New France Wine Co, Inc",Roseville,1034278-9.21.26,Inventory Received,2.0,1.0,-1.0,Wine,Pinot Grigio/Gris,Store Request,mi,2026-09-07T00:00:00
@@ -318,9 +313,9 @@ Discrepancy,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Andov
 Discrepancy,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Chanhassen,1035174,Inventory Received,0.25,0.0,-0.25,Wine,Pinot Noir,Distro,MI,2026-09-23T00:00:00
 Discrepancy,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Chanhassen,1035175,Inventory Received,0.08,0.0,-0.08,Wine,Sauvignon Blanc,Free Goods,MI,2026-09-23T00:00:00
 Discrepancy,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Chanhassen,1035175,Inventory Received,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,MI,2026-09-23T00:00:00
-Discrepancy,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Plymouth,1035176,Receiving,0.25,0.0,-0.25,Wine,Pinot Noir,Distro,not delivered,2026-09-23T00:00:00
-Discrepancy,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Sauvignon Blanc,Free Goods,not delivered,2026-09-23T00:00:00
-Discrepancy,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Plymouth,1035177,Receiving,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,notdelivered,2026-09-23T00:00:00
+Discrepancy,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Plymouth,1035176,Inventory Received,0.25,0.0,-0.25,Wine,Pinot Noir,Distro,not delivered,2026-09-23T00:00:00
+Discrepancy,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Plymouth,1035177,Inventory Received,0.08,0.0,-0.08,Wine,Sauvignon Blanc,Free Goods,not delivered,2026-09-23T00:00:00
+Discrepancy,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Plymouth,1035177,Inventory Received,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,notdelivered,2026-09-23T00:00:00
 Discrepancy,097921176105,Rombauer Pinot Noir 750ml,Oxford Street Merchants,Woodbury,1035178,Inventory Received,0.25,0.0,-0.25,Wine,Pinot Noir,Distro,MI,2026-09-23T00:00:00
 Discrepancy,097921877101,Rombauer Sauvignon Blanc 750ml,Oxford Street Merchants,Woodbury,1035179,Inventory Received,0.08,0.0,-0.08,Wine,Sauvignon Blanc,Free Goods,MI,2026-09-23T00:00:00
 Discrepancy,097921970109,Rombauer Chardonnay 750ml,Oxford Street Merchants,Woodbury,1035179,Inventory Received,0.08,0.0,-0.08,Wine,Chardonnay,Free Goods,MI,2026-09-23T00:00:00
