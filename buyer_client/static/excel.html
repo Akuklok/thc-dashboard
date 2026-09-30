@@ -144,6 +144,28 @@
     else c.style.display='none';
   }
 
+  // The Master order sheet has its header on row 1 (THC/Wine) or row 4 (Spirits, under a budget
+  // banner). Find the real header row inside the used-range values instead of assuming row 0.
+  function headerRowIdx(vals){
+    for(let r=0;r<Math.min(vals.length,8);r++){
+      const row=(vals[r]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
+      if(row.includes('case qto') || (row.includes('product description') && row.includes('oh'))) return r;
+    }
+    return 0;
+  }
+  // Build a single setValues action that rewrites the whole Case QTO data column, so one Approve
+  // applies every trim/cut at once (OH After / WOS / Ext Price recalc from their formulas).
+  // changes: Map of absolute-row-number -> new Case QTO. Untouched rows keep their current value.
+  function qtoSetAction(off, bci, top, hdrIdx, vals, changes){
+    const ql=colLetter(off+bci), first=top+hdrIdx+1;
+    const out=[];
+    for(let i=hdrIdx+1;i<vals.length;i++){
+      const abs=top+i, cur=(vals[i]||[])[bci];
+      out.push([changes.has(abs) ? changes.get(abs) : (cur==null?'':cur)]);
+    }
+    return {op:'setValues', address: ql+first, values: out};
+  }
+
   // Right-size: flag where the buy is more than needed to cover a minimum weeks-of-supply floor,
   // so a budget-tight buyer can trim cases (not drop items). Highlights + shows the lean qty; her call.
   async function rightSize(){
@@ -154,34 +176,41 @@
     try{ data=await Excel.run(async c=>{ const sh=c.workbook.worksheets.getActiveWorksheet(); const u=sh.getUsedRange(); u.load('values,address'); await c.sync(); return {vals:u.values||[], addr:u.address}; }); }
     catch(e){ status('Could not read the sheet: '+(e.message||e)); return; }
     const vals=data.vals; if(vals.length<2){ status('No order rows to work with.'); return; }
-    const hdr=(vals[0]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
+    const hdrIdx=headerRowIdx(vals);
+    const hdr=(vals[hdrIdx]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
     const find=ns=>{ for(const n of ns){ const i=hdr.indexOf(n); if(i>=0) return i; } return -1; };
-    const ohi=find(['chain oh (toh)','chain oh','toh','on hand','oh']);
-    const wi=find(['wos','weeks of supply']); const bci=find(['buy cases','cases ordered']);
-    const bui=find(['buy units','buy qty']); const ci=find(['unit cost','cost','net unit cost']);
-    const di=find(['deal terms']);
-    if(ohi<0||wi<0||bci<0){ status('I need On-hand, WOS, and Buy Cases columns to right-size the order.'); return; }
+    const ohi=find(['oh','chain oh (toh)','chain oh','on hand','toh']);      // sellable on-hand (prefer OH over TOH)
+    const v30i=find(['30d']);                                                // raw units sold last 30d = current velocity
+    const wi=find(['30d wos','wos','weeks of supply','90d wos']);            // fallback if 30D is missing
+    const bci=find(['case qto','buy cases','cases ordered']);                // the editable order qty
+    const cpi=find(['case qty/reorder multiple','cases per','case pack']);   // units per case
+    const ppi=find(['purchase price','po case cost','case cost','unit cost','cost']);  // $ per case
+    const di=find(['deal terms']);                                           // not on the Master (ad items are color-flagged)
+    if(ohi<0||bci<0||(v30i<0&&wi<0)){ status('I need On-hand, Case QTO, and a 30D (or WOS) column to right-size. Is the order sheet active?'); return; }
     const toN=v=>{ const x=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(x)?0:x; };
-    const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[0]||[]).length;
+    const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[hdrIdx]||[]).length;
     const left=colLetter(off), right=colLetter(off+ncol-1);
     const budget=parseFloat(String($('budgetIn')?$('budgetIn').value:'').replace(/[$,\s]/g,''));  // optional
-    // per-line $ = unit cost x buy units; if there's no unit-cost column, detect an extended-$ column
-    const cc = ci<0 ? findCostCol(hdr, vals) : {i:-1, guessed:false}; const ei=cc.i;
-    const costNote = (budget && cc.guessed) ? ('(Totaled the "'+(String((vals[0]||[])[ei]||'').trim()||('col '+colLetter(off+ei)))+'" column as order $.) ') : '';
+    // per-line $ = the Master's Ext Price column (= Case QTO x Purchase Price, already computed); fall
+    // back to a detected extended-$ column, then to Case QTO x Purchase Price if neither is present.
+    const exi=find(['ext price','net buy $','extended cost','ext cost','line total','order total']);
+    const cc = exi>=0 ? {i:exi, guessed:false} : findCostCol(hdr, vals); const ei=cc.i;
+    const costNote = (budget && cc.guessed) ? ('(Totaled the "'+(String((vals[hdrIdx]||[])[ei]||'').trim()||('col '+colLetter(off+ei)))+'" column as order $.) ') : '';
     const cand=[]; let total=0, freedAll=0;
-    for(let r=1;r<vals.length;r++){
-      const row=vals[r]; const oh=toN(row[ohi]), wos=toN(row[wi]), bc=toN(row[bci]);
-      const bu=bui>=0?toN(row[bui]):bc, cost=ci>=0?toN(row[ci]):0;
-      const line=ci>=0 ? bu*cost : (ei>=0 ? toN(row[ei]) : 0); total+=line;
+    for(let r=hdrIdx+1;r<vals.length;r++){
+      const row=vals[r]||[]; const oh=toN(row[ohi]), bc=toN(row[bci]);
+      const cp=(cpi>=0?toN(row[cpi]):0)||1;                 // units per case
+      const pp=ppi>=0?toN(row[ppi]):0;                      // $ per case
+      const vel=v30i>=0 ? toN(row[v30i])*7/30 : (wi>=0 && toN(row[wi])>0 && oh>0 ? oh/toN(row[wi]) : 0);  // units/week
+      const line=ei>=0 ? toN(row[ei]) : (pp>0 ? bc*pp : 0); total+=line;
       if(bc<1) continue;
-      const cp=(bu>0&&bc>0)?bu/bc:1; const vel=(wos>0&&oh>0)?oh/wos:0;
-      if(vel<=0) continue;                                  // out of stock -> needs the full buy, never trim
+      if(vel<=0) continue;                                  // no recent sales -> can't judge a floor, leave it alone
       const lean=Math.max(0, Math.ceil(Math.max(0, minw*vel-oh)/cp));
       if(bc-lean<1) continue;                               // can't drop a full case
-      const percase=ci>=0 ? cp*cost : (bc>0?line/bc:0);     // $ freed per case trimmed
+      const percase=pp>0 ? pp : (bc>0?line/bc:0);           // $ freed per case trimmed
       const isad=(di>=0 && String(row[di]||'').toUpperCase().includes('ON AD'));
       const maxfree=(bc-lean)*percase; freedAll+=maxfree;
-      cand.push({rn:top+r, wos:wos, bc:bc, lean:lean, percase:percase, isad:isad, maxfree:maxfree});
+      cand.push({rn:top+r, wos:(oh+lean*cp)/vel, bc:bc, lean:lean, cp:cp, oh:oh, vel:vel, percase:percase, isad:isad, maxfree:maxfree});
     }
     if(!cand.length){ status('Nothing to trim - every order is already at or below '+minw+' weeks.'); return; }
 
@@ -207,8 +236,13 @@
       if(trim>0) picks.push({f:f, newbc:f.bc-trim, saved:trim*f.percase});
     }
     if(!picks.length){ status(costNote+'Could not find cases to trim above the '+minw+'-week floor.'); return; }
-    const actions=picks.map(p=>({op:'highlight', address:left+p.f.rn+':'+right+p.f.rn, color:'#FFF2CC',
-      note:p.f.bc+' cs -> '+p.newbc+' cs (WOS '+p.f.wos.toFixed(1)+', keeps '+minw+'wk floor, save $'+Math.round(p.saved).toLocaleString()+')'+(p.f.isad?' - ON AD':'')}));
+    // One setValues rewrites Case QTO to the trimmed counts (OH After / WOS / Ext recalc from formulas),
+    // so Approve applies the whole trim in one shot; the highlights just show which rows changed.
+    const changes=new Map(picks.map(p=>[p.f.rn, p.newbc]));
+    const setAct=qtoSetAction(off, bci, top, hdrIdx, vals, changes);
+    setAct.note='Set the trimmed Case QTO on '+picks.length+' item(s) (applies the whole trim in one write)';
+    const actions=[setAct].concat(picks.map(p=>({op:'highlight', address:left+p.f.rn+':'+right+p.f.rn, color:'#FFF2CC',
+      note:p.f.bc+' cs -> '+p.newbc+' cs (WOS '+p.f.wos.toFixed(1)+', keeps '+minw+'wk floor, save $'+Math.round(p.saved).toLocaleString()+')'+(p.f.isad?' - ON AD':'')})));
     const newtot=total-freed;
     plan={summary: (freed<gap-0.5)
       ? costNote+'Even trimming all '+picks.length+' overstocked items to the '+minw+'-week floor only gets you from $'+Math.round(total).toLocaleString()+' to $'+Math.round(newtot).toLocaleString()+' - still over $'+Math.round(budget).toLocaleString()+'. Lower the floor, or use Fit to budget to drop whole lines.'
@@ -369,29 +403,40 @@
     try{ data=await Excel.run(async c=>{ const sh=c.workbook.worksheets.getActiveWorksheet(); const used=sh.getUsedRange(); used.load('values,address'); await c.sync(); return {vals:used.values||[], addr:used.address}; }); }
     catch(e){ status('Could not read the sheet: '+(e.message||e)); return; }
     const vals=data.vals; if(vals.length<2){ status('No order rows to work with.'); return; }
-    const hdr=(vals[0]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
+    const hdrIdx=headerRowIdx(vals);
+    const hdr=(vals[hdrIdx]||[]).map(h=>String(h==null?'':h).trim().toLowerCase());
     const find=ns=>{ for(const n of ns){ const i=hdr.indexOf(n); if(i>=0) return i; } return -1; };
-    const cc=findCostCol(hdr, vals); const ni=cc.i;
-    const wi=find(['wos','weeks of supply']); const ii=find(['item','product description','description']);
-    if(ni<0){ status('I could not find a dollar column (like "Net Buy $" = cases x cost) to total. Add one with numbers in it, then try again.'); return; }
+    const cc=findCostCol(hdr, vals); const ni=cc.i;                          // order $ per line (Ext Price on the Master)
+    const wi=find(['90d wos','30d wos','wos','weeks of supply']);            // drop the longest-supplied first
+    const ii=find(['product description','description','item']);
+    const bci=find(['case qto','buy cases','cases ordered']);                // zero this to drop a line
+    if(ni<0){ status('I could not find a dollar column (like "Ext Price" = Case QTO x cost) to total. Is the order sheet active?'); return; }
     const toN=v=>{ const n=parseFloat(String(v==null?'':v).replace(/[$,]/g,'')); return isNaN(n)?0:n; };
-    const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[0]||[]).length;
+    const off=startCol(data.addr), top=startRow(data.addr), ncol=(vals[hdrIdx]||[]).length;
     const left=colLetter(off), right=colLetter(off+ncol-1);
-    const costNote=cc.guessed ? ('Read the "'+(String((vals[0]||[])[ni]||'').trim()||('column '+colLetter(off+ni)))+'" column (col '+colLetter(off+ni)+') as your order $ - rename it "Net Buy $" if that is the wrong column. ') : '';
+    const costNote=cc.guessed ? ('Read the "'+(String((vals[hdrIdx]||[])[ni]||'').trim()||('column '+colLetter(off+ni)))+'" column (col '+colLetter(off+ni)+') as your order $ - rename it "Ext Price" if that is the wrong column. ') : '';
     const rows=[];
-    for(let r=1;r<vals.length;r++){ rows.push({rn:top+r, net:toN(vals[r][ni]), wos:(wi>=0?toN(vals[r][wi]):0), item:(ii>=0?String(vals[r][ii]||''):('row '+(top+r)))}); }
+    for(let r=hdrIdx+1;r<vals.length;r++){ rows.push({rn:top+r, net:toN((vals[r]||[])[ni]), wos:(wi>=0?toN((vals[r]||[])[wi]):0), item:(ii>=0?String((vals[r]||[])[ii]||''):('row '+(top+r)))}); }
     const total=rows.reduce((a,x)=>a+x.net,0);
     if(total<=budget){ status(costNote+'Order is $'+Math.round(total).toLocaleString()+', already within $'+Math.round(budget).toLocaleString()+'. Nothing to cut.'); return; }
     const cuts=[]; let removed=0;
     for(const x of rows.slice().sort((a,b)=>(b.wos-a.wos)||(b.net-a.net))){ if(total-removed<=budget) break; if(x.net<=0) continue; cuts.push(x); removed+=x.net; }
     if(!cuts.length){ status('Could not find enough to cut to hit that budget.'); return; }
-    const actions=cuts.map(x=>({op:'highlight', address:left+x.rn+':'+right+x.rn, color:'#FFC7CE', note:'Cut: '+x.item.slice(0,34)+' ($'+Math.round(x.net).toLocaleString()+')'}));
-    plan={summary:costNote+'Drop these '+cuts.length+' least-urgent items ($'+Math.round(removed).toLocaleString()+') to go from $'+Math.round(total).toLocaleString()+' to $'+Math.round(total-removed).toLocaleString()+', under your $'+Math.round(budget).toLocaleString()+' budget.', actions:actions};
+    const hi=cuts.map(x=>({op:'highlight', address:left+x.rn+':'+right+x.rn, color:'#FFC7CE', note:'Cut: '+x.item.slice(0,34)+' ($'+Math.round(x.net).toLocaleString()+')'}));
+    // If we found the Case QTO column, one write zeroes those lines (Ext Price / order total recalc);
+    // otherwise fall back to highlight-only so the buyer can zero them by hand.
+    let actions=hi;
+    if(bci>=0){
+      const setAct=qtoSetAction(off, bci, top, hdrIdx, vals, new Map(cuts.map(x=>[x.rn, 0])));
+      setAct.note='Set Case QTO to 0 on '+cuts.length+' dropped item(s) (applies the cut in one write)';
+      actions=[setAct].concat(hi);
+    }
+    plan={summary:costNote+'Drop these '+cuts.length+' least-urgent items ($'+Math.round(removed).toLocaleString()+') to go from $'+Math.round(total).toLocaleString()+' to $'+Math.round(total-removed).toLocaleString()+', under your $'+Math.round(budget).toLocaleString()+' budget.'+(bci<0?' (No Case QTO column found - I will highlight them for you to zero out.)':''), actions:actions};
     renderPlan(plan); status('');
   }
   function describe(a){
     switch(a.op){
-      case 'setValues': return `Write ${(a.values||[]).length} row(s) at ${a.sheet?a.sheet+'!':''}${a.address}`;
+      case 'setValues': return a.note ? a.note : `Write ${(a.values||[]).length} row(s) at ${a.sheet?a.sheet+'!':''}${a.address}`;
       case 'clearValues': return `Clear ${a.sheet?a.sheet+'!':''}${a.address}`;
       case 'deleteRowsWhere': return `Delete rows where ${a.column} is ${a.test}${a.value!=null?(' '+a.value):''} (${a.sheet||'active sheet'})`;
       case 'highlight': return a.note ? a.note : `Highlight ${a.sheet?a.sheet+'!':''}${a.address} ${a.color||''}`;
