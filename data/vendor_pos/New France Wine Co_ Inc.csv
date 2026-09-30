@@ -1,5 +1,6 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Bloomington,PO0000001926,638362696403,Keepsake Happenstance Dry Cider 750ml,KeepsakeHappenstance,12,1.0,160.0,0.0,Store Request
-Bloomington,PO0000001926,745051321031,Keepsake (Au)ra Dry Sparkling Cider 750ml,Keepsake(Au)raNEW,12,1.0,168.0,0.0,Store Request
-Bloomington,PO0000001926,745051321086,Keepsake Wood & Spirits Off-Dry Cider 750ml,KeepsakeWoodSpirits,12,1.0,160.0,0.0,Store Request
-Bloomington,PO0000001926,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,0.0,Store Request
+Blaine,1035329,021037010190,Jeppson's Malort 750ml,JeppsonMalort,12,1.0,228.0,228.0,Store Request
+Blaine,1035653,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Roseville,1035813,3760072420126,J Laurens Demoiselles Brut 750ml,LaurensDemoiselles,12,1.0,224.0,224.0,
+Blaine,1035653,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,1.0,144.0,144.0,
+Blaine,1035653,695798115328,G. D. Vajra Langhe Rosso,VajraRosso23,12,1.0,144.0,144.0,
