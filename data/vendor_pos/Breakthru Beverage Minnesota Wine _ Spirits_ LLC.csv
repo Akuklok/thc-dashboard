@@ -1,22 +1,17 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
 Roseville,1035798,012354001121,Penfold's Max's Cabernet 750ml,9237992,12,1.0,144.0,144.0,
 St. Louis Park,1035825,012354001121,Penfold's Max's Cabernet 750ml,9237992,12,1.0,144.0,144.0,
-Woodbury,1035882,012354001121,Penfold's Max's Cabernet 750ml,9237992,12,1.0,144.0,144.0,
 Minneapolis,1035404,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
-Minnetonka,1035423,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
 Minneapolis,PO0000001974,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.76,0.0,Allocated
 Minneapolis,PO0000001974,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,0.0,Allocated
 Minneapolis,PO0000001974,080244009236,Buffalo Trace 750ml,9031303,12,0.42,234.0,0.0,Allocated
-Minnetonka,PO0000001969,080244009236,Buffalo Trace 750ml,9031303,12,0.17,234.0,0.0,Allocated
 Plymouth,PO0000001968,080244009236,Buffalo Trace 750ml,9031303,12,0.33,234.0,0.0,Allocated
 Roseville,PO0000001959,080244009236,Buffalo Trace 750ml,9031303,12,0.42,234.0,97.5,Allocated
 St. Louis Park,PO0000001967,080244009236,Buffalo Trace 750ml,9031303,12,0.42,234.0,0.0,Allocated
-Woodbury,PO0000001964,080244009236,Buffalo Trace 750ml,9031303,12,0.5,234.0,0.0,Allocated
 St. Louis Park,1035825,082896780419,Bonterra Chardonnay 750ml,9700108,12,1.0,88.0,88.0,
 St. Louis Park,1035541,083664868780,Hendrick's Gin Liter,9001723,6,1.0,189.0,189.0,Breakthru Sept Month End
 Minneapolis,1035404,083664868940,Milagro Reposado Tequila 750ml,9001701,6,5.0,107.0,535.0,
 St. Louis Park,1035539,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
-Woodbury,1035600,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
 Roseville,1035519,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,Breakthru Sept Month End
 St. Louis Park,1035541,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,Breakthru Sept Month End
 Plymouth,1035463,083664990436,Hendrick's Gin 750ml,9018599,6,1.0,142.0,142.0,Breakthru Sept Month End
@@ -26,25 +21,20 @@ St. Louis Park,1035825,084692424542,Louis Jadot Pouilly Fuisse 750ml,9740309,12,
 Plymouth,1035756,085798018727,Alexander Valley Vineyards Chardonnay 750ml,9789517,12,1.0,136.0,136.0,
 St. Louis Park,1035825,085798018727,Alexander Valley Vineyards Chardonnay 750ml,9789517,12,1.0,136.0,136.0,
 St. Louis Park,1035825,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,1207349,12,1.0,184.0,184.0,
-Woodbury,1035615,086767221063,Romana Sambuca Black 750ml,9000479,12,1.0,225.5,225.5,Store Request
 St. Louis Park,1035825,086785732046,Recanati Yasmin Red 750ml,9736501,12,1.0,120.0,120.0,
 Plymouth,1035756,086785750613,Callia Bella Syrah Malbec 750ml,9736192,12,1.0,112.0,112.0,
 Roseville,1035798,087872630122,Stella Rosa Moscato D'Asti 750ml,9746655,12,1.0,104.0,104.0,
 Roseville,1035798,087872630139,Stella Rosa Rosso 750ml,9747142,12,1.0,104.0,104.0,
 St. Louis Park,1035825,087872632218,Stella Rosa Peach 750ml,9746737,12,1.0,104.0,104.0,
-Woodbury,1035882,087872632232,Stella Rosa Pink 750ml,9747145,12,1.0,104.0,104.0,
 St. Louis Park,1035825,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,
 St. Louis Park,1035825,087872633406,Stella Rosa Red 750ml,9746834,12,1.0,104.0,104.0,
-Minnetonka,1035741,087872633635,Stella Rosa Golden Honey Peach 750ml,9746565,12,1.0,104.0,104.0,Store Request
 Roseville,1035798,087872633901,Stella Rosa Green Apple 750ml,9746568,12,1.0,104.0,104.0,
 Minneapolis,1035404,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 Minneapolis,PO0000001974,088004005528,E.H. Taylor Barrel Proof 750ml,9802159,6,0.33,360.0,0.0,Allocated
 Minneapolis,1035405,088004009281,Fireball Whisky 1.75L,9148530,6,6.0,108.0,648.0,Breakthru Sept month End
 Plymouth,1035462,088004009281,Fireball Whisky 1.75L,9148530,6,5.0,108.0,540.0,Breakthru Sept month End
 St. Louis Park,1035540,088004009281,Fireball Whisky 1.75L,9148530,6,2.0,108.0,216.0,Breakthru Sept month End
-Woodbury,1035601,088004009281,Fireball Whisky 1.75L,9148530,6,4.0,108.0,432.0,Breakthru Sept month End
 Minneapolis,1035404,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Woodbury,1035600,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
 Minneapolis,1035404,088004010133,Taaka Vodka Liter,9031606,12,2.0,72.0,144.0,
 Minneapolis,1035404,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
 Plymouth,1035461,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
@@ -54,44 +44,29 @@ Minneapolis,PO0000001974,088004025649,Weller Antique 107 750ml,9031685,12,0.08,5
 Minneapolis,PO0000001974,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,0.0,Allocated
 Minneapolis,1035404,088004026141,Fris Vodka 1.75L,9612242,6,10.0,42.5,425.0,
 Plymouth,1035461,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Woodbury,1035600,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
 Minneapolis,1035404,088004029296,Fireball Party Bucket,9295393,6,3.0,71.05,213.15,
 St. Louis Park,1035539,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Woodbury,1035600,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
 Minneapolis,PO0000001974,088004031497,Weller Full Proof 114 750ml,9391460,6,0.33,315.0,0.0,Allocated
-Woodbury,1035615,088004037475,Romana Sambuca White 750ml,9000484,12,1.0,225.5,225.5,Store Request
 St. Louis Park,1035540,088004069148,Fireball Blazin' Apple 750ml,9768706,12,1.0,108.0,108.0,Breakthru Sept month End
 Minneapolis,1035404,088004069155,Fireball Blazin' Apple 50ml,9768707,120,10.0,71.05,710.52,
-Woodbury,1035600,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
 Minneapolis,PO0000001974,088004073619,Old Charter Oak Bourbon Finest Oak 750ml,9778714,6,0.33,360.0,0.0,Allocated
 Minneapolis,1035405,088004074562,Fireball Blazin' Apple Liter,9771463,12,2.0,153.0,306.0,Breakthru Sept month End
-Woodbury,1035601,088004074562,Fireball Blazin' Apple Liter,9771463,12,1.0,153.0,153.0,Breakthru Sept month End
-Minnetonka,1035424,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Breakthru Sept month End
 Plymouth,1035462,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Breakthru Sept month End
-Woodbury,1035601,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,1.0,99.0,99.0,Breakthru Sept month End
 Minneapolis,1035405,088004144692,Fireball Whisky 750ml,9213627,12,9.0,108.0,972.0,Breakthru Sept month End
-Minnetonka,1035424,088004144692,Fireball Whisky 750ml,9213627,12,1.0,108.0,108.0,Breakthru Sept month End
 Plymouth,1035462,088004144692,Fireball Whisky 750ml,9213627,12,2.0,108.0,216.0,Breakthru Sept month End
 Roseville,1035518,088004144692,Fireball Whisky 750ml,9213627,12,5.0,108.0,540.0,Breakthru Sept month End
 St. Louis Park,1035540,088004144692,Fireball Whisky 750ml,9213627,12,3.0,108.0,324.0,Breakthru Sept month End
-Woodbury,1035601,088004144692,Fireball Whisky 750ml,9213627,12,7.0,108.0,756.0,Breakthru Sept month End
-Minnetonka,1035423,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
 Minneapolis,1035404,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,
 St. Louis Park,1035539,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
 Roseville,1035798,089016000853,Capriccio Bubbly Sangria 375ml 4pk,9700665,6,1.0,64.0,0.0,
 Minneapolis,1035709,089016017264,Capriccio Bubbly Sangria 750ml,9759882,12,1.0,88.0,88.0,
-Minnetonka,1035729,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,1.0,160.0,160.0,
 St. Louis Park,1035825,089121288122,J Lohr Cabernet Sauvignon 750ml,9791767,12,2.0,160.0,320.0,
 Roseville,1035816,184745003004,Substance Cabernet Sauvignon 750ml,9448214,12,1.0,112.0,0.0,Store Request
-Woodbury,1035882,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,144.0,144.0,
-Woodbury,1035882,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,168.0,168.0,
 St. Louis Park,1035825,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,144.0,144.0,
 St. Louis Park,1035825,669576019252,Decoy Merlot 750ml,9780625,12,1.0,168.0,168.0,
 Roseville,1035798,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,
 Roseville,1035816,669576019344,Duckhorn Napa Cab Sauvignon 750ml,9769148,12,1.0,480.0,480.0,Store Request
 St. Louis Park,1035825,720815042230,Routestock Cabernet Sauvignon 750ml,9769574,12,1.0,184.0,184.0,
-Minnetonka,1035423,766427003443,Twisted Shotz Sex On The Beach 4pk,9151699,18,1.0,70.1,70.1,
-Minnetonka,1035729,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,192.0,192.0,
 St. Louis Park,1035825,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,192.0,192.0,
 Roseville,1035798,769611500384,Sonoma Cutrer Pinot Noir 750ml,9784325,12,1.0,192.0,0.0,
 St. Louis Park,1035825,769611500384,Sonoma Cutrer Pinot Noir 750ml,9784325,12,1.0,192.0,192.0,
@@ -101,6 +76,4 @@ St. Louis Park,1035825,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12
 Minneapolis,1035709,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,120.0,
 Plymouth,1035756,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,120.0,
 St. Louis Park,1035825,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,120.0,
-Woodbury,1035882,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,120.0,
 Plymouth,1035756,860002633039,Une Femme The Betty Sparkling 250ml,9643921,24,1.0,72.0,72.0,
-Woodbury,1035882,894910000409,Frank Family Cabernet 750ml,9749121,12,0.5,416.0,208.0,
