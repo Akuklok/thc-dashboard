@@ -1,35 +1,14 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Minneapolis,1035404,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
 Minneapolis,PO0000001974,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.76,0.0,Allocated
 Minneapolis,PO0000001974,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,0.0,Allocated
 Minneapolis,PO0000001974,080244009236,Buffalo Trace 750ml,9031303,12,0.42,234.0,0.0,Allocated
 Plymouth,PO0000001968,080244009236,Buffalo Trace 750ml,9031303,12,0.33,234.0,0.0,Allocated
 Roseville,PO0000001959,080244009236,Buffalo Trace 750ml,9031303,12,0.42,234.0,97.5,Allocated
-Minneapolis,1035404,083664868940,Milagro Reposado Tequila 750ml,9001701,6,5.0,107.0,535.0,
-Roseville,1035519,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,Breakthru Sept Month End
-Plymouth,1035463,083664990436,Hendrick's Gin 750ml,9018599,6,1.0,142.0,142.0,Breakthru Sept Month End
-Minneapolis,1035404,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 Minneapolis,PO0000001974,088004005528,E.H. Taylor Barrel Proof 750ml,9802159,6,0.33,360.0,0.0,Allocated
-Minneapolis,1035405,088004009281,Fireball Whisky 1.75L,9148530,6,6.0,108.0,648.0,Breakthru Sept month End
-Plymouth,1035462,088004009281,Fireball Whisky 1.75L,9148530,6,5.0,108.0,540.0,Breakthru Sept month End
-Minneapolis,1035404,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Minneapolis,1035404,088004010133,Taaka Vodka Liter,9031606,12,2.0,72.0,144.0,
-Minneapolis,1035404,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Plymouth,1035461,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
 Minneapolis,PO0000001974,088004018580,George T Stagg Jr Bourbon 750ml,9755981,6,0.33,292.5,0.0,Allocated
 Minneapolis,PO0000001974,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.33,202.02,0.0,Allocated
 Minneapolis,PO0000001974,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,0.0,Allocated
 Minneapolis,PO0000001974,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,0.0,Allocated
-Minneapolis,1035404,088004026141,Fris Vodka 1.75L,9612242,6,10.0,42.5,425.0,
-Plymouth,1035461,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Minneapolis,1035404,088004029296,Fireball Party Bucket,9295393,6,3.0,71.05,213.15,
 Minneapolis,PO0000001974,088004031497,Weller Full Proof 114 750ml,9391460,6,0.33,315.0,0.0,Allocated
-Minneapolis,1035404,088004069155,Fireball Blazin' Apple 50ml,9768707,120,10.0,71.05,710.52,
 Minneapolis,PO0000001974,088004073619,Old Charter Oak Bourbon Finest Oak 750ml,9778714,6,0.33,360.0,0.0,Allocated
-Minneapolis,1035405,088004074562,Fireball Blazin' Apple Liter,9771463,12,2.0,153.0,306.0,Breakthru Sept month End
-Plymouth,1035462,088004086879,Fireball Torch'd Vanilla 750ml,9802209,12,2.0,99.0,198.0,Breakthru Sept month End
-Minneapolis,1035405,088004144692,Fireball Whisky 750ml,9213627,12,9.0,108.0,972.0,Breakthru Sept month End
-Plymouth,1035462,088004144692,Fireball Whisky 750ml,9213627,12,2.0,108.0,216.0,Breakthru Sept month End
-Roseville,1035518,088004144692,Fireball Whisky 750ml,9213627,12,5.0,108.0,540.0,Breakthru Sept month End
-Minneapolis,1035404,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,
 Minneapolis,PO0000001974,80244006839,Rock Hill Farms Bourbon 750ml,9031553,,,0.0,0.0,Allocated
