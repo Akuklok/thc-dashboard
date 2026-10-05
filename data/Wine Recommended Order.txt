@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    128,611
   Coverable by transfer .......  $     69,755   (54%)
-  NET BUY from vendors ........  $     68,563   <- the order
+  NET BUY from vendors ........  $     68,367   <- the order
 
-  146 items   |   11,293 units to buy   |   9,199 units to rebalance
+  144 items   |   11,278 units to buy   |   9,199 units to rebalance
   Transfers: 886 moves  -  718 urgent (251 stockouts, 467 under 2wk), 168 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 94 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 92 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Soon Hari Variety 6 pk 375ml         4u/1cs            $96      5     0   1.1
   19  Barefoot Pinot Noir 250ml            18u/3cs          $108     16     0   1.1
   20  Barefoot Pink Moscato 1.5L           798u/133cs     $6,919    209     9   1.2
-  ...and 126 more in the full list.
+  ...and 124 more in the full list.
 
-  NEEDS REVIEW (94 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (92 items the system isn't fully sure about - check before ordering):
     Soon Hari Apple-Mango Soju 375ml          Off buy-month - confirm timing
     Il Soffione Prosecco DOC Brut NV 750ml    Seasonal - last year ~10/wk vs 7 now, buy ahead?
     Andre Blush 750ml                         Buy-month stock-up ($55 to next deal) - confirm; Seasonal - last year ~2/wk vs 1 now, buy ahead?
@@ -52,7 +52,7 @@
     Barefoot Pinot Grigio 1.5L                Buy-month stock-up ($2,481 to next deal) - confirm
     Underwood Bubbles 355ml                   Large buy ($7,387) - confirm; Buy-month stock-up ($7,387 to next deal) - confirm
     Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost
-    ...and 79 more (see Needs Review tab).
+    ...and 77 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (26 discontinued items still selling/low - run down stock):
     Cavit Pinot Grigio 1.5L                     (would have bought 6u)
