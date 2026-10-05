@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $    302,046
   Coverable by transfer .......  $    118,405   (39%)
-  NET BUY from vendors ........  $    156,854   <- the order
+  NET BUY from vendors ........  $    157,175   <- the order
 
-  170 items   |   15,258 units to buy   |   20,742 units to rebalance
+  170 items   |   15,738 units to buy   |   20,742 units to rebalance
   Transfers: 997 moves  -  756 urgent (230 stockouts, 526 under 2wk), 241 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 94 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
@@ -33,7 +33,7 @@
   17  Evan Williams Bourbon 1.75L          546u/91cs      $9,497    218     6   1.1
   18  Svedka Vodka Traveler                228u/19cs      $1,609    246    18   1.1
   19  Fireball Blazin' Apple 50ml          2040u/17cs     $1,137   2531   448   1.4
-  20  Twisted Tea Whiskey 50ml             240u/2cs         $161    283    45   1.5
+  20  Twisted Tea Whiskey 50ml             720u/6cs         $482    283    45   1.5
   ...and 150 more in the full list.
 
   NEEDS REVIEW (94 items the system isn't fully sure about - check before ordering):
