@@ -1,6 +1,29 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1035329,021037010190,Jeppson's Malort 750ml,JeppsonMalort,12,1.0,228.0,228.0,Store Request
-Blaine,1035653,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
-Roseville,1035813,3760072420126,J Laurens Demoiselles Brut 750ml,LaurensDemoiselles,12,1.0,224.0,224.0,
-Blaine,1035653,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,1.0,144.0,144.0,
-Blaine,1035653,695798115328,G. D. Vajra Langhe Rosso,VajraRosso23,12,1.0,144.0,144.0,
+Bloomington,1036071,083648877111,Elk Cove Pinot Noir 750ml,ElkCovePNWillamette23,12,1.0,256.0,256.0,Seminar
+St. Louis Park,1036153,400000025766,Martin Woods Temperance Hill Chardonnay 750ml,MartinWoodsChardTemperance,12,2.0,528.0,1056.0,Distro
+Chanhassen,1036076,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,1.0,528.0,528.0,Distro
+Roseville,1036143,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,1.0,528.0,528.0,Distro
+St. Louis Park,1036153,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,7.0,528.0,3696.0,Distro
+Woodbury,1036179,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,1.0,528.0,528.0,Distro
+St. Louis Park,1036153,400000025768,Martin Woods Hyland Pinot Noir 750ml,MatineWoodsPNHyland,12,5.0,528.0,2640.0,Distro
+Blaine,1036203,671839988106,Keepsake Farmhouse Organic Dry Cider 750ml,KeepsakeFarmhouseDry,12,1.0,136.0,0.0,
+Woodbury,1036354,671839988106,Keepsake Farmhouse Organic Dry Cider 750ml,KeepsakeFarmhouseDry,12,1.0,136.0,136.0,
+Andover,1036192,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Ramsey,1036281,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Rosemount,1036290,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
+Blaine,1036203,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,0.0,
+Roseville,1036305,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,0.0,
+St. Louis Park,1036321,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,0.0,
+Blaine,1036203,745051321963,Keepsake Jewel Semi-Sweet Cider 750ml,KeepsakeJewel,12,1.0,160.0,0.0,
+Blaine,1036203,745051321970,Keepsake Farmhouse Organic Semi-Sweet Cider 750ml,KeepsakeFarmhouseSemiSweet,12,1.0,136.0,0.0,
+Woodbury,1036354,745051321970,Keepsake Farmhouse Organic Semi-Sweet Cider 750ml,KeepsakeFarmhouseSemiSweet,12,1.0,136.0,136.0,
+Blaine,1036203,7501233712812,Gran Agave Ghost Edition Tequila 750ml,GranAgaveGhost,6,0.5,270.0,0.0,
+Roseville,1036305,7501233712812,Gran Agave Ghost Edition Tequila 750ml,GranAgaveGhost,6,0.5,270.0,0.0,
+St. Louis Park,1036321,7501233712812,Gran Agave Ghost Edition Tequila 750ml,GranAgaveGhost,6,0.5,270.0,0.0,
+Bloomington,1036071,8032662930191,Perrini Negromaro 750ml,PerriniNegromaro,12,1.0,136.0,136.0,Seminar
+Roseville,1036305,816529020142,Cihuatan Jade 4 yr Rum 750ml,CihuatanJade,6,1.0,114.0,0.0,
+Roseville,1036305,819588011786,Three Fingers High Whiskey 750ml,ThreeFingersHighWhis,6,1.0,216.0,0.0,
+Bloomington,1036071,8437019818784,Pingus PSI 750ml,PingusPSI,12,1.0,368.0,368.0,Seminar
+Roseville,1036305,852955008125,Lokal Vodka 1.75L,LokalVodka1.75,6,1.0,108.0,0.0,
+Roseville,1036305,852955008132,Lokal Blood Orange Vodka Liter,LokalBloodOrangeVodka,12,1.0,126.0,0.0,
+Bloomington,1036071,9421905788007,Deep Down Sauvignon Blanc 750ml,DeepDown,12,1.0,216.0,216.0,Seminar
