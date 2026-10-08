@@ -2,52 +2,49 @@
   RECOMMENDED OTHER ORDER          Thursday, Oct 08, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Oct 07 - refreshes automatically)
+  Gross need (all stores) .....  $     20,564
+  Coverable by transfer .......  $     11,204   (54%)
+  NET BUY from vendors ........  $      6,393   <- the order
 
-  Gross need (all stores) .....  $     20,305
-  Coverable by transfer .......  $     10,864   (54%)
-  NET BUY from vendors ........  $      6,412   <- the order
-
-  60 items   |   3,679 units to buy   |   2,892 units to rebalance
-  Transfers: 261 moves  -  205 urgent (78 stockouts, 127 under 2wk), 56 routine
+  55 items   |   3,711 units to buy   |   2,966 units to rebalance
+  Transfers: 261 moves  -  201 urgent (69 stockouts, 132 under 2wk), 60 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           8u/8cs             $0      8     0   OUT
-   2  Second Harvest Heartland Donation    1535u/1535cs       $0   1535     0   OUT
+   2  Second Harvest Heartland Donation    1636u/1636cs       $0   1636     0   OUT
    3  *NEW AMSTERDAM GLASSWARE             7u/7cs             $0      7     0   OUT
    4  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
    5  Loon Arctic Grape 7mg                15u/3cs           $90     17     0   OUT
    6  Syx Peppermint 6mg                   10u/2cs           $71      9     0   OUT
-   7  Loon Pouches Artic Mango 14mg 20pk   10u/2cs           $60     10     0   OUT
-   8  Loon Pouch Arctic Lemon 7mg          10u/2cs           $60      9     0   OUT
-   9  Loon Spearmint 7mg                   10u/2cs           $60      9     0   OUT
-  10  Bag Fee                              435u/435cs         $0    435     0   OUT
-  11  Loon Green Apple 14mg                5u/1cs            $30      7     0   OUT
-  12  On Nicotine Pouch 8mg Original       5u/1cs            $37      5     0   OUT
-  13  Loon Pouches Bad Bull 28mg 20pk      5u/1cs            $30      6     0   OUT
-  14  Loon Strawberry 14mg                 5u/1cs            $30      5     0   OUT
-  15  Charm Social Tonic Lemon Ginger 12o  7u/7cs            $17      7     0   OUT
-  16  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
-  17  Loon Cinnamon OG 14mg                5u/1cs            $30      4     0   OUT
+   7  Loon Pouches Artic Mango 14mg 20pk   10u/2cs           $60      9     0   OUT
+   8  Loon Spearmint 7mg                   10u/2cs           $60      9     0   OUT
+   9  Bag Fee                              453u/453cs         $0    453     0   OUT
+  10  On Nicotine Pouch 8mg Original       5u/1cs            $37      5     0   OUT
+  11  Loon Green Apple 14mg                5u/1cs            $30      6     0   OUT
+  12  Loon Pouch Arctic Lemon 7mg          5u/1cs            $30      5     0   OUT
+  13  Loon Pouches Bad Bull 28mg 20pk      5u/1cs            $30      5     0   OUT
+  14  Charm Social Tonic Lemon Ginger 12o  7u/7cs            $17      7     0   OUT
+  15  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
+  16  Loon Cinnamon OG 14mg                5u/1cs            $30      4     0   OUT
+  17  Loon Strawberry 14mg                 5u/1cs            $30      4     0   OUT
   18  Minute Maid Fruit Punch 2L           8u/1cs            $22      7     0   OUT
   19  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
   20  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
-  ...and 40 more in the full list.
+  ...and 35 more in the full list.
 
-  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~6/wk vs 2 now, buy ahead?
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
     *NEW AMSTERDAM GLASSWARE                  No cost data - verify price; Margin over 95% - check retail
     Wedding Delivery Fee                      No cost data - verify price; Margin over 95% - check retail
-    Loon Spearmint 7mg                        Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
-    Loon Pouches Bad Bull 28mg 20pk           Seasonal - last year ~3/wk vs 1 now, buy ahead?
+    Loon Pouches Bad Bull 28mg 20pk           Seasonal - last year ~2/wk vs 1 now, buy ahead?
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Fresh Limes                               Margin looks off - check retail/cost
     Zyn Pouch 6mg Spearmint                   Seasonal - last year ~14/wk vs 5 now, buy ahead?
+    Fresh Limes                               Margin looks off - check retail/cost
     Zyn 6mg Cool Mint                         Seasonal - last year ~16/wk vs 10 now, buy ahead?
