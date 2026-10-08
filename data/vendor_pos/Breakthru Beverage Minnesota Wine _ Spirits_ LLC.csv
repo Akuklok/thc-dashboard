@@ -1,118 +1,44 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1036200,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
-Blaine,1036200,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
-Minnetonka,1036252,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
-Cottage Grove,1036231,070655910016,Mr & Mrs T Bloody Mary 1.75L,9004806,6,1.0,45.0,45.0,
-Roseville,1036299,070655910016,Mr & Mrs T Bloody Mary 1.75L,9004806,6,1.0,45.0,45.0,
-Roseville,1036299,070655910030,Mr & Mrs T Bold & Spicy 1.75L,9159926,6,1.0,45.0,45.0,
-Rosemount,1036287,083664107360,Glenfiddich 12 Year 750ml,9001621,12,1.0,405.0,405.0,
-Blaine,1036200,083664868735,Sailor Jerry Spiced Rum 1.75L,9001703,6,1.0,112.5,112.5,
-Roseville,1036299,083664868735,Sailor Jerry Spiced Rum 1.75L,9001703,6,1.0,112.5,112.5,
 Ramsey,1036278,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
 St. Louis Park,1036317,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
-Andover,1036189,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
-Bloomington,1036212,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
 Minneapolis,1036244,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
-Osseo,1036261,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
 St. Louis Park,1036317,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
-Roseville,1036299,083664869725,Reyka Vodka 1.75L,9019698,6,1.0,157.5,157.5,
 Plymouth,1036270,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Roseville,1036299,083664871681,Balvenie 14 Year Caribbean 750ml,9115429,6,1.0,376.0,376.0,
-Osseo,1036261,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,71.05,71.05,
 Vadnais Heights,1036168,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,
 Woodbury,1036177,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,
-Cottage Grove,1036082,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,
 Minneapolis,1036091,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,
-Blaine,1036200,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
-Bloomington,1036212,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 Minneapolis,1036244,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 St. Louis Park,1036317,088004009755,Dr McGillicuddys Apple Pie 50ml,9219465,120,1.0,71.05,71.05,
-Blaine,1036200,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
-Bloomington,1036217,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,Store Request
-Cottage Grove,1036231,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
 Minneapolis,1036244,088004010126,Taaka Vodka 1.75L,9031608,6,2.0,52.71,105.42,
 Ramsey,1036278,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
 Vadnais Heights,1036344,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,Store Request
 Ramsey,1036278,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Blaine,1036200,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Osseo,1036261,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
 Plymouth,1036270,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Andover,1036189,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
 Ramsey,1036278,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Rosemount,1036287,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Roseville,1036299,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Roseville,1036299,088004012755,Platinum Vodka 750ml,9220002,12,1.0,67.33,67.33,
 Woodbury,1036351,088004022754,Platinum Vodka Liter,9231167,12,1.0,99.0,99.0,
-Andover,1036189,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,
-Blaine,1036200,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,
-Cottage Grove,1036231,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
 Minneapolis,1036244,088004026141,Fris Vodka 1.75L,9612242,6,14.0,42.5,595.0,
-Osseo,1036261,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
 Plymouth,1036270,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Roseville,1036299,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
 St. Louis Park,1036317,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,
 Vadnais Heights,1036337,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Andover,1036189,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Blaine,1036200,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
 Minneapolis,1036244,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
 Woodbury,1036351,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
 Woodbury,1036358,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,Store Request
-Andover,1036189,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,
-Blaine,1036200,088004035761,Goldschlager 50ml,9007996,120,1.0,71.05,71.05,
-Osseo,1036261,088004035761,Goldschlager 50ml,9007996,120,2.0,71.05,142.1,
-Blaine,1036200,088004036157,Seagrams VO Canadian 1.75L,9016376,6,1.0,126.5,126.5,
-Roseville,1036299,088004036157,Seagrams VO Canadian 1.75L,9016376,6,1.0,126.5,126.5,
-Roseville,1036299,088004037475,Romana Sambuca White 750ml,9000484,12,1.0,225.5,225.5,
-Blaine,1036200,088004038670,Sheep Dog Peanut Butter Whiskey 750ml,9408664,12,1.0,153.0,153.0,
-Roseville,1036299,088004048273,Canadian Mist 1.75L,30221,6,1.0,45.0,45.0,
-Roseville,1036299,088004060060,Traveller Whiskey 750ml,9706276,12,1.0,315.0,315.0,
 St. Louis Park,1036317,088004060060,Traveller Whiskey 750ml,9706276,12,1.0,315.0,315.0,
-Chanhassen,1036223,088004144708,Fireball Whisky 50ml,9220188,120,3.0,71.05,213.16,
-Cottage Grove,1036231,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
 Woodbury,1036351,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
-Blaine,1036200,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Roseville,1036299,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
 Minneapolis,1036244,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,
-Bloomington,1036217,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,Store Request
 St. Louis Park,1036317,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
-Roseville,1036299,088544014318,Southern Comfort Traveler,9013616,12,1.0,118.49,118.49,
 Woodbury,1036351,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,
-Roseville,1036299,089016008217,Sobieski Vodka Liter,9090619,12,1.0,120.85,120.85,
 Plymouth,1036119,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,136.0,136.0,
-Minnetonka,1036108,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,160.0,
-Roseville,1036299,720815920101,Templeton Rye 4yr 750ml,9749035,6,1.0,135.0,135.0,
-Roseville,1036299,720815988347,Seagrams Extra Smooth Vodka 1.75L,9100891,6,1.0,71.96,71.96,
 St. Louis Park,1036151,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,
-Blaine,1036362,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,1.0,315.8,0.0,Allocated
-Bloomington,1036363,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,1.0,315.8,315.8,Allocated
-Roseville,1036364,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,1.0,315.8,0.0,Allocated
 St. Louis Park,1036365,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,2.0,315.8,0.0,Allocated
 Woodbury,1036366,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,1.0,315.8,315.8,Allocated
-Blaine,1036362,810205351308,Black Maple Hill 11 Year 750ml,9799295,3,0.33,451.11,0.0,Allocated
-Roseville,1036364,810205351308,Black Maple Hill 11 Year 750ml,9799295,3,0.33,451.11,0.0,Allocated
 St. Louis Park,1036365,810205351308,Black Maple Hill 11 Year 750ml,9799295,3,0.33,451.11,0.0,Allocated
-Roseville,1036299,810735017460,Green River Bourbon 90 PRF 750ml,9731033,6,1.0,130.5,130.5,
-Roseville,1036299,810735017873,Green River Wheated Bourbon 750ml,9731037,6,1.0,130.5,130.5,
-Roseville,1036299,812066020232,Famous Grouse Scotch 1.75L,9045617,6,1.0,157.5,157.5,
-Osseo,1036113,847159001812,Harken Chardonnay 750ml,9194024,12,1.0,120.0,120.0,
 Plymouth,1036119,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-Roseville,1036299,850004947654,Red Locks Irish Whiskey 750ml,9687837,12,1.0,252.0,252.0,
 Plymouth,1036119,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12,1.0,120.0,120.0,
-Chanhassen,1036223,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,198.0,198.0,
-Andover,1036187,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Blaine,1036197,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,4.0,360.0,1440.0,Allocated
-Bloomington,1036210,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Chanhassen,1036221,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Cottage Grove,1036229,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
 Minneapolis,1036242,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
-Minnetonka,1036250,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
-Osseo,1036259,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
 Plymouth,1036268,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Ramsey,1036276,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
-Rosemount,1036285,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Roseville,1036296,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,3.0,360.0,1080.0,Allocated
+Ramsey,1036276,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,720.0,Allocated
 St. Louis Park,1036314,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,3.0,360.0,1080.0,Allocated
-Stillwater,1036327,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
 Vadnais Heights,1036334,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
 Woodbury,1036348,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
 Minneapolis,1036249,857552008684,Bardstown Rye Top Ten Single Barrel 750ml,9808998,6,30.0,360.0,10800.0,Store Request

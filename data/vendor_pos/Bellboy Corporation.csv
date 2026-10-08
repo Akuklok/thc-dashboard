@@ -1,640 +1,302 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1036298,014800582048,ReaLime Lime Juice 8oz,MIXRLIME,12,1.0,23.76,23.76,
-Roseville,1036298,014800582178,ReaLemon 5oz,MIX00005,24,1.0,23.76,23.76,
-Roseville,1036298,01667135,Roses Sweetened Lime Juice 12oz,MIXRLJ12,6,1.0,22.4,22.4,
-St. Louis Park,1036316,01667135,Roses Sweetened Lime Juice 12oz,MIXRLJ12,6,1.0,22.4,22.4,
 Blaine,1036198,01667232,Roses Sweetened Lime Juice 25oz,MIXRLJ25,12,1.0,72.0,72.0,
-Roseville,1036298,01667232,Roses Sweetened Lime Juice 25oz,MIXRLJ25,12,1.0,72.0,72.0,
 Rosemount,1036286,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
-Roseville,1036298,01667436,Roses Grenadine 12oz,mixrg12,6,1.0,22.4,22.4,
-Roseville,1036298,026964852745,Flor De Cana Resv 7 Yr 750ml,7898534,12,1.0,226.0,226.0,
 Blaine,1036198,029929115411,Licor 43 750ml,8289314,12,1.0,255.0,255.0,
 Woodbury,1036357,029929115411,Licor 43 750ml,8289314,12,1.0,255.0,255.0,Store Request
-Roseville,1036298,031200007360,Ocean Spray Orange Juice 32oz,JUIOJ32,12,1.0,42.32,42.32,
 Bloomington,1036211,031200200006,Ocean Spray Cranberry Juice,JUIOCC32,12,1.0,36.4,36.4,
-Cottage Grove,1036230,031200200006,Ocean Spray Cranberry Juice,JUIOCC32,12,1.0,36.4,36.4,
-St. Louis Park,1036316,031200200006,Ocean Spray Cranberry Juice,JUIOCC32,12,1.0,36.4,36.4,
 Andover,1036188,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
 Blaine,1036198,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
-Minneapolis,1036243,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
-St. Louis Park,1036316,041409000062,ReaLime 5oz,MIX00006,24,1.0,23.76,23.76,
-Roseville,1036298,071943117131,The Royal Cherry 10oz,CONCH10-6,6,1.0,21.15,21.15,
-Roseville,1036298,076381123454,Jose Cuervo  Margarita Salt 6oz,mix12345,12,1.0,26.73,26.73,
 Ramsey,1036277,080244003715,Buffalo Trace Bourbon Cream 750ml,8368214,12,1.0,198.0,198.0,
-Roseville,1036298,080432586174,Redbreast 12 Yr 750ml,8359514,6,1.0,295.0,295.0,
 Woodbury,1036350,080480016210,Bacardi Superior Light Rum 50ml,7866638,120,1.0,66.0,66.0,
-Minneapolis,1036243,080686001607,Jim Beam Bourbon 375ml,8363812,24,1.0,185.0,185.0,
-Minnetonka,1036251,080686001607,Jim Beam Bourbon 375ml,8363812,24,1.0,185.0,185.0,
 Stillwater,1036328,080686001607,Jim Beam Bourbon 375ml,8363812,24,1.0,185.0,185.0,
-Roseville,1036298,080686409403,Old Grand Dad 114 750ml,8399044,6,1.0,127.5,127.5,
 Stillwater,1036328,080686813019,Laphroaig 10 Yr Scotch 750ml,8195814,12,1.0,485.0,485.0,
-Roseville,1036298,081240049516,Clase Azul Reposado Tequila 750ml,8493304,6,1.0,760.0,760.0,
 Woodbury,1036350,081240049516,Clase Azul Reposado Tequila 750ml,8493304,6,1.0,760.0,760.0,
-Plymouth,1036269,081753837822,Belvedere Vodka Organic 750ml,8581624,6,1.0,144.0,144.0,
 Andover,1036188,082000742005,Captain Morgan 100 Proof 1.75L,7868329,6,1.0,140.3,140.3,
 Blaine,1036198,082000742005,Captain Morgan 100 Proof 1.75L,7868329,6,1.0,140.3,140.3,
-Minneapolis,1036245,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,0.0,Buyers Select
 Rosemount,1036288,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,0.0,Buyers Select
-Roseville,1036298,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,230.0,230.0,
-St. Louis Park,1036318,082000752967,Bulleit 95 Rye Whiskey 750ml,8373214,12,1.0,278.75,0.0,Buyers Select
 Rosemount,1036286,082000766834,Captain Morgan White Liter,7868215,12,1.0,153.95,153.95,
 Andover,1036188,082000771555,Crown Royal Regal Apple 375ml,6163202,24,1.0,295.95,295.95,
 Andover,1036188,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
-Minnetonka,1036251,08200802,Smirnoff Vodka 200ml,8572721,48,1.0,110.5,110.5,
-Roseville,1036298,083664869282,Reyka Vodka Liter,8511015,6,1.0,107.0,107.0,
 Rosemount,1036286,083664872497,Tullamore Dew Irish Whiskey 1.75L,083664872497,6,1.0,199.8,199.8,
-Roseville,1036298,083664872497,Tullamore Dew Irish Whiskey 1.75L,083664872497,6,1.0,199.8,199.8,
-Roseville,1036298,083664872541,Monkey Shoulder Scotch 750ml,8063704,6,1.0,132.0,132.0,
 Woodbury,1036357,083664872541,Monkey Shoulder Scotch 750ml,8063704,6,1.0,132.0,132.0,Store Request
-Roseville,1036298,083664873722,Tullamore Dew Irish Whiskey 375ml,836648737226,12,1.0,119.5,119.5,
-Roseville,1036298,084105307509,Fernet-Branca 750ml,7664704,6,1.0,172.85,172.85,
 Andover,1036188,085156515417,Ketel One Vodka 750ml,8595614,12,1.0,169.0,169.0,
-Cottage Grove,1036230,085156515417,Ketel One Vodka 750ml,8595614,12,1.0,169.0,169.0,
-Minnetonka,1036251,085156515417,Ketel One Vodka 750ml,8595614,12,1.0,169.0,169.0,
-Roseville,1036298,085156515417,Ketel One Vodka 750ml,8595614,12,1.0,169.0,169.0,
 Andover,1036188,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,
 Blaine,1036198,085156803682,Ketel One Vodka 1.75L,8595619,6,2.0,152.75,305.5,
-Cottage Grove,1036230,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,
-Minneapolis,1036243,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,
 Ramsey,1036277,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,
 Rosemount,1036286,085156803682,Ketel One Vodka 1.75L,8595619,6,4.0,152.75,611.0,
-St. Louis Park,1036316,085156803682,Ketel One Vodka 1.75L,8595619,6,7.0,152.75,1069.25,
 Stillwater,1036328,085156803682,Ketel One Vodka 1.75L,8595619,6,2.0,152.75,305.5,
-Vadnais Heights,1036336,085156803682,Ketel One Vodka 1.75L,8595619,6,1.0,152.75,152.75,
-Minneapolis,1036090,086867293168,NHL Can Cooler,CWS4639,1,2.0,3.5,7.0,
 Chanhassen,1036224,087000005525,Bulleit Bourbon 750ml,8373004,12,1.0,232.0,0.0,Buyers Select
-Plymouth,1036271,087000005525,Bulleit Bourbon 750ml,8373004,12,1.0,232.0,0.0,Buyers Select
-Roseville,1036298,087000005525,Bulleit Bourbon 750ml,8373004,12,1.0,230.0,230.0,
-Vadnais Heights,1036336,087000005525,Bulleit Bourbon 750ml,8373004,12,1.0,230.0,230.0,
-Vadnais Heights,1036343,087000201781,Captain Morgan Private Stock 750ml,7868334,12,1.0,242.0,242.0,Store Request
-Roseville,1036308,087236700362,The Botanist Islay Gin 750ml,7295104,6,1.0,160.0,160.0,Store Request
-Cottage Grove,1036230,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,79.0,
-Minneapolis,1036243,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,79.0,
-Roseville,1036298,08731409,Captain Morgan Spiced Rum 50ml,7868318,120,1.0,79.0,79.0,
-St. Louis Park,1036324,08771300,Myers's Dark Rum 750ml,7897514,12,0.5,181.75,90.87,Store Request
-Vadnais Heights,1036343,08771300,Myers's Dark Rum 750ml,7897514,12,1.0,181.75,181.75,Store Request
-Roseville,1036298,088076162624,Johnnie Walker Green 750ml,8063554,6,1.0,280.0,280.0,
 Blaine,1036198,088076163171,Johnnie Walker Black 1.75L,8063519,6,1.0,286.0,286.0,
-Roseville,1036298,088076163171,Johnnie Walker Black 1.75L,8063519,6,1.0,286.0,286.0,
-Roseville,1036298,088110011307,Johnnie Walker Black 750ml,8063514,12,1.0,298.0,298.0,
-Woodbury,1036352,088110110406,Tanqueray Gin Liter,000005769,12,1.0,231.0,0.0,Buyers Select
+Woodbury,1036352,088110110406,Tanqueray Gin Liter,000005769,12,1.0,231.0,231.0,Buyers Select
 Andover,1036188,088110110406,Tanqueray Gin Liter,7273415,12,1.0,231.0,231.0,
-Roseville,1036298,088110160050,Oban 14yr Scotch 750ml,8160274,12,1.0,675.0,675.0,
 Chanhassen,1036222,089016008194,Sobieski Vodka 1.75L,8575809,6,1.0,92.5,92.5,
-Cottage Grove,1036236,089016008194,Sobieski Vodka 1.75L,8575809,6,1.0,92.5,92.5,Store Request
 Blaine,1036206,089156001123,SBOC Pimento Martini Olives 10oz,CON80112-6,6,1.0,31.28,31.28,Store Request
-Roseville,1036298,089156001314,SBOC Dirty Martini Mix 375ml,con00131,12,1.0,37.35,37.35,
-Roseville,1036298,089156001369,SBOC Blue Cheese Stuffed 5oz,CON001369,6,1.0,25.65,25.65,
-Roseville,1036298,089156801082,SBOC Pitted Green Olives 4oz,CON801086,6,1.0,19.04,19.04,
-Roseville,1036298,089156801112,SBOC Jalapeno Olives 5oz,con801116,6,1.0,22.5,22.5,
 Blaine,1036206,089156801280,SBOC Garlic Olives 5oz,CON801286,6,1.0,25.65,25.65,Store Request
-Roseville,1036298,089156801280,SBOC Garlic Olives 5oz,CON801286,6,1.0,25.65,25.65,
 Blaine,1036198,197644697847,Tonka Vodka 50ml,8563008,60,1.0,40.0,40.0,
-Roseville,1036298,630328000392,Luksusowa Potato Vodka 1.75L,8571719,6,1.0,144.0,144.0,
-Roseville,1036298,674545000605,Don Julio Reposado 375ml,8491942,12,1.0,225.0,225.0,
-Roseville,1036298,695521154266,Citadelle Vive Le Corniche,7268474,6,1.0,140.0,140.0,
-St. Louis Park,1036316,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,
-Vadnais Heights,1036343,695521154822,Planteray Original Dark Rum Liter,7872705,6,1.0,101.0,101.0,Store Request
-Vadnais Heights,1036343,695521154860,Planteray 5yr Rum 750ml,7872724,6,1.0,135.5,135.5,Store Request
 Andover,1036188,721059487504,Tullamore Dew Irish Whiskey 750ml,7459314,12,1.0,210.0,210.0,
-Plymouth,1036269,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
-St. Louis Park,1036316,721059707503,Espolon Blanco Tequila 750ml,8440174,12,1.0,255.0,255.0,
-Roseville,1036298,721059797504,Wild Turkey Rare Breed 750ml,8364464,6,1.0,230.0,230.0,
-Roseville,1036298,721059987509,Frangelico Liqueur 750ml,7196414,12,1.0,284.0,284.0,
-Vadnais Heights,1036343,721094199059,Gosling's Black Seal 750ml,7878354,12,1.0,188.0,188.0,Store Request
-Osseo,1036260,721733000944,Patron Silver Tequila 375ml,8497322,12,1.0,185.0,185.0,
-Plymouth,1036269,787790209645,Loon Liquors Old Fashioned 750ml,8331004,6,1.0,106.0,106.0,
-Roseville,1036298,787790209645,Loon Liquors Old Fashioned 750ml,8331004,6,1.0,106.0,106.0,
 Blaine,1036198,791863140506,Fee Brothers Bitters 4oz,mixfb,12,1.0,105.36,105.36,
-Roseville,1036298,791863140506,Fee Brothers Bitters 4oz,mixfb,12,1.0,105.36,105.36,
-Roseville,1036298,791863140513,Fee Brothers Orange Bitters 5oz,mixfob,12,1.0,105.36,105.36,
-Roseville,1036298,791863140667,Fee Brothers Cherry Bitters 4oz,mixfcb,12,1.0,105.36,105.36,
-St. Louis Park,1035947,810012698061,BLNCD Adaptogen Elixir Brain Boost 5mg THC 4pk 12oz can,9918062,6,1.0,70.6,70.6,
-Roseville,1035946,810012698474,BLNCD Watermelon Margarita 10mg THC 4pk 12oz can,MNGODBMWM10,6,1.0,78.4,78.4,
-St. Louis Park,1035947,810012698481,BLNCD Brain Boost Adaptogen 50mg THC Gummies 10pk,9918025,6,1.0,72.0,72.0,
 Woodbury,1035949,810012698481,BLNCD Brain Boost Adaptogen 50mg THC Gummies 10pk,9918025,6,1.0,72.0,72.0,
-St. Louis Park,1035947,810012698535,BLNCD Zen Blend Adaptogen 50mg THC Gummies 10pk,9918035,6,1.0,72.0,72.0,
 Chanhassen,1035938,810012698702,BLNCD Adaptogen Elixir Variety Pack 5mg THC 6pk 12oz can,9918142,4,1.0,62.2,62.2,
 Ramsey,1035944,810012698702,BLNCD Adaptogen Elixir Variety Pack 5mg THC 6pk 12oz can,9918142,4,1.0,62.2,62.2,
 Rosemount,1035945,810012698702,BLNCD Adaptogen Elixir Variety Pack 5mg THC 6pk 12oz can,9918142,4,1.0,62.2,62.2,
-Roseville,1035946,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
-Woodbury,1035949,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,53.8,
+Woodbury,1035949,810012698719,BLNCD Sparkling Water Variety Pack 5mg THC 6pk 12oz can,9918132,4,1.0,53.8,0.0,
 Andover,1036048,810204640885,90+ Cellars Willamette Valley Pinot Gris Lot 237 750ml,2990634,12,1.0,82.0,82.0,Buyer's Select
-Roseville,1036142,810204640885,90+ Cellars Willamette Valley Pinot Gris Lot 237 750ml,2990634,12,1.0,82.0,82.0,Buyer's Select
 Andover,1036048,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
 Blaine,1036055,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
 Chanhassen,1036075,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
-Plymouth,1036120,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
-Roseville,1036142,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
-St. Louis Park,1036152,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
 Woodbury,1036178,810204641103,"90+ Cellars Lot 239 Brunello di Montalcino DOCG, Italy 750ml",2994094,12,1.0,263.5,263.5,Buyer's Select
 Andover,1036048,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
 Blaine,1036055,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
 Chanhassen,1036075,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
-Cottage Grove,1036083,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,1.0,104.0,104.0,Buyer's Select
-Minneapolis,1036092,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
-Plymouth,1036120,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
 Rosemount,1036131,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
-Roseville,1036142,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
-St. Louis Park,1036152,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,2.0,104.0,208.0,Buyer's Select
 Stillwater,1036163,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,1.0,104.0,104.0,Buyer's Select
-Vadnais Heights,1036169,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,1.0,104.0,104.0,Buyer's Select
 Woodbury,1036178,810204641127,"90+ Cellars Lot 241 Chianti Classico, DOCG, Italy 750ml",2995004,12,1.0,104.0,104.0,Buyer's Select
 Andover,1036048,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,1.0,203.5,203.5,Buyer's Select
 Blaine,1036055,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,1.0,203.5,203.5,Buyer's Select
 Chanhassen,1036075,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,1.0,203.5,203.5,Buyer's Select
-Plymouth,1036120,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,1.0,203.5,203.5,Buyer's Select
 Rosemount,1036131,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,1.0,203.5,203.5,Buyer's Select
-Roseville,1036142,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,2.0,203.5,407.0,Buyer's Select
-St. Louis Park,1036152,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,2.0,203.5,407.0,Buyer's Select
 Woodbury,1036178,810204641363,"90+ Cellars Lot 244 Cab Sauv, Spring Mountain, CA 750ml",2994084,12,1.0,203.5,203.5,Buyer's Select
 Andover,1036048,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,1.0,203.5,203.5,Buyer's Select
 Blaine,1036055,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,1.0,203.5,203.5,Buyer's Select
 Chanhassen,1036075,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,1.0,203.5,203.5,Buyer's Select
-Plymouth,1036120,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,1.0,203.5,203.5,Buyer's Select
 Rosemount,1036131,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,1.0,203.5,203.5,Buyer's Select
-Roseville,1036142,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,2.0,203.5,407.0,Buyer's Select
-St. Louis Park,1036152,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,2.0,203.5,407.0,Buyer's Select
 Woodbury,1036178,810204641370,"90+ Cellars Lot 245 Cab Sauv, Howell Mountain, CA 750ml",2994074,12,1.0,203.5,203.5,Buyer's Select
 Andover,1036048,810879020104,90+ Cellars Big Red Blend Lot 113 750ml,2990114,12,2.0,79.37,158.74,Buyer's Select
 Blaine,1036055,810879020104,90+ Cellars Big Red Blend Lot 113 750ml,2990114,12,1.0,79.37,79.37,Buyer's Select
 Bloomington,1036068,810879020104,90+ Cellars Big Red Blend Lot 113 750ml,2990114,12,1.0,79.37,79.37,Buyer's Select
-Roseville,1036142,810879020104,90+ Cellars Big Red Blend Lot 113 750ml,2990114,12,1.0,79.37,79.37,Buyer's Select
-St. Louis Park,1036152,810879020104,90+ Cellars Big Red Blend Lot 113 750ml,2990114,12,2.0,79.37,158.74,Buyer's Select
 Woodbury,1036178,810879020104,90+ Cellars Big Red Blend Lot 113 750ml,2990114,12,1.0,79.37,79.37,Buyer's Select
 Andover,1036048,810879020135,Ironside Cabernet 750ml,2990264,12,4.0,72.0,288.0,Buyer's Select
 Blaine,1036055,810879020135,Ironside Cabernet 750ml,2990264,12,7.0,72.0,504.0,Buyer's Select
 Chanhassen,1036075,810879020135,Ironside Cabernet 750ml,2990264,12,5.0,72.0,360.0,Buyer's Select
-Minnetonka,1036109,810879020135,Ironside Cabernet 750ml,2990264,12,1.0,72.0,72.0,Buyer's Select
-Plymouth,1036120,810879020135,Ironside Cabernet 750ml,2990264,12,1.0,72.0,72.0,Buyer's Select
 Ramsey,1036126,810879020135,Ironside Cabernet 750ml,2990264,12,5.0,72.0,360.0,Buyer's Select
-St. Louis Park,1036152,810879020135,Ironside Cabernet 750ml,2990264,12,3.0,72.0,216.0,Buyer's Select
 Stillwater,1036163,810879020135,Ironside Cabernet 750ml,2990264,12,1.0,72.0,72.0,Buyer's Select
-Vadnais Heights,1036169,810879020135,Ironside Cabernet 750ml,2990264,12,1.0,72.0,72.0,Buyer's Select
 Woodbury,1036178,810879020135,Ironside Cabernet 750ml,2990264,12,2.0,72.0,144.0,Buyer's Select
-Cottage Grove,1036083,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,1.0,78.0,78.0,Buyer's Select
-Minnetonka,1036109,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,1.0,78.0,78.0,Buyer's Select
-Osseo,1036114,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,1.0,78.0,78.0,Buyer's Select
 Rosemount,1036131,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,1.0,78.0,78.0,Buyer's Select
-Vadnais Heights,1036169,810879020203,90+ Cellars New Zealand Sauv Blanc 1.5L,2992406,6,1.0,78.0,78.0,Buyer's Select
 Blaine,1036055,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,2.0,79.37,158.74,Buyer's Select
-Cottage Grove,1036083,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,2.0,79.37,158.74,Buyer's Select
 Ramsey,1036126,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,3.0,79.37,238.11,Buyer's Select
-Roseville,1036142,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,1.0,79.37,79.37,Buyer's Select
-St. Louis Park,1036152,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,3.0,79.37,238.11,Buyer's Select
-Vadnais Heights,1036169,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,1.0,79.37,79.37,Buyer's Select
 Woodbury,1036178,810879020302,90+ Cellars Chardonnay 750ml,2991804,12,3.0,79.37,238.11,Buyer's Select
 Andover,1036048,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,1.0,117.0,117.0,Buyer's Select
 Blaine,1036055,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,3.0,117.0,351.0,Buyer's Select
 Chanhassen,1036075,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,1.0,117.0,117.0,Buyer's Select
-Plymouth,1036120,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,1.0,117.0,117.0,Buyer's Select
 Rosemount,1036131,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,1.0,117.0,117.0,Buyer's Select
-St. Louis Park,1036152,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,4.0,117.0,468.0,Buyer's Select
 Stillwater,1036163,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,1.0,117.0,117.0,Buyer's Select
 Woodbury,1036178,810879020340,"90+ Cellars Lot 132 Reserve Rose, Provence 750ml",2993334,12,2.0,117.0,234.0,Buyer's Select
-St. Louis Park,1036152,810879020357,90+ Cellars Lot 126 Sancerre 750ml,2993314,12,3.0,239.84,719.52,Buyer's Select
 Stillwater,1036163,810879020357,90+ Cellars Lot 126 Sancerre 750ml,2993314,12,1.0,239.84,239.84,Buyer's Select
 Andover,1036048,810879020586,90+ Cellars Zinfandel Lot 180 750ml,2990384,12,1.0,79.5,79.5,Buyer's Select
-Roseville,1036142,810879020586,90+ Cellars Zinfandel Lot 180 750ml,2990384,12,3.0,79.5,238.5,Buyer's Select
-Vadnais Heights,1036169,810879020586,90+ Cellars Zinfandel Lot 180 750ml,2990384,12,1.0,79.5,79.5,Buyer's Select
 Andover,1036048,810879020593,90+ Cellars Russian River Chardonnay Lot 130 750ml,2990374,12,1.0,106.0,106.0,Buyer's Select
 Chanhassen,1036075,810879020593,90+ Cellars Russian River Chardonnay Lot 130 750ml,2990374,12,1.0,106.0,106.0,Buyer's Select
 Rosemount,1036131,810879020593,90+ Cellars Russian River Chardonnay Lot 130 750ml,2990374,12,1.0,106.0,106.0,Buyer's Select
-Roseville,1036142,810879020593,90+ Cellars Russian River Chardonnay Lot 130 750ml,2990374,12,2.0,106.0,212.0,Buyer's Select
-St. Louis Park,1036152,810879020593,90+ Cellars Russian River Chardonnay Lot 130 750ml,2990374,12,3.0,106.0,318.0,Buyer's Select
 Woodbury,1036178,810879020593,90+ Cellars Russian River Chardonnay Lot 130 750ml,2990374,12,1.0,106.0,106.0,Buyer's Select
 Bloomington,1036068,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,9.0,65.16,586.44,Buyer's Select
 Chanhassen,1036075,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,5.0,65.16,325.8,Buyer's Select
-Cottage Grove,1036083,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,5.0,65.16,325.8,Buyer's Select
-Minneapolis,1036092,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,9.0,65.16,586.44,Buyer's Select
-Minnetonka,1036109,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,10.0,65.16,651.6,Buyer's Select
-Osseo,1036114,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,2.0,65.16,130.32,Buyer's Select
-Plymouth,1036120,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,15.0,65.16,977.4,Buyer's Select
 Ramsey,1036126,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,1.0,65.16,65.16,Buyer's Select
 Rosemount,1036131,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,5.0,65.16,325.8,Buyer's Select
-Roseville,1036142,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,14.0,65.16,912.24,Buyer's Select
-St. Louis Park,1036152,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,6.0,65.16,390.96,Buyer's Select
-Vadnais Heights,1036169,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,12.0,65.16,781.92,Buyer's Select
 Woodbury,1036178,810879020647,90+ Cellars DOC Prosecco Lot 50 (3 pk) 187ml,2991721,8,7.0,65.16,456.12,Buyer's Select
-Cottage Grove,1036083,810879020708,90+ Cellars Lot 50 Prosecco 1.5L,2991726,6,1.0,85.32,85.32,Buyer's Select
-Minneapolis,1036092,810879020708,90+ Cellars Lot 50 Prosecco 1.5L,2991726,6,2.0,85.32,170.64,Buyer's Select
-Cottage Grove,1036083,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,1.0,112.0,112.0,Buyer's Select
-Roseville,1036142,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,4.0,112.0,448.0,Buyer's Select
-St. Louis Park,1036152,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,4.0,112.0,448.0,Buyer's Select
 Stillwater,1036163,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,1.0,112.0,112.0,Buyer's Select
-Vadnais Heights,1036169,810879020777,90+ Cellars Willamette Valley Pinot Noir Lot 137 750ml,2990364,12,1.0,112.0,112.0,Buyer's Select
 Andover,1036048,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,3.0,101.84,305.52,Buyer's Select
 Chanhassen,1036075,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,3.0,101.84,305.52,Buyer's Select
-Osseo,1036114,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,2.0,101.84,203.68,Buyer's Select
 Ramsey,1036126,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,1.0,101.84,101.84,Buyer's Select
 Rosemount,1036131,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,3.0,101.84,305.52,Buyer's Select
-Roseville,1036142,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,1.0,101.84,101.84,Buyer's Select
-St. Louis Park,1036152,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,8.0,101.84,814.72,Buyer's Select
 Stillwater,1036163,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,1.0,101.84,101.84,Buyer's Select
 Woodbury,1036178,810879020838,90+ Cellars Lot 210 Paso Robles Cabernet Sauvignon  750ml,2993384,12,1.0,101.84,101.84,Buyer's Select
 Blaine,1036055,810879020876,Ironside Reserve Pinot Noir 750ml,2990624,12,1.0,91.84,91.84,Buyer's Select
-Roseville,1036142,810879020876,Ironside Reserve Pinot Noir 750ml,2990624,12,1.0,91.84,91.84,Buyer's Select
-St. Louis Park,1036152,810879020876,Ironside Reserve Pinot Noir 750ml,2990624,12,1.0,91.84,91.84,Buyer's Select
-Vadnais Heights,1036169,810879020876,Ironside Reserve Pinot Noir 750ml,2990624,12,1.0,91.84,91.84,Buyer's Select
 Andover,1036048,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,4.0,78.0,312.0,Buyer's Select
 Blaine,1036055,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,3.0,78.0,234.0,Buyer's Select
 Bloomington,1036068,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,1.0,78.0,78.0,Buyer's Select
-Plymouth,1036120,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,1.0,78.0,78.0,Buyer's Select
-St. Louis Park,1036152,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,2.0,78.0,156.0,Buyer's Select
 Woodbury,1036178,810879020883,90+ Cellars Chianti Riserva DOCG,2990304,12,3.0,78.0,234.0,Buyer's Select
 Blaine,1036201,810879021361,Steel 43 Vodka 1.75L,8574409,6,8.0,103.0,824.0,Buyers Select
 Chanhassen,1036224,810879021361,Steel 43 Vodka 1.75L,8574409,6,4.0,103.0,0.0,Buyers Select
-Cottage Grove,1036232,810879021361,Steel 43 Vodka 1.75L,8574409,6,2.0,103.0,206.0,Buyers Select
-Minnetonka,1036253,810879021361,Steel 43 Vodka 1.75L,8574409,6,1.0,103.0,103.0,Buyers Select
-Osseo,1036262,810879021361,Steel 43 Vodka 1.75L,8574409,6,1.0,103.0,103.0,Buyers Select
-Plymouth,1036271,810879021361,Steel 43 Vodka 1.75L,8574409,6,1.0,103.0,0.0,Buyers Select
 Ramsey,1036279,810879021361,Steel 43 Vodka 1.75L,8574409,6,1.0,103.0,103.0,Buyers Select
-Vadnais Heights,1036338,810879021361,Steel 43 Vodka 1.75L,8574409,6,2.0,103.0,206.0,Buyers Select
 Andover,1036190,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,100.0,Buyers Select
 Blaine,1036201,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,100.0,Buyers Select
 Chanhassen,1036224,810879021378,Steel 43 Vodka 750ml,8574404,12,2.0,100.0,0.0,Buyers Select
-Cottage Grove,1036232,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,100.0,Buyers Select
-Minneapolis,1036245,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,0.0,Buyers Select
-Plymouth,1036271,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,0.0,Buyers Select
-St. Louis Park,1036318,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,0.0,Buyers Select
-Vadnais Heights,1036338,810879021378,Steel 43 Vodka 750ml,8574404,12,1.0,100.0,100.0,Buyers Select
 Bloomington,1036213,810879021385,Steel 43 Vodka 50ml,8574408,120,1.0,85.0,85.0,Buyers Select
 Rosemount,1036131,810879021422,90+ Cellars Muscadet Sevre et Maine Sur Lie,2990344,12,1.0,90.0,90.0,Buyer's Select
-Roseville,1036142,810879021422,90+ Cellars Muscadet Sevre et Maine Sur Lie,2990344,12,1.0,90.0,90.0,Buyer's Select
-St. Louis Park,1036152,810879021422,90+ Cellars Muscadet Sevre et Maine Sur Lie,2990344,12,1.0,90.0,90.0,Buyer's Select
-Roseville,1036142,810879021439,90+ Cellars Pouilly-Fume Lot 171 750ml,2990434,12,1.0,184.0,184.0,Buyer's Select
-St. Louis Park,1036152,810879021439,90+ Cellars Pouilly-Fume Lot 171 750ml,2990434,12,1.0,184.0,184.0,Buyer's Select
-Minneapolis,1036092,810879021477,90+ Cellars Lambrusco 750ml,2990144,12,1.0,77.84,77.84,Buyer's Select
-Minnetonka,1036109,810879021477,90+ Cellars Lambrusco 750ml,2990144,12,2.0,77.84,155.68,Buyer's Select
-St. Louis Park,1036152,810879021477,90+ Cellars Lambrusco 750ml,2990144,12,2.0,77.84,155.68,Buyer's Select
-Plymouth,1036120,810879021514,90+ Cellars Albarino Lot 174 750ml,2990394,12,1.0,126.0,126.0,Buyer's Select
-Roseville,1036142,810879021514,90+ Cellars Albarino Lot 174 750ml,2990394,12,2.0,126.0,252.0,Buyer's Select
-Vadnais Heights,1036169,810879021514,90+ Cellars Albarino Lot 174 750ml,2990394,12,1.0,126.0,126.0,Buyer's Select
-St. Louis Park,1036152,810879021538,90+ Cellars Lot 175 Rioja,2990324,12,3.0,79.37,238.11,Buyer's Select
 Rosemount,1036288,810879021743,Wheel Horse Rye Whiskey 750ml,8360804,6,1.0,113.0,0.0,Buyers Select
-Roseville,1036300,810879021743,Wheel Horse Rye Whiskey 750ml,8360804,6,1.0,113.0,113.0,Buyers Select
-St. Louis Park,1036318,810879021743,Wheel Horse Rye Whiskey 750ml,8360804,6,2.0,113.0,0.0,Buyers Select
 Stillwater,1036329,810879021743,Wheel Horse Rye Whiskey 750ml,8360804,6,1.0,113.0,113.0,Buyers Select
 Blaine,1036201,810879021873,Wheel Horse Bourbon 750ml,8350904,6,2.0,113.0,226.0,Buyers Select
 Ramsey,1036279,810879021873,Wheel Horse Bourbon 750ml,8350904,6,1.0,113.0,113.0,Buyers Select
-Roseville,1036300,810879021873,Wheel Horse Bourbon 750ml,8350904,6,3.0,113.0,339.0,Buyers Select
 Andover,1036048,810879021903,90+ Cellars Montepulciano d'Abruzzo Lot 188 750ml,2990404,12,3.0,78.0,234.0,Buyer's Select
-Vadnais Heights,1036169,810879021903,90+ Cellars Montepulciano d'Abruzzo Lot 188 750ml,2990404,12,2.0,78.0,156.0,Buyer's Select
 Andover,1036190,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,5.0,163.0,815.0,Buyers Select
 Blaine,1036201,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,3.0,163.0,489.0,Buyers Select
 Bloomington,1036213,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,3.0,163.0,489.0,Buyers Select
 Chanhassen,1036224,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,2.0,163.0,0.0,Buyers Select
-Cottage Grove,1036232,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,5.0,163.0,815.0,Buyers Select
-Minneapolis,1036245,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,8.0,163.0,0.0,Buyers Select
-Minnetonka,1036253,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,1.0,163.0,163.0,Buyers Select
 Ramsey,1036279,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,1.0,163.0,163.0,Buyers Select
 Rosemount,1036288,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,1.0,163.0,0.0,Buyers Select
-Roseville,1036300,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,2.0,163.0,326.0,Buyers Select
-St. Louis Park,1036318,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,2.0,163.0,0.0,Buyers Select
-Woodbury,1036352,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,3.0,163.0,0.0,Buyers Select
+Woodbury,1036352,810879022054,Zarpado Blanco Tequila 750ml,8498724,12,3.0,163.0,489.0,Buyers Select
 Andover,1036190,810879022085,Buddy's American Vodka 1.75L,8574449,6,3.0,78.0,234.0,Buyers Select
 Blaine,1036201,810879022085,Buddy's American Vodka 1.75L,8574449,6,13.0,78.0,1014.0,Buyers Select
 Chanhassen,1036224,810879022085,Buddy's American Vodka 1.75L,8574449,6,4.0,78.0,0.0,Buyers Select
-Cottage Grove,1036232,810879022085,Buddy's American Vodka 1.75L,8574449,6,7.0,78.0,546.0,Buyers Select
-Minneapolis,1036245,810879022085,Buddy's American Vodka 1.75L,8574449,6,32.0,78.0,0.0,Buyers Select
-Minnetonka,1036253,810879022085,Buddy's American Vodka 1.75L,8574449,6,1.0,78.0,78.0,Buyers Select
-Osseo,1036262,810879022085,Buddy's American Vodka 1.75L,8574449,6,2.0,78.0,156.0,Buyers Select
-Plymouth,1036271,810879022085,Buddy's American Vodka 1.75L,8574449,6,5.0,78.0,0.0,Buyers Select
 Ramsey,1036279,810879022085,Buddy's American Vodka 1.75L,8574449,6,2.0,78.0,156.0,Buyers Select
 Rosemount,1036288,810879022085,Buddy's American Vodka 1.75L,8574449,6,4.0,78.0,0.0,Buyers Select
-Roseville,1036300,810879022085,Buddy's American Vodka 1.75L,8574449,6,3.0,78.0,234.0,Buyers Select
-St. Louis Park,1036318,810879022085,Buddy's American Vodka 1.75L,8574449,6,3.0,78.0,0.0,Buyers Select
 Stillwater,1036329,810879022085,Buddy's American Vodka 1.75L,8574449,6,4.0,78.0,312.0,Buyers Select
-Vadnais Heights,1036338,810879022085,Buddy's American Vodka 1.75L,8574449,6,2.0,78.0,156.0,Buyers Select
-Woodbury,1036352,810879022085,Buddy's American Vodka 1.75L,8574449,6,5.0,78.0,0.0,Buyers Select
-Minneapolis,1036092,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,2.0,64.0,128.0,Buyer's Select
-Minnetonka,1036109,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,3.0,64.0,192.0,Buyer's Select
-Plymouth,1036120,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,4.0,64.0,256.0,Buyer's Select
+Woodbury,1036352,810879022085,Buddy's American Vodka 1.75L,8574449,6,5.0,78.0,390.0,Buyers Select
 Rosemount,1036131,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,2.0,64.0,128.0,Buyer's Select
-Roseville,1036142,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,2.0,64.0,128.0,Buyer's Select
-St. Louis Park,1036152,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,1.0,64.0,64.0,Buyer's Select
-Vadnais Heights,1036169,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,5.0,64.0,320.0,Buyer's Select
 Woodbury,1036178,810879022320,90+ Cellars Vinho Verde 750ml,2992604,12,4.0,64.0,256.0,Buyer's Select
 Blaine,1036201,810879022351,Buddy's American Vodka Liter,8574475,12,4.0,85.0,340.0,Buyers Select
-Vadnais Heights,1036338,810879022351,Buddy's American Vodka Liter,8574475,12,1.0,85.0,85.0,Buyers Select
-Woodbury,1036352,810879022351,Buddy's American Vodka Liter,8574475,12,1.0,85.0,0.0,Buyers Select
+Woodbury,1036352,810879022351,Buddy's American Vodka Liter,8574475,12,1.0,85.0,85.0,Buyers Select
 Blaine,1036201,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,3.0,102.0,306.0,Buyers Select
 Chanhassen,1036224,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,1.0,102.0,0.0,Buyers Select
-Minneapolis,1036245,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,5.0,102.0,0.0,Buyers Select
-Minnetonka,1036253,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,1.0,102.0,102.0,Buyers Select
-Osseo,1036262,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,1.0,102.0,102.0,Buyers Select
-Plymouth,1036271,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,2.0,102.0,0.0,Buyers Select
 Ramsey,1036279,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,3.0,102.0,306.0,Buyers Select
 Rosemount,1036288,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,8.0,102.0,0.0,Buyers Select
-Roseville,1036300,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,3.0,102.0,306.0,Buyers Select
-St. Louis Park,1036318,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,1.0,102.0,0.0,Buyers Select
-Vadnais Heights,1036338,810879023631,Zarpado Reposado Tequila 750ml,8498734,6,2.0,102.0,204.0,Buyers Select
 Blaine,1036055,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,2.0,75.18,150.36,Buyer's Select
 Chanhassen,1036075,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,3.0,75.18,225.54,Buyer's Select
-Roseville,1036142,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,3.0,75.18,225.54,Buyer's Select
-St. Louis Park,1036152,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,1.0,75.18,75.18,Buyer's Select
 Woodbury,1036178,810879023655,90+ Cellars Prosecco Rose (3pk) 187ml,2991731,8,1.0,75.18,75.18,Buyer's Select
-Minneapolis,1036092,810879023969,"90+ Cellars Sauvignon Blanc, IGP Val de Loire Lot 213 750ml",2990424,12,1.0,112.0,112.0,Buyer's Select
 Ramsey,1036126,810879023969,"90+ Cellars Sauvignon Blanc, IGP Val de Loire Lot 213 750ml",2990424,12,1.0,112.0,112.0,Buyer's Select
-Roseville,1036142,810879023969,"90+ Cellars Sauvignon Blanc, IGP Val de Loire Lot 213 750ml",2990424,12,2.0,112.0,224.0,Buyer's Select
-St. Louis Park,1036152,810879023969,"90+ Cellars Sauvignon Blanc, IGP Val de Loire Lot 213 750ml",2990424,12,1.0,112.0,112.0,Buyer's Select
 Blaine,1036055,810879024898,"90+ Cellars 2022 Lot 215 Orange, Abruzzo, Italy 750ml",2994014,12,1.0,102.0,102.0,Buyer's Select
-Minneapolis,1036092,810879024898,"90+ Cellars 2022 Lot 215 Orange, Abruzzo, Italy 750ml",2994014,12,5.0,102.0,510.0,Buyer's Select
-Roseville,1036142,810879024898,"90+ Cellars 2022 Lot 215 Orange, Abruzzo, Italy 750ml",2994014,12,1.0,102.0,102.0,Buyer's Select
-St. Louis Park,1036152,810879024898,"90+ Cellars 2022 Lot 215 Orange, Abruzzo, Italy 750ml",2994014,12,2.0,102.0,204.0,Buyer's Select
-Vadnais Heights,1036169,810879024898,"90+ Cellars 2022 Lot 215 Orange, Abruzzo, Italy 750ml",2994014,12,1.0,102.0,102.0,Buyer's Select
 Andover,1036048,810879024911,Ironside Chardonnay 750ml,2991854,12,1.0,71.84,71.84,Buyer's Select
 Chanhassen,1036075,810879024911,Ironside Chardonnay 750ml,2991854,12,1.0,71.84,71.84,Buyer's Select
 Woodbury,1036178,810879024911,Ironside Chardonnay 750ml,2991854,12,1.0,71.84,71.84,Buyer's Select
 Blaine,1036055,810879026786,La Cle de La Femme Rose 750ml,2994044,12,1.0,346.0,346.0,Buyer's Select
 Blaine,1036201,810879027141,Zarpado Anejo 750ml,8498744,6,1.0,135.0,135.0,Buyers Select
 Bloomington,1036213,810879027141,Zarpado Anejo 750ml,8498744,6,1.0,135.0,135.0,Buyers Select
-Cottage Grove,1036232,810879027141,Zarpado Anejo 750ml,8498744,6,1.0,135.0,135.0,Buyers Select
 Ramsey,1036279,810879027141,Zarpado Anejo 750ml,8498744,6,1.0,135.0,135.0,Buyers Select
 Rosemount,1036288,810879027141,Zarpado Anejo 750ml,8498744,6,1.0,135.0,0.0,Buyers Select
-St. Louis Park,1036318,810879027141,Zarpado Anejo 750ml,8498744,6,2.0,135.0,0.0,Buyers Select
-Woodbury,1036352,810879027141,Zarpado Anejo 750ml,8498744,6,3.0,135.0,0.0,Buyers Select
+Woodbury,1036352,810879027141,Zarpado Anejo 750ml,8498744,6,3.0,135.0,405.0,Buyers Select
 Andover,1036190,810879027165,Flyer Vodka 1.75L,8574469,6,8.0,65.0,520.0,Buyers Select
 Blaine,1036201,810879027165,Flyer Vodka 1.75L,8574469,6,7.0,65.0,455.0,Buyers Select
 Chanhassen,1036224,810879027165,Flyer Vodka 1.75L,8574469,6,7.0,65.0,0.0,Buyers Select
-Cottage Grove,1036232,810879027165,Flyer Vodka 1.75L,8574469,6,3.0,65.0,195.0,Buyers Select
-Minneapolis,1036245,810879027165,Flyer Vodka 1.75L,8574469,6,49.0,65.0,0.0,Buyers Select
-Minnetonka,1036253,810879027165,Flyer Vodka 1.75L,8574469,6,1.0,65.0,65.0,Buyers Select
-Osseo,1036262,810879027165,Flyer Vodka 1.75L,8574469,6,1.0,65.0,65.0,Buyers Select
-Plymouth,1036271,810879027165,Flyer Vodka 1.75L,8574469,6,4.0,65.0,0.0,Buyers Select
 Ramsey,1036279,810879027165,Flyer Vodka 1.75L,8574469,6,6.0,65.0,390.0,Buyers Select
 Rosemount,1036288,810879027165,Flyer Vodka 1.75L,8574469,6,3.0,65.0,0.0,Buyers Select
-Roseville,1036300,810879027165,Flyer Vodka 1.75L,8574469,6,5.0,65.0,325.0,Buyers Select
-St. Louis Park,1036318,810879027165,Flyer Vodka 1.75L,8574469,6,5.0,65.0,0.0,Buyers Select
 Stillwater,1036329,810879027165,Flyer Vodka 1.75L,8574469,6,2.0,65.0,130.0,Buyers Select
-Vadnais Heights,1036338,810879027165,Flyer Vodka 1.75L,8574469,6,7.0,65.0,455.0,Buyers Select
-Woodbury,1036352,810879027165,Flyer Vodka 1.75L,8574469,6,2.0,65.0,0.0,Buyers Select
+Woodbury,1036352,810879027165,Flyer Vodka 1.75L,8574469,6,2.0,65.0,130.0,Buyers Select
 Andover,1036190,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,70.0,Buyers Select
-Minneapolis,1036245,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,0.0,Buyers Select
-Minnetonka,1036253,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,70.0,Buyers Select
-Plymouth,1036271,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,0.0,Buyers Select
 Ramsey,1036279,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,70.0,Buyers Select
-Woodbury,1036352,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,0.0,Buyers Select
+Woodbury,1036352,810879027172,Flyer Vodka Liter,8574465,12,1.0,70.0,70.0,Buyers Select
 Chanhassen,1036224,810879028353,Gunner Vodka 1.75L,8574579,6,1.0,63.0,0.0,Buyers Select
-Minneapolis,1036245,810879028353,Gunner Vodka 1.75L,8574579,6,1.0,63.0,0.0,Buyers Select
 Stillwater,1036329,810879028353,Gunner Vodka 1.75L,8574579,6,2.0,63.0,126.0,Buyers Select
-Vadnais Heights,1036338,810879028353,Gunner Vodka 1.75L,8574579,6,1.0,63.0,63.0,Buyers Select
-Minneapolis,1036245,810879028360,Gunner Vodka Liter,8574575,12,1.0,72.0,0.0,Buyers Select
 Ramsey,1036279,810879028360,Gunner Vodka Liter,8574575,12,1.0,72.0,72.0,Buyers Select
-Roseville,1036300,810879028360,Gunner Vodka Liter,8574575,12,1.0,72.0,72.0,Buyers Select
 Stillwater,1036329,810879028360,Gunner Vodka Liter,8574575,12,1.0,72.0,72.0,Buyers Select
-Woodbury,1036352,810879028360,Gunner Vodka Liter,8574575,12,1.0,72.0,0.0,Buyers Select
+Woodbury,1036352,810879028360,Gunner Vodka Liter,8574575,12,1.0,72.0,72.0,Buyers Select
 Blaine,1036055,810879028605,90+ Lot 231 Napa Valley Chardonnay 750ml,2990534,12,2.0,104.0,208.0,Buyer's Select
-Roseville,1036142,810879028605,90+ Lot 231 Napa Valley Chardonnay 750ml,2990534,12,1.0,104.0,104.0,Buyer's Select
-St. Louis Park,1036152,810879028605,90+ Lot 231 Napa Valley Chardonnay 750ml,2990534,12,1.0,104.0,104.0,Buyer's Select
 Blaine,1036201,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
-Cottage Grove,1036232,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
-Minnetonka,1036253,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
 Ramsey,1036279,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
 Rosemount,1036288,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,0.0,Buyers Select
-Roseville,1036300,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
-Vadnais Heights,1036338,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
-Woodbury,1036352,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,0.0,Buyers Select
-Plymouth,1035943,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
+Woodbury,1036352,810879029183,Gunner Bourbon Liter,8350945,12,1.0,137.0,137.0,Buyers Select
 Rosemount,1035945,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
-Vadnais Heights,1035948,811194039611,Smokiez Blackberry Lemonade 4pk 12oz can,9922012,6,1.0,80.0,80.0,
-Roseville,1036298,817469010101,Linie Aquavit 750ml,8289414,12,1.0,235.0,235.0,
 Blaine,1035936,840006314424,BLNCD Prickly Pear Bee's Knees 10mg THC 4pk 12oz can,9918102,6,1.0,78.4,78.4,
 Andover,1035935,840006314486,BLNCD Dream State 5mg Adaptogen THC Gummies,9918105,6,1.0,72.0,72.0,
 Rosemount,1035945,840006314486,BLNCD Dream State 5mg Adaptogen THC Gummies,9918105,6,1.0,72.0,72.0,
-Roseville,1035946,840006314486,BLNCD Dream State 5mg Adaptogen THC Gummies,9918105,6,1.0,72.0,72.0,
 Blaine,1035936,840006314868,Two Scoops Cream Soda10mg THC 4pk 12oz can,9917092,6,1.0,78.4,78.4,
 Andover,1035935,840006315834,Two Scoops Variety Pack 12pk 12oz can,9917132,2,1.0,62.0,62.0,
 Woodbury,1035949,840006315834,Two Scoops Variety Pack 12pk 12oz can,9917132,2,1.0,62.0,62.0,
-Vadnais Heights,1035948,840006315841,BLNCD Mocktail Variety Pack 10mg 12pk 12oz can,9918172,2,1.0,63.0,63.0,
 Blaine,1035936,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,3.0,72.0,216.0,
 Chanhassen,1035938,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,1.0,72.0,72.0,
-Cottage Grove,1035939,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,1.0,72.0,72.0,
-Minneapolis,1035940,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,2.0,72.0,144.0,
-Minnetonka,1035941,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,1.0,72.0,72.0,
-Roseville,1035946,850046271298,Wikid Paloma 10mg THC 4pk 12oz can,9932012,6,2.0,72.0,144.0,
 Blaine,1035936,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,3.0,72.0,216.0,
-Cottage Grove,1035939,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
-Osseo,1035942,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
-Plymouth,1035943,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
 Ramsey,1035944,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
-Roseville,1035946,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,2.0,72.0,144.0,
-St. Louis Park,1035947,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
 Woodbury,1035949,850046271380,Wikid Mimosa 10mg THC 4pk 12oz can,9931012,6,1.0,72.0,72.0,
 Andover,1035935,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,1.0,72.0,72.0,
 Blaine,1035936,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,2.0,72.0,144.0,
-Minneapolis,1035940,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,1.0,72.0,72.0,
-Plymouth,1035943,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,2.0,72.0,144.0,
-St. Louis Park,1035947,850046271397,Wikid Bramble 10mg THC 4pk 12oz can,9933012,6,2.0,72.0,144.0,
-Woodbury,1035949,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,96.0,
-Woodbury,1035949,850063284134,Minny Grown CBG Pink Lemonade 10 Pack,9912205,12,1.0,96.0,96.0,
+Blaine2,PO0000001998,850050895916,Delta Passion Fruit 10mg THC 5mg CBD 4pk 12oz can,850050895916,6,26.0,50.0,0.0,Direct THC
+Blaine2,PO0000001998,850050895923,Delta Blood Orange 10mg THC 5mg CBD 4pk 12oz can,850050895923,6,39.0,50.0,0.0,Direct THC
+Blaine2,PO0000001998,850050895930,Delta Blueberry Acai 10mg THC 5mg CBD 4pk 12oz can,850050895930,6,39.0,50.0,0.0,Direct THC
+Blaine2,PO0000001998,850050895947,Delta Pink Lemonade 10mg THC 5mg CBD 4pk 12oz can,850050895947,6,26.0,50.0,0.0,Direct THC
+Woodbury,1035949,850063284127,Minny Grown CBN Rainbow Sherbert 10 Pack,9912185,12,1.0,96.0,0.0,
+Woodbury,1035949,850063284134,Minny Grown CBG Pink Lemonade 10 Pack,9912205,12,1.0,96.0,0.0,
 Ramsey,1035944,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Roseville,1035946,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Vadnais Heights,1035948,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
-Woodbury,1035949,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,72.0,
+Woodbury,1035949,850063284608,Minny Grown Caramel Apple Alien Abduction Yummy Gummy Bar 50mg THC,9912305,12,1.0,72.0,0.0,
 Bloomington,1035937,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
-Roseville,1035946,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
-St. Louis Park,1035947,850063284615,Minny Grown Highbernate 2.0 Yummy Gummy Bar 50mg THC,9912295,12,1.0,72.0,72.0,
 Blaine,1035936,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
 Chanhassen,1035938,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
-Minnetonka,1035941,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
-Plymouth,1035943,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
-Vadnais Heights,1035948,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
 Woodbury,1035949,850063284776,Minny Grown Highbernate Moon Melon 5mg THC 10mg CBD 20mg CBN 10pk,9912315,12,1.0,96.0,96.0,
+Blaine2,PO0000001998,850073009017,Delta Variety Pack 10mg THC 8pk 12oz can,850073009017,3,78.0,50.0,0.0,Direct THC
 Blaine,1036198,852546003096,Tonka Vodka 1.75L,8563009,6,1.0,90.0,90.0,
-Roseville,1036298,855439000691,Rokz Lime Margarita Salt 4oz,7203,6,1.0,22.75,22.75,
 Rosemount,1036286,859122005246,Traverse City Cherries 21oz,7274090,6,1.0,80.5,80.5,
 Woodbury,1036350,859122005246,Traverse City Cherries 21oz,7274090,6,1.0,80.5,80.5,
-Roseville,1036298,859579004014,Spooky Horseradish Bloody Mary 32oz,900401,12,1.0,53.0,53.0,
 Blaine,1035936,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
 Bloomington,1035937,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
-Plymouth,1035943,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
-St. Louis Park,1035947,860006677664,Minny Grown Watermelon 10 Pack,9912075,12,1.0,96.0,96.0,
-St. Louis Park,1035947,860006677671,Minny Grown BlueBeary 10 Pack,9912095,12,1.0,96.0,96.0,
 Woodbury,1035949,860006677671,Minny Grown BlueBeary 10 Pack,9912095,12,1.0,96.0,96.0,
 Blaine,1035936,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
 Chanhassen,1035938,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
-Minneapolis,1035940,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,2.0,96.0,192.0,
-Plymouth,1035943,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,2.0,96.0,192.0,
 Woodbury,1035949,860006677688,Minny Grown Berry Bliss 10 Pack,9912005,12,1.0,96.0,96.0,
-Osseo,1035942,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
-Plymouth,1035943,860006677695,Minny Grown Peach 10 Pack,9912065,12,2.0,96.0,192.0,
 Ramsey,1035944,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
-Roseville,1035946,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
-Vadnais Heights,1035948,860006677695,Minny Grown Peach 10 Pack,9912065,12,1.0,96.0,96.0,
 Chanhassen,1035938,860009438002,Minny Grown Skol! 10 Pack,9912035,12,1.0,96.0,96.0,
-Osseo,1035942,860009438002,Minny Grown Skol! 10 Pack,9912035,12,1.0,96.0,96.0,
 Woodbury,1035949,860009438002,Minny Grown Skol! 10 Pack,9912035,12,1.0,96.0,96.0,
 Andover,1035935,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
-Plymouth,1035943,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
 Ramsey,1035944,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,2.0,96.0,192.0,
 Rosemount,1035945,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
-Vadnais Heights,1035948,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
 Woodbury,1035949,860009438040,Minny Grown Highbernate 5mg THC 10 Pack,9912145,12,1.0,96.0,96.0,
 Chanhassen,1035938,860009438057,Minny Grown Mango 10 Pack,9912055,12,1.0,96.0,96.0,
 Andover,1035935,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
 Blaine,1035936,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
-Osseo,1035942,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
-Plymouth,1035943,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
-St. Louis Park,1035947,860009438088,Minny Grown Minny Apple 10 Pack,9912105,12,1.0,96.0,96.0,
 Andover,1035935,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Blaine,1035936,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Chanhassen,1035938,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Osseo,1035942,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Plymouth,1035943,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
 Rosemount,1035945,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Roseville,1035946,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-St. Louis Park,1035947,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Vadnais Heights,1035948,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
-Woodbury,1035949,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,66.0,
+Woodbury,1035949,860009899339,Minny Grown Minnarita 4pk 12oz can,9911042,6,1.0,66.0,0.0,
 Andover,1035935,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Blaine,1035936,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Bloomington,1035937,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Chanhassen,1035938,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Minneapolis,1035940,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Minnetonka,1035941,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Osseo,1035942,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Plymouth,1035943,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Ramsey,1035944,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
 Rosemount,1035945,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Roseville,1035946,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Vadnais Heights,1035948,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
-Woodbury,1035949,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,66.0,
+Woodbury,1035949,860009899346,Minny Grown Lemon Drop-let's 4pk 12oz can,9911032,6,1.0,66.0,0.0,
 Blaine,1035936,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
 Chanhassen,1035938,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
 Ramsey,1035944,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
 Woodbury,1035949,860009899360,Minny Grown St. Croix Sunrise 10 Pack,9912025,12,1.0,96.0,96.0,
-Osseo,1035942,860009899384,Minny Grown CBD Chillbeary 10 Pack,9912175,12,1.0,96.0,96.0,
-Plymouth,1035943,860009899384,Minny Grown CBD Chillbeary 10 Pack,9912175,12,1.0,96.0,96.0,
 Blaine,1035936,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Minneapolis,1035940,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Osseo,1035942,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Roseville,1035946,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Vadnais Heights,1035948,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
-Woodbury,1035949,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,72.0,
+Woodbury,1035949,860010316481,Minny Grown St. Croix Sunrise Yummy Gummy Bar 50mg THC,9912265,12,1.0,72.0,0.0,
 Blaine,1035936,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
 Chanhassen,1035938,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,2.0,96.0,192.0,
-Minnetonka,1035941,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Plymouth,1035943,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
 Ramsey,1035944,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
-Roseville,1035946,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,2.0,96.0,192.0,
-St. Louis Park,1035947,860010532591,Minny Grown Highbernate 2.0 10 Pack,9912015,12,1.0,96.0,96.0,
 Andover,1035935,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
 Chanhassen,1035938,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Minneapolis,1035940,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Osseo,1035942,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Plymouth,1035943,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
 Ramsey,1035944,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
 Rosemount,1035945,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Roseville,1035946,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-St. Louis Park,1035947,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Vadnais Heights,1035948,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
 Woodbury,1035949,860013612719,Brez Extra Strength 10mg THC 4pk 12oz can,9919002,6,1.0,73.0,73.0,
-Roseville,1036298,863411000317,Flying Dutchman Gin 750ml,8201024,6,1.0,108.0,108.0,
 Blaine,1036055,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,7.0,77.84,544.88,Buyer's Select
 Bloomington,1036068,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,3.0,77.84,233.52,Buyer's Select
 Chanhassen,1036075,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,9.0,77.84,700.56,Buyer's Select
-Cottage Grove,1036083,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,1.0,77.84,77.84,Buyer's Select
-Minneapolis,1036092,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,4.0,77.84,311.36,Buyer's Select
-Plymouth,1036120,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,1.0,77.84,77.84,Buyer's Select
 Ramsey,1036126,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,2.0,77.84,155.68,Buyer's Select
 Rosemount,1036131,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,2.0,77.84,155.68,Buyer's Select
-Roseville,1036142,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,5.0,77.84,389.2,Buyer's Select
-St. Louis Park,1036152,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,7.0,77.84,544.88,Buyer's Select
 Stillwater,1036163,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,1.0,77.84,77.84,Buyer's Select
 Woodbury,1036178,894655001037,90+ Cellars Sauvignon Blanc Marlborough 750ml,2992404,12,2.0,77.84,155.68,Buyer's Select
 Andover,1036048,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,2.0,78.0,156.0,Buyer's Select
-Cottage Grove,1036083,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,4.0,78.0,312.0,Buyer's Select
-Osseo,1036114,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,2.0,78.0,156.0,Buyer's Select
-Roseville,1036142,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,6.0,78.0,468.0,Buyer's Select
-St. Louis Park,1036152,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,1.0,78.0,78.0,Buyer's Select
 Stillwater,1036163,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,1.0,78.0,78.0,Buyer's Select
 Woodbury,1036178,894655001099,90+ Cellars Pinot Noir California 750ml,2990614,12,1.0,78.0,78.0,Buyer's Select
 Rosemount,1036131,894655001228,90+ Cellars Lot 92 Merlot 750ml,2990544,12,1.0,77.84,77.84,Buyer's Select
 Blaine,1036055,894655001259,90+ Cellars Cab Sauv Rutherford/Napa 750ml,2990204,12,2.0,141.37,282.74,Buyer's Select
 Chanhassen,1036075,894655001259,90+ Cellars Cab Sauv Rutherford/Napa 750ml,2990204,12,1.0,141.37,141.37,Buyer's Select
-Roseville,1036142,894655001259,90+ Cellars Cab Sauv Rutherford/Napa 750ml,2990204,12,2.0,141.37,282.74,Buyer's Select
-St. Louis Park,1036152,894655001259,90+ Cellars Cab Sauv Rutherford/Napa 750ml,2990204,12,1.0,141.37,141.37,Buyer's Select
 Woodbury,1036178,894655001259,90+ Cellars Cab Sauv Rutherford/Napa 750ml,2990204,12,1.0,141.37,141.37,Buyer's Select
 Andover,1036048,894655001396,90+ Cellars French Fusion 750ml,2990134,12,1.0,79.37,79.37,Buyer's Select
-Minneapolis,1036092,894655001396,90+ Cellars French Fusion 750ml,2990134,12,1.0,79.37,79.37,Buyer's Select
-Osseo,1036114,894655001396,90+ Cellars French Fusion 750ml,2990134,12,2.0,79.37,158.74,Buyer's Select
-Plymouth,1036120,894655001396,90+ Cellars French Fusion 750ml,2990134,12,2.0,79.37,158.74,Buyer's Select
-Roseville,1036142,894655001396,90+ Cellars French Fusion 750ml,2990134,12,1.0,79.37,79.37,Buyer's Select
 Andover,1036048,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,2.0,79.37,158.74,Buyer's Select
 Blaine,1036055,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,7.0,79.37,555.59,Buyer's Select
 Chanhassen,1036075,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,1.0,79.37,79.37,Buyer's Select
-Plymouth,1036120,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,2.0,79.37,158.74,Buyer's Select
 Rosemount,1036131,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,1.0,79.37,79.37,Buyer's Select
-Roseville,1036142,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,2.0,79.37,158.74,Buyer's Select
-St. Louis Park,1036152,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,2.0,79.37,158.74,Buyer's Select
 Stillwater,1036163,894655001426,90+ Cellars Old Vine Malbec 750ml,2990414,12,1.0,79.37,79.37,Buyer's Select
 Rosemount,1036131,894655001440,90+ Cellars 2019 Lot 26 Barolo 750ml,2994004,12,1.0,213.5,213.5,Buyer's Select
 Woodbury,1036178,894655001440,90+ Cellars 2019 Lot 26 Barolo 750ml,2994004,12,1.0,213.5,213.5,Buyer's Select
-Roseville,1036142,894655001457,90+ Cellars 2021 Lot 27 Barbera d'Alba 750ml,2990354,12,1.0,117.5,117.5,Buyer's Select
 Blaine,1036055,894655001488,90+ Cellars Lot 162 Cotes Du Rhone 750ml,2990574,12,1.0,79.5,79.5,Buyer's Select
-St. Louis Park,1036152,894655001488,90+ Cellars Lot 162 Cotes Du Rhone 750ml,2990574,12,2.0,79.5,159.0,Buyer's Select
 Stillwater,1036163,894655001488,90+ Cellars Lot 162 Cotes Du Rhone 750ml,2990574,12,1.0,79.5,79.5,Buyer's Select
 Andover,1036048,894655001518,90+ Cellars Rose 750ml,2993304,12,1.0,79.37,79.37,Buyer's Select
 Chanhassen,1036075,894655001518,90+ Cellars Rose 750ml,2993304,12,6.0,79.37,476.22,Buyer's Select
-Minneapolis,1036092,894655001518,90+ Cellars Rose 750ml,2993304,12,3.0,79.37,238.11,Buyer's Select
-Minnetonka,1036109,894655001518,90+ Cellars Rose 750ml,2993304,12,1.0,79.37,79.37,Buyer's Select
-Plymouth,1036120,894655001518,90+ Cellars Rose 750ml,2993304,12,5.0,79.37,396.85,Buyer's Select
 Ramsey,1036126,894655001518,90+ Cellars Rose 750ml,2993304,12,1.0,79.37,79.37,Buyer's Select
 Rosemount,1036131,894655001518,90+ Cellars Rose 750ml,2993304,12,1.0,79.37,79.37,Buyer's Select
-Roseville,1036142,894655001518,90+ Cellars Rose 750ml,2993304,12,6.0,79.37,476.22,Buyer's Select
-St. Louis Park,1036152,894655001518,90+ Cellars Rose 750ml,2993304,12,12.0,79.37,952.44,Buyer's Select
 Woodbury,1036178,894655001518,90+ Cellars Rose 750ml,2993304,12,4.0,79.37,317.48,Buyer's Select
 Andover,1036048,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,2.0,78.0,156.0,Buyer's Select
 Blaine,1036055,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,3.0,78.0,234.0,Buyer's Select
-Minneapolis,1036092,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,4.0,78.0,312.0,Buyer's Select
-Osseo,1036114,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,1.0,78.0,78.0,Buyer's Select
-Plymouth,1036120,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,4.0,78.0,312.0,Buyer's Select
 Ramsey,1036126,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,2.0,78.0,156.0,Buyer's Select
 Rosemount,1036131,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,1.0,78.0,78.0,Buyer's Select
-Roseville,1036142,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,3.0,78.0,234.0,Buyer's Select
-St. Louis Park,1036152,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,5.0,78.0,390.0,Buyer's Select
 Stillwater,1036163,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,1.0,78.0,78.0,Buyer's Select
-Vadnais Heights,1036169,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,1.0,78.0,78.0,Buyer's Select
 Woodbury,1036178,894655001600,90+ Cellars Pinot Grigio Trentino 750ml,2992204,12,3.0,78.0,234.0,Buyer's Select
 Chanhassen,1036075,894655001679,90+ Cellars Sparkling Rose 750ml,2993374,12,1.0,81.32,81.32,Buyer's Select
-Minneapolis,1036092,894655001679,90+ Cellars Sparkling Rose 750ml,2993374,12,3.0,81.32,243.96,Buyer's Select
-Roseville,1036142,894655001679,90+ Cellars Sparkling Rose 750ml,2993374,12,1.0,81.32,81.32,Buyer's Select
 Stillwater,1036163,894655001679,90+ Cellars Sparkling Rose 750ml,2993374,12,1.0,81.32,81.32,Buyer's Select
 Andover,1036048,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,5.0,81.32,406.6,Buyer's Select
 Blaine,1036055,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,7.0,81.32,569.24,Buyer's Select
-Cottage Grove,1036083,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,2.0,81.32,162.64,Buyer's Select
-Minneapolis,1036092,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,46.0,81.32,3740.74,Buyer's Select
-Osseo,1036114,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,3.0,81.32,243.96,Buyer's Select
-Plymouth,1036120,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,12.0,81.32,975.84,Buyer's Select
 Ramsey,1036126,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,7.0,81.32,569.24,Buyer's Select
-Roseville,1036142,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,11.0,81.32,894.52,Buyer's Select
-St. Louis Park,1036152,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,11.0,81.32,894.52,Buyer's Select
-Vadnais Heights,1036169,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,1.0,81.32,81.32,Buyer's Select
 Woodbury,1036178,894655001686,90+ Cellars DOC Prosecco Lot 50 750ml,2991724,12,15.0,81.32,1219.81,Buyer's Select
 Andover,1036048,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,1.0,79.37,79.37,Buyer's Select
 Rosemount,1036131,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,1.0,79.37,79.37,Buyer's Select
-Roseville,1036142,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,3.0,79.37,238.11,Buyer's Select
-St. Louis Park,1036152,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,4.0,79.37,317.48,Buyer's Select
 Stillwater,1036163,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,1.0,79.37,79.37,Buyer's Select
 Woodbury,1036178,894655001716,90+ Cellars Cab Sauv California Lot 225 750ml,2990214,12,1.0,79.37,79.37,Buyer's Select
 Blaine,1036055,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,5.0,78.0,390.0,Buyer's Select
-Minneapolis,1036092,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,4.0,78.0,312.0,Buyer's Select
-Plymouth,1036120,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,3.0,78.0,234.0,Buyer's Select
 Rosemount,1036131,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,1.0,78.0,78.0,Buyer's Select
-Roseville,1036142,894655001822,90+ Cellars Sauvignon Blanc Cali 750ml,2992414,12,3.0,78.0,234.0,Buyer's Select
 Andover,1036048,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,2.0,78.0,156.0,Buyer's Select
 Chanhassen,1036075,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,1.0,78.0,78.0,Buyer's Select
-Cottage Grove,1036083,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,5.0,78.0,390.0,Buyer's Select
-Minneapolis,1036092,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,2.0,78.0,156.0,Buyer's Select
 Rosemount,1036131,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,1.0,78.0,78.0,Buyer's Select
-Roseville,1036142,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,2.0,78.0,156.0,Buyer's Select
-Vadnais Heights,1036169,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,1.0,78.0,78.0,Buyer's Select
 Woodbury,1036178,894655001860,90+ Cellars Riesling Mosel 750ml,2992304,12,2.0,78.0,156.0,Buyer's Select
 Blaine,1036055,894655001945,90+ Cellars RR Pinot Noir 750ml,2990604,12,2.0,123.37,246.74,Buyer's Select
 Chanhassen,1036075,894655001945,90+ Cellars RR Pinot Noir 750ml,2990604,12,4.0,123.37,493.48,Buyer's Select
-Roseville,1036142,894655001945,90+ Cellars RR Pinot Noir 750ml,2990604,12,2.0,123.37,246.74,Buyer's Select
-St. Louis Park,1036152,894655001945,90+ Cellars RR Pinot Noir 750ml,2990604,12,3.0,123.37,370.11,Buyer's Select
 Woodbury,1036178,894655001945,90+ Cellars RR Pinot Noir 750ml,2990604,12,1.0,123.37,123.37,Buyer's Select
 Blaine,1036055,894655001976,90+ Cellars Moscato d'Asti 750ml,2991704,12,1.0,81.32,81.32,Buyer's Select
-Minneapolis,1036092,894655001976,90+ Cellars Moscato d'Asti 750ml,2991704,12,25.0,81.32,2033.01,Buyer's Select
