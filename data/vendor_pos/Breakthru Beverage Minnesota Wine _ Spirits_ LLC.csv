@@ -1,44 +1,13 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Ramsey,1036278,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
 St. Louis Park,1036317,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
-Minneapolis,1036244,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
 St. Louis Park,1036317,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
-Plymouth,1036270,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Vadnais Heights,1036168,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,
-Woodbury,1036177,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,
-Minneapolis,1036091,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,
-Minneapolis,1036244,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 St. Louis Park,1036317,088004009755,Dr McGillicuddys Apple Pie 50ml,9219465,120,1.0,71.05,71.05,
-Minneapolis,1036244,088004010126,Taaka Vodka 1.75L,9031608,6,2.0,52.71,105.42,
-Ramsey,1036278,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
 Vadnais Heights,1036344,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,Store Request
-Ramsey,1036278,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Plymouth,1036270,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Ramsey,1036278,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Woodbury,1036351,088004022754,Platinum Vodka Liter,9231167,12,1.0,99.0,99.0,
-Minneapolis,1036244,088004026141,Fris Vodka 1.75L,9612242,6,14.0,42.5,595.0,
-Plymouth,1036270,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
 St. Louis Park,1036317,088004026141,Fris Vodka 1.75L,9612242,6,2.0,42.5,85.0,
 Vadnais Heights,1036337,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Minneapolis,1036244,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Woodbury,1036351,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Woodbury,1036358,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,Store Request
 St. Louis Park,1036317,088004060060,Traveller Whiskey 750ml,9706276,12,1.0,315.0,315.0,
-Woodbury,1036351,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
-Minneapolis,1036244,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,
-St. Louis Park,1036317,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
-Woodbury,1036351,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,
-Plymouth,1036119,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,136.0,136.0,
-St. Louis Park,1036151,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,
-St. Louis Park,1036365,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,2.0,315.8,0.0,Allocated
-Woodbury,1036366,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,1.0,315.8,315.8,Allocated
+St. Louis Park,1036317,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,0.0,
+St. Louis Park,1036365,810096403896,Black Maple Hill Bourbon 700ml,9795133,6,2.0,315.8,631.6,Allocated
 St. Louis Park,1036365,810205351308,Black Maple Hill 11 Year 750ml,9799295,3,0.33,451.11,0.0,Allocated
-Plymouth,1036119,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-Plymouth,1036119,853086008008,Fit Vine Cabernet Sauvignon 750ml,9326987,12,1.0,120.0,120.0,
-Minneapolis,1036242,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
-Plymouth,1036268,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Ramsey,1036276,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,720.0,Allocated
 St. Louis Park,1036314,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,3.0,360.0,1080.0,Allocated
 Vadnais Heights,1036334,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,1.0,360.0,360.0,Allocated
-Woodbury,1036348,857552008431,Bardstown Bourbon Top Ten Single Barrel 750ml,9807060,6,2.0,360.0,720.0,Allocated
-Minneapolis,1036249,857552008684,Bardstown Rye Top Ten Single Barrel 750ml,9808998,6,30.0,360.0,10800.0,Store Request
