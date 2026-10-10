@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    232,579
   Coverable by transfer .......  $     96,206   (41%)
-  NET BUY from vendors ........  $    129,525   <- the order
+  NET BUY from vendors ........  $    138,636   <- the order
 
-  163 items   |   11,835 units to buy   |   17,741 units to rebalance
+  169 items   |   12,228 units to buy   |   17,741 units to rebalance
   Transfers: 895 moves  -  599 urgent (163 stockouts, 436 under 2wk), 296 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 103 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 109 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  2 Gingers 50ml                       576u/6cs         $384    753   215   1.9
   19  Phillips Vodka 1.75L                 186u/31cs      $1,733    196    12   2.0
   20  Kinky Peach Mango 750ml              6u/1cs            $77      5     0   2.1
-  ...and 143 more in the full list.
+  ...and 149 more in the full list.
 
-  NEEDS REVIEW (103 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (109 items the system isn't fully sure about - check before ordering):
     Jameson Select Res Black Barre Liter      Buy-month stock-up ($172 to next deal) - confirm
     Buzzballz Chili Watermelon 187ml          Seasonal - last year ~13/wk vs 6 now, buy ahead?
     Malibu Pineapple Rum Liter                Off buy-month - confirm timing
@@ -52,9 +52,9 @@
     Smirnoff Kissed Caramel Vodka Liter       Buy-month stock-up ($1,333 to next deal) - confirm
     Black Velvet Canadian 1.75L               Seasonal - last year ~37/wk vs 23 now, buy ahead?
     Christian Brothers Brandy 1.75L           Buy-month stock-up ($2,217 to next deal) - confirm
-    ...and 88 more (see Needs Review tab).
+    ...and 94 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (39 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (41 discontinued items still selling/low - run down stock):
     Absolut Peppar Vodka Liter                  (would have bought 12u)
     Absolut Raspberri Vodka Liter               (would have bought 60u)
     Absolut Vanilla Vodka Liter                 (would have bought 12u)
@@ -70,7 +70,7 @@
     Don Julio Reposado Tequila 750ml            (would have bought 576u)
     Evan Williams 100 Proof Liter               (would have bought 12u)
     Gentleman Jack 1.75L                        (would have bought 6u)
-    ...and 24 more (see Being Removed tab).
+    ...and 26 more (see Being Removed tab).
 
   WAIT FOR BUY-MONTH (10 routine deal items out of their buy month - $7,838 cheaper to buy in-month):
     Canadian Club 1.75L                         Wait for buy-month (Feb, May, Aug, Nov)
