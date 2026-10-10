@@ -4,12 +4,12 @@
 
   Gross need (all stores) .....  $    120,761
   Coverable by transfer .......  $     55,874   (46%)
-  NET BUY from vendors ........  $     79,475   <- the order
+  NET BUY from vendors ........  $     79,683   <- the order
 
-  145 items   |   11,834 units to buy   |   7,079 units to rebalance
+  146 items   |   11,846 units to buy   |   7,079 units to rebalance
   Transfers: 808 moves  -  673 urgent (246 stockouts, 427 under 2wk), 135 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 95 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 96 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -34,9 +34,9 @@
   18  Soon Hari Strawberry Soju 375ml      20u/1cs           $87     26     0   1.3
   19  Barefoot Apple Moscato 1.5L          390u/65cs      $3,229    124    32   1.4
   20  Papi Sweet Apple 750ml               48u/4cs          $211     49     4   1.4
-  ...and 125 more in the full list.
+  ...and 126 more in the full list.
 
-  NEEDS REVIEW (95 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (96 items the system isn't fully sure about - check before ordering):
     Soon Hari Apple-Mango Soju 375ml          Off buy-month - confirm timing
     Andre Moscato 750ml                       Buy-month stock-up ($63 to next deal) - confirm
     Barefoot Blueberry Moscato 1.5L           Buy-month stock-up ($1,390 to next deal) - confirm
@@ -52,9 +52,11 @@
     Yellow Tail Sweet Red Roo 1.5L            Seasonal - last year ~4/wk vs 3 now, buy ahead?
     Bota Box Redvolution 3L Box               Margin looks off - check retail/cost
     Underwood Bubbles 355ml                   Large buy ($7,328) - confirm; Buy-month stock-up ($7,328 to next deal) - confirm
-    ...and 80 more (see Needs Review tab).
+    ...and 81 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (28 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (30 discontinued items still selling/low - run down stock):
+    Alexander Valley Vineyards Cab Sauv 750ml   (would have bought 96u)
+    Alexander Valley Vineyards Chardonnay 750m  (would have bought 36u)
     Cavit Pinot Grigio 1.5L                     (would have bought 12u)
     Cavit Pinot Grigio 750ml                    (would have bought 24u)
     Franzia Cab Sauv 5L Box                     (would have bought 12u)
@@ -68,9 +70,7 @@
     Franzia Pinot Noir 5L Box                   (would have bought 8u)
     Franzia Refreshing White 5L Box             (would have bought 36u)
     Franzia Rich and Buttery Chardonnay 5L Box  (would have bought 8u)
-    Franzia Sauvignon Blanc 5L Box              (would have bought 12u)
-    Franzia Sunset Blush 5L Box                 (would have bought 60u)
-    ...and 13 more (see Being Removed tab).
+    ...and 15 more (see Being Removed tab).
 
   WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $8,116 cheaper to buy in-month):
     Black Box Buttery Chardonnay 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
