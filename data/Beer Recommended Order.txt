@@ -1,59 +1,62 @@
 ==========================================================================
-  RECOMMENDED BEER ORDER          Sunday, Oct 11, 2026
+  RECOMMENDED BEER ORDER          Tuesday, Oct 13, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    444,251
-  Coverable by transfer .......  $    195,643   (44%)
-  NET BUY from vendors ........  $    222,512   <- the order
+  (data is 1 day(s) old, from Oct 12 - refreshes automatically)
 
-  567 items   |   19,041 units to buy   |   17,909 units to rebalance
-  Transfers: 1,548 moves  -  1303 urgent (565 stockouts, 738 under 2wk), 245 routine
+  Gross need (all stores) .....  $    385,952
+  Coverable by transfer .......  $    185,993   (48%)
+  NET BUY from vendors ........  $    174,414   <- the order
+
+  523 items   |   15,363 units to buy   |   16,765 units to rebalance
+  Transfers: 1,493 moves  -  1221 urgent (540 stockouts, 681 under 2wk), 272 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 61 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 54 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Wooden Hill Kold Shoulder            2u/2cs            $15      2     0   OUT
-   2  Grain Belt Elite 12pk 12oz can       2u/1cs            $17      2     0   OUT
-   3  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     20     0   OUT
+   2  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     18     0   OUT
+   3  Grain Belt Elite 12pk 12oz can       2u/1cs            $17      2     0   OUT
    4  Miller High Life 24pk 16oz can       6u/6cs            $91      6     0   OUT
    5  Miller High Life Light 24pk 16oz ca  1u/1cs             $8      1     0   OUT
    6  Fulton Brewing Chill City 6pk 12oz   1u/1cs             $5      1     0   OUT
    7  Michelob Golden Draft 24pk 12oz can  1u/1cs            $19      1     0   OUT
-   8  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
-   9  Bent Paddle Light Lager  12pk 12oz   54u/54cs         $632     54     0   OUT
+   8  Bent Paddle Light Lager  12pk 12oz   49u/49cs         $573     49     0   OUT
+   9  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
   10  Michelob Golden Draft 24pk 12oz btl  1u/1cs             $0      1     0   OUT
-  11  Lagunitas Hazy IPA 12pk 12oz can     30u/15cs         $360     30     0   OUT
-  12  Toppling Goliath Hazy Day Sue 6pk 1  24u/6cs          $240     22     0   OUT
-  13  Summit Saga Variety 12pk 12oz can    52u/26cs         $686     56     5   OUT
-  14  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
-  15  Michelob Golden Light                1u/1cs             $1      1     0   OUT
-  16  Drekker Prrrt Series 4pk 16oz can    6u/6cs           $101      6     0   OUT
-  17  Stella Artois                        2u/2cs           $312      1     0   OUT
-  18  Guinness Zero 15oz can               2u/2cs             $0      2     0   OUT
-  19  Summit Sampler Pack 12pk 12oz can    36u/18cs         $475     51    14   OUT
-  20  Dogfish Head Raison D Extra          1u/1cs            $31      1     0   OUT
-  ...and 547 more in the full list.
+  11  Lagunitas Hazy IPA 12pk 12oz can     28u/14cs         $336     29     0   OUT
+  12  Toppling Goliath Hazy Day Sue 6pk 1  20u/5cs          $200     21     0   OUT
+  13  Summit Saga Variety 12pk 12oz can    48u/24cs         $634     53     5   OUT
+  14  Modist Supra Deluxe Sea Salt Lime 1  1u/1cs             $0      1     0   OUT
+  15  Good Boy Peach 4pk 12oz can          1u/1cs            $10      1     0   OUT
+  16  Michelob Golden Light                1u/1cs             $1      1     0   OUT
+  17  Drekker Prrrt Series 4pk 16oz can    6u/6cs           $101      6     0   OUT
+  18  Stella Artois                        2u/2cs           $312      1     0   OUT
+  19  Summit Sampler Pack 12pk 12oz can    32u/16cs         $422     46    14   OUT
+  20  Cutwater Peach Margerita 4pk 12oz c  30u/5cs          $296     31     0   OUT
+  ...and 503 more in the full list.
 
-  NEEDS REVIEW (61 items the system isn't fully sure about - check before ordering):
-    Wooden Hill Kold Shoulder                 Seasonal - last year ~3/wk vs 0 now, buy ahead?
+  NEEDS REVIEW (54 items the system isn't fully sure about - check before ordering):
+    Wooden Hill Kold Shoulder                 Seasonal - last year ~2/wk vs 0 now, buy ahead?
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
     Michelob Golden Draft 24pk 12oz btl       No cost data - verify price; Margin over 95% - check retail
+    Modist Supra Deluxe Sea Salt Lime 16oz c  No cost data - verify price; Margin over 95% - check retail
     Drekker Prrrt Series 4pk 16oz can         Seasonal - last year ~3/wk vs 2 now, buy ahead?
-    Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~24/wk vs 14 now, buy ahead?
+    Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Toppling Goliath Oktoberfest 6pk 12oz ca  No cost data - verify price; Margin over 95% - check retail
-    Amstel Light 6pk 12oz btl                 Seasonal - last year ~2/wk vs 0 now, buy ahead?
     Loon Juice Honeycrisp Haze 12pk 12oz can  No cost data - verify price; Margin over 95% - check retail
-    Mystery Beer 24pk                         Seasonal - last year ~375/wk vs 82 now, buy ahead?
+    Amstel Light 6pk 12oz btl                 Seasonal - last year ~2/wk vs 0 now, buy ahead?
+    Mystery Beer 24pk                         Seasonal - last year ~346/wk vs 67 now, buy ahead?
+    Headflyer Vanilla Bean Porter 4pk 16oz c  Seasonal - last year ~4/wk vs 1 now, buy ahead?
     Down East Original 6 Gallon               No cost data - verify price; Margin over 95% - check retail
     Absolut Mango Mule 4pk 12oz can           Seasonal - last year ~2/wk vs 1 now, buy ahead?
     Jack Daniels Sweet Tea                    No cost data - verify price; Margin over 95% - check retail
-    Indeed Mexican Honey Light 12oz can       No cost data - verify price; Margin over 95% - check retail
-    Michelob Golden Draft 12pk 12oz can       Margin looks off - check retail/cost
-    ...and 46 more (see Needs Review tab).
+    ...and 39 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (2 discontinued items still selling/low - run down stock):
-    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 28u)
-    Beatbox Tropical Punch  500ml               (would have bought 48u)
+  BEING REMOVED - DO NOT REORDER (3 discontinued items still selling/low - run down stock):
+    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 20u)
+    Beatbox Tropical Punch  500ml               (would have bought 24u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 12u)

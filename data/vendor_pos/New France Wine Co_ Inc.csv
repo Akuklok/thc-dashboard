@@ -1,24 +1,5 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Bloomington,1036071,083648877111,Elk Cove Pinot Noir 750ml,ElkCovePNWillamette23,12,1.0,256.0,256.0,Seminar
-Chanhassen,1036076,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,1.0,528.0,528.0,Distro
-Roseville,1036143,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,1.0,528.0,528.0,Distro
-Woodbury,1036179,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,1.0,528.0,528.0,Distro
-Blaine,1036203,671839988106,Keepsake Farmhouse Organic Dry Cider 750ml,KeepsakeFarmhouseDry,12,1.0,136.0,0.0,
-Woodbury,1036354,671839988106,Keepsake Farmhouse Organic Dry Cider 750ml,KeepsakeFarmhouseDry,12,1.0,136.0,136.0,
-Andover,1036192,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
-Ramsey,1036281,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
-Rosemount,1036290,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
-Blaine,1036203,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,0.0,
-Roseville,1036305,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,0.0,
-Blaine,1036203,745051321963,Keepsake Jewel Semi-Sweet Cider 750ml,KeepsakeJewel,12,1.0,160.0,0.0,
-Blaine,1036203,745051321970,Keepsake Farmhouse Organic Semi-Sweet Cider 750ml,KeepsakeFarmhouseSemiSweet,12,1.0,136.0,0.0,
-Woodbury,1036354,745051321970,Keepsake Farmhouse Organic Semi-Sweet Cider 750ml,KeepsakeFarmhouseSemiSweet,12,1.0,136.0,136.0,
-Blaine,1036203,7501233712812,Gran Agave Ghost Edition Tequila 750ml,GranAgaveGhost,6,0.5,270.0,0.0,
-Roseville,1036305,7501233712812,Gran Agave Ghost Edition Tequila 750ml,GranAgaveGhost,6,0.5,270.0,0.0,
-Bloomington,1036071,8032662930191,Perrini Negromaro 750ml,PerriniNegromaro,12,1.0,136.0,136.0,Seminar
-Roseville,1036305,816529020142,Cihuatan Jade 4 yr Rum 750ml,CihuatanJade,6,1.0,114.0,0.0,
-Roseville,1036305,819588011786,Three Fingers High Whiskey 750ml,ThreeFingersHighWhis,6,1.0,216.0,0.0,
-Bloomington,1036071,8437019818784,Pingus PSI 750ml,PingusPSI,12,1.0,368.0,368.0,Seminar
-Roseville,1036305,852955008125,Lokal Vodka 1.75L,LokalVodka1.75,6,1.0,108.0,0.0,
-Roseville,1036305,852955008132,Lokal Blood Orange Vodka Liter,LokalBloodOrangeVodka,12,1.0,126.0,0.0,
-Bloomington,1036071,9421905788007,Deep Down Sauvignon Blanc 750ml,DeepDown,12,1.0,216.0,216.0,Seminar
+Bloomington,PO0000002013,3830049280005,Kobal Blaufrankisch 750ml,KobalRootsBlau22,12,1.0,176.0,0.0,Seminar
+Bloomington,PO0000002013,3857500118752,Pomalo Rose 750ml,PomaloRose,12,1.0,160.0,0.0,Seminar
+Bloomington,PO0000002013,3859888214026,Vina Skaramuca Plavac 750ml,SkaramucaP,12,1.0,160.0,0.0,Seminar
+Bloomington,PO0000002013,72776051263,Zlatan Hvar Posip 750ml,ZlatanPosip,12,1.0,216.0,0.0,Seminar
