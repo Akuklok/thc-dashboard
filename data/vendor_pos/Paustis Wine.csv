@@ -1,4 +1,156 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Vadnais Heights,1036172,730429950012,True Myth Chardonnay 750ml,1753,12,1.0,120.0,120.0,
-Minneapolis,1036102,818051022298,Bread & Butter Prosecco 750ml,1928,12,1.0,120.0,120.0,
-Woodbury,1036182,850832004277,Bread & Butter Pinot Noir 750ml,15569,12,1.0,120.0,120.0,
+Roseville,1036689,791784901736,Our Daily Red 750ml,12127,12,1.0,88.0,88.0,Store Request
+Andover,1036577,850061597007,Papi Black 750ml,2813,12,2.0,52.84,105.68,Buyer's Select
+Blaine,1036587,850061597007,Papi Black 750ml,2813,12,4.0,52.84,211.36,Buyer's Select
+Minneapolis,1036625,850061597007,Papi Black 750ml,2813,12,6.0,52.84,317.04,Buyer's Select
+Osseo,1036643,850061597007,Papi Black 750ml,2813,12,1.0,52.84,52.84,Buyer's Select
+Ramsey,1036661,850061597007,Papi Black 750ml,2813,12,4.0,52.84,211.36,Buyer's Select
+Rosemount,1036669,850061597007,Papi Black 750ml,2813,12,1.0,52.84,52.84,Buyer's Select
+Roseville,1036680,850061597007,Papi Black 750ml,2813,12,1.0,52.84,52.84,Buyer's Select
+St. Louis Park,1036695,850061597007,Papi Black 750ml,2813,12,1.0,52.84,52.84,Buyer's Select
+Andover,1036577,850061597021,Papi Blueberry 750ml,2815,12,3.0,52.84,158.52,Buyer's Select
+Blaine,1036587,850061597021,Papi Blueberry 750ml,2815,12,3.0,52.84,158.52,Buyer's Select
+Bloomington,1036599,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,850061597021,Papi Blueberry 750ml,2815,12,27.0,52.84,1426.67,Buyer's Select
+Rosemount,1036669,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
+Roseville,1036680,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
+Vadnais Heights,1036714,850061597021,Papi Blueberry 750ml,2815,12,1.0,52.84,52.84,Buyer's Select
+Andover,1036577,850061597045,Papi Mango 750ml,2817,12,2.0,52.84,105.68,Buyer's Select
+Blaine,1036587,850061597045,Papi Mango 750ml,2817,12,7.0,52.84,369.88,Buyer's Select
+Minneapolis,1036625,850061597045,Papi Mango 750ml,2817,12,13.0,52.84,686.91,Buyer's Select
+Roseville,1036680,850061597045,Papi Mango 750ml,2817,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,850061597045,Papi Mango 750ml,2817,12,2.0,52.84,105.68,Buyer's Select
+Blaine,1036587,850061597069,Papi Peach 750ml,2816,12,2.0,52.84,105.68,Buyer's Select
+Bloomington,1036599,850061597069,Papi Peach 750ml,2816,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,850061597069,Papi Peach 750ml,2816,12,20.0,52.84,1056.79,Buyer's Select
+St. Louis Park,1036695,850061597069,Papi Peach 750ml,2816,12,2.0,52.84,105.68,Buyer's Select
+Minneapolis,1036625,850061597083,Papi Pineapple 750ml,2818,12,20.0,52.84,1056.79,Buyer's Select
+Andover,1036577,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
+Blaine,1036587,850061597106,Papi Sweet Apple 750ml,2819,12,5.0,52.84,264.2,Buyer's Select
+Bloomington,1036599,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,850061597106,Papi Sweet Apple 750ml,2819,12,10.0,52.84,528.4,Buyer's Select
+Ramsey,1036661,850061597106,Papi Sweet Apple 750ml,2819,12,2.0,52.84,105.68,Buyer's Select
+Rosemount,1036669,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
+Roseville,1036680,850061597106,Papi Sweet Apple 750ml,2819,12,2.0,52.84,105.68,Buyer's Select
+St. Louis Park,1036695,850061597106,Papi Sweet Apple 750ml,2819,12,2.0,52.84,105.68,Buyer's Select
+Vadnais Heights,1036714,850061597106,Papi Sweet Apple 750ml,2819,12,2.0,52.84,105.68,Buyer's Select
+Woodbury,1036724,850061597106,Papi Sweet Apple 750ml,2819,12,1.0,52.84,52.84,Buyer's Select
+Andover,1036577,850061597120,Papi Sweet Red 750ml,2814,12,2.0,52.84,105.68,Buyer's Select
+Blaine,1036587,850061597120,Papi Sweet Red 750ml,2814,12,12.0,52.84,634.08,Buyer's Select
+Bloomington,1036599,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,850061597120,Papi Sweet Red 750ml,2814,12,21.0,52.84,1109.63,Buyer's Select
+Osseo,1036643,850061597120,Papi Sweet Red 750ml,2814,12,2.0,52.84,105.68,Buyer's Select
+Ramsey,1036661,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
+Rosemount,1036669,850061597120,Papi Sweet Red 750ml,2814,12,2.0,52.84,105.68,Buyer's Select
+Roseville,1036680,850061597120,Papi Sweet Red 750ml,2814,12,3.0,52.84,158.52,Buyer's Select
+St. Louis Park,1036695,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
+Stillwater,1036707,850061597120,Papi Sweet Red 750ml,2814,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,850061597120,Papi Sweet Red 750ml,2814,12,2.0,52.84,105.68,Buyer's Select
+Blaine,1036587,853936007427,Papi Rose 750ml,2806,12,3.0,52.84,158.52,Buyer's Select
+Bloomington,1036599,853936007427,Papi Rose 750ml,2806,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,853936007427,Papi Rose 750ml,2806,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,853936007427,Papi Rose 750ml,2806,12,5.0,52.84,264.2,Buyer's Select
+Osseo,1036643,853936007427,Papi Rose 750ml,2806,12,1.0,52.84,52.84,Buyer's Select
+Roseville,1036680,853936007427,Papi Rose 750ml,2806,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,853936007427,Papi Rose 750ml,2806,12,1.0,52.84,52.84,Buyer's Select
+Blaine,1036587,853936007441,Papi Malbec 750ml,2799,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,853936007441,Papi Malbec 750ml,2799,12,1.0,52.84,52.84,Buyer's Select
+Rosemount,1036669,853936007441,Papi Malbec 750ml,2799,12,1.0,52.84,52.84,Buyer's Select
+Stillwater,1036707,853936007441,Papi Malbec 750ml,2799,12,1.0,52.84,52.84,Buyer's Select
+Andover,1036577,853936007687,Papi Chardonnay 750ml,2798,12,2.0,52.84,105.68,Buyer's Select
+Blaine,1036587,853936007687,Papi Chardonnay 750ml,2798,12,5.0,52.84,264.2,Buyer's Select
+Cottage Grove,1036613,853936007687,Papi Chardonnay 750ml,2798,12,3.0,52.84,158.52,Buyer's Select
+Minneapolis,1036625,853936007687,Papi Chardonnay 750ml,2798,12,5.0,52.84,264.2,Buyer's Select
+Osseo,1036643,853936007687,Papi Chardonnay 750ml,2798,12,1.0,52.84,52.84,Buyer's Select
+Plymouth,1036652,853936007687,Papi Chardonnay 750ml,2798,12,1.0,52.84,52.84,Buyer's Select
+Rosemount,1036669,853936007687,Papi Chardonnay 750ml,2798,12,1.0,52.84,52.84,Buyer's Select
+Stillwater,1036707,853936007687,Papi Chardonnay 750ml,2798,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,853936007687,Papi Chardonnay 750ml,2798,12,1.0,52.84,52.84,Buyer's Select
+Blaine,1036587,853936007700,Papi Red Blend 750ml,2805,12,10.0,52.84,528.4,Buyer's Select
+Cottage Grove,1036613,853936007700,Papi Red Blend 750ml,2805,12,3.0,52.84,158.52,Buyer's Select
+Minneapolis,1036625,853936007700,Papi Red Blend 750ml,2805,12,1.0,52.84,52.84,Buyer's Select
+Ramsey,1036661,853936007700,Papi Red Blend 750ml,2805,12,1.0,52.84,52.84,Buyer's Select
+Roseville,1036680,853936007700,Papi Red Blend 750ml,2805,12,5.0,52.84,264.2,Buyer's Select
+St. Louis Park,1036695,853936007700,Papi Red Blend 750ml,2805,12,3.0,52.84,158.52,Buyer's Select
+Vadnais Heights,1036714,853936007700,Papi Red Blend 750ml,2805,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,853936007700,Papi Red Blend 750ml,2805,12,3.0,52.84,158.52,Buyer's Select
+Minneapolis,1036625,853936007984,Papi White Peach Sangria 750ml,2812,12,10.0,45.84,458.4,Buyer's Select
+Plymouth,1036652,853936007984,Papi White Peach Sangria 750ml,2812,12,1.0,45.84,45.84,Buyer's Select
+Rosemount,1036669,853936007984,Papi White Peach Sangria 750ml,2812,12,1.0,45.84,45.84,Buyer's Select
+Andover,1036577,858962004099,Papi Pinot Grigio 750ml,2803,12,4.0,52.84,211.36,Buyer's Select
+Blaine,1036587,858962004099,Papi Pinot Grigio 750ml,2803,12,17.0,52.84,898.27,Buyer's Select
+Cottage Grove,1036613,858962004099,Papi Pinot Grigio 750ml,2803,12,3.0,52.84,158.52,Buyer's Select
+Minneapolis,1036625,858962004099,Papi Pinot Grigio 750ml,2803,12,17.0,52.84,898.27,Buyer's Select
+Minnetonka,1036635,858962004099,Papi Pinot Grigio 750ml,2803,12,1.0,52.84,52.84,Buyer's Select
+Plymouth,1036652,858962004099,Papi Pinot Grigio 750ml,2803,12,1.0,52.84,52.84,Buyer's Select
+Rosemount,1036669,858962004099,Papi Pinot Grigio 750ml,2803,12,7.0,52.84,369.88,Buyer's Select
+Roseville,1036680,858962004099,Papi Pinot Grigio 750ml,2803,12,4.0,52.84,211.36,Buyer's Select
+Vadnais Heights,1036714,858962004099,Papi Pinot Grigio 750ml,2803,12,6.0,52.84,317.04,Buyer's Select
+Woodbury,1036724,858962004099,Papi Pinot Grigio 750ml,2803,12,4.0,52.84,211.36,Buyer's Select
+Andover,1036577,858962004136,Papi Pinot Noir 750ml,2804,12,4.0,52.84,211.36,Buyer's Select
+Blaine,1036587,858962004136,Papi Pinot Noir 750ml,2804,12,17.0,52.84,898.27,Buyer's Select
+Cottage Grove,1036613,858962004136,Papi Pinot Noir 750ml,2804,12,3.0,52.84,158.52,Buyer's Select
+Minneapolis,1036625,858962004136,Papi Pinot Noir 750ml,2804,12,1.0,52.84,52.84,Buyer's Select
+Rosemount,1036669,858962004136,Papi Pinot Noir 750ml,2804,12,2.0,52.84,105.68,Buyer's Select
+Roseville,1036680,858962004136,Papi Pinot Noir 750ml,2804,12,1.0,52.84,52.84,Buyer's Select
+Vadnais Heights,1036714,858962004136,Papi Pinot Noir 750ml,2804,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,858962004136,Papi Pinot Noir 750ml,2804,12,4.0,52.84,211.36,Buyer's Select
+Andover,1036577,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Blaine,1036587,858962004242,Papi Moscato 750ml,2801,12,3.0,52.84,158.52,Buyer's Select
+Bloomington,1036599,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,858962004242,Papi Moscato 750ml,2801,12,29.0,52.84,1532.35,Buyer's Select
+Minnetonka,1036635,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Osseo,1036643,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+St. Louis Park,1036695,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Vadnais Heights,1036714,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,858962004242,Papi Moscato 750ml,2801,12,1.0,52.84,52.84,Buyer's Select
+Andover,1036577,858962004860,Papi Pink Moscato 750ml,2802,12,1.0,52.84,52.84,Buyer's Select
+Blaine,1036587,858962004860,Papi Pink Moscato 750ml,2802,12,3.0,52.84,158.52,Buyer's Select
+Bloomington,1036599,858962004860,Papi Pink Moscato 750ml,2802,12,2.0,52.84,105.68,Buyer's Select
+Cottage Grove,1036613,858962004860,Papi Pink Moscato 750ml,2802,12,3.0,52.84,158.52,Buyer's Select
+Minneapolis,1036625,858962004860,Papi Pink Moscato 750ml,2802,12,37.0,52.84,1955.07,Buyer's Select
+Ramsey,1036661,858962004860,Papi Pink Moscato 750ml,2802,12,2.0,52.84,105.68,Buyer's Select
+Rosemount,1036669,858962004860,Papi Pink Moscato 750ml,2802,12,2.0,52.84,105.68,Buyer's Select
+Roseville,1036680,858962004860,Papi Pink Moscato 750ml,2802,12,1.0,52.84,52.84,Buyer's Select
+St. Louis Park,1036695,858962004860,Papi Pink Moscato 750ml,2802,12,2.0,52.84,105.68,Buyer's Select
+Vadnais Heights,1036714,858962004860,Papi Pink Moscato 750ml,2802,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,858962004860,Papi Pink Moscato 750ml,2802,12,2.0,52.84,105.68,Buyer's Select
+Minnetonka,1036640,891540001653,Sand Point Pinot Noir 750ml,3536,12,1.0,72.0,72.0,
+Andover,1036577,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,4.0,52.84,211.36,Buyer's Select
+Blaine,1036587,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,13.0,52.84,686.91,Buyer's Select
+Cottage Grove,1036613,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,4.0,52.84,211.36,Buyer's Select
+Minneapolis,1036625,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,1.0,52.84,52.84,Buyer's Select
+Ramsey,1036661,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,2.0,52.84,105.68,Buyer's Select
+Rosemount,1036669,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,1.0,52.84,52.84,Buyer's Select
+Roseville,1036680,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,3.0,52.84,158.52,Buyer's Select
+St. Louis Park,1036695,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,2.0,52.84,105.68,Buyer's Select
+Vadnais Heights,1036714,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,2.0,52.84,105.68,Buyer's Select
+Woodbury,1036724,893828001003,Papi Cabernet Sauvignon 750ml,2797,12,2.0,52.84,105.68,Buyer's Select
+Andover,1036577,893828001010,Papi Sauvignon Blanc 750ml,2807,12,3.0,52.84,158.52,Buyer's Select
+Blaine,1036587,893828001010,Papi Sauvignon Blanc 750ml,2807,12,19.0,52.84,1003.95,Buyer's Select
+Bloomington,1036599,893828001010,Papi Sauvignon Blanc 750ml,2807,12,2.0,52.84,105.68,Buyer's Select
+Cottage Grove,1036613,893828001010,Papi Sauvignon Blanc 750ml,2807,12,9.0,52.84,475.56,Buyer's Select
+Minneapolis,1036625,893828001010,Papi Sauvignon Blanc 750ml,2807,12,17.0,52.84,898.27,Buyer's Select
+Ramsey,1036661,893828001010,Papi Sauvignon Blanc 750ml,2807,12,2.0,52.84,105.68,Buyer's Select
+Rosemount,1036669,893828001010,Papi Sauvignon Blanc 750ml,2807,12,5.0,52.84,264.2,Buyer's Select
+Roseville,1036680,893828001010,Papi Sauvignon Blanc 750ml,2807,12,1.0,52.84,52.84,Buyer's Select
+St. Louis Park,1036695,893828001010,Papi Sauvignon Blanc 750ml,2807,12,7.0,52.84,369.88,Buyer's Select
+Vadnais Heights,1036714,893828001010,Papi Sauvignon Blanc 750ml,2807,12,2.0,52.84,105.68,Buyer's Select
+Woodbury,1036724,893828001010,Papi Sauvignon Blanc 750ml,2807,12,2.0,52.84,105.68,Buyer's Select
+Minneapolis,1036625,893828001850,Papi Passion Fruit Sangria 750ml,2811,12,20.0,45.84,916.8,Buyer's Select
+Andover,1036577,893828001867,Papi Red Original Sangria 750ml,2810,12,3.0,45.84,137.52,Buyer's Select
+Bloomington,1036599,893828001867,Papi Red Original Sangria 750ml,2810,12,1.0,45.84,45.84,Buyer's Select
+Cottage Grove,1036613,893828001867,Papi Red Original Sangria 750ml,2810,12,1.0,45.84,45.84,Buyer's Select
+Minneapolis,1036625,893828001867,Papi Red Original Sangria 750ml,2810,12,9.0,45.84,412.56,Buyer's Select
+Vadnais Heights,1036714,893828001867,Papi Red Original Sangria 750ml,2810,12,2.0,45.84,91.68,Buyer's Select
+Blaine,1036587,895469002425,Papi Merlot 750ml,2800,12,1.0,52.84,52.84,Buyer's Select
+Cottage Grove,1036613,895469002425,Papi Merlot 750ml,2800,12,1.0,52.84,52.84,Buyer's Select
+Minneapolis,1036625,895469002425,Papi Merlot 750ml,2800,12,2.0,52.84,105.68,Buyer's Select
+Roseville,1036680,895469002425,Papi Merlot 750ml,2800,12,1.0,52.84,52.84,Buyer's Select
+St. Louis Park,1036695,895469002425,Papi Merlot 750ml,2800,12,1.0,52.84,52.84,Buyer's Select
+Stillwater,1036707,895469002425,Papi Merlot 750ml,2800,12,1.0,52.84,52.84,Buyer's Select
+Woodbury,1036724,895469002425,Papi Merlot 750ml,2800,12,1.0,52.84,52.84,Buyer's Select
