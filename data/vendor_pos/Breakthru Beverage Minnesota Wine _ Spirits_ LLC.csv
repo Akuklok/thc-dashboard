@@ -1,181 +1,60 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Andover,1036499,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
-Blaine,1036510,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
 Minnetonka,1036539,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
-Andover,1036499,070655910030,Mr & Mrs T Bold & Spicy 1.75L,9159926,6,1.0,45.0,45.0,
-Andover,1036499,074993024770,Barritt's Ginger Beer 6pk 12oz can,9021845,4,1.0,24.0,24.0,
-Andover,1036576,080516049045,Banfi San Angelo Pinot Grigio 750ml,9008946,12,1.0,136.0,136.0,
-Blaine,1036586,080516049045,Banfi San Angelo Pinot Grigio 750ml,9008946,12,1.0,136.0,136.0,
-Roseville,1036679,080516049045,Banfi San Angelo Pinot Grigio 750ml,9008946,12,1.0,136.0,136.0,
 St. Louis Park,1036694,080516049045,Banfi San Angelo Pinot Grigio 750ml,9008946,12,1.0,136.0,136.0,
-Andover,1036576,080516160856,Banfi Chianti Classico 750ml,9793456,12,1.0,136.0,136.0,
-Roseville,1036679,080516160856,Banfi Chianti Classico 750ml,9793456,12,1.0,136.0,136.0,
 St. Louis Park,1036694,080516160856,Banfi Chianti Classico 750ml,9793456,12,1.0,136.0,136.0,
-Andover,1036499,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
 Plymouth,1036532,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
-Blaine,1036510,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
-Andover,1036499,083664869725,Reyka Vodka 1.75L,9019698,6,1.0,157.5,157.5,
-Andover,1036499,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,
-Andover,1036499,083664871681,Balvenie 14 Year Caribbean 750ml,9115429,6,1.0,376.0,376.0,
-Andover,1036499,083664873463,Glenfiddich 14Yr Single Malt 750ml,9191391,6,1.0,240.0,240.0,
-Andover,1036499,083664990405,Glenfiddich 15 Yr Solera 750ml,9001617,12,1.0,657.0,657.0,
-Andover,1036499,084105341008,Carpano Antica Formula Liter,9009620,6,1.0,207.0,207.0,
-Andover,1036578,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Blaine,1036588,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Chanhassen,1036606,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
 Cottage Grove,1036614,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
 Plymouth,1036653,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Rosemount,1036670,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Roseville,1036681,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
 St. Louis Park,1036696,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Vadnais Heights,1036715,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
 Woodbury,1036725,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Andover,1036578,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Blaine,1036588,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Chanhassen,1036606,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
 Cottage Grove,1036614,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
 Plymouth,1036653,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Rosemount,1036670,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Roseville,1036681,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
 St. Louis Park,1036696,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Vadnais Heights,1036715,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
 Woodbury,1036725,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Osseo,1036531,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,71.05,71.05,
-Stillwater,1036706,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,60.0,
-Andover,1036499,087236400033,Famous Grouse Scotch 750ml,9045619,12,1.0,197.9,197.9,
-Stillwater,1036706,087872630931,Stella Rosa Blueberry 750ml,9746454,12,1.0,96.0,96.0,
 Minneapolis,1036624,087872632225,Stella Rosa Berry 750ml,9746336,12,1.0,96.0,96.0,
-Blaine,1036586,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,96.0,96.0,
 Minneapolis,1036624,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,96.0,96.0,
-Ramsey,1036660,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,96.0,96.0,
 Woodbury,1036537,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
 Cottage Grove,1036530,088004009588,Dr.McGillicuddy's Wild Grape 50ml,9219498,120,1.0,71.05,71.05,
-Andover,1036499,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
 Minneapolis,1036541,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Roseville,1036540,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
-Andover,1036499,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
 Minneapolis,1036541,088004011543,Taaka Vodka 750ml,9031611,12,2.0,54.0,108.0,
 Plymouth,1036532,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Ramsey,1036542,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Roseville,1036540,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Stillwater,1036535,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Vadnais Heights,1036536,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Rosemount,1036533,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,
-Andover,1036499,088004012755,Platinum Vodka 750ml,9220002,12,1.0,67.33,67.33,
 Cottage Grove,1036530,088004020323,Dr Mcgillicuddy Butterscotch 50ml,9219489,120,1.0,71.05,71.05,
-Andover,1036499,088004025984,Tuaca 750ml,38349,12,1.0,197.75,197.75,
 Minneapolis,1036541,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Andover,1036499,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
 Cottage Grove,1036530,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Osseo,1036531,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
 Plymouth,1036532,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Rosemount,1036533,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Stillwater,1036535,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Vadnais Heights,1036536,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
 Woodbury,1036537,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Blaine,1036510,088004034757,Buffalo Trace Bourbon Cream 50ml,9621077,120,1.0,81.2,81.2,
-Osseo,1036531,088004035761,Goldschlager 50ml,9007996,120,1.0,71.05,71.05,
-Andover,1036499,088004036157,Seagrams VO Canadian 1.75L,9016376,6,1.0,126.5,126.5,
-Roseville,1036540,088004037475,Romana Sambuca White 750ml,9000484,12,1.0,225.5,225.5,
-Andover,1036499,088004048273,Canadian Mist 1.75L,30221,6,1.0,45.0,45.0,
-Andover,1036499,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Blaine,1036510,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
 Cottage Grove,1036530,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
 Minneapolis,1036541,088004069155,Fireball Blazin' Apple 50ml,9768707,120,9.0,71.05,639.47,
 Plymouth,1036532,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Stillwater,1036535,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
 Woodbury,1036537,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Andover,1036499,088004139940,Sazerac Rye 750ml,9031569,6,1.0,108.0,108.0,
-Blaine,1036510,088004139940,Sazerac Rye 750ml,9031569,6,1.0,108.0,108.0,
-Roseville,1036540,088004139940,Sazerac Rye 750ml,9031569,6,1.0,108.0,108.0,
 Woodbury,1036537,088004139940,Sazerac Rye 750ml,9031569,6,1.0,108.0,108.0,
-Andover,1036499,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Blaine,1036510,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Cottage Grove,1036530,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Minneapolis,1036541,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Osseo,1036531,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Plymouth,1036532,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Ramsey,1036542,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Rosemount,1036533,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Roseville,1036540,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Stillwater,1036535,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Vadnais Heights,1036536,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Woodbury,1036537,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Minnetonka,1036539,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,
-Chanhassen,1036538,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
 Cottage Grove,1036530,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
 Woodbury,1036537,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
-Chanhassen,1036538,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
 Minnetonka,1036539,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Osseo,1036531,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
 Plymouth,1036532,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Vadnais Heights,1036536,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
 Woodbury,1036537,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Andover,1036499,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
-Roseville,1036540,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
-Stillwater,1036535,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
 Woodbury,1036537,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
-Blaine,1036510,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,
-Andover,1036499,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
-Andover,1036499,088544018941,Southern Comfort Liter,20339,12,1.0,168.3,168.3,
-Andover,1036578,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,7.0,48.0,336.0,Distro
-Blaine,1036588,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,10.0,48.0,480.0,Distro
-Bloomington,1036600,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,2.0,48.0,96.0,Distro
-Chanhassen,1036606,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
 Cottage Grove,1036614,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,9.0,48.0,432.0,Distro
 Minneapolis,1036626,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
 Minnetonka,1036636,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,2.0,48.0,96.0,Distro
-Osseo,1036644,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,3.0,48.0,144.0,Distro
 Plymouth,1036653,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,3.0,48.0,144.0,Distro
-Ramsey,1036662,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,2.0,48.0,96.0,Distro
-Rosemount,1036670,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
-Roseville,1036681,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,6.0,48.0,288.0,Distro
 St. Louis Park,1036696,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,5.0,48.0,240.0,Distro
-Stillwater,1036708,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
-Vadnais Heights,1036715,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,3.0,48.0,144.0,Distro
 Woodbury,1036725,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
-Andover,1036578,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,5.0,48.0,240.0,Distro
-Blaine,1036588,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,6.0,48.0,288.0,Distro
-Bloomington,1036600,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,1.0,48.0,48.0,Distro
-Chanhassen,1036606,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,6.0,48.0,288.0,Distro
 Cottage Grove,1036614,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,5.0,48.0,240.0,Distro
 Minneapolis,1036626,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,2.0,48.0,96.0,Distro
 Minnetonka,1036636,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,1.0,48.0,48.0,Distro
-Osseo,1036644,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,4.0,48.0,192.0,Distro
 Plymouth,1036653,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,3.0,48.0,144.0,Distro
-Ramsey,1036662,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,1.0,48.0,48.0,Distro
-Rosemount,1036670,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,3.0,48.0,144.0,Distro
-Roseville,1036681,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,5.0,48.0,240.0,Distro
 St. Louis Park,1036696,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,6.0,48.0,288.0,Distro
-Stillwater,1036708,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,2.0,48.0,96.0,Distro
-Vadnais Heights,1036715,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,2.0,48.0,96.0,Distro
 Woodbury,1036725,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,3.0,48.0,144.0,Distro
-Bloomington,1036598,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,96.0,96.0,
-Blaine,1036586,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
-Chanhassen,1036605,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
-Roseville,1036679,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
 St. Louis Park,1036694,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
 Woodbury,1036723,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
 Plymouth,1036651,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,144.0,144.0,
-Stillwater,1036706,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,144.0,144.0,
-Rosemount,1036668,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,168.0,168.0,
-Andover,1036499,682131860038,Kickled Mary Bloody Mary Mix 32oz,9776733,12,1.0,88.75,88.75,
-Andover,1036499,720815920101,Templeton Rye 4yr 750ml,9749035,6,1.0,135.0,135.0,
-Blaine,1036510,720815920101,Templeton Rye 4yr 750ml,9749035,6,1.0,135.0,135.0,
-Andover,1036499,720815988347,Seagrams Extra Smooth Vodka 1.75L,9100891,6,1.0,71.96,71.96,
-Chanhassen,1036605,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,
 St. Louis Park,1036694,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,2.0,184.0,368.0,
-Andover,1036499,810735017873,Green River Wheated Bourbon 750ml,9731037,6,1.0,130.5,130.5,
-Andover,1036576,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-Chanhassen,1036605,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
 Plymouth,1036651,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-Roseville,1036679,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
 Woodbury,1036723,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-Andover,1036499,850004947654,Red Locks Irish Whiskey 750ml,9687837,12,1.0,252.0,252.0,
-Andover,1036499,857552008394,Bardstown KY Straight Bourbon 750ml,9731827,6,1.0,175.5,175.5,
-Andover,1036499,857552008400,Bardstown Rye,9731830,6,1.0,198.0,198.0,
-Andover,1036499,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,198.0,198.0,
-Andover,1036499,857552008783,Green River Full Proof Bourbon 750ml,9731853,6,1.0,198.0,198.0,
-Roseville,1036679,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,
-Andover,1036499,898563002506,Carpano Antica Formula 375ml,9158655,12,1.0,180.0,180.0,
 Minneapolis,1036624,899552102276,Pacific Rim Sweet Riesling 750ml,9069009,12,1.0,80.0,80.0,
