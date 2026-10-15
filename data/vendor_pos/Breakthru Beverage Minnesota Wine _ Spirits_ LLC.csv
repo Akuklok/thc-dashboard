@@ -1,60 +1,16 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
 Minnetonka,1036539,048415000109,Wiser's Deluxe Canadian Whisky 1.75L,9020274,6,1.0,134.95,134.95,
-St. Louis Park,1036694,080516049045,Banfi San Angelo Pinot Grigio 750ml,9008946,12,1.0,136.0,136.0,
-St. Louis Park,1036694,080516160856,Banfi Chianti Classico 750ml,9793456,12,1.0,136.0,136.0,
-Plymouth,1036532,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
-Cottage Grove,1036614,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Plymouth,1036653,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-St. Louis Park,1036696,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Woodbury,1036725,084692677009,Paul Jaboulet CDR Parallele 45 Rouge 750ml,9761498,12,1.0,112.0,112.0,Distro
-Cottage Grove,1036614,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Plymouth,1036653,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-St. Louis Park,1036696,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
-Woodbury,1036725,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,9726687,,,0.0,0.0,Distro
 Minneapolis,1036624,087872632225,Stella Rosa Berry 750ml,9746336,12,1.0,96.0,96.0,
 Minneapolis,1036624,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,96.0,96.0,
-Woodbury,1036537,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
-Cottage Grove,1036530,088004009588,Dr.McGillicuddy's Wild Grape 50ml,9219498,120,1.0,71.05,71.05,
 Minneapolis,1036541,088004010133,Taaka Vodka Liter,9031606,12,1.0,72.0,72.0,
 Minneapolis,1036541,088004011543,Taaka Vodka 750ml,9031611,12,2.0,54.0,108.0,
-Plymouth,1036532,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Cottage Grove,1036530,088004020323,Dr Mcgillicuddy Butterscotch 50ml,9219489,120,1.0,71.05,71.05,
 Minneapolis,1036541,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
-Cottage Grove,1036530,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Plymouth,1036532,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Woodbury,1036537,088004030056,Dr McGillicuddys Butterscotch Traveler,9286926,12,1.0,117.0,117.0,
-Cottage Grove,1036530,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
 Minneapolis,1036541,088004069155,Fireball Blazin' Apple 50ml,9768707,120,9.0,71.05,639.47,
-Plymouth,1036532,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Woodbury,1036537,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,
-Woodbury,1036537,088004139940,Sazerac Rye 750ml,9031569,6,1.0,108.0,108.0,
-Cottage Grove,1036530,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Minneapolis,1036541,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Plymouth,1036532,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
-Woodbury,1036537,088004144036,Dr McGillicuddys Mentholmint Liter,9031414,12,1.0,153.0,153.0,
 Minnetonka,1036539,088004144449,Dr McGillicuddys Mentholmint Traveler,9227389,12,1.0,117.0,117.0,
-Cottage Grove,1036530,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
-Woodbury,1036537,088004144708,Fireball Whisky 50ml,9220188,120,1.0,71.05,71.05,
 Minnetonka,1036539,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Plymouth,1036532,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Woodbury,1036537,088004148218,Dr McGillicuddys Cherry Liter,9031400,12,1.0,153.0,153.0,
-Woodbury,1036537,088004148225,Dr McGillicuddys Cherry Traveler,9031405,12,1.0,117.0,117.0,
-Cottage Grove,1036614,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,9.0,48.0,432.0,Distro
 Minneapolis,1036626,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
 Minnetonka,1036636,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,2.0,48.0,96.0,Distro
-Plymouth,1036653,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,3.0,48.0,144.0,Distro
-St. Louis Park,1036696,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,5.0,48.0,240.0,Distro
-Woodbury,1036725,089819009015,Drop of Sunshine Red Blend 750ml,9745713,12,4.0,48.0,192.0,Distro
-Cottage Grove,1036614,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,5.0,48.0,240.0,Distro
 Minneapolis,1036626,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,2.0,48.0,96.0,Distro
 Minnetonka,1036636,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,1.0,48.0,48.0,Distro
-Plymouth,1036653,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,3.0,48.0,144.0,Distro
-St. Louis Park,1036696,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,6.0,48.0,288.0,Distro
-Woodbury,1036725,089819009022,Drop of Sunshine Chardonnay 750ml,9745712,12,3.0,48.0,144.0,Distro
-St. Louis Park,1036694,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
-Woodbury,1036723,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,9784307,6,1.0,320.0,320.0,
-Plymouth,1036651,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,144.0,144.0,
-St. Louis Park,1036694,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,2.0,184.0,368.0,
-Plymouth,1036651,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
-Woodbury,1036723,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,
 Minneapolis,1036624,899552102276,Pacific Rim Sweet Riesling 750ml,9069009,12,1.0,80.0,80.0,
