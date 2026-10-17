@@ -1,39 +1,14 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
-Receiving,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Cottage Grove,1036623,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
 Receiving,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1036633,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,842094171057,Bubbles Single Bottle Bag,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
 Receiving,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1036633,Receiving,3.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
 Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Minneapolis,1036633,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,842094199723,Faux Leather Single-bottle Wine Bag,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,876718002298,Elegant Black and White Wine Bag,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,876718005329,Fizz: Chrome Champagne Stopper,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,876718006395,Bamboo: Appetizer Picks,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,876718007309,Monarch: Bottle Stopper,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,876718022258,Truetap: Double-Hinged Waiters Corkscrew,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
 Receiving,876718022258,Truetap: Double-Hinged Waiters Corkscrew,"True Brands, Inc.",Minneapolis,1036633,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,876718022708,Rogue: 10 Oz Plastic Flask,"True Brands, Inc.",Cottage Grove,1036623,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Receiving,083120101895,Franzia Cab Sauv 5L Box,Southern Glazer's Wine & Spirits of MN,Ramsey,1036666,Receiving,1.0,1.0,0.0,Wine,Cabernet,,,2026-10-12T00:00:00
 Receiving,628176930077,Stel + Mar Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Andover,1036049-10.12.26,Receiving,1.0,,,Wine,Cabernet,Free Goods,,2026-10-05T00:00:00
 Receiving,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Blaine,1034184-10.12.26,Receiving,1.0,,,Wine,Chardonnay,Store Request,,2026-09-07T00:00:00
-Receiving,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036626,Receiving,2.0,,,Wine,Chardonnay,Distro,,2026-10-12T00:00:00
-Receiving,087872632225,Stella Rosa Berry 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Receiving,1.0,,,Wine,Flavored,,,2026-10-12T00:00:00
-Receiving,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Receiving,1.0,,,Wine,Flavored,,,2026-10-12T00:00:00
-Receiving,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1036688,Receiving,2.0,0.0,-2.0,Wine,Fortified,,MI,2026-10-12T00:00:00
 Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Plymouth,1034243-10.12.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
 Receiving,094799050063,Blandy's Verdelho Madeira 5yr 750ml,"Grape Beginnings, Inc.",Roseville,1034276-10.12.26,Receiving,0.5,,,Wine,Fortified,Store Request,,2026-09-07T00:00:00
-Receiving,842094118670,Dehydrated Blood Orange by Collins 1.3 oz,"True Brands, Inc.",Cottage Grove,1036623,Receiving,1.0,,,Miscellaneous,Misc Other,,,2026-10-12T00:00:00
-Receiving,899552102276,Pacific Rim Sweet Riesling 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Receiving,1.0,,,Wine,Other Whites,,,2026-10-12T00:00:00
-Receiving,083120100393,Franzia Pinot Grigio 5L Box,Southern Glazer's Wine & Spirits of MN,Roseville,1036688,Receiving,1.0,1.0,0.0,Wine,Pinot Grigio/Gris,,,2026-10-12T00:00:00
-Receiving,089819009015,Drop of Sunshine Red Blend 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036626,Receiving,4.0,,,Wine,Red Blends,Distro,,2026-10-12T00:00:00
-Receiving,084704091328,Korbel Brut 750ml,Southern Glazer's Wine & Spirits of MN,Ramsey,1036666,Receiving,1.0,1.0,0.0,Wine,Sparkling,,,2026-10-12T00:00:00
 Receiving,087113112950,Albert Bichot Cremant de Bourgogne Brut Rose 750ml,"Grape Beginnings, Inc.",Blaine,1035034-10.12.26,Receiving,1.0,,,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
 Receiving,087113112998,Albert Bichot Cremant de Bourgogne Brut 750ml,"Grape Beginnings, Inc.",Blaine,1035034-10.12.26,Receiving,1.0,,,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
-Receiving,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Chanhassen,1035916-10.12.26,Receiving,1.0,,,Wine,White Blends,Deal,,2026-10-02T00:00:00
-Receiving,652935100012,7 Deadly Zins 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1036691,Receiving,1.0,1.0,0.0,Wine,Zinfandel,Store Request,,2026-10-12T00:00:00
-Discrepancy,857680001960,Clay Shannon Napa Cabernet Sauvignon 750ml,Paustis Wine,Rosemount,1028709-7.20.26-Version 3,Inventory Received,1.0,0.67,-0.33,Wine,Cabernet,"Month End
-PO Created per JM to correct product cost reporting",,2026-09-25T14:00:28.3095677
 Discrepancy,082242010412,Bota Box Cabernet Sauvignon 500ml,Phillips Wine & Spirits - St. Paul,Andover,1035624,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Free Goods,bo,2026-09-28T00:00:00
 Discrepancy,082242013314,Bota Box Pinot Grigio 500ml,Phillips Wine & Spirits - St. Paul,Andover,1035624,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,Free Goods,wi,2026-09-28T00:00:00
 Discrepancy,086003000506,Woodbridge Merlot 1.5L,Southern Glazer's Wine & Spirits of MN,Andover,1035625,Inventory Received,1.0,0.0,-1.0,Wine,Merlot,Free Goods,MI,2026-09-28T00:00:00
@@ -316,7 +291,7 @@ Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Blaine,1035
 Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Blaine,1035913-10.12.26,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,Deal,not on truck ,2026-10-02T00:00:00
 Discrepancy,083837006261,Castle Rock Cuvee Pinot Noir 750ml,Paustis Wine,Blaine,1035914,Inventory Received,3.0,0.0,-3.0,Wine,Pinot Noir,Free Goods,OOS,2026-10-02T00:00:00
 Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Chanhassen,1035916,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,Deal,BO,2026-10-02T00:00:00
-Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Chanhassen,1035916-10.12.26,Receiving,1.0,,,Wine,White Blends,Deal,,2026-10-02T00:00:00
+Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Chanhassen,1035916-10.12.26,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,Deal,MI,2026-10-02T00:00:00
 Discrepancy,083837006261,Castle Rock Cuvee Pinot Noir 750ml,Paustis Wine,Cottage Grove,1035918,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,Deal,BO,2026-10-02T00:00:00
 Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Minneapolis,1035920,Inventory Received,2.0,0.0,-2.0,Wine,White Blends,Deal,OOS,2026-10-02T00:00:00
 Discrepancy,083837006261,Castle Rock Cuvee Pinot Noir 750ml,Paustis Wine,Minneapolis,1035920,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,Deal,OOS,2026-10-02T00:00:00
@@ -366,23 +341,18 @@ Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Brea
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036588,Inventory Received,,,,Wine,White Blends,Distro,,2026-10-12T00:00:00
 Discrepancy,082242017053,Stoneleigh Sauvignon Blanc 750ml,Johnson Brothers - St. Paul,Blaine,1036592,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,not on truck ,2026-10-12T00:00:00
 Discrepancy,856184006112,Boen Tri Appellation Pinot Noir 750ml,Oxford Street Merchants,Blaine,1036593,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,mi,2026-10-12T00:00:00
-Discrepancy,842094171057,Bubbles Single Bottle Bag,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,842094199723,Faux Leather Single-bottle Wine Bag,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,876718002298,Elegant Black and White Wine Bag,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,876718007309,Monarch: Bottle Stopper,"True Brands, Inc.",Blaine,1036597,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
+Discrepancy,842094171057,Bubbles Single Bottle Bag,"True Brands, Inc.",Blaine,1036597,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,out of stock ,2026-10-12T00:00:00
+Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Blaine,1036597,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,out of stock ,2026-10-12T00:00:00
+Discrepancy,876718007309,Monarch: Bottle Stopper,"True Brands, Inc.",Blaine,1036597,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,out of stock ,2026-10-12T00:00:00
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036605,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,BO,2026-10-12T00:00:00
 Discrepancy,847159002024,Creamery Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036605,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,MI,2026-10-12T00:00:00
 Discrepancy,082242013741,Bota Box NightHawk Red Blend 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036612,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,MI,2026-10-12T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Cottage Grove,1036614,Inventory Received,,,,Wine,White Blends,Distro,,2026-10-12T00:00:00
-Discrepancy,842094118670,Dehydrated Blood Orange by Collins 1.3 oz,"True Brands, Inc.",Cottage Grove,1036623,Receiving,1.0,,,Miscellaneous,Misc Other,,,2026-10-12T00:00:00
-Discrepancy,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Cottage Grove,1036623,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,876718022708,Rogue: 10 Oz Plastic Flask,"True Brands, Inc.",Cottage Grove,1036623,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,087872632225,Stella Rosa Berry 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Receiving,1.0,,,Wine,Flavored,,,2026-10-12T00:00:00
-Discrepancy,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Receiving,1.0,,,Wine,Flavored,,,2026-10-12T00:00:00
-Discrepancy,899552102276,Pacific Rim Sweet Riesling 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Receiving,1.0,,,Wine,Other Whites,,,2026-10-12T00:00:00
-Discrepancy,089819009015,Drop of Sunshine Red Blend 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036626,Receiving,4.0,,,Wine,Red Blends,Distro,,2026-10-12T00:00:00
-Discrepancy,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036626,Receiving,2.0,,,Wine,Chardonnay,Distro,,2026-10-12T00:00:00
+Discrepancy,087872632225,Stella Rosa Berry 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,No Delivery,2026-10-12T00:00:00
+Discrepancy,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,No Delivery,2026-10-12T00:00:00
+Discrepancy,899552102276,Pacific Rim Sweet Riesling 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036624,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,No Delivery,2026-10-12T00:00:00
+Discrepancy,089819009015,Drop of Sunshine Red Blend 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036626,Inventory Received,4.0,0.0,-4.0,Wine,Red Blends,Distro,No Delivery,2026-10-12T00:00:00
+Discrepancy,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036626,Inventory Received,2.0,0.0,-2.0,Wine,Chardonnay,Distro,No Delivery,2026-10-12T00:00:00
 Discrepancy,085000014431,Barefoot Pinot Grigio 1.5L,Johnson Brothers - St. Paul,Minneapolis,1036628,Inventory Received,4.0,3.0,-1.0,Wine,Pinot Grigio/Gris,,MI,2026-10-12T00:00:00
 Discrepancy,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1036633,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
 Discrepancy,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1036633,Receiving,3.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
@@ -400,11 +370,8 @@ Discrepancy,188985000137,Joel Gott Cab Sauvignon 750ml,Phillips Wine & Spirits -
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Roseville,1036679,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-12T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Roseville,1036681,Inventory Received,,,,Wine,White Blends,Distro,1case recd,2026-10-12T00:00:00
 Discrepancy,082242017053,Stoneleigh Sauvignon Blanc 750ml,Johnson Brothers - St. Paul,Roseville,1036684,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-12T00:00:00
-Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1036688,Receiving,2.0,0.0,-2.0,Wine,Fortified,,MI,2026-10-12T00:00:00
-Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,876718005329,Fizz: Chrome Champagne Stopper,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,876718006395,Bamboo: Appetizer Picks,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
-Discrepancy,876718022258,Truetap: Double-Hinged Waiters Corkscrew,"True Brands, Inc.",Roseville,1036692,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-12T00:00:00
+Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1036688,Inventory Received,2.0,0.0,-2.0,Wine,Fortified,,MI,2026-10-12T00:00:00
+Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Roseville,1036692,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,MI,2026-10-12T00:00:00
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036694,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-12T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036696,Inventory Received,,,,Wine,White Blends,Distro,1 case sent,2026-10-12T00:00:00
 Discrepancy,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036696,Inventory Received,6.0,5.0,-1.0,Wine,Chardonnay,Distro,1 case missing ,2026-10-12T00:00:00
