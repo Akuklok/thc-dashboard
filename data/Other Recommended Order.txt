@@ -1,13 +1,13 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Saturday, Oct 17, 2026
+  RECOMMENDED OTHER ORDER          Sunday, Oct 18, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     21,696
-  Coverable by transfer .......  $     12,029   (55%)
-  NET BUY from vendors ........  $      6,784   <- the order
+  Gross need (all stores) .....  $     23,157
+  Coverable by transfer .......  $     12,840   (55%)
+  NET BUY from vendors ........  $      7,357   <- the order
 
-  57 items   |   5,116 units to buy   |   2,958 units to rebalance
-  Transfers: 269 moves  -  225 urgent (81 stockouts, 144 under 2wk), 44 routine
+  60 items   |   5,524 units to buy   |   3,148 units to rebalance
+  Transfers: 293 moves  -  241 urgent (93 stockouts, 148 under 2wk), 52 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
@@ -15,26 +15,26 @@
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           7u/7cs             $0      7     0   OUT
-   2  Second Harvest Heartland Donation    2550u/2550cs       $0   2550     0   OUT
-   3  Loon Cinnamon OG 14mg                5u/1cs            $30      4     0   OUT
+   2  Second Harvest Heartland Donation    2652u/2652cs       $0   2652     0   OUT
+   3  Loon Cinnamon OG 14mg                5u/1cs            $30      3     0   OUT
    4  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
    5  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
    6  Loon Arctic Grape 7mg                15u/3cs           $90     13     0   OUT
    7  Fre Pouch 12mg Lush                  5u/1cs            $40      7     0   OUT
    8  Loon Pouches Artic Mango 14mg 20pk   5u/1cs            $30      7     0   OUT
-   9  Bag Fee                              398u/398cs         $0    398     0   OUT
-  10  Charm Social Tonic Lemon Ginger 12o  8u/8cs            $19      8     0   OUT
+   9  Bag Fee                              446u/446cs         $0    446     0   OUT
+  10  Charm Social Tonic Lemon Ginger 12o  9u/9cs            $22      9     0   OUT
   11  MTN Dew Baja Blast 2L                8u/1cs            $14      7     0   OUT
   12  Dole Strawberry Lemonade 2L          8u/1cs            $20      7     0   OUT
-  13  Loon Pouches Bad Bull 28mg 20pk      5u/1cs            $30      4     0   OUT
-  14  Loon Spearmint 7mg                   5u/1cs            $30      4     0   OUT
-  15  *NEW AMSTERDAM GLASSWARE             5u/5cs             $0      5     0   OUT
-  16  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
-  17  Tip Item                             262u/262cs         $0    262     0   OUT
+  13  Loon Spearmint 7mg                   5u/1cs            $30      3     0   OUT
+  14  *NEW AMSTERDAM GLASSWARE             5u/5cs             $0      5     0   OUT
+  15  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
+  16  Sprite Winter Spiced Cranberry Zero  4u/2cs            $51      4     0   OUT
+  17  Tip Item                             263u/263cs         $0    263     0   OUT
   18  Syx Spearmint 20mg                   15u/3cs          $106     16     0   0.5
-  19  Zyn 3mg Wintergreen                  5u/1cs            $42      5     0   0.7
-  20  Velo Wintergreen 6mg                 20u/4cs          $168     21     0   0.9
-  ...and 37 more in the full list.
+  19  Zyn Pouch 6mg Spearmint              20u/4cs          $168     20     0   0.6
+  20  Zyn 3mg Wintergreen                  5u/1cs            $42      5     0   0.7
+  ...and 40 more in the full list.
 
   NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~6/wk vs 2 now, buy ahead?
@@ -45,10 +45,10 @@
     Loon Spearmint 7mg                        Seasonal - last year ~4/wk vs 1 now, buy ahead?
     *NEW AMSTERDAM GLASSWARE                  No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
+    Sprite Winter Spiced Cranberry Zero 2L    Margin looks off - check retail/cost
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~12/wk vs 5 now, buy ahead?
-    Fresh Limes                               Margin looks off - check retail/cost
-    Gosling's Diet Ginger Beer 6pk 12oz can   Seasonal - last year ~15/wk vs 9 now, buy ahead?
+    Zyn Pouch 6mg Spearmint                   Seasonal - last year ~13/wk vs 5 now, buy ahead?
+    Gosling's Diet Ginger Beer 6pk 12oz can   Seasonal - last year ~14/wk vs 9 now, buy ahead?
 
   BEING REMOVED - DO NOT REORDER (1 discontinued items still selling/low - run down stock):
-    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 18u)
+    Fever Tree Ginger Beer 8pk 5oz can          (would have bought 15u)
