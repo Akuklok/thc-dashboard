@@ -1,16 +1,116 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Andover,1035899,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,Distro,mi,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Blaine,1035900,Inventory Received,0.83,0.0,-0.83,Wine,Cabernet,Distro,mi,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Blaine,1035901,Inventory Received,0.17,0.0,-0.17,Wine,Cabernet,Free Goods,mi,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Plymouth,1035903,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,Distro,not on truck ,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Rosemount,1035904,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,Distro,mi,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Roseville,1035905,Inventory Received,0.83,0.0,-0.83,Wine,Cabernet,Distro,mi,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Roseville,1035906,Inventory Received,0.17,0.0,-0.17,Wine,Cabernet,Free Goods,mi,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Stillwater,1035909,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,Distro,MI,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Woodbury,1035910,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,Distro,MI,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Woodbury,1035910-10.12.26,Inventory Received,0.5,0.33,-0.17,Wine,Cabernet,Distro,1 MI,2026-09-30T00:00:00
-Discrepancy,737038001500,StoneStreet Cabernet 750ml,Oxford Street Merchants,Woodbury,1035910-10.5.26,Inventory Received,0.5,0.0,-0.5,Wine,Cabernet,Distro,mi,2026-09-30T00:00:00
-Discrepancy,085000018491,Barefoot Sweet Red 750ml,Johnson Brothers - St. Paul,Minneapolis,1035911,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,Month End,BR,2026-09-30T00:00:00
+Receiving,086867293168,NHL Can Cooler,Bellboy Corporation,Minneapolis,1036853,Receiving,2.0,2.0,0.0,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1036866,Receiving,5.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1036866,Receiving,16.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,842094171897,Truetap: Double-Hinged Corkscrew in Red,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,842094182374,"True Party: 2.5 oz Jello Shot Cups with Lids, set of 25","True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,876718006791,Soar - Winged Corkscrew,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,876718030413,Shoot Ping Pong Balls,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,876718030420,"16 oz Red Party Cups, 24 pack by True","True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,876718039232,Beer Pong Kit,"True Brands, Inc.",Minneapolis,1036866,Receiving,2.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Receiving,017224710202,Bonanza Cabernet 750ml,Oxford Street Merchants,Chanhassen,1036839,Receiving,2.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,031259004327,Josh Cellars BB Cab 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Receiving,031259009469,Yellow Tail Cab Sauvignon 1.5L,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,080887493966,Bogle Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,080887551017,Bogle Juggernaut Cabernet 750ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Receiving,082242010450,Bota Box Cabernet Sauvignon 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Receiving,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,082242018074,Bota Box Breeze Cabernet 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Receiving,082544992164,Eastside Crossing Cabernet 750ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,1.0,0.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,085000037522,Black Box Cabernet Liter Tetra,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Receiving,08500520,Sutter Home Cab Sauv 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Receiving,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036834,Receiving,1.0,1.0,0.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,2.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,184745003004,Substance Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036834,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Rosemount,1036905,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036834,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,669576020449,Decoy Limited Alexander Valley Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036834,Receiving,1.0,1.0,0.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,684586222300,Table 7 CA Cabernet Sauvignon 750ml,Paustis Wine,Andover,1036802,Receiving,1.0,1.0,0.0,Wine,Cabernet,Buyer's Select,,2026-10-19T00:00:00
+Receiving,684586905128,Scotto Family Cellars Lodi Cabernet Sauvignon 750ml,Paustis Wine,Andover,1036802,Receiving,1.0,1.0,0.0,Wine,Cabernet,Buyer's Select,,2026-10-19T00:00:00
+Receiving,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,Paustis Wine,Andover,1036802,Receiving,3.0,3.0,0.0,Wine,Cabernet,Buyer's Select,,2026-10-19T00:00:00
+Receiving,847159003588,Creamery Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,857744001318,Josh Cellars Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,3.0,3.0,0.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Receiving,860001359855,Big Red Monster Cabernet Sauvignon 750ml,"Vinocopia, Inc",Roseville,1035821-10.19.26,Receiving,0.17,,,Wine,Cabernet,Store Request,,2026-09-28T00:00:00
+Receiving,031259008936,Yellow Tail Chardonnay 1.5L,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Receiving,081434000040,Black Box Chardonnay 3L Box,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,3.0,3.0,0.0,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,081434000309,Black Box Chardonnay 500ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,082242011051,Bota Box Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,3.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,082242011051,Bota Box Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Receiving,085000033371,Black Box Buttery Chardonnay 3L Box,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,08500627,Sutter Home Chardonnay 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Receiving,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036696-10.19.26,Receiving,1.0,,,Wine,Chardonnay,Distro,,2026-10-12T00:00:00
+Receiving,695235000019,Fat Bastard Chardonnay 750ml,"Grape Beginnings, Inc.",Roseville,1036918,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,717888520024,Hess Select Chardonnay 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,857744001325,Josh Cellars Chardonnay 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,4.0,4.0,0.0,Wine,Chardonnay,,,2026-10-19T00:00:00
+Receiving,074806189405,Daily's Jamaican RTD Frozen 10oz,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Flavored,,mi,2026-10-19T00:00:00
+Receiving,085000029008,Barefoot Peach Moscato 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Flavored,,,2026-10-19T00:00:00
+Receiving,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Flavored,,,2026-10-19T00:00:00
+Receiving,082242017657,Bota Box Nighthawk Black Malbec 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Malbec,,,2026-10-19T00:00:00
+Receiving,031259009230,Yellow Tail Merlot 1.5L,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Merlot,,,2026-10-19T00:00:00
+Receiving,031259014050,Yellow Tail Cab Merlot 1.5L,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Merlot,,mi,2026-10-19T00:00:00
+Receiving,857744011157,Josh Cellars Merlot 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Merlot,,,2026-10-19T00:00:00
+Receiving,085000041260,Barefoot Moscato 200ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Moscato,,,2026-10-19T00:00:00
+Receiving,678113000165,Ercole Monferratto Rosso Liter,Libation Project,St. Louis Park,1036933,Receiving,1.0,,,Wine,Other Reds,,,2026-10-19T00:00:00
+Receiving,851115002324,Shania Monastrell 3L Box,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,1.0,0.0,Wine,Other Reds,,,2026-10-19T00:00:00
+Receiving,015643744785,Il Valore Pinot Grigio 750ml,Rue 38 LLC,Bloomington,1036832,Receiving,3.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Receiving,031259001456,Josh Cellars Pinot Grigio 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Receiving,081434700209,Black Box Pinot Grigio 500ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Receiving,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,4.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Receiving,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Receiving,083120100393,Franzia Pinot Grigio 5L Box,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Receiving,08501422,Sutter Home Pinot Grigio 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Receiving,086785000039,Cavit Pinot Grigio 1.5L,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Receiving,632987120251,Torresella Pinot Grigio Veneto 750ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Receiving,856036001067,Underwood Pinot Gris 375ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Receiving,011699014933,Bouchard VDP Pinot Noir 750ml,"Vinocopia, Inc",Roseville,1036928,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,084687001017,Erath Pinot Noir 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,085000023105,Prophecy Pinot Noir 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,669576040430,Greenwing Pinot Noir 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,684586004067,Las Vidas Pinot Noir 750ml,Paustis Wine,Andover,1036802,Receiving,2.0,2.0,0.0,Wine,Pinot Noir,Buyer's Select,,2026-10-19T00:00:00
+Receiving,684586005606,Anthony & Dominic North Coast Pinot Noir 750ml,Paustis Wine,Andover,1036802,Receiving,1.0,1.0,0.0,Wine,Pinot Noir,Buyer's Select,,2026-10-19T00:00:00
+Receiving,769611500384,Sonoma Cutrer Pinot Noir 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,860001082616,Tembo Pinot Noir 750ml,Libation Project,St. Louis Park,1036933,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Receiving,012354000995,19 Crimes Red Wine 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Ramsey,1036894,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,012354004290,19 Crimes Cali Red 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,082242010832,Bota Box Redvolution 500ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Red Blends,,mi,2026-10-19T00:00:00
+Receiving,082242013741,Bota Box NightHawk Red Blend 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,082242016056,Bota Box Redvolution 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036836,Receiving,1.0,,,Wine,Red Blends,Free Goods,,2026-10-19T00:00:00
+Receiving,082242016056,Bota Box Redvolution 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036917,Receiving,1.0,1.0,0.0,Wine,Red Blends,Free Goods,,2026-10-19T00:00:00
+Receiving,083120015093,Cooper and Thief Red Blend 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,099988071096,Menage a Trois Red 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,099988071362,Menage A Trois Silk 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,652935100432,MD Freakshow Red Blend 750ml,Paustis Wine,Andover,1036807,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Receiving,081434710147,Black Box Rose 3L Box,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Rose,,,2026-10-19T00:00:00
+Receiving,081753833916,Whispering Angel Rose 750ml,Oxford Street Merchants,Chanhassen,1036839,Receiving,1.0,,,Wine,Rose,,,2026-10-19T00:00:00
+Receiving,031259046976,Josh Cellars Sauvignon Blanc 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Receiving,082100738397,Black Box Sauvignon Blanc 3L Box,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,082242012935,Bota Box Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Receiving,082242012935,Bota Box Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,3.0,,,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,082242014311,Bota Box Sauvignon Blanc 500ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Receiving,082242017053,Stoneleigh Sauvignon Blanc 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,082544992171,Eastside Crossing Sauvignon Blanc 750ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,085000016602,Starborough Sauvignon Blanc 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,085200718740,Sutter Home Sauvignon Blanc 187ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,742651123102,Ferrari Carano Fume Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Receiving,085000007433,Andre Brut 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Sparkling,,,2026-10-19T00:00:00
+Receiving,185554000727,Pizzolato Muse Rose 187ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Receiving,856036001098,Underwood Bubbles 355ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Receiving,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,Oxford Street Merchants,Roseville,1036922,Receiving,3.0,3.0,0.0,Wine,White Blends,,,2026-10-19T00:00:00
+Receiving,031259005348,Josh Cellars Seaswept White Blend 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,White Blends,,,2026-10-19T00:00:00
+Receiving,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Andover,1035912-10.19.26,Receiving,1.0,1.0,0.0,Wine,White Blends,Deal,,2026-10-02T00:00:00
+Receiving,031259049229,Josh Cellars Zinfandel 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Zinfandel,,,2026-10-19T00:00:00
+Receiving,080887493850,Bogle Zinfandel 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Zinfandel,,,2026-10-19T00:00:00
+Receiving,085000041840,Barefoot White Zin 200ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,1.0,0.0,Wine,Zinfandel,,,2026-10-19T00:00:00
+Receiving,08500928,Sutter Home White Zinfandel 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Zinfandel,,mi,2026-10-19T00:00:00
+Receiving,088254758724,Seghesio Zinfandel 750ml,Oxford Street Merchants,Chanhassen,1036839,Receiving,1.0,,,Wine,Zinfandel,,,2026-10-19T00:00:00
 Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Andover,1035912,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,Deal,bo,2026-10-02T00:00:00
 Discrepancy,083837006261,Castle Rock Cuvee Pinot Noir 750ml,Paustis Wine,Andover,1035912,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,Deal,bo,2026-10-02T00:00:00
 Discrepancy,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Andover,1035912-10.12.26,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,Deal,bo,2026-10-02T00:00:00
@@ -43,7 +143,6 @@ Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillip
 Discrepancy,085000021132,Barefoot Rich Red Blend 1.5L,Johnson Brothers - St. Paul,Blaine,1036064,Inventory Received,3.0,0.0,-3.0,Wine,Merlot,Store Request,OOS,2026-10-05T00:00:00
 Discrepancy,085000021576,Barefoot Malbec 1.5L,Johnson Brothers - St. Paul,Blaine,1036064,Inventory Received,2.0,0.0,-2.0,Wine,Malbec,Store Request,Not on the truck ,2026-10-05T00:00:00
 Discrepancy,031259014050,Yellow Tail Cab Merlot 1.5L,Phillips Wine & Spirits - St. Paul,Blaine,1036065,Inventory Received,2.0,0.0,-2.0,Wine,Merlot,Store Request,Misspick ,2026-10-05T00:00:00
-Discrepancy,669835222294,St Croix Vineyards Frontenac Blanc 750ml,Saint Croix Vineyards,Blaine,1036066,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,Store Request,not delivered yet ,2026-10-05T00:00:00
 Discrepancy,083648877111,Elk Cove Pinot Noir 750ml,"New France Wine Co, Inc",Bloomington,1036071,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,Seminar,mi,2026-10-05T00:00:00
 Discrepancy,8032662930191,Perrini Negromaro 750ml,"New France Wine Co, Inc",Bloomington,1036071,Inventory Received,1.0,0.0,-1.0,Wine,Other Reds,Seminar,mi,2026-10-05T00:00:00
 Discrepancy,8437019818784,Pingus PSI 750ml,"New France Wine Co, Inc",Bloomington,1036071,Inventory Received,1.0,0.0,-1.0,Wine,Other Reds,Seminar,mi,2026-10-05T00:00:00
@@ -99,11 +198,158 @@ Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Roseville
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036694,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-12T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036696,Inventory Received,,,,Wine,White Blends,Distro,1 case sent,2026-10-12T00:00:00
 Discrepancy,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036696,Inventory Received,6.0,5.0,-1.0,Wine,Chardonnay,Distro,1 case missing ,2026-10-12T00:00:00
+Discrepancy,089819009022,Drop of Sunshine Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036696-10.19.26,Receiving,1.0,,,Wine,Chardonnay,Distro,,2026-10-12T00:00:00
 Discrepancy,188985000137,Joel Gott Cab Sauvignon 750ml,Phillips Wine & Spirits - St. Paul,Stillwater,1036709,Inventory Received,6.0,0.0,-6.0,Wine,Cabernet,Free Goods,dnr,2026-10-12T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Vadnais Heights,1036715,Inventory Received,,,,Wine,White Blends,Distro,only 1 case,2026-10-12T00:00:00
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Woodbury,1036723,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-10-12T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Woodbury,1036725,Inventory Received,,,,Wine,White Blends,Distro,,2026-10-12T00:00:00
 Discrepancy,188985000137,Joel Gott Cab Sauvignon 750ml,Phillips Wine & Spirits - St. Paul,Woodbury,1036726,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Distro,MI,2026-10-12T00:00:00
 Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Woodbury,1036732,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,MI,2026-10-12T00:00:00
+Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Andover,1036801,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,OOS,2026-10-19T00:00:00
+Discrepancy,031259005317,Josh Cellars Hearth Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,Andover,1036804,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,bo,2026-10-19T00:00:00
+Discrepancy,652935100432,MD Freakshow Red Blend 750ml,Paustis Wine,Andover,1036807,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1036808,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,mi,2026-10-19T00:00:00
+Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036813,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,oos,2026-10-19T00:00:00
+Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036813,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,769611500384,Sonoma Cutrer Pinot Noir 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036813,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,mi,2026-10-19T00:00:00
+Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Blaine,1036816,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,not on truck,2026-10-19T00:00:00
+Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,Blaine,1036819,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Discrepancy,856184006112,Boen Tri Appellation Pinot Noir 750ml,Oxford Street Merchants,Blaine,1036819,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,mi,2026-10-19T00:00:00
+Discrepancy,031259008936,Yellow Tail Chardonnay 1.5L,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,031259009728,Yellow Tail Pinot Grigio 1.5L,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,080887551123,Bogle Juggernaut Napa Cabernet 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,082242010450,Bota Box Cabernet Sauvignon 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,4.0,0.0,-4.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,082242011051,Bota Box Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,082242012935,Bota Box Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,3.0,0.0,-3.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,082242014373,Bota Box Dry Rose 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,mi,2026-10-19T00:00:00
+Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,082242016049,Bota Box Nighthawk Gold Sauv Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,mi,2026-10-19T00:00:00
+Discrepancy,082242016773,Bota Box Breeze Dry Rose 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,mi,2026-10-19T00:00:00
+Discrepancy,082242016780,Bota Box Breeze Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,082242016827,Bota Box Breeze Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,082242017558,Bota Box Merlot 3L Box,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Merlot,,mi,2026-10-19T00:00:00
+Discrepancy,084279973944,Starling Castle Riesling 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,mi,2026-10-19T00:00:00
+Discrepancy,08500520,Sutter Home Cab Sauv 187ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,08500627,Sutter Home Chardonnay 187ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,2.0,0.0,-2.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,08501422,Sutter Home Pinot Grigio 187ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,3.0,0.0,-3.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,08510129,Fre Chardonnay N/A 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,085200718740,Sutter Home Sauvignon Blanc 187ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,2.0,0.0,-2.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,08572624,Fre Pinot Grigio N/A 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,087752014875,Bartenura Brachetto 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Discrepancy,099988071362,Menage A Trois Silk 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,mi,2026-10-19T00:00:00
+Discrepancy,728028087161,Carlos Creek Hot Dish Red 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,mi,2026-10-19T00:00:00
+Discrepancy,898756001057,Line 39 Cabernet 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Bloomington,1036827,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,015643744785,Il Valore Pinot Grigio 750ml,Rue 38 LLC,Bloomington,1036832,Receiving,3.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Discrepancy,184745003004,Substance Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036834,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Chanhassen,1036834,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,082242016056,Bota Box Redvolution 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036836,Receiving,1.0,,,Wine,Red Blends,Free Goods,,2026-10-19T00:00:00
+Discrepancy,017224710202,Bonanza Cabernet 750ml,Oxford Street Merchants,Chanhassen,1036839,Receiving,2.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,081753833916,Whispering Angel Rose 750ml,Oxford Street Merchants,Chanhassen,1036839,Receiving,1.0,,,Wine,Rose,,,2026-10-19T00:00:00
+Discrepancy,088254758724,Seghesio Zinfandel 750ml,Oxford Street Merchants,Chanhassen,1036839,Receiving,1.0,,,Wine,Zinfandel,,,2026-10-19T00:00:00
+Discrepancy,031259009230,Yellow Tail Merlot 1.5L,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Merlot,,,2026-10-19T00:00:00
+Discrepancy,031259009469,Yellow Tail Cab Sauvignon 1.5L,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,082242011051,Bota Box Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,3.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Discrepancy,082242012935,Bota Box Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,3.0,,,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,4.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Discrepancy,082242013741,Bota Box NightHawk Red Blend 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Discrepancy,082242017657,Bota Box Nighthawk Black Malbec 3L Box,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Malbec,,,2026-10-19T00:00:00
+Discrepancy,085200718740,Sutter Home Sauvignon Blanc 187ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Discrepancy,099988071096,Menage a Trois Red 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,099988071362,Menage A Trois Silk 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,717888520024,Hess Select Chardonnay 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1036841,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Discrepancy,083120015093,Cooper and Thief Red Blend 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,083120100393,Franzia Pinot Grigio 5L Box,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Discrepancy,084687001017,Erath Pinot Noir 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Discrepancy,742651123102,Ferrari Carano Fume Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1036842,Receiving,1.0,,,Wine,Sauvignon Blanc,,,2026-10-19T00:00:00
+Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,Cottage Grove,1036850,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-10-19T00:00:00
+Discrepancy,089016017264,Capriccio Bubbly Sangria 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036855,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,MI,2026-10-19T00:00:00
+Discrepancy,898756001057,Line 39 Cabernet 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036855,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-10-19T00:00:00
+Discrepancy,899552102276,Pacific Rim Sweet Riesling 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Minneapolis,1036855,Inventory Received,1.0,0.0,-1.0,Wine,Other Whites,,MI,2026-10-19T00:00:00
+Discrepancy,085000036969,Vibe Margarita 500ml,Johnson Brothers - St. Paul,Minneapolis,1036858,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,mi,2026-10-19T00:00:00
+Discrepancy,031259032863,Yellow Tail Moscato 1.5L,Phillips Wine & Spirits - St. Paul,Minneapolis,1036862,Inventory Received,1.0,0.0,-1.0,Wine,Moscato,,bo,2026-10-19T00:00:00
+Discrepancy,085200005758,SeaGlass Sauvignon Blanc 750ml,Phillips Wine & Spirits - St. Paul,Minneapolis,1036862,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,bo,2026-10-19T00:00:00
+Discrepancy,083120103691,Franzia Sunset Blush 5L Box,Southern Glazer's Wine & Spirits of MN,Minneapolis,1036864,Inventory Received,11.0,10.0,-1.0,Wine,Rose,,BO,2026-10-19T00:00:00
+Discrepancy,086003861862,Woodbridge Sauv Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Minneapolis,1036864,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,BO,2026-10-19T00:00:00
+Discrepancy,089819760091,Beringer Main & Vine Pinot Grigio 750ml,Southern Glazer's Wine & Spirits of MN,Minneapolis,1036864,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,BO,2026-10-19T00:00:00
+Discrepancy,816253012482,Freixenet Still Rose 750ml,Southern Glazer's Wine & Spirits of MN,Minneapolis,1036864,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,BO,2026-10-19T00:00:00
+Discrepancy,842094150915,20 Red Shot Glasses,"True Brands, Inc.",Minneapolis,1036866,Receiving,5.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,842094171217,"16 oz Red Party Cups, 50 pack by True","True Brands, Inc.",Minneapolis,1036866,Receiving,16.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,842094171897,Truetap: Double-Hinged Corkscrew in Red,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,842094182374,"True Party: 2.5 oz Jello Shot Cups with Lids, set of 25","True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,876718006791,Soar - Winged Corkscrew,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,876718030413,Shoot Ping Pong Balls,"True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,876718030420,"16 oz Red Party Cups, 24 pack by True","True Brands, Inc.",Minneapolis,1036866,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,876718039232,Beer Pong Kit,"True Brands, Inc.",Minneapolis,1036866,Receiving,2.0,,,Miscellaneous,Accessories,,,2026-10-19T00:00:00
+Discrepancy,083120100393,Franzia Pinot Grigio 5L Box,Southern Glazer's Wine & Spirits of MN,Osseo,1036881,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,not on truck ,2026-10-19T00:00:00
+Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Discrepancy,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,086785000039,Cavit Pinot Grigio 1.5L,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
+Discrepancy,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Flavored,,,2026-10-19T00:00:00
+Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,Plymouth,1036887,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,oos,2026-10-19T00:00:00
+Discrepancy,188985000281,Joel Gott Pinot Gris 750ml,Phillips Wine & Spirits - St. Paul,Plymouth,1036889,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,oos,2026-10-19T00:00:00
+Discrepancy,012354000995,19 Crimes Red Wine 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Ramsey,1036894,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,084692400546,Louis Jadot Beaujolais Village 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Rosemount,1036903,Inventory Received,1.0,0.0,-1.0,Wine,Other Reds,,bo,2026-10-19T00:00:00
+Discrepancy,847159003588,Creamery Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Rosemount,1036903,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-10-19T00:00:00
+Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Rosemount,1036905,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Roseville,1036915,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,695235000019,Fat Bastard Chardonnay 750ml,"Grape Beginnings, Inc.",Roseville,1036918,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Discrepancy,031259004327,Josh Cellars BB Cab 750ml,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,085000037522,Black Box Cabernet Liter Tetra,Johnson Brothers - St. Paul,Roseville,1036919,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,185554000727,Pizzolato Muse Rose 187ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Discrepancy,632987120251,Torresella Pinot Grigio Veneto 750ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,856036001067,Underwood Pinot Gris 375ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,856036001098,Underwood Bubbles 355ml,Oxford Street Merchants,Roseville,1036922,Receiving,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Discrepancy,031259008936,Yellow Tail Chardonnay 1.5L,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,031259014050,Yellow Tail Cab Merlot 1.5L,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Merlot,,mi,2026-10-19T00:00:00
+Discrepancy,074806189405,Daily's Jamaican RTD Frozen 10oz,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Flavored,,mi,2026-10-19T00:00:00
+Discrepancy,080887551017,Bogle Juggernaut Cabernet 750ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,082242010450,Bota Box Cabernet Sauvignon 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,082242010832,Bota Box Redvolution 500ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Red Blends,,mi,2026-10-19T00:00:00
+Discrepancy,082242011051,Bota Box Chardonnay 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,082242012935,Bota Box Sauvignon Blanc 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,082242013253,Bota Box Pinot Grigio 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,082242014311,Bota Box Sauvignon Blanc 500ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,mi,2026-10-19T00:00:00
+Discrepancy,082242018074,Bota Box Breeze Cabernet 3L Box,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,08500520,Sutter Home Cab Sauv 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,08500627,Sutter Home Chardonnay 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-19T00:00:00
+Discrepancy,08500928,Sutter Home White Zinfandel 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Zinfandel,,mi,2026-10-19T00:00:00
+Discrepancy,08501422,Sutter Home Pinot Grigio 187ml,Phillips Wine & Spirits - St. Paul,Roseville,1036924,Receiving,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,mi,2026-10-19T00:00:00
+Discrepancy,083120101895,Franzia Cab Sauv 5L Box,Southern Glazer's Wine & Spirits of MN,Roseville,1036926,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi broke on truck ,2026-10-19T00:00:00
+Discrepancy,086036124590,Christian Bros Dry Sherry 750ml,Southern Glazer's Wine & Spirits of MN,Roseville,1036926,Inventory Received,2.0,0.0,-2.0,Wine,Fortified,,mi,2026-10-19T00:00:00
+Discrepancy,089419377125,Maal Biutiful Malbec 750ml,The Wine Company,Roseville,1036927,Inventory Received,1.0,0.0,-1.0,Wine,Malbec,,mi,2026-10-19T00:00:00
+Discrepancy,011699014933,Bouchard VDP Pinot Noir 750ml,"Vinocopia, Inc",Roseville,1036928,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Discrepancy,012354004290,19 Crimes Cali Red 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
+Discrepancy,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,2.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,669576040430,Greenwing Pinot Noir 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Discrepancy,769611500384,Sonoma Cutrer Pinot Noir 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Discrepancy,847159003588,Creamery Cabernet Sauvignon 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",St. Louis Park,1036929,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
+Discrepancy,031259005317,Josh Cellars Hearth Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,St. Louis Park,1036932,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
+Discrepancy,678113000165,Ercole Monferratto Rosso Liter,Libation Project,St. Louis Park,1036933,Receiving,1.0,,,Wine,Other Reds,,,2026-10-19T00:00:00
+Discrepancy,860001082616,Tembo Pinot Noir 750ml,Libation Project,St. Louis Park,1036933,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-19T00:00:00
+Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,St. Louis Park,1036936,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
+Discrepancy,856622001013,Bieler Pere Et Fils Rose 750ml,Phillips Wine & Spirits - St. Paul,St. Louis Park,1036938,Inventory Received,1.0,0.0,-1.0,Wine,Rose,,mi,2026-10-19T00:00:00
+Discrepancy,861518002647,Rancho La Gloria Lime Maragrita RTD 1.5L,Phillips Wine & Spirits - St. Paul,Stillwater,1036955,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,BO,2026-10-19T00:00:00
+Discrepancy,031259004327,Josh Cellars BB Cab 750ml,Johnson Brothers - St. Paul,Vadnais Heights,1036962,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,BO,2026-10-19T00:00:00
+Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Woodbury,1036970,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-10-19T00:00:00
+Discrepancy,739958974001,Coppola Diamond Claret 750ml,Johnson Brothers - St. Paul,Woodbury,1036973,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-10-19T00:00:00
+Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,Woodbury,1036975,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,MI,2026-10-19T00:00:00
+Discrepancy,086003861862,Woodbridge Sauv Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Woodbury,1036979,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,BO,2026-10-19T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Andover,1036989,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,MI,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Blaine,1036999,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,Not on the truck ,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Cottage Grove,1037031,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,MI,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Plymouth,1037067,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,bo,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Rosemount,1037080,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,MI,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Roseville,1037089,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,mi,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,St. Louis Park,1037103,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,mi,2026-10-20T00:00:00
+Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's Wine & Spirits of MN,Woodbury,1037125,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Non-Alcoholic Liquor,,MI,2026-10-20T00:00:00
 Discrepancy,083120103295,Franzia Fruity Red Sangria 5L Box,Southern Glazer's Wine & Spirits of MN,Blaine,PO0000004688,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,mi,2026-10-15T14:11:55.1404637
 Discrepancy,083120192015,Franzia Chardonnay 3L Box,Southern Glazer's Wine & Spirits of MN,Blaine,PO0000004688,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-15T14:11:55.1404637
