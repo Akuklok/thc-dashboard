@@ -1,86 +1,88 @@
 ==========================================================================
-  RECOMMENDED WINE ORDER          Friday, Oct 23, 2026
+  RECOMMENDED WINE ORDER          Saturday, Oct 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $    128,528
-  Coverable by transfer .......  $     59,655   (46%)
-  NET BUY from vendors ........  $     79,395   <- the order
+  Gross need (all stores) .....  $    134,320
+  Coverable by transfer .......  $     61,521   (46%)
+  NET BUY from vendors ........  $     81,137   <- the order
 
-  146 items   |   10,945 units to buy   |   7,210 units to rebalance
-  Transfers: 862 moves  -  722 urgent (283 stockouts, 439 under 2wk), 140 routine
+  155 items   |   11,246 units to buy   |   7,474 units to rebalance
+  Transfers: 885 moves  -  739 urgent (274 stockouts, 465 under 2wk), 146 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 96 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 95 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  90+ Cellars DOC Prosecco Lot 50 (si  576u/24cs      $1,564    576     0   OUT
-   2  90+ Cellars Prosecco Rose (single)   24u/1cs           $73     34     0   OUT
+   1  90+ Cellars DOC Prosecco Lot 50 (si  576u/24cs      $1,564    585     0   OUT
+   2  90+ Cellars Prosecco Rose (single)   24u/1cs           $73     35     0   OUT
    3  La Vieille Ferme Rouge 3L Box        6u/1cs           $112      6     0   OUT
-   4  Andre Moscato 750ml                  12u/1cs           $63      2     0   OUT
-   5  Richard's Wild Irish Rose 375ml      9u/9cs            $13      9     0   OUT
-   6  Silver Palm Chardonnay 750ml         1u/1cs            $10      1     0   OUT
-   7  Indian Island Wita-Pa/ D             1u/1cs            $11      1     0   OUT
-   8  Barefoot Pinot Noir 250ml            18u/3cs          $108     20     0   1.0
-   9  Jinro Chamisul Melon 375ml           40u/2cs          $160     44     0   1.4
-  10  Carmenet Pinot Noir 750ml            12u/1cs           $49      8     0   1.7
-  11  Sutter Home Chardonnay 187ml         60u/10cs         $300     84    25   1.8
-  12  Bota Box Nighthawk Blk Bourbon Cabe  72u/24cs       $1,056     73     0   1.9
-  13  Long Meadow Ranch Napa Cabernet Sau  12u/1cs          $396     12     5   2.0
-  14  Shania White 3L Box                  9u/3cs           $113      8     0   2.0
-  15  Yellow Tail Sweet Red Roo 1.5L       6u/1cs            $46      4     0   2.1
-  16  Bota Box Sauvignon Blanc 3L Box      135u/45cs      $1,980    145     9   2.2
-  17  Bota Box Nighthawk Black Lush Pinot  39u/13cs         $572     39     0   2.2
-  18  Sutter Home Sauvignon Blanc 187ml    54u/9cs          $269     64    11   2.2
-  19  Bota Box Pinot Grigio 3L Box         93u/31cs       $2,162    103    10   2.3
-  20  Soon Hari Variety 6 pk 375ml         4u/1cs            $96      3     0   2.4
-  ...and 126 more in the full list.
+   4  Vibe Pink Lemonade 500ml             12u/1cs           $24      8     0   OUT
+   5  Domaine Saint-Sernin Mirliflor 750m  2u/2cs            $13      2     0   OUT
+   6  No Curfew Red 750ml                  2u/2cs            $14      2     0   OUT
+   7  Andre Moscato 750ml                  12u/1cs           $63      2     0   OUT
+   8  Richard's Wild Irish Rose 375ml      9u/9cs            $13      9     0   OUT
+   9  Silver Palm Chardonnay 750ml         1u/1cs            $10      1     0   OUT
+  10  Indian Island Wita-Pa/ D             1u/1cs            $11      1     0   OUT
+  11  Jinro Chamisul Melon 375ml           60u/3cs          $192     67     0   0.6
+  12  Barefoot Pinot Noir 250ml            12u/2cs           $72     14     0   1.3
+  13  Soon Hari Variety 6 pk 375ml         4u/1cs            $96      4     0   1.6
+  14  Wycliff Brut 750ml                   12u/1cs           $68      7     0   1.6
+  15  Carmenet Pinot Noir 750ml            12u/1cs           $49      8     0   1.7
+  16  Bota Box Nighthawk Blk Bourbon Cabe  69u/23cs       $1,012     70     0   2.0
+  17  Long Meadow Ranch Napa Cabernet Sau  12u/1cs          $396     12     5   2.0
+  18  Yellow Tail Sweet Red Roo 1.5L       6u/1cs            $46      4     0   2.1
+  19  Silvan Ridge Pinot Gris 750ml        1u/1cs            $10      1     0   2.1
+  20  Bota Box Nighthawk Black Lush Pinot  39u/13cs         $572     38     0   2.2
+  ...and 135 more in the full list.
 
-  NEEDS REVIEW (96 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (95 items the system isn't fully sure about - check before ordering):
     Andre Moscato 750ml                       Buy-month stock-up ($63 to next deal) - confirm
     Yellow Tail Sweet Red Roo 1.5L            Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost
-    Bota Box Cabernet Sauvignon 3L Box        Margin looks off - check retail/cost
-    Underwood Bubbles 355ml                   Large buy ($6,320) - confirm; Buy-month stock-up ($6,320 to next deal) - confirm
-    Apothic Red 750ml                         Buy-month stock-up ($2,908 to next deal) - confirm
-    Barefoot Red Moscato 1.5L                 Buy-month stock-up ($1,352 to next deal) - confirm
+    Apothic Red 750ml                         Buy-month stock-up ($3,057 to next deal) - confirm
+    Barefoot Pinot Grigio 1.5L                Buy-month stock-up ($3,300 to next deal) - confirm
+    Underwood Bubbles 355ml                   Large buy ($6,377) - confirm; Buy-month stock-up ($6,377 to next deal) - confirm
+    Barefoot Red Moscato 1.5L                 Buy-month stock-up ($1,323 to next deal) - confirm
     Barefoot Pinot Noir 1.5L                  Buy-month stock-up ($93 to next deal) - confirm
-    Barefoot Mango Moscato 1.5L               Buy-month stock-up ($1,074 to next deal) - confirm
-    Barefoot Chardonnay 1.5L                  Buy-month stock-up ($1,160 to next deal) - confirm
-    Barefoot Pinot Grigio 1.5L                Buy-month stock-up ($3,108 to next deal) - confirm
-    Barefoot Pink Moscato 750ml               Buy-month stock-up ($778 to next deal) - confirm
+    Barefoot Chardonnay 1.5L                  Buy-month stock-up ($1,112 to next deal) - confirm
+    Barefoot Mango Moscato 1.5L               Buy-month stock-up ($975 to next deal) - confirm
     Andre Mango Mimosa 750ml                  Buy-month stock-up ($64 to next deal) - confirm
-    Barefoot Pink Moscato 1.5L                Large buy ($5,678) - confirm; Buy-month stock-up ($5,678 to next deal) - confirm
-    Barefoot Moscato 1.5L                     Large buy ($4,287) - confirm; Buy-month stock-up ($4,287 to next deal) - confirm
-    ...and 81 more (see Needs Review tab).
+    Barefoot Blueberry Moscato 1.5L           Buy-month stock-up ($1,096 to next deal) - confirm
+    Barefoot Moscato 1.5L                     Large buy ($4,375) - confirm; Buy-month stock-up ($4,375 to next deal) - confirm
+    Barefoot Butter Chard 1.5L                Buy-month stock-up ($79 to next deal) - confirm
+    Josh Cellars Cabernet Sauvignon 750ml     Margin looks off - check retail/cost
+    ...and 80 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (35 discontinued items still selling/low - run down stock):
-    Alexander Valley Vineyards Cab Sauv 750ml   (would have bought 84u)
-    Alexander Valley Vineyards Chardonnay 750m  (would have bought 72u)
-    Bogle Cabernet Sauvignon 750ml              (would have bought 24u)
+  BEING REMOVED - DO NOT REORDER (36 discontinued items still selling/low - run down stock):
+    Alexander Valley Vineyards Cab Sauv 750ml   (would have bought 48u)
+    Alexander Valley Vineyards Chardonnay 750m  (would have bought 48u)
+    Bogle Cabernet Sauvignon 750ml              (would have bought 12u)
     Cavit Pinot Grigio 1.5L                     (would have bought 6u)
     Cavit Pinot Grigio 750ml                    (would have bought 12u)
     Elemental Pinot Noir 750ml                  (would have bought 12u)
-    Franzia Cab Sauv 5L Box                     (would have bought 28u)
-    Franzia Chablis 5L Box                      (would have bought 4u)
+    Franzia Cab Sauv 5L Box                     (would have bought 32u)
     Franzia Chardonnay 5L Box                   (would have bought 64u)
-    Franzia Crisp White 5L Box                  (would have bought 44u)
+    Franzia Chillable Red 5L Box                (would have bought 16u)
+    Franzia Crisp White 5L Box                  (would have bought 48u)
+    Franzia Dark Red 5L Box                     (would have bought 16u)
     Franzia Moscato 5L Box                      (would have bought 24u)
-    Franzia Pink Moscato 5L Box                 (would have bought 68u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 72u)
+    Franzia Pink Moscato 5L Box                 (would have bought 64u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 76u)
     Franzia Pinot Noir 5L Box                   (would have bought 12u)
-    Franzia Refreshing White 5L Box             (would have bought 16u)
-    ...and 20 more (see Being Removed tab).
+    ...and 21 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (11 routine deal items out of their buy month - $12,524 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (13 routine deal items out of their buy month - $14,462 cheaper to buy in-month):
     Black Box Buttery Chardonnay 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Cab Sauv 3L Box                   Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Chardonnay 3L Box                 Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Deep Dark Cabernet 3L Box         Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Pinot Grigio 3L Box               Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Pinot Noir 3L Box                 Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
+    Black Box Red Elegance 3L Box               Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Riesling 3L Box                   Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Sauvignon Blanc 3L Box            Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Black Box Tart Tangy Sauvignon Blanc 3L Bo  Wait for buy-month (Jan, Mar, May, Jul, Sep, Nov)
     Joel Gott CA Pinot Grigio 750ml             Wait for buy-month (Apr, Jun)
     Risata Moscato d'Asti 750ml                 Wait for buy-month (Aug, Nov, Dec)
+    Whitehaven Sauv Blanc 750ml                 Wait for buy-month (Feb, May, Aug, Nov)
