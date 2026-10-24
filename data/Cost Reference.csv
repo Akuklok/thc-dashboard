@@ -1281,6 +1281,10 @@ upc,Department,Buyer Cost,Deal,Buy Months
 5600771018782,Wine,69.0,,
 5600771018942,Wine,26.25,,
 5600824210026,Wine,15.46,,
+5601519310519,Wine,16.54,,
+5601519334614,Wine,16.54,,
+5601835142207,Wine,12.21,,
+5601835194459,Wine,32.21,,
 5602640000645,Wine,15.43,,
 5602840030008,Wine,36.92,,
 5603616110023,Wine,10.12,,
@@ -1850,6 +1854,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 683318626232,Wine,10.1,,1|2
 683318626249,Wine,8.1,,1|2
 684530000114,Wine,9.09,,
+684586004067,Wine,5.24,Buyer's Select,
 684586005606,Wine,8.4,,
 684586005613,Wine,8.4,,
 684586010020,Wine,6.32,,
@@ -2584,6 +2589,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 742779422125,Wine,13.83,,
 742779422194,Wine,0.5,,
 742779422590,Wine,15.17,,
+74410000370,Wine,6.88,,
+74410056193,Wine,3.82,,
+74410064945,Wine,6.08,,
+74410079680,Wine,4.79,,
+74410079697,Wine,4.12,,
+74410079819,Wine,6.88,,
+74410079888,Wine,6.88,,
 744442081004,Wine,26.12,,
 744442301003,Wine,39.46,,
 744442901005,Wine,39.46,,
@@ -2923,7 +2935,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 769434644227,Wine,9.46,,
 769611048213,Wine,10.1,,
 769611454441,Wine,16.1,,
-769611500384,Wine,16.1,,
+769611500384,Wine,16.1,6cs purchase in a month,
 769692000100,Wine,14.18,,
 769692000124,Wine,32.18,,
 769692000308,Wine,13.18,,
@@ -3299,7 +3311,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 80432401255,Spirits,9.44,,1|4|7|10
 80432401262,Spirits,15.11,,1|4|7|10
 80432401583,Spirits,4.08,,
-80432401606,Spirits,15.92,,1|4|7|10
+80432401606,Spirits,7.96,,1|4|7|10
 80432401620,Spirits,9.44,,1|4|7|10
 80432401644,Spirits,15.11,,1|4|7|10
 80432401682,Spirits,21.42,,
@@ -4039,9 +4051,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 810183690123,Spirits,33.19,5cs purchase in a month,
 810183690178,Spirits,33.19,,
 810183690222,Spirits,18.94,Case 1,9|10
-810183690277,Spirits,0.19,Case 1,
-810183690284,Spirits,0.19,Case 1,
-810183690307,Spirits,0.02,Case 1,
+810183690277,Spirits,106.86,Case 1,
+810183690284,Spirits,106.86,Case 1,
+810183690307,Spirits,2.02,Case 1,
 810204640687,Spirits,43.17,,
 810204640694,Spirits,46.5,,
 810204640885,Wine,6.92,,
@@ -5438,7 +5450,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83722870045,Wine,7.42,,
 83722880020,Wine,7.42,,
 83722880068,Wine,7.42,,
-83722930138,Wine,12.36,,
+83722930138,Wine,12.36,1 free (Liar's) on 4 cases,
 83729006553,Wine,8.12,,
 837571004423,Wine,7.54,,
 837571004447,Wine,11.5,,
@@ -7473,11 +7485,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 857552008394,Spirits,29.44,5cs purchase in a month,9|10
 857552008400,Spirits,33.19,5cs purchase in a month,9|10
 857552008417,Spirits,33.19,5cs purchase in a month,9|10
-857552008516,Spirits,0.19,Case 1,
+857552008516,Spirits,106.86,Case 1,
 857552008615,Spirits,21.94,5cs purchase in a month,9|10
 857552008783,Spirits,33.19,5cs purchase in a month,9|10
 857552008806,Spirits,33.19,5cs purchase in a month,9|10
-857552008936,Spirits,0.19,Case 1,
+857552008936,Spirits,120.19,Case 1,
 857561004004,Spirits,16.61,1 on 10 m/m week solid,
 857561004158,Spirits,23.45,1 on 10 m/m week solid,
 857561004295,Spirits,23.45,1 on 10 m/m week solid,
@@ -8700,9 +8712,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 879716000013,Wine,7.42,,
 879716000044,Wine,6.75,,
 879716000242,Wine,10.67,,
-879716002000,Wine,13.5,,
-879716002024,Wine,13.5,,
-879716002529,Wine,13.5,,
+879716002000,Wine,13.5,4 on 20,
+879716002024,Wine,13.5,4 on 20,
+879716002529,Wine,13.5,4 on 20,
 879716999402,Wine,12.0,,
 88004000035,Spirits,120.27,,
 88004000066,Spirits,1.4,10 case deal,
@@ -9898,6 +9910,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 898079001000,Wine,18.08,,
 89819001712,Wine,3.57,,
 89819003358,Wine,30.1,,
+89819003471,Wine,20.1,5cs purchase in a month,11|12
 89819004430,Wine,8.86,,
 89819006526,Wine,3.57,,
 89819009015,Wine,4.1,,
