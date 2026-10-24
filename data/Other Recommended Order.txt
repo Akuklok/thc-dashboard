@@ -1,43 +1,43 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Friday, Oct 23, 2026
+  RECOMMENDED OTHER ORDER          Saturday, Oct 24, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     22,386
-  Coverable by transfer .......  $     11,711   (52%)
-  NET BUY from vendors ........  $      7,820   <- the order
+  Gross need (all stores) .....  $     19,735
+  Coverable by transfer .......  $     10,917   (55%)
+  NET BUY from vendors ........  $      6,023   <- the order
 
-  64 items   |   5,778 units to buy   |   2,987 units to rebalance
-  Transfers: 278 moves  -  230 urgent (98 stockouts, 132 under 2wk), 48 routine
+  51 items   |   5,697 units to buy   |   2,858 units to rebalance
+  Transfers: 272 moves  -  228 urgent (101 stockouts, 127 under 2wk), 44 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 14 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 15 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           6u/6cs             $0      6     0   OUT
-   2  Second Harvest Heartland Donation    3015u/3015cs       $0   3015     0   OUT
-   3  Sprite Winter Spiced Cranberry Zero  8u/4cs           $103      7     0   OUT
+   1  Non-Refundable Transaction           7u/7cs             $0      7     0   OUT
+   2  Second Harvest Heartland Donation    3369u/3369cs       $0   3369     0   OUT
+   3  Sprite Winter Spiced Cranberry Zero  8u/4cs           $103      8     0   OUT
    4  Seagrams Club Soda 6pk 7.5 oz        6u/3cs            $65      6     0   OUT
-   5  Dole Strawberry Lemonade 2L          8u/1cs            $20      8     0   OUT
-   6  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-   7  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
-   8  Charm Social Tonic Lemon Ginger 12o  14u/14cs          $34     14     0   OUT
-   9  Loon Arctic Grape 7mg                10u/2cs           $60      8     0   OUT
-  10  Loon Pouches Artic Mango 14mg 20pk   5u/1cs            $30      7     0   OUT
-  11  Bag Fee                              334u/334cs         $0    334     0   OUT
-  12  Fre Pouch 12mg Lush                  5u/1cs            $40      5     0   OUT
-  13  MTN Dew Baja Blast 2L                8u/1cs            $14      7     0   OUT
-  14  Loon Cinnamon OG 14mg                5u/1cs            $30      3     0   OUT
-  15  Dr Pepper 10pk 8oz can               3u/1cs            $13      3     0   OUT
-  16  *NEW AMSTERDAM GLASSWARE             5u/5cs             $0      5     0   OUT
-  17  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
-  18  Tip Item                             253u/253cs         $0    253     0   OUT
-  19  Syx Spearmint 20mg                   15u/3cs          $106     17     0   0.2
-  20  Velo Pouch 9mg Mint                  50u/10cs         $420     51     0   0.4
-  ...and 44 more in the full list.
+   5  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   6  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+   7  Charm Social Tonic Lemon Ginger 12o  14u/14cs          $34     14     0   OUT
+   8  Loon Arctic Grape 7mg                10u/2cs           $60      8     0   OUT
+   9  Loon Pouches Artic Mango 14mg 20pk   5u/1cs            $30      7     0   OUT
+  10  Bag Fee                              328u/328cs         $0    328     0   OUT
+  11  Fre Pouch 12mg Lush                  5u/1cs            $40      5     0   OUT
+  12  Loon Cinnamon OG 14mg                5u/1cs            $30      3     0   OUT
+  13  Dr Pepper 10pk 8oz can               3u/1cs            $13      3     0   OUT
+  14  *NEW AMSTERDAM GLASSWARE             5u/5cs             $0      5     0   OUT
+  15  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
+  16  Tip Item                             255u/255cs         $0    255     0   OUT
+  17  Zyn Pouch 6mg Spearmint              20u/4cs          $168     19     0   0.2
+  18  Velo Pouch 9mg Mint                  50u/10cs         $420     51     0   0.3
+  19  Zyn 3mg Wintergreen                  5u/1cs            $42      4     0   0.9
+  20  Mr & Mrs T Sweet & Sour Liter        6u/1cs            $26      4     0   0.9
+  ...and 31 more in the full list.
 
-  NEEDS REVIEW (14 items the system isn't fully sure about - check before ordering):
-    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~7/wk vs 1 now, buy ahead?
+  NEEDS REVIEW (15 items the system isn't fully sure about - check before ordering):
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~7/wk vs 2 now, buy ahead?
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
     Sprite Winter Spiced Cranberry Zero 2L    Margin looks off - check retail/cost
     Seagrams Club Soda 6pk 7.5 oz             Margin looks off - check retail/cost
@@ -49,5 +49,6 @@
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Zyn Pouch 6mg Spearmint                   Seasonal - last year ~14/wk vs 5 now, buy ahead?
     Mr & Mrs T Sweet & Sour Liter             Seasonal - last year ~4/wk vs 1 now, buy ahead?
+    Sprite Winter Spiced Cranberry 2L         Seasonal - last year ~7/wk vs 3 now, buy ahead?
     Gosling's Diet Ginger Beer 6pk 12oz can   Seasonal - last year ~15/wk vs 8 now, buy ahead?
-    Fanta Pinnapple 2 Ltr                     Seasonal - last year ~5/wk vs 3 now, buy ahead?
+    Fanta Pinnapple 2 Ltr                     Seasonal - last year ~6/wk vs 3 now, buy ahead?
