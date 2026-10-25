@@ -1,19 +1,5 @@
 ﻿Source,Product Code,Description,Supplier,Location,Ref #,Status,Cases Ordered,Cases Received,Case Discrepancy,Dept,Category,Notes,Line Notes,Date Created
-Receiving,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
-Receiving,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Blaine,1036816,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,not on truck,2026-10-19T00:00:00
-Receiving,684586222300,Table 7 CA Cabernet Sauvignon 750ml,Paustis Wine,Andover,1036802,Receiving,1.0,1.0,0.0,Wine,Cabernet,Buyer's Select,,2026-10-19T00:00:00
-Receiving,684586905128,Scotto Family Cellars Lodi Cabernet Sauvignon 750ml,Paustis Wine,Andover,1036802,Receiving,1.0,1.0,0.0,Wine,Cabernet,Buyer's Select,,2026-10-19T00:00:00
-Receiving,684586922941,Big Bad Bourbon Barrel Cabernet Sauvignon 750ml,Paustis Wine,Andover,1036802,Receiving,3.0,3.0,0.0,Wine,Cabernet,Buyer's Select,,2026-10-19T00:00:00
-Receiving,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
-Receiving,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Flavored,,,2026-10-19T00:00:00
-Receiving,086785000039,Cavit Pinot Grigio 1.5L,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
-Receiving,684586004067,Las Vidas Pinot Noir 750ml,Paustis Wine,Andover,1036802,Receiving,2.0,2.0,0.0,Wine,Pinot Noir,Buyer's Select,,2026-10-19T00:00:00
-Receiving,684586005606,Anthony & Dominic North Coast Pinot Noir 750ml,Paustis Wine,Andover,1036802,Receiving,1.0,1.0,0.0,Wine,Pinot Noir,Buyer's Select,,2026-10-19T00:00:00
 Receiving,012354000995,19 Crimes Red Wine 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Ramsey,1036894,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
-Receiving,652935100432,MD Freakshow Red Blend 750ml,Paustis Wine,Andover,1036807,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
-Receiving,087113112950,Albert Bichot Cremant de Bourgogne Brut Rose 750ml,"Grape Beginnings, Inc.",Blaine,1035034-10.19.26,Receiving,1.0,1.0,0.0,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
-Receiving,087113112998,Albert Bichot Cremant de Bourgogne Brut 750ml,"Grape Beginnings, Inc.",Blaine,1035034-10.19.26,Receiving,1.0,1.0,0.0,Wine,Sparkling,Store Request,,2026-09-21T00:00:00
-Receiving,080175583751,Opici Bianco Fish Bottle 750ml,Paustis Wine,Andover,1035912-10.19.26,Receiving,1.0,1.0,0.0,Wine,White Blends,Deal,,2026-10-02T00:00:00
 Discrepancy,628176930077,Stel + Mar Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Andover,1036049,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Free Goods,not received yet ,2026-10-05T00:00:00
 Discrepancy,628176930077,Stel + Mar Cabernet Sauvignon 750ml,"Maverick Beverage Co., LLC - MN",Andover,1036049-10.12.26,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Free Goods,not received yet ,2026-10-05T00:00:00
 Discrepancy,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1036051,Inventory Received,2.0,1.0,-1.0,Wine,Pinot Noir,,only received 1,2026-10-05T00:00:00
@@ -84,12 +70,11 @@ Discrepancy,188985000137,Joel Gott Cab Sauvignon 750ml,Phillips Wine & Spirits -
 Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Woodbury,1036732,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,MI,2026-10-12T00:00:00
 Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Andover,1036801,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,OOS,2026-10-19T00:00:00
 Discrepancy,031259005317,Josh Cellars Hearth Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,Andover,1036804,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,bo,2026-10-19T00:00:00
-Discrepancy,652935100432,MD Freakshow Red Blend 750ml,Paustis Wine,Andover,1036807,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
+Discrepancy,652935100432,MD Freakshow Red Blend 750ml,Paustis Wine,Andover,1036807,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,MI,2026-10-19T00:00:00
 Discrepancy,082242018685,Bota Box Brightside Sauv Blanc/PG 3L Box,Phillips Wine & Spirits - St. Paul,Andover,1036808,Inventory Received,1.0,0.0,-1.0,Wine,White Blends,,mi,2026-10-19T00:00:00
 Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036813,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,oos,2026-10-19T00:00:00
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036813,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
 Discrepancy,769611500384,Sonoma Cutrer Pinot Noir 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036813,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,mi,2026-10-19T00:00:00
-Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Blaine,1036816,Receiving,1.0,0.0,-1.0,Wine,Cabernet,,not on truck,2026-10-19T00:00:00
 Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,Blaine,1036819,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,mi,2026-10-19T00:00:00
 Discrepancy,856184006112,Boen Tri Appellation Pinot Noir 750ml,Oxford Street Merchants,Blaine,1036819,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,mi,2026-10-19T00:00:00
 Discrepancy,080887551123,Bogle Juggernaut Napa Cabernet 750ml,Phillips Wine & Spirits - St. Paul,Blaine,1036821,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-19T00:00:00
@@ -114,10 +99,10 @@ Discrepancy,842094171897,Truetap: Double-Hinged Corkscrew in Red,"True Brands, I
 Discrepancy,842094181766,2 oz plastic shot glasses,"True Brands, Inc.",Minneapolis,1036866,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,,2026-10-19T00:00:00
 Discrepancy,876718006791,Soar - Winged Corkscrew,"True Brands, Inc.",Minneapolis,1036866,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,,2026-10-19T00:00:00
 Discrepancy,083120100393,Franzia Pinot Grigio 5L Box,Southern Glazer's Wine & Spirits of MN,Osseo,1036881,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,not on truck ,2026-10-19T00:00:00
-Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Chardonnay,,,2026-10-19T00:00:00
-Discrepancy,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Cabernet,,,2026-10-19T00:00:00
-Discrepancy,086785000039,Cavit Pinot Grigio 1.5L,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Pinot Grigio/Gris,,,2026-10-19T00:00:00
-Discrepancy,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Receiving,1.0,,,Wine,Flavored,,,2026-10-19T00:00:00
+Discrepancy,085798018727,Alexander Valley Vineyards Chardonnay 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,no deliv,2026-10-19T00:00:00
+Discrepancy,085798028726,Alexander Valley Vineyards Cab Sauv 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,no deliv,2026-10-19T00:00:00
+Discrepancy,086785000039,Cavit Pinot Grigio 1.5L,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,no deliv,2026-10-19T00:00:00
+Discrepancy,087872633369,Stella Rosa Black 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Plymouth,1036882,Inventory Received,1.0,0.0,-1.0,Wine,Flavored,,no deliv,2026-10-19T00:00:00
 Discrepancy,850651005110,La Gioiosa Prosecco DOC 750ml,Oxford Street Merchants,Plymouth,1036887,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,,oos,2026-10-19T00:00:00
 Discrepancy,188985000281,Joel Gott Pinot Gris 750ml,Phillips Wine & Spirits - St. Paul,Plymouth,1036889,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Grigio/Gris,,oos,2026-10-19T00:00:00
 Discrepancy,012354000995,19 Crimes Red Wine 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Ramsey,1036894,Receiving,1.0,,,Wine,Red Blends,,,2026-10-19T00:00:00
