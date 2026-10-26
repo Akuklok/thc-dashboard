@@ -1,55 +1,54 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Sunday, Oct 25, 2026
+  RECOMMENDED OTHER ORDER          Monday, Oct 26, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     23,195
-  Coverable by transfer .......  $     12,172   (52%)
-  NET BUY from vendors ........  $      8,238   <- the order
+  Gross need (all stores) .....  $     21,179
+  Coverable by transfer .......  $     10,799   (51%)
+  NET BUY from vendors ........  $      7,501   <- the order
 
-  63 items   |   6,981 units to buy   |   3,061 units to rebalance
-  Transfers: 300 moves  -  254 urgent (118 stockouts, 136 under 2wk), 46 routine
+  62 items   |   6,803 units to buy   |   2,755 units to rebalance
+  Transfers: 280 moves  -  231 urgent (104 stockouts, 127 under 2wk), 49 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 16 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 15 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           7u/7cs             $0      7     0   OUT
-   2  Second Harvest Heartland Donation    3865u/3865cs       $0   3865     0   OUT
+   2  Second Harvest Heartland Donation    3951u/3951cs       $0   3951     0   OUT
    3  Sprite Winter Spiced Cranberry Zero  12u/6cs          $154     11     0   OUT
-   4  Seagrams Club Soda 6pk 7.5 oz        6u/3cs            $65      6     0   OUT
-   5  Zyn Pouch 6mg Spearmint              25u/5cs          $210     23     0   OUT
-   6  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
-   7  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
-   8  Charm Social Tonic Lemon Ginger 12o  15u/15cs          $36     15     0   OUT
-   9  Loon Pouches Artic Mango 14mg 20pk   5u/1cs            $30      7     0   OUT
-  10  Bag Fee                              357u/357cs         $0    357     0   OUT
-  11  Fre Pouch 12mg Lush                  5u/1cs            $40      5     0   OUT
-  12  Loon Arctic Grape 7mg                5u/1cs            $30      5     0   OUT
-  13  Loon Cinnamon OG 14mg                5u/1cs            $30      3     0   OUT
-  14  Dr Pepper 10pk 8oz can               3u/1cs            $13      3     0   OUT
-  15  *NEW AMSTERDAM GLASSWARE             5u/5cs             $0      5     0   OUT
-  16  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
-  17  Tip Item                             262u/262cs         $0    262     0   OUT
-  18  Velo Pouch 9mg Mint                  50u/10cs         $420     50     0   0.2
-  19  Syx Freeze 20mg                      20u/4cs          $142     20     0   0.8
-  20  Powerade Mountain Berry Blast 20oz   24u/1cs           $24     16     0   0.9
-  ...and 43 more in the full list.
+   4  Zyn Pouch 6mg Spearmint              25u/5cs          $210     23     0   OUT
+   5  Wedding Delivery Fee                 1u/1cs             $0      1     0   OUT
+   6  Wedding Return Fee                   3u/3cs             $0      3     0   OUT
+   7  Charm Social Tonic Lemon Ginger 12o  15u/15cs          $36     15     0   OUT
+   8  Loon Pouches Artic Mango 14mg 20pk   5u/1cs            $30      7     0   OUT
+   9  Bag Fee                              357u/357cs         $0    357     0   OUT
+  10  Fre Pouch 12mg Lush                  5u/1cs            $40      5     0   OUT
+  11  Loon Arctic Grape 7mg                5u/1cs            $30      3     0   OUT
+  12  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
+  13  Black & Mild Wood Tip B1G1           1u/1cs             $0      1     0   OUT
+  14  Seagrams Club Soda 6pk 7.5 oz        6u/3cs            $65      6     0   OUT
+  15  Tip Item                             255u/255cs         $0    255     0   OUT
+  16  Velo Pouch 9mg Mint                  45u/9cs          $378     44     0   0.3
+  17  Syx Freeze 20mg                      20u/4cs          $142     20     0   0.8
+  18  Powerade Mountain Berry Blast 20oz   24u/1cs           $24     16     0   0.9
+  19  Zyn 3mg Wintergreen                  5u/1cs            $42      4     0   0.9
+  20  Master of Mixes Margarita 1.75L      6u/1cs            $38      4     0   0.9
+  ...and 42 more in the full list.
 
-  NEEDS REVIEW (16 items the system isn't fully sure about - check before ordering):
-    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~8/wk vs 2 now, buy ahead?
+  NEEDS REVIEW (15 items the system isn't fully sure about - check before ordering):
+    Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~7/wk vs 2 now, buy ahead?
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
     Sprite Winter Spiced Cranberry Zero 2L    Margin looks off - check retail/cost
-    Seagrams Club Soda 6pk 7.5 oz             Margin looks off - check retail/cost
     Zyn Pouch 6mg Spearmint                   Seasonal - last year ~15/wk vs 6 now, buy ahead?
     Wedding Delivery Fee                      No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
-    *NEW AMSTERDAM GLASSWARE                  No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
+    Seagrams Club Soda 6pk 7.5 oz             Margin looks off - check retail/cost
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Mr & Mrs T Sweet & Sour Liter             Seasonal - last year ~4/wk vs 1 now, buy ahead?
     Sprite Winter Spiced Cranberry 2L         Seasonal - last year ~8/wk vs 3 now, buy ahead?
-    Fanta Pinnapple 2 Ltr                     Seasonal - last year ~6/wk vs 3 now, buy ahead?
     Gosling's Diet Ginger Beer 6pk 12oz can   Seasonal - last year ~16/wk vs 9 now, buy ahead?
-    ...and 1 more (see Needs Review tab).
+    Fanta Pinnapple 2 Ltr                     Seasonal - last year ~5/wk vs 3 now, buy ahead?
+    Gosling's Ginger Beer 12pk                Seasonal - last year ~4/wk vs 2 now, buy ahead?
