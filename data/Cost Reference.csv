@@ -3519,7 +3519,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 80660001142,Spirits,30.19,,
 80660001159,Spirits,33.67,,
 80660001166,Spirits,30.13,,
-80660001203,Spirits,17.44,,
+80660001203,Spirits,23.06,,
 8066000408,Spirits,9.13,,
 80660010083,Spirits,10.05,,
 80660010113,Spirits,0.61,,
@@ -4224,6 +4224,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 811194039574,THC,13.33,Case 1,
 811194039611,THC,13.33,Case 1,
 811203090589,Wine,13.46,,
+81128000035,Spirits,1.39,October Distro Program: 2-cases of Svedka 1.75L free on 6 cases OF small sizes and 1.75L,10
 81128000646,Spirits,25.96,,4|6|9|12
 81128000653,Spirits,35.46,,4|6|9|12
 81128000707,Spirits,29.38,,4|6|9|12
@@ -4231,6 +4232,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 81128000981,Spirits,33.13,,4|6|9|12
 81128001063,Spirits,18.62,,4|6|9|12
 81128001094,Spirits,36.88,,4|6|9|12
+81128001117,Spirits,9.79,October Distro Program: 2-cases of Svedka 1.75L free on 6 cases OF small sizes and 1.75L,10
 81128001155,Spirits,43.55,,4|6|9|12
 81128001209,Spirits,43.77,,
 81128001483,Spirits,28.52,,4|6|9|12
@@ -4244,10 +4246,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 81128002411,Spirits,25.96,,4|6|9|12
 81128002664,Spirits,67.67,Case 1 Pricing,
 81128002800,Spirits,78.6,Allocated,
+81128003029,Spirits,19.68,October Distro Program: 2-cases of Svedka 1.75L free on 6 cases OF small sizes and 1.75L,10
+81128003036,Spirits,21.08,October Distro Program: 2-cases of Svedka 1.75L free on 6 cases OF small sizes and 1.75L,10
 81128004200,Spirits,150.18,Allocated,
 81128004545,Spirits,133.52,Allocated,
-81128005009,Spirits,33.06,,4|6|9|12
+81128005009,Spirits,33.06,October Distro Program: 2-cases of Svedka 1.75L free on 6 cases OF small sizes and 1.75L,4|6|9|12
 81128005085,Spirits,17.31,,4|6|9|12
+81128005139,Spirits,9.14,October Distro Program: 2-cases of Svedka 1.75L free on 6 cases OF small sizes and 1.75L,10
 81128010508,Spirits,16.33,,
 81128010560,Spirits,10.66,,
 81128011680,Spirits,14.05,,
@@ -4292,6 +4297,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 811538011396,Spirits,20.98,Case 1,
 811538011426,Spirits,12.46,1 free on 3 (tradicional gold 750ml free),
 811538011587,Spirits,13.27,,
+811538011600,Spirits,15.92,VAP includes 1 btl Cuervo 750 plus 1 btl Cuervo Marg Mix 1L. Can include in October 2026 Cuervo Program,
 811538011877,Spirits,17.71,Buy 11cs get 3cs 750ml Free,
 811538011884,Spirits,33.49,Buy 11cs get 3cs 750ml Free,
 811538012034,Spirits,28.93,Buy 3cs get 1cs Diamante Free,
@@ -4299,6 +4305,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 811538012294,Spirits,33.35,Buy 3cs get 1cs Diamante Free,
 811538012300,Spirits,22.92,Buy 3cs get 1cs Diamante Free,
 811538012485,Spirits,12.93,Case 1,
+811538012591,Spirits,15.92,VAP includes 1 btl Cuervo 750 plus 1 btl Cuervo Marg Mix 1L. Can include in October 2026 Cuervo Program,
 811538012836,Spirits,10.0,1 free on 3,
 811538012911,Spirits,30.35,Buy 3cs get 1cs Diamante Free,
 811538013000,Spirits,13.93,Buy 6cs get 1cs 1.75 Free,
@@ -4325,11 +4332,13 @@ upc,Department,Buyer Cost,Deal,Buy Months
 811538018760,Spirits,14.33,1 free on 7,
 811538018920,Spirits,13.1,Case 1,
 811538019156,Spirits,13.1,Case 1,
+811538019354,Spirits,9.14,October Distro Program: buy 2 bottles get 1 bottle of same item free,10
 811538019385,Spirits,30.18,M/M 1910 & Midnight get 1 1910 Rye Free,
 811538019408,Spirits,36.12,M/M 1910 & Midnight get 1 1910 Rye Free,
 811538019569,Spirits,16.58,Case 1 Pricing,
 811538019651,Spirits,10.0,1 free on 3,
 811538019675,Spirits,28.14,Buy 10cs get 1cs 1.75 free,
+811538019811,Spirits,9.18,October Distro Program: buy 2 bottles get 1 bottle of same item free,10
 811559020025,Spirits,14.51,,
 811559020063,Spirits,14.51,,
 811559020070,Spirits,14.51,,
@@ -4679,6 +4688,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 818844024355,Spirits,16.58,Case 1 Pricing,
 818844024362,Spirits,18.84,Buy 10cs get 1cs 1.75 free,
 818844024997,Spirits,1.54,Case 1 Pricing,
+818844025260,Spirits,2.82,October Distro Program: buy 2 bottles get 1 bottle of same item free,10
 818844026335,Spirits,39.93,Case One,
 818844026342,Spirits,28.85,Case One,
 818844026441,Spirits,10.0,1 free on 3,
@@ -4758,7 +4768,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82000757900,Spirits,16.59,Case 1,
 82000757917,Spirits,21.0,,
 82000758723,Spirits,10.0,1 free on 3,
-82000759102,Spirits,19.79,4cs + 1cs seagrams mags on 60,2|4|6|8|10|12
+82000759102,Spirits,18.45,4cs + 1cs seagrams mags on 60,2|4|6|8|10|12
 82000759454,Spirits,20.08,Case 1,1|3|5|7|9|11
 82000759621,Spirits,10.17,Case 1 Must hit 8 cs within month,2|4|6|8|10|12
 82000760832,Spirits,32.59,Case 1,
@@ -4919,6 +4929,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82184009307,Spirits,7.18,3 on sold RTD's,
 82184009314,Spirits,2.24,,
 82184009321,Spirits,5.52,,1|4|7|8|10|12
+82184009376,Spirits,35.47,,
 82184038710,Spirits,13.92,,
 82184038727,Spirits,21.09,,3|6|10
 82184038734,Spirits,22.68,,3|6|10
@@ -8989,7 +9000,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 88076179073,Spirits,13.0,Case 1,
 88076179080,Spirits,20.92,4cs across chain - Same Week,1|3|5|7|9|11
 88076179103,Spirits,45.0,Case 1,
-88076179226,Spirits,60.18,Case 1,
+88076179226,Spirits,58.17,Case 1,
 88076179806,Spirits,39.84,Case 1,
 88076180444,Spirits,14.38,Case 1,
 88076180451,Spirits,20.92,4cs across chain - Same Week,1|3|5|7|9|11
@@ -9816,7 +9827,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 89552477263,Spirits,6.92,,
 89552585005,Spirits,6.71,CASE 1,
 89552900716,Spirits,6.92,,
-89552920226,Spirits,14.5,5cs m/m across chain monthly accum-receive 1cs st elder 750 free + 15btl espresso 750,
+89552920226,Spirits,10.76,5cs m/m across chain monthly accum-receive 1cs st elder 750 free + 15btl espresso 750,
 895616001318,Wine,14.21,,
 895991002054,Wine,23.46,,
 895991002214,Wine,16.79,,
