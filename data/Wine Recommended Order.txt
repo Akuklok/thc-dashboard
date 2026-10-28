@@ -4,9 +4,9 @@
 
   Gross need (all stores) .....  $    148,881
   Coverable by transfer .......  $     65,299   (44%)
-  NET BUY from vendors ........  $     96,108   <- the order
+  NET BUY from vendors ........  $     95,943   <- the order
 
-  159 items   |   12,216 units to buy   |   7,920 units to rebalance
+  159 items   |   12,192 units to buy   |   7,920 units to rebalance
   Transfers: 922 moves  -  785 urgent (324 stockouts, 461 under 2wk), 137 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 99 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
