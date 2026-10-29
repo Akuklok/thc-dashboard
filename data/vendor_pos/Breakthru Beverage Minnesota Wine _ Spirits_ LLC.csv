@@ -1,5 +1,54 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Ramsey,1037069,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,40.6,40.6,
-Ramsey,1037069,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,2.0,40.6,81.19,
-Plymouth,1037061,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
-Plymouth,1037061,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
+Cottage Grove,1037654,012354001350,19 Crimes Cabernet 750ml,9185754,12,1.0,72.0,72.0,Month End
+Cottage Grove,1037654,012354001947,19 Crimes Hard Chardonnay 750ml,9261038,12,1.0,72.0,72.0,Month End
+Cottage Grove,1037919,083664107360,Glenfiddich 12 Year 750ml,9001621,12,1.0,405.0,405.0,Breakthru October Month End
+Cottage Grove,1037919,083664868902,Milagro Silver Tequila 1.75L,9008626,6,1.0,214.0,214.0,Breakthru October Month End
+St. Louis Park,1037924,083664868902,Milagro Silver Tequila 1.75L,9008626,6,1.0,214.0,214.0,Breakthru October Month End
+Cottage Grove,1037919,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,Breakthru October Month End
+St. Louis Park,1037924,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,Breakthru October Month End
+Cottage Grove,1037919,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,Breakthru October Month End
+St. Louis Park,1037924,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,Breakthru October Month End
+Cottage Grove,1037919,083664869213,Reyka Vodka 750ml,9005266,6,1.0,89.95,89.95,Breakthru October Month End
+St. Louis Park,1037924,083664869213,Reyka Vodka 750ml,9005266,6,1.0,89.95,89.95,Breakthru October Month End
+St. Louis Park,1037924,083664869725,Reyka Vodka 1.75L,9019698,6,1.0,157.5,157.5,Breakthru October Month End
+St. Louis Park,1037924,083664869756,Hendrick's Gin 1.75L,9070208,6,1.0,270.0,270.0,Breakthru October Month End
+Cottage Grove,1037919,083664873463,Glenfiddich 14Yr Single Malt 750ml,9191391,6,1.0,240.0,240.0,Breakthru October Month End
+St. Louis Park,1037924,083664873463,Glenfiddich 14Yr Single Malt 750ml,9191391,6,1.0,240.0,240.0,Breakthru October Month End
+St. Louis Park,1037924,083664990405,Glenfiddich 15 Yr Solera 750ml,9001617,12,1.0,657.0,657.0,Breakthru October Month End
+Cottage Grove,1037654,086785000039,Cavit Pinot Grigio 1.5L,9735200,6,1.0,60.0,0.0,Month End
+Cottage Grove,1037654,086785110745,Roscato Peach 750ml,9735801,12,1.0,104.0,0.0,Month End
+Cottage Grove,1037654,086785110820,Roscato Blueberry 750ml,9735791,12,1.0,104.0,0.0,Month End
+Cottage Grove,1037654,087872630139,Stella Rosa Rosso 750ml,9747142,12,2.0,96.0,192.0,Month End
+Cottage Grove,1037654,087872632225,Stella Rosa Berry 750ml,9746336,12,1.0,96.0,96.0,Month End
+Cottage Grove,1037654,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,96.0,96.0,Month End
+Cottage Grove,1037654,087872633406,Stella Rosa Red 750ml,9746834,12,2.0,96.0,192.0,Month End
+Cottage Grove,1037654,087872633635,Stella Rosa Golden Honey Peach 750ml,9746565,12,1.0,96.0,96.0,Month End
+Cottage Grove,1037654,087872633956,Stella Rosa Tropical Mango 750ml,9747171,12,1.0,96.0,96.0,Month End
+Cottage Grove,1038151,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
+Cottage Grove,1037919,088004012724,Platinum Vodka 1.75L,9220003,6,3.0,58.33,174.99,Breakthru October Month End
+St. Louis Park,1037924,088004012724,Platinum Vodka 1.75L,9220003,6,1.0,58.33,58.33,Breakthru October Month End
+Cottage Grove,1037919,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,Breakthru October Month End
+St. Louis Park,1037924,088004029296,Fireball Party Bucket,9295393,6,2.0,71.05,142.1,Breakthru October Month End
+Cottage Grove,1037919,088004048273,Canadian Mist 1.75L,30221,6,1.0,45.0,45.0,Breakthru October Month End
+Cottage Grove,1037919,088004069155,Fireball Blazin' Apple 50ml,9768707,120,1.0,71.05,71.05,Breakthru October Month End
+Cottage Grove,1037919,088004144081,Dr McGillicuddys Mentholmint 50ml,9031417,120,1.0,71.05,71.05,Breakthru October Month End
+Cottage Grove,1037919,088004144692,Fireball Whisky 750ml,9213627,12,14.0,108.0,0.0,Breakthru October Month End
+St. Louis Park,1037924,088004144692,Fireball Whisky 750ml,9213627,12,4.0,108.0,216.0,Breakthru October Month End
+Cottage Grove,1037919,088004144708,Fireball Whisky 50ml,9220188,120,7.0,71.05,497.36,Breakthru October Month End
+Cottage Grove,1037919,088544018910,Southern Comfort 1.75L,9007726,6,4.0,90.0,360.0,Breakthru October Month End
+St. Louis Park,1037924,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,Breakthru October Month End
+Cottage Grove,1037654,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,0.5,464.0,0.0,Month End
+Cottage Grove,1037654,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,160.0,160.0,Month End
+Cottage Grove,1037654,669576019344,Duckhorn Napa Cab Sauvignon 750ml,9769148,12,0.5,480.0,240.0,Month End
+Cottage Grove,1037990,720815930131,Corralejo Reposado Tequila 750ml,412346,6,1.0,130.46,130.46,Store Request
+Cottage Grove,1037654,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,2.0,184.0,368.0,Month End
+St. Louis Park,1037924,810183690178,Green River Wheated Full Proof Bourbon 750ml,9789174,6,1.0,198.0,0.0,Breakthru October Month End
+Cottage Grove,1037919,810183690222,Green River Bourbon Honey Finish 750ml,9794839,6,1.0,112.5,112.5,Breakthru October Month End
+St. Louis Park,1037924,810735017873,Green River Wheated Bourbon 750ml,810735017873,6,1.0,130.5,0.0,Breakthru October Month End
+Cottage Grove,1037654,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,Month End
+Cottage Grove,1037654,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,0.0,Month End
+Cottage Grove,1037919,857552008394,Bardstown KY Straight Bourbon 750ml,9731827,6,1.0,175.5,175.5,Breakthru October Month End
+Cottage Grove,1037919,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,198.0,198.0,Breakthru October Month End
+Cottage Grove,1037919,857552008783,Green River Full Proof Bourbon 750ml,9731853,6,1.0,198.0,198.0,Breakthru October Month End
+Cottage Grove,1037919,857552008806,Bardstown Bourbon Wheated 750ml,9743745,6,1.0,198.0,198.0,Breakthru October Month End
+St. Louis Park,1037924,857552008806,Bardstown Bourbon Wheated 750ml,9743745,6,1.0,198.0,198.0,Breakthru October Month End

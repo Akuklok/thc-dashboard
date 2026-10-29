@@ -1,23 +1,111 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Chanhassen,1037023,080480231026,Dewar's 12 Yr Scotch 750ml,589751,6,1.0,281.08,281.08,Store Request
-Blaine,1037162,080686004561,On the Rocks Midori Sour 375ml,586109,12,1.0,103.19,0.0,
-Blaine,1037162,080686004950,On The Rocks Jalapeno Margarita 750ml,593277,6,1.0,90.42,0.0,
-Blaine,1037162,080686008101,On the Rocks Cosmopolitan 750ml,618930,6,1.0,90.42,0.0,
-Blaine,1037162,080686012511,On The Rocks Watermelon Margarita 4pk 12oz can,689832,6,1.0,49.45,0.0,
-Blaine,1037162,080686012535,On The Rocks Pina Colada 4pk 12oz can,689827,6,1.0,49.45,0.0,
-Blaine,1037162,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,2.0,49.45,0.0,
-Blaine,1037162,080686012610,On The Rocks Blue Hawaiian 750ml,675414,6,1.0,90.42,0.0,
-Blaine,1037162,080686897156,On the Rocks Old Fashioned 750ml,557125,6,2.0,90.42,0.0,
-Blaine,1037162,080686897170,On the Rocks Margarita 750ml,557126,6,1.0,90.42,0.0,
-Chanhassen,1036842,083120015093,Cooper and Thief Red Blend 750ml,619703,12,1.0,180.0,180.0,
-Chanhassen,1036842,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,
-Chanhassen,1036842,084687001017,Erath Pinot Noir 750ml,645794,12,1.0,128.0,128.0,
-Chanhassen,1037019,085246139431,Maker's Mark Bourbon 750ml,9999,12,1.0,251.67,251.67,
-Chanhassen,1037019,088004024086,99 Peppermint 50ml,347256,120,1.0,72.1,72.1,
-Chanhassen,1037019,088100134511,Black Velvet Canadian 1.75L,994406,6,1.0,78.39,78.39,
-Chanhassen,1037019,096749005796,Old Fitzgerald 7 Year Bottled In Bond 750ml,656110,6,1.0,245.42,245.42,
-Chanhassen,1037019,617768111055,Svedka Vodka 50ml,669024,120,1.0,80.0,80.0,
-Chanhassen,1037014,627040411414,Crystal head Vodka 750ml,237298,6,0.5,0.0,0.0,Free Goods
-Chanhassen,1036842,742651123102,Ferrari Carano Fume Blanc 750ml,000667576,12,1.0,120.0,120.0,
-Blaine,1037162,855880008024,On the Rocks Old Fashioned 375ml,918254,12,1.0,103.19,0.0,
-Blaine,1037162,855880008147,On the Rocks Mai Tai Cruzan 375ml,918500,12,1.0,103.19,0.0,
+St. Louis Park,1037880,011034420054,Martini & Rossi Dry Vermouth 750ml,442540,6,1.0,44.99,44.99,
+St. Louis Park,1037790,016236002046,Chalk Hill Estate Sauv Blanc 750ml,627013,12,1.0,200.0,200.0,Month End
+Roseville,1038210,080244002039,Blantons Single Barrel 750ml,77995,6,1.0,363.0,363.0,Allocated
+St. Louis Park,1038211,080244002039,Blantons Single Barrel 750ml,77995,6,1.0,363.0,0.0,Allocated
+St. Louis Park,1037880,080432106846,Olmeca Altos Plata Tequila 750ml,298832,6,1.0,114.23,114.23,
+St. Louis Park,1037880,080432401224,Seagrams Extra Dry Gin 375ml,624869,24,1.0,97.13,97.13,
+St. Louis Park,1037880,080432401255,Seagrams Extra Dry Gin Liter,373541,12,1.0,112.44,112.44,
+St. Louis Park,1037880,080432500118,Jameson Irish Whiskey Liter,24601,12,1.0,330.12,330.12,
+St. Louis Park,1037880,080480006662,St Germain Elderflower Liqueur 375ml,412362,12,1.0,146.0,146.0,
+St. Louis Park,1037880,080480217075,Noilly Prat Sweet Vermouth 750ml,959618,12,1.0,109.29,109.29,
+St. Louis Park,1037880,080480230005,Dewar's White Label Scotch 1.75L,20172,6,1.0,141.0,141.0,
+St. Louis Park,1037880,080480280000,Grey Goose Vodka 1.75L,79019,6,2.0,215.96,431.92,
+St. Louis Park,1037880,080480280017,Grey Goose Vodka Liter,17098,6,1.0,125.96,125.96,
+St. Louis Park,1037880,080480280031,Grey Goose Vodka 375ml,38168,12,1.0,138.05,138.05,
+St. Louis Park,1037880,080480300012,Bombay Gin Liter,11286,12,1.0,176.69,176.69,
+St. Louis Park,1037880,080480301002,Bombay Sapphire Gin 1.75L,11290,6,1.0,172.5,172.5,
+St. Louis Park,1037880,080660620992,99 Bananas 50ml,24031,120,1.0,72.1,72.1,
+St. Louis Park,1037880,080686001102,Jim Beam Bourbon 1.75L,974463,6,3.0,149.9,449.7,
+Andover,PO0000004749,080686007241,On the Rocks Strawberry Daiquiri 375ml,613710,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037880,080686007777,Jim Beam Black 7yr 1.75L,618252,6,1.0,180.0,180.0,
+St. Louis Park,1037880,080686008088,On the Rocks Cosmopolitan 375ml,918515,12,1.0,103.19,103.19,
+St. Louis Park,1037880,080686009290,Suntory -196 Vodka Lemon 4pk 12oz can,648932,6,1.0,45.0,45.0,
+St. Louis Park,1037880,080686011651,Suntory -196 Vodka Lemon 24oz can,678504,12,1.0,44.9,44.9,
+St. Louis Park,1037880,080686012405,Basil Hayden Bourbon 750ml,524892,12,1.0,348.83,348.83,
+St. Louis Park,1037880,080686012580,On The Rocks Variety Pack 8pk 12oz can,690386,3,1.0,49.45,49.45,
+Blaine,1038207,080686014270,Hardins Creek Bourbon Low Distiliation 109pf 700ml,712655,6,0.17,562.0,93.69,Allocated
+St. Louis Park,1038211,080686014270,Hardins Creek Bourbon Low Distiliation 109pf 700ml,712655,6,0.17,562.0,0.0,Allocated
+Blaine,1038207,080686014287,Hardins Creek Bourbon Medium Distiliation 109pf 700ml,712657,6,0.17,562.0,93.69,Allocated
+St. Louis Park,1038211,080686014287,Hardins Creek Bourbon Medium Distiliation 109pf 700ml,712657,6,0.17,562.0,0.0,Allocated
+Blaine,1038207,080686014294,Hardins Creek Bourbon High Distiliation 109pf 700ml,712656,6,0.17,562.0,93.69,Allocated
+St. Louis Park,1038211,080686014294,Hardins Creek Bourbon High Distiliation 109pf 700ml,712656,6,0.17,562.0,0.0,Allocated
+St. Louis Park,1037880,080686762409,El Tesoro Reposado Tequila 750ml,911824,6,1.0,287.98,287.98,
+St. Louis Park,1037880,080686835325,Sauza Hornitos Plata 750ml,949391,12,1.0,187.4,187.4,
+St. Louis Park,1037880,080686958024,Suntory Haku Vodka 750ml,543379,6,1.0,119.55,119.55,
+St. Louis Park,1037880,080686958031,Suntory Roku Gin 750ml,923376,6,1.0,119.55,119.55,
+St. Louis Park,1037790,081308003726,Cupcake Black Forest 750ml,388909,12,1.0,64.0,64.0,Month End
+St. Louis Park,1037790,081308011653,Cupcake Lighthearted Pinot Grigio 750ml,973468,12,1.0,64.0,64.0,Month End
+St. Louis Park,1037790,083120011255,Franzia Bold and Jammy Cab 5L Box,968475,4,1.0,56.0,56.0,Month End
+St. Louis Park,1037790,083120015444,Summit Pinot Grigio 3L Box,629487,6,1.0,67.14,67.14,Month End
+St. Louis Park,1037790,083120016403,Summit Sauvignon Blanc 3L Box,683149,6,1.0,67.14,0.0,Month End
+St. Louis Park,1037790,083120100393,Franzia Pinot Grigio 5L Box,664272,4,1.0,56.0,56.0,Month End
+St. Louis Park,1037790,083120101895,Franzia Cab Sauv 5L Box,664276,4,1.0,56.0,56.0,Month End
+St. Louis Park,1037790,083120101994,Franzia Refreshing White 5L Box,664297,4,1.0,47.27,47.27,Month End
+St. Louis Park,1037790,083120102090,Franzia Chardonnay 5L Box,664270,4,1.0,56.0,56.0,Month End
+St. Louis Park,1037790,083120102892,Franzia Crisp White 5L Box,664289,4,1.0,47.27,47.27,Month End
+St. Louis Park,1037790,083120103196,Franzia White Zinfandel 5L Box,411857,4,1.0,56.0,56.0,Month End
+St. Louis Park,1037790,086003000087,Woodbridge Chardonnay 750ml,646785,12,1.0,48.0,0.0,Month End
+St. Louis Park,1037782,086003255067,The Prisoner Wine Co Prisoner Red Blend 750ml,603441,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037782,086003820449,Woodbridge Red Blend 1.5L,449655,6,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037782,086003863866,Woodbridge Sauv Blanc 1.5L,638591,6,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037880,086036815474,Christian Brothers Brandy 1.75L,570738,6,1.0,88.68,88.68,
+St. Louis Park,1037790,086891076676,Il Poggione Brunello di Montalcino,625429,6,0.5,396.0,198.0,Month End
+St. Louis Park,1037790,086891088020,The Federalist Bourbon Barrel Red 750ml,563582,12,1.0,160.0,160.0,Month End
+Blaine,1038207,088004005498,E.H. Taylor Small Batch 750ml,327610,6,1.0,247.5,247.5,Allocated
+Roseville,1038210,088004005498,E.H. Taylor Small Batch 750ml,327610,6,1.0,247.5,247.5,Allocated
+St. Louis Park,1038211,088004005498,E.H. Taylor Small Batch 750ml,327610,6,1.0,247.5,0.0,Allocated
+St. Louis Park,1037880,088004039653,99 Strawberries Schnapps 50ml,969875,120,1.0,72.1,72.1,
+St. Louis Park,1037880,088004071240,Svedka Citron Vodka 1.75L,531159,6,1.0,87.74,87.74,
+St. Louis Park,1037790,088586004483,14 Hands Hot to Trot Red 750ml,990876,12,1.0,88.0,88.0,Month End
+St. Louis Park,1037790,088586010149,Liquid Light Sauvignon Blanc 750ml,632651,12,1.0,104.0,104.0,Month End
+St. Louis Park,1037790,088586013348,Chateau Ste Michelle Light Chardonnay  750ml,632723,12,1.0,88.0,88.0,Month End
+St. Louis Park,1037880,089000118397,99 Apples 50ml,93645,120,1.0,72.1,72.1,
+St. Louis Park,1037880,089000991044,99 Watermelons 50ml,295501,120,1.0,72.1,72.1,
+St. Louis Park,1037880,089540333496,Beefeater Gin 750ml,962221,12,1.0,157.18,157.18,
+St. Louis Park,1037790,089819006526,Beringer Main & Vine White Zinfandel 750ml,48446,12,1.0,42.0,42.0,Month End
+St. Louis Park,1037880,096749000067,Elijah Craig BBN Small Batch 94 750ml,409268,12,1.0,222.75,222.75,
+St. Louis Park,1037880,096749004010,Black Velvet Peach 50ml,550644,120,1.0,79.5,0.0,
+Andover,1038206,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,0.67,449.98,300.0,Allocated
+Blaine,1038207,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,1.0,449.98,449.98,Allocated
+Cottage Grove,1038209,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,0.33,449.98,149.98,Allocated
+Rosemount,1038212,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,0.33,449.98,149.98,Allocated
+Roseville,1038210,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,1.0,449.98,449.98,Allocated
+St. Louis Park,1038211,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,1.0,449.98,0.0,Allocated
+Woodbury,1038213,096749007004,Parker's Heritage 14 year Bourbon 750ml,709023,3,0.67,449.98,300.0,Allocated
+St. Louis Park,1037880,096749908011,Lunazul Reposado Tequila Liter,186639,12,2.0,183.75,367.5,
+St. Louis Park,1037790,098652840013,Cline Farmhouse Red 750ml,653517,12,1.0,96.0,96.0,Month End
+St. Louis Park,1037880,617768111109,Svedka Vodka Liter,656186,12,1.0,116.93,116.93,
+St. Louis Park,1037880,617768111178,Svedka Vodka 1.75L,656185,6,7.0,87.74,614.18,
+St. Louis Park,1038145,617768113752,Svedka Vodka 375ml,649729,24,1.0,0.0,0.0,Southern October Free Goods
+St. Louis Park,1037790,631470008342,Miraval Studio M Provence Rose 750ml,686342,12,1.0,144.0,0.0,Month End
+St. Louis Park,1037790,682417112004,Three Rivers Red 750ml,995797,12,1.0,82.88,82.88,Month End
+St. Louis Park,1037790,689352009611,Kim Crawford Sauvignon Blanc 750ml,14580,12,8.0,128.4,1027.2,Month End
+St. Louis Park,1037790,689352010327,Kim Crawford Sauvignon Blanc Non Alc 750ml,682160,12,1.0,128.4,0.0,Month End
+St. Louis Park,1037880,721059017503,Skyy Vodka 1.75L,992250,6,1.0,89.96,89.96,
+St. Louis Park,1037790,722358360109,Dashwood Sauvignon Blanc 750ml,642883,12,1.0,108.0,108.0,Month End
+St. Louis Park,1037782,727760501638,Mionetto Prosecco Brut 750ml,547075,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037790,728817199112,Gekkeikan Sake 1.5L,14870,6,1.0,64.0,64.0,Month End
+St. Louis Park,1037790,728817199129,Gekkeikan Sake 750ml,89743,12,1.0,64.0,64.0,Month End
+St. Louis Park,1037790,733952097025,Justin Sauvignon Blanc 750ml,683072,12,1.0,135.0,135.0,Month End
+St. Louis Park,1037790,733952987500,Justin Isosceles Cab Sauvignon,649026,6,1.0,337.5,337.5,Month End
+St. Louis Park,1037790,736040520016,Tyku Sake Junmai White 720ml,474878,6,1.0,72.0,72.0,Month End
+St. Louis Park,1037880,736040532774,Casa Dragones Blanco Tequila 750ml,386384,6,1.0,329.0,329.0,
+St. Louis Park,1037790,742651123102,Ferrari Carano Fume Blanc 750ml,000667576,12,1.0,120.0,120.0,Month End
+St. Louis Park,1037790,812147021004,Hampton Water Rose 750ml,682999,12,1.0,145.45,145.45,Month End
+St. Louis Park,1037790,816136025349,Avaline Rose 750ml,665428,12,1.0,176.0,176.0,Month End
+St. Louis Park,1037782,816136025370,Avaline Red 750ml,665425,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037790,816253012482,Freixenet Still Rose 750ml,563288,12,1.0,103.93,0.0,Month End
+St. Louis Park,1037880,835229000407,Absolut Vodka Liter,15402,12,1.0,238.44,238.44,
+St. Louis Park,1037880,835229010116,Absolut Vodka Colors Liter,361381,12,1.0,238.44,0.0,
+St. Louis Park,1037790,850032189132,Avaline Pinot Noir 750ml,665422,12,1.0,216.0,216.0,Month End
+St. Louis Park,1037790,852832104810,Campo Viejo Reserva 750ml,636622,12,1.0,113.0,113.0,Month End
+St. Louis Park,1037790,853706002034,Jam Cellars Butter Chardonnay 750ml,397374,12,1.0,144.0,144.0,Month End
+Andover,PO0000004749,855880008024,On the Rocks Old Fashioned 375ml,918254,12,1.0,0.0,0.0,Free Goods
+Andover,PO0000004749,855880008116,On the Rocks Margarita 375ml,918485,12,1.0,0.0,0.0,Free Goods
+Andover,PO0000004749,855880008178,On the Rocks Larios Aviation 375ml,918517,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037880,855880008178,On the Rocks Larios Aviation 375ml,918517,12,1.0,103.19,0.0,
+Andover,PO0000004749,855880008420,On the Rocks Espresso Martini 375ml,557129,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037790,859369001636,Flowers Sonoma Pinot Noir 750ml,628166,12,1.0,480.0,0.0,Month End
+St. Louis Park,1037790,892931000347,A to Z Pinot Noir 750ml,641899,12,2.0,136.0,272.0,Month End
+St. Louis Park,1037880,898804009066,Slow & Low Rock & Rye 100ml,434704,24,1.0,84.35,0.0,

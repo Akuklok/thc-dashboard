@@ -1,12 +1,27 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1036922,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,3.0,109.71,329.13,
-Chanhassen,1036839,017224710202,Bonanza Cabernet 750ml,1400056,12,2.0,162.0,324.0,
-Chanhassen,1036839,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,224.0,224.0,
-Roseville,1036922,082544992164,Eastside Crossing Cabernet 750ml,1208753,12,1.0,160.0,160.0,
-Roseville,1036922,082544992171,Eastside Crossing Sauvignon Blanc 750ml,1248806,12,1.0,144.0,144.0,
-Chanhassen,1036839,088254758724,Seghesio Zinfandel 750ml,18752,12,1.0,184.0,184.0,
-Roseville,1036922,185554000727,Pizzolato Muse Rose 187ml,1843920,24,1.0,81.1,0.0,
-Roseville,1036922,632987120251,Torresella Pinot Grigio Veneto 750ml,000073643,12,1.0,128.0,0.0,
-Roseville,1036922,851115002324,Shania Monastrell 3L Box,001577621,3,1.0,41.0,41.0,
-Roseville,1036922,856036001067,Underwood Pinot Gris 375ml,1448609,12,1.0,56.0,0.0,
-Roseville,1036922,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,0.0,
+St. Louis Park,1037781,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,2.0,0.0,0.0,Free Goods
+St. Louis Park,1037788,017224510109,Caymus Napa Cabernet 375ml,1924762,12,1.0,360.0,360.0,Month End
+St. Louis Park,1037788,017224560128,Conundrum Red 375ml,1617322,12,1.0,90.0,0.0,Month End
+St. Louis Park,1037781,017224710202,Bonanza Cabernet 750ml,1400056,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037781,017224760122,Conundrum Red 750ml,27199,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037788,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,224.0,224.0,Month End
+St. Louis Park,1037788,082544009046,OZV Old Vine Zinfandel 750ml,1623024,12,1.0,112.0,0.0,Month End
+St. Louis Park,1037781,082544990528,Old Soul Cabernet Sauvignon 750ml,1861047,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037781,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037781,085155000013,Chandon Brut Cuvee 750ml,40907,12,2.0,0.0,0.0,Free Goods
+St. Louis Park,1037788,085155000013,Chandon Brut Cuvee 750ml,40907,12,1.0,224.0,224.0,Month End
+St. Louis Park,1037788,085155000402,Chandon Rose 750ml,12795,12,1.0,224.0,224.0,Month End
+St. Louis Park,1037788,097921877101,Rombauer Sauvignon Blanc 750ml,27503,12,1.0,248.0,248.0,Month End
+St. Louis Park,1037788,097921970109,Rombauer Chardonnay 750ml,1752747,12,2.0,384.0,768.0,Month End
+St. Louis Park,1037788,097921978105,Rombauer Zinfandel 750ml,41327,12,1.0,344.0,344.0,Month End
+St. Louis Park,1037788,710909510103,Mer Soleil Rsv Chardonnay 375ml,1456304,12,1.0,99.0,99.0,Month End
+St. Louis Park,1037788,734599240058,By Ott Rose 750ml,1785915,12,1.0,236.0,236.0,Month End
+St. Louis Park,1037781,811018030299,San Marzano Primativo 750ml,1961637,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037788,812949023053,Folly of the Beast Pinot Noir 750ml,001575156,12,1.0,112.0,112.0,Month End
+St. Louis Park,1037788,831526000638,Emmolo Sauvignon Blanc 375ml,1327325,12,1.0,84.0,84.0,Month End
+St. Louis Park,1037788,851115002874,Shania Cabernet Sauvignon 3L Box,1890529,3,1.0,41.0,41.0,Month End
+St. Louis Park,1037781,851718000970,Raeburn Chardonnay 750ml,1023156,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037788,855622000019,Belle Glos Pinot Noir Las Alturas 750ml,001640950,12,0.5,400.0,200.0,Month End
+St. Louis Park,1037788,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,Month End
+St. Louis Park,1037781,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,0.0,0.0,Free Goods
+St. Louis Park,1037788,856036001692,Underwood Rose Bubbles NA 355ml,1153941,12,1.0,56.0,56.0,Month End

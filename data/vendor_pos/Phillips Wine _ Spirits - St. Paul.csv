@@ -1,48 +1,64 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1036924,031259008936,Yellow Tail Chardonnay 1.5L,000859072,6,1.0,46.33,0.0,
-Chanhassen,1036841,031259009230,Yellow Tail Merlot 1.5L,859075,6,1.0,46.33,46.33,
-Chanhassen,1036841,031259009469,Yellow Tail Cab Sauvignon 1.5L,000859066,6,1.0,46.33,46.33,
-Roseville,1036924,031259014050,Yellow Tail Cab Merlot 1.5L,000859069,6,1.0,46.33,0.0,
-Roseville,1036924,074806189405,Daily's Jamaican RTD Frozen 10oz,23862,24,1.0,38.58,0.0,
-Chanhassen,1037018,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
-Roseville,1037088,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,0.0,
-Chanhassen,1037018,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,92.35,
-Roseville,1037088,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,0.0,
-Chanhassen,1037018,080686500407,Windsor Canadian Liter,000004531,12,1.0,126.0,126.0,
-Roseville,1036924,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,157.2,0.0,
-Roseville,1036924,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,1656720,12,1.0,140.88,0.0,
-Chanhassen,1037018,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,1.0,120.0,120.0,
-Roseville,1037088,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,1.0,120.0,120.0,
-Roseville,1036924,082242010450,Bota Box Cabernet Sauvignon 3L Box,001360875,3,1.0,44.0,0.0,
-Roseville,1036924,082242010832,Bota Box Redvolution 500ml,001903792,12,1.0,40.0,0.0,
-Chanhassen,1036841,082242011051,Bota Box Chardonnay 3L Box,001061230,3,3.0,44.0,132.0,
-Roseville,1036924,082242011051,Bota Box Chardonnay 3L Box,001061230,3,1.0,44.0,0.0,
-Chanhassen,1036841,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,3.0,44.0,132.0,
-Roseville,1036924,082242012935,Bota Box Sauvignon Blanc 3L Box,1608424,3,1.0,44.0,0.0,
-Chanhassen,1036841,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,4.0,44.0,176.0,
-Roseville,1036924,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,1.0,44.0,0.0,
-Chanhassen,1036841,082242013741,Bota Box NightHawk Red Blend 3L Box,001365636,3,1.0,44.0,44.0,
-Roseville,1036924,082242014311,Bota Box Sauvignon Blanc 500ml,001559418,12,1.0,40.0,0.0,
-Chanhassen,1036841,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,
-Chanhassen,1036836,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,0.0,0.0,Free Goods
-Roseville,1036917,082242016056,Bota Box Redvolution 3L Box,001137405,3,1.0,0.0,0.0,Free Goods
-Chanhassen,1036841,082242016063,Bota Box Nighthawk Blk Bourbon Cabernet 3L Box,001735130,3,1.0,44.0,44.0,
-Chanhassen,1036841,082242016094,Bota Box Nighthawk Black Lush Pinot Noir 3L Box,001358275,3,1.0,44.0,44.0,
-Chanhassen,1036841,082242017657,Bota Box Nighthawk Black Malbec 3L Box,001698146,3,1.0,44.0,44.0,
-Roseville,1036924,082242018074,Bota Box Breeze Cabernet 3L Box,1094367,3,1.0,44.0,0.0,
-Roseville,1036924,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,0.0,
-Roseville,1036924,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,0.0,
-Roseville,1036924,08500928,Sutter Home White Zinfandel 187ml,000055608,6,1.0,30.0,0.0,
-Roseville,1036924,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,0.0,
-Chanhassen,1036841,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,
-Roseville,1037088,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,
-Roseville,1037088,087116011267,Phillips Vodka Traveler,000033126,12,1.0,66.3,0.0,
-Roseville,1037088,087116018099,Phillips Vodka 1.75L,000040311,6,2.0,63.03,0.0,
-Chanhassen,1036841,099988071096,Menage a Trois Red 750ml,000010147,12,1.0,84.0,84.0,
-Chanhassen,1036841,099988071362,Menage A Trois Silk 750ml,000026617,12,1.0,84.0,84.0,
-Chanhassen,1037018,674545000414,Don Julio Reposado Tequila 750ml,69476,6,1.0,182.0,182.0,
-Roseville,1037088,674545000414,Don Julio Reposado Tequila 750ml,69476,6,2.0,182.0,364.0,
-Chanhassen,1037018,674545000827,Don Julio 70th Annv Crystal Anejo 750ml,000018932,6,1.0,265.0,265.0,
-Roseville,1037088,674545000827,Don Julio 70th Annv Crystal Anejo 750ml,000018932,6,1.0,265.0,265.0,
-Chanhassen,1036841,717888520024,Hess Select Chardonnay 750ml,60137,12,1.0,82.5,82.5,
-Roseville,1037088,862367000006,Vikre Boreal Juniper Gin 750ml,000023590,6,1.0,135.0,0.0,
+St. Louis Park,1037864,039383006507,Michter's Rye 750ml,1519044,6,1.0,193.5,193.5,
+St. Louis Park,1037789,074806186107,Daily's B Hawaiian RTD Frozen 10oz,21905,24,1.0,38.58,38.58,Month End
+St. Louis Park,1037864,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
+St. Louis Park,1037952,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,92.35,Phillips October Month End
+St. Louis Park,1037944,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips October Free Goods
+St. Louis Park,1037789,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,157.2,0.0,Month End
+St. Louis Park,1037789,080887551062,Bogle Juggernaut Chardonnay 750ml,1767226,12,1.0,132.5,132.5,Month End
+St. Louis Park,1037789,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,1656720,12,1.0,140.88,140.88,Month End
+St. Louis Park,1037864,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,3.0,112.52,337.56,
+St. Louis Park,1037789,082242011051,Bota Box Chardonnay 3L Box,001061230,3,3.0,44.0,132.0,Month End
+St. Louis Park,1037789,082242012362,Bota Box Pinot Noir 3L Box,001147004,3,1.0,44.0,44.0,Month End
+St. Louis Park,1037789,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,2.0,44.0,88.0,Month End
+St. Louis Park,1037789,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,3.0,44.0,132.0,Month End
+St. Louis Park,1037789,082242014311,Bota Box Sauvignon Blanc 500ml,001559418,12,1.0,40.0,40.0,Month End
+St. Louis Park,1037789,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
+St. Louis Park,1037789,082242016056,Bota Box Redvolution 3L Box,001137405,3,2.0,44.0,88.0,Month End
+St. Louis Park,1037789,082242016780,Bota Box Breeze Pinot Grigio 3L Box,001887584,3,1.0,44.0,44.0,Month End
+St. Louis Park,1037789,082242017558,Bota Box Merlot 3L Box,001999004,3,1.0,44.0,44.0,Month End
+St. Louis Park,1037789,084279978567,Overstone Sauvignon Blanc 750ml,13305,12,1.0,91.0,91.0,Month End
+St. Louis Park,1037789,084279978727,Starling Castle Gewurztraminer 750ml,000014674,12,1.0,72.0,72.0,Month End
+St. Louis Park,1037789,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,Month End
+St. Louis Park,1037789,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,30.0,Month End
+St. Louis Park,1037789,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,Month End
+St. Louis Park,1037789,08501626,Sutter Home Moscato 187ml,000010468,6,1.0,30.0,30.0,Month End
+St. Louis Park,1037789,08510129,Fre Chardonnay N/A 750ml,000059998,12,1.0,80.0,0.0,Month End
+St. Louis Park,1037864,085156404957,Ketel One Vodka 50ml,000019757,120,1.0,159.28,159.28,
+St. Louis Park,1037789,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,90.32,90.32,Month End
+St. Louis Park,1037789,085200005796,SeaGlass Pinot Gris 750ml,000020359,12,1.0,90.32,90.32,Month End
+St. Louis Park,1037789,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,Month End
+St. Louis Park,1037789,08567525,Fre Sauvignon Blanc N/A 750ml,1873317,12,1.0,80.0,0.0,Month End
+St. Louis Park,1037902,086767210067,Bailey's Irish Cream 750ml,5017,12,1.0,220.0,220.0,Diageo October Month End
+St. Louis Park,1037902,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Month End
+St. Louis Park,1037864,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,261.0,261.0,
+St. Louis Park,1037902,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,124.0,124.0,Diageo October Month End
+St. Louis Park,1037864,08727008,Captain Morgan Spiced Rum Liter,000005363,12,1.0,216.0,216.0,
+St. Louis Park,1037789,087752002551,Baron Herzog Sauvignon Blanc 750ml,41046,12,1.0,120.0,0.0,Month End
+St. Louis Park,1037789,087752008850,Barkan Sauvignon Blanc 750ml,64246,12,1.0,120.0,120.0,Month End
+St. Louis Park,1037789,087752011102,Barkan Pinot Noir 750ml,16063,12,1.0,128.0,0.0,Month End
+St. Louis Park,1038125,08776509,Seagrams 7 Blended 375ml,001491426,12,1.0,59.0,59.0,Diageo october Month End
+St. Louis Park,1037952,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips October Month End
+St. Louis Park,1037952,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips October Month End
+St. Louis Park,1037789,188985000038,Joel Gott Chardonnay 750ml,000016455,12,1.0,107.5,107.5,Month End
+St. Louis Park,1037789,188985000120,Joel Gott Zinfandel 750ml,000016457,12,1.0,140.6,0.0,Month End
+St. Louis Park,1037789,196383006217,Joel Gott CA Pinot Grigio 750ml,1388839,12,1.0,107.5,107.5,Month End
+St. Louis Park,1037952,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,40.12,40.12,Phillips October Month End
+St. Louis Park,1037864,674545000063,Don Julio Anejo Tequila 750ml,60368,6,1.0,239.0,239.0,
+St. Louis Park,1037789,717888510025,Hess Select Cab Sauv 750ml,000056473,12,1.0,109.0,109.0,Month End
+St. Louis Park,1037864,721094199752,Gosling's Diet Ginger Beer 6pk 12oz can,1739707,4,1.0,16.77,0.0,
+St. Louis Park,1037864,721094199844,Gosling's Ginger Beer 12pk,001749894,2,1.0,19.57,19.57,
+St. Louis Park,1037864,721094200434,Goslings Citrus Tonic Water,1845303,4,1.0,19.57,0.0,
+St. Louis Park,1037864,810035510111,Shanky's Irish Whip 750ml,001953993,6,1.0,126.0,126.0,
+St. Louis Park,1037789,831869000012,The Crossings Sauvignon Blanc 750ml,000859399,12,1.0,104.0,104.0,Month End
+St. Louis Park,1037952,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,49.45,49.45,Phillips October Month End
+St. Louis Park,1037952,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,Phillips October Month End
+St. Louis Park,1037952,850030494108,Keeper's Heart Irish/Bourbon 700ml,1198591,6,1.0,157.5,157.5,Phillips October Month End
+St. Louis Park,1037952,850030494436,Keeper's Heart Old Fashioned  750ml,1239510,6,1.0,137.0,137.0,Phillips October Month End
+St. Louis Park,1037789,850315003001,Coeur de Terre Oregon Pinot Noir 750ml,001284636,12,1.0,180.0,0.0,Month End
+St. Louis Park,1037952,851091006224,Buzzballz Biggies Chocolate Tease 1.75L,1020035,3,1.0,45.0,45.0,Phillips October Month End
+St. Louis Park,1037952,851091006347,BuzzBallz Biggies Berry Cherry Limeade 1.75L,1709950,3,2.0,45.0,90.0,Phillips October Month End
+St. Louis Park,1037952,857641002296,Buzzballz Pineapple Colada Chiller 187ml,1222490,24,1.0,51.45,51.45,Phillips October Month End
+St. Louis Park,1037952,857641002890,Buzzballz Choco Chiller 187ml,1750182,24,1.0,51.45,51.45,Phillips October Month End
+St. Louis Park,1037952,857674007671,Buzzballz Hazelnut Latte Chiller 187ml,1447614,24,1.0,51.45,51.45,Phillips October Month End
+St. Louis Park,1037944,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips October Free Goods
