@@ -1,64 +1,248 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1037864,039383006507,Michter's Rye 750ml,1519044,6,1.0,193.5,193.5,
-St. Louis Park,1037789,074806186107,Daily's B Hawaiian RTD Frozen 10oz,21905,24,1.0,38.58,38.58,Month End
-St. Louis Park,1037864,080686294030,2 Gingers 50ml,000020104,96,1.0,64.0,64.0,
-St. Louis Park,1037952,080686500124,Windsor Canadian 1.75L,4523,6,1.0,92.35,92.35,Phillips October Month End
-St. Louis Park,1037944,080686500438,Windsor Canadian Traveler,000004713,12,1.0,0.0,0.0,Phillips October Free Goods
-St. Louis Park,1037789,080887551017,Bogle Juggernaut Cabernet 750ml,1272724,12,1.0,157.2,0.0,Month End
-St. Louis Park,1037789,080887551062,Bogle Juggernaut Chardonnay 750ml,1767226,12,1.0,132.5,132.5,Month End
-St. Louis Park,1037789,080887551086,Bogle Juggernaut Sauvignon Blanc 750ml,1656720,12,1.0,140.88,140.88,Month End
-St. Louis Park,1037864,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,3.0,112.52,337.56,
-St. Louis Park,1037789,082242011051,Bota Box Chardonnay 3L Box,001061230,3,3.0,44.0,132.0,Month End
-St. Louis Park,1037789,082242012362,Bota Box Pinot Noir 3L Box,001147004,3,1.0,44.0,44.0,Month End
-St. Louis Park,1037789,082242012935,Bota Box Sauvignon Blanc 3L Box,001608424,3,2.0,44.0,88.0,Month End
-St. Louis Park,1037789,082242013253,Bota Box Pinot Grigio 3L Box,001924757,3,3.0,44.0,132.0,Month End
-St. Louis Park,1037789,082242014311,Bota Box Sauvignon Blanc 500ml,001559418,12,1.0,40.0,40.0,Month End
-St. Louis Park,1037789,082242014380,Bota Box Nighthawk Black Cab Sauv 3L Box,001257054,3,1.0,44.0,44.0,Month End
-St. Louis Park,1037789,082242016056,Bota Box Redvolution 3L Box,001137405,3,2.0,44.0,88.0,Month End
-St. Louis Park,1037789,082242016780,Bota Box Breeze Pinot Grigio 3L Box,001887584,3,1.0,44.0,44.0,Month End
-St. Louis Park,1037789,082242017558,Bota Box Merlot 3L Box,001999004,3,1.0,44.0,44.0,Month End
-St. Louis Park,1037789,084279978567,Overstone Sauvignon Blanc 750ml,13305,12,1.0,91.0,91.0,Month End
-St. Louis Park,1037789,084279978727,Starling Castle Gewurztraminer 750ml,000014674,12,1.0,72.0,72.0,Month End
-St. Louis Park,1037789,08500520,Sutter Home Cab Sauv 187ml,000055160,6,1.0,30.0,30.0,Month End
-St. Louis Park,1037789,08500627,Sutter Home Chardonnay 187ml,000067629,6,1.0,30.0,30.0,Month End
-St. Louis Park,1037789,08501422,Sutter Home Pinot Grigio 187ml,000068890,6,1.0,30.0,30.0,Month End
-St. Louis Park,1037789,08501626,Sutter Home Moscato 187ml,000010468,6,1.0,30.0,30.0,Month End
-St. Louis Park,1037789,08510129,Fre Chardonnay N/A 750ml,000059998,12,1.0,80.0,0.0,Month End
-St. Louis Park,1037864,085156404957,Ketel One Vodka 50ml,000019757,120,1.0,159.28,159.28,
-St. Louis Park,1037789,085200005758,SeaGlass Sauvignon Blanc 750ml,000015244,12,1.0,90.32,90.32,Month End
-St. Louis Park,1037789,085200005796,SeaGlass Pinot Gris 750ml,000020359,12,1.0,90.32,90.32,Month End
-St. Louis Park,1037789,085200718740,Sutter Home Sauvignon Blanc 187ml,000054460,6,1.0,30.0,30.0,Month End
-St. Louis Park,1037789,08567525,Fre Sauvignon Blanc N/A 750ml,1873317,12,1.0,80.0,0.0,Month End
-St. Louis Park,1037902,086767210067,Bailey's Irish Cream 750ml,5017,12,1.0,220.0,220.0,Diageo October Month End
-St. Louis Park,1037902,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Month End
-St. Louis Park,1037864,087000004047,Bulleit Bourbon 1.75L,000011267,6,1.0,261.0,261.0,
-St. Louis Park,1037902,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,124.0,124.0,Diageo October Month End
-St. Louis Park,1037864,08727008,Captain Morgan Spiced Rum Liter,000005363,12,1.0,216.0,216.0,
-St. Louis Park,1037789,087752002551,Baron Herzog Sauvignon Blanc 750ml,41046,12,1.0,120.0,0.0,Month End
-St. Louis Park,1037789,087752008850,Barkan Sauvignon Blanc 750ml,64246,12,1.0,120.0,120.0,Month End
-St. Louis Park,1037789,087752011102,Barkan Pinot Noir 750ml,16063,12,1.0,128.0,0.0,Month End
-St. Louis Park,1038125,08776509,Seagrams 7 Blended 375ml,001491426,12,1.0,59.0,59.0,Diageo october Month End
-St. Louis Park,1037952,088004009373,Fireball Whisky 100ml,1403888,48,1.0,65.0,65.0,Phillips October Month End
-St. Louis Park,1037952,088004076573,Buzzballz Chiller Pink Lemonsqueezy 187ml,1635330,24,1.0,51.45,51.45,Phillips October Month End
-St. Louis Park,1037789,188985000038,Joel Gott Chardonnay 750ml,000016455,12,1.0,107.5,107.5,Month End
-St. Louis Park,1037789,188985000120,Joel Gott Zinfandel 750ml,000016457,12,1.0,140.6,0.0,Month End
-St. Louis Park,1037789,196383006217,Joel Gott CA Pinot Grigio 750ml,1388839,12,1.0,107.5,107.5,Month End
-St. Louis Park,1037952,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,40.12,40.12,Phillips October Month End
-St. Louis Park,1037864,674545000063,Don Julio Anejo Tequila 750ml,60368,6,1.0,239.0,239.0,
-St. Louis Park,1037789,717888510025,Hess Select Cab Sauv 750ml,000056473,12,1.0,109.0,109.0,Month End
-St. Louis Park,1037864,721094199752,Gosling's Diet Ginger Beer 6pk 12oz can,1739707,4,1.0,16.77,0.0,
-St. Louis Park,1037864,721094199844,Gosling's Ginger Beer 12pk,001749894,2,1.0,19.57,19.57,
-St. Louis Park,1037864,721094200434,Goslings Citrus Tonic Water,1845303,4,1.0,19.57,0.0,
-St. Louis Park,1037864,810035510111,Shanky's Irish Whip 750ml,001953993,6,1.0,126.0,126.0,
-St. Louis Park,1037789,831869000012,The Crossings Sauvignon Blanc 750ml,000859399,12,1.0,104.0,104.0,Month End
-St. Louis Park,1037952,850003574028,Two Chicks Paloma 4pk 12oz can,001254466,6,1.0,49.45,49.45,Phillips October Month End
-St. Louis Park,1037952,850008153129,Campo Bravo Plata 50ml,1046867,72,1.0,50.0,50.0,Phillips October Month End
-St. Louis Park,1037952,850030494108,Keeper's Heart Irish/Bourbon 700ml,1198591,6,1.0,157.5,157.5,Phillips October Month End
-St. Louis Park,1037952,850030494436,Keeper's Heart Old Fashioned  750ml,1239510,6,1.0,137.0,137.0,Phillips October Month End
-St. Louis Park,1037789,850315003001,Coeur de Terre Oregon Pinot Noir 750ml,001284636,12,1.0,180.0,0.0,Month End
-St. Louis Park,1037952,851091006224,Buzzballz Biggies Chocolate Tease 1.75L,1020035,3,1.0,45.0,45.0,Phillips October Month End
-St. Louis Park,1037952,851091006347,BuzzBallz Biggies Berry Cherry Limeade 1.75L,1709950,3,2.0,45.0,90.0,Phillips October Month End
-St. Louis Park,1037952,857641002296,Buzzballz Pineapple Colada Chiller 187ml,1222490,24,1.0,51.45,51.45,Phillips October Month End
-St. Louis Park,1037952,857641002890,Buzzballz Choco Chiller 187ml,1750182,24,1.0,51.45,51.45,Phillips October Month End
-St. Louis Park,1037952,857674007671,Buzzballz Hazelnut Latte Chiller 187ml,1447614,24,1.0,51.45,51.45,Phillips October Month End
-St. Louis Park,1037944,857674007985,BuzzBallz Berry Cherry Limeade 187ml,1190439,24,1.0,0.0,0.0,Phillips October Free Goods
+Andover,1038227,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Blaine,1038237,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Chanhassen,1038256,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Minneapolis,1038278,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Osseo,1038296,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Plymouth,1038308,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Roseville,1038340,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+St. Louis Park,1038352,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,2.0,229.5,459.0,Diageo October Bill and Hold
+Stillwater,1038364,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Woodbury,1038384,082000752967,Bulleit 95 Rye Whiskey 750ml,000018231,12,2.0,229.5,459.0,Diageo October Bill and Hold
+Andover,1038225,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,28.0,112.52,3150.55,Diageo Ocotber Bill and Hold
+Blaine,1038235,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,41.0,112.52,4613.31,Diageo Ocotber Bill and Hold
+Bloomington,1038245,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,9.0,112.52,1012.68,Diageo Ocotber Bill and Hold
+Chanhassen,1038254,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,8.0,112.52,900.16,Diageo Ocotber Bill and Hold
+Cottage Grove,1038263,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,31.0,112.52,3488.11,Diageo Ocotber Bill and Hold
+Minneapolis,1038276,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,18.0,112.52,2025.36,Diageo Ocotber Bill and Hold
+Minnetonka,1038286,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,1.0,112.52,112.52,Diageo Ocotber Bill and Hold
+Osseo,1038294,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,23.0,112.52,2587.96,Diageo Ocotber Bill and Hold
+Plymouth,1038306,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,8.0,112.52,900.16,Diageo Ocotber Bill and Hold
+Ramsey,1038317,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,12.0,112.52,1350.24,Diageo Ocotber Bill and Hold
+Rosemount,1038328,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,10.0,112.52,1125.2,Diageo Ocotber Bill and Hold
+Roseville,1038338,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,10.0,112.52,1125.2,Diageo Ocotber Bill and Hold
+St. Louis Park,1038350,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,15.0,112.52,1687.8,Diageo Ocotber Bill and Hold
+Stillwater,1038362,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,9.0,112.52,1012.68,Diageo Ocotber Bill and Hold
+Vadnais Heights,1038372,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,10.0,112.52,1125.2,Diageo Ocotber Bill and Hold
+Woodbury,1038382,082000759102,Captain Morgan Spiced Rum 1.75L,16304,6,20.0,112.52,2250.4,Diageo Ocotber Bill and Hold
+Andover,1038227,082000771562,Crown Royal Regal Apple 750ml,000024790,12,2.0,227.0,454.0,Diageo October Bill and Hold
+Blaine,1038237,082000771562,Crown Royal Regal Apple 750ml,000024790,12,6.0,227.0,1362.0,Diageo October Bill and Hold
+Minneapolis,1038278,082000771562,Crown Royal Regal Apple 750ml,000024790,12,4.0,227.0,908.0,Diageo October Bill and Hold
+Minnetonka,1038288,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Osseo,1038296,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Ramsey,1038319,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Rosemount,1038330,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Roseville,1038340,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+St. Louis Park,1038352,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Stillwater,1038364,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Woodbury,1038384,082000771562,Crown Royal Regal Apple 750ml,000024790,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Andover,1038227,082000771593,Crown Royal Regal Apple 1.75L,24788,6,6.0,222.0,1332.0,Diageo October Bill and Hold
+Blaine,1038237,082000771593,Crown Royal Regal Apple 1.75L,24788,6,10.0,222.0,2220.0,Diageo October Bill and Hold
+Cottage Grove,1038265,082000771593,Crown Royal Regal Apple 1.75L,24788,6,2.0,222.0,444.0,Diageo October Bill and Hold
+Minneapolis,1038278,082000771593,Crown Royal Regal Apple 1.75L,24788,6,4.0,222.0,888.0,Diageo October Bill and Hold
+Rosemount,1038330,082000771593,Crown Royal Regal Apple 1.75L,24788,6,2.0,222.0,444.0,Diageo October Bill and Hold
+Roseville,1038340,082000771593,Crown Royal Regal Apple 1.75L,24788,6,3.0,222.0,666.0,Diageo October Bill and Hold
+St. Louis Park,1038352,082000771593,Crown Royal Regal Apple 1.75L,24788,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000771593,Crown Royal Regal Apple 1.75L,24788,6,2.0,222.0,444.0,Diageo October Bill and Hold
+Blaine,1038237,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Cottage Grove,1038265,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Minneapolis,1038278,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Minnetonka,1038288,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Osseo,1038296,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Ramsey,1038319,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Roseville,1038340,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+St. Louis Park,1038352,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000776598,Crown Royal Vanilla 750ml,000028205,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Andover,1038227,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Blaine,1038237,082000776611,Crown Royal Vanilla 1.75L,28208,6,2.0,222.0,444.0,Diageo October Bill and Hold
+Cottage Grove,1038265,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Osseo,1038296,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Ramsey,1038319,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Woodbury,1038384,082000776611,Crown Royal Vanilla 1.75L,28208,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Blaine,1038237,082000782919,Crown Royal Peach 750ml,001209938,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Minneapolis,1038278,082000782919,Crown Royal Peach 750ml,001209938,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Osseo,1038296,082000782919,Crown Royal Peach 750ml,001209938,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Andover,1038227,082000783978,Crown Royal Salted Caramel 750ml,001144638,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Blaine,1038237,082000783978,Crown Royal Salted Caramel 750ml,001144638,12,2.0,227.0,454.0,Diageo October Bill and Hold
+Plymouth,1038308,082000783978,Crown Royal Salted Caramel 750ml,001144638,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Ramsey,1038319,082000783978,Crown Royal Salted Caramel 750ml,001144638,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000783978,Crown Royal Salted Caramel 750ml,001144638,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Woodbury,1038384,082000783978,Crown Royal Salted Caramel 750ml,001144638,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Blaine,1038237,082000789550,Crown Royal Blackberry 750ml,1739470,12,3.0,227.0,681.0,Diageo October Bill and Hold
+Cottage Grove,1038265,082000789550,Crown Royal Blackberry 750ml,1739470,12,3.0,227.0,681.0,Diageo October Bill and Hold
+Minneapolis,1038278,082000789550,Crown Royal Blackberry 750ml,1739470,12,2.0,227.0,454.0,Diageo October Bill and Hold
+Osseo,1038296,082000789550,Crown Royal Blackberry 750ml,1739470,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Plymouth,1038308,082000789550,Crown Royal Blackberry 750ml,1739470,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Rosemount,1038330,082000789550,Crown Royal Blackberry 750ml,1739470,12,2.0,227.0,454.0,Diageo October Bill and Hold
+St. Louis Park,1038352,082000789550,Crown Royal Blackberry 750ml,1739470,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000789550,Crown Royal Blackberry 750ml,1739470,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Woodbury,1038384,082000789550,Crown Royal Blackberry 750ml,1739470,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Andover,1038227,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Blaine,1038237,082000795360,Crown Royal Peach 1.75L,1242857,6,2.0,222.0,444.0,Diageo October Bill and Hold
+Chanhassen,1038256,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Minneapolis,1038278,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Rosemount,1038330,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Woodbury,1038384,082000795360,Crown Royal Peach 1.75L,1242857,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Blaine,1038237,082000811053,Crown Royal Chocolate 750ml,1108662,12,1.0,192.0,192.0,Diageo October Bill and Hold
+Cottage Grove,1038265,082000811053,Crown Royal Chocolate 750ml,1108662,12,1.0,192.0,192.0,Diageo October Bill and Hold
+Osseo,1038296,082000811053,Crown Royal Chocolate 750ml,1108662,12,1.0,192.0,192.0,Diageo October Bill and Hold
+Andover,1038227,086767210067,Bailey's Irish Cream 750ml,5017,12,9.0,220.0,1980.0,Diageo October Bill and Hold
+Blaine,1038237,086767210067,Bailey's Irish Cream 750ml,5017,12,11.0,220.0,2420.0,Diageo October Bill and Hold
+Bloomington,1038247,086767210067,Bailey's Irish Cream 750ml,5017,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Chanhassen,1038256,086767210067,Bailey's Irish Cream 750ml,5017,12,4.0,220.0,880.0,Diageo October Bill and Hold
+Cottage Grove,1038265,086767210067,Bailey's Irish Cream 750ml,5017,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767210067,Bailey's Irish Cream 750ml,5017,12,4.0,220.0,880.0,Diageo October Bill and Hold
+Osseo,1038296,086767210067,Bailey's Irish Cream 750ml,5017,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Plymouth,1038308,086767210067,Bailey's Irish Cream 750ml,5017,12,5.0,220.0,1100.0,Diageo October Bill and Hold
+Ramsey,1038319,086767210067,Bailey's Irish Cream 750ml,5017,12,3.0,220.0,660.0,Diageo October Bill and Hold
+Rosemount,1038330,086767210067,Bailey's Irish Cream 750ml,5017,12,3.0,220.0,660.0,Diageo October Bill and Hold
+Roseville,1038337,086767210067,Bailey's Irish Cream 750ml,5017,12,5.0,0.0,0.0,Diageo Bill and Hold Free Goods
+St. Louis Park,1038352,086767210067,Bailey's Irish Cream 750ml,5017,12,8.0,220.0,1760.0,Diageo October Bill and Hold
+Stillwater,1038364,086767210067,Bailey's Irish Cream 750ml,5017,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,086767210067,Bailey's Irish Cream 750ml,5017,12,4.0,220.0,880.0,Diageo October Bill and Hold
+Woodbury,1038384,086767210067,Bailey's Irish Cream 750ml,5017,12,4.0,220.0,880.0,Diageo October Bill and Hold
+Andover,1038227,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Blaine,1038237,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Chanhassen,1038256,086767701763,Bailey's Caramel 750ml,000011540,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Cottage Grove,1038265,086767701763,Bailey's Caramel 750ml,000011540,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Osseo,1038296,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Plymouth,1038308,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Ramsey,1038319,086767701763,Bailey's Caramel 750ml,000011540,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Rosemount,1038330,086767701763,Bailey's Caramel 750ml,000011540,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Roseville,1038340,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Stillwater,1038364,086767701763,Bailey's Caramel 750ml,000011540,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,086767701763,Bailey's Caramel 750ml,000011540,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Woodbury,1038384,086767701763,Bailey's Caramel 750ml,000011540,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Blaine,1038237,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Cottage Grove,1038265,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Roseville,1038340,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Bill and Hold
+St. Louis Park,1038352,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Woodbury,1038384,086767704566,Bailey's Espresso Creme 750ml,000026395,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Andover,1038227,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Blaine,1038237,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Cottage Grove,1038265,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Roseville,1038340,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+St. Louis Park,1038352,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Woodbury,1038384,086767704832,Bailey's Strawberries & Cream 750ml,1261259,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Andover,1038227,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Blaine,1038237,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Cottage Grove,1038265,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Osseo,1038296,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Plymouth,1038308,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Rosemount,1038330,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+St. Louis Park,1038352,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Stillwater,1038364,086767705440,Bailey's Vanilla Mint Shake 750ml,1610560,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Andover,1038227,086767705488,Bailey's Chocolate 750ml,1514223,12,3.0,220.0,660.0,Diageo October Bill and Hold
+Blaine,1038237,086767705488,Bailey's Chocolate 750ml,1514223,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Chanhassen,1038256,086767705488,Bailey's Chocolate 750ml,1514223,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767705488,Bailey's Chocolate 750ml,1514223,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minnetonka,1038288,086767705488,Bailey's Chocolate 750ml,1514223,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Plymouth,1038308,086767705488,Bailey's Chocolate 750ml,1514223,12,2.0,220.0,440.0,Diageo October Bill and Hold
+St. Louis Park,1038352,086767705488,Bailey's Chocolate 750ml,1514223,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Stillwater,1038364,086767705488,Bailey's Chocolate 750ml,1514223,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,086767705488,Bailey's Chocolate 750ml,1514223,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Woodbury,1038384,086767705488,Bailey's Chocolate 750ml,1514223,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Blaine,1038237,086767705525,Baileys Cinnamon Churros,1899885,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767705525,Baileys Cinnamon Churros,1899885,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Roseville,1038340,086767705525,Baileys Cinnamon Churros,1899885,12,1.0,220.0,220.0,Diageo October Bill and Hold
+St. Louis Park,1038352,086767705525,Baileys Cinnamon Churros,1899885,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Woodbury,1038384,086767705525,Baileys Cinnamon Churros,1899885,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Andover,1038227,086767705655,Baileys Coffee Toffee 750ml,1539707,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Blaine,1038237,086767705655,Baileys Coffee Toffee 750ml,1539707,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767705655,Baileys Coffee Toffee 750ml,1539707,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Minnetonka,1038288,086767705655,Baileys Coffee Toffee 750ml,1539707,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Blaine,1038237,086767705693,Baileys Cookies & Creamy 750ml,1328420,12,2.0,220.0,440.0,Diageo October Bill and Hold
+Minneapolis,1038278,086767705693,Baileys Cookies & Creamy 750ml,1328420,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Roseville,1038340,086767705693,Baileys Cookies & Creamy 750ml,1328420,12,1.0,220.0,220.0,Diageo October Bill and Hold
+Andover,1038227,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Blaine,1038237,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Bloomington,1038247,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Chanhassen,1038256,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Cottage Grove,1038262,087000005525,Bulleit Bourbon 750ml,000011271,12,0.5,0.0,0.0,Diageo Bill and Hold Free Goods
+Cottage Grove,1038263,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo Ocotber Bill and Hold
+Minneapolis,1038278,087000005525,Bulleit Bourbon 750ml,000011271,12,2.0,229.5,459.0,Diageo October Bill and Hold
+Minnetonka,1038288,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Osseo,1038296,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Ramsey,1038319,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Rosemount,1038330,087000005525,Bulleit Bourbon 750ml,000011271,12,2.0,229.5,459.0,Diageo October Bill and Hold
+Roseville,1038340,087000005525,Bulleit Bourbon 750ml,000011271,12,2.0,229.5,459.0,Diageo October Bill and Hold
+St. Louis Park,1038352,087000005525,Bulleit Bourbon 750ml,000011271,12,5.0,229.5,1147.5,Diageo October Bill and Hold
+Stillwater,1038364,087000005525,Bulleit Bourbon 750ml,000011271,12,1.0,229.5,229.5,Diageo October Bill and Hold
+Vadnais Heights,1038374,087000005525,Bulleit Bourbon 750ml,000011271,12,2.0,229.5,459.0,Diageo October Bill and Hold
+Woodbury,1038384,087000005525,Bulleit Bourbon 750ml,000011271,12,2.0,229.5,459.0,Diageo October Bill and Hold
+Andover,1038227,087000007253,Crown Royal Canadian 750ml,000004390,12,3.0,227.0,681.0,Diageo October Bill and Hold
+Blaine,1038237,087000007253,Crown Royal Canadian 750ml,000004390,12,2.0,227.0,454.0,Diageo October Bill and Hold
+Chanhassen,1038256,087000007253,Crown Royal Canadian 750ml,000004390,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Minneapolis,1038278,087000007253,Crown Royal Canadian 750ml,000004390,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Plymouth,1038308,087000007253,Crown Royal Canadian 750ml,000004390,12,2.0,227.0,454.0,Diageo October Bill and Hold
+Ramsey,1038319,087000007253,Crown Royal Canadian 750ml,000004390,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Rosemount,1038330,087000007253,Crown Royal Canadian 750ml,000004390,12,2.0,227.0,454.0,Diageo October Bill and Hold
+Roseville,1038340,087000007253,Crown Royal Canadian 750ml,000004390,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,087000007253,Crown Royal Canadian 750ml,000004390,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Woodbury,1038384,087000007253,Crown Royal Canadian 750ml,000004390,12,1.0,227.0,227.0,Diageo October Bill and Hold
+Andover,1038225,087000201484,Captain Morgan Silver Rum 1.75L,000069146,6,1.0,112.52,112.52,Diageo Ocotber Bill and Hold
+Blaine,1038235,087000201484,Captain Morgan Silver Rum 1.75L,000069146,6,1.0,112.52,112.52,Diageo Ocotber Bill and Hold
+Ramsey,1038317,087000201484,Captain Morgan Silver Rum 1.75L,000069146,6,1.0,112.52,112.52,Diageo Ocotber Bill and Hold
+Andover,1038224,087000700604,Crown Royal Canadian 1.75L,69484,6,5.0,0.0,0.0,Diageo Bill and Hold Free Goods
+Blaine,1038237,087000700604,Crown Royal Canadian 1.75L,69484,6,13.0,222.0,2886.0,Diageo October Bill and Hold
+Bloomington,1038247,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Minnetonka,1038288,087000700604,Crown Royal Canadian 1.75L,69484,6,2.0,222.0,444.0,Diageo October Bill and Hold
+Osseo,1038296,087000700604,Crown Royal Canadian 1.75L,69484,6,5.0,222.0,1110.0,Diageo October Bill and Hold
+Plymouth,1038308,087000700604,Crown Royal Canadian 1.75L,69484,6,7.0,222.0,1554.0,Diageo October Bill and Hold
+Ramsey,1038319,087000700604,Crown Royal Canadian 1.75L,69484,6,1.0,222.0,222.0,Diageo October Bill and Hold
+Rosemount,1038330,087000700604,Crown Royal Canadian 1.75L,69484,6,3.0,222.0,666.0,Diageo October Bill and Hold
+Roseville,1038340,087000700604,Crown Royal Canadian 1.75L,69484,6,5.0,222.0,1110.0,Diageo October Bill and Hold
+St. Louis Park,1038352,087000700604,Crown Royal Canadian 1.75L,69484,6,4.0,222.0,888.0,Diageo October Bill and Hold
+Stillwater,1038364,087000700604,Crown Royal Canadian 1.75L,69484,6,3.0,222.0,666.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,087000700604,Crown Royal Canadian 1.75L,69484,6,4.0,222.0,888.0,Diageo October Bill and Hold
+Woodbury,1038384,087000700604,Crown Royal Canadian 1.75L,69484,6,6.0,222.0,1332.0,Diageo October Bill and Hold
+Chanhassen,1038254,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,124.0,124.0,Diageo Ocotber Bill and Hold
+Roseville,1038338,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,1.0,124.0,124.0,Diageo Ocotber Bill and Hold
+St. Louis Park,1038350,08719300,Captain Morgan Spiced Rum Traveler,000011734,12,2.0,124.0,248.0,Diageo Ocotber Bill and Hold
+St. Louis Park,1038125,08776509,Seagrams 7 Blended 375ml,001491426,12,1.0,59.0,0.0,Diageo october Month End
+Andover,1038230,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038241,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038269,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038282,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038334,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038344,616003616232,Zing Zang Bloody Mary Dill Pickles 32oz,1848803,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038230,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038241,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Bloomington,1038251,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Chanhassen,1038259,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038269,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038282,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038300,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Ramsey,1038323,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038334,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038356,616003708777,Zing Zang Bloody Mary 1.75L,001343631,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038230,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038241,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Bloomington,1038251,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038282,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Plymouth,1038312,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Ramsey,1038323,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038356,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Stillwater,1038367,616003814225,Zing Zang Bloody Mary Mix 32oz,001616877,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038224,674545000414,Don Julio Reposado Tequila 750ml,69476,6,3.0,0.0,0.0,Diageo Bill and Hold Free Goods
+Blaine,1038237,674545000414,Don Julio Reposado Tequila 750ml,69476,6,21.0,182.0,3822.0,Diageo October Bill and Hold
+Bloomington,1038247,674545000414,Don Julio Reposado Tequila 750ml,69476,6,16.0,182.0,2912.0,Diageo October Bill and Hold
+Chanhassen,1038256,674545000414,Don Julio Reposado Tequila 750ml,69476,6,3.0,182.0,546.0,Diageo October Bill and Hold
+Cottage Grove,1038265,674545000414,Don Julio Reposado Tequila 750ml,69476,6,14.0,182.0,2548.0,Diageo October Bill and Hold
+Minneapolis,1038278,674545000414,Don Julio Reposado Tequila 750ml,69476,6,121.0,182.0,22021.98,Diageo October Bill and Hold
+Minnetonka,1038288,674545000414,Don Julio Reposado Tequila 750ml,69476,6,2.0,182.0,364.0,Diageo October Bill and Hold
+Osseo,1038296,674545000414,Don Julio Reposado Tequila 750ml,69476,6,16.0,182.0,2912.0,Diageo October Bill and Hold
+Plymouth,1038308,674545000414,Don Julio Reposado Tequila 750ml,69476,6,9.0,182.0,1638.0,Diageo October Bill and Hold
+Rosemount,1038330,674545000414,Don Julio Reposado Tequila 750ml,69476,6,6.0,182.0,1092.0,Diageo October Bill and Hold
+Roseville,1038340,674545000414,Don Julio Reposado Tequila 750ml,69476,6,9.0,182.0,1638.0,Diageo October Bill and Hold
+St. Louis Park,1038349,674545000414,Don Julio Reposado Tequila 750ml,69476,6,20.0,0.0,0.0,Diageo Bill and Hold Free Goods
+Stillwater,1038364,674545000414,Don Julio Reposado Tequila 750ml,69476,6,1.0,182.0,182.0,Diageo October Bill and Hold
+Vadnais Heights,1038374,674545000414,Don Julio Reposado Tequila 750ml,69476,6,10.0,182.0,1820.0,Diageo October Bill and Hold
+Woodbury,1038384,674545000414,Don Julio Reposado Tequila 750ml,69476,6,16.0,182.0,2912.0,Diageo October Bill and Hold

@@ -1,101 +1,426 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1037787,018341151053,Barefoot Chardonnay 1.5L,10768,6,1.0,48.27,48.27,Month End
-St. Louis Park,1037787,018341751055,Barefoot Chardonnay 750ml,000010766,12,2.0,51.85,103.7,Month End
-St. Louis Park,1037780,031259005317,Josh Cellars Hearth Cabernet Sauvignon 750ml,1471328,12,1.0,0.0,0.0,Free Goods
-St. Louis Park,1037787,031259046952,Josh Cellars Pinot Noir 750ml,000859258,12,1.0,123.49,123.49,Month End
-St. Louis Park,1037787,031259046976,Josh Cellars Sauvignon Blanc 750ml,000859264,12,1.0,106.94,106.94,Month End
-St. Louis Park,1037787,031259048024,Josh Cellars Legacy Red Blend 750ml,000859249,12,1.0,123.49,123.49,Month End
-St. Louis Park,1037787,031259049236,Josh Cellars Paso Robles Cabernet 750ml,001701333,12,1.0,165.5,165.5,Month End
-St. Louis Park,1037851,040063400430,Four Roses Bourbon 1.75L,001215736,6,1.0,165.28,165.28,
-St. Louis Park,1037787,049331002222,La Crema Sonoma Chardonnay 750ml,001711590,12,3.0,156.0,468.0,Month End
-St. Louis Park,1037787,080887493850,Bogle Zinfandel 750ml,1310317,12,1.0,74.75,74.75,Month End
-St. Louis Park,1037851,081128001063,Old Forester Signature 750ml,1468732,12,1.0,222.3,222.3,
-St. Louis Park,1037851,081128001094,Old Forester Bourbon 1910 750ml,1079793,6,1.0,220.18,220.18,
-St. Louis Park,1037851,081128001483,Woodford Reserve Bourbon Liter,1443584,6,1.0,170.0,170.0,
-St. Louis Park,1037787,081434000026,Black Box Merlot 3L Box,11173,6,1.0,84.0,84.0,Month End
-St. Louis Park,1037787,081434000033,Black Box Cab Sauv 3L Box,28860,6,2.0,84.0,168.0,Month End
-St. Louis Park,1037780,081434000040,Black Box Chardonnay 3L Box,40022,6,4.0,0.0,0.0,Free Goods
-St. Louis Park,1037787,081434000224,Black Box Pinot Grigio 3L Box,12436,6,3.0,84.0,252.0,Month End
-St. Louis Park,1037787,081434000293,Black Box Cab Sauv 500ml,000019013,12,1.0,40.0,40.0,Month End
-St. Louis Park,1037787,081434000309,Black Box Chardonnay 500ml,000019011,12,1.0,40.0,40.0,Month End
-St. Louis Park,1037787,081434710017,Black Box Pinot Noir 3L Box,23642,6,1.0,84.0,84.0,Month End
-St. Louis Park,1038047,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,2.0,121.0,0.0,Diageo October Month end
-St. Louis Park,1038047,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,0.0,Diageo October Month end
-St. Louis Park,1038047,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,0.0,Diageo October Month end
-St. Louis Park,1037851,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,1.0,153.09,153.09,
-St. Louis Park,1038047,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,0.0,Diageo October Month end
-St. Louis Park,1037851,082000812098,Casamigos Margarita 375ml,1705040,12,1.0,89.95,89.95,
-St. Louis Park,1037787,082100738397,Black Box Sauvignon Blanc 3L Box,16008,6,3.0,84.0,252.0,Month End
-St. Louis Park,1037787,082100738465,Black Box Malbec 3L Box,17157,6,1.0,84.0,84.0,Month End
-St. Louis Park,1037787,082242017053,Stoneleigh Sauvignon Blanc 750ml,1288410,12,1.0,128.0,128.0,Month End
-St. Louis Park,1037978,08247201,Smirnoff Vodka 50ml,000045211,120,1.0,79.0,79.0,Diageo October Month End
-St. Louis Park,1037787,084279002156,Yes Way Rose 750ml,001987455,12,1.0,121.0,121.0,Month End
-St. Louis Park,1037851,084279184227,Karkov Vodka 1.75L,000002782,6,3.0,56.25,168.75,
-St. Louis Park,1038030,084279979472,Il Tramonto Limoncello 750ml,000015946,6,1.0,71.25,71.25,VAP
-St. Louis Park,1038064,084279996714,Kinky Green 750ml,1287106,6,1.0,0.0,0.0,Johnson October Free Goods
-St. Louis Park,1037787,085000003015,Peter Vella Merlot 5L Box,12583,4,1.0,57.0,57.0,Month End
-St. Louis Park,1037787,085000006795,Peter Vella Chardonnay 5L Box,13375,4,1.0,57.0,57.0,Month End
-St. Louis Park,1037851,085000006818,New Amsterdam Tangerine 50ml,1944461,120,1.0,80.0,80.0,
-St. Louis Park,1037787,085000007433,Andre Brut 750ml,000012815,12,1.0,58.0,58.0,Month End
-St. Louis Park,1037787,085000007488,Andre Extra Dry 750ml,000012864,12,1.0,58.0,58.0,Month End
-St. Louis Park,1037787,085000011638,Prati by Louis Martini Cabernet Sauvignon 750ml,1619997,12,1.0,128.0,128.0,Month End
-St. Louis Park,1037787,085000012178,Da Vinci Chianti,000010069,12,1.0,112.0,112.0,Month End
-St. Louis Park,1038094,085000014301,New Amsterdam Gin 1.75L,000014484,6,1.0,108.0,108.0,Gallo October Month End
-St. Louis Park,1037787,085000014448,Barefoot Pinot Grigio 750ml,000011876,12,1.0,51.85,51.85,Month End
-St. Louis Park,1037787,085000016671,Barefoot Moscato 1.5L,14339,6,1.0,48.27,48.27,Month End
-St. Louis Park,1037787,085000016688,Barefoot Moscato 750ml,000014338,12,1.0,51.85,51.85,Month End
-St. Louis Park,1037787,085000017746,Apothic Red 750ml,000017532,12,8.0,80.0,560.0,Month End
-St. Louis Park,1037851,085000019498,New Amsterdam Vodka 750ml,19067,12,1.0,108.0,108.0,
-St. Louis Park,1037787,085000019894,Barefoot Red Moscato 750ml,000019660,12,1.0,51.85,51.85,Month End
-St. Louis Park,1037787,085000020456,Barefoot Pink Moscato 750ml,000020621,12,1.0,51.85,51.85,Month End
-St. Louis Park,1037787,085000020609,Barefoot Pink Moscato 1.5L,20595,6,1.0,48.27,48.27,Month End
-St. Louis Park,1037787,085000022955,Barefoot Pinot Grigio 3L Box,000024967,6,1.0,84.0,84.0,Month End
-St. Louis Park,1037851,085000024041,E&J Apple Brandy 750ml,000026840,12,1.0,117.0,117.0,
-St. Louis Park,1037787,085000029015,Barefoot Strawberry Moscato 750ml,001433753,12,1.0,51.85,51.85,Month End
-St. Louis Park,1037851,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,12.0,48.5,582.0,
-St. Louis Park,1037787,085000029909,Barefoot Strawberry Moscato 1.5L,1453245,6,1.0,48.27,48.27,Month End
-St. Louis Park,1037787,085000030967,Apothic Cabernet Sauv 750ml,001540549,12,1.0,96.0,96.0,Month End
-St. Louis Park,1037787,085000031001,Barefoot Sauvignon Blanc 3L Box,001167388,6,1.0,84.0,84.0,Month End
-St. Louis Park,1037787,085000031780,Barefoot Blueberry Moscato 750ml,001644598,12,1.0,51.85,51.85,Month End
-St. Louis Park,1037851,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,52.0,104.0,
-St. Louis Park,1037787,085000033388,Black Box Buttery Chard 500ml Tetra 500ml,001363416,12,1.0,40.0,40.0,Month End
-St. Louis Park,1037787,085000033395,Black Box Sauvignon Blanc 500ml Tetra 500ml,001471286,12,1.0,40.0,40.0,Month End
-St. Louis Park,1037787,085000034514,Black Box Brilliant Cabernet 3L Box,1791123,6,1.0,84.0,84.0,Month End
-St. Louis Park,1037787,085000034552,Black Box Deep Dark Cabernet 3L Box,001597815,6,1.0,84.0,84.0,Month End
-St. Louis Park,1037851,085000037393,High Noon Tequila Fiesta Pack 8pk 12oz can,1874927,3,1.0,56.5,56.5,
-St. Louis Park,1037787,085000037539,Black Box Chardonnay Liter Tetra,1331373,12,1.0,72.0,72.0,Month End
-St. Louis Park,1037787,085000042427,Black Box Reserve Chardonnay 3L Box,1837051,4,1.0,80.0,80.0,Month End
-St. Louis Park,1037851,085000426272,High Noon Grapefruit 4pk 12oz can,001551178,6,1.0,54.0,54.0,
-St. Louis Park,1037851,085000429259,High Noon Watermelon 4pk 12oz can,001069422,6,1.0,54.0,54.0,
-St. Louis Park,1037851,085000429266,High Noon Pineapple 4pk 12oz can,001761846,6,2.0,54.0,108.0,
-St. Louis Park,1037851,085000431375,High Noon Peach 4pk 12oz can,001276032,6,1.0,54.0,54.0,
-St. Louis Park,1037851,085000434260,High Noon Lemon 4pk 12oz can,001022787,6,1.0,54.0,54.0,
-St. Louis Park,1037851,08541509,E&J Brandy 1.75L,000006064,6,1.0,106.0,106.0,
-St. Louis Park,1037851,08588005,New Amsterdam Vodka 50ml,1748651,120,1.0,80.0,80.0,
-St. Louis Park,1037787,086788000470,Hahn GSM 750ml,1577728,12,1.0,108.0,108.0,Month End
-St. Louis Park,1037851,088004144722,Fireball Whisky 375ml,24767,24,1.0,122.5,122.5,
-St. Louis Park,1038047,088076163164,Johnnie Walker Red 1.75L,000053983,6,1.0,175.5,175.5,Diageo October Month end
-St. Louis Park,1037978,088076190641,Lagavulin 11yr Sweet Peat 750ml,1029704,6,1.0,315.0,0.0,Diageo October Month End
-St. Louis Park,1037978,088110140052,Lagavulin 16 Yr Single 750ml,43810,12,1.0,825.0,825.0,Diageo October Month End
-St. Louis Park,1037851,088110150624,Hennessy VS Cognac 375ml,20585,12,1.0,153.0,153.0,
-St. Louis Park,1037787,088474022407,Relax Riesling 750ml,1044335,12,1.0,96.0,96.0,Month End
-St. Louis Park,1037787,197644942299,Jinro Chamisul Melon 375ml,1957489,20,1.0,96.0,96.0,Month End
-St. Louis Park,1037851,619947000013,Tito's Vodka Liter,22149,12,2.0,218.0,436.0,
-St. Louis Park,1037851,619947000020,Tito's Vodka 750ml,1923946,12,1.0,174.0,174.0,
-St. Louis Park,1037851,619947000037,Tito's Vodka 1.75L,22221,6,12.0,163.89,1966.68,
-St. Louis Park,1037851,619947000051,Tito's Vodka 375ml,1182218,12,2.0,99.0,198.0,
-St. Louis Park,1037851,619947000518,Titos Vodka 100ml,1190418,48,1.0,113.0,113.0,
-St. Louis Park,1037851,721059001311,Aperol Aperitivo 750ml,20245,6,1.0,95.5,95.5,
-St. Louis Park,1037787,724624001006,J Vineyards Pinot Noir 750ml,001601941,12,1.0,184.0,184.0,Month End
-St. Louis Park,1037787,724624001075,J Vineyards Chardonnay 750ml,001197539,12,1.0,184.0,184.0,Month End
-St. Louis Park,1037787,724624116090,J Vineyards Pinot Gris 750ml,17852,12,1.0,128.0,128.0,Month End
-St. Louis Park,1037787,795652200518,Jinro Chamisul Classico Soju 20.1% 750ml,000018047,12,1.0,107.5,107.5,Month End
-St. Louis Park,1037851,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,
-St. Louis Park,1037851,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,197.88,197.88,
-St. Louis Park,1037851,811538012034,Maestro Dobel Diamante 750ml,000021245,6,1.0,230.0,230.0,
-St. Louis Park,1037851,818844022344,Gran Centenario Reposado Tequila 375ml,1528163,12,1.0,164.16,164.16,
-St. Louis Park,1037787,851718000338,Mark West Pinot Noir 750ml,000047357,12,1.0,96.0,96.0,Month End
-St. Louis Park,1037978,856724006138,Casamigos Blanco 50ml,1424243,60,1.0,178.0,178.0,Diageo October Month End
-St. Louis Park,1037780,857744001318,Josh Cellars Cabernet Sauvignon 750ml,000859252,12,2.0,0.0,0.0,Free Goods
-St. Louis Park,1037787,857744001325,Josh Cellars Chardonnay 750ml,000859261,12,2.0,106.94,213.88,Month End
-St. Louis Park,1037787,860129002107,Bev Cal Rose 4pk 250ml,001823174,6,1.0,68.0,68.0,Month End
+Blaine,1038236,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Cottage Grove,1038264,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Minneapolis,1038277,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,3.0,121.0,363.0,Diageo October Bill and Hold
+Minnetonka,1038287,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Ramsey,1038318,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Rosemount,1038329,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Roseville,1038339,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,2.0,121.0,242.0,Diageo October Bill and Hold
+St. Louis Park,1038351,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Stillwater,1038363,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Vadnais Heights,1038373,082000001027,Smirnoff Green Apple Vodka Liter,000052860,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Andover,1038226,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Blaine,1038236,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Chanhassen,1038255,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Cottage Grove,1038264,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Osseo,1038295,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo October Bill and Hold
+St. Louis Park,1038351,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Stillwater,1038363,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Vadnais Heights,1038373,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Woodbury,1038383,082000003977,Smirnoff Raspberry Vodka Liter,000003970,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Andover,1038226,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Blaine,1038236,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Bloomington,1038246,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Chanhassen,1038255,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Cottage Grove,1038264,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Minneapolis,1038277,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Plymouth,1038307,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Rosemount,1038329,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Roseville,1038339,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+St. Louis Park,1038351,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Stillwater,1038363,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Vadnais Heights,1038373,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Woodbury,1038383,082000004028,Smirnoff Vanilla Vodka Liter,000014506,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Andover,1038229,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,7.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Chanhassen,1038260,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Cottage Grove,1038271,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Osseo,1038302,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Plymouth,1038313,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,2.0,78.5,157.0,Johnson October Bill and Hold
+Rosemount,1038335,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,2.0,78.5,157.0,Johnson October Bill and Hold
+Roseville,1038346,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Stillwater,1038369,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Vadnais Heights,1038376,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,082000190325,Jose Cuervo Auth Margarita 1.75L,000014522,6,4.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038231,082000192954,Jose Cuervo Gold Tequila 200ml,000007260,48,1.0,200.96,200.96,Johnson October Bill and Hold
+Minneapolis,1038283,082000192954,Jose Cuervo Gold Tequila 200ml,000007260,48,1.0,200.96,200.96,Johnson October Bill and Hold
+Roseville,1038346,082000192954,Jose Cuervo Gold Tequila 200ml,000007260,48,1.0,200.96,200.96,Johnson October Bill and Hold
+Andover,1038231,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Blaine,1038242,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,3.0,97.0,291.0,Johnson October Bill and Hold
+Cottage Grove,1038271,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Osseo,1038302,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Plymouth,1038313,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Ramsey,1038322,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038346,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Woodbury,1038389,082000730361,Jose Cuervo Golden Margarita 1.75L,10779,6,2.0,97.0,194.0,Johnson October Bill and Hold
+Andover,1038226,082000731528,Smirnoff Cherry Vodka Liter,000010908,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Blaine,1038236,082000731528,Smirnoff Cherry Vodka Liter,000010908,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Minneapolis,1038277,082000731528,Smirnoff Cherry Vodka Liter,000010908,12,5.0,121.0,605.0,Diageo October Bill and Hold
+Osseo,1038295,082000731528,Smirnoff Cherry Vodka Liter,000010908,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Roseville,1038339,082000731528,Smirnoff Cherry Vodka Liter,000010908,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Andover,1038231,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,2.0,153.09,306.18,Johnson October Bill and Hold
+Cottage Grove,1038271,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,4.0,153.09,612.36,Johnson October Bill and Hold
+Minneapolis,1038283,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,8.0,153.09,1224.72,Johnson October Bill and Hold
+St. Louis Park,1038358,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Stillwater,1038369,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Vadnais Heights,1038378,082000743750,Jose Cuervo Silver Tequila 1.75L,000015782,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Andover,1038226,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,4.0,121.0,484.0,Diageo October Bill and Hold
+Blaine,1038236,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,3.0,121.0,363.0,Diageo October Bill and Hold
+Bloomington,1038246,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Chanhassen,1038255,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Cottage Grove,1038264,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Minneapolis,1038277,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,5.0,121.0,605.0,Diageo October Bill and Hold
+Minnetonka,1038287,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Osseo,1038295,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Plymouth,1038307,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Ramsey,1038318,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Rosemount,1038329,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Roseville,1038339,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,2.0,121.0,242.0,Diageo October Bill and Hold
+St. Louis Park,1038351,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Stillwater,1038363,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Vadnais Heights,1038373,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Woodbury,1038383,082000759621,Smirnoff Kissed Caramel Vodka Liter,000020519,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Bloomington,1038246,082000788096,Smirnoff Red White & Berry Liter,001272119,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Minneapolis,1038277,082000788096,Smirnoff Red White & Berry Liter,001272119,12,5.0,121.0,605.0,Diageo October Bill and Hold
+Osseo,1038295,082000788096,Smirnoff Red White & Berry Liter,001272119,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Bloomington,1038246,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Chanhassen,1038255,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Minneapolis,1038274,08200501,Smirnoff Vodka Liter,000002568,12,5.5,0.0,0.0,Diageo Bill and Hold Free Goods
+Plymouth,1038307,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Ramsey,1038318,08200501,Smirnoff Vodka Liter,000002568,12,2.0,121.0,242.0,Diageo October Bill and Hold
+Roseville,1038339,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+St. Louis Park,1038351,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Stillwater,1038363,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Woodbury,1038383,08200501,Smirnoff Vodka Liter,000002568,12,1.0,121.0,121.0,Diageo October Bill and Hold
+Blaine,1038240,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Bloomington,1038250,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038275,08256102,Smirnoff Vodka 375ml,000002584,24,2.0,0.0,0.0,Diageo Bill and Hold Free Goods
+Roseville,1038343,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,08256102,Smirnoff Vodka 375ml,000002584,24,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Vadnais Heights,1038376,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038381,08256102,Smirnoff Vodka 375ml,000002584,24,1.0,0.0,0.0,Diageo Bill and Hold Free Goods
+Blaine,1038242,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,204.65,204.65,Johnson October Bill and Hold
+Cottage Grove,1038271,084104115914,Pendleton Canadian Whiskey 750ml,000018887,12,1.0,204.65,204.65,Johnson October Bill and Hold
+Andover,1038229,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038242,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,3.0,182.21,546.63,Johnson October Bill and Hold
+Cottage Grove,1038271,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,1.0,182.21,182.21,Johnson October Bill and Hold
+Osseo,1038302,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,1.0,182.21,182.21,Johnson October Bill and Hold
+St. Louis Park,1038358,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,2.0,182.21,364.42,Johnson October Bill and Hold
+Stillwater,1038369,084104115921,Pendleton Canadian Whiskey 1.75L,000014210,6,1.0,182.21,182.21,Johnson October Bill and Hold
+Minneapolis,1038281,084279008004,Kinky Peach Mango 750ml,1232156,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038229,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,084279184227,Karkov Vodka 1.75L,000002782,6,7.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038270,084279184227,Karkov Vodka 1.75L,000002782,6,3.0,56.25,168.75,Johnson October Bill and hold
+Minneapolis,1038281,084279184227,Karkov Vodka 1.75L,000002782,6,11.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038301,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,56.25,56.25,Johnson October Bill and hold
+Ramsey,1038324,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,56.25,56.25,Johnson October Bill and hold
+Roseville,1038345,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,56.25,56.25,Johnson October Bill and hold
+St. Louis Park,1038357,084279184227,Karkov Vodka 1.75L,000002782,6,4.0,56.25,225.0,Johnson October Bill and hold
+Vadnais Heights,1038377,084279184227,Karkov Vodka 1.75L,000002782,6,1.0,56.25,56.25,Johnson October Bill and hold
+Woodbury,1038388,084279184227,Karkov Vodka 1.75L,000002782,6,2.0,56.25,112.5,Johnson October Bill and hold
+Andover,1038229,084279972060,Karkov Gin 1.75L,000068569,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,084279972060,Karkov Gin 1.75L,000068569,6,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Bloomington,1038250,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Chanhassen,1038258,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038268,084279972060,Karkov Gin 1.75L,000068569,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,084279972060,Karkov Gin 1.75L,000068569,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minnetonka,1038290,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038299,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Plymouth,1038311,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Ramsey,1038322,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038333,084279972060,Karkov Gin 1.75L,000068569,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038345,084279972060,Karkov Gin 1.75L,000068569,6,2.0,59.06,118.12,Johnson October Bill and hold
+St. Louis Park,1038357,084279972060,Karkov Gin 1.75L,000068569,6,2.0,59.06,118.12,Johnson October Bill and hold
+Stillwater,1038368,084279972060,Karkov Gin 1.75L,000068569,6,1.0,59.06,59.06,Johnson October Bill and hold
+Vadnais Heights,1038377,084279972060,Karkov Gin 1.75L,000068569,6,1.0,59.06,59.06,Johnson October Bill and hold
+Woodbury,1038388,084279972060,Karkov Gin 1.75L,000068569,6,2.0,59.06,118.12,Johnson October Bill and hold
+Minneapolis,1038281,084279983431,Kinky Pink Liqueur 750ml,1884625,6,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,084279991535,Kinky Blue 750ml,1481945,6,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038302,084279991535,Kinky Blue 750ml,1481945,6,1.0,76.74,76.74,Johnson October Bill and Hold
+Minneapolis,1038281,084279996714,Kinky Green 750ml,1287106,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,084279998350,Kinky Red 750ml,1195927,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038238,085000019504,New Amsterdam Vodka Liter,000019066,12,2.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Bloomington,1038248,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Cottage Grove,1038266,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Minneapolis,1038279,085000019504,New Amsterdam Vodka Liter,000019066,12,5.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Osseo,1038297,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Plymouth,1038309,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Ramsey,1038320,085000019504,New Amsterdam Vodka Liter,000019066,12,0.5,0.0,0.0,Gallo Bill and Hold Free Goods
+Rosemount,1038331,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Roseville,1038341,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+St. Louis Park,1038353,085000019504,New Amsterdam Vodka Liter,000019066,12,2.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Woodbury,1038385,085000019504,New Amsterdam Vodka Liter,000019066,12,1.0,0.0,0.0,Gallo Bill and Hold Free Goods
+Blaine,1038239,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,30.0,48.5,1455.0,Gallo October Bill and Hold
+Bloomington,1038249,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,48.5,485.0,Gallo October Bill and Hold
+Chanhassen,1038257,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,48.5,485.0,Gallo October Bill and Hold
+Cottage Grove,1038267,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,20.0,48.5,970.0,Gallo October Bill and Hold
+Minneapolis,1038280,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,40.0,48.5,1940.0,Gallo October Bill and Hold
+Minnetonka,1038289,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,5.0,48.5,242.5,Gallo October Bill and Hold
+Osseo,1038298,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,2.0,48.5,97.0,Gallo October Bill and Hold
+Plymouth,1038310,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,14.0,48.5,679.0,Gallo October Bill and Hold
+Ramsey,1038321,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,8.0,48.5,388.0,Gallo October Bill and Hold
+Rosemount,1038332,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,48.5,485.0,Gallo October Bill and Hold
+Roseville,1038342,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,2.0,48.5,97.0,Gallo October Bill and Hold
+St. Louis Park,1038354,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,50.0,48.5,2425.0,Gallo October Bill and Hold
+Stillwater,1038365,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,48.5,485.0,Gallo October Bill and Hold
+Vadnais Heights,1038375,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,5.0,48.5,242.5,Gallo October Bill and Hold
+Woodbury,1038386,085000029862,High Noon Variety Pack 12pk 12oz can,001880208,2,10.0,48.5,485.0,Gallo October Bill and Hold
+Blaine,1038239,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,11.0,52.0,572.0,Gallo October Bill and Hold
+Bloomington,1038249,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,3.0,52.0,156.0,Gallo October Bill and Hold
+Cottage Grove,1038267,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,8.0,52.0,416.0,Gallo October Bill and Hold
+Minneapolis,1038280,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,30.0,52.0,1560.0,Gallo October Bill and Hold
+Minnetonka,1038289,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,2.0,52.0,104.0,Gallo October Bill and Hold
+Osseo,1038298,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,5.0,52.0,260.0,Gallo October Bill and Hold
+Ramsey,1038321,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,6.0,52.0,312.0,Gallo October Bill and Hold
+Rosemount,1038332,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,3.0,52.0,156.0,Gallo October Bill and Hold
+Roseville,1038342,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,12.0,52.0,624.0,Gallo October Bill and Hold
+St. Louis Park,1038354,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,6.0,52.0,312.0,Gallo October Bill and Hold
+Stillwater,1038365,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,5.0,52.0,260.0,Gallo October Bill and Hold
+Vadnais Heights,1038375,085000031513,High Noon Variety Pack 8pk 12oz can,001025767,3,8.0,52.0,416.0,Gallo October Bill and Hold
+Bloomington,1038249,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,52.0,104.0,Gallo October Bill and Hold
+Cottage Grove,1038267,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,52.0,104.0,Gallo October Bill and Hold
+Minneapolis,1038280,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,16.0,52.0,832.0,Gallo October Bill and Hold
+Minnetonka,1038289,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,2.0,52.0,104.0,Gallo October Bill and Hold
+Osseo,1038298,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,4.0,52.0,208.0,Gallo October Bill and Hold
+Rosemount,1038332,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,1.0,52.0,52.0,Gallo October Bill and Hold
+Roseville,1038342,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,1.0,52.0,52.0,Gallo October Bill and Hold
+St. Louis Park,1038354,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,10.0,52.0,520.0,Gallo October Bill and Hold
+Stillwater,1038365,085000032558,High Noon Tropical Variety Pack 8pk 12oz can,001469521,3,7.0,52.0,364.0,Gallo October Bill and Hold
+Andover,1038228,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,3.0,52.0,156.0,Gallo October Bill and Hold
+Blaine,1038239,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,1.0,52.0,52.0,Gallo October Bill and Hold
+Cottage Grove,1038267,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,3.0,52.0,156.0,Gallo October Bill and Hold
+St. Louis Park,1038354,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,7.0,52.0,364.0,Gallo October Bill and Hold
+Woodbury,1038386,085000043066,High Noon Pineapple 8pk 12oz can,1529294,3,2.0,52.0,104.0,Gallo October Bill and Hold
+Blaine,1038239,085000043073,High Noon Peach 8pk 12oz can,1467100,3,2.0,52.0,104.0,Gallo October Bill and Hold
+Cottage Grove,1038267,085000043073,High Noon Peach 8pk 12oz can,1467100,3,4.0,52.0,208.0,Gallo October Bill and Hold
+Minneapolis,1038280,085000043073,High Noon Peach 8pk 12oz can,1467100,3,7.0,52.0,364.0,Gallo October Bill and Hold
+Plymouth,1038310,085000043073,High Noon Peach 8pk 12oz can,1467100,3,8.0,52.0,416.0,Gallo October Bill and Hold
+Roseville,1038342,085000043073,High Noon Peach 8pk 12oz can,1467100,3,1.0,52.0,52.0,Gallo October Bill and Hold
+St. Louis Park,1038354,085000043073,High Noon Peach 8pk 12oz can,1467100,3,3.0,52.0,156.0,Gallo October Bill and Hold
+Vadnais Heights,1038375,085000043073,High Noon Peach 8pk 12oz can,1467100,3,3.0,52.0,156.0,Gallo October Bill and Hold
+Andover,1038229,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,088004091477,Kinky Grape Liqueur 750ml,1217573,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Bloomington,1038250,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038268,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,088004091477,Kinky Grape Liqueur 750ml,1217573,6,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038299,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Plymouth,1038311,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038333,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Vadnais Heights,1038376,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,088004091477,Kinky Grape Liqueur 750ml,1217573,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038242,088076169005,Bushmills Irish Whiskey 1.75L,000014526,6,1.0,216.0,216.0,Johnson October Bill and Hold
+Andover,1038226,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,1.0,167.0,167.0,Diageo October Bill and Hold
+Blaine,1038234,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,3.0,0.0,0.0,Diageo Bill and Hold Free Goods
+Bloomington,1038246,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,1.0,167.0,167.0,Diageo October Bill and Hold
+Chanhassen,1038255,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,1.0,167.0,167.0,Diageo October Bill and Hold
+Cottage Grove,1038264,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,5.0,167.0,835.0,Diageo October Bill and Hold
+Minneapolis,1038277,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,12.0,167.0,2004.0,Diageo October Bill and Hold
+Plymouth,1038307,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,1.0,167.0,167.0,Diageo October Bill and Hold
+Ramsey,1038318,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,1.0,167.0,167.0,Diageo October Bill and Hold
+Rosemount,1038329,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,1.0,167.0,167.0,Diageo October Bill and Hold
+Roseville,1038339,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,3.0,167.0,501.0,Diageo October Bill and Hold
+St. Louis Park,1038351,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,2.0,167.0,334.0,Diageo October Bill and Hold
+Stillwater,1038363,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,3.0,167.0,501.0,Diageo October Bill and Hold
+Vadnais Heights,1038373,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,3.0,167.0,501.0,Diageo October Bill and Hold
+Woodbury,1038383,674545000001,Don Julio Blanco Tequila 750ml,000060384,6,4.0,167.0,668.0,Diageo October Bill and Hold
+Andover,1038229,760354961111,Lovejoys Sunshine Concentrate 12oz,1820524,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,760354961111,Lovejoys Sunshine Concentrate 12oz,1820524,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,760354961111,Lovejoys Sunshine Concentrate 12oz,1820524,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,760354961111,Lovejoys Sunshine Concentrate 12oz,1820524,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,760354961111,Lovejoys Sunshine Concentrate 12oz,1820524,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038229,760354961128,Lovejoys Purple Velvet Concentrat 12oz,1243978,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,760354961128,Lovejoys Purple Velvet Concentrat 12oz,1243978,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,760354961128,Lovejoys Purple Velvet Concentrat 12oz,1243978,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,760354961128,Lovejoys Purple Velvet Concentrat 12oz,1243978,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,760354961128,Lovejoys Purple Velvet Concentrat 12oz,1243978,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038242,810178380039,Jose Cuervo Authentic Margarita Double Strength 375ml,1157167,12,1.0,39.22,39.22,Johnson October Bill and Hold
+Minneapolis,1038283,810178380039,Jose Cuervo Authentic Margarita Double Strength 375ml,1157167,12,1.0,39.22,39.22,Johnson October Bill and Hold
+Roseville,1038346,810178380039,Jose Cuervo Authentic Margarita Double Strength 375ml,1157167,12,1.0,39.22,39.22,Johnson October Bill and Hold
+Blaine,1038242,810178380121,Jose Cuervo Sparkling Cocktails Variety Pack 8pk 12oz can,1935616,3,1.0,40.45,40.45,Johnson October Bill and Hold
+Ramsey,1038325,810178380121,Jose Cuervo Sparkling Cocktails Variety Pack 8pk 12oz can,1935616,3,1.0,40.45,40.45,Johnson October Bill and Hold
+Woodbury,1038389,810178380121,Jose Cuervo Sparkling Cocktails Variety Pack 8pk 12oz can,1935616,3,2.0,40.45,80.9,Johnson October Bill and Hold
+St. Louis Park,1038358,811538010122,1800 Silver Tequila 375ml,000022270,12,1.0,133.4,133.4,Johnson October Bill and Hold
+Stillwater,1038369,811538010122,1800 Silver Tequila 375ml,000022270,12,1.0,133.4,133.4,Johnson October Bill and Hold
+Woodbury,1038389,811538010122,1800 Silver Tequila 375ml,000022270,12,1.0,133.4,133.4,Johnson October Bill and Hold
+Bloomington,1038252,811538010139,1800 Silver Tequila 750ml,000021783,12,1.0,213.75,213.75,Johnson October Bill and Hold
+Chanhassen,1038260,811538010139,1800 Silver Tequila 750ml,000021783,12,1.0,213.75,213.75,Johnson October Bill and Hold
+Minneapolis,1038283,811538010139,1800 Silver Tequila 750ml,000021783,12,4.0,213.75,855.0,Johnson October Bill and Hold
+Ramsey,1038325,811538010139,1800 Silver Tequila 750ml,000021783,12,1.0,213.75,213.75,Johnson October Bill and Hold
+Andover,1038231,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,189.0,Johnson October Bill and Hold
+Blaine,1038242,811538010153,1800 Silver Tequila 1.75L,000022247,6,5.0,189.0,945.0,Johnson October Bill and Hold
+Chanhassen,1038260,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,189.0,Johnson October Bill and Hold
+Cottage Grove,1038271,811538010153,1800 Silver Tequila 1.75L,000022247,6,2.0,189.0,378.0,Johnson October Bill and Hold
+Osseo,1038299,811538010153,1800 Silver Tequila 1.75L,000022247,6,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Plymouth,1038313,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,189.0,Johnson October Bill and Hold
+Rosemount,1038335,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,189.0,Johnson October Bill and Hold
+Roseville,1038346,811538010153,1800 Silver Tequila 1.75L,000022247,6,3.0,189.0,567.0,Johnson October Bill and Hold
+St. Louis Park,1038358,811538010153,1800 Silver Tequila 1.75L,000022247,6,3.0,189.0,567.0,Johnson October Bill and Hold
+Vadnais Heights,1038378,811538010153,1800 Silver Tequila 1.75L,000022247,6,1.0,189.0,189.0,Johnson October Bill and Hold
+Woodbury,1038387,811538010153,1800 Silver Tequila 1.75L,000022247,6,5.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038302,811538010238,1800 Reposado Tequila 750ml,7393,12,1.0,231.75,231.75,Johnson October Bill and Hold
+Roseville,1038346,811538010238,1800 Reposado Tequila 750ml,7393,12,1.0,231.75,231.75,Johnson October Bill and Hold
+Andover,1038231,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Blaine,1038242,811538010252,1800 Reposado Tequila 1.75L,000022253,6,4.0,215.96,863.84,Johnson October Bill and Hold
+Cottage Grove,1038271,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Minneapolis,1038283,811538010252,1800 Reposado Tequila 1.75L,000022253,6,3.0,215.96,647.88,Johnson October Bill and Hold
+Minnetonka,1038291,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Osseo,1038302,811538010252,1800 Reposado Tequila 1.75L,000022253,6,2.0,215.96,431.92,Johnson October Bill and Hold
+Plymouth,1038313,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Ramsey,1038325,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+St. Louis Park,1038358,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Vadnais Heights,1038378,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Woodbury,1038389,811538010252,1800 Reposado Tequila 1.75L,000022253,6,1.0,215.96,215.96,Johnson October Bill and Hold
+Andover,1038231,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Blaine,1038242,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Bloomington,1038252,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,2.0,153.09,306.18,Johnson October Bill and Hold
+Cottage Grove,1038271,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,2.0,153.09,306.18,Johnson October Bill and Hold
+Minneapolis,1038283,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,2.0,153.09,306.18,Johnson October Bill and Hold
+Plymouth,1038313,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Roseville,1038346,811538010764,Jose Cuervo Gold Tequila 1.75L,000046516,6,1.0,153.09,153.09,Johnson October Bill and Hold
+Andover,1038229,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038268,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,10.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038302,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,1.0,196.5,196.5,Johnson October Bill and Hold
+Plymouth,1038311,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Ramsey,1038322,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038333,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,4.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Vadnais Heights,1038376,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,811538010801,Jose Cuervo Gold Tequila Liter,000007237,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038268,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,15.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minnetonka,1038290,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038299,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Plymouth,1038311,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Ramsey,1038322,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038333,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Stillwater,1038366,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Vadnais Heights,1038378,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,2.0,196.5,393.0,Johnson October Bill and Hold
+Woodbury,1038389,811538010825,Jose Cuervo Silver Tequila Liter,000015779,12,1.0,196.5,196.5,Johnson October Bill and Hold
+Blaine,1038240,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Bloomington,1038250,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038268,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Vadnais Heights,1038376,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,811538010832,Jose Cuervo Gold Tequila 750ml,000007245,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Andover,1038229,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Blaine,1038240,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Chanhassen,1038258,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038268,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Minneapolis,1038281,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,7.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Rosemount,1038333,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Roseville,1038343,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038387,811538010856,Jose Cuervo Silver Tequila 750ml,000015783,12,2.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Cottage Grove,1038271,811538010870,Jose Cuervo Silver Tequila 375ml,15778,24,1.0,174.0,174.0,Johnson October Bill and Hold
+Minneapolis,1038283,811538010870,Jose Cuervo Silver Tequila 375ml,15778,24,2.0,174.0,348.0,Johnson October Bill and Hold
+Ramsey,1038325,811538010870,Jose Cuervo Silver Tequila 375ml,15778,24,1.0,174.0,174.0,Johnson October Bill and Hold
+Andover,1038231,811538010887,Jose Cuervo Gold Tequila 375ml,7252,24,1.0,174.0,174.0,Johnson October Bill and Hold
+Minneapolis,1038283,811538010887,Jose Cuervo Gold Tequila 375ml,7252,24,3.0,174.0,522.0,Johnson October Bill and Hold
+Andover,1038231,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,2.0,78.5,157.0,Johnson October Bill and Hold
+Bloomington,1038252,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Cottage Grove,1038271,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,2.0,78.5,157.0,Johnson October Bill and Hold
+Minneapolis,1038283,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Osseo,1038302,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Plymouth,1038313,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,2.0,78.5,157.0,Johnson October Bill and Hold
+Rosemount,1038335,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Roseville,1038346,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Stillwater,1038369,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Woodbury,1038389,811538011006,Jose Cuervo Authentic Light Margarita 1.75L,000018221,6,1.0,78.5,78.5,Johnson October Bill and Hold
+Blaine,1038242,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,3.0,37.0,111.0,Johnson October Bill and Hold
+Minneapolis,1038283,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Osseo,1038302,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Rosemount,1038335,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Roseville,1038346,811538011150,Jose Cuervo Margarita Mix 1.75L,53967,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Blaine,1038242,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Minneapolis,1038283,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,2.0,37.0,74.0,Johnson October Bill and Hold
+Plymouth,1038313,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,1.0,37.0,37.0,Johnson October Bill and Hold
+St. Louis Park,1038358,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Vadnais Heights,1038378,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Woodbury,1038389,811538011181,Jose Cuervo Light Marg. Mix 1.75L,18224,6,1.0,37.0,37.0,Johnson October Bill and Hold
+Blaine,1038242,811538011365,Cuervo Traditional Reposado 375ml,1071761,12,1.0,117.5,117.5,Johnson October Bill and Hold
+Minneapolis,1038283,811538011365,Cuervo Traditional Reposado 375ml,1071761,12,1.0,117.5,117.5,Johnson October Bill and Hold
+Andover,1038231,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,197.88,197.88,Johnson October Bill and Hold
+Blaine,1038242,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,197.88,197.88,Johnson October Bill and Hold
+Bloomington,1038252,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,197.88,197.88,Johnson October Bill and Hold
+Cottage Grove,1038271,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,197.88,197.88,Johnson October Bill and Hold
+Minneapolis,1038283,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,2.0,197.88,395.76,Johnson October Bill and Hold
+Rosemount,1038333,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,3.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,811538011372,Jose Cuervo Tradicional Gold 750ml,000056655,12,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038358,811538011396,Jose Cuervo Tradicional Gold 1.75L,000010952,6,1.0,164.46,164.46,Johnson October Bill and Hold
+Cottage Grove,1038271,811538011877,Tin Cup Whiskey 750ml,000024731,12,1.0,279.0,279.0,Johnson October Bill and Hold
+Rosemount,1038333,811538012034,Maestro Dobel Diamante 750ml,000021245,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+St. Louis Park,1038355,811538012034,Maestro Dobel Diamante 750ml,000021245,6,1.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Woodbury,1038389,811538012034,Maestro Dobel Diamante 750ml,000021245,6,1.0,230.0,230.0,Johnson October Bill and Hold
+Andover,1038231,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,2.0,103.5,207.0,Johnson October Bill and Hold
+Blaine,1038242,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,Johnson October Bill and Hold
+Bloomington,1038252,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,Johnson October Bill and Hold
+Cottage Grove,1038271,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,Johnson October Bill and Hold
+Minneapolis,1038281,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,4.0,0.0,0.0,Johnson Bill and Hold Free Goods
+Osseo,1038302,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,Johnson October Bill and Hold
+Plymouth,1038313,811538013000,Kraken Black Spiced Rum (White Label) Liter,000022261,6,1.0,103.5,103.5,Johnson October Bill and Hold
+Andover,1038231,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,1.0,125.95,125.95,Johnson October Bill and Hold
+Blaine,1038242,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,1.0,125.95,125.95,Johnson October Bill and Hold
+Cottage Grove,1038271,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,1.0,125.95,125.95,Johnson October Bill and Hold
+Vadnais Heights,1038378,811538013017,Kraken Black Spiced Rum (White Label) 1.75L,000022260,6,2.0,125.95,251.9,Johnson October Bill and Hold
+Andover,1038231,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Blaine,1038242,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Bloomington,1038252,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Cottage Grove,1038271,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Plymouth,1038313,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Rosemount,1038335,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Roseville,1038346,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+St. Louis Park,1038358,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Vadnais Heights,1038378,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Woodbury,1038389,811538013314,Jose Cuervo Gold Stawberry Mar 1.75L,000026574,6,1.0,97.0,97.0,Johnson October Bill and Hold
+Plymouth,1038313,811538016162,Bushmills Irish Whiskey 750ml,4903,12,1.0,216.0,216.0,Johnson October Bill and Hold
+St. Louis Park,1038358,811538016162,Bushmills Irish Whiskey 750ml,4903,12,1.0,216.0,216.0,Johnson October Bill and Hold
+Blaine,1038242,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,2.0,77.52,155.04,Johnson October Bill and Hold
+Chanhassen,1038260,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Ramsey,1038325,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Rosemount,1038335,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Roseville,1038346,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,2.0,77.52,155.04,Johnson October Bill and Hold
+St. Louis Park,1038358,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Stillwater,1038369,811538019156,1800 Ultimate Margarita Original 1.75L,22278,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Blaine,1038242,811538019569,Proper Twelve Irish Whiskey 750ml,1747390,12,1.0,197.91,197.91,Johnson October Bill and Hold
+Chanhassen,1038260,811538019569,Proper Twelve Irish Whiskey 750ml,1747390,12,1.0,197.91,197.91,Johnson October Bill and Hold
+Osseo,1038302,811538019569,Proper Twelve Irish Whiskey 750ml,1747390,12,1.0,197.91,197.91,Johnson October Bill and Hold
+Roseville,1038346,811538019569,Proper Twelve Irish Whiskey 750ml,1747390,12,1.0,197.91,197.91,Johnson October Bill and Hold
+St. Louis Park,1038358,811538019569,Proper Twelve Irish Whiskey 750ml,1747390,12,1.0,197.91,197.91,Johnson October Bill and Hold
+Blaine,1038242,811538019675,Proper Twelve Irish Whiskey 1.75L,001756467,6,1.0,184.51,184.51,Johnson October Bill and Hold
+Blaine,1038242,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,2.0,77.52,155.04,Johnson October Bill and Hold
+Bloomington,1038252,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Chanhassen,1038260,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Cottage Grove,1038271,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Minneapolis,1038283,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Plymouth,1038313,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Rosemount,1038335,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Roseville,1038346,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+St. Louis Park,1038358,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Vadnais Heights,1038378,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Woodbury,1038389,818844022771,1800 Ultimate Strawberry 1.75L,1372495,6,1.0,77.52,77.52,Johnson October Bill and Hold
+Cottage Grove,1038271,818844026335,400 Conejos Anejo 750ml,1789381,6,1.0,238.5,238.5,Johnson October Bill and Hold
+Roseville,1038346,818844026335,400 Conejos Anejo 750ml,1789381,6,1.0,238.5,238.5,Johnson October Bill and Hold
+Woodbury,1038389,818844026335,400 Conejos Anejo 750ml,1789381,6,1.0,238.5,238.5,Johnson October Bill and Hold
+Cottage Grove,1038271,818844026342,400 Conejos Reposado 750ml,1314362,6,1.0,172.0,172.0,Johnson October Bill and Hold
+Roseville,1038346,818844026342,400 Conejos Reposado 750ml,1314362,6,1.0,172.0,172.0,Johnson October Bill and Hold
+Woodbury,1038389,818844026342,400 Conejos Reposado 750ml,1314362,6,1.0,172.0,172.0,Johnson October Bill and Hold
+Blaine,1038242,818844028650,Jose Cuervo Authentic Margarita Double Strength Strawberry 375ml,1201548,12,1.0,39.22,39.22,Johnson October Bill and Hold
+Minneapolis,1038283,818844028650,Jose Cuervo Authentic Margarita Double Strength Strawberry 375ml,1201548,12,1.0,39.22,39.22,Johnson October Bill and Hold
+Roseville,1038346,818844028650,Jose Cuervo Authentic Margarita Double Strength Strawberry 375ml,1201548,12,1.0,39.22,39.22,Johnson October Bill and Hold
+Blaine,1038242,818844029367,1800 Reposado High Proof 375ml,1237581,12,1.0,151.12,151.12,Johnson October Bill and Hold
+Cottage Grove,1038271,818844029367,1800 Reposado High Proof 375ml,1237581,12,1.0,151.12,151.12,Johnson October Bill and Hold
+Roseville,1038346,818844029367,1800 Reposado High Proof 375ml,1237581,12,1.0,151.12,151.12,Johnson October Bill and Hold
+St. Louis Park,1038358,818844029367,1800 Reposado High Proof 375ml,1237581,12,1.0,151.12,151.12,Johnson October Bill and Hold
+Blaine,1038242,818844029671,1800 Blanco Tequila High Proof 375ml,1159363,12,1.0,142.72,142.72,Johnson October Bill and Hold
+St. Louis Park,1038358,818844029671,1800 Blanco Tequila High Proof 375ml,1159363,12,1.0,142.72,142.72,Johnson October Bill and Hold
+Woodbury,1038389,818844029671,1800 Blanco Tequila High Proof 375ml,1159363,12,1.0,142.72,142.72,Johnson October Bill and Hold
