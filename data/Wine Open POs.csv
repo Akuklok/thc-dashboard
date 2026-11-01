@@ -8,20 +8,9 @@ Receiving,876718022715,Rogue: 16 Oz Plastic Flask,"True Brands, Inc.",Minneapoli
 Receiving,876718030420,"16 oz Red Party Cups, 24 pack by True","True Brands, Inc.",Minneapolis,1037675,Receiving,1.0,0.0,-1.0,Miscellaneous,Accessories,,,2026-10-26T00:00:00
 Receiving,876718032745,Assorted Retro Drinking Icon Wine Bags,"True Brands, Inc.",Blaine,1037610,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-26T00:00:00
 Receiving,876718043512,Soft Touch Black Double Hinged Corkscrew,"True Brands, Inc.",Blaine,1037610,Receiving,1.0,,,Miscellaneous,Accessories,,,2026-10-26T00:00:00
-Receiving,857680001014,Shannon Ridge Cabernet Sauvignon 750ml,Paustis Wine,Minnetonka,1037690,Receiving,1.0,,,Wine,Cabernet,,,2026-10-26T00:00:00
 Receiving,080960000074,Readers Chardonnay 750ml,Bellboy Corporation,Vadnais Heights,1037814,Receiving,1.0,1.0,0.0,Wine,Chardonnay,,,2026-10-26T00:00:00
-Receiving,094799020011,Dow's Fine Tawny Porto 750ml,"Maverick Beverage Co., LLC - MN",Plymouth,1037712,Receiving,1.0,1.0,0.0,Wine,Fortified,,,2026-10-26T00:00:00
-Receiving,795044286038,Han Jan Peach 750ml,"Vinocopia, Inc",Minnetonka,1037692,Receiving,1.0,,,Wine,Fortified,,,2026-10-26T00:00:00
 Receiving,098709670150,Tilia Malbec 750ml,"Grape Beginnings, Inc.",Ramsey,1037729,Receiving,0.5,,,Wine,Malbec,,,2026-10-26T00:00:00
-Receiving,098709670150,Tilia Malbec 750ml,"Grape Beginnings, Inc.",Andover,1037575,Receiving,1.0,,,Wine,Malbec,,,2026-10-26T00:00:00
-Receiving,855708006645,"Piattelli Reserve Malbec, Cafayate 750ml","Vinocopia, Inc",Minnetonka,1037692,Receiving,0.5,,,Wine,Malbec,,,2026-10-26T00:00:00
-Receiving,875752000390,"Piattelli Reserve Malbec, Mendoza 750ml","Vinocopia, Inc",Minnetonka,1037692,Receiving,1.0,,,Wine,Malbec,,,2026-10-26T00:00:00
-Receiving,400000024370,Failla Willamette Valley Pinot Noir 750ml,The Wine Company,Andover,1037584,Receiving,0.5,,,Wine,Pinot Noir,,,2026-10-26T00:00:00
-Receiving,853868006680,Pavette Pinot Noir 750ml,Libation Project,Chanhassen,1037636,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-26T00:00:00
-Receiving,3483812150007,Saint Cosme Cote du Rhone 750ml,"Grape Beginnings, Inc.",Chanhassen,1037635,Receiving,1.0,,,Wine,Red Blends,,,2026-10-26T00:00:00
 Receiving,657891702423,Troublemaker 750ml,"Grape Beginnings, Inc.",Ramsey,1037729,Receiving,1.0,,,Wine,Red Blends,,,2026-10-26T00:00:00
-Receiving,763955412501,Les Allies Cotes du Rhone,"Maverick Beverage Co., LLC - MN",Plymouth,1037712,Receiving,1.0,1.0,0.0,Wine,Red Blends,,,2026-10-26T00:00:00
-Receiving,763955409402,Les Allies Brut 187ml 2pk,"Maverick Beverage Co., LLC - MN",Plymouth,1037712,Receiving,1.0,1.0,0.0,Wine,Sparkling,,,2026-10-26T00:00:00
 Discrepancy,084692677030,Paul Jaboulet CDR Parallele 45 Blanc 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Andover,1036578,Inventory Received,,,,Wine,White Blends,Distro,,2026-10-12T00:00:00
 Discrepancy,842094171057,Bubbles Single Bottle Bag,"True Brands, Inc.",Andover,1036585,Inventory Received,1.0,0.0,-1.0,Miscellaneous,Accessories,,MI,2026-10-12T00:00:00
 Discrepancy,669576018842,Duckhorn Oakville Cabernet 50th Anniversary 750ml,"Breakthru Beverage Minnesota Wine & Spirits, LLC",Blaine,1036586,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,mi,2026-10-12T00:00:00
@@ -137,11 +126,11 @@ Discrepancy,051497410841,St. Agrestis Phony Mezcal Negroni 2pk,Southern Glazer's
 Discrepancy,031259005317,Josh Cellars Hearth Cabernet Sauvignon 750ml,Johnson Brothers - St. Paul,Andover,1037570,Inventory Received,2.0,0.0,-2.0,Wine,Cabernet,Free Goods,bo,2026-10-26T00:00:00
 Discrepancy,086003000506,Woodbridge Merlot 1.5L,Southern Glazer's Wine & Spirits of MN,Andover,1037574,Inventory Received,1.0,0.0,-1.0,Wine,Merlot,Free Goods,MI,2026-10-26T00:00:00
 Discrepancy,086003873889,Woodbridge Chardonnay 1.5L,Southern Glazer's Wine & Spirits of MN,Andover,1037574,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Free Goods,MI,2026-10-26T00:00:00
-Discrepancy,098709670150,Tilia Malbec 750ml,"Grape Beginnings, Inc.",Andover,1037575,Receiving,1.0,,,Wine,Malbec,,,2026-10-26T00:00:00
+Discrepancy,098709670150,Tilia Malbec 750ml,"Grape Beginnings, Inc.",Andover,1037575,Inventory Received,1.0,0.0,-1.0,Wine,Malbec,,not received yet ,2026-10-26T00:00:00
 Discrepancy,031259004327,Josh Cellars BB Cab 750ml,Johnson Brothers - St. Paul,Andover,1037578,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Month End,bo,2026-10-26T00:00:00
 Discrepancy,086003861862,Woodbridge Sauv Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Andover,1037581,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,Month End,MI,2026-10-26T00:00:00
 Discrepancy,088232000906,Sebastiani Bourbon Barrel Red 750ml,Southern Glazer's Wine & Spirits of MN,Andover,1037581,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,Month End,MI,2026-10-26T00:00:00
-Discrepancy,400000024370,Failla Willamette Valley Pinot Noir 750ml,The Wine Company,Andover,1037584,Receiving,0.5,,,Wine,Pinot Noir,,,2026-10-26T00:00:00
+Discrepancy,400000024370,Failla Willamette Valley Pinot Noir 750ml,The Wine Company,Andover,1037584,Inventory Received,0.5,0.0,-0.5,Wine,Pinot Noir,,not received yet ,2026-10-26T00:00:00
 Discrepancy,011699014933,Bouchard VDP Pinot Noir 750ml,"Vinocopia, Inc",Andover,1037585,Inventory Received,0.5,0.0,-0.5,Wine,Pinot Noir,,mi,2026-10-26T00:00:00
 Discrepancy,083417000368,Dolly Chardonnay 750ml,"Vinocopia, Inc",Andover,1037585,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,,mi,2026-10-26T00:00:00
 Discrepancy,8809018211529,Han Jan Apple 375ml,"Vinocopia, Inc",Andover,1037585,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,mi,2026-10-26T00:00:00
@@ -186,8 +175,8 @@ Discrepancy,049331002222,La Crema Sonoma Chardonnay 750ml,Johnson Brothers - St.
 Discrepancy,188985000137,Joel Gott Cab Sauvignon 750ml,Phillips Wine & Spirits - St. Paul,Chanhassen,1037631,Inventory Received,3.0,1.0,-2.0,Wine,Cabernet,Free Goods,,2026-10-26T00:00:00
 Discrepancy,086003873889,Woodbridge Chardonnay 1.5L,Southern Glazer's Wine & Spirits of MN,Chanhassen,1037634,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Free Goods,MI,2026-10-26T00:00:00
 Discrepancy,870661008024,Oyster Bay Sauvignon Blanc 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1037634,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,Free Goods,MI,2026-10-26T00:00:00
-Discrepancy,3483812150007,Saint Cosme Cote du Rhone 750ml,"Grape Beginnings, Inc.",Chanhassen,1037635,Receiving,1.0,,,Wine,Red Blends,,,2026-10-26T00:00:00
-Discrepancy,853868006680,Pavette Pinot Noir 750ml,Libation Project,Chanhassen,1037636,Receiving,1.0,,,Wine,Pinot Noir,,,2026-10-26T00:00:00
+Discrepancy,3483812150007,Saint Cosme Cote du Rhone 750ml,"Grape Beginnings, Inc.",Chanhassen,1037635,Inventory Received,1.0,0.0,-1.0,Wine,Red Blends,,MI,2026-10-26T00:00:00
+Discrepancy,853868006680,Pavette Pinot Noir 750ml,Libation Project,Chanhassen,1037636,Inventory Received,1.0,0.0,-1.0,Wine,Pinot Noir,,MI,2026-10-26T00:00:00
 Discrepancy,031259000046,Josh Cellars RSV NC Cabernet 750ml,Johnson Brothers - St. Paul,Chanhassen,1037639,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Month End,BO,2026-10-26T00:00:00
 Discrepancy,033293003809,Freixenet Extra Dry 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1037642,Inventory Received,1.0,0.0,-1.0,Wine,Sparkling,Month End,MI,2026-10-26T00:00:00
 Discrepancy,081308004396,Cupcake Butterkissed Chard 750ml,Southern Glazer's Wine & Spirits of MN,Chanhassen,1037642,Inventory Received,1.0,0.0,-1.0,Wine,Chardonnay,Month End,BO,2026-10-26T00:00:00
@@ -225,10 +214,10 @@ Discrepancy,727760501638,Mionetto Prosecco Brut 750ml,Southern Glazer's Wine & S
 Discrepancy,7791843021385,Cepas Sauvignon Blanc 750ml,"Maverick Beverage Co., LLC - MN",Minnetonka,1037683,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,,Mi,2026-10-26T00:00:00
 Discrepancy,08500520,Sutter Home Cab Sauv 187ml,Phillips Wine & Spirits - St. Paul,Minnetonka,1037687,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,Month End,MI,2026-10-26T00:00:00
 Discrepancy,083120016403,Summit Sauvignon Blanc 3L Box,Southern Glazer's Wine & Spirits of MN,Minnetonka,1037688,Inventory Received,1.0,0.0,-1.0,Wine,Sauvignon Blanc,Month End,MI,2026-10-26T00:00:00
-Discrepancy,857680001014,Shannon Ridge Cabernet Sauvignon 750ml,Paustis Wine,Minnetonka,1037690,Receiving,1.0,,,Wine,Cabernet,,,2026-10-26T00:00:00
-Discrepancy,795044286038,Han Jan Peach 750ml,"Vinocopia, Inc",Minnetonka,1037692,Receiving,1.0,,,Wine,Fortified,,,2026-10-26T00:00:00
-Discrepancy,855708006645,"Piattelli Reserve Malbec, Cafayate 750ml","Vinocopia, Inc",Minnetonka,1037692,Receiving,0.5,,,Wine,Malbec,,,2026-10-26T00:00:00
-Discrepancy,875752000390,"Piattelli Reserve Malbec, Mendoza 750ml","Vinocopia, Inc",Minnetonka,1037692,Receiving,1.0,,,Wine,Malbec,,,2026-10-26T00:00:00
+Discrepancy,857680001014,Shannon Ridge Cabernet Sauvignon 750ml,Paustis Wine,Minnetonka,1037690,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,MI,2026-10-26T00:00:00
+Discrepancy,795044286038,Han Jan Peach 750ml,"Vinocopia, Inc",Minnetonka,1037692,Inventory Received,1.0,0.0,-1.0,Wine,Fortified,,MI,2026-10-26T00:00:00
+Discrepancy,855708006645,"Piattelli Reserve Malbec, Cafayate 750ml","Vinocopia, Inc",Minnetonka,1037692,Inventory Received,0.5,0.0,-0.5,Wine,Malbec,,MI,2026-10-26T00:00:00
+Discrepancy,875752000390,"Piattelli Reserve Malbec, Mendoza 750ml","Vinocopia, Inc",Minnetonka,1037692,Inventory Received,1.0,0.0,-1.0,Wine,Malbec,,MI,2026-10-26T00:00:00
 Discrepancy,086003813854,Woodbridge Cab Sauv 1.5L,Southern Glazer's Wine & Spirits of MN,Osseo,1037697,Inventory Received,2.0,0.0,-2.0,Wine,Cabernet,Free Goods,not on truck ,2026-10-26T00:00:00
 Discrepancy,098709670150,Tilia Malbec 750ml,"Grape Beginnings, Inc.",Osseo,1037698,Inventory Received,0.5,0.0,-0.5,Wine,Malbec,,did not arrive ,2026-10-26T00:00:00
 Discrepancy,657891720915,Austin Cabernet Sauvignon 750ml,"Grape Beginnings, Inc.",Osseo,1037698,Inventory Received,1.0,0.0,-1.0,Wine,Cabernet,,did not arrive ,2026-10-26T00:00:00
