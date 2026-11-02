@@ -191,6 +191,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 17224712107,Wine,55.59,3 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $69.99),
 17224713104,Wine,33.59,,
 17224720102,Wine,128.43,,
+17224730101,Wine,25.09,Once approved can mix in Holiday Buy with Caymus Cali Cab & Napap Cab,
 17224750123,Wine,8.59,,
 17224760122,Wine,12.62,,
 17224770107,Wine,21.09,,
@@ -963,6 +964,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 400000025766,Wine,44.21,,
 400000025767,Wine,44.21,,
 400000025768,Wine,44.21,,
+400000025803,Wine,31.88,,
+400000025804,Wine,44.21,,
 40000005924,Wine,42.95,,
 40063400027,Spirits,46.33,Case 1 Pricing,
 40063400294,Spirits,75.18,Case 1 Pricing,
@@ -1992,6 +1995,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 701192020049,Spirits,42.12,,
 701192030041,Spirits,31.12,,
 701192030154,Spirits,46.12,,
+701236813494,Wine,12.81,,
 701253002000,Wine,10.74,,10|11|12
 701253003007,Wine,10.74,,10|11|12
 701253006008,Wine,10.74,,10|11|12
@@ -2620,6 +2624,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 745163001531,Wine,13.48,,
 745163446400,Wine,18.15,,
 745163446509,Wine,12.15,,
+745240304111,Wine,12.67,,
+745240304128,Wine,7.67,,
 745361349480,Wine,22.12,,
 745369560009,Wine,6.75,,
 745369565509,Wine,6.75,,
@@ -4581,6 +4587,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 81584013297,Wine,9.64,,3|6|9|12
 81584014805,Wine,12.95,,3|6|9|12
 81584047674,Wine,9.64,,3|6|9|12
+81584047780,Wine,10.85,5 Vintner's Chard on 100+8cs VR SB,9
 81584130000,Wine,9.64,,3|6|9|12
 81584130406,Wine,9.64,,3|6|9|12
 81584131403,Wine,13.85,,3|6|9|12
@@ -4615,6 +4622,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 816253012482,Wine,5.55,,
 816253012505,Wine,5.55,,
 816253012628,Wine,10.85,,
+816253012710,Wine,12.13,,
 81633185227,Wine,6.07,,
 81633288423,Wine,6.07,,
 81633303751,Wine,6.07,,
@@ -5116,6 +5124,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 82896780402,Wine,8.76,,3|4|7|9|10|11|12
 82896780419,Wine,7.43,,3|4|7|9|10|11|12
 82915003093,Wine,10.07,,
+829180022769,Wine,12.81,,
 829198022249,Wine,12.81,,
 82928012778,Spirits,12.07,,
 82928114151,Spirits,5.16,,
@@ -5371,7 +5380,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 835603007213,Wine,3.38,,
 835655000026,Wine,10.07,,
 835655000064,Wine,10.07,,
-83648000007,Wine,44.42,,
+83648000007,Wine,40.42,,
 83648000014,Wine,40.42,,
 83648000021,Wine,40.42,,
 83648000151,Wine,23.54,,
@@ -6268,6 +6277,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000043073,Spirits,16.3,Deep Net,5|8
 85000043080,Spirits,16.97,Deep Net,8|9
 85000043127,Wine,1.81,,
+85000043318,Wine,12.42,Deep net,11|12
 85000046647,Wine,6.18,,
 850000571006,Wine,12.92,,
 850001901116,Spirits,37.69,,
@@ -7608,6 +7618,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 858379003029,Spirits,32.38,,
 858441006217,Wine,15.46,,
 858441006811,Wine,13.46,,
+858557004015,Wine,23.54,,
 858692000101,Wine,14.15,,
 858764003016,Spirits,42.13,,
 858764003047,Spirits,57.88,,
@@ -8925,6 +8936,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 88004091026,Spirits,0.58,"1 on 6, free 80pf",
 88004091033,Spirits,0.58,"1 on 6, free 80pf",
 88004091040,Spirits,0.58,"1 on 6, free 80pf",
+88004091477,Spirits,10.42,1 free case on 4,
 88004094730,Spirits,1.8,22 on 100,
 88004139940,Spirits,30.0,"3cs, one store",
 88004140045,Spirits,120.27,,
