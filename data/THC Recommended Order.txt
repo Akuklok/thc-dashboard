@@ -1,60 +1,58 @@
 ==========================================================================
-  RECOMMENDED THC ORDER          Saturday, Oct 31, 2026
+  RECOMMENDED THC ORDER          Monday, Nov 02, 2026
 ==========================================================================
 
-  (data is 2 day(s) old, from Oct 29 - refreshes automatically)
+  Gross need (all stores) .....  $    123,274
+  Coverable by transfer .......  $     49,708   (40%)
+  NET BUY from vendors ........  $     52,724   <- the order
 
-  Gross need (all stores) .....  $    108,105
-  Coverable by transfer .......  $     45,471   (42%)
-  NET BUY from vendors ........  $     40,801   <- the order
-
-  85 items   |   6,836 units to buy   |   5,997 units to rebalance
-  Transfers: 578 moves  -  434 urgent (188 stockouts, 246 under 2wk), 144 routine
+  95 items   |   7,872 units to buy   |   6,894 units to rebalance
+  Transfers: 647 moves  -  530 urgent (218 stockouts, 312 under 2wk), 117 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 23 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 28 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Looner Wild Grape 10mg THC 12oz can  109u/109cs       $305    109     0   OUT
-   2  Looner Professor Pepper 10mg THC 12  84u/84cs         $235     84     0   OUT
-   3  Looner Sweet Orange Soda 10mg THC 1  84u/84cs         $235     84     0   OUT
-   4  Looner Root Beer 10mg THC Soda 12oz  77u/77cs         $216     77     0   OUT
-   5  Looner Deww 10mg THC 12oz can        67u/67cs         $188     67     0   OUT
-   6  Looner Creme Soda 10mg THC 12oz can  65u/65cs         $182     65     0   OUT
-   7  Looner Pink Lemonade 10mg THC 12oz   61u/61cs         $171     61     0   OUT
-   8  Looner Classic Lemonade 10mg THC 12  52u/52cs         $146     52     0   OUT
-   9  Looner Lemon Lime 10mg THC 12oz can  48u/48cs         $134     48     0   OUT
-  10  Tempter's Strawberry 10mg THC 12oz   41u/41cs         $109     41     0   OUT  22% off
-  11  Looner Peach Lemonade 10mg THC 12oz  41u/41cs         $115     41     0   OUT
-  12  Tempter's Blueberry 10mg THC 12oz c  40u/40cs         $107     40     0   OUT  22% off
-  13  Birch's Cherry Seltzer 10mg THC 12o  31u/31cs          $62     31     0   OUT
-  14  Looner Cola 10mg THC 12oz can        38u/38cs         $106     38     0   OUT
-  15  Foundry Nation Two Scoops Root Beer  37u/37cs         $105     37     0   OUT
-  16  Birch's Ginger Ale Seltzer 10mg THC  29u/29cs          $58     29     0   OUT
-  17  Tempter's Citrus 10mg THC 12oz can   33u/33cs          $88     33     0   OUT  22% off
-  18  Birch's Blueberry 10mg THC 12oz can  27u/27cs          $54     27     0   OUT
-  19  Looner Mocktail Mule 10mg THC 12oz   30u/30cs          $84     30     0   OUT
-  20  Foundry Nation Two Scoops Cherry 10  36u/36cs         $120     36     0   OUT
-  ...and 65 more in the full list.
+   1  Looner Wild Grape 10mg THC 12oz can  115u/115cs       $322    115     0   OUT
+   2  Looner Sweet Orange Soda 10mg THC 1  93u/93cs         $260     93     0   OUT
+   3  Looner Professor Pepper 10mg THC 12  89u/89cs         $249     89     0   OUT
+   4  Looner Root Beer 10mg THC Soda 12oz  81u/81cs         $227     81     0   OUT
+   5  Looner Deww 10mg THC 12oz can        69u/69cs         $193     69     0   OUT
+   6  Looner Creme Soda 10mg THC 12oz can  69u/69cs         $193     69     0   OUT
+   7  Looner Pink Lemonade 10mg THC 12oz   62u/62cs         $174     62     0   OUT
+   8  Tempter's Strawberry 10mg THC 12oz   47u/47cs         $125     47     0   OUT  22% off
+   9  Looner Classic Lemonade 10mg THC 12  49u/49cs         $137     49     0   OUT
+  10  Looner Cola 10mg THC 12oz can        47u/47cs         $132     47     0   OUT
+  11  Birch's Cherry Seltzer 10mg THC 12o  37u/37cs          $74     37     0   OUT
+  12  Looner Lemon Lime 10mg THC 12oz can  47u/47cs         $132     47     0   OUT
+  13  Looner Peach Lemonade 10mg THC 12oz  43u/43cs         $120     43     0   OUT
+  14  Birch's Ginger Ale Seltzer 10mg THC  33u/33cs          $66     33     0   OUT
+  15  Birch's Blueberry 10mg THC 12oz can  32u/32cs          $64     32     0   OUT
+  16  Tempter's Blueberry 10mg THC 12oz c  38u/38cs         $101     38     0   OUT  22% off
+  17  Foundry Nation Two Scoops Root Beer  34u/34cs          $97     34     0   OUT
+  18  Tempter's Citrus 10mg THC 12oz can   33u/33cs          $88     33     0   OUT  22% off
+  19  Looner Mocktail Mule 10mg THC 12oz   32u/32cs          $90     32     0   OUT
+  20  Looner Half and Half 10mg THC 12oz   30u/30cs          $84     30     0   OUT
+  ...and 75 more in the full list.
 
-  NEEDS REVIEW (23 items the system isn't fully sure about - check before ordering):
-    Foundry Nation Two Scoops Orange 10mg TH  Seasonal - last year ~13/wk vs 6 now, buy ahead?
-    Minny Grown Minnarita 4pk 12oz can        Seasonal - last year ~47/wk vs 10 now, buy ahead?
-    Uncle Arnie's Strawberry Kiwi 10mg THC 2  Seasonal - last year ~493/wk vs 230 now, buy ahead?
-    Uncle Arnie's Sunrise Orange 10mg THC 2o  Seasonal - last year ~337/wk vs 175 now, buy ahead?
+  NEEDS REVIEW (28 items the system isn't fully sure about - check before ordering):
+    Tempter's Blueberry 10mg THC 12oz can     Seasonal - last year ~15/wk vs 9 now, buy ahead?
+    Foundry Nation Two Scoops Root Beer 10mg  Seasonal - last year ~13/wk vs 8 now, buy ahead?
+    Tempter's Citrus 10mg THC 12oz can        Seasonal - last year ~13/wk vs 8 now, buy ahead?
+    Foundry Nation Two Scoops Orange 10mg TH  Seasonal - last year ~14/wk vs 5 now, buy ahead?
+    Minny Grown Minnarita 4pk 12oz can        Seasonal - last year ~42/wk vs 6 now, buy ahead?
+    Uncle Arnie's Strawberry Kiwi 10mg THC 2  Seasonal - last year ~459/wk vs 243 now, buy ahead?
     Odder Variety Pack 10mg THC 9pk 12oz can  New item - set quantity by hand
-    Uncle Arnie's Tahitian Treat 10mg THC 2o  New item - set quantity by hand
-    Uncle Arnie's Blueberry Nightcap 10mg TH  Seasonal - last year ~504/wk vs 240 now, buy ahead?
-    Uncle Arnie's Zen Green Tea 10mg THC 4pk  Seasonal - last year ~56/wk vs 28 now, buy ahead?
-    Happy Duck Bomba 10mg THC 4pk 12oz can    Seasonal - last year ~23/wk vs 8 now, buy ahead?
-    Mary Jones Variety Pack 10mg THC 12pk 12  Seasonal - last year ~10/wk vs 2 now, buy ahead?
-    Uncle Arnie's Lemon Mint 10mg THC 2oz     New item - set quantity by hand
     Looner Twilight Strawberry Gummies 5mg T  New item - set quantity by hand
-    Uncle Arnie's Cherry Limeade 10mg THC 4p  Seasonal - last year ~58/wk vs 32 now, buy ahead?
-    Insight Flavor Pixels Black Lemon 10mg 1  Seasonal - last year ~22/wk vs 14 now, buy ahead?
-    Tempter's Citrus 10mg 4pk 12oz can        Seasonal - last year ~61/wk vs 33 now, buy ahead?
-    ...and 8 more (see Needs Review tab).
+    Uncle Arnie's Blueberry Nightcap 10mg TH  Seasonal - last year ~494/wk vs 254 now, buy ahead?
+    Uncle Arnie's Tahitian Treat 10mg THC 2o  New item - set quantity by hand
+    Mary Jones Variety Pack 10mg THC 12pk 12  Seasonal - last year ~10/wk vs 2 now, buy ahead?
+    Uncle Arnie's Zen Green Tea 10mg THC 4pk  Seasonal - last year ~50/wk vs 28 now, buy ahead?
+    Uncle Arnie's Sunrise Orange 10mg THC 2o  Seasonal - last year ~322/wk vs 175 now, buy ahead?
+    Happy Duck Bomba 10mg THC 4pk 12oz can    Seasonal - last year ~22/wk vs 7 now, buy ahead?
+    Uncle Arnie's Lemon Mint 10mg THC 2oz     New item - set quantity by hand
+    ...and 13 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (18 discontinued items still selling/low - run down stock):
     Brez Double 5mg THC 12oz can                (would have bought 48u)
@@ -62,14 +60,14 @@
     Fu Man Chews 5mg THC Gummies 10 Pack        (would have bought 6u)
     Gigli Citrus Seltzer 10mg THC 4pk 12oz can  (would have bought 126u)
     Gigli Raspberry Tea 10mg THC 4pk 12oz can   (would have bought 258u)
-    IYKYK Lemonade 10mg 12oz can                (would have bought 7u)
-    IYKYK Lemonade Tea 10mg 12oz can            (would have bought 6u)
-    IYKYK Peach Tea 10mg 12oz can               (would have bought 15u)
-    IYKYK Strawberry Lemonade 10mg 12oz can     (would have bought 15u)
-    Insight Flavor Pixels 10mg THC Variety #2   (would have bought 42u)
-    Iverson 96 Nectarine 10mg THC 16oz can      (would have bought 3u)
+    IYKYK Lemonade 10mg 12oz can                (would have bought 6u)
+    IYKYK Lemonade Tea 10mg 12oz can            (would have bought 7u)
+    IYKYK Peach Tea 10mg 12oz can               (would have bought 14u)
+    IYKYK Strawberry Lemonade 10mg 12oz can     (would have bought 14u)
+    Insight Flavor Pixels 10mg THC Variety #2   (would have bought 44u)
+    Insight Flavor Pixels Plus Raspberry Pear   (would have bought 20u)
+    Iverson 96 Nectarine 10mg THC 16oz can      (would have bought 4u)
     Iverson Bubba Chuck Berry 10mg THC 16oz ca  (would have bought 1u)
     Minny Grown Skol! 10 Pack                   (would have bought 24u)
     Minny Grown Variety 6pk 12oz can            (would have bought 4u)
-    Minny Grown YOU.S.A 10 Pack                 (would have bought 12u)
     ...and 3 more (see Being Removed tab).
