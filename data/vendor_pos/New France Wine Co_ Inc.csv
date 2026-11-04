@@ -1,2 +1,37 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Ramsey,1038178,897097002020,Jacques Chaput NV Brut Champagne 750ml,Chaput,12,1.0,400.0,400.0,Distro
+Roseville,1038790,083648000007,Elk Cove Mt Richmond Pinot Noir 750ml,ElkCoveMtRichmond,6,0.5,240.0,120.0,
+St. Louis Park,1038812,083648000007,Elk Cove Mt Richmond Pinot Noir 750ml,ElkCoveMtRichmond,6,1.0,240.0,240.0,
+Blaine,1038668,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Vadnais Heights,1038846,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Plymouth,1038572,198168596999,Revel 88 Avila Reposado Tequila 750ml,RevelReposado,6,1.0,198.0,198.0,
+St. Louis Park,1038822,3830049281088,Kobal Pinot Grigio 750ml,KOBALPG22,12,1.0,160.0,160.0,Store Request
+St. Louis Park,1038812,400000025803,Johan Vineyards Chardonnay Estate 750ml,JohanChardonnay,12,1.0,380.0,380.0,
+Blaine,1038668,400000025804,Martin Woods Mozaik Chardonnay 750ml,MartinWoodsChardMozaik,12,0.5,528.0,264.0,
+Chanhassen,1038693,400000025804,Martin Woods Mozaik Chardonnay 750ml,MartinWoodsChardMozaik,12,0.5,528.0,264.0,
+Roseville,1038790,400000025804,Martin Woods Mozaik Chardonnay 750ml,MartinWoodsChardMozaik,12,1.0,528.0,528.0,
+St. Louis Park,1038812,400000025804,Martin Woods Mozaik Chardonnay 750ml,MartinWoodsChardMozaik,12,2.0,528.0,1056.0,
+Woodbury,1038862,400000025804,Martin Woods Mozaik Chardonnay 750ml,MartinWoodsChardMozaik,12,0.5,528.0,264.0,
+Blaine,1038668,695798115328,G. D. Vajra Langhe Rosso,VajraRosso23,12,1.0,144.0,144.0,
+Blaine,1038516,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Plymouth,1038572,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Woodbury,1038638,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Roseville,1038600,698450104463,Dos Amigos Tequila Reposado 750ml,DosAmigosReposado,12,1.0,275.63,275.63,
+Blaine,1038668,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,0.5,220.0,110.0,
+Chanhassen,1038693,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,0.5,220.0,110.0,
+Roseville,1038790,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,1.0,220.0,220.0,
+St. Louis Park,1038812,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,1.0,220.0,220.0,
+Woodbury,1038862,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,0.5,220.0,110.0,
+Bloomington,1038529,745051321031,Keepsake (Au)ra Dry Sparkling Cider 750ml,Keepsake(Au)raNEW,12,1.0,184.0,184.0,Store Request
+Bloomington,1038529,745051321956,Keepsake Ice Cider 375ml,KeepsakeIce,12,1.0,240.0,240.0,Store Request
+Woodbury,1038638,745051321963,Keepsake Jewel Semi-Sweet Cider 750ml,KeepsakeJewel,12,1.0,160.0,160.0,
+Roseville,1038600,745051321970,Keepsake Farmhouse Organic Semi-Sweet Cider 750ml,KeepsakeFarmhouseSemiSweet,12,1.0,136.0,136.0,
+Minnetonka,1038729,815102000526,Dom Daulny Sancerre,DaulnySancerre22,12,0.5,256.0,128.0,
+Blaine,1038668,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,0.5,224.0,112.0,
+Chanhassen,1038693,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,0.5,224.0,112.0,
+Roseville,1038790,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,1.0,224.0,224.0,
+St. Louis Park,1038812,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,1.0,224.0,224.0,
+Woodbury,1038862,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,0.5,224.0,112.0,
+Andover,1038506,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
+Ramsey,1038582,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
+Stillwater,1038625,852955008125,Lokal Vodka 1.75L,LokalVodka1.75,6,1.0,108.0,108.0,Store Request
+St. Louis Park,1038812,858557004015,Johan Vineyards Pinot Noir Estate 750ml,JohanPinotNoir,12,1.0,280.0,280.0,

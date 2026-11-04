@@ -1,2 +1,47 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Bloomington,1036832,015643744785,Il Valore Pinot Grigio 750ml,83675-23,12,3.0,85.0,255.0,
+St. Louis Park,1038816,015643521287,Sur de los Andes Malbec 750ml,1037849721,12,1.0,120.0,120.0,
+Roseville,1038794,015643565380,The Little Sheep Pinot Noir 750ml,13731-23,12,1.0,96.0,96.0,
+Blaine,1038672,015643744785,Il Valore Pinot Grigio 750ml,83675-23,12,3.0,85.0,255.0,
+Cottage Grove,1038708,015643744785,Il Valore Pinot Grigio 750ml,83675-23,12,3.0,85.0,255.0,
+Roseville,1038794,015643744785,Il Valore Pinot Grigio 750ml,83675-23,12,3.0,85.0,255.0,
+Blaine,1038672,040232243646,Three Otters Pinot Noir 750ml,2022TOPN,12,1.0,160.0,160.0,
+Chanhassen,1038697,040232243646,Three Otters Pinot Noir 750ml,2022TOPN,12,1.0,160.0,160.0,
+Woodbury,1038866,040232243646,Three Otters Pinot Noir 750ml,2022TOPN,12,1.0,160.0,160.0,
+Blaine,1038672,5060152093300,The Horologist Sauvignon Blanc NZ 750ml,OP100-23,12,5.0,90.0,450.0,
+Blaine,1038672,5060152096998,Elmstone Sauvignon Blanc Marlborough 750ml,OP600-24,12,2.0,90.0,180.0,
+Rosemount,1038778,5060152096998,Elmstone Sauvignon Blanc Marlborough 750ml,OP600-24,12,2.0,90.0,180.0,
+Roseville,1038794,5060152096998,Elmstone Sauvignon Blanc Marlborough 750ml,OP600-24,12,2.0,90.0,180.0,
+St. Louis Park,1038816,648348080003,Monte Degli Angeli Pinot Noir 750ml,81030-22,12,1.0,112.0,112.0,
+Woodbury,1038866,648348080003,Monte Degli Angeli Pinot Noir 750ml,81030-22,12,1.0,112.0,112.0,
+Andover,1038650,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,5.0,150.0,750.0,Distro
+Blaine,1038662,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,7.0,150.0,1050.0,Distro
+Bloomington,1038678,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,1.0,150.0,150.0,Distro
+Chanhassen,1038688,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,5.0,150.0,750.0,Distro
+Cottage Grove,1038704,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,2.0,150.0,300.0,Distro
+Minneapolis,1038716,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,2.0,150.0,300.0,Distro
+Minnetonka,1038726,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,1.0,150.0,150.0,Distro
+Osseo,1038737,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,1.0,150.0,150.0,Distro
+Plymouth,1038745,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,4.0,150.0,600.0,Distro
+Ramsey,1038759,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,1.0,150.0,150.0,Distro
+Rosemount,1038770,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,2.0,150.0,300.0,Distro
+Roseville,1038786,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,6.0,150.0,900.0,Distro
+St. Louis Park,1038805,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,9.0,150.0,1350.0,Distro
+Stillwater,1038831,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,2.0,150.0,300.0,Distro
+Vadnais Heights,1038841,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,3.0,150.0,450.0,Distro
+Woodbury,1038857,745240304111,Fullerton Wines Picnic Pinot Noir Willamette Valley 750ml,FU800-23,12,5.0,150.0,750.0,Distro
+Andover,1038650,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,5.0,90.0,450.0,Distro
+Blaine,1038662,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,9.0,90.0,810.0,Distro
+Bloomington,1038678,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,2.0,90.0,180.0,Distro
+Chanhassen,1038688,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,3.0,90.0,270.0,Distro
+Cottage Grove,1038704,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,3.0,90.0,270.0,Distro
+Minneapolis,1038716,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,5.0,90.0,450.0,Distro
+Minnetonka,1038726,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,1.0,90.0,90.0,Distro
+Osseo,1038737,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,2.0,90.0,180.0,Distro
+Plymouth,1038745,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,3.0,90.0,270.0,Distro
+Ramsey,1038759,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,1.0,90.0,90.0,Distro
+Rosemount,1038770,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,3.0,90.0,270.0,Distro
+Roseville,1038786,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,5.0,90.0,450.0,Distro
+St. Louis Park,1038805,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,5.0,90.0,450.0,Distro
+Stillwater,1038831,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,2.0,90.0,180.0,Distro
+Vadnais Heights,1038841,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,3.0,90.0,270.0,Distro
+Woodbury,1038857,745240304128,Fullerton Poetry Pinot Gris Willamette Valley 750ml,Fu810-22,12,4.0,90.0,360.0,Distro
