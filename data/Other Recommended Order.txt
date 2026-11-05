@@ -1,53 +1,57 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Wednesday, Nov 04, 2026
+  RECOMMENDED OTHER ORDER          Thursday, Nov 05, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 03 - refreshes automatically)
+  (data is 1 day(s) old, from Nov 04 - refreshes automatically)
 
-  Gross need (all stores) .....  $     27,103
-  Coverable by transfer .......  $     12,710   (47%)
-  NET BUY from vendors ........  $     11,027   <- the order
+  Gross need (all stores) .....  $     25,868
+  Coverable by transfer .......  $     11,934   (46%)
+  NET BUY from vendors ........  $     10,465   <- the order
 
-  74 items   |   7,856 units to buy   |   3,261 units to rebalance
-  Transfers: 326 moves  -  276 urgent (124 stockouts, 152 under 2wk), 50 routine
+  75 items   |   7,483 units to buy   |   3,145 units to rebalance
+  Transfers: 298 moves  -  244 urgent (105 stockouts, 139 under 2wk), 54 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 13 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           7u/7cs             $0      7     0   OUT
-   2  Second Harvest Heartland Donation    3930u/3930cs       $0   3930     0   OUT
-   3  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
-   4  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
-   5  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
-   6  16 oz Red Party Cups, 50 pack by Tr  59u/59cs         $297     59     0   OUT
-   7  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
-   8  Syx Freeze 20mg                      20u/4cs          $142     21     0   OUT
-   9  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
-  10  MTN Dew Baja Blast 2L                16u/2cs           $29     16     0   OUT
-  11  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
-  12  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
-  13  Bag Fee                              366u/366cs         $0    366     0   OUT
-  14  Minute Maid Fruit Punch 2L           24u/3cs           $65     22     0   OUT
-  15  Fre Pouch 12mg Lush                  5u/1cs            $40      3     0   OUT
-  16  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
+   2  Second Harvest Heartland Donation    3926u/3926cs       $0   3926     0   OUT
+   3  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
+   4  Velo Peppermint 9mg                  75u/15cs         $630     74     0   OUT
+   5  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
+   6  Syx Freeze 20mg                      20u/4cs          $142     21     0   OUT
+   7  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
+   8  MTN Dew Baja Blast 2L                16u/2cs           $29     16     0   OUT
+   9  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
+  10  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
+  11  Bag Fee                              366u/366cs         $0    366     0   OUT
+  12  Minute Maid Fruit Punch 2L           24u/3cs           $65     22     0   OUT
+  13  Fre Pouch 12mg Lush                  5u/1cs            $40      3     0   OUT
+  14  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
+  15  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
+  16  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
   17  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
-  18  Tip Item                             263u/263cs         $0    263     0   OUT
-  19  Velo Peppermint 9mg                  75u/15cs         $630     76     0   0.1
+  18  Tip Item                             272u/272cs         $0    272     0   OUT
+  19  Velo Citrus Chill 9mg                30u/6cs          $252     28     0   0.1
   20  Zyn Pouch 6mg Spearmint              15u/3cs          $126     17     0   0.2
-  ...and 54 more in the full list.
+  ...and 55 more in the full list.
 
-  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (13 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~18/wk vs 2 now, buy ahead?
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
-    Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
-    Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
+    Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
+    Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Seagrams Club Soda 6pk 7.5 oz             Margin looks off - check retail/cost
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
     Zyn Pouch 6mg Spearmint                   Seasonal - last year ~12/wk vs 4 now, buy ahead?
+    Mr & Mrs T Sweet & Sour Liter             Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Loon Spearmint 14mg                       Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Fanta Pinnapple 2 Ltr                     Seasonal - last year ~6/wk vs 2 now, buy ahead?
     Traverse City Cherries 21oz               Seasonal - last year ~14/wk vs 9 now, buy ahead?
+
+  BEING REMOVED - DO NOT REORDER (1 discontinued items still selling/low - run down stock):
+    Jero Cherry Bar Mix Liter                   (would have bought 12u)
