@@ -1,53 +1,52 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Friday, Nov 06, 2026
+  RECOMMENDED OTHER ORDER          Saturday, Nov 07, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     23,426
-  Coverable by transfer .......  $     10,621   (45%)
-  NET BUY from vendors ........  $      9,319   <- the order
+  Gross need (all stores) .....  $     24,056
+  Coverable by transfer .......  $     12,188   (51%)
+  NET BUY from vendors ........  $      8,178   <- the order
 
-  75 items   |   7,344 units to buy   |   3,074 units to rebalance
-  Transfers: 278 moves  -  231 urgent (100 stockouts, 131 under 2wk), 47 routine
+  71 items   |   6,768 units to buy   |   3,452 units to rebalance
+  Transfers: 295 moves  -  242 urgent (98 stockouts, 144 under 2wk), 53 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 10 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           8u/8cs             $0      8     0   OUT
-   2  Second Harvest Heartland Donation    3966u/3966cs       $0   3966     0   OUT
+   2  Second Harvest Heartland Donation    4141u/4141cs       $0   4141     0   OUT
    3  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
-   4  Minute Maid Fruit Punch 2L           24u/3cs           $65     25     0   OUT
-   5  Powerade Mountain Berry Blast 20oz   24u/1cs           $29     19     0   OUT
-   6  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
-   7  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
-   8  MTN Dew Baja Blast 2L                16u/2cs           $29     16     0   OUT
-   9  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
-  10  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
-  11  Bag Fee                              366u/366cs         $0    366     0   OUT
-  12  Zyn Pouch 3mg Spearmint              5u/1cs            $42      6     0   OUT
-  13  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
-  14  Monster Juice Mango Loco 16oz can    22u/22cs          $45     22     0   OUT
-  15  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
-  16  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
-  17  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
-  18  Tip Item                             271u/271cs         $0    271     0   OUT
-  19  Velo Citrus Chill 9mg                30u/6cs          $252     28     0   0.1
-  20  True Party: 2.5 oz Jello Shot Cups   36u/2cs          $105     27     0   0.5
-  ...and 55 more in the full list.
+   4  Powerade Mountain Berry Blast 20oz   24u/1cs           $29     21     0   OUT
+   5  Minute Maid Fruit Punch 2L           24u/3cs           $65     26     0   OUT
+   6  Monster Juice Mango Loco 16oz can    25u/25cs          $51     25     0   OUT
+   7  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
+   8  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
+   9  MTN Dew Baja Blast 2L                16u/2cs           $29     16     0   OUT
+  10  Mr & Mrs T Sweet & Sour Liter        12u/2cs           $52      9     0   OUT
+  11  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
+  12  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
+  13  Bag Fee                              351u/351cs         $0    351     0   OUT
+  14  Zyn Pouch 3mg Spearmint              5u/1cs            $42      6     0   OUT
+  15  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
+  16  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
+  17  VacuVin Foil cutter                  1u/1cs             $2      1     0   OUT
+  18  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
+  19  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
+  20  Tip Item                             275u/275cs         $0    275     0   OUT
+  ...and 51 more in the full list.
 
-  NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (10 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~20/wk vs 2 now, buy ahead?
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
+    Mr & Mrs T Sweet & Sour Liter             Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Seagrams Club Soda 6pk 7.5 oz             Margin looks off - check retail/cost
     Tip Item                                  No cost data - verify price; Margin looks off - check retail/cost
-    Mr & Mrs T Sweet & Sour Liter             Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Fanta Pinnapple 2 Ltr                     Seasonal - last year ~5/wk vs 2 now, buy ahead?
-    Traverse City Cherries 21oz               Seasonal - last year ~14/wk vs 9 now, buy ahead?
 
   BEING REMOVED - DO NOT REORDER (1 discontinued items still selling/low - run down stock):
     Jero Cherry Bar Mix Liter                   (would have bought 12u)
