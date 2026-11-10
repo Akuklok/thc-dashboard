@@ -1,40 +1,42 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Sunday, Nov 08, 2026
+  RECOMMENDED OTHER ORDER          Tuesday, Nov 10, 2026
 ==========================================================================
 
-  Gross need (all stores) .....  $     25,895
-  Coverable by transfer .......  $     13,184   (51%)
-  NET BUY from vendors ........  $      9,306   <- the order
+  (data is 1 day(s) old, from Nov 09 - refreshes automatically)
 
-  78 items   |   7,260 units to buy   |   3,591 units to rebalance
-  Transfers: 302 moves  -  257 urgent (103 stockouts, 154 under 2wk), 45 routine
+  Gross need (all stores) .....  $     25,209
+  Coverable by transfer .......  $     13,359   (53%)
+  NET BUY from vendors ........  $      8,500   <- the order
+
+  73 items   |   6,823 units to buy   |   3,575 units to rebalance
+  Transfers: 310 moves  -  250 urgent (94 stockouts, 156 under 2wk), 60 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
   >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           9u/9cs             $0      9     0   OUT
-   2  Second Harvest Heartland Donation    4292u/4292cs       $0   4292     0   OUT
-   3  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
-   4  Minute Maid Fruit Punch 2L           32u/4cs           $86     28     0   OUT
-   5  Powerade Mountain Berry Blast 20oz   24u/1cs           $29     21     0   OUT
-   6  Monster Juice Mango Loco 16oz can    24u/24cs          $49     24     0   OUT
-   7  Wedding Return Fee                   2u/2cs             $0      2     0   OUT
-   8  Charm Social Tonic Lemon Ginger 12o  16u/16cs          $39     16     0   OUT
-   9  Velo Citrus Chill 6mg                10u/2cs           $84      9     0   OUT
-  10  MTN Dew Baja Blast 2L                16u/2cs           $29     16     0   OUT
-  11  Mr & Mrs T Sweet & Sour Liter        12u/2cs           $52      9     0   OUT
-  12  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
-  13  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
-  14  Bag Fee                              351u/351cs         $0    351     0   OUT
-  15  Zyn Pouch 3mg Spearmint              5u/1cs            $42      6     0   OUT
-  16  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
-  17  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
-  18  VacuVin Foil cutter                  1u/1cs             $2      1     0   OUT
-  19  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
-  20  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
-  ...and 58 more in the full list.
+   1  Non-Refundable Transaction           10u/10cs           $0     10     0   OUT
+   2  Second Harvest Heartland Donation    4151u/4151cs       $0   4151     0   OUT
+   3  Minute Maid Fruit Punch 2L           32u/4cs           $86     28     0   OUT
+   4  Monster Juice Mango Loco 16oz can    24u/24cs          $49     24     0   OUT
+   5  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
+   6  Velo Citrus Chill 6mg                10u/2cs           $84      9     0   OUT
+   7  Charm Social Tonic Lemon Ginger 12o  14u/14cs          $34     14     0   OUT
+   8  MTN Dew Baja Blast 2L                16u/2cs           $29     15     0   OUT
+   9  Mr & Mrs T Sweet & Sour Liter        12u/2cs           $52      9     0   OUT
+  10  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
+  11  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
+  12  Bag Fee                              350u/350cs         $0    350     0   OUT
+  13  Zyn Pouch 3mg Spearmint              5u/1cs            $42      6     0   OUT
+  14  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
+  15  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
+  16  VacuVin Foil cutter                  1u/1cs             $2      1     0   OUT
+  17  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
+  18  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
+  19  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
+  20  Tip Item                             273u/273cs         $0    273     0   OUT
+  ...and 53 more in the full list.
 
   NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~20/wk vs 2 now, buy ahead?
