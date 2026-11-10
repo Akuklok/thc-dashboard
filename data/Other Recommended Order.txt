@@ -2,24 +2,22 @@
   RECOMMENDED OTHER ORDER          Tuesday, Nov 10, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 09 - refreshes automatically)
+  Gross need (all stores) .....  $     25,331
+  Coverable by transfer .......  $     13,386   (53%)
+  NET BUY from vendors ........  $      8,611   <- the order
 
-  Gross need (all stores) .....  $     25,209
-  Coverable by transfer .......  $     13,359   (53%)
-  NET BUY from vendors ........  $      8,500   <- the order
-
-  73 items   |   6,823 units to buy   |   3,575 units to rebalance
-  Transfers: 310 moves  -  250 urgent (94 stockouts, 156 under 2wk), 60 routine
+  72 items   |   6,734 units to buy   |   3,535 units to rebalance
+  Transfers: 312 moves  -  254 urgent (107 stockouts, 147 under 2wk), 58 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 11 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
    1  Non-Refundable Transaction           10u/10cs           $0     10     0   OUT
-   2  Second Harvest Heartland Donation    4151u/4151cs       $0   4151     0   OUT
+   2  Second Harvest Heartland Donation    4091u/4091cs       $0   4091     0   OUT
    3  Minute Maid Fruit Punch 2L           32u/4cs           $86     28     0   OUT
-   4  Monster Juice Mango Loco 16oz can    24u/24cs          $49     24     0   OUT
+   4  Monster Juice Mango Loco 16oz can    25u/25cs          $51     25     0   OUT
    5  Wedding Return Fee                   1u/1cs             $0      1     0   OUT
    6  Velo Citrus Chill 6mg                10u/2cs           $84      9     0   OUT
    7  Charm Social Tonic Lemon Ginger 12o  14u/14cs          $34     14     0   OUT
@@ -27,23 +25,24 @@
    9  Mr & Mrs T Sweet & Sour Liter        12u/2cs           $52      9     0   OUT
   10  Velo Wild Berry 3mg                  5u/1cs            $42      7     0   OUT
   11  Dole Strawberry Lemonade 2L          16u/2cs           $39     15     0   OUT
-  12  Bag Fee                              350u/350cs         $0    350     0   OUT
-  13  Zyn Pouch 3mg Spearmint              5u/1cs            $42      6     0   OUT
-  14  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
-  15  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
-  16  VacuVin Foil cutter                  1u/1cs             $2      1     0   OUT
-  17  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
-  18  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
-  19  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
-  20  Tip Item                             273u/273cs         $0    273     0   OUT
-  ...and 53 more in the full list.
+  12  Bag Fee                              330u/330cs         $0    330     0   OUT
+  13  Zyn Pouch 3mg Spearmint              5u/1cs            $42      5     0   OUT
+  14  Mr & Mrs T Bold & Spicy Liter        6u/1cs            $28      4     0   OUT
+  15  Dr Pepper 10pk 8oz can               3u/1cs            $13      2     0   OUT
+  16  Black & Mild Royale B1G1             2u/2cs             $0      2     0   OUT
+  17  VacuVin Foil cutter                  1u/1cs             $2      1     0   OUT
+  18  Black & Mild Wood Tip B1G1           2u/2cs             $0      2     0   OUT
+  19  Travel Corkscrew/Bottle opener       1u/1cs             $0      1     0   OUT
+  20  Seagrams Club Soda 6pk 7.5 oz        4u/2cs            $43      5     0   OUT
+  ...and 52 more in the full list.
 
-  NEEDS REVIEW (11 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost; Seasonal - last year ~20/wk vs 2 now, buy ahead?
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
     Wedding Return Fee                        No cost data - verify price; Margin over 95% - check retail
     Mr & Mrs T Sweet & Sour Liter             Seasonal - last year ~4/wk vs 2 now, buy ahead?
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
+    Mr & Mrs T Bold & Spicy Liter             Seasonal - last year ~2/wk vs 1 now, buy ahead?
     Black & Mild Royale B1G1                  No cost data - verify price; Margin over 95% - check retail
     Black & Mild Wood Tip B1G1                No cost data - verify price; Margin over 95% - check retail
     Seagrams Club Soda 6pk 7.5 oz             Margin looks off - check retail/cost
