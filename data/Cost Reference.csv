@@ -953,7 +953,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 400000025768,Wine,44.21,,
 400000025803,Wine,31.88,,
 400000025804,Wine,44.21,,
-400000025810,Wine,15.46,,
 400000025811,Wine,31.54,,
 400000025812,Wine,22.54,,
 40063400027,Spirits,46.33,Case 1 Pricing,
@@ -1808,6 +1807,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 674545000827,Spirits,46.83,Case 1,
 674545001005,Spirits,3.07,case 1,
 674545001084,Spirits,260.25,Case 1,
+674868000276,Spirits,37.63,,2|5|8|11
 676080090196,Wine,13.54,,
 676739920089,Wine,9.12,,
 677555004045,Wine,8.83,,
@@ -8164,6 +8164,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 86767705662,Spirits,1.25,Case 1,
 86767705686,Spirits,7.82,Case 1,
 86767705693,Spirits,18.43,Case 1 Must hit 16 cs within month,2|3|5|8|10|11|12
+86767706034,Spirits,5.02,Case 1,
 867792000478,Wine,30.21,,
 867813000104,Wine,16.81,,
 86785000039,Wine,10.19,,2|4|6|8|10|12
@@ -9147,7 +9148,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 88320004243,Spirits,133.5,,
 88320005080,Spirits,19.5,,
 88320152005,Spirits,15.58,,
-88320152180,Spirits,13.17,,
+88320152180,Spirits,13.25,,
 88320300215,Spirits,53.13,,
 88320300246,Spirits,37.4,,
 88320300253,Spirits,120.13,,
@@ -10074,6 +10075,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 9421901116200,Wine,12.17,,
 9421901920517,Wine,16.79,,
 9421905788007,Wine,18.21,,
+9421908771013,Wine,15.46,,
 94282183032,Spirits,4.17,,
 9460000124,Wine,12.09,,
 9460000148,Wine,14.76,,
