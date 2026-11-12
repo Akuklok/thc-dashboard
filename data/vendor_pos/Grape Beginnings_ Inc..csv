@@ -1,9 +1,14 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Vadnais Heights,1038844,098709198005,Villa Maria Sauvignon Blanc 750ml,30295243,12,1.0,126.0,126.0,
-Ramsey,1038760,098709670150,Tilia Malbec 750ml,30299067,12,0.5,108.0,54.0,
-St. Louis Park,1038808,098709670204,Tilia Malbec Syrah 750ml,30299068,12,1.0,108.0,108.0,
-Chanhassen,1038690,3483812150007,Saint Cosme Cote du Rhone 750ml,30291427,12,1.0,162.0,162.0,
-Ramsey,1038760,657891702423,Troublemaker 750ml,30310839,12,1.0,135.0,135.0,
-Woodbury,1038859,657891715591,Austin Hope Cab Sauv 750ml,30309059,12,0.5,558.0,279.0,
-Blaine,1038664,657891720915,Austin Cabernet Sauvignon 750ml,30280765,12,1.0,180.0,180.0,
-Osseo,1038738,657891720915,Austin Cabernet Sauvignon 750ml,30280765,12,1.0,180.0,180.0,
+Minnetonka,1039047,098709088580,Catena Malbec 750ml,30309286,12,0.5,200.0,100.0,
+Blaine,1038984,098709670150,Tilia Malbec 750ml,30299067,12,1.0,108.0,108.0,
+Roseville,1039102,098709670150,Tilia Malbec 750ml,30299067,12,1.0,108.0,108.0,
+St. Louis Park,1039131,098709670150,Tilia Malbec 750ml,30299067,12,1.0,108.0,108.0,
+Blaine,1038984,657891720915,Austin Cabernet Sauvignon 750ml,30280765,12,1.0,180.0,180.0,
+Chanhassen,1039013,657891720915,Austin Cabernet Sauvignon 750ml,30280765,12,1.0,180.0,180.0,
+St. Louis Park,1039131,657891720915,Austin Cabernet Sauvignon 750ml,30280765,12,1.0,180.0,180.0,
+Roseville,1039102,695235000019,Fat Bastard Chardonnay 750ml,30310397,12,1.0,108.0,108.0,
+Minnetonka,1039239,7503018079004,G4 Tequila Blanco 750ml,30203619,6,1.0,210.0,210.0,
+St. Louis Park,1039290,850887004833,Brovo Orange Curacao 750ml,30184076,6,1.0,120.96,120.96,
+Cottage Grove,1039222,860009203235,J. Henry & Sons Four Grain Rye Whiskey,860009203235,6,0.5,222.0,111.0,Store Request
+Cottage Grove,1039222,865857000371,J. Henry Cask Strength Bourbon 750ml,30320644,6,0.5,294.0,147.0,Store Request
+Cottage Grove,1039222,865857000388,J. Henry Small Batch Bourbon 750ml,30292769,6,0.5,222.0,111.0,Store Request
