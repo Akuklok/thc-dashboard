@@ -1,13 +1,83 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-St. Louis Park,1039288,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
-Woodbury,1039319,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
-St. Louis Park,1039288,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
-St. Louis Park,1039288,083664869282,Reyka Vodka Liter,9001706,6,1.0,108.0,108.0,
-Woodbury,1039325,083664871681,Balvenie 14 Year Caribbean 750ml,9115429,6,0.5,376.0,188.0,Store Request
-St. Louis Park,1039288,084105341008,Carpano Antica Formula Liter,9009620,6,1.0,207.0,207.0,
-Woodbury,1039325,086785012346,Drumshanbo Gunpowder Irish Gin 750ml,9736321,6,1.0,180.0,180.0,Store Request
-St. Louis Park,1039288,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,108.0,108.0,
-St. Louis Park,1039288,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Woodbury,1039319,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
-Ramsey,1039262,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
-St. Louis Park,1039288,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
+Andover,1039329,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
+Blaine,1039330,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
+Bloomington,1039331,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,080244002039,Blantons Single Barrel 750ml,9031293,6,0.67,374.75,249.83,Oct/Nov Sazerac Allocations
+Osseo,1039334,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
+Rosemount,1039335,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
+Roseville,1039336,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
+St. Louis Park,1039337,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
+Woodbury,1039338,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
+Andover,1039329,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.17,810.0,135.0,Oct/Nov Sazerac Allocations
+Blaine,1039330,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.17,810.0,135.0,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.08,810.0,67.5,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.25,810.0,202.5,Oct/Nov Sazerac Allocations
+Woodbury,1039338,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.08,810.0,67.5,Oct/Nov Sazerac Allocations
+Andover,1039329,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Blaine,1039330,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
+Bloomington,1039331,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
+Chanhassen,1039339,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,080244009229,Buffalo Trace Bourbon Liter,9031302,12,3.0,255.0,765.0,Oct/Nov Sazerac Allocations
+Minnetonka,1039340,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Osseo,1039334,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
+Plymouth,1039341,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Ramsey,1039342,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Rosemount,1039335,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
+Roseville,1039336,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
+St. Louis Park,1039337,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
+Stillwater,1039343,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Vadnais Heights,1039344,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Woodbury,1039338,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
+Andover,1039329,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
+Blaine,1039330,080244009236,Buffalo Trace 750ml,9031303,12,1.0,234.0,234.0,Oct/Nov Sazerac Allocations
+Bloomington,1039331,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
+Chanhassen,1039339,080244009236,Buffalo Trace 750ml,9031303,12,0.5,234.0,117.0,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,080244009236,Buffalo Trace 750ml,9031303,12,0.58,234.0,136.5,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,080244009236,Buffalo Trace 750ml,9031303,12,2.0,234.0,468.0,Oct/Nov Sazerac Allocations
+Minnetonka,1039340,080244009236,Buffalo Trace 750ml,9031303,12,0.25,234.0,58.5,Oct/Nov Sazerac Allocations
+Osseo,1039334,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
+Plymouth,1039341,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
+Ramsey,1039342,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
+Rosemount,1039335,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
+Roseville,1039336,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
+St. Louis Park,1039337,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
+Stillwater,1039343,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
+Vadnais Heights,1039344,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
+Woodbury,1039338,080244009236,Buffalo Trace 750ml,9031303,12,0.58,234.0,136.5,Oct/Nov Sazerac Allocations
+Andover,1039329,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,2.0,128.25,256.5,Oct/Nov Sazerac Allocations
+Woodbury,1039338,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
+Andover,1039329,088004005498,E.H. Taylor Small Batch 750ml,9184186,6,1.0,247.5,247.5,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004005498,E.H. Taylor Small Batch 750ml,9184186,6,1.0,247.5,247.5,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004005498,E.H. Taylor Small Batch 750ml,9184186,6,1.0,247.5,247.5,Oct/Nov Sazerac Allocations
+Andover,1039329,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.33,337.5,112.5,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.33,337.5,112.5,Oct/Nov Sazerac Allocations
+Bloomington,1039331,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.33,337.5,112.5,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.5,337.5,168.75,Oct/Nov Sazerac Allocations
+Roseville,1039336,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
+St. Louis Park,1039337,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
+Woodbury,1039338,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
+Andover,1039329,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.33,202.0,67.33,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.33,202.0,67.33,Oct/Nov Sazerac Allocations
+Bloomington,1039331,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.5,202.0,101.0,Oct/Nov Sazerac Allocations
+Roseville,1039336,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
+St. Louis Park,1039337,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
+Woodbury,1039338,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
+Andover,1039329,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,48.75,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,48.75,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,48.75,Oct/Nov Sazerac Allocations
+Andover,1039329,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,21.0,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,21.0,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,21.0,Oct/Nov Sazerac Allocations
+Andover,1039329,088004031497,Weller Full Proof 114 750ml,9391460,6,0.33,315.0,105.0,Oct/Nov Sazerac Allocations
+Blaine,1039330,088004031497,Weller Full Proof 114 750ml,9391460,6,0.33,315.0,105.0,Oct/Nov Sazerac Allocations
+Cottage Grove,1039332,088004031497,Weller Full Proof 114 750ml,9391460,6,0.17,315.0,52.5,Oct/Nov Sazerac Allocations
+Minneapolis,1039333,088004031497,Weller Full Proof 114 750ml,9391460,6,0.5,315.0,157.5,Oct/Nov Sazerac Allocations
+Woodbury,1039338,088004031497,Weller Full Proof 114 750ml,9391460,6,0.17,315.0,52.5,Oct/Nov Sazerac Allocations

@@ -1,16 +1,7 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1038980,400000025811,Fichet Bourgogne Blanc Cote d'Or 750ml,FichetBourg,12,0.5,376.0,188.0,Allocation
-Chanhassen,1039008,400000025811,Fichet Bourgogne Blanc Cote d'Or 750ml,FichetBourg,12,0.5,376.0,188.0,Allocation
-Roseville,1039097,400000025811,Fichet Bourgogne Blanc Cote d'Or 750ml,FichetBourg,12,0.5,376.0,188.0,Allocation
-Andover,1038966,400000025812,Domaine Michel Noellat Cateaux Bourguignons 750ml,NoellatCoteaux,12,0.5,268.0,134.0,Allocation
-Blaine,1038980,400000025812,Domaine Michel Noellat Cateaux Bourguignons 750ml,NoellatCoteaux,12,1.0,268.0,268.0,Allocation
-Chanhassen,1039008,400000025812,Domaine Michel Noellat Cateaux Bourguignons 750ml,NoellatCoteaux,12,0.5,268.0,134.0,Allocation
-Roseville,1039097,400000025812,Domaine Michel Noellat Cateaux Bourguignons 750ml,NoellatCoteaux,12,1.0,268.0,268.0,Allocation
-Woodbury,1039163,400000025812,Domaine Michel Noellat Cateaux Bourguignons 750ml,NoellatCoteaux,12,0.5,268.0,134.0,Allocation
-Roseville,1039106,5601835142207,Quinta do Infantado NV Ruby Port 750ml,InfantadoRuby,12,0.25,144.0,36.0,
-Blaine,1038980,761503332134,Regis Bouvier Bourgogne Pinot Noir 750ml,BouvierBorgognePN,12,0.5,344.0,172.0,Allocation
-Chanhassen,1039008,761503332134,Regis Bouvier Bourgogne Pinot Noir 750ml,BouvierBorgognePN,12,0.5,344.0,172.0,Allocation
-Roseville,1039097,761503332134,Regis Bouvier Bourgogne Pinot Noir 750ml,BouvierBorgognePN,12,0.5,344.0,172.0,Allocation
-Roseville,1039282,837027009125,Jean Cave Trois Etoiles Armagnac 700ml,CaveTroisEtoiles,6,1.0,168.0,168.0,
-Blaine,1039187,852955008125,Lokal Vodka 1.75L,LokalVodka1.75,6,1.0,108.0,108.0,
-Blaine,1039187,852955008163,10000 Drops Dem Apples Rum 750ml,10KDropsDem Apples,6,1.0,117.0,117.0,
+Bloomington,1039345,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,2.0,144.0,288.0,Seminar
+Bloomington,1039345,083648000304,Pike Road WV Chardonnay 750ml,PikeRoadChard21,12,2.0,144.0,288.0,Seminar
+Bloomington,1039345,083648877111,Elk Cove Pinot Noir 750ml,ElkCovePNWillamette23,12,2.0,256.0,512.0,Seminar
+Bloomington,1039345,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,2.0,528.0,1056.0,Seminar
+Bloomington,1039345,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,2.0,220.0,440.0,Seminar
+Bloomington,1039345,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,2.0,224.0,448.0,Seminar
