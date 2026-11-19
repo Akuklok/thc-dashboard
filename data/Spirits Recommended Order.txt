@@ -2,85 +2,82 @@
   RECOMMENDED SPIRITS ORDER          Thursday, Nov 19, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 18 - refreshes automatically)
+  Gross need (all stores) .....  $    310,067
+  Coverable by transfer .......  $    109,269   (35%)
+  NET BUY from vendors ........  $    281,025   <- the order
 
-  Gross need (all stores) .....  $    374,476
-  Coverable by transfer .......  $    118,935   (32%)
-  NET BUY from vendors ........  $    331,729   <- the order
-
-  241 items   |   45,433 units to buy   |   21,121 units to rebalance
-  Transfers: 1,026 moves  -  848 urgent (271 stockouts, 577 under 2wk), 178 routine
+  222 items   |   39,620 units to buy   |   20,144 units to rebalance
+  Transfers: 946 moves  -  735 urgent (216 stockouts, 519 under 2wk), 211 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 136 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 124 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Jim Beam Bowling Pin 750ml           4u/4cs           $319      4     0   OUT
-   2  Ciroc Summer Watermelon 750ml        12u/1cs          $258      5     0   OUT
-   3  McMasters Canadian Whiskey 1.75L     6u/1cs            $80      4     0   OUT
-   4  Buzzballz Grape Gone Wild Vikings 2  1u/1cs             $0      1     0   OUT
-   5  Copper & Kings Butchertown 750ml     1u/1cs            $30      1     0   OUT
-   6  99 Schnapps Party Bucket             6u/1cs            $79      1     0   OUT
-   7  Moskovskaya Vodka                    1u/1cs            $11      1     0   OUT
-   8  Espolon Reposado Tequila 375ml       24u/2cs          $286     29     0   0.5
-   9  BuzzBallz Chillers Frankentini 187m  24u/1cs           $51     16     0   0.5
-  10  Gran Agave Ghost Edition Tequila 75  18u/3cs          $810     17     0   0.6
-  11  Smirnoff Kissed Caramel Vodka Liter  48u/4cs          $486     47     0   0.6
-  12  99 Strawberries Schnapps 50ml        2280u/19cs     $1,370   2302    27   0.8
-  13  BuzzBallz Biggies Dirty Shirley 1.7  66u/22cs         $990     71     4   0.8
-  14  99 Grapes 50ml                       120u/1cs          $72    114     0   0.8
-  15  Roe & Co. Irish Whiskey 750ml        6u/1cs             $0      4     0   0.9
-  16  Bird Dog Peach Whiskey 750ml         6u/1cs            $81      7     0   0.9
-  17  Cruzan Single Barrel Rum 750ml       6u/1cs           $135      7     0   0.9
-  18  Drink Wisconsinbly Cran Apple RTD 1  6u/1cs            $58      4     0   0.9
-  19  Espolon Blanco Tequila 375ml         36u/3cs          $363     34     0   1.0
-  20  New Amsterdam Apple Vodka 1.75L      48u/8cs          $734     41     0   1.1
-  ...and 221 more in the full list.
+   1  Don Q Reserva Rum 750ml              1u/1cs             $0      1     0   OUT
+   2  Jim Beam Bowling Pin 750ml           4u/4cs           $319      4     0   OUT
+   3  Ciroc Summer Watermelon 750ml        12u/1cs          $258      5     0   OUT
+   4  Fulton's Harvest Pumpkin Pie 750ml   12u/1cs           $91      7     0   OUT
+   5  McMasters Canadian Whiskey 1.75L     6u/1cs            $80      4     0   OUT
+   6  Buzzballz Grape Gone Wild Vikings 2  1u/1cs             $0      1     0   OUT
+   7  Copper & Kings Butchertown 750ml     1u/1cs            $30      1     0   OUT
+   8  99 Schnapps Party Bucket             6u/1cs            $79      1     0   OUT
+   9  Moskovskaya Vodka                    1u/1cs            $11      1     0   OUT
+  10  Espolon Reposado Tequila 375ml       24u/2cs          $286     27     0   0.5
+  11  BuzzBallz Chillers Frankentini 187m  24u/1cs           $51     16     0   0.5
+  12  Gran Agave Ghost Edition Tequila 75  18u/3cs          $810     17     0   0.6
+  13  99 Strawberries Schnapps 50ml        2280u/19cs     $1,370   2321    21   0.7
+  14  99 Grapes 50ml                       120u/1cs          $72    118     0   0.7
+  15  BuzzBallz Biggies Dirty Shirley 1.7  66u/22cs         $990     69     4   0.8
+  16  Austin Cocktails Ruby Red 4pk 8oz c  18u/3cs           $30     13     0   0.8
+  17  Roe & Co. Irish Whiskey 750ml        6u/1cs             $0      4     0   0.9
+  18  Bird Dog Peach Whiskey 750ml         6u/1cs            $81      7     0   0.9
+  19  Drink Wisconsinbly Cran Apple RTD 1  6u/1cs            $58      4     0   0.9
+  20  Fireball Party Bucket                84u/14cs         $995     82     0   1.0
+  ...and 202 more in the full list.
 
-  NEEDS REVIEW (136 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (124 items the system isn't fully sure about - check before ordering):
+    Don Q Reserva Rum 750ml                   No cost data - verify price; Margin over 95% - check retail
     Ciroc Summer Watermelon 750ml             Buy-month stock-up ($258 to next deal) - confirm
     McMasters Canadian Whiskey 1.75L          Seasonal - last year ~2/wk vs 1 now, buy ahead?
     Buzzballz Grape Gone Wild Vikings 24pk 1  Margin over 95% - check retail
     Moskovskaya Vodka                         Margin looks off - check retail/cost
-    Smirnoff Kissed Caramel Vodka Liter       Off buy-month - confirm timing
     Roe & Co. Irish Whiskey 750ml             No cost data - verify price; Margin over 95% - check retail
-    New Amsterdam Apple Vodka 1.75L           Buy-month stock-up ($734 to next deal) - confirm
     Blackheart Spiced Rum Liter               Off buy-month - confirm timing
-    Svedka Vodka Traveler                     Buy-month stock-up ($2,044 to next deal) - confirm
-    Smirnoff Vanilla Vodka 1.75L              Buy-month stock-up ($1,408 to next deal) - confirm
-    Gray Duck 1.75L                           Seasonal - last year ~142/wk vs 17 now, buy ahead?
-    Lunazul Reposado Tequila Liter            Large buy ($9,188) - confirm
+    Smirnoff Vanilla Vodka 1.75L              Buy-month stock-up ($1,320 to next deal) - confirm
+    Smirnoff Kissed Caramel Vodka Liter       Off buy-month - confirm timing
+    Gray Duck 1.75L                           Seasonal - last year ~148/wk vs 17 now, buy ahead?
     E&J Brandy 1.75L                          Off buy-month - confirm timing
-    New Amsterdam Vodka 1.75L                 Buy-month stock-up ($3,123 to next deal) - confirm
-    Evan Williams Bourbon 1.75L               Off buy-month - confirm timing
-    ...and 121 more (see Needs Review tab).
+    New Amsterdam Apple Vodka 1.75L           Buy-month stock-up ($639 to next deal) - confirm
+    New Amsterdam Lemon 1.75L                 Buy-month stock-up ($280 to next deal) - confirm
+    Malibu Rum Strawberry Liter               Buy-month stock-up ($907 to next deal) - confirm
+    New Amsterdam Vodka 1.75L                 Buy-month stock-up ($2,726 to next deal) - confirm
+    ...and 109 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (52 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (47 discontinued items still selling/low - run down stock):
     Bailey's Irish Cream Liter                  (would have bought 60u)
-    Buffalo Trace 1.75L                         (would have bought 318u)
+    Buffalo Trace 1.75L                         (would have bought 294u)
     BuzzBallz Sour Apple 187ml                  (would have bought 24u)
-    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 24u)
-    Buzzballz Biggies Tequila 'Rita 1.75L       (would have bought 18u)
-    Buzzballz Lime 'Rita Chiller 187ml          (would have bought 24u)
-    Buzzballz Strawberry 'Rita Chiller 187ml    (would have bought 96u)
-    Cazadores Reposado Tequila 750ml            (would have bought 12u)
-    Cruzan Light Rum 1.75L                      (would have bought 12u)
+    Buzzballz Biggies Strawberry 'Rita 1.75L    (would have bought 21u)
+    Buzzballz Biggies Tequila 'Rita 1.75L       (would have bought 15u)
+    Buzzballz Strawberry 'Rita Chiller 187ml    (would have bought 48u)
+    Crown Royal Canadian 1.75L                  (would have bought 6u)
     Crystal head Vodka 750ml                    (would have bought 6u)
-    Fris Vodka 1.75L                            (would have bought 252u)
-    Hennessy VS Cognac 750ml                    (would have bought 96u)
+    Fris Vodka 1.75L                            (would have bought 198u)
+    Hennessy VS Cognac 750ml                    (would have bought 72u)
     High West Manhattan 750ml                   (would have bought 18u)
-    High West Midwinter Nights Dram 750ml       (would have bought 6u)
-    Jack Daniels Fire 1.75L                     (would have bought 18u)
-    ...and 37 more (see Being Removed tab).
+    Jack Daniels Fire 1.75L                     (would have bought 12u)
+    Jack Daniels Fire 750ml                     (would have bought 12u)
+    Jack Daniels Tennessee Apple 750ml          (would have bought 24u)
+    Jack Daniels Tennessee Honey 1.75L          (would have bought 6u)
+    ...and 32 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (9 routine deal items out of their buy month - $7,112 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (8 routine deal items out of their buy month - $15,051 cheaper to buy in-month):
     Burnett's Vodka 1.75L                       Wait for buy-month (Jan, Apr, Jul, Aug, Oct, Dec)
+    Christian Brothers Brandy 1.75L             Wait for buy-month (Mar, Jun, Aug, Oct, Dec)
     Elijah Craig BBN Small Batch 94 1.75L       Wait for buy-month (Mar, Jun, Jul, Sep, Dec)
     Evan Williams 100 Proof 1.75L               Wait for buy-month (Jan, Apr, Jun, Aug, Oct, Dec)
+    Evan Williams Bourbon 1.75L                 Wait for buy-month (Jan, Apr, Jun, Aug, Oct, Dec)
     High Noon Black Cherry 4pk 12oz can         Wait for buy-month (May, Aug)
-    High Noon Lemon 4pk 12oz can                Wait for buy-month (May, Aug)
-    High Noon Lime 4pk 12oz can                 Wait for buy-month (May, Aug)
-    High Noon Pineapple 4pk 12oz can            Wait for buy-month (May, Aug)
     Jim Beam Bourbon 1.75L                      Wait for buy-month (Mar, Jun, Sep, Dec)
-    Kahlua Liter                                Wait for buy-month (Mar, Jun, Sep, Dec)
+    Windsor Canadian 1.75L                      Wait for buy-month (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Dec)
