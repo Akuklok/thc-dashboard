@@ -2,16 +2,14 @@
   RECOMMENDED BEER ORDER          Thursday, Nov 19, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 18 - refreshes automatically)
+  Gross need (all stores) .....  $    432,858
+  Coverable by transfer .......  $    185,912   (43%)
+  NET BUY from vendors ........  $    222,005   <- the order
 
-  Gross need (all stores) .....  $    421,130
-  Coverable by transfer .......  $    184,136   (44%)
-  NET BUY from vendors ........  $    212,356   <- the order
-
-  514 items   |   17,854 units to buy   |   17,017 units to rebalance
-  Transfers: 1,521 moves  -  1262 urgent (529 stockouts, 733 under 2wk), 259 routine
+  525 items   |   18,806 units to buy   |   17,188 units to rebalance
+  Transfers: 1,538 moves  -  1281 urgent (554 stockouts, 727 under 2wk), 257 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 46 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 50 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -23,43 +21,44 @@
    5  Miller High Life 24pk 16oz can       6u/6cs            $91      6     0   OUT
    6  Bent Paddle Light Lager  12pk 12oz   34u/34cs         $398     34     0   OUT
    7  Ursa Minor Glamping                  1u/1cs             $3      1     0   OUT
-   8  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     27     0   OUT
-   9  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
-  10  Tucher Festbier 4pk 16oz can         7u/7cs            $65      7     0   OUT
-  11  Summit Lake Crusher/Winter 12pk 12o  8u/4cs            $95     38    30   OUT
-  12  Grain Belt Elite 12pk 12oz can       4u/2cs            $33      4     0   OUT
+   8  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     29     0   OUT
+   9  Grain Belt Elite 12pk 12oz can       4u/2cs            $33      3     0   OUT
+  10  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
+  11  Tucher Festbier 4pk 16oz can         7u/7cs            $65      7     0   OUT
+  12  Summit Lake Crusher/Winter 12pk 12o  8u/4cs            $95     37    30   OUT
   13  Lagunitas Hazy IPA 12pk 12oz can     32u/16cs         $384     32     0   OUT
   14  Miller High Life Light 24pk 16oz ca  2u/2cs            $17      2     0   OUT
-  15  Summit Saga Variety 12pk 12oz can    68u/34cs         $898     68     0   OUT
+  15  Summit Saga Variety 12pk 12oz can    70u/35cs         $924     70     0   OUT
   16  Fulton Brewing Chill City 6pk 12oz   2u/2cs            $10      2     0   OUT
   17  Toppling Goliath Hazy Day Sue 6pk 1  24u/6cs          $240     26     0   OUT
   18  Schilling Grapefruit and Chill 6pk   3u/3cs            $26      3     0   OUT
   19  Stella Artois                        1u/1cs           $156      1     0   OUT
   20  Cutwater Peach Margerita 4pk 12oz c  30u/5cs          $296     31     0   OUT
-  ...and 494 more in the full list.
+  ...and 505 more in the full list.
 
-  NEEDS REVIEW (46 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (50 items the system isn't fully sure about - check before ordering):
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
-    Downeast Cider Seasonal 2 4pk 12oz can    Seasonal - last year ~26/wk vs 13 now, buy ahead?
-    Sierra Nevada Pale Ale 19.2oz can         Seasonal - last year ~7/wk vs 5 now, buy ahead?
-    Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~27/wk vs 17 now, buy ahead?
+    Downeast Cider Seasonal 2 4pk 12oz can    Seasonal - last year ~26/wk vs 12 now, buy ahead?
+    Sierra Nevada Pale Ale 19.2oz can         Seasonal - last year ~7/wk vs 4 now, buy ahead?
+    Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~28/wk vs 17 now, buy ahead?
     Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Tucher Helles Lager                       No cost data - verify price; Margin over 95% - check retail
-    Summit Winter 12pk 12oz can               Seasonal - last year ~31/wk vs 14 now, buy ahead?
+    Summit Winter 12pk 12oz can               Seasonal - last year ~33/wk vs 14 now, buy ahead?
     Barrel Theory Raindrops 4pk 16oz can      Seasonal - last year ~11/wk vs 1 now, buy ahead?
     Drekker BS Peach/Plum/BlackCurr           No cost data - verify price; Margin over 95% - check retail
     Hinterland Luna Coffee Stout              No cost data - verify price; Margin over 95% - check retail
     Bud Light 16oz can                        No cost data - verify price; Margin over 95% - check retail
     Ursa Minor Drunk Gandalf 4pk 16oz can     Margin looks off - check retail/cost
-    Mystery Beer 24pk                         Large buy ($4,311) - confirm; Seasonal - last year ~254/wk vs 123 now, buy ahead?
     Surly Vodka Lemon Drop 19.2oz can         Margin looks off - check retail/cost
     Deschutes Fresh Squeezed IPA 6pk 12oz ca  No cost data - verify price; Margin over 95% - check retail; Seasonal - last year ~4/wk vs 3 now, buy ahead?
-    ...and 31 more (see Needs Review tab).
+    War Pigs Foggy Geezer 16 Gallon           Margin looks off - check retail/cost
+    ...and 35 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (6 discontinued items still selling/low - run down stock):
-    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 20u)
-    Beatbox Fruit Punch  500ml                  (would have bought 24u)
+  BEING REMOVED - DO NOT REORDER (7 discontinued items still selling/low - run down stock):
+    Aspall Dry Cider 17oz btl                   (would have bought 1u)
+    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 28u)
+    Beatbox Fruit Punch  500ml                  (would have bought 36u)
     Beatbox Tropical Punch  500ml               (would have bought 24u)
-    Monaco Tequila Lime Crush 12oz can          (would have bought 36u)
+    Monaco Tequila Lime Crush 12oz can          (would have bought 24u)
     The Finnish Long Drink Traditional 6pk 12o  (would have bought 4u)
-    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 56u)
+    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 44u)
