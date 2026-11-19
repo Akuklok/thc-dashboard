@@ -1,3 +1,5 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Roseville,1038605,7503005292003,Apaluz Mezcal 750ml,3807395517,12,1.0,260.0,260.0,
-St. Louis Park,1038826,799665809850,Field Recordings Fiction Red 750ml,3412328019,12,1.0,176.0,176.0,
+Blaine,1039500,616806661071,The Fableist Cabernet 750ml,3294080094,12,0.5,176.0,88.0,
+Minneapolis,1039570,616806661071,The Fableist Cabernet 750ml,3294080094,12,0.5,176.0,88.0,
+Bloomington,1039793,7503005292003,Apaluz Mezcal 750ml,3807395517,12,0.5,260.0,130.0,Store Request
+Woodbury,1039752,799665809850,Field Recordings Fiction Red 750ml,3412328019,12,1.0,176.0,176.0,

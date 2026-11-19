@@ -1,79 +1,141 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Andover,1039329,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
-Blaine,1039330,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
-Bloomington,1039331,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,080244002039,Blantons Single Barrel 750ml,9031293,6,0.67,374.75,249.83,Oct/Nov Sazerac Allocations
-Osseo,1039334,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
-Rosemount,1039335,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
-Roseville,1039336,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
-St. Louis Park,1039337,080244002039,Blantons Single Barrel 750ml,9031293,6,0.17,374.75,62.46,Oct/Nov Sazerac Allocations
-Woodbury,1039338,080244002039,Blantons Single Barrel 750ml,9031293,6,0.33,374.75,124.92,Oct/Nov Sazerac Allocations
-Andover,1039329,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.17,810.0,135.0,Oct/Nov Sazerac Allocations
-Blaine,1039330,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.17,810.0,135.0,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.08,810.0,67.5,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.25,810.0,202.5,Oct/Nov Sazerac Allocations
-Woodbury,1039338,080244007737,Elmer T Lee Bourbon 750ml,9211243,12,0.08,810.0,67.5,Oct/Nov Sazerac Allocations
-Andover,1039329,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Blaine,1039330,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
-Bloomington,1039331,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
-Chanhassen,1039339,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,080244009229,Buffalo Trace Bourbon Liter,9031302,12,3.0,255.0,765.0,Oct/Nov Sazerac Allocations
-Osseo,1039334,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
-Plymouth,1039341,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Rosemount,1039335,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
-Roseville,1039336,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
-St. Louis Park,1039337,080244009229,Buffalo Trace Bourbon Liter,9031302,12,2.0,255.0,510.0,Oct/Nov Sazerac Allocations
-Stillwater,1039343,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Vadnais Heights,1039344,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Woodbury,1039338,080244009229,Buffalo Trace Bourbon Liter,9031302,12,1.0,255.0,255.0,Oct/Nov Sazerac Allocations
-Andover,1039329,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
-Blaine,1039330,080244009236,Buffalo Trace 750ml,9031303,12,1.0,234.0,234.0,Oct/Nov Sazerac Allocations
-Bloomington,1039331,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
-Chanhassen,1039339,080244009236,Buffalo Trace 750ml,9031303,12,0.5,234.0,117.0,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,080244009236,Buffalo Trace 750ml,9031303,12,0.58,234.0,136.5,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,080244009236,Buffalo Trace 750ml,9031303,12,2.0,234.0,468.0,Oct/Nov Sazerac Allocations
-Osseo,1039334,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
-Plymouth,1039341,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
-Rosemount,1039335,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
-Roseville,1039336,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
-St. Louis Park,1039337,080244009236,Buffalo Trace 750ml,9031303,12,0.67,234.0,156.0,Oct/Nov Sazerac Allocations
-Stillwater,1039343,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
-Vadnais Heights,1039344,080244009236,Buffalo Trace 750ml,9031303,12,0.75,234.0,175.5,Oct/Nov Sazerac Allocations
-Woodbury,1039338,080244009236,Buffalo Trace 750ml,9031303,12,0.58,234.0,136.5,Oct/Nov Sazerac Allocations
-Andover,1039329,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,2.0,128.25,256.5,Oct/Nov Sazerac Allocations
-Woodbury,1039338,088004004880,Caribou Crossing Canadian Whisky 750ml,9186980,3,1.0,128.25,128.25,Oct/Nov Sazerac Allocations
-Andover,1039329,088004005498,E.H. Taylor Small Batch 750ml,9184186,6,1.0,247.5,247.5,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004005498,E.H. Taylor Small Batch 750ml,9184186,6,1.0,247.5,247.5,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004005498,E.H. Taylor Small Batch 750ml,9184186,6,1.0,247.5,247.5,Oct/Nov Sazerac Allocations
-Andover,1039329,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.33,337.5,112.5,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.33,337.5,112.5,Oct/Nov Sazerac Allocations
-Bloomington,1039331,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.33,337.5,112.5,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.5,337.5,168.75,Oct/Nov Sazerac Allocations
-Roseville,1039336,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
-St. Louis Park,1039337,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
-Woodbury,1039338,088004005511,E.H. Taylor Single Barrel 750ml,9186984,6,0.17,337.5,56.25,Oct/Nov Sazerac Allocations
-Andover,1039329,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.33,202.0,67.33,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.33,202.0,67.33,Oct/Nov Sazerac Allocations
-Bloomington,1039331,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.5,202.0,101.0,Oct/Nov Sazerac Allocations
-Roseville,1039336,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
-St. Louis Park,1039337,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
-Woodbury,1039338,088004021344,Eagle Rare Single Barrel 750ml,9031427,6,0.17,202.0,33.67,Oct/Nov Sazerac Allocations
-Andover,1039329,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,48.75,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,48.75,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004025649,Weller Antique 107 750ml,9031685,12,0.08,585.0,48.75,Oct/Nov Sazerac Allocations
-Andover,1039329,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,21.0,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,21.0,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004025748,Weller Special Reserve 750ml,9031692,12,0.08,252.0,21.0,Oct/Nov Sazerac Allocations
-Andover,1039329,088004031497,Weller Full Proof 114 750ml,9391460,6,0.33,315.0,105.0,Oct/Nov Sazerac Allocations
-Blaine,1039330,088004031497,Weller Full Proof 114 750ml,9391460,6,0.33,315.0,105.0,Oct/Nov Sazerac Allocations
-Cottage Grove,1039332,088004031497,Weller Full Proof 114 750ml,9391460,6,0.17,315.0,52.5,Oct/Nov Sazerac Allocations
-Minneapolis,1039333,088004031497,Weller Full Proof 114 750ml,9391460,6,0.5,315.0,157.5,Oct/Nov Sazerac Allocations
-Woodbury,1039338,088004031497,Weller Full Proof 114 750ml,9391460,6,0.17,315.0,52.5,Oct/Nov Sazerac Allocations
+Woodbury,1039739,012354000995,19 Crimes Red Wine 750ml,9158771,12,1.0,80.0,80.0,Month End
+Plymouth,1039610,012354001350,19 Crimes Cabernet 750ml,9185754,12,1.0,80.0,80.0,Month End
+Woodbury,1039739,012354001350,19 Crimes Cabernet 750ml,9185754,12,1.0,80.0,80.0,Month End
+Plymouth,1039610,012354001930,19 Crimes The Uprising 750ml,9258871,12,1.0,80.0,80.0,Month End
+Woodbury,1039739,012354001930,19 Crimes The Uprising 750ml,9258871,12,1.0,80.0,80.0,Month End
+Minneapolis,1039562,012354004290,19 Crimes Cali Red 750ml,9439503,12,1.0,104.0,104.0,Month End
+St. Louis Park,1039928,016600000739,Roses Sweetened Lime Liter,9004797,12,1.0,75.92,75.92,
+Cottage Grove,1039817,070655910016,Mr & Mrs T Bloody Mary 1.75L,9004806,6,1.0,45.0,45.0,
+Minneapolis,1039831,070655910016,Mr & Mrs T Bloody Mary 1.75L,9004806,6,1.0,45.0,45.0,
+Ramsey,1039881,070655910016,Mr & Mrs T Bloody Mary 1.75L,9004806,6,1.0,45.0,45.0,
+Vadnais Heights,1039960,070655910016,Mr & Mrs T Bloody Mary 1.75L,9004806,6,1.0,45.0,45.0,
+Cottage Grove,1039817,070655910030,Mr & Mrs T Bold & Spicy 1.75L,9159926,6,1.0,45.0,45.0,
+Minneapolis,1039831,070655910030,Mr & Mrs T Bold & Spicy 1.75L,9159926,6,1.0,45.0,45.0,
+Vadnais Heights,1039960,070655910030,Mr & Mrs T Bold & Spicy 1.75L,9159926,6,1.0,45.0,45.0,
+Woodbury,1039972,070655910030,Mr & Mrs T Bold & Spicy 1.75L,9159926,6,1.0,45.0,45.0,
+Plymouth,1039866,070655912300,Mr & Mrs T Sweet & Sour Liter,9004811,6,1.0,26.05,26.05,
+Vadnais Heights,1039960,070655912300,Mr & Mrs T Sweet & Sour Liter,9004811,6,1.0,26.05,26.05,
+Plymouth,1039866,074993024770,Barritt's Ginger Beer 6pk 12oz can,9021845,4,1.0,24.0,24.0,
+Plymouth,1039610,082148019823,Cuvaison Chardonnay 2022 750ml,9754947,12,0.5,196.0,98.0,Month End
+St. Louis Park,1039684,082148019823,Cuvaison Chardonnay 2022 750ml,9754947,12,1.0,196.0,0.0,Month End
+Vadnais Heights,1039725,082148019823,Cuvaison Chardonnay 2022 750ml,9754947,12,0.5,196.0,98.0,Month End
+Woodbury,1039739,082148019823,Cuvaison Chardonnay 2022 750ml,9754947,12,1.0,196.0,196.0,Month End
+St. Louis Park,1039684,082491182021,Dry Creek Sauv Blanc 750ml,9766706,12,1.0,176.0,0.0,Month End
+Vadnais Heights,1039960,083664868735,Sailor Jerry Spiced Rum 1.75L,9001703,6,1.0,112.5,112.5,
+Plymouth,1039866,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
+St. Louis Park,1039928,083664868919,Milagro Silver Tequila 750ml,9001700,6,1.0,107.0,107.0,
+Minneapolis,1039831,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
+St. Louis Park,1039928,083664868940,Milagro Reposado Tequila 750ml,9001701,6,2.0,107.0,214.0,
+Vadnais Heights,1039960,083664868940,Milagro Reposado Tequila 750ml,9001701,6,1.0,107.0,107.0,
+Plymouth,1039610,084692400546,Louis Jadot Beaujolais Village 750ml,9750767,12,1.0,104.0,104.0,Month End
+Minneapolis,1039562,084692418541,Louis Jadot Macon Village 750ml,9740610,12,1.0,128.0,128.0,Month End
+St. Louis Park,1039684,084692424542,Louis Jadot Pouilly Fuisse 750ml,9740309,12,1.0,272.0,0.0,Month End
+Plymouth,1039616,084692478941,Cakebread Cellars Chardonnay 750ml,9776121,12,0.5,384.0,192.0,Store Request
+St. Louis Park,1039684,084692478941,Cakebread Cellars Chardonnay 750ml,9776121,12,1.0,384.0,0.0,Month End
+Cottage Grove,1039547,084692479146,Cakebread Cellars Cab Sauv 750ml,9696670,12,0.5,720.0,360.0,Month End
+St. Louis Park,1039684,084692620531,Medici Concerto Lambrusco 2024 750ml,9757104,12,1.0,128.0,0.0,Month End
+Cottage Grove,1039817,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,71.05,71.05,
+Ramsey,1039881,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,2.0,71.05,142.1,
+St. Louis Park,1039928,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,71.05,71.05,
+Vadnais Heights,1039960,086024007874,Margaritaville Silver Tequila 50ml,9675758,120,1.0,71.05,71.05,
+Minneapolis,1039831,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,1.0,71.05,71.05,
+Plymouth,1039866,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,1.0,71.05,71.05,
+St. Louis Park,1039928,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,1.0,71.05,71.05,
+Vadnais Heights,1039960,086024007997,Margaritaville Gold Tequila 50ml,9027449,120,1.0,71.05,71.05,
+Minneapolis,1039562,086785110738,Roscato Rosso Dolce 750ml,9736068,12,1.0,104.0,104.0,Month End
+Plymouth,1039610,086785110738,Roscato Rosso Dolce 750ml,9736068,12,1.0,104.0,104.0,Month End
+Cottage Grove,1039547,086785110745,Roscato Peach 750ml,9735801,12,1.0,104.0,104.0,Month End
+Cottage Grove,1039547,086785110820,Roscato Blueberry 750ml,9735791,12,1.0,104.0,104.0,Month End
+St. Louis Park,1039684,086785732046,Recanati Yasmin Red 750ml,9736501,12,1.0,120.0,0.0,Month End
+St. Louis Park,1039684,086785750613,Callia Bella Syrah Malbec 750ml,9736192,12,1.0,112.0,0.0,Month End
+Cottage Grove,1039547,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
+Minneapolis,1039562,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
+Vadnais Heights,1039725,087872633369,Stella Rosa Black 750ml,9746390,12,1.0,104.0,104.0,Month End
+Minneapolis,1039831,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
+Vadnais Heights,1039960,088004000073,Taaka Vodka 375ml,9031610,24,1.0,57.94,57.94,
+Minneapolis,1039831,088004009281,Fireball Whisky 1.75L,9148530,6,1.0,99.0,99.0,
+Cottage Grove,1039817,088004009588,Dr.McGillicuddy's Wild Grape 50ml,9219498,120,1.0,71.05,71.05,
+Minneapolis,1039831,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
+Woodbury,1039972,088004010126,Taaka Vodka 1.75L,9031608,6,1.0,52.71,52.71,
+Minneapolis,1039831,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Plymouth,1039866,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Ramsey,1039881,088004011543,Taaka Vodka 750ml,9031611,12,1.0,54.0,54.0,
+Plymouth,1039866,088004020323,Dr Mcgillicuddy Butterscotch 50ml,9219489,120,1.0,71.05,71.05,
+Cottage Grove,1039817,088004026141,Fris Vodka 1.75L,9612242,6,3.0,42.5,127.5,
+Minneapolis,1039831,088004026141,Fris Vodka 1.75L,9612242,6,20.0,42.5,850.0,
+St. Louis Park,1039928,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
+Vadnais Heights,1039960,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
+Woodbury,1039972,088004026141,Fris Vodka 1.75L,9612242,6,1.0,42.5,42.5,
+Plymouth,1039866,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
+Vadnais Heights,1039960,088004029296,Fireball Party Bucket,9295393,6,1.0,71.05,71.05,
+Ramsey,1039881,088004060060,Traveller Whiskey 750ml,9706276,12,1.0,315.0,315.0,
+Plymouth,1039866,088004069148,Fireball Blazin' Apple 750ml,9768706,12,1.0,99.0,99.0,
+Minneapolis,1039831,088004069155,Fireball Blazin' Apple 50ml,9768707,120,6.0,71.05,426.31,
+Cottage Grove,1039817,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,1.0,71.05,71.05,
+Minneapolis,1039831,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,2.0,71.05,142.1,
+St. Louis Park,1039928,088004086954,Fireball Torch'd Vanilla 50ml,9802240,120,1.0,71.05,71.05,
+Minneapolis,1039831,088004144081,Dr McGillicuddys Mentholmint 50ml,9031417,120,1.0,71.05,71.05,
+Cottage Grove,1039817,088004144708,Fireball Whisky 50ml,9220188,120,4.0,71.05,284.21,
+Minneapolis,1039831,088004144708,Fireball Whisky 50ml,9220188,120,14.0,71.05,994.73,
+Ramsey,1039881,088004144708,Fireball Whisky 50ml,9220188,120,4.0,71.05,284.21,
+St. Louis Park,1039928,088004144708,Fireball Whisky 50ml,9220188,120,6.0,71.05,426.31,
+Woodbury,1039972,088004144708,Fireball Whisky 50ml,9220188,120,2.0,71.05,142.1,
+Minneapolis,1039831,088004148263,Dr McGillicuddys Cherry 50ml,9031403,120,1.0,71.05,71.05,
+St. Louis Park,1039928,088004700256,Canadian Hunter 1.75L,9031311,6,1.0,76.5,76.5,
+Woodbury,1039972,088544018910,Southern Comfort 1.75L,9007726,6,1.0,90.0,90.0,
+Minneapolis,1039562,089016017264,Capriccio Bubbly Sangria 750ml,9759882,12,1.0,88.0,88.0,Month End
+Cottage Grove,1039542,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,2.0,80.0,160.0,Distro
+Minneapolis,1039558,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,2.0,80.0,160.0,Distro
+Plymouth,1039603,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,4.0,80.0,320.0,Distro
+Ramsey,1039622,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,2.0,80.0,160.0,Distro
+St. Louis Park,1039679,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,10.0,80.0,800.0,Distro
+Vadnais Heights,1039719,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,3.0,80.0,240.0,Distro
+Woodbury,1039735,089819010523,Daou Pessimist and Realist 2pk 750ml,9780113,6,4.0,80.0,320.0,Distro
+Cottage Grove,1039547,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,0.5,464.0,232.0,Month End
+Ramsey,1039626,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,0.5,464.0,232.0,Month End
+St. Louis Park,1039684,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,1.0,464.0,0.0,Month End
+Vadnais Heights,1039725,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,0.5,464.0,232.0,Month End
+Woodbury,1039739,089819042401,Stags' Leap Cabernet Sauvignon Napa 750ml,9764918,12,0.5,464.0,232.0,Month End
+St. Louis Park,1039684,089819043019,Stags' Leap Chardonnay 750ml,9742844,12,1.0,240.0,0.0,Month End
+Cottage Grove,1039547,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,3.0,96.0,288.0,Month End
+Minneapolis,1039562,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,4.0,96.0,384.0,Month End
+Plymouth,1039610,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,3.0,96.0,288.0,Month End
+Ramsey,1039626,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,96.0,96.0,Month End
+St. Louis Park,1039684,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,8.0,96.0,0.0,Month End
+Vadnais Heights,1039725,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,1.0,96.0,96.0,Month End
+Woodbury,1039739,089819158027,Matua Valley Sauv Blanc 750ml,9004108,12,3.0,96.0,288.0,Month End
+Minneapolis,1039562,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,160.0,160.0,Month End
+Plymouth,1039610,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,160.0,160.0,Month End
+Ramsey,1039626,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,160.0,160.0,Month End
+St. Louis Park,1039684,669576019207,Decoy Red Wine 750ml,9756574,12,1.0,160.0,0.0,Month End
+Plymouth,1039610,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,136.0,136.0,Month End
+St. Louis Park,1039684,669576019214,Decoy Sauvignon Blanc 750ml,9732673,12,1.0,136.0,0.0,Month End
+Minneapolis,1039562,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,1.0,160.0,160.0,Month End
+St. Louis Park,1039684,669576019221,Decoy Sonoma Pinot Noir 750ml,9744534,12,3.0,160.0,0.0,Month End
+Cottage Grove,1039547,669576019245,Decoy Sonoma Chardonnay 750ml,9745199,12,1.0,136.0,136.0,Month End
+St. Louis Park,1039684,669576019252,Decoy Merlot 750ml,9780625,12,1.0,160.0,0.0,Month End
+Minneapolis,1039562,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,160.0,Month End
+St. Louis Park,1039684,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,0.0,Month End
+Vadnais Heights,1039725,669576019269,Decoy Cabernet Sauvignon 750ml,9755505,12,1.0,160.0,160.0,Month End
+St. Louis Park,1039684,683318626249,Fit Vine Sauvigon Blanc 750ml,9326991,12,1.0,120.0,0.0,Month End
+Woodbury,1039972,720815988347,Seagrams Extra Smooth Vodka 1.75L,9100891,6,1.0,71.96,71.96,
+Minneapolis,1039562,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,Month End
+Plymouth,1039610,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,3.0,184.0,552.0,Month End
+St. Louis Park,1039684,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,9.0,184.0,0.0,Month End
+Woodbury,1039739,769611454441,Sonoma Cutrer Chardonnay 750ml,1033240,12,1.0,184.0,184.0,Month End
+Ramsey,1039887,812066020553,Macallan 12 Yr Sherry Oak 750ml,9047048,12,1.0,800.0,0.0,Store Request
+Ramsey,1039881,812066021598,Macallan Double Cask 12yr 750ml,9234321,12,0.5,683.0,0.0,
+Woodbury,1039972,812066021598,Macallan Double Cask 12yr 750ml,9234321,12,1.0,683.0,683.0,
+Woodbury,1039739,847159002024,Creamery Chardonnay 750ml,9295405,12,1.0,91.0,91.0,Month End
+Cottage Grove,1039547,853086008077,Fit Vine Pinot Grigio 750ml,9326988,12,1.0,120.0,120.0,Month End
+Cottage Grove,1039825,857552008400,Bardstown Rye,9731830,6,1.0,202.5,202.5,Store Request
+St. Louis Park,1039928,857552008400,Bardstown Rye,9731830,6,1.0,202.5,202.5,
+Ramsey,1039887,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,202.5,202.5,Store Request
+Vadnais Heights,1039960,857552008417,Bardstown Bourbon Bonded 750ml,9731842,6,1.0,202.5,202.5,
+Minneapolis,1039562,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,Month End
+St. Louis Park,1039684,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,0.0,Month End
+Woodbury,1039739,890409002398,Daou Cabernet Sauvignon 750ml,9744739,12,1.0,208.0,208.0,Month End
+St. Louis Park,1039684,894910000102,Frank Family Chardonnay 750ml,1461243,12,1.0,288.0,0.0,Month End
+Woodbury,1039972,898563002506,Carpano Antica Formula 375ml,9158655,12,1.0,180.0,180.0,
+Minneapolis,1039562,899552102276,Pacific Rim Sweet Riesling 750ml,9069009,12,1.0,80.0,80.0,Month End

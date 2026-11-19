@@ -1,7 +1,24 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Bloomington,1039345,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,2.0,144.0,288.0,Seminar
-Bloomington,1039345,083648000304,Pike Road WV Chardonnay 750ml,PikeRoadChard21,12,2.0,144.0,288.0,Seminar
-Bloomington,1039345,083648877111,Elk Cove Pinot Noir 750ml,ElkCovePNWillamette23,12,2.0,256.0,512.0,Seminar
-Bloomington,1039345,400000025767,Martin Woods Temperance Hill Pinot Noir 750ml,MartinWoodsPNTemperenceHill,12,2.0,528.0,1056.0,Seminar
-Bloomington,1039345,715543111327,Yamhill Valley Estate Pinot Noir 750ml,YamhillPinotEstate,12,2.0,220.0,440.0,Seminar
-Bloomington,1039345,851764000160,Winters Hill Watershed Pinot Noir 750ml,WintersHillPinotNoir19,12,2.0,224.0,448.0,Seminar
+Roseville,1039916,021037010190,Jeppson's Malort 750ml,JeppsonMalort,12,1.0,228.0,228.0,
+Roseville,1039660,074410000370,Pulpy Tangerine Sake 180ml,KikusuiTangerine,12,1.0,80.0,0.0,
+Woodbury,1039747,074410000370,Pulpy Tangerine Sake 180ml,KikusuiTangerine,12,1.0,80.0,80.0,Store Request
+Roseville,1039660,074410079819,Pulpy Pineapple Sake 180ml,KikusuiPineapple,12,1.0,80.0,0.0,
+Woodbury,1039747,074410079819,Pulpy Pineapple Sake 180ml,KikusuiPineapple,12,1.0,80.0,80.0,Store Request
+Roseville,1039660,074410079888,Pulpy Grapefruit Sake 180ml,KikusuiGrapefruit,12,1.0,80.0,0.0,
+Woodbury,1039747,074410079888,Pulpy Grapefruit Sake 180ml,KikusuiGrapefruit,12,1.0,80.0,80.0,Store Request
+Andover,1039471,083648000182,Pike Road Willamette Valley Pinot Noir 750ml,PikeRoadPN23,12,1.0,144.0,144.0,
+Roseville,1039670,083648000304,Pike Road WV Chardonnay 750ml,PikeRoadChard21,12,1.0,144.0,144.0,Store Request
+Roseville,1039670,083648877111,Elk Cove Pinot Noir 750ml,ElkCovePNWillamette23,12,1.0,256.0,256.0,Store Request
+Roseville,1039660,3760072420072,J Laurens La Rose N7 750ml,LaurensRose,12,1.0,196.0,0.0,
+Chanhassen,1039530,3760072420126,J Laurens Demoiselles Brut 750ml,LaurensDemoiselles,12,0.5,224.0,112.0,
+Andover,1039471,3830000654395,Pullus Pinot Grigio 750ml,PullusPG23,12,1.0,144.0,144.0,
+Woodbury,1039747,3830049281088,Kobal Pinot Grigio 750ml,KOBALPG22,12,1.0,160.0,160.0,Store Request
+Woodbury,1039747,400000025631,Martin Woods The Rocks Syrah 750ml,MartinWoodsSyrah,12,0.5,528.0,264.0,Store Request
+Roseville,1039660,695798111023,G. D. Vajra Barolo Albe,VajraBaroloAlbe19,12,1.0,320.0,0.0,
+Chanhassen,1039806,698450103466,Dos Amigos Tequila Blanco 750ml,DosAmigosBlanco,12,1.0,229.74,229.74,
+Blaine,1039774,850015899003,Mijenta Blanco Tequila 750ml,MijentaBlanco,6,1.0,216.0,216.0,
+Blaine,1039774,850015899010,Mijenta Tequila Reposado 750ml,MijentaReposado,6,1.0,306.0,306.0,
+Woodbury,1039977,852955008118,Lokal Vodka Liter,LokalVodka,12,1.0,126.0,126.0,
+Cottage Grove,1039821,860013231330,Revel Avila Cuernavaca 12oz can,RevelCuernavaca,24,1.0,112.0,112.0,
+Woodbury,1039977,860013231330,Revel Avila Cuernavaca 12oz can,RevelCuernavaca,24,1.0,112.0,112.0,
+Woodbury,1039977,860013231347,Revel Avila Spicy Cuernavaca 12oz can,RevelSpicyCuernavaca,24,1.0,112.0,112.0,

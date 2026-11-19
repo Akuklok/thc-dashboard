@@ -1,6 +1,19 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Andover,1038979,083417000368,Dolly Chardonnay 750ml,30922,12,1.0,120.0,120.0,
-Bloomington,1039007,875752000505,"Piattelli Reserve Chardonnay, Mendoza 750ml",45782,12,1.0,96.0,96.0,
-Bloomington,1039007,8801100130978,Good Day Lychee Soju 375ml,51084,20,1.0,97.0,97.0,
-Andover,1038979,8809018211529,Han Jan Apple 375ml,16494,20,1.0,86.5,86.5,
-Rosemount,1039096,8809018211529,Han Jan Apple 375ml,16494,20,1.0,86.5,86.5,
+Chanhassen,1039538,011699014933,Bouchard VDP Pinot Noir 750ml,67602,12,1.0,104.0,104.0,
+Bloomington,1039999,022916200800,St Christopher Gluhwein Red Liter,13111,6,2.0,36.0,72.0,Allocation
+Chanhassen,1040000,022916200800,St Christopher Gluhwein Red Liter,13111,6,2.0,36.0,72.0,Allocation
+Cottage Grove,1040001,022916200800,St Christopher Gluhwein Red Liter,13111,6,2.0,36.0,72.0,Allocation
+Roseville,1040005,022916200800,St Christopher Gluhwein Red Liter,13111,6,5.0,36.0,180.0,Allocation
+Vadnais Heights,1040007,022916200800,St Christopher Gluhwein Red Liter,13111,6,5.0,36.0,180.0,Allocation
+Woodbury,1040008,022916200800,St Christopher Gluhwein Red Liter,13111,6,3.0,36.0,108.0,Allocation
+Bloomington,1039794,088352136103,Brady's Irish Cream 1.75L,50126,6,1.0,110.6,110.6,Store Request
+Woodbury,1039983,663881000790,Brady's Irish Cream 750ml,50122,12,1.0,110.6,110.6,
+Roseville,1039675,795044286021,Han Jan Apple 750ml,16492,12,1.0,104.0,104.0,
+Chanhassen,1039538,855708006638,Piattelli Grand Res Malbec 750ml,45412,12,1.0,152.0,152.0,
+Chanhassen,1039812,858173008572,Post Meridiem White Russian 100ml RTD,54704,24,1.0,72.0,72.0,
+Bloomington,1039519,860001359855,Big Red Monster Cabernet Sauvignon 750ml,84552,12,1.0,136.0,136.0,
+Osseo,1039600,871752001016,Kono Sauvignon Blanc 750ml,84402,12,1.0,120.0,120.0,
+Bloomington,1039517,8801100130978,Good Day Lychee Soju 375ml,51084,20,1.0,97.0,97.0,Store Request
+Cottage Grove,1039555,8809018211529,Han Jan Apple 375ml,16494,20,1.0,86.5,86.5,
+Roseville,1039675,8809018211529,Han Jan Apple 375ml,16494,20,1.0,86.5,86.5,
+Vadnais Heights,1039731,8809018211529,Han Jan Apple 375ml,16494,20,1.0,86.5,86.5,
