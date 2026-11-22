@@ -185,7 +185,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 17224560128,Wine,6.22,,
 17224710011,Wine,22.59,,
 17224710202,Wine,12.09,,
-17224710219,Wine,21.59,,
+17224710219,Wine,21.59,3 free cases of Bonanza on 24 mix and match any wine from the Wagner Portfolio (Lowest SRP $34.99),
 17224710226,Wine,11.34,,
 17224712107,Wine,55.59,,
 17224713104,Wine,33.59,,
@@ -290,7 +290,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 185554000963,Wine,9.63,,
 185554000987,Wine,9.63,,
 185961000327,Wine,8.12,,
-185961000983,Wine,8.22,,
+185961000983,Wine,8.22,Buyer's Select,
 185977000014,Wine,28.8,,
 185977000021,Wine,12.07,,4|5|8|9|12
 185977000038,Wine,13.4,,
@@ -1546,11 +1546,11 @@ upc,Department,Buyer Cost,Deal,Buy Months
 638171083012,Wine,19.12,,
 638171823014,Wine,26.92,,
 638362696403,Spirits,13.54,,
-638729001000,Wine,6.18,,
-638729001017,Wine,6.62,,
-638729001024,Wine,6.18,,
-638729001031,Wine,6.08,,
-638729001338,Wine,6.62,,
+638729001000,Wine,6.18,Buyer's Select,
+638729001017,Wine,6.62,Buyer's Select,
+638729001024,Wine,6.18,Buyer's Select,
+638729001031,Wine,6.08,Buyer's Select,
+638729001338,Wine,6.62,Buyer's Select,
 63927787721,Spirits,0.11,,
 640656000131,Wine,10.09,,
 640656000148,Wine,12.09,,
@@ -2722,6 +2722,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 7501479700703,Spirits,21.71,,
 7501801001157,Wine,16.21,,
 7503005292003,Spirits,22.17,,
+7503006212413,Spirits,14.25,First time buy one case get two sample bottles,
 7503007603111,Spirits,27.12,,
 7503007603128,Spirits,30.12,,
 7503007603159,Spirits,33.88,,
@@ -2974,8 +2975,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 784585008834,Wine,6.67,,
 784585010479,Wine,6.67,,
 784585019113,Wine,16.79,,
-785214190753,Wine,53.42,,3|5|6|9|11
-785214290750,Wine,113.42,,3|5|6|9|11
+785214190753,Wine,53.42,3 case Buy within the chain - no support if not full cases,3|5|6|9|11
+785214290750,Wine,113.42,3 case Buy within the chain - no support if not full cases,3|5|6|9|11
 785214490754,Wine,37.59,,
 785214590751,Wine,20.73,,
 785214690758,Wine,37.59,,
@@ -3037,7 +3038,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 791930001495,Wine,13.5,,
 791930002508,Wine,15.5,,
 792468203016,Wine,6.31,,
-792468203030,Wine,7.41,,
+792468203030,Wine,7.41,Buyer's Select,
 792468203078,Wine,6.48,,
 793150669189,Wine,9.42,,
 793150669196,Wine,9.42,,
@@ -4705,8 +4706,8 @@ upc,Department,Buyer Cost,Deal,Buy Months
 81932049534,Spirits,18.67,,
 819451000053,Wine,10.57,,
 819451005003,Wine,10.57,,
-819451006000,Wine,97.78,,
-819451006505,Wine,33.52,,
+819451006000,Wine,97.78,Case 1,
+819451006505,Wine,33.52,Case 1,
 819451007007,Wine,9.46,,
 819588011786,Spirits,36.42,Rewards sale pricing,
 819588013179,Spirits,15.21,Rewards sale pricing,
@@ -5436,7 +5437,6 @@ upc,Department,Buyer Cost,Deal,Buy Months
 83664873647,Spirits,17.7,,
 83664873678,Spirits,32.44,6cs purchase in a month,
 83664873722,Spirits,10.04,,
-836648737226,Spirits,11.39,,
 83664873852,Spirits,22.73,,
 83664874064,Spirits,11.33,5 case deal,
 83664874071,Spirits,11.33,5cs purchase in a month,
@@ -5909,7 +5909,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000011430,Wine,3.76,,
 85000011638,Wine,11.42,,10
 85000011645,Wine,36.76,,
-85000012017,Wine,12.09,,2|5|8|11
+85000012017,Wine,12.4,,2|11
 85000012161,Wine,4.09,,
 85000012178,Wine,9.42,,
 85000012277,Wine,8.09,,
@@ -6156,7 +6156,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 85000031353,Spirits,10.59,,
 85000031360,Spirits,16.77,2 free cases of NAM 1.75 80 Proof free on 25 cases Flavors/Pink Whitney,
 85000031513,Spirits,17.7,Deep Net,10|11|12
-85000031643,Wine,7.42,,
+85000031643,Wine,7.42,DEEP NET $88,
 85000031711,Wine,14.18,,
 85000031780,Wine,4.41,,1|4|6|8|10|12
 85000031797,Wine,7.56,,1|3|6|9|10
@@ -7221,9 +7221,9 @@ upc,Department,Buyer Cost,Deal,Buy Months
 855439000691,Spirits,3.96,,
 855439000738,Spirits,3.96,,
 8556006,Wine,6.18,,
-855622000019,Wine,31.31,,4|6|8|10|12
+855622000019,Wine,31.31,2 free Boen Tri-App Pinot Noir on 8 Cases M/M all Copper Cane Portfolio,4|6|8|10|12
 855622000118,Wine,31.31,,4|6|8
-855622000811,Wine,31.31,,4|6|8
+855622000811,Wine,31.31,2 free Boen Tri-App Pinot Noir on 8 Cases M/M all Copper Cane Portfolio,4|6|8
 855622000910,Wine,12.65,,4|6|8
 855622000996,Wine,31.31,,4|6|8
 855675002299,Spirits,14.37,,
@@ -7777,6 +7777,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 860003208304,Spirits,14.0,Case 1,
 860003208324,Spirits,14.0,Case 1,
 860003208335,Spirits,17.0,Case 1,
+860003233306,Spirits,44.5,,
 860003252109,Wine,16.83,,
 860003304235,Wine,20.09,,
 860003616956,Wine,21.88,,
@@ -9812,6 +9813,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 895412001093,Spirits,35.92,Net Down Pricing,
 895412001109,Spirits,35.92,Net Down Pricing,
 895412001130,Spirits,32.25,Net Down Price,
+895412001505,Spirits,34.83,Case 1,
 89541200902,Wine,0.0,,
 89541300893,Wine,0.0,,
 895469002425,Wine,4.49,,
@@ -10366,7 +10368,7 @@ upc,Department,Buyer Cost,Deal,Buy Months
 98709670150,Wine,9.0,,
 98709670204,Wine,9.0,,
 98709972551,Spirits,25.75,,
-98709973008,Wine,14.25,,
+98709973008,Wine,14.25,Minnetonka,
 987116008991,Spirits,0.87,Case 1,
 990012961812,Spirits,40.4,,
 99988071058,Wine,5.92,,
