@@ -2,88 +2,84 @@
   RECOMMENDED WINE ORDER          Sunday, Nov 22, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 21 - refreshes automatically)
+  Gross need (all stores) .....  $    153,517
+  Coverable by transfer .......  $     64,013   (42%)
+  NET BUY from vendors ........  $    192,963   <- the order
 
-  Gross need (all stores) .....  $    138,033
-  Coverable by transfer .......  $     55,673   (40%)
-  NET BUY from vendors ........  $    181,756   <- the order
-
-  172 items   |   17,114 units to buy   |   6,517 units to rebalance
-  Transfers: 749 moves  -  572 urgent (148 stockouts, 424 under 2wk), 177 routine
+  184 items   |   18,091 units to buy   |   7,450 units to rebalance
+  Transfers: 840 moves  -  660 urgent (174 stockouts, 486 under 2wk), 180 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 120 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 124 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  90+ Cellars DOC Prosecco Lot 50 (si  576u/24cs      $1,564    583     0   OUT
-   2  Vieux Telegraphe CDP 16              12u/1cs          $702     11     0   OUT
-   3  Opus One 2016 750ml                  2u/2cs           $517      2     0   OUT
-   4  Recanati Yasmin Red 750ml            12u/1cs          $120      7     0   OUT
-   5  LaMarca Prosecco 187ml               48u/2cs          $189     11     0   OUT
-   6  Maculan Pino & Toi                   2u/2cs            $15      2     0   OUT
-   7  Domaine Saint-Sernin Mirliflor 750m  2u/2cs            $13      2     0   OUT
-   8  No Curfew Red 750ml                  1u/1cs             $7      1     0   OUT
-   9  Barefoot Butter Chard 1.5L           6u/1cs            $36      6     0   0.5
-  10  Libretto SGM Blend 750ml             12u/1cs           $65      9     0   0.5
-  11  Terre Dei Buth Frizzante Rosato 750  24u/2cs          $240     19     0   0.8
-  12  Peter Vella Sweet Red 5L Box         8u/2cs            $92      9     0   0.9
-  13  Rodney Strong Cali Chardonnay 750ml  3u/3cs             $0      3     0   1.1
-  14  Shania White 3L Box                  15u/5cs          $189     14     0   1.2
-  15  Soon Hari Apple-Mango Soju 375ml     240u/12cs      $1,121     23     0   1.2
-  16  Barefoot Pinot Noir 250ml            18u/3cs          $108     17     0   1.3
-  17  Sutter Home Red Moscato 187ml        6u/1cs            $30      8     0   1.3
-  18  La Vieille Ferme Rouge 3L Box        6u/1cs           $112      4     0   1.4
-  19  Apothic Dark 750ml                   12u/1cs           $90      8     0   1.6
-  20  Bota Box Pinot Grigio 3L Box         156u/52cs      $4,040    155     0   1.6
-  ...and 152 more in the full list.
+   1  Moet & Chandon Imperial Ice 750ml    1u/1cs             $0      1     0   OUT
+   2  Indian Island Wita-Pa/ D             1u/1cs            $11      1     0   OUT
+   3  90+ Cellars DOC Prosecco Lot 50 (si  576u/24cs      $1,564    578     0   OUT
+   4  Vieux Telegraphe CDP 16              12u/1cs          $702     11     0   OUT
+   5  Opus One 2016 750ml                  2u/2cs           $517      2     0   OUT
+   6  Recanati Yasmin Red 750ml            12u/1cs          $120      7     0   OUT
+   7  LaMarca Prosecco 187ml               48u/2cs          $151     10     0   OUT
+   8  Maculan Pino & Toi                   2u/2cs            $15      2     0   OUT
+   9  Domaine Saint-Sernin Mirliflor 750m  2u/2cs            $13      2     0   OUT
+  10  Quinta Seara d'Ordens Tawny 750ml    1u/1cs             $9      1     0   OUT
+  11  No Curfew Red 750ml                  1u/1cs             $7      1     0   OUT
+  12  Barefoot Butter Chard 1.5L           6u/1cs            $36      6     0   0.5
+  13  Libretto SGM Blend 750ml             12u/1cs           $65      9     0   0.5
+  14  Shania White 3L Box                  18u/6cs          $223     18     0   0.7
+  15  Terre Dei Buth Frizzante Rosato 750  24u/2cs          $240     19     0   0.8
+  16  Peter Vella Sweet Red 5L Box         8u/2cs            $92      9     0   0.9
+  17  Soon Hari Apple-Mango Soju 375ml     260u/13cs      $1,214     25     0   1.1
+  18  Rodney Strong Cali Chardonnay 750ml  3u/3cs             $0      3     0   1.1
+  19  Apothic Dark 750ml                   12u/1cs           $91     10     0   1.1
+  20  Sutter Home Red Moscato 187ml        6u/1cs            $30      8     0   1.3
+  ...and 164 more in the full list.
 
-  NEEDS REVIEW (120 items the system isn't fully sure about - check before ordering):
-    LaMarca Prosecco 187ml                    Buy-month stock-up ($189 to next deal) - confirm
+  NEEDS REVIEW (124 items the system isn't fully sure about - check before ordering):
+    Moet & Chandon Imperial Ice 750ml         No cost data - verify price; Margin over 95% - check retail
+    LaMarca Prosecco 187ml                    Buy-month stock-up ($151 to next deal) - confirm
     Barefoot Butter Chard 1.5L                Off buy-month - confirm timing
-    Libretto SGM Blend 750ml                  Seasonal - last year ~27/wk vs 2 now, buy ahead?
+    Libretto SGM Blend 750ml                  Seasonal - last year ~34/wk vs 2 now, buy ahead?
+    Soon Hari Apple-Mango Soju 375ml          Buy-month stock-up ($1,214 to next deal) - confirm
     Rodney Strong Cali Chardonnay 750ml       No cost data - verify price; Margin over 95% - check retail
-    Soon Hari Apple-Mango Soju 375ml          Buy-month stock-up ($1,121 to next deal) - confirm
     Apothic Dark 750ml                        Off buy-month - confirm timing
-    Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost; Large buy ($4,040) - confirm
+    Bota Box Pinot Grigio 3L Box              Margin looks off - check retail/cost; Large buy ($4,464) - confirm
+    90+ Cellars Lot 193 Pinot Noir, Eola-Ami  Seasonal - last year ~22/wk vs 6 now, buy ahead?
     Barefoot Moscato 1.5L                     Off buy-month - confirm timing
-    90+ Cellars Lot 193 Pinot Noir, Eola-Ami  Seasonal - last year ~24/wk vs 6 now, buy ahead?
+    Soon Hari Strawberry Soju 375ml           Buy-month stock-up ($934 to next deal) - confirm
+    Barefoot Pink Moscato 1.5L                Off buy-month - confirm timing
     Bota Box Redvolution 3L Box               Margin looks off - check retail/cost
-    Soon Hari Strawberry Soju 375ml           Buy-month stock-up ($841 to next deal) - confirm
-    Josh Cellars Cabernet Sauvignon 750ml     Margin looks off - check retail/cost; Large buy ($4,729) - confirm
-    Whitehaven Sauv Blanc 750ml               Large buy ($24,332) - confirm; Buy-month stock-up ($24,332 to next deal) - confirm
-    Yellow Tail Sweet Red Roo 1.5L            Seasonal - last year ~5/wk vs 3 now, buy ahead?
-    Bota Box Nighthawk Rum Barrel Red 3L Box  Seasonal - last year ~2/wk vs 1 now, buy ahead?
-    ...and 105 more (see Needs Review tab).
+    Whitehaven Sauv Blanc 750ml               Large buy ($25,675) - confirm; Buy-month stock-up ($25,675 to next deal) - confirm
+    Kim Crawford Sauvignon Blanc 750ml        Large buy ($33,641) - confirm; Buy-month stock-up ($33,641 to next deal) - confirm
+    ...and 109 more (see Needs Review tab).
 
   BEING REMOVED - DO NOT REORDER (16 discontinued items still selling/low - run down stock):
-    Franzia Chardonnay 5L Box                   (would have bought 52u)
-    Franzia Chillable Red 5L Box                (would have bought 24u)
+    Franzia Chardonnay 5L Box                   (would have bought 56u)
+    Franzia Chillable Red 5L Box                (would have bought 20u)
     Franzia Crisp White 5L Box                  (would have bought 48u)
     Franzia Fruity Red Sangria 5L Box           (would have bought 16u)
-    Franzia Moscato 5L Box                      (would have bought 44u)
-    Franzia Pink Moscato 5L Box                 (would have bought 72u)
-    Franzia Pinot Grigio 5L Box                 (would have bought 80u)
-    Franzia Pinot Noir 5L Box                   (would have bought 12u)
+    Franzia Moscato 5L Box                      (would have bought 48u)
+    Franzia Pink Moscato 5L Box                 (would have bought 68u)
+    Franzia Pinot Grigio 5L Box                 (would have bought 88u)
+    Franzia Pinot Noir 5L Box                   (would have bought 8u)
     Franzia Refreshing White 5L Box             (would have bought 16u)
     Franzia Sauvignon Blanc 5L Box              (would have bought 20u)
-    Franzia Sunset Blush 5L Box                 (would have bought 84u)
-    Franzia White Zinfandel 5L Box              (would have bought 8u)
+    Franzia Sunset Blush 5L Box                 (would have bought 96u)
+    Franzia White Zinfandel 5L Box              (would have bought 12u)
     Freixenet Brut 750ml                        (would have bought 12u)
     Imagery Cabernet Sauvignon 750ml            (would have bought 12u)
     Opus One 2022 750ml                         (would have bought 3u)
     ...and 1 more (see Being Removed tab).
 
-  WAIT FOR BUY-MONTH (12 routine deal items out of their buy month - $4,387 cheaper to buy in-month):
+  WAIT FOR BUY-MONTH (10 routine deal items out of their buy month - $3,267 cheaper to buy in-month):
     Barefoot Apple Moscato 1.5L                 Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Barefoot Blueberry Moscato 1.5L             Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Barefoot Mango Moscato 1.5L                 Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Barefoot Peach Moscato 1.5L                 Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Barefoot Pear Moscato 1.5L                  Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
-    Barefoot Pink Moscato 1.5L                  Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Barefoot Pinot Grigio 1.5L                  Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Barefoot Strawberry Moscato 1.5L            Wait for buy-month (Jan, Mar, Jun, Sep, Oct)
     Belle Glos 25th Anniversary Pinot Noir 750  Wait for buy-month (Apr, Jun, Aug)
-    Belle Glos Dairyman Pinot Noir 750ml        Wait for buy-month (Apr, Jun, Aug)
-    Meiomi Pinot Noir Bright 750ml              Wait for buy-month (Mar, Jun, Sep, Dec)
+    Four Graces Pinot Noir 750ml                Wait for buy-month (Apr, May, Aug, Sep, Dec)
     Underwood Bubbles 355ml                     Wait for buy-month (Apr, Jun, Aug, Oct)
