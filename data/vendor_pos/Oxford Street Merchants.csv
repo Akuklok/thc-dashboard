@@ -1,63 +1,46 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Blaine,1039491,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,
-Ramsey,1039627,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,
-Rosemount,1039643,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,
-Osseo,1039598,017224710202,Bonanza Cabernet 750ml,1400056,12,2.0,162.0,324.0,Store Request
-Rosemount,1039643,017224710202,Bonanza Cabernet 750ml,1400056,12,2.0,162.0,324.0,
-Roseville,1039661,017224710202,Bonanza Cabernet 750ml,1400056,12,1.0,162.0,162.0,
-Blaine,1039491,017224713104,Caymus California Cabernet 750ml,1102512,12,1.0,420.0,420.0,
-Roseville,1039661,017224713104,Caymus California Cabernet 750ml,1102512,12,1.0,420.0,420.0,
-Woodbury,1039740,017224713104,Caymus California Cabernet 750ml,1102512,12,1.0,420.0,420.0,
-Blaine,1039491,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,4.0,640.0,2560.0,
-Roseville,1039661,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
-Stillwater,1039706,081753802479,Veuve Clicquot Rose 750ml,12861,12,0.5,716.0,358.0,
-Woodbury,1039740,081753802479,Veuve Clicquot Rose 750ml,12861,12,0.5,716.0,358.0,
-Stillwater,1039706,081753811020,Dom Perignon 750ml,001840816,6,0.5,8352.0,4176.0,
-Woodbury,1039740,082544990528,Old Soul Cabernet Sauvignon 750ml,1861047,12,1.0,112.0,112.0,
-Blaine,1039491,084279977638,Risata Moscato d'Asti 750ml,1785945,12,3.0,132.3,396.9,
-Bloomington,1039510,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Chanhassen,1039531,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Osseo,1039594,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Rosemount,1039643,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Roseville,1039661,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Stillwater,1039706,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Woodbury,1039740,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
-Blaine,1039491,084279978437,Risata Amare Pinot Grigio 750ml,1986079,12,1.0,104.0,104.0,
-Blaine,1039491,084279988108,Risata Pink Moscato 750ml,1616584,12,1.0,132.3,132.3,
-Blaine,1039491,084279989266,Risata Moscato d'Asti 1.5L,000021658,6,1.0,128.4,128.4,
-Osseo,1039594,084279989266,Risata Moscato d'Asti 1.5L,000021658,6,1.0,128.4,128.4,
-Stillwater,1039706,084279989266,Risata Moscato d'Asti 1.5L,000021658,6,1.0,128.4,128.4,
-Woodbury,1039740,084279992464,Risata Prosecco 750ml,1924595,12,1.0,124.2,124.2,
-Blaine,1039491,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,1.0,243.0,243.0,
-Roseville,1039661,086891022871,Santa Margherita Pinot Grigio 750ml,73197,12,1.0,243.0,243.0,
-Bloomington,1039515,088110551056,Moet & Chandon Imperial Brut 750ml,16729,6,1.0,298.0,298.0,Store Request
-Roseville,1039661,088254758724,Seghesio Zinfandel 750ml,18752,12,1.0,184.0,184.0,
-Woodbury,1039748,097921176105,Rombauer Pinot Noir 750ml,1630555,6,0.5,248.0,124.0,Store Request
-Roseville,1039661,097921970109,Rombauer Chardonnay 750ml,1752747,12,1.0,384.0,384.0,
-Ramsey,1039627,185554000062,Pizzolato Muse Rose 750ml,1901454,12,1.0,114.43,114.43,
-Roseville,1039671,185554000062,Pizzolato Muse Rose 750ml,1901454,12,1.0,114.43,114.43,Store Request
-Woodbury,1039740,185554000352,Pizzolato Cabernet 750ml,22481,12,1.0,120.0,120.0,
-Roseville,1039671,185554000963,Pizzolato Muse Moscato 750ml,22477,12,1.0,114.43,114.43,Store Request
-Woodbury,1039748,185554000987,Pizzolato Muse Prosecco 750ml,1479875,12,2.0,114.43,228.86,Store Request
-Blaine,1039491,3359950422316,Delas Freres Cotes Du Rhone Blanc 750ml,1301066,6,1.0,78.0,78.0,
-Roseville,1039661,3359950422316,Delas Freres Cotes Du Rhone Blanc 750ml,1301066,6,1.0,78.0,78.0,
-Blaine,1039491,632987120251,Torresella Pinot Grigio Veneto 750ml,000073643,12,1.0,128.0,128.0,
-Stillwater,1039706,710909710107,Mer Soleil Santa Lucia Chard 750ml,26597,12,1.0,160.0,160.0,
-Roseville,1039671,710909760102,Sea Sun Pinot Noir 750ml,1660343,12,1.0,168.0,168.0,Store Request
-Blaine,1039491,729722700257,Angeline Reserve Pinot Noir 750ml,000023772,12,1.0,128.0,128.0,
-Roseville,1039661,753625103402,Delas Cotes Du Rhone Rouge 750ml,1970951,12,1.0,117.0,117.0,
-Blaine,1039491,763955990023,Mussel Bay Sauvignon Blanc 750ml,1877257,12,1.0,120.0,120.0,
-Blaine,1039491,812949021806,Summer Water Rose 750ml,001253223,12,1.0,152.0,152.0,
-Rosemount,1039643,8414219019807,Nave Sur Verdejo Rueda,001519564,12,1.0,64.0,64.0,
-Woodbury,1039740,850651005110,La Gioiosa Prosecco DOC 750ml,001428062,12,1.0,120.0,120.0,
-Chanhassen,1039531,855622000811,Belle Glos Dairyman Pinot Noir 750ml,001346729,12,1.0,400.0,400.0,
-Chanhassen,1039531,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
-Ramsey,1039627,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
-Woodbury,1039740,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
-Blaine,1039491,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,56.0,56.0,
-Roseville,1039661,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,56.0,56.0,
-Blaine,1039491,856184006112,Boen Tri Appellation Pinot Noir 750ml,1541103,12,1.0,152.0,152.0,
-Blaine,1039491,859889006005,Quilt Napa Cabernet Sauvignon 750ml,001534012,12,1.0,400.0,400.0,
-Ramsey,1039627,859889006005,Quilt Napa Cabernet Sauvignon 750ml,001534012,12,0.5,400.0,200.0,
-Roseville,1039671,860009046009,Quilt Threadcount Red Blend 750ml,1233133,12,1.0,160.0,160.0,Store Request
-Roseville,1039671,860009046122,Threadcount Cali Cabernet 750ml,1332490,12,1.0,160.0,160.0,Store Request
+Roseville,1040222,000579000098,Pine Ridge Chen Blanc/Viognier 750ml,29264,12,1.0,109.71,109.71,
+Andover,1040121,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Blaine,1040128,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,3.0,0.0,0.0,Free Goods
+Bloomington,1040141,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Chanhassen,1040154,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Minneapolis,1040169,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Minnetonka,1040177,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Osseo,1040189,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,2.0,640.0,1280.0,
+Plymouth,1040196,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,3.0,640.0,1920.0,
+Ramsey,1040204,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Rosemount,1040212,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,2.0,640.0,1280.0,
+Roseville,1040222,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,6.0,640.0,3840.0,
+St. Louis Park,1040231,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,2.0,0.0,0.0,Free Goods
+Stillwater,1040247,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Vadnais Heights,1040254,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,2.0,640.0,1280.0,
+Woodbury,1040263,081753050207,Veuve Clicquot Brut Champagne 750ml,11022,12,1.0,640.0,640.0,
+Plymouth,1040196,081753833916,Whispering Angel Rose 750ml,1486651,12,1.0,224.0,224.0,
+St. Louis Park,1040236,081753833916,Whispering Angel Rose 750ml,1486651,12,2.0,224.0,448.0,
+Andover,1040121,084279977638,Risata Moscato d'Asti 750ml,1785945,12,1.0,132.3,132.3,
+Minneapolis,1040169,084279992464,Risata Prosecco 750ml,1924595,12,1.0,124.2,124.2,
+Chanhassen,1040158,097921176105,Rombauer Pinot Noir 750ml,1630555,6,1.0,248.0,248.0,Store Request
+Roseville,1040222,097921970109,Rombauer Chardonnay 750ml,1752747,12,1.0,384.0,384.0,
+St. Louis Park,1040236,097921970109,Rombauer Chardonnay 750ml,1752747,12,1.0,384.0,384.0,
+Minnetonka,1040184,185554000062,Pizzolato Muse Rose 750ml,1901454,12,1.0,114.43,114.43,Store Request
+Chanhassen,1040154,667505000470,Piper Heidsieck Brut 750ml,1152333,6,1.0,252.0,252.0,
+Chanhassen,1040150,667505000470,Piper Heidsieck Brut 750ml,1152333,6,0.17,0.0,0.0,Free Goods
+Roseville,1040217,667505000470,Piper Heidsieck Brut 750ml,1152333,6,0.17,0.0,0.0,Free Goods
+Roseville,1040222,667505000470,Piper Heidsieck Brut 750ml,1152333,6,1.0,252.0,252.0,
+St. Louis Park,1040231,667505000470,Piper Heidsieck Brut 750ml,1152333,6,0.17,0.0,0.0,Free Goods
+St. Louis Park,1040236,667505000470,Piper Heidsieck Brut 750ml,1152333,6,1.0,252.0,252.0,
+Minnetonka,1040177,851115002447,Shania White 3L Box,001611577,3,1.0,41.0,41.0,
+Chanhassen,1040158,855622000996,Belle Glos 25th Anniversary Pinot Noir 750ml,1588328,12,1.0,400.0,400.0,Store Request
+Bloomington,1040141,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
+Minneapolis,1040169,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
+Plymouth,1040196,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
+Roseville,1040222,856036001098,Underwood Bubbles 355ml,1930068,12,2.0,56.0,112.0,
+St. Louis Park,1040236,856036001098,Underwood Bubbles 355ml,1930068,12,1.0,56.0,56.0,
+Minneapolis,1040169,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,56.0,56.0,
+Ramsey,1040204,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,56.0,56.0,
+St. Louis Park,1040236,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,56.0,56.0,
+Vadnais Heights,1040254,856036001197,Underwood Rose Bubbles 375ml,1405265,12,1.0,56.0,56.0,
+Chanhassen,1040158,856184006310,Boen Tri Appellation Chardonnay 750ml,001010214,12,1.0,152.0,152.0,Store Request
+Chanhassen,1040158,859889006005,Quilt Napa Cabernet Sauvignon 750ml,001534012,12,1.0,400.0,400.0,Store Request
+Chanhassen,1040158,860009046009,Quilt Threadcount Red Blend 750ml,1233133,12,1.0,160.0,160.0,Store Request
+Chanhassen,1040158,860009046030,Quilt Threadcount Sauvignon Blanc 750ml,1220208,12,1.0,144.0,144.0,Store Request

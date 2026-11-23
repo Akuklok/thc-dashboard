@@ -1,13 +1,2 @@
 ﻿Location,PO #,UPC,Description,Vendor Item #,Units/Case,Cases,Case Cost,Ext Cost,Notes
-Vadnais Heights,1039963,3274510003791,Dolin Dry Vermouth 750ml,50120,12,1.0,152.0,152.0,
-Osseo,1039855,3274510003814,Dolin Rouge Vermouth 750ml,50125,12,1.0,152.0,152.0,
-Vadnais Heights,1039963,3274510003814,Dolin Rouge Vermouth 750ml,50125,12,1.0,152.0,152.0,
-Rosemount,1039901,3274510003906,Dolin Rouge Vermouth 375ml,50124,12,1.0,112.0,112.0,
-Stillwater,1039946,3274510003906,Dolin Rouge Vermouth 375ml,50124,12,1.0,112.0,112.0,
-Vadnais Heights,1039963,3274510003906,Dolin Rouge Vermouth 375ml,50124,12,1.0,112.0,112.0,
-Rosemount,1039901,8007117010108,Cocchi di Torino 750ml,50129,12,1.0,210.0,210.0,
-Stillwater,1039946,8007117010108,Cocchi di Torino 750ml,50129,12,1.0,210.0,210.0,
-Vadnais Heights,1039963,8007117010108,Cocchi di Torino 750ml,50129,12,1.0,210.0,210.0,
-Bloomington,1039791,853396007180,King's County Straight Bourbon 750ml,97100,6,1.0,316.0,316.0,Store Request
-Ramsey,1039890,853396007180,King's County Straight Bourbon 750ml,97100,6,1.0,316.0,316.0,Store Request
-Rosemount,1039901,853396007180,King's County Straight Bourbon 750ml,97100,6,1.0,316.0,316.0,
+Minnetonka,1040182,860001082616,Tembo Pinot Noir 750ml,ENOS_CA:TemboPinotNo,12,1.0,128.0,128.0,Store Request
