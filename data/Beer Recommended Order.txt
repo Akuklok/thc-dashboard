@@ -1,17 +1,17 @@
 ==========================================================================
-  RECOMMENDED BEER ORDER          Tuesday, Nov 24, 2026
+  RECOMMENDED BEER ORDER          Wednesday, Nov 25, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 23 - refreshes automatically)
+  (data is 1 day(s) old, from Nov 24 - refreshes automatically)
 
-  Gross need (all stores) .....  $    360,386
-  Coverable by transfer .......  $    178,345   (49%)
-  NET BUY from vendors ........  $    159,224   <- the order
+  Gross need (all stores) .....  $    342,554
+  Coverable by transfer .......  $    173,480   (51%)
+  NET BUY from vendors ........  $    145,940   <- the order
 
-  479 items   |   13,990 units to buy   |   16,556 units to rebalance
-  Transfers: 1,438 moves  -  1146 urgent (485 stockouts, 661 under 2wk), 292 routine
+  472 items   |   13,120 units to buy   |   16,093 units to rebalance
+  Transfers: 1,421 moves  -  1147 urgent (515 stockouts, 632 under 2wk), 274 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 59 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 62 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
@@ -21,44 +21,43 @@
    3  Wooden Hill Kold Shoulder            2u/2cs            $15      2     0   OUT
    4  Grain Belt Elite 12pk 12oz can       2u/1cs            $17      2     0   OUT
    5  Grain Belt Premium Light Lime 24pk   1u/1cs            $22      1     0   OUT
-   6  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     22     0   OUT
-   7  Bent Paddle Light Lager  12pk 12oz   36u/36cs         $421     36     0   OUT
-   8  Ursa Minor Glamping                  1u/1cs             $3      1     0   OUT
-   9  Miller High Life 24pk 16oz can       7u/7cs           $107      7     0   OUT
-  10  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
-  11  Summit Lake Crusher/Winter 12pk 12o  4u/2cs            $49     27    23   OUT
-  12  Tucher Festbier 4pk 16oz can         7u/7cs            $65      7     0   OUT
-  13  Lagunitas Hazy IPA 12pk 12oz can     32u/16cs         $384     32     0   OUT
+   6  Summit Lake Crusher/Winter 12pk 12o  6u/3cs            $73     19    13   OUT
+   7  Cutwater Grapefruit Tequila Paloma   24u/1cs            $0     23     0   OUT
+   8  Miller High Life 24pk 16oz can       7u/7cs           $107      7     0   OUT
+   9  Bent Paddle Light Lager  12pk 12oz   38u/38cs         $445     38     0   OUT
+  10  Ursa Minor Glamping                  1u/1cs             $3      1     0   OUT
+  11  Tucher Festbier 4pk 16oz can         6u/6cs            $56      6     0   OUT
+  12  Tucher Brau Dunkles Hefe Weizen      1u/1cs             $8      1     0   OUT
+  13  Lagunitas Hazy IPA 12pk 12oz can     32u/16cs         $384     31     0   OUT
   14  Miller High Life Light 24pk 16oz ca  2u/2cs            $17      2     0   OUT
-  15  Fulton Brewing Chill City 6pk 12oz   2u/2cs            $10      2     0   OUT
-  16  Summit Saga Variety 12pk 12oz can    68u/34cs         $898     69     0   OUT
-  17  Toppling Goliath Hazy Day Sue 6pk 1  28u/7cs          $280     28     0   OUT
-  18  Schilling Grapefruit and Chill 6pk   3u/3cs            $26      3     0   OUT
-  19  Stella Artois                        1u/1cs           $156      1     0   OUT
-  20  Downeast Cider Seasonal 2 4pk 12oz   42u/7cs          $388     41     0   OUT
-  ...and 459 more in the full list.
+  15  Summit Saga Variety 12pk 12oz can    64u/32cs         $845     65     0   OUT
+  16  Fulton Brewing Chill City 6pk 12oz   2u/2cs            $10      2     0   OUT
+  17  Toppling Goliath Hazy Day Sue 6pk 1  28u/7cs          $280     27     0   OUT
+  18  Stella Artois                        1u/1cs           $156      1     0   OUT
+  19  Downeast Cider Seasonal 2 4pk 12oz   42u/7cs          $388     40     0   OUT
+  20  Schilling Grapefruit and Chill 6pk   4u/4cs            $35      4     0   OUT
+  ...and 452 more in the full list.
 
-  NEEDS REVIEW (59 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (62 items the system isn't fully sure about - check before ordering):
     Wooden Hill Kold Shoulder                 Seasonal - last year ~2/wk vs 0 now, buy ahead?
     Cutwater Grapefruit Tequila Paloma 12oz   No cost data - verify price; Margin over 95% - check retail
-    Downeast Cider Seasonal 2 4pk 12oz can    Seasonal - last year ~24/wk vs 12 now, buy ahead?
-    Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~31/wk vs 20 now, buy ahead?
+    Downeast Cider Seasonal 2 4pk 12oz can    Seasonal - last year ~24/wk vs 11 now, buy ahead?
+    Summit Sampler Pack 12pk 12oz can         Seasonal - last year ~32/wk vs 19 now, buy ahead?
     Guinness Zero 15oz can                    No cost data - verify price; Margin over 95% - check retail
     Cayman Jack Margarita                     No cost data - verify price; Margin over 95% - check retail
     Tucher Helles Lager                       No cost data - verify price; Margin over 95% - check retail
-    Summit Winter 12pk 12oz can               Seasonal - last year ~37/wk vs 19 now, buy ahead?
-    Barrel Theory Raindrops 4pk 16oz can      Seasonal - last year ~12/wk vs 5 now, buy ahead?
+    Summit Winter 12pk 12oz can               Seasonal - last year ~39/wk vs 20 now, buy ahead?
+    Barrel Theory Raindrops 4pk 16oz can      Seasonal - last year ~12/wk vs 7 now, buy ahead?
     Luce Line Mom Its My Birthday Hazy Tripl  Seasonal - last year ~3/wk vs 1 now, buy ahead?
+    Samuel Adams Seasonal 6pk 12oz btl        Seasonal - last year ~3/wk vs 2 now, buy ahead?
     Drekker BS Peach/Plum/BlackCurr           No cost data - verify price; Margin over 95% - check retail
     Gluek Golden Pilsner                      No cost data - verify price; Margin over 95% - check retail
     Hinterland Luna Coffee Stout              No cost data - verify price; Margin over 95% - check retail
     Bud Light 16oz can                        No cost data - verify price; Margin over 95% - check retail
-    Cayman Jack Cuban Mojito                  No cost data - verify price; Margin over 95% - check retail
-    ...and 44 more (see Needs Review tab).
+    ...and 47 more (see Needs Review tab).
 
-  BEING REMOVED - DO NOT REORDER (5 discontinued items still selling/low - run down stock):
+  BEING REMOVED - DO NOT REORDER (4 discontinued items still selling/low - run down stock):
     Aspall Dry Cider 17oz btl                   (would have bought 1u)
-    Athletic Brew Free Wave Hazy IPA 6pk 12oz   (would have bought 12u)
     Beatbox Cranberry Dreams 500ml              (would have bought 12u)
     The Finnish Long Drink Traditional 6pk 12o  (would have bought 4u)
-    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 76u)
+    The Finnish Long Drink Zero 6pk 12oz can    (would have bought 68u)
