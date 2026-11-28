@@ -1,44 +1,44 @@
 ==========================================================================
-  RECOMMENDED OTHER ORDER          Friday, Nov 27, 2026
+  RECOMMENDED OTHER ORDER          Saturday, Nov 28, 2026
 ==========================================================================
 
-  (data is 1 day(s) old, from Nov 26 - refreshes automatically)
+  (data is 1 day(s) old, from Nov 27 - refreshes automatically)
 
-  Gross need (all stores) .....  $     27,939
-  Coverable by transfer .......  $     14,568   (52%)
-  NET BUY from vendors ........  $     10,363   <- the order
+  Gross need (all stores) .....  $     27,160
+  Coverable by transfer .......  $     14,166   (52%)
+  NET BUY from vendors ........  $      9,881   <- the order
 
-  82 items   |   10,251 units to buy   |   3,667 units to rebalance
-  Transfers: 304 moves  -  252 urgent (100 stockouts, 152 under 2wk), 52 routine
+  79 items   |   10,006 units to buy   |   3,573 units to rebalance
+  Transfers: 299 moves  -  248 urgent (99 stockouts, 149 under 2wk), 51 routine
   Ranked by lowest weeks-of-supply first (stockout risk).
-  >> 12 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
+  >> 10 item(s) flagged for your review before ordering (see NEEDS REVIEW below).
 
   TOP 20 TO BUY
    #  ITEM                                 BUY             NET $  GROSS  XFER   WOS
   ------------------------------------------------------------------------
-   1  Non-Refundable Transaction           734u/734cs         $0    734     0   OUT
-   2  Second Harvest Heartland Donation    6798u/6798cs       $0   6798     0   OUT
+   1  Non-Refundable Transaction           733u/733cs         $0    733     0   OUT
+   2  Second Harvest Heartland Donation    6683u/6683cs       $0   6683     0   OUT
    3  1919 Root Beer                       1u/1cs            $13      1     0   OUT
-   4  Sprite Winter Spiced Cranberry Zero  32u/4cs          $103     36     0   OUT
+   4  Sprite Winter Spiced Cranberry Zero  32u/4cs          $103     35     0   OUT
    5  Zyn Pouch 3mg Spearmint              5u/1cs            $42      4     0   OUT
-   6  Velo Pouch 9mg Wintergreen           95u/19cs         $800     94     0   OUT
-   7  Velo Peppermint 9mg                  70u/14cs         $589     70     0   OUT
-   8  Velo Pouch 9mg Spearmint             60u/12cs         $505     58     0   OUT
-   9  Syx Freeze 20mg                      30u/6cs          $213     28     0   OUT
+   6  Velo Pouch 9mg Wintergreen           95u/19cs         $800     93     0   OUT
+   7  Velo Peppermint 9mg                  70u/14cs         $589     69     0   OUT
+   8  Velo Pouch 9mg Spearmint             55u/11cs         $463     56     0   OUT
+   9  Syx Freeze 20mg                      25u/5cs          $177     26     0   OUT
   10  Zyn Pouch 6mg Wintergreen            35u/7cs          $294     37     0   OUT
   11  Virginia Slim Menthol Silver         10u/10cs         $140     10     0   OUT
   12  Charm Social Tonic Lemon Ginger 12o  12u/12cs          $29     12     0   OUT
   13  Velo Dragon Fruit 6mg                5u/1cs            $42      6     0   OUT
-  14  Velo Wild Berry 3mg                  5u/1cs            $42      5     0   OUT
-  15  Sprite Winter Spiced Cranberry Zero  4u/2cs            $39      5     0   OUT
-  16  Bag Fee                              236u/236cs         $0    236     0   OUT
-  17  Coke Holiday Creamy Vanilla Zero 12  4u/2cs            $39      4     0   OUT
-  18  Nan's Spicy Bloody Mix 32oz          2u/2cs            $15      2     0   OUT
-  19  Fever Tree Lemon Tonic 4pk 6.7oz bt  1u/1cs             $0      1     0   OUT
-  20  VacuVin Aerator                      1u/1cs             $7      1     0   OUT
-  ...and 62 more in the full list.
+  14  Sprite Winter Spiced Cranberry Zero  4u/2cs            $39      5     0   OUT
+  15  Coke Holiday Creamy Vanilla Zero 12  4u/2cs            $39      4     0   OUT
+  16  Bag Fee                              207u/207cs         $0    207     0   OUT
+  17  Nan's Spicy Bloody Mix 32oz          2u/2cs            $15      2     0   OUT
+  18  Fever Tree Lemon Tonic 4pk 6.7oz bt  1u/1cs             $0      1     0   OUT
+  19  VacuVin Aerator                      1u/1cs             $7      1     0   OUT
+  20  Dole Strawberry Lemonade 2L          8u/1cs            $24      5     0   OUT
+  ...and 59 more in the full list.
 
-  NEEDS REVIEW (12 items the system isn't fully sure about - check before ordering):
+  NEEDS REVIEW (10 items the system isn't fully sure about - check before ordering):
     Non-Refundable Transaction                No cost data - verify price; Margin looks off - check retail/cost
     Second Harvest Heartland Donation         No cost data - verify price; Margin looks off - check retail/cost
     Bag Fee                                   No cost data - verify price; Margin over 95% - check retail
@@ -49,8 +49,6 @@
     Loon Gum Mint 14mg                        Seasonal - last year ~4/wk vs 2 now, buy ahead?
     MN Ice Cylinder                           Seasonal - last year ~8/wk vs 5 now, buy ahead?
     Barritt's Ginger Beer 6pk 12oz can        Seasonal - last year ~2/wk vs 1 now, buy ahead?
-    Master of Mixes Simple Syrup 375ml        Seasonal - last year ~68/wk vs 43 now, buy ahead?
-    Starry Lemon Lime 10pk 8oz can            Seasonal - last year ~5/wk vs 3 now, buy ahead?
 
   BEING REMOVED - DO NOT REORDER (1 discontinued items still selling/low - run down stock):
     Jero Cherry Bar Mix Liter                   (would have bought 12u)
